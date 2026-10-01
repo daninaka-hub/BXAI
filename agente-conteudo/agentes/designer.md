@@ -15,6 +15,7 @@ O gancho clickbait da primeira linha do post (Passo 2 do Copywriter) precisa apa
 
 ## Como construir
 Montar a imagem no canvas de Design do Claude (tipo "Design"), não em SVG cru. Usar gráfico ou elemento visual que ilustre o dado central, não só texto, sempre que o dado permitir uma representação visual (comparação, evolução no tempo, proporção).
+Nunca repetir a mesma composição de imagem em imagem. Antes de montar, olhar as últimas artes publicadas em conteudo/imagens/ e escolher um layout diferente (posição do texto, tipo de gráfico, divisão do espaço). Variar é regra, não detalhe.
 
 ## Como gravar
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/imagens. Clonar o repositório, salvar a imagem localmente, commitar e dar push.
