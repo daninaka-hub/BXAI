@@ -1,4 +1,4 @@
-99% das empresas planejam colocar agentes de IA em produção nos processos financeiros. Só 11% já fizeram.
+99% das empresas dizem que vão usar IA agêntica em finanças. Só 11% realmente usam. Por quê?
 
 Não é falta de interesse. Não é falta de ferramenta. É governança e dados.
 

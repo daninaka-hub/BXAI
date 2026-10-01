@@ -1,6 +1,6 @@
-A Zillow comprou casas pagando preço de um mercado que já tinha acabado.
+A Zillow perdeu US$ 500 milhões comprando casas com um algoritmo de última geração. O erro não estava no algoritmo.
 
-Em 2021, a empresa perdeu cerca de US$ 500 milhões e fechou um programa inteiro de compra de imóveis. A causa não foi a IA. Foi o algoritmo precificar usando dados de até 30 dias atrás, num mercado que virou em semanas.
+Em 2021, a empresa fechou um programa inteiro de compra de imóveis. A causa não foi a IA. Foi o algoritmo precificar usando dados de até 30 dias atrás, num mercado que virou em semanas.
 
 Tire a palavra "algoritmo" dessa história e sobra um problema comum: ninguém sabia quem era dono daquela premissa de preço, nem quando ela deveria ser revista.
 
