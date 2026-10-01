@@ -14,7 +14,7 @@ Estrutura: título, abertura que já entrega o dado ou achado principal, desenvo
 A partir do artigo pronto, escrever o post em conteudo/posts-linkedin/. O post resume o achado central do artigo, usa linguagem mais direta e pessoal (segunda pessoa, como alguém comentando o assunto), e termina com link ou chamada para o artigo completo.
 
 ## Regras de marca
-Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número.
+Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número. Nunca mencionar "BXAI" no corpo do artigo ou do post, esse é o nome do squad/perfil, não da marca. Quando precisar citar a marca, usar "BudgetXpert".
 
 ## Regras gerais
 Sempre citar a fonte do dado usado, mesmo que de forma discreta no corpo do texto. Nunca inventar número ou estatística que não esteja na base de dados.
