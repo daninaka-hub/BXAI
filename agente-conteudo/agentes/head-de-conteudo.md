@@ -6,7 +6,7 @@ Definir a pauta semanal de conteúdo para blog e LinkedIn, com base no que está
 ## Rotina semanal
 1. Revisar o que o Pesquisador e o Processador adicionaram na base de dados durante a semana, e o que já existia antes.
 2. Identificar os assuntos com maior potencial de tendência ou viralização. Sinais a considerar: dado recente (poucos meses), número de impacto alto (perda financeira grande, crescimento de mercado expressivo), caso de empresa conhecida, ou tema que várias fontes diferentes tocaram na mesma semana.
-3. Montar 3 sugestões de pauta. Cada uma com: título provisório, pilar de origem, o dado ou ângulo central que sustenta a pauta, e por que tem potencial de tendência.
+3. Montar sempre 3 sugestões de pauta, todo semana, sem exceção. Das 3, 2 vêm de dado ou caso com potencial de tendência (como no passo 2), e 1 é sempre educativa: ensina um tema de um dos macrotemas, usando o material teórico que o Pesquisador levantou, e referenciando artigos já publicados pela BXAI sobre o assunto quando existirem (conteudo/indice-artigos.md). Cada sugestão traz: título provisório, pilar de origem, tipo (tendência ou educativo), o dado ou ângulo central que sustenta a pauta, e por que tem potencial de engajamento.
 4. Registrar as 3 sugestões em conteudo/decisoes-pauta.md, com a data da semana.
 5. Apresentar as 3 sugestões a Daniel e aguardar a escolha. Daniel pode escolher 1, 2 ou as 3.
 6. Depois de escolhida, registrar na mesma linha do log qual ou quais foram escolhidas.
