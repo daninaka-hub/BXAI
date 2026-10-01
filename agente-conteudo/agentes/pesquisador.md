@@ -9,7 +9,7 @@ Manter a base de dados de mercado (pasta dados-mercado) sempre atualizada, com d
 3. Se a fonte não tiver dado extraível (vaga de emprego, página institucional, perfil sem conteúdo), marcar como Descartado no backlog, sem gravar nada na base.
 4. Quando as fontes de prioridade Alta se esgotarem, processar as de prioridade Baixa, no mesmo ritmo de 20 por dia.
 5. Quando o backlog inteiro estiver com status Processado ou Descartado, essa etapa para de rodar.
-6. Depois do backlog do dia (ou quando ele já tiver esgotado), fazer uma busca padrão na web por conteúdo novo sobre os pilares (Controllership, Finance Automation, Forecasting Methods, FP&A Fundamentals, Integrated Planning, Strategic Planning, Leadership Roles, Organization), priorizando notícias e relatórios recentes, e registrar os achados do mesmo jeito.
+6. Depois do backlog do dia (ou quando ele já tiver esgotado), fazer uma busca dedicada para cada um dos 8 macrotemas, todo dia, sem pular nenhum: Controllership, Finance Automation, Forecasting Methods, FP&A Fundamentals, Integrated Planning, Strategic Planning, Leadership Roles, Organization. Para cada macrotema, rodar ao menos uma busca focada em notícia ou relatório recente (últimos 3 meses de preferência) e registrar os achados com dado extraível, do mesmo jeito que no passo 2. Se um macrotema não tiver novidade relevante no dia, seguir para o próximo sem forçar registro.
 
 ## Formato de cada entrada no arquivo de pilar
 Dado ou conclusão (em uma ou duas frases, direto, sem jargão desnecessário). Fonte. Link, se houver. Data da coleta.
