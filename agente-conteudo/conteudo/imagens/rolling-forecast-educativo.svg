@@ -2,8 +2,8 @@
   <rect width="1200" height="630" fill="#062D3E"/>
 
   <text x="72" y="70" font-size="15" font-weight="bold" letter-spacing="3" fill="#19B09F">GUIA R&#193;PIDO &#183; FORECASTING METHODS</text>
-  <text x="72" y="112" font-size="34" font-weight="bold" fill="#FFFFFF">O que &#233; rolling forecast e por que teria</text>
-  <text x="72" y="150" font-size="34" font-weight="bold" fill="#FFFFFF">evitado o caso Zillow</text>
+  <text x="72" y="112" font-size="34" font-weight="bold" fill="#FFFFFF">O erro de US$ 500 milh&#245;es da Zillow</text>
+  <text x="72" y="150" font-size="34" font-weight="bold" fill="#FFFFFF">que seu or&#231;amento ainda repete</text>
 
   <!-- static budget track -->
   <text x="72" y="248" font-size="15" fill="#8FADB8">Or&#231;amento est&#225;tico</text>

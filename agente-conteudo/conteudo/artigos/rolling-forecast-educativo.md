@@ -1,4 +1,4 @@
-# O que é rolling forecast e por que ele resolve o problema que quebrou a Zillow
+# O erro de US$ 500 milhões da Zillow que a maioria dos orçamentos ainda repete
 
 A Zillow, maior plataforma americana de compra e venda de imóveis online (zillow.com), perdeu US$ 500 milhões em 2021 comprando casas com um algoritmo que precificava usando dados de até 30 dias atrás. O problema não foi falta de tecnologia. Foi um modelo de planejamento que não se atualizava rápido o suficiente para um mercado em queda.
 
