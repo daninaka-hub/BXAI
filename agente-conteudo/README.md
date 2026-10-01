@@ -1,4 +1,4 @@
-# Agente de Conteúdo BXAI
+# BXAI Content Squad
 
 Squad de produção de conteúdo para blog e LinkedIn da BudgetXpert, baseado em dados de mercado sobre FP&A, Controllership e Planning.
 

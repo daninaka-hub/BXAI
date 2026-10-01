@@ -1,6 +1,6 @@
 # Controllership
 
-Dados, pesquisas, conclusões e estratégias sobre Controllership, coletados pelo squad de conteúdo BXAI.
+Dados, pesquisas, conclusões e estratégias sobre Controllership, coletados pelo BXAI Content Squad.
 
 Cada entrada deve conter: dado ou conclusão, fonte, link (se houver), data de coleta.
 

@@ -1,4 +1,4 @@
-# Índice da base de dados de mercado BXAI
+# Índice da base de dados de mercado do BXAI Content Squad
 
 Catálogo central de tudo que foi coletado pelo squad de conteúdo. Cada linha aponta para o arquivo de pilar onde o dado completo está.
 

@@ -14,7 +14,7 @@ Escrever o artigo completo em conteudo/artigos/, usando o dado central da pauta 
 Estrutura: título, abertura que já entrega o dado ou achado principal, desenvolvimento com contexto e implicação prática para quem lida com orçamento e planejamento, fechamento com a conclusão do raciocínio, sem citar funcionalidade ou produto da BudgetXpert. Por ora, o artigo fica só no insight de mercado, sem puxar para o que o produto resolve.
 
 ## Artigo educativo (quando a pauta for do tipo educativo)
-Estrutura diferente do artigo de tendência: ensina o tema de forma direta, como um guia. Título nomeia o que o leitor vai aprender. Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento explica o conceito, método ou boa prática com clareza, usando o material teórico do Pesquisador. Sempre que existir, referenciar um artigo já publicado pela BXAI sobre o mesmo pilar (link interno ou menção ao título), conectando o tema educativo ao que já foi publicado. Fechamento com aplicação prática, sem citar funcionalidade ou produto da BudgetXpert.
+Estrutura diferente do artigo de tendência: ensina o tema de forma direta, como um guia. Título nomeia o que o leitor vai aprender. Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento explica o conceito, método ou boa prática com clareza, usando o material teórico do Pesquisador. Sempre que existir, referenciar um artigo já publicado pelo BXAI Content Squad sobre o mesmo pilar (link interno ou menção ao título), conectando o tema educativo ao que já foi publicado. Fechamento com aplicação prática, sem citar funcionalidade ou produto da BudgetXpert.
 
 ## Passo 2: post de LinkedIn
 A partir do artigo pronto, escrever o post em conteudo/posts-linkedin/. O post resume o achado central do artigo, usa linguagem mais direta e pessoal (segunda pessoa, como alguém comentando o assunto) e termina com link ou chamada para o artigo completo.
@@ -22,7 +22,7 @@ A primeira linha é o header do post e precisa ser clickbait: gerar curiosidade 
 Depois do header, inserir quatro linhas em branco (cada uma só com um ponto final) antes de continuar o texto. Isso empurra o corte de "ver mais" do LinkedIn para logo depois do header, fazendo só ele aparecer no feed antes do clique.
 
 ## Regras de marca
-Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número. Nunca mencionar "BXAI" no corpo do artigo ou do post, esse é o nome do squad/perfil, não da marca. Quando precisar citar a marca, usar "BudgetXpert".
+Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número. Nunca mencionar "BXAI Content Squad" no corpo do artigo ou do post, esse é o nome do squad/perfil, não da marca. Quando precisar citar a marca, usar "BudgetXpert".
 Nunca usar vírgula seguida de "e" como conector (", e"). Escolher um ou outro: vírgula, ou "e", nunca os dois juntos ligando a mesma frase. Vale para título, abertura, corpo e post.
 
 ## Regras gerais
