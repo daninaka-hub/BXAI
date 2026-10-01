@@ -11,6 +11,10 @@ Criar uma imagem que ilustre o dado ou achado central do post (por exemplo, um g
 
 ## Regras
 Sem texto longo dentro da imagem, só o dado ou número central em destaque, se fizer sentido. Sem travessão em qualquer texto usado na imagem. Nunca usar logo ou elemento de marca de terceiros (ex: logo do Gartner, McKinsey) mesmo citando a fonte no texto do post.
+O gancho clickbait da primeira linha do post (Passo 2 do Copywriter) precisa aparecer também na imagem, como frase de destaque, não só o dado numérico isolado.
+
+## Como construir
+Montar a imagem no canvas de Design do Claude (tipo "Design"), não em SVG cru. Usar gráfico ou elemento visual que ilustre o dado central, não só texto, sempre que o dado permitir uma representação visual (comparação, evolução no tempo, proporção).
 
 ## Como gravar
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/imagens. Clonar o repositório, salvar a imagem localmente, commitar e dar push.
