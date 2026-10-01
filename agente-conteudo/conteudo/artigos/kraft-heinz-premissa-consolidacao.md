@@ -1,4 +1,4 @@
-# US$ 450 milhões depois: o esquema contábil que ninguém via porque ninguém perguntava a premissa
+# Kraft Heinz, US$ 450 milhões depois: o esquema contábil que ninguém via porque ninguém perguntava a premissa
 
 Quase 300 transações. Anos de duração. Isso é o que levou a Kraft Heinz a reapresentar suas demonstrações financeiras em 2019, corrigindo cerca de US$ 208 milhões em economias de custo que não existiam de verdade.
 
