@@ -14,6 +14,6 @@ Em qualquer orçamento ou fechamento com muita gente envolvida, cada área alime
 
 O caso Kraft Heinz não é sobre fraude sofisticada. É sobre a ausência de uma pergunta simples, repetida em cada etapa: de onde veio este número, e quem confirma a premissa por trás dele.
 
-Empresas que consolidam orçamento de várias áreas, unidades ou franquias enfrentam essa mesma vulnerabilidade, em menor escala, todos os meses. A diferença entre um processo seguro e um exposto não é o tamanho da auditoria. É se cada premissa consolidada carrega a resposta a essa pergunta, ou se ela se perde no caminho até o número final.
+Empresas que consolidam orçamento de várias áreas, unidades ou franquias enfrentam essa mesma vulnerabilidade, em menor escala, todos os meses. Auditoria pega o que já aconteceu, depois que o custo de corrigir já é maior. A pergunta sobre a premissa evita que aconteça. A diferença entre as duas não é técnica, é sobre que tipo de empresa se quer ser: uma que descobre o problema no relatório anual, ou uma que o impede de existir.
 
 **Fonte do dado:** SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme", e The D&O Diary, "Kraft Heinz Securities Litigation Settles for $450 Million".

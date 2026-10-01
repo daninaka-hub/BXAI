@@ -14,6 +14,6 @@ Um agente de IA, por mais avançado que seja, só age bem sobre dados e premissa
 
 Empresas com clareza sobre quem é dono de cada premissa orçamentária, com que critério ela foi definida e quando precisa ser revisada, estão prontas para aproveitar IA agêntica de verdade. As demais vão continuar comprando ferramenta sem conseguir colocá-la em produção. O gargalo nunca foi a tecnologia.
 
-Antes de escolher qual agente de IA usar no orçamento, pergunte se o raciocínio por trás dos números já está organizado o suficiente para alguém, ou alguma coisa, confiar nele.
+O que decide se uma empresa vai aproveitar IA agêntica não é o orçamento de software. É ter, antes da IA chegar, alguém capaz de responder de onde vem cada número do orçamento. Quem resolver isso primeiro não está esperando a tecnologia amadurecer. Está construindo a única coisa que torna a tecnologia útil.
 
 **Fonte do dado:** Neurons Lab, "Agentic AI in Financial Services: A Research Roundup for 2026", citando pesquisa sobre adoção de IA agêntica, e Wolters Kluwer (2025).

@@ -14,12 +14,12 @@ A atualização costuma ser mensal ou trimestral. É esse ritmo que separa o rol
 
 O algoritmo da Zillow operava como um orçamento estático, só que em alta velocidade: a premissa de preço era fixada e aplicada repetidamente, sem um ciclo de revisão que perguntasse se ela ainda fazia sentido. Um modelo de rolling forecast, aplicado à mesma decisão, teria forçado uma pergunta simples a cada atualização: os dados que uso hoje ainda refletem o mercado de hoje, ou já estão defasados?
 
-Essa é a mesma lógica do artigo sobre a Zillow: toda premissa precisa de três respostas, quem definiu, com que critério, quando revisar. O rolling forecast institucionaliza a terceira resposta. Ele cria o ciclo de revisão como parte do processo, não como exceção.
+Toda premissa de orçamento precisa de três respostas: quem definiu, com que critério, quando revisar. O rolling forecast institucionaliza a terceira resposta. Ele transforma a revisão de premissa em parte do processo, não em exceção que só acontece quando algo já deu errado.
 
 ## Para quem lida com orçamento todo mês
 
 Rolling forecast não é só para empresa de tecnologia com algoritmo de precificação. Qualquer orçamento com premissa de crescimento, custo ou conversão se beneficia do mesmo princípio: revisar com a frequência que o negócio muda, não com a frequência que o calendário fiscal dita.
 
-A pergunta prática não é se vale a pena adotar rolling forecast. É se o seu ciclo de revisão atual é mais rápido ou mais lento que a velocidade real do seu mercado.
+A maioria das empresas descobre que a premissa envelheceu no mesmo momento em que descobre o prejuízo, porque essas duas descobertas são, na prática, a mesma descoberta. O orçamento anual não falha por estar errado no dia em que foi fechado. Falha porque ninguém definiu, desde o início, de quanto em quanto tempo ele deixaria de valer. Rolling forecast não é uma técnica de previsão mais sofisticada. É a decisão de não deixar essa data em aberto.
 
-**Fonte:** IBM, "Rolling Forecast". Caso Zillow: SphereOI, "How Zillow could have avoided its $500M AI mistake" (ver artigo completo sobre o caso).
+**Fonte:** IBM, "Rolling Forecast". Caso Zillow: SphereOI, "How Zillow could have avoided its $500M AI mistake".

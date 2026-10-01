@@ -7,6 +7,6 @@ A empresa reconhecia descontos de fornecedores que não existiam de verdade. Res
 
 O número que chama atenção não é o valor. É o volume. Trezentas transações sustentando o esquema por anos só é possível quando existe distância grande entre quem registra o número final e quem entende a premissa por trás dele.
 
-Em qualquer consolidação de orçamento com várias áreas alimentando o número, esse risco existe, em menor escala, todo mês. Não precisa de má-fé generalizada. Basta que ninguém pergunte de onde veio o número, e quem confirma a premissa.
+Em qualquer consolidação de orçamento com várias áreas alimentando o número, esse risco existe, em menor escala, todo mês. Auditoria pega o problema depois que ele já custou caro. Perguntar a premissa evita que ele aconteça. A diferença não é técnica, é sobre que tipo de empresa se quer ser.
 
 Artigo completo: [link do artigo]

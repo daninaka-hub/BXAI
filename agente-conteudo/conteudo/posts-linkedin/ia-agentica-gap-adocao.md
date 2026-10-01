@@ -9,6 +9,6 @@ Um agente de IA só opera bem sobre premissas organizadas, com dono claro. Se o 
 
 A pergunta que trava a maioria das empresas não é qual IA escolher. É se o processo de planejamento tem base governada o suficiente para uma IA operar nele com segurança.
 
-Antes de comprar IA para o orçamento, pergunte se o raciocínio por trás dos números já está pronto para alguém confiar nele.
+O que decide se uma empresa aproveita IA agêntica não é o orçamento de software. É ter, antes da IA chegar, alguém capaz de responder de onde vem cada número. Quem resolve isso primeiro não está esperando a tecnologia amadurecer. Está construindo a única coisa que a torna útil.
 
 Artigo completo: [link do artigo]

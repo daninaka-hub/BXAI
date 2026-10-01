@@ -7,6 +7,6 @@ Chama-se rolling forecast. Em vez de fechar o ano inteiro em dezembro e só revi
 
 O algoritmo da Zillow funcionava como orçamento estático em alta velocidade: fixava a premissa de preço e repetia, sem ciclo de revisão. Rolling forecast obriga essa pergunta a cada atualização: o dado que uso hoje ainda reflete o mercado de hoje?
 
-Não precisa de algoritmo pra esse risco existir. Qualquer orçamento com premissa de crescimento ou custo se beneficia do mesmo princípio: revisar na velocidade do negócio, não na velocidade do calendário fiscal.
+Não precisa de algoritmo pra esse risco existir. A maioria das empresas descobre que a premissa envelheceu no mesmo momento em que descobre o prejuízo, porque são a mesma descoberta. Rolling forecast não é uma técnica mais sofisticada. É a decisão de não deixar em aberto de quanto em quanto tempo uma premissa deixa de valer.
 
 Artigo completo, com a análise do caso Zillow: [link do artigo]
