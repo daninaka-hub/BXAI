@@ -16,4 +16,4 @@ Empresas com clareza sobre quem é dono de cada premissa orçamentária, com que
 
 O que decide se uma empresa vai aproveitar IA agêntica não é o orçamento de software. É ter, antes da IA chegar, alguém capaz de responder de onde vem cada número do orçamento. Quem resolver isso primeiro não está esperando a tecnologia amadurecer. Está construindo a única coisa que torna a tecnologia útil.
 
-**Fonte do dado:** Neurons Lab, "Agentic AI in Financial Services: A Research Roundup for 2026", citando pesquisa sobre adoção de IA agêntica (neurons-lab.com) e Wolters Kluwer (2025) (wolterskluwer.com).
+**Fonte do dado:** Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026", citando pesquisa sobre adoção de IA agêntica e Wolters Kluwer (wolterskluwer.com), empresa global de informação e software para profissionais (2025).

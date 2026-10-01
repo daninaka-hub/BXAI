@@ -1,8 +1,8 @@
 # Kraft Heinz, US$ 450 milhões depois: o esquema contábil que ninguém via porque ninguém perguntava a premissa
 
-Quase 300 transações. Anos de duração. Isso é o que levou a Kraft Heinz a reapresentar suas demonstrações financeiras em 2019, corrigindo cerca de US$ 208 milhões em economias de custo que não existiam de verdade.
+Quase 300 transações. Anos de duração. Isso é o que levou a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), a reapresentar suas demonstrações financeiras em 2019, corrigindo cerca de US$ 208 milhões em economias de custo que não existiam de verdade.
 
-O mecanismo era simples de descrever. A área de procurement reconhecia descontos de fornecedores que a empresa nunca tinha efetivamente ganhado e mantinha contratos que não refletiam a realidade das negociações. A SEC aplicou multa de US$ 62 milhões em 2021. Em 2023, a empresa fechou acordo de US$ 450 milhões com acionistas para encerrar a ação coletiva.
+O mecanismo era simples de descrever. A área de procurement reconhecia descontos de fornecedores que a empresa nunca tinha efetivamente ganhado e mantinha contratos que não refletiam a realidade das negociações. A SEC, o regulador do mercado de capitais dos Estados Unidos (sec.gov), aplicou multa de US$ 62 milhões em 2021. Em 2023, a empresa fechou acordo de US$ 450 milhões com acionistas para encerrar a ação coletiva.
 
 ## Trezentas transações, nenhuma pergunta
 
@@ -16,4 +16,4 @@ O caso Kraft Heinz não é sobre fraude sofisticada. É sobre a ausência de uma
 
 Empresas que consolidam orçamento de várias áreas, unidades ou franquias enfrentam essa mesma vulnerabilidade, em menor escala, todos os meses. Auditoria pega o que já aconteceu, depois que o custo de corrigir já é maior. A pergunta sobre a premissa evita que aconteça. A diferença entre as duas não é técnica, é sobre que tipo de empresa se quer ser: uma que descobre o problema no relatório anual, ou uma que o impede de existir.
 
-**Fonte do dado:** SEC (sec.gov), "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme" e The D&O Diary (dandodiary.com), "Kraft Heinz Securities Litigation Settles for $450 Million".
+**Fonte do dado:** SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme" e The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million".

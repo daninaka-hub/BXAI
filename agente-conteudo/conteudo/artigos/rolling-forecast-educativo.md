@@ -1,6 +1,6 @@
 # O que é rolling forecast e por que ele resolve o problema que quebrou a Zillow
 
-A Zillow perdeu US$ 500 milhões em 2021 comprando casas com um algoritmo que precificava usando dados de até 30 dias atrás. O problema não foi falta de tecnologia. Foi um modelo de planejamento que não se atualizava rápido o suficiente para um mercado em queda.
+A Zillow, maior plataforma americana de compra e venda de imóveis online (zillow.com), perdeu US$ 500 milhões em 2021 comprando casas com um algoritmo que precificava usando dados de até 30 dias atrás. O problema não foi falta de tecnologia. Foi um modelo de planejamento que não se atualizava rápido o suficiente para um mercado em queda.
 
 Existe um método pensado exatamente para esse problema: o rolling forecast.
 
@@ -22,4 +22,4 @@ Rolling forecast não é só para empresa de tecnologia com algoritmo de precifi
 
 A maioria das empresas descobre que a premissa envelheceu no mesmo momento em que descobre o prejuízo, porque essas duas descobertas são, na prática, a mesma descoberta. O orçamento anual não falha por estar errado no dia em que foi fechado. Falha porque ninguém definiu, desde o início, de quanto em quanto tempo ele deixaria de valer. Rolling forecast não é uma técnica de previsão mais sofisticada. É a decisão de não deixar essa data em aberto.
 
-**Fonte:** IBM, "Rolling Forecast". Caso Zillow: SphereOI, "How Zillow could have avoided its $500M AI mistake".
+**Fonte:** IBM (ibm.com), fabricante de software corporativo, "Rolling Forecast". Caso Zillow: SphereOI (sphereoi.ai), consultoria de engenharia de IA, "How Zillow could have avoided its $500M AI mistake".

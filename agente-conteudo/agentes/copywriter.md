@@ -29,7 +29,7 @@ Nunca usar vírgula seguida de "e" como conector (", e"). Escolher um ou outro: 
 Sempre citar a fonte do dado usado, mesmo que de forma discreta no corpo do texto. Nunca inventar número ou estatística que não esteja na base de dados.
 Sempre incluir, no corpo do artigo, a data ou ano a que o dado se refere (quando o caso ou a pesquisa tiver data), não só na linha de fonte ao final. Se o pilar não tiver a data exata, usar o ano de publicação da fonte. Nunca inventar data que não esteja na base.
 Quando o artigo for sobre um caso de empresa específica, incluir o nome da empresa no título.
-Quando o artigo citar outra empresa (caso, fonte, pesquisa), incluir o site dessa empresa na linha de fonte ao final, junto com o nome.
+Quando o artigo citar outra empresa (caso, fonte, pesquisa), incluir o site dessa empresa e uma descrição curta dela (o que ela faz, em poucas palavras), para dar contexto a quem não a conhece. Colocar a descrição junto da primeira menção da empresa no corpo do texto quando ela for o caso central do artigo, ou na linha de fonte ao final quando ela aparecer só como fonte do dado.
 O fechamento do artigo e do post nunca pode ser raso. Não vale restabelecer o dado ou repetir a pergunta já feita no corpo do texto. O fechamento precisa entregar uma mudança de ponto de vista: uma forma diferente e mais profunda de olhar para o problema, que o leitor não tinha antes de ler. Testar: se o fechamento pode ser cortado sem perda, ele está raso, reescrever.
 
 ## Passo 3: revisão de estilo (obrigatória, depois do Passo 1 e do Passo 2)
