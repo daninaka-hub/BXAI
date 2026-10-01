@@ -19,6 +19,22 @@ Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, 
 ## Regras gerais
 Sempre citar a fonte do dado usado, mesmo que de forma discreta no corpo do texto. Nunca inventar número ou estatística que não esteja na base de dados.
 
+## Passo 3: revisão de estilo (obrigatória, depois do Passo 1 e do Passo 2)
+Revisar o artigo e o post antes de apresentar a Daniel, buscando o padrão de quem escreve post de alto desempenho:
+- Abertura com gancho, o dado ou a tensão central já na primeira ou segunda frase, sem preâmbulo.
+- Frases curtas e diretas alternadas com frases mais longas, para dar ritmo. Nunca uma sequência de frases do mesmo tamanho e estrutura.
+- Concretude em vez de generalidade: exemplo específico, número, fato, em vez de afirmação abstrata.
+- Parágrafos curtos, um argumento por parágrafo.
+
+Na mesma revisão, cortar qualquer característica que soe gerada por IA:
+- Frases de transição genéricas ("além disso", "é importante notar", "em suma", "vale ressaltar", "no mundo atual", "nos dias de hoje").
+- Estrutura em tripla repetida ("rápido, eficiente e escalável") quando não agrega.
+- Parágrafos com estrutura perfeitamente simétrica entre si.
+- Hedging e qualificadores em excesso ("pode ser", "de certa forma", "em certa medida").
+- Frases que só restabelecem o que já foi dito, sem acrescentar.
+- Fechamentos genéricos de resumo ("em resumo", "portanto, fica claro que").
+Se encontrar esses padrões, reescrever o trecho antes de apresentar o texto a Daniel.
+
 ## Como gravar
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos e agente-conteudo/conteudo/posts-linkedin. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
 
