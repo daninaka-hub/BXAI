@@ -9,12 +9,19 @@ Pauta escolhida pelo Head de Conteúdo: título provisório, pilar, dado ou âng
 ## Passo 0: buscar reforço na base (antes de escrever)
 Antes de escrever, procurar em dados-mercado/indice.md e no arquivo de pilar da pauta se existe mais de uma entrada sobre o mesmo tema, além do dado gatilho. Trazer ao menos uma referência adicional para o artigo (de qualquer pilar, se o tema cruzar), não só o dado que originou a pauta. Se não houver outra referência relevante, seguir só com o dado gatilho, sem forçar.
 
-## Passo 1: artigo de blog
-Escrever o artigo completo em conteudo/artigos/, usando o dado central da pauta como coluna vertebral do texto e as referências adicionais do Passo 0 para enriquecer o argumento.
-Estrutura: título, abertura que já entrega o dado ou achado principal, desenvolvimento com contexto e implicação prática para quem lida com orçamento e planejamento, fechamento com a conclusão do raciocínio, sem citar funcionalidade ou produto da BudgetXpert. Por ora, o artigo fica só no insight de mercado, sem puxar para o que o produto resolve.
+## Estrutura por pilar: cluster
+Os artigos do blog são organizados por pilar, em cluster: 1 artigo base (educativo, abrangente, fundamento do tema) e 2 ou mais artigos de apoio (caso ou subtema específico daquele pilar). Antes de escrever, checar em indice-artigos.md se o pilar da pauta já tem artigo base. Se não tiver, a próxima pauta desse pilar deve ser o artigo base, antes de qualquer artigo de apoio.
 
-## Artigo educativo (quando a pauta for do tipo educativo)
-Estrutura diferente do artigo de tendência: ensina o tema de forma direta, como um guia. Título nomeia o que o leitor vai aprender. Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento explica o conceito, método ou boa prática com clareza, usando o material teórico do Pesquisador. Sempre que existir, referenciar um artigo já publicado pelo BXAI Content Squad sobre o mesmo pilar (link interno ou menção ao título), conectando o tema educativo ao que já foi publicado. Fechamento com aplicação prática, sem citar funcionalidade ou produto da BudgetXpert.
+Tamanho alvo: cerca de 1000 palavras por artigo, tanto base quanto apoio. Abrangência e profundidade vêm antes de concisão, o artigo precisa cobrir o tema de forma completa para quem está lendo no blog, não só o suficiente para um resumo de LinkedIn.
+
+## Passo 1: artigo de blog
+
+### Artigo base (educativo, fundamento do pilar)
+Ensina o tema do pilar de forma direta e abrangente, como um guia de referência. Título nomeia o que o leitor vai aprender, mas sem já entregar a conclusão (ver regra geral de título). Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento cobre o conceito, método ou boa prática em profundidade, usando o material teórico do Pesquisador, com seções que abordam as diferentes facetas do tema (o que é, como funciona, quando aplicar, erros comuns). Fechamento com aplicação prática, sem citar funcionalidade ou produto da BudgetXpert.
+
+### Artigo de apoio (caso ou subtema específico)
+Usa o dado central da pauta como coluna vertebral do texto e as referências adicionais do Passo 0 para enriquecer o argumento. Estrutura: título, abertura que já entrega o dado ou achado principal, desenvolvimento com contexto e implicação prática para quem lida com orçamento e planejamento, fechamento com a conclusão do raciocínio, sem citar funcionalidade ou produto da BudgetXpert. Por ora, o artigo fica só no insight de mercado, sem puxar para o que o produto resolve.
+Sempre referenciar o artigo base do mesmo pilar (link interno ou menção ao título), conectando o caso ou subtema específico ao fundamento já publicado. Se o pilar ainda não tiver artigo base, sinalizar isso a Daniel antes de escrever, em vez de publicar o apoio solto.
 
 ## Passo 2: post de LinkedIn
 A partir do artigo pronto, escrever o post em conteudo/posts-linkedin/. O post resume o achado central do artigo, usa linguagem mais direta e pessoal (segunda pessoa, como alguém comentando o assunto) e termina com link ou chamada para o artigo completo.

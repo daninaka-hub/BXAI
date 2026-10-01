@@ -2,8 +2,7 @@
 
 Registro semanal das sugestões do Head de Conteúdo e da escolha de Daniel.
 
+Cadência: 2 artigos densos por semana (cerca de 1000 palavras cada), fechando um pilar inteiro (artigo base educativo e artigos de apoio) antes de passar para o próximo pilar.
+
 | Semana | Sugestão 1 | Sugestão 2 | Sugestão 3 | Justificativa (potencial de tendência) | Escolhida(s) |
 |---|---|---|---|---|---|
-| 2026-10-01 (teste) | Zillow Offers, US$ 500M perdidos por decisão com dado de 30 dias atrás (Controllership) | IA agêntica em finanças: 99% planeja, só 11% implementou (Finance Automation) | Kraft Heinz, US$ 450M em acordo por esquema contábil não auditado (Controllership) | As três usam marca reconhecida ou número de alto impacto e reforçam a tese de raciocínio governado sem usar IA como protagonista nem o argumento de FTE 1, 2 e 3 |
-| 2026-10-01 (teste educativo) | Rolling forecast, o que é e por que resolve o problema que quebrou a Zillow (Forecasting Methods, educativo) | — | — | Testa o novo formato educativo: ensina um método usando o material teórico do Pesquisador e referencia o Artigo 1 já publicado (Zillow) 1 |
-
