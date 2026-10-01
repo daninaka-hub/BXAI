@@ -1,11 +1,9 @@
-Em 2021, a Zillow perdeu cerca de US$ 500 milhões e encerrou um programa inteiro de compra de imóveis.
+A Zillow comprou casas pagando preço de um mercado que já tinha acabado.
 
-A causa não foi a IA. Foi o algoritmo decidir preços quase em tempo real usando dados que podiam ter mais de 30 dias. Num mercado mudando rápido, isso bastou para a empresa seguir comprando casas por valores que já não faziam sentido.
+Em 2021, a empresa perdeu cerca de US$ 500 milhões e fechou um programa inteiro de compra de imóveis. A causa não foi a IA. Foi o algoritmo precificar usando dados de até 30 dias atrás, num mercado que virou em semanas.
 
-Se você tira a palavra "algoritmo" dessa história, sobra um problema que qualquer orçamento pode ter: ninguém sabia, com clareza, quem era dono daquela premissa de preço, nem quando ela precisava ser revisada.
+Tire a palavra "algoritmo" dessa história e sobra um problema comum: ninguém sabia quem era dono daquela premissa de preço, nem quando ela deveria ser revista.
 
-É o mesmo risco que existe em qualquer planilha de orçamento sem dono. Uma taxa de crescimento, um custo esperado, uma premissa de conversão, tudo isso precisa responder a três perguntas: quem definiu, com que critério, quando revisar.
-
-Sem essas respostas, você está exposto ao mesmo risco estrutural da Zillow. Só que sem o volume da manchete.
+Toda planilha de orçamento carrega uma premissa parecida: taxa de crescimento, custo esperado, conversão. Se ela não responde a três perguntas, quem definiu, com que critério, quando vence, você corre o mesmo risco da Zillow. Só sem a manchete.
 
 Artigo completo com a análise de como isso se aplica a orçamento corporativo: [link do artigo]
