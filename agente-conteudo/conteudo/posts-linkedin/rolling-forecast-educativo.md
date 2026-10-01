@@ -10,3 +10,5 @@ O algoritmo da Zillow funcionava como orçamento estático em alta velocidade: f
 Não precisa de algoritmo pra esse risco existir. A maioria das empresas descobre que a premissa envelheceu no mesmo momento em que descobre o prejuízo, porque são a mesma descoberta. Rolling forecast não é uma técnica mais sofisticada. É a decisão de não deixar em aberto de quanto em quanto tempo uma premissa deixa de valer.
 
 Artigo completo, com a análise do caso Zillow: [link do artigo]
+
+#ForecastingMethods #RollingForecast #FPA #CFO

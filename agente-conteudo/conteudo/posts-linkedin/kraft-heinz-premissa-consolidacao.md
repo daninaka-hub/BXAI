@@ -1,4 +1,4 @@
-A Kraft Heinz inflou o resultado por anos usando quase 300 transações falsas. Ninguém percebeu, porque ninguém perguntava de onde vinha o número.
+A Kraft Heinz inflou o resultado por anos usando quase 300 transações falsas. Ninguém percebeu até custar US$ 450 milhões.
 .
 .
 .
@@ -10,3 +10,5 @@ O número que chama atenção não é o valor. É o volume. Trezentas transaçõ
 Em qualquer consolidação de orçamento com várias áreas alimentando o número, esse risco existe, em menor escala, todo mês. Auditoria pega o problema depois que ele já custou caro. Perguntar a premissa evita que ele aconteça. A diferença não é técnica, é sobre que tipo de empresa se quer ser.
 
 Artigo completo: [link do artigo]
+
+#Controllership #GovernançaFinanceira #FPA #CFO
