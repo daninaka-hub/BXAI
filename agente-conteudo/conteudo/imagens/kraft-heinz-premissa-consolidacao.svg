@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#062D3E"/>
+  <rect x="0" y="0" width="12" height="630" fill="#19B09F"/>
+
+  <text x="80" y="140" font-family="Arial, sans-serif" font-size="28" fill="#19B09F" font-weight="bold" letter-spacing="1">KRAFT HEINZ, ESQUEMA CONTABIL</text>
+
+  <text x="80" y="300" font-family="Arial, sans-serif" font-size="150" fill="#FFFFFF" font-weight="bold">US$ 450M</text>
+  <text x="80" y="350" font-family="Arial, sans-serif" font-size="36" fill="#E8F4F2">em acordo com acionistas</text>
+
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="30" fill="#19B09F" font-weight="bold">~300 transacoes, anos sem deteccao</text>
+
+  <text x="80" y="560" font-family="Arial, sans-serif" font-size="24" fill="#8FADB8">Ninguem perguntava de onde vinha a premissa.</text>
+</svg>
