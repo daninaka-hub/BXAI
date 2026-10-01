@@ -6,3 +6,4 @@ Cada pilar é organizado em cluster: 1 artigo educativo base (abrangente, fundam
 
 | Código | Título | Pilar | Tipo | Status | Arquivo |
 |---|---|---|---|---|---|
+| Artigo 1 | As três perguntas que toda premissa de orçamento esquece de responder | Controllership | Base | Aprovado | conteudo/artigos/tres-perguntas-premissa-orcamento.md |
