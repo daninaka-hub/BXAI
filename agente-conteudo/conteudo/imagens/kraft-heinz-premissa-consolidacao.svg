@@ -1,13 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Arial, Helvetica, sans-serif">
   <rect width="1200" height="630" fill="#062D3E"/>
-  <rect x="0" y="0" width="12" height="630" fill="#19B09F"/>
+  <rect x="0" y="0" width="10" height="630" fill="#19B09F"/>
+  <rect x="14" y="0" width="2" height="630" fill="#19B09F" opacity="0.35"/>
 
-  <text x="80" y="140" font-family="Arial, sans-serif" font-size="28" fill="#19B09F" font-weight="bold" letter-spacing="1">KRAFT HEINZ, ESQUEMA CONTABIL</text>
+  <text x="72" y="90" font-size="16" font-weight="bold" letter-spacing="3" fill="#19B09F">KRAFT HEINZ &#183; 2016&#8211;2023</text>
 
-  <text x="80" y="300" font-family="Arial, sans-serif" font-size="150" fill="#FFFFFF" font-weight="bold">US$ 450M</text>
-  <text x="80" y="350" font-family="Arial, sans-serif" font-size="36" fill="#E8F4F2">em acordo com acionistas</text>
+  <text x="72" y="210" font-size="92" font-weight="bold" fill="#FFFFFF">~300</text>
+  <text x="72" y="250" font-size="24" fill="#D7E7E4">transa&#231;&#245;es falsas sustentaram o esquema por anos</text>
 
-  <text x="80" y="460" font-family="Arial, sans-serif" font-size="30" fill="#19B09F" font-weight="bold">~300 transacoes, anos sem deteccao</text>
+  <line x1="72" y1="284" x2="592" y2="284" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <text x="72" y="326" font-size="26" font-weight="bold" fill="#19B09F">Ningu&#233;m perguntava de onde vinha o n&#250;mero.</text>
 
-  <text x="80" y="560" font-family="Arial, sans-serif" font-size="24" fill="#8FADB8">Ninguem perguntava de onde vinha a premissa.</text>
+  <text x="72" y="592" font-size="13" fill="#8FADB8">Fonte: SEC (2021) e The D&amp;O Diary (2023)</text>
+
+  <g transform="translate(770,170)">
+    <line x1="30" y1="20" x2="30" y2="300" stroke="#2E5666" stroke-width="2"/>
+    <line x1="30" y1="300" x2="400" y2="300" stroke="#2E5666" stroke-width="2"/>
+
+    <rect x="55" y="255" width="60" height="45" fill="#19B09F" opacity="0.55"/>
+    <rect x="140" y="205" width="60" height="95" fill="#19B09F" opacity="0.72"/>
+    <rect x="225" y="140" width="60" height="160" fill="#19B09F" opacity="0.88"/>
+    <rect x="310" y="60" width="60" height="240" fill="#19B09F"/>
+
+    <text x="85" y="320" font-size="14" fill="#D7E7E4" text-anchor="middle">2016</text>
+    <text x="170" y="320" font-size="14" fill="#D7E7E4" text-anchor="middle">2017</text>
+    <text x="255" y="320" font-size="14" fill="#D7E7E4" text-anchor="middle">2018</text>
+    <text x="340" y="320" font-size="14" fill="#D7E7E4" text-anchor="middle">2019</text>
+
+    <line x1="310" y1="50" x2="370" y2="50" stroke="#F2A541" stroke-width="2" stroke-dasharray="3,4"/>
+    <text x="340" y="38" font-size="14" font-weight="bold" fill="#F2A541" text-anchor="middle">descoberto</text>
+  </g>
 </svg>
