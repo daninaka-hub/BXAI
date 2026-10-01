@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1200" height="630" fill="#062D3E"/>
+
+  <text x="72" y="70" font-size="15" font-weight="bold" letter-spacing="3" fill="#19B09F">GUIA R&#193;PIDO &#183; FORECASTING METHODS</text>
+  <text x="72" y="112" font-size="34" font-weight="bold" fill="#FFFFFF">O que &#233; rolling forecast, e por que teria</text>
+  <text x="72" y="150" font-size="34" font-weight="bold" fill="#FFFFFF">evitado o caso Zillow</text>
+
+  <!-- static budget track -->
+  <text x="72" y="248" font-size="15" fill="#8FADB8">Or&#231;amento est&#225;tico</text>
+  <rect x="238" y="228" width="890" height="46" rx="6" fill="#2E5666"/>
+  <text x="683" y="256" font-size="14" fill="#D7E7E4" text-anchor="middle">janeiro a dezembro, fixado uma vez</text>
+
+  <!-- rolling forecast track -->
+  <text x="72" y="314" font-size="15" font-weight="bold" fill="#19B09F">Rolling forecast</text>
+  <line x1="238" y1="302" x2="1128" y2="302" stroke="#2E5666" stroke-width="2"/>
+  <rect x="238" y="285" width="249" height="46" rx="6" fill="#19B09F" opacity="0.25"/>
+  <rect x="558" y="285" width="249" height="46" rx="6" fill="#19B09F"/>
+  <text x="683" y="313" font-size="13" font-weight="bold" fill="#062D3E" text-anchor="middle">sempre 12 meses &#224; frente</text>
+  <rect x="878" y="285" width="249" height="46" rx="6" fill="#19B09F" opacity="0.25"/>
+  <text x="238" y="350" font-size="13" fill="#6E8A90">a janela se move a cada m&#234;s fechado</text>
+
+  <line x1="72" y1="400" x2="972" y2="400" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <text x="72" y="442" font-size="26" font-weight="bold" fill="#19B09F">A premissa &#233; revisada todo m&#234;s, nunca s&#243; em dezembro.</text>
+
+  <text x="72" y="592" font-size="13" fill="#6E8A90">Fonte: IBM, &#8220;Rolling Forecast&#8221;</text>
+</svg>

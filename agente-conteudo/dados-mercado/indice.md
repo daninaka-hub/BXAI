@@ -4,7 +4,7 @@ Catálogo central de tudo que foi coletado pelo squad de conteúdo. Cada linha a
 
 Pilares: Controllership, Finance Automation, Forecasting Methods, FP&A Fundamentals, Integrated Planning, Strategic Planning, Leadership Roles, Organization.
 
-Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, estatística.
+Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, estatística, teórico.
 
 | Data | Pilar | Tipo | Fonte | Resumo |
 |---|---|---|---|---|
@@ -18,4 +18,5 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-01 | Finance Automation | estatística | Wolters Kluwer / Neurons Lab | 44% dos times de finanças vão usar IA agêntica em 2026 (+600%) |
 | 2026-10-01 | Integrated Planning | estatística | IDC / IBM | Organizações só 30% prontas para IA em processos, 40% para analytics em forecasting |
 | 2026-10-01 | Integrated Planning | estudo de caso | IBM | Landmark Retail reduziu 75% do tempo em orçamento e consolidação com IBM Planning Analytics |
+| 2026-10-01 | Forecasting Methods | teórico | IBM | O que é rolling forecast e como difere do orçamento estático anual |
 
