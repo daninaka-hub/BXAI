@@ -2,7 +2,7 @@
   <rect width="1200" height="630" fill="#062D3E"/>
 
   <text x="72" y="70" font-size="15" font-weight="bold" letter-spacing="3" fill="#19B09F">GUIA R&#193;PIDO &#183; FORECASTING METHODS</text>
-  <text x="72" y="112" font-size="34" font-weight="bold" fill="#FFFFFF">O que &#233; rolling forecast, e por que teria</text>
+  <text x="72" y="112" font-size="34" font-weight="bold" fill="#FFFFFF">O que &#233; rolling forecast e por que teria</text>
   <text x="72" y="150" font-size="34" font-weight="bold" fill="#FFFFFF">evitado o caso Zillow</text>
 
   <!-- static budget track -->
@@ -22,5 +22,5 @@
   <line x1="72" y1="400" x2="972" y2="400" stroke="#FFFFFF" stroke-opacity="0.18"/>
   <text x="72" y="442" font-size="26" font-weight="bold" fill="#19B09F">A premissa &#233; revisada todo m&#234;s, nunca s&#243; em dezembro.</text>
 
-  <text x="72" y="592" font-size="13" fill="#6E8A90">Fonte: IBM, &#8220;Rolling Forecast&#8221;</text>
+  <text x="72" y="592" font-size="13" fill="#6E8A90">Fonte: IBM (ibm.com), &#8220;Rolling Forecast&#8221;</text>
 </svg>

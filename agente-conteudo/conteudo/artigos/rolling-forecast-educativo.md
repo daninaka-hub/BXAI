@@ -1,4 +1,4 @@
-# O que é rolling forecast, e por que ele resolve o problema que quebrou a Zillow
+# O que é rolling forecast e por que ele resolve o problema que quebrou a Zillow
 
 A Zillow perdeu US$ 500 milhões em 2021 comprando casas com um algoritmo que precificava usando dados de até 30 dias atrás. O problema não foi falta de tecnologia. Foi um modelo de planejamento que não se atualizava rápido o suficiente para um mercado em queda.
 
@@ -6,7 +6,7 @@ Existe um método pensado exatamente para esse problema: o rolling forecast.
 
 ## O que é
 
-Rolling forecast é um modelo de previsão contínua. Em vez de fechar um orçamento para o ano inteiro e só revisar na virada do ciclo seguinte, a empresa mantém sempre um horizonte fixo à frente, por exemplo 12 meses. Ao final de cada mês, o resultado real substitui a previsão daquele período, e um novo mês entra no final da janela. O horizonte nunca encolhe.
+Rolling forecast é um modelo de previsão contínua. Em vez de fechar um orçamento para o ano inteiro e só revisar na virada do ciclo seguinte, a empresa mantém sempre um horizonte fixo à frente, por exemplo 12 meses. Ao final de cada mês, o resultado real substitui a previsão daquele período e um novo mês entra no final da janela. O horizonte nunca encolhe.
 
 A atualização costuma ser mensal ou trimestral. É esse ritmo que separa o rolling forecast do orçamento estático: o orçamento estático fixa premissas em dezembro e vive com elas o ano inteiro. O rolling forecast questiona a premissa a cada ciclo.
 
