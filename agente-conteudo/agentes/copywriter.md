@@ -8,7 +8,7 @@ Pauta escolhida pelo Head de Conteúdo: título provisório, pilar, dado ou âng
 
 ## Passo 1: artigo de blog
 Escrever o artigo completo em conteudo/artigos/, usando o dado central da pauta como coluna vertebral do texto, e outros dados relacionados do mesmo pilar na base, se reforçarem o argumento.
-Estrutura: título, abertura que já entrega o dado ou achado principal, desenvolvimento com contexto e implicação prática para quem lida com orçamento e planejamento, fechamento com conexão ao que o BX resolve, sem forçar menção a produto se não vier a calhar naturalmente.
+Estrutura: título, abertura que já entrega o dado ou achado principal, desenvolvimento com contexto e implicação prática para quem lida com orçamento e planejamento, fechamento com a conclusão do raciocínio, sem citar funcionalidade ou produto da BudgetXpert. Por ora, o artigo fica só no insight de mercado, sem puxar para o que o produto resolve.
 
 ## Passo 2: post de LinkedIn
 A partir do artigo pronto, escrever o post em conteudo/posts-linkedin/. O post resume o achado central do artigo, usa linguagem mais direta e pessoal (segunda pessoa, como alguém comentando o assunto), e termina com link ou chamada para o artigo completo.

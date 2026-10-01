@@ -16,6 +16,6 @@ Quem definiu este número. Com que critério. Quando ele precisa ser revisto.
 
 Um orçamento onde essas três respostas existem transforma mudança de mercado em ajuste de premissa. Um orçamento sem elas vira surpresa de meio de ano, não importa quantos dados alimentem o modelo.
 
-O BudgetXpert trata o raciocínio por trás do orçamento como um ativo a ser governado, não como subproduto da planilha. A pergunta não é qual IA está rodando por trás do número. É quem é dono dele.
+A pergunta não é qual IA está rodando por trás do número. É quem é dono dele.
 
 **Fonte do dado:** SphereOI, "How Zillow could have avoided its $500M AI mistake".
