@@ -24,6 +24,14 @@ Depois do dono, vem o critério. Por que esse número e não outro. Um critério
 
 Essa é a pergunta que mais falta nas empresas, mesmo nas que têm dono e critério definidos. Toda premissa precisa de uma data de validade, um gatilho que diz quando ela deve ser reexaminada, não abandonada, reexaminada. Pode ser uma frequência fixa, mensal ou trimestral, ou um gatilho de evento, uma mudança de mercado, um resultado fora do esperado. Sem essa data, a premissa fica tecnicamente aberta para sempre e, na prática, congelada para sempre. Ninguém decidiu mantê-la, ela só nunca foi reaberta.
 
+## O que acontece quando falta a terceira pergunta: o caso Zillow
+
+Em 2021, a Zillow Offers, braço de compra e venda direta de imóveis da Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, perdeu cerca de US$ 500 milhões comprando casas com um algoritmo de precificação. O algoritmo decidia o preço de compra quase em tempo real, mas usava dados de até 30 dias atrás.
+
+O problema não foi o modelo de precificação. Foi a ausência da terceira pergunta. A premissa de que os dados de 30 dias ainda refletiam o mercado nunca teve um gatilho de revisão, ela rodava sozinha, sem ninguém parar para checar se continuava valendo. Em um mercado imobiliário que mudava de preço toda semana naquele ano, 30 dias de defasagem bastaram para a empresa comprar caro demais em escala, casa após casa, sem perceber. A Zillow encerrou o serviço em novembro de 2021.
+
+O algoritmo não calculou errado. Ele calculou exatamente o que foi mandado calcular, com um dado que ninguém tinha a tarefa de revalidar.
+
 ## Erros comuns ao tentar aplicar isso
 
 Três confusões aparecem com frequência quando uma empresa tenta colocar essas perguntas em prática.
@@ -46,10 +54,8 @@ Essas três perguntas não são burocracia. Elas são a diferença entre uma emp
 
 O dado da EY, citado pelo Journal of Accountancy, mostra que 86% dos controllers esperam que o próprio papel mude de forma significativa nos próximos cinco anos. Parte dessa mudança é justamente essa, sair da função de registrar o número fechado e assumir a função de garantir que cada premissa por trás do número tenha dono, critério e data de revisão. Isso é controladoria, não é auditoria. Auditoria encontra o problema depois que ele já aconteceu. As três perguntas evitam que ele aconteça.
 
-Nos próximos artigos deste pilar, vamos analisar dois casos reais de empresas que perderam centenas de milhões de dólares porque uma dessas três perguntas não tinha resposta. Nenhum dos dois casos envolveu um erro de cálculo. Os dois envolveram uma premissa sem dono, sem critério ou sem data de revisão, que ninguém percebeu até o prejuízo aparecer.
-
 ## O que fica
 
 A pergunta que a maioria das empresas faz é se a premissa está certa. A pergunta certa é se alguém ainda é dono dela. Uma premissa pode nascer certa e morrer errada sem que ninguém tenha tomado uma única decisão errada no caminho, ela só ficou velha em silêncio, porque ninguém tinha a tarefa de notar isso. Dono, critério e data de revisão não evitam o erro de cálculo. Evitam que esse erro fique invisível até custar caro.
 
-Fonte: Jedox (jedox.com), "Driver Based Planning for FP&A Improve Forecast Accuracy". EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy.
+Fonte: Jedox (jedox.com), "Driver Based Planning for FP&A Improve Forecast Accuracy". EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy. Caso Zillow: SphereOI (sphereoi.ai), consultoria de engenharia de IA, "How Zillow could have avoided its $500M AI mistake".

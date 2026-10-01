@@ -4,27 +4,20 @@
 Escrever o artigo de blog e, a partir dele, o post de LinkedIn e o roteiro de vídeo de 1 minuto para LinkedIn, para cada pauta que Daniel escolher.
 
 ## Entrada
-Pauta escolhida pelo Head de Conteúdo: título provisório, pilar, dado ou ângulo central, fonte.
+Briefing aprovado por Daniel (ver agentes/head-de-conteudo.md): teoria base (conceito, fonte) e um ou mais itens de apoio (dado ou caso, fonte, se é sustentação ou consequência).
+
+## Cadência
+2 artigos por semana. Cada artigo é independente e completo em si mesmo, não faz parte de um cluster de vários artigos no mesmo pilar. Tamanho alvo: cerca de 1000 palavras. Abrangência e profundidade vêm antes de concisão, o artigo precisa cobrir o tema de forma completa para quem está lendo no blog, não só o suficiente para um resumo de LinkedIn.
 
 ## Passo 0: buscar reforço na base (antes de escrever)
-Antes de escrever, procurar em dados-mercado/indice.md e no arquivo de pilar da pauta se existe mais de uma entrada sobre o mesmo tema, além do dado gatilho. Trazer ao menos uma referência adicional para o artigo (de qualquer pilar, se o tema cruzar), não só o dado que originou a pauta. Se não houver outra referência relevante, seguir só com o dado gatilho, sem forçar.
-
-## Estrutura por pilar: cluster
-Os artigos do blog são organizados por pilar, em cluster: 1 artigo base (educativo, abrangente, fundamento do tema) e 2 ou mais artigos de apoio (caso ou subtema específico daquele pilar). Antes de escrever, checar em indice-artigos.md se o pilar da pauta já tem artigo base. Se não tiver, a próxima pauta desse pilar deve ser o artigo base, antes de qualquer artigo de apoio.
-
-Tamanho alvo: cerca de 1000 palavras por artigo, tanto base quanto apoio. Abrangência e profundidade vêm antes de concisão, o artigo precisa cobrir o tema de forma completa para quem está lendo no blog, não só o suficiente para um resumo de LinkedIn.
+Além do apoio já definido no briefing, procurar em dados-mercado/indice.md e no arquivo de pilar da pauta se existe mais alguma entrada sobre o mesmo tema. Trazer ao menos uma referência adicional para o artigo, se houver, não só o dado que originou a pauta. Se não houver outra referência relevante, seguir só com o que está no briefing, sem forçar.
 
 ## Passo 1: artigo de blog
+Cada artigo é construído em torno de uma teoria base (o conceito de FP&A, Controladoria ou planejamento definido no briefing), com um ou mais itens de apoio encaixados dentro do mesmo texto, nunca como artigo separado. Cada apoio faz uma de duas coisas, nunca as duas ao mesmo tempo:
+- **Sustentação**: mais uma evidência, argumento ou ângulo que reforça a teoria, mostrando por que ela é verdadeira ou como funciona na prática.
+- **Consequência**: um caso real que mostra o que acontece quando a teoria não é aplicada (como o caso Zillow).
 
-### Artigo base (educativo, fundamento do pilar)
-Ensina o tema do pilar de forma direta e abrangente, como um guia de referência. Título nomeia o que o leitor vai aprender, mas sem já entregar a conclusão (ver regra geral de título). Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento cobre o conceito, método ou boa prática em profundidade, usando o material teórico do Pesquisador, com seções que abordam as diferentes facetas do tema (o que é, como funciona, quando aplicar, erros comuns). Fechamento com aplicação prática, sem citar funcionalidade ou produto da BudgetXpert.
-
-### Artigo de apoio (sustentação ou consequência)
-Cada artigo de apoio faz uma de duas coisas, nunca as duas ao mesmo tempo:
-- **Sustentação**: traz mais uma evidência, argumento ou ângulo que reforça o conceito do artigo base, mostrando por que ele é verdadeiro ou como funciona na prática.
-- **Consequência**: usa um caso real como substrato para mostrar o que acontece quando o conceito do artigo base não é aplicado (como nos casos Zillow e Kraft Heinz).
-Estrutura: título, abertura que já entrega o dado ou achado principal, desenvolvimento que conecta esse dado ou caso ao conceito do artigo base, fechamento com a conclusão do raciocínio, sem citar funcionalidade ou produto da BudgetXpert. Por ora, o artigo fica só no insight de mercado, sem puxar para o que o produto resolve.
-Sempre referenciar o artigo base do mesmo pilar (link interno ou menção ao título), e usar os mesmos termos do conceito que o artigo base define, para o leitor reconhecer a ligação entre os dois textos. Se o pilar ainda não tiver artigo base, sinalizar isso a Daniel antes de escrever, em vez de publicar o apoio solto.
+Estrutura: título que nomeia o que o leitor vai aprender, sem entregar a conclusão (ver regra geral de título). Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento ensina a teoria em profundidade, com seções que abordam as diferentes facetas do tema (o que é, como funciona, quando aplicar, erros comuns), e encaixa o apoio como evidência ou como caso dentro dessas seções, não como um bloco solto ao final. Fechamento com aplicação prática, sem citar funcionalidade ou produto da BudgetXpert. Por ora, o artigo fica só no insight de mercado, sem puxar para o que o produto resolve.
 
 ## Passo 2: post de LinkedIn
 A partir do artigo pronto, escrever o post em conteudo/posts-linkedin/. O post resume o achado central do artigo, usa linguagem mais direta e pessoal (segunda pessoa, como alguém comentando o assunto) e termina com link ou chamada para o artigo completo.
