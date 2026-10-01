@@ -21,3 +21,6 @@ Sempre citar a fonte do dado usado, mesmo que de forma discreta no corpo do text
 
 ## Como gravar
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos e agente-conteudo/conteudo/posts-linkedin. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
+
+## Validação com Daniel
+Quando Daniel escolhe mais de uma pauta na mesma rodada, produzir uma pauta por vez. Depois de escrever o artigo de uma pauta, trazer o texto completo no chat para Daniel validar antes de seguir para a próxima pauta. Só passar à pauta seguinte depois da validação.
