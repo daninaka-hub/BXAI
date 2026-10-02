@@ -27,8 +27,8 @@ Depois do header, inserir quatro linhas em branco (cada uma só com um ponto fin
 Ao final do post, depois do link do artigo, incluir de 3 a 5 hashtags relacionadas ao pilar e ao tema central do post (não uma lista fixa igual em todo post). Formato CamelCase, sem espaço, em português quando o termo for comum em português (ex: #Controladoria) ou em inglês quando for o termo usual do mercado (ex: #FPA, #ForecastingMethods).
 
 ## Passo 2.5: roteiro de vídeo de 1 minuto para LinkedIn
-A partir do artigo pronto, escrever o roteiro de um vídeo de até 1 minuto em conteudo/roteiros-video/, para publicação no LinkedIn. O roteiro usa o mesmo achado central do artigo, com o mesmo gancho de abertura dos primeiros 2 ou 3 segundos (sem preâmbulo), porque é o tempo que decide se a pessoa continua assistindo.
-Formato: marcação de tempo aproximada por bloco (ex: 0-3s, 3-15s), texto a ser falado em cada bloco, e indicação entre colchetes do que aparece na tela nesse bloco (texto na tela, gráfico, corte). Fechamento do vídeo com a mesma chamada do post, para o artigo completo.
+A partir do artigo pronto, escrever o roteiro de um vídeo de até 1 minuto em conteudo/roteiros-video/, para publicação no LinkedIn. O vídeo é gravado só com Daniel falando direto para a câmera, sem gráfico ou texto na tela, então o roteiro traz só a fala, sem indicação de tela. O roteiro usa o mesmo achado central do artigo, com o mesmo gancho de abertura dos primeiros 2 ou 3 segundos (sem preâmbulo), porque é o tempo que decide se a pessoa continua assistindo.
+Formato: marcação de tempo aproximada por bloco (ex: 0-3s, 3-15s) e texto a ser falado em cada bloco. Fechamento do vídeo com a mesma chamada do post, para o artigo completo.
 Linguagem falada, não lida. Frases curtas, como alguém explicando o achado para outra pessoa, não narrando um texto escrito.
 
 ## Regras de marca
