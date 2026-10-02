@@ -7,7 +7,7 @@ Em 2021, a Zillow comprou casas com um algoritmo que precificava usando dados de
 
 O erro não foi de cálculo. Foi de uma premissa sem data de revisão, que ninguém parou para checar.
 
-45% das empresas ainda montam o orçamento a partir de um número fixo, definido uma vez e esquecido até o fim do ciclo. Toda premissa, taxa de crescimento, custo esperado, preço de mercado, precisa responder três perguntas. Quem definiu esse número. Com que critério. Quando ele será revisado.
+Toda premissa de orçamento, taxa de crescimento, custo esperado, preço de mercado, precisa responder três perguntas antes de entrar na planilha. Quem definiu esse número. Com que critério. Quando ele será revisado.
 
 Quando falta uma dessas três respostas, a premissa não está errada ainda. Ela só está sem controle. E uma premissa sem controle não aparece como erro na hora em que foi criada, aparece meses depois, como prejuízo.
 
