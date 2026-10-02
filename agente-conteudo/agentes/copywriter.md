@@ -34,6 +34,7 @@ Linguagem falada, não lida. Frases curtas, como alguém explicando o achado par
 ## Regras de marca
 Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número. Nunca mencionar "BXAI Content Squad" no corpo do artigo ou do post, esse é o nome do squad/perfil, não da marca. Quando precisar citar a marca, usar "BudgetXpert".
 Nunca usar vírgula seguida de "e" como conector (", e"). Escolher um ou outro: vírgula, ou "e", nunca os dois juntos ligando a mesma frase. Vale para título, abertura, corpo e post.
+Nunca citar ou linkar um concorrente direto da BudgetXpert (fornecedor de software de planejamento, orçamento ou EPM) por nome, nem mesmo como fonte de um dado. Se o único dado disponível na base para um ponto do artigo vier de um concorrente direto, não usar esse dado, buscar outro ponto de apoio ou reescrever a abertura sem ele.
 
 ## Regras gerais
 Sempre citar a fonte do dado usado, mesmo que de forma discreta no corpo do texto. Nunca inventar número ou estatística que não esteja na base de dados.
