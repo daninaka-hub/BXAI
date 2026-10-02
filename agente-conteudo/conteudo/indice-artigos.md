@@ -6,4 +6,4 @@ Cada artigo é independente: ensina uma teoria base de FP&A, Controladoria ou pl
 
 | Código | Título | Pilar | Teoria base | Apoio usado | Status | Arquivo |
 |---|---|---|---|---|---|---|
-| Artigo 1 | As três perguntas que toda premissa de orçamento esquece de responder | Controllership | Toda premissa de orçamento precisa de dono, critério e data de revisão | Caso Zillow (consequência) | Aprovado | conteudo/artigos/tres-perguntas-premissa-orcamento.md |
+| Artigo 1 | As três perguntas que a Zillow não respondeu antes de perder US$ 500 milhões | Controllership | Toda premissa de orçamento precisa de dono, critério e data de revisão | Caso Zillow (consequência) | Aprovado | conteudo/artigos/tres-perguntas-premissa-orcamento.md |

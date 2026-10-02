@@ -1,28 +1,28 @@
 ## Roteiro de vídeo, 1 minuto, LinkedIn
-Artigo de referência: As três perguntas que toda premissa de orçamento esquece de responder
+Artigo de referência: As três perguntas que a Zillow não respondeu antes de perder US$ 500 milhões
 
 **0 a 3s**
-Fala: "Você sabe quem decidiu o número que está no seu orçamento agora?"
-[Tela: pergunta em texto grande, fundo navy]
+Fala: "A Zillow perdeu US$ 500 milhões por não responder uma pergunta simples."
+[Tela: "US$ 500 milhões" em texto grande, fundo navy]
 
-**3 a 12s**
-Fala: "45% das empresas ainda usam um orçamento fixo, definido uma vez e esquecido até o fim do ano. O problema não é o número estar errado. É ninguém mais saber de onde ele veio."
-[Tela: número "45%" em destaque, fonte Jedox em texto pequeno]
+**3 a 15s**
+Fala: "Em 2021, ela comprava casas com um algoritmo que usava preços de até 30 dias atrás. O mercado mudava toda semana. Isso bastou para perder meio bilhão de dólares."
+[Tela: linha do tempo simples, "2021, dado de 30 dias, mercado em queda"]
 
-**12 a 20s**
-Fala: "Toda premissa de orçamento, taxa de crescimento, custo, preço, precisa responder três perguntas."
+**15 a 22s**
+Fala: "O erro não foi de cálculo. Foi de uma premissa sem dono, sem critério, ou sem data de revisão."
 [Tela: contador visual "1, 2, 3" aparecendo]
 
-**20 a 35s**
-Fala: "Primeira, quem definiu esse número. Segunda, com que critério. Terceira, quando ele vai ser revisado."
+**22 a 38s**
+Fala: "Toda premissa de orçamento precisa responder três perguntas. Quem definiu esse número. Com que critério. Quando ele vai ser revisado."
 [Tela: as três perguntas aparecem uma de cada vez, em texto curto]
 
-**35 a 48s**
-Fala: "Quando falta uma dessas respostas, a premissa não está errada ainda. Ela só está sem dono. E isso não aparece como erro na hora que foi criada. Aparece meses depois, como prejuízo."
+**38 a 50s**
+Fala: "Sem essas três respostas, a premissa não está errada ainda. Ela só está sem controle. E isso não aparece na hora em que foi criada. Aparece meses depois, como prejuízo."
 [Tela: corte para texto "sem dono, sem controle"]
 
-**48 a 55s**
-Fala: "O artigo completo explica as três perguntas e como aplicar isso antes de fechar a próxima premissa."
+**50 a 55s**
+Fala: "O artigo completo explica as três perguntas e o caso Zillow em detalhe."
 [Tela: capa do artigo]
 
 **55 a 60s**

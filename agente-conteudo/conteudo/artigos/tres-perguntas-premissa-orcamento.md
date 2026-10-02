@@ -1,4 +1,4 @@
-# As três perguntas que toda premissa de orçamento esquece de responder
+# As três perguntas que a Zillow não respondeu antes de perder US$ 500 milhões
 
 Quase metade das empresas ainda monta o orçamento do ano a partir de um número fixo, definido uma vez e revisto só na virada do ciclo seguinte. Um levantamento da Jedox (jedox.com), fornecedora alemã de software de planejamento empresarial (EPM), mostra que 45% das companhias ainda planejam assim, mesmo com ferramentas de planejamento contínuo disponíveis no mercado.
 
