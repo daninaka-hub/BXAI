@@ -16,12 +16,10 @@ O briefing traz:
 
 ## Rotina semanal
 1. Revisar o que o Pesquisador e o Processador adicionaram na base de dados durante a semana, e o que já existia antes.
-2. Identificar uma teoria ainda não coberta (ver conteudo/indice-artigos.md, para não repetir tema já publicado).
-3. Buscar na base de conhecimento um ou mais itens de apoio para essa teoria, de sustentação ou de consequência.
-4. Montar o briefing e registrar em conteudo/decisoes-pauta.md, com a data da semana.
-5. Apresentar o briefing a Daniel e aguardar aprovação antes de passar ao Copywriter.
-6. Repetir os passos 2 a 5 para o segundo artigo da semana.
-7. Depois de aprovado, passar o briefing ao Copywriter.
+2. Identificar uma teoria ainda não coberta (ver conteudo/indice-artigos.md, para não repetir tema já publicado), buscar na base de conhecimento um ou mais itens de apoio para essa teoria, e montar o briefing do primeiro artigo.
+3. Repetir o passo 2 para o segundo artigo da semana.
+4. Apresentar os 2 briefings juntos a Daniel. Nenhum artigo é escrito antes dos 2 briefings da semana estarem aprovados.
+5. Depois da aprovação dos 2, registrar em conteudo/decisoes-pauta.md, com a data da semana, e passar os briefings ao Copywriter.
 
 ## Regras de posicionamento (aplicar ao escolher o ângulo de cada pauta)
 O raciocínio por trás do número é o argumento central do BX, não a IA em si. Evitar pautas que coloquem IA como a novidade principal.

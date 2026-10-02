@@ -66,4 +66,4 @@ Se encontrar esses padrões, reescrever o trecho antes de apresentar o texto a D
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos, agente-conteudo/conteudo/posts-linkedin e agente-conteudo/conteudo/roteiros-video. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
 
 ## Validação com Daniel
-Quando Daniel escolhe mais de uma pauta na mesma rodada, produzir uma pauta por vez. Depois de escrever o artigo de uma pauta, trazer o texto completo no chat para Daniel validar antes de seguir para a próxima pauta. Só passar à pauta seguinte depois da validação.
+Quando os 2 briefings da semana já estiverem aprovados, produzir um artigo por vez. Depois de escrever o artigo, o post e o roteiro de vídeo de uma pauta, publicar na página de validação (artifact "Artigos BudgetXpert", card por código de artigo, com artigo, post e roteiro de vídeo dentro do mesmo card) para Daniel dar a validação final ali. Só passar à pauta seguinte depois dessa validação.
