@@ -19,4 +19,7 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-01 | Integrated Planning | estatística | IDC / IBM | Organizações só 30% prontas para IA em processos, 40% para analytics em forecasting |
 | 2026-10-01 | Integrated Planning | estudo de caso | IBM | Landmark Retail reduziu 75% do tempo em orçamento e consolidação com IBM Planning Analytics |
 | 2026-10-01 | Forecasting Methods | teórico | IBM | O que é rolling forecast e como difere do orçamento estático anual |
+| 2026-10-03 | Controllership | estudo de caso | Shackleford | Zillow Offers perdeu US$ 881 milhões em 2021, mecanismo detalhado (advisory virou vinculante, concept drift, seleção adversa, Project Ketchup) |
+| 2026-10-03 | Controllership | estudo de caso | GeekWire | Zillow cortou 2.000 funcionários e ação caiu 18% no anúncio do fim do iBuying, fala do CEO Rich Barton |
+| 2026-10-03 | Controllership | estudo de caso | IdeaProof / DayTrading.com | Zillow acumulou US$ 3,8 bi em estoque, vendeu 7 mil casas com prejuízo, pagou acima do mercado em 65% das compras |
 

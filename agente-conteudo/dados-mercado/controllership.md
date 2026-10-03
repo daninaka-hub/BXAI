@@ -11,6 +11,21 @@ Fonte: SphereOI, "How Zillow could have avoided its $500M AI mistake".
 Link: https://sphereoi.ai/how-zillow-could-have-avoided-its-500m-ai-mistake/
 Data de coleta: 2026-10-01
 
+A Zillow Offers registrou US$ 881 milhões em perdas em 2021, incluindo US$ 304 milhões de baixa contábil no estoque de imóveis só no terceiro trimestre. O modelo de precificação funcionava como projetado, mas foi usado fora do contexto para o qual tinha sido validado: até fevereiro de 2021 ele só gerava estimativas de referência (advisory), e a partir daí a Zillow passou a transformar essas mesmas estimativas em ofertas de compra vinculantes, sem nova camada de governança para isso. O modelo também tinha sido treinado num mercado imobiliário em alta constante, sem nenhuma representação de um mercado em desaceleração, e passou a comprar sistematicamente os imóveis que o mercado aberto rejeitava (seleção adversa). Em meados de 2021, um projeto interno apelidado de "Project Ketchup" fez a gestão sobrescrever as ofertas do algoritmo para cima, para bater meta de volume, removendo a checagem humana independente que existia antes.
+Fonte: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk".
+Link: https://www.shackleford.coach/ai-leadership-insights/zillow-lost-881-million-the-ai-was-working-perfectly
+Data de coleta: 2026-10-03
+
+No anúncio do encerramento da Zillow Offers, em novembro de 2021, a empresa cortou cerca de 2.000 funcionários (25% do quadro da divisão) e as ações da Zillow caíram 18% no dia do anúncio, acumulando queda de 50% no ano. O CEO Rich Barton atribuiu o fim do projeto à incapacidade do próprio modelo de prever com confiabilidade quanto capital a empresa precisaria arriscar no futuro, e recusou atribuir o problema a eventos externos imprevisíveis.
+Fonte: GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI".
+Link: https://www.geekwire.com/2021/ibuying-algorithms-failed-zillow-says-business-worlds-love-affair-ai/
+Data de coleta: 2026-10-03
+
+A Zillow Offers acumulou US$ 3,8 bilhões em estoque de imóveis antes do fechamento e vendeu cerca de 7.000 casas com prejuízo. Segundo essa análise, o algoritmo pagou acima do valor de mercado em 65% dos imóveis que comprou.
+Fonte: IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)". Também em DayTrading.com, "Why Zillow iBuying Failed (Zillow Offers)".
+Link: https://ideaproof.io/failure/zillow-offers
+Data de coleta: 2026-10-03
+
 A Kraft Heinz pagou US$ 62 milhões em multa à SEC em 2021 por um esquema contábil de anos que inflava artificialmente resultados. A empresa reconhecia descontos de fornecedores que não tinha realmente ganho e mantinha contratos de procurement falsos, reduzindo de forma indevida o custo de bens vendidos. Ao reapresentar as demonstrações financeiras em junho de 2019, a empresa corrigiu cerca de US$ 208 milhões em economias de custo impropriamente reconhecidas, em aproximadamente 300 transações.
 Fonte: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme".
 Link: https://www.sec.gov/litigation/litreleases/2021/lr25195.htm

@@ -284,13 +284,13 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 276 | What is xP&A? Extended planning & analysis explained - Jedox | Alta | Pendente |
 | 277 | What is xP&A? | Workday US | Alta | Pendente |
 | 278 | What's the Difference Between FP&A and Finance Controller? | Alta | Pendente |
-| 279 | Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021) - IdeaProof | Alta | Pendente |
+| 279 | Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021) - IdeaProof | Alta | Processado |
 | 280 | Why The Secret CFO calls this finance leader 'the most AI-pilled CFO' | Baixa | Pendente |
-| 281 | Why Zillow iBuying Failed (Zillow Offers) - DayTrading.com | Alta | Pendente |
-| 282 | Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI - GeekWire | Alta | Pendente |
+| 281 | Why Zillow iBuying Failed (Zillow Offers) - DayTrading.com | Alta | Processado |
+| 282 | Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI - GeekWire | Alta | Processado |
 | 283 | Workday Recognized as a Leader in 2025 Gartner Magic Quadrant for Financial Planning Software for Fourth Year in a Row | Alta | Pendente |
 | 284 | Your Finance AI Needs To Understand Why The Numbers Moved - Forbes | Alta | Pendente |
-| 285 | Zillow Offers Loss: A $881M Study in AI Model Risk - shackleford, a coaching company | Alta | Pendente |
+| 285 | Zillow Offers Loss: A $881M Study in AI Model Risk - shackleford, a coaching company | Alta | Processado |
 | 286 | Zillow Offers' US$500 Million AI Failure | Alta | Processado |
 | 287 | business controller vs financial controller: understanding the key differences - Randstad | Alta | Pendente |
 | 288 | ck prahalad award past winners - Corporate Eco Forum | Baixa | Pendente |
