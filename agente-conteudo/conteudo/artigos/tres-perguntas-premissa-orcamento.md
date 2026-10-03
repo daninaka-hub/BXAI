@@ -1,4 +1,4 @@
-# As três perguntas que a Zillow não respondeu antes de perder US$ 500 milhões
+# A Zillow perdeu US$ 500 milhões sem errar uma única conta, por quê?
 
 Em 2021, a Zillow Offers, braço de compra e venda direta de imóveis da Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, perdeu cerca de US$ 500 milhões comprando casas com um algoritmo de precificação. O algoritmo decidia o preço de compra quase em tempo real, mas usava dados de até 30 dias atrás, em um mercado que mudava de preço toda semana. A Zillow encerrou o serviço em novembro de 2021.
 

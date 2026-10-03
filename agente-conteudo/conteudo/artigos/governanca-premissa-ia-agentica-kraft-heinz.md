@@ -1,4 +1,4 @@
-# O buraco de governança que custou US$ 450 milhões à Kraft Heinz é o mesmo que trava a IA agêntica em finanças
+# O que a fraude de US$ 450 milhões da Kraft Heinz tem a ver com sua IA agêntica
 
 A Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), inflou seus resultados por anos reconhecendo descontos de fornecedores que não existiam de verdade. O esquema rodou em cerca de 300 transações antes de aparecer. Em 2019, a empresa corrigiu US$ 208 milhões em economias de custo que tinha lançado sem nunca ter ganhado. Em 2021, pagou US$ 62 milhões de multa à SEC, o regulador do mercado de capitais dos Estados Unidos (sec.gov). Em 2023, fechou acordo de US$ 450 milhões com acionistas para encerrar a ação coletiva sobre o caso.
 
