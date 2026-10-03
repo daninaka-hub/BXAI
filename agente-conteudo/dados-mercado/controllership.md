@@ -36,3 +36,13 @@ Fonte: The D&O Diary, "Kraft Heinz Securities Litigation Settles for $450 Millio
 Link: https://www.dandodiary.com/2023/05/articles/securities-litigation/kraft-heinz-securities-litigation-settles-for-450-million/
 Data de coleta: 2026-10-01
 
+Em 21 de fevereiro de 2019, a Kraft Heinz anunciou uma baixa contábil de US$ 15,4 bilhões, US$ 7,1 bilhões de redução de goodwill (principalmente das operações nos EUA e Canadá) e US$ 8,3 bilhões de redução de ativos intangíveis (incluindo as marcas Kraft e Oscar Mayer), resultando em prejuízo líquido de US$ 12,6 bilhões no trimestre. O esquema de procurement foi investigado pela SEC entre o último trimestre de 2015 e o final de 2018. Dois executivos foram penalizados individualmente: o COO Eduardo Pelleissone pagou US$ 300 mil em multa, e o Chief Procurement Officer Klaus Hofmann pagou US$ 100 mil e foi banido por 5 anos de atuar como executivo ou diretor de empresa de capital aberto.
+Fonte: Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".
+Link: https://s3.us-east-1.amazonaws.com/web.nacva.com/JFIA/Issues/JFIA-2023-No3-4.pdf
+Data de coleta: 2026-10-03
+
+A 3G Capital, gestora que controla a Kraft Heinz, aplicava orçamento base zero, onde cada despesa precisa ser justificada do zero a cada ciclo, e cobrava meta mínima de crescimento de EBITDA de 6,1% para liberar bônus aos times. Em 2017, a empresa só atingiu 3% de crescimento de EBITDA, abaixo da meta que condicionava a remuneração.
+Fonte: Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".
+Link: https://s3.us-east-1.amazonaws.com/web.nacva.com/JFIA/Issues/JFIA-2023-No3-4.pdf
+Data de coleta: 2026-10-03
+

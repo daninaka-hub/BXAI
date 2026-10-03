@@ -184,7 +184,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 176 | Jack McCullough - Forbes | Baixa | Pendente |
 | 177 | Jack McCullough is helping CFOs rise to the occasion | MIT Sloan Executive Education | Alta | Pendente |
 | 178 | JafarOS Finance Function - Governed CFO & FP&A AI Agents | Digisoul | Alta | Pendente |
-| 179 | Journal of Forensic and Investigative Accounting Volume 15: Issue 3 - Kraft Heinz Company and the $15.4 Billion | Alta | Pendente |
+| 179 | Journal of Forensic and Investigative Accounting Volume 15: Issue 3 - Kraft Heinz Company and the $15.4 Billion | Alta | Processado |
 | 180 | Kraft Heinz Securities Litigation Settles for $450 Million | The D&O Diary | Alta | Processado |
 | 181 | Leading through finance transformation | EY - US | Alta | Pendente |
 | 182 | Making the Case: The ROI of Demand Management - Greg Spira | Alta | Pendente |

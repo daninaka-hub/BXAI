@@ -22,4 +22,6 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-03 | Controllership | estudo de caso | Shackleford | Zillow Offers perdeu US$ 881 milhões em 2021, mecanismo detalhado (advisory virou vinculante, concept drift, seleção adversa, Project Ketchup) |
 | 2026-10-03 | Controllership | estudo de caso | GeekWire | Zillow cortou 2.000 funcionários e ação caiu 18% no anúncio do fim do iBuying, fala do CEO Rich Barton |
 | 2026-10-03 | Controllership | estudo de caso | IdeaProof / DayTrading.com | Zillow acumulou US$ 3,8 bi em estoque, vendeu 7 mil casas com prejuízo, pagou acima do mercado em 65% das compras |
+| 2026-10-03 | Controllership | estudo de caso | Journal of Forensic and Investigative Accounting | Kraft Heinz baixou US$ 15,4 bi em goodwill e intangíveis em 2019, 2 executivos multados individualmente |
+| 2026-10-03 | Controllership | estudo de caso | Journal of Forensic and Investigative Accounting | 3G Capital usava orçamento base zero com meta de EBITDA de 6,1%, só 3% atingido em 2017 |
 
