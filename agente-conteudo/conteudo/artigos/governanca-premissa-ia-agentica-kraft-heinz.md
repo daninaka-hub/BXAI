@@ -1,4 +1,4 @@
-# O que a fraude de US$ 450 milhões da Kraft Heinz tem a ver com sua IA agêntica
+# O que a fraude de US$ 208 milhões da Kraft Heinz tem a ver com sua IA agêntica
 
 A Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), é controlada pela 3G Capital, gestora conhecida por aplicar orçamento base zero: toda despesa precisa ser justificada do zero a cada ciclo, sem herdar automaticamente o que já existia no ano anterior. Para liberar bônus, as equipes precisavam bater uma meta mínima de crescimento de EBITDA de 6,1%. Em 2017, a empresa entregou 3%, menos da metade do exigido.
 
