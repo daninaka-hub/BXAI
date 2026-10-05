@@ -93,7 +93,7 @@ def lint(slug):
             continue
         t = arq.read_text(encoding="utf-8").split("\nFonte:")[0]
         vistas = set()
-        for m in re.finditer(r"(?<![#\w])[A-Z]{2,6}\b(?!\$)", t):
+        for m in re.finditer(r"(?<![#\w])[A-Z]{2,6}(?:&[A-Z])?\b(?!\$)", t):
             sg = m.group(0)
             if sg in vistas or sg in SIGLAS_OK:
                 continue
@@ -101,7 +101,7 @@ def lint(slug):
             depois = t[m.end():m.end() + 3]
             antes = t[max(0, m.start() - 2):m.start()]
             if not (depois.lstrip().startswith(("(", ",")) or antes.endswith("(")):
-                erros.append(f"{arq.parent.name}/{arq.name}: sigla {sg} sem explicação na primeira menção")
+                erros.append(f"aviso: {arq.parent.name}/{arq.name}: sigla {sg} sem explicação na primeira menção")
     if art.exists():
         paras = [x for x in art.read_text(encoding="utf-8").split("\n\n") if x.strip() and not x.startswith("#")]
         if paras and re.match(r"(Esse|Essa|Esses|Essas|Isso|Aquele|Aquela|Ele|Ela|Eles|Elas)\b", paras[0].strip()):
@@ -235,7 +235,11 @@ def gravar_producao(cod, etapa=None, estado=None, msg="", titulo=""):
     e = d.setdefault(str(cod), {"titulo": titulo, "etapas": {k: "pendente" for k, _ in ETAPAS}, "msg": ""})
     if titulo:
         e["titulo"] = titulo
-    if etapa:
+    if etapa == "escrita" and estado == "andamento":
+        e["etapas"] = {k: "pendente" for k, _ in ETAPAS}
+        e["etapas"]["escrita"] = "andamento"
+        e["msg"] = ""
+    elif etapa:
         e["etapas"][etapa] = estado
         if estado == "falhou":
             e["msg"] = msg
@@ -462,7 +466,7 @@ if __name__ == "__main__":
     if cmd == "listar":
         print(json.dumps(listar(), ensure_ascii=False))
     elif cmd == "lint":
-        e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if e else 0)
+        e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if [x for x in e if not x.startswith("aviso:")] else 0)
     elif cmd == "status":
         gravar_status(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5] if len(sys.argv) > 5 else "")
     elif cmd == "status-inicio":

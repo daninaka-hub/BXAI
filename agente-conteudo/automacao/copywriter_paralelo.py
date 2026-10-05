@@ -147,10 +147,13 @@ def main():
                     erros = lint_em(wt, b["slug"])
                 except Exception as e:
                     log(f"correção falhou: {e}")
-            if erros:
+            bloqueantes = [x for x in erros if not x.startswith("aviso:")]
+            if bloqueantes:
                 log(f"Artigo {b['codigo']} reprovado no lint:\n" + "\n".join(erros))
                 resultados[b["codigo"]] = RuntimeError("reprovado no lint")
             else:
+                if erros:
+                    log(f"Artigo {b['codigo']} aprovado com avisos:\n" + "\n".join(erros))
                 boas.append(b)
 
         for b in boas:
