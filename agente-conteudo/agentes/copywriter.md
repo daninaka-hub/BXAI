@@ -31,6 +31,18 @@ A partir do artigo pronto, escrever o roteiro de um vídeo de até 1 minuto em c
 Formato: marcação de tempo aproximada por bloco (ex: 0-3s, 3-15s) e texto a ser falado em cada bloco. Fechamento do vídeo com a mesma chamada do post, para o artigo completo.
 Linguagem falada, não lida. Frases curtas, como alguém explicando o achado para outra pessoa, não narrando um texto escrito.
 
+## Passo 2.7: sugestão de arte para o post
+Depois do post e do roteiro, escrever a sugestão de arte em conteudo/artes/ (mesmo nome de arquivo do artigo), para o Designer montar a imagem do post. O arquivo segue exatamente este formato:
+- Primeira linha: "# Sugestão de arte, Artigo N".
+- "Formato:" 1080 por 1350 pixels (retrato, LinkedIn).
+- "Frase de destaque:" o gancho da primeira linha do post, igual.
+- "Dado central:" o número ou achado que a imagem mostra.
+- "Composição:" tipo de gráfico ou elemento visual (comparação, proporção, evolução) e a divisão do espaço. Antes de escrever, olhar as artes já feitas em conteudo/artes/ e escolher uma composição diferente de todas elas.
+- "Paleta e tipografia:" navy 062D3E de fundo, teal 19B09F de destaque, branco para texto, Arial.
+- "Fonte na imagem:" a fonte do dado, com o site da empresa quando for outra empresa.
+- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (fundo, elementos, posição, texto exato, cores).
+Regras: sem logo de terceiros, sem travessão, sem vírgula seguida de "e", sem texto longo dentro da imagem.
+
 ## Regras de marca
 Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número. Nunca mencionar "BXAI Content Squad" no corpo do artigo ou do post, esse é o nome do squad/perfil, não da marca. Quando precisar citar a marca, usar "BudgetXpert".
 Nunca usar vírgula seguida de "e" como conector (", e"). Escolher um ou outro: vírgula, ou "e", nunca os dois juntos ligando a mesma frase. Vale para título, abertura, corpo e post.

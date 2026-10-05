@@ -78,7 +78,8 @@ def lint(slug):
     """Devolve a lista de problemas encontrados nos três arquivos."""
     erros = []
     art, post, rot = caminhos(slug)
-    for p in (art, post, rot):
+    arte = CONT / "artes" / f"{slug}.md"
+    for p in (art, post, rot, arte):
         if not p.exists() or not p.read_text(encoding="utf-8").strip():
             erros.append(f"{p.name}: arquivo ausente ou vazio ({p.parent.name})")
             continue
@@ -289,7 +290,8 @@ def html_indice(linhas):
         n = int(re.search(r"\d+", cod).group())
         links = (f'<a href="{GITHUB}conteudo/artigos/{slug}.md" target="_blank" rel="noopener">artigo</a> &middot; '
                  f'<a href="{GITHUB}conteudo/posts-linkedin/{slug}.md" target="_blank" rel="noopener">post</a> &middot; '
-                 f'<a href="{GITHUB}conteudo/roteiros-video/{slug}.md" target="_blank" rel="noopener">roteiro</a>')
+                 f'<a href="{GITHUB}conteudo/roteiros-video/{slug}.md" target="_blank" rel="noopener">roteiro</a> &middot; '
+                 f'<a href="{GITHUB}conteudo/artes/{slug}.md" target="_blank" rel="noopener">arte</a>')
         itens.append(f'<li><span class="code">{esc(cod)}</span><div class="ix-txt"><a class="ix-titulo" href="#artigo-{n}" data-abrir="{n}">{esc(titulo)}</a>'
                      f'<div class="ix-meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span><span class="ix-links">{links}</span></div></div></li>')
     return '<div class="section-label">Índice dos artigos</div><ul class="indice">' + "".join(itens) + "</ul>"
@@ -379,6 +381,13 @@ details[open] .chev{transform:rotate(90deg);}
 .ix-links a{color:var(--teal);text-decoration:none;}
 .ix-links a:hover{text-decoration:underline;}
 .card{scroll-margin-top:12px;}
+.arte-box{border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-top:4px;}
+.arte-linha{font-size:13.5px;line-height:1.55;margin-bottom:6px;color:var(--fg);}
+.arte-prompt{background:var(--teal-soft);border-radius:8px;padding:12px 14px;margin-top:10px;}
+.arte-prompt p{font-size:13.5px;line-height:1.6;margin:8px 0 0;color:var(--fg);}
+.arte-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--fg);}
+.copiar{font:inherit;font-size:12px;font-weight:bold;border-radius:6px;padding:4px 10px;cursor:pointer;background:var(--card);color:var(--teal);border:1px solid var(--border);}
+.copiar:focus-visible{outline:2px solid var(--teal);outline-offset:2px;}
 .abas{display:flex;gap:8px;margin:0 0 22px 18px;}
 .aba{font:inherit;font-size:14px;font-weight:bold;border-radius:8px;padding:8px 18px;cursor:pointer;background:var(--card);color:var(--muted);border:1px solid var(--border);}
 .aba:hover{color:var(--fg);}
@@ -414,6 +423,17 @@ def html_post(slug):
     return (f'<div class="post-box"><div class="post-header">{esc(cab)}</div>'
             f'<div class="cut-marker">corte do "ver mais" no LinkedIn</div>\n{ps}</div>')
 
+def html_arte(slug):
+    p = CONT / "artes" / f"{slug}.md"
+    if not p.exists():
+        return ""
+    t = p.read_text(encoding="utf-8")
+    prompt = t.split("Prompt:", 1)[1].strip() if "Prompt:" in t else ""
+    campos = re.findall(r"^(Formato|Frase de destaque|Dado central|Composição|Paleta e tipografia|Fonte na imagem):\s*(.+)$", t, flags=re.M)
+    linhas = "".join(f'<div class="arte-linha"><b>{esc(k)}:</b> {esc(v)}</div>' for k, v in campos)
+    return (f'<div class="section-label">Sugestão de arte</div><div class="arte-box">{linhas}'
+            f'<div class="arte-prompt"><div class="arte-top"><b>Prompt</b><button type="button" class="copiar">Copiar prompt</button></div><p>{esc(prompt)}</p></div></div>')
+
 def html_roteiro(slug):
     t = caminhos(slug)[2].read_text(encoding="utf-8")
     achados = re.findall(r"\*\*(.+?)\*\*\s*\n(.+?)(?=\n\s*\n|\Z)", t, flags=re.S)
@@ -423,6 +443,7 @@ def html_roteiro(slug):
 JS = r'''function aba(n){["status","artigos"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
 function abrir(){var h=location.hash;if(!h)return;if(h==="#status"||h==="#artigos"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba("artigos");e.open=true;e.scrollIntoView();}}
 document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba("artigos");e.open=true;e.scrollIntoView({behavior:"smooth"});}});
+document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
 if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hidden&&!document.getElementById("aba-status").hidden)location.reload();},60000);}'''
 
@@ -440,7 +461,8 @@ def gerar_pagina():
         cards.append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
 <div class="body"><div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
-<div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}</div></details>""")
+<div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
+{html_arte(slug)}</div></details>""")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
 <div class="sub">Referencie pelo código ao pedir ajustes no chat</div>

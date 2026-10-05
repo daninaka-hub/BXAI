@@ -161,7 +161,7 @@ def main():
 
         for b in boas:
             wt = resultados[b["codigo"]]
-            for rel in (f"conteudo/artigos/{b['slug']}.md", f"conteudo/posts-linkedin/{b['slug']}.md", f"conteudo/roteiros-video/{b['slug']}.md"):
+            for rel in (f"conteudo/artigos/{b['slug']}.md", f"conteudo/posts-linkedin/{b['slug']}.md", f"conteudo/roteiros-video/{b['slug']}.md", f"conteudo/artes/{b['slug']}.md"):
                 dest = REPO / "agente-conteudo" / rel
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(wt / "agente-conteudo" / rel, dest)
