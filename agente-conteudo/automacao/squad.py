@@ -100,7 +100,7 @@ def lint(slug):
             vistas.add(sg)
             depois = t[m.end():m.end() + 3]
             antes = t[max(0, m.start() - 2):m.start()]
-            if not (depois.lstrip().startswith("(") or antes.endswith("(")):
+            if not (depois.lstrip().startswith(("(", ",")) or antes.endswith("(")):
                 erros.append(f"{arq.parent.name}/{arq.name}: sigla {sg} sem explicação na primeira menção")
     if art.exists():
         paras = [x for x in art.read_text(encoding="utf-8").split("\n\n") if x.strip() and not x.startswith("#")]
