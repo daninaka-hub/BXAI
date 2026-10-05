@@ -6,34 +6,34 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 
 | # | Fonte | Prioridade | Status |
 |---|---|---|---|
-| 1 | 10 Best Accounting AI Consultants for CPA Firms (2026) - negodiuk.ai | Alta | Pendente |
+| 1 | 10 Best Accounting AI Consultants for CPA Firms (2026) - negodiuk.ai | Alta | Descartado |
 | 2 | 11 corporate finance influencers to follow in 2026 - Rydoo | Baixa | Pendente |
-| 3 | 18 AI Tools for Accounting and Finance - Vic.ai | Alta | Pendente |
-| 4 | 2025 CFO Leadership Perspectives - Gartner C-level Communities | Alta | Pendente |
+| 3 | 18 AI Tools for Accounting and Finance - Vic.ai | Alta | Processado |
+| 4 | 2025 CFO Leadership Perspectives - Gartner C-level Communities | Alta | Processado |
 | 5 | 2025 Controller of the Year Awards - Winners Announced | Baixa | Pendente |
-| 6 | 2025 Gartner Magic Quadrant for Financial Planning Software - CFO Shortlist | Alta | Pendente |
-| 7 | 2025 Gartner Critical Capabilities for Financial Planning Software - Jedox | Alta | Pendente |
-| 8 | 2025 Gartner Magic Quadrant for Financial Planning Software - Vena Solutions | Alta | Pendente |
-| 9 | 2026 AI Business Predictions - PwC | Alta | Pendente |
-| 10 | 2026 Finance Leader's Guide to FP&A - OneStream Software | Alta | Pendente |
-| 11 | 2026 Finance and Accounting Salaries and Compensation Trends - Robert Half | Alta | Pendente |
+| 6 | 2025 Gartner Magic Quadrant for Financial Planning Software - CFO Shortlist | Alta | Processado |
+| 7 | 2025 Gartner Critical Capabilities for Financial Planning Software - Jedox | Alta | Processado |
+| 8 | 2025 Gartner Magic Quadrant for Financial Planning Software - Vena Solutions | Alta | Descartado |
+| 9 | 2026 AI Business Predictions - PwC | Alta | Processado |
+| 10 | 2026 Finance Leader's Guide to FP&A - OneStream Software | Alta | Descartado |
+| 11 | 2026 Finance and Accounting Salaries and Compensation Trends - Robert Half | Alta | Processado |
 | 12 | 2026 Ireland Finance and Accounting Salary Guide and Survey - Robert Half | Baixa | Pendente |
 | 13 | 2026 UK Finance and Accounting Salary Guide and Survey - Robert Half | Baixa | Pendente |
-| 14 | 2026: The year of Agentic AI, and a new era for finance - Lloyds Banking Group | Alta | Pendente |
+| 14 | 2026: The year of Agentic AI, and a new era for finance - Lloyds Banking Group | Alta | Processado |
 | 15 | 45+ FP&A interview questions to find the right candidate - HiBob | Baixa | Pendente |
 | 16 | 48 Results for Financial Planning Analysis Manager Jobs in Metuchen, NJ | Baixa | Pendente |
-| 17 | 6 Lessons Learned From The Target Canada Supply Chain Failure - Panorama Consulting | Alta | Pendente |
+| 17 | 6 Lessons Learned From The Target Canada Supply Chain Failure - Panorama Consulting | Alta | Processado |
 | 18 | 6 Strategic Planning Manager Interview Questions and Answers - Himalayas | Baixa | Pendente |
-| 19 | 7 Best Financial Close Software Tools for 2026 - Bluecopa | Alta | Pendente |
-| 20 | A Comprehensive Guide to SOX Compliance in 2025 - Pathlock | Alta | Pendente |
+| 19 | 7 Best Financial Close Software Tools for 2026 - Bluecopa | Alta | Descartado |
+| 20 | A Comprehensive Guide to SOX Compliance in 2025 - Pathlock | Alta | Processado |
 | 21 | A day in the life of a FP&A manager - Robert Walters USA | Baixa | Pendente |
-| 22 | ACCELERATING PROFITABLE GROWTH - UPL | Alta | Pendente |
-| 23 | AFP FP&A Guide to Driver-based Models and Plans | Alta | Pendente |
-| 24 | AI Agent Governance Policy for Finance: 2026 Practitioner Walkthrough - Finrep Blog | Alta | Pendente |
-| 25 | AI Agents Are Replacing Finance Workflows While Revenue Gets | Alta | Pendente |
-| 26 | AI Agents for Financial Close: Complete Automation Guide for Controllers - Peakflo Blog | Alta | Pendente |
-| 27 | AI Agents in Finance - IBM | Alta | Pendente |
-| 28 | AI Automation ROI Benchmark Report 2026 - Alice Labs | Alta | Pendente |
+| 22 | ACCELERATING PROFITABLE GROWTH - UPL | Alta | Processado |
+| 23 | AFP FP&A Guide to Driver-based Models and Plans | Alta | Processado |
+| 24 | AI Agent Governance Policy for Finance: 2026 Practitioner Walkthrough - Finrep Blog | Alta | Descartado |
+| 25 | AI Agents Are Replacing Finance Workflows While Revenue Gets | Alta | Descartado |
+| 26 | AI Agents for Financial Close: Complete Automation Guide for Controllers - Peakflo Blog | Alta | Processado |
+| 27 | AI Agents in Finance - IBM | Alta | Processado |
+| 28 | AI Automation ROI Benchmark Report 2026 - Alice Labs | Alta | Processado |
 | 29 | AI Certification for Finance and Accounting Professionals | Baixa | Pendente |
 | 30 | AI Financial Reporting & Internal Controls | Alta | Pendente |
 | 31 | AI Governance Architecture in Corporate Controllership, FP&A, and Planning Processes | Alta | Pendente |

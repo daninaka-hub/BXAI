@@ -46,3 +46,23 @@ Fonte: Journal of Forensic and Investigative Accounting, "Kraft Heinz Company an
 Link: https://s3.us-east-1.amazonaws.com/web.nacva.com/JFIA/Issues/JFIA-2023-No3-4.pdf
 Data de coleta: 2026-10-03
 
+
+Segundo a Pathlock, citando relatório da Protiviti de 2024, mais de 50% das empresas tiveram aumento de custo interno com SOX nos dois anos anteriores, e o gasto médio anual passa de US$ 1 milhão por empresa. O orçamento anual varia de cerca de US$ 181 mil (receita abaixo de US$ 25 milhões) a mais de US$ 2 milhões (receita acima de US$ 10 bilhões).
+Fonte: Pathlock, "A Comprehensive Guide to SOX Compliance in 2025" (cita Protiviti, 2024).
+Link: https://pathlock.com/blog/sox-compliance/
+Data de coleta: 2026-10-05
+
+Segundo o Peakflo, que cita o estudo de benchmark de fechamento da APQC de 2025, o fechamento mensal mediano de empresas de médio porte leva 8,5 dias, e as de melhor desempenho fecham em 3 a 4 dias. O mesmo texto atribui a elas 40% mais acurácia de forecast e 35% melhor gestão de capital de giro. Dado de segunda mão, não conferido na fonte original.
+Fonte: Peakflo, "AI Agents for Financial Close: Complete Automation Guide for Controllers" (cita APQC, Close Process Benchmark Study 2025).
+Link: https://peakflo.co/blog/ai-agents-financial-close-automation-guide
+Data de coleta: 2026-10-05
+
+Estudo do Controllers Council com controllers, CFOs e executivos de finanças, feito entre julho e setembro de 2026, indica que o uso de IA e automação deve chegar a 98% das organizações até 2030, contra 86% hoje. Segundo o estudo, as tarefas contábeis transacionais tendem a ser automatizadas, e o controller passa a combinar gestão de IA, dados e tecnologia com revisão contábil técnica.
+Fonte: Controllers Council, "Controllership 2030: Predictions Study and Webcast Panel" (29/09/2026).
+Link: https://www.prnewswire.com/news-releases/controllership-2030-predictions-study-and-webcast-panel-302892439.html
+Data de coleta: 2026-10-05
+
+[Teórico] O COSO Internal Control, Integrated Framework (2013) é a base de referência para o controle interno e tem cinco componentes, sendo o ambiente de controle o primeiro. Esse ambiente reúne padrões, processos e estruturas que sustentam o controle interno. Segundo o GFOA, cabe à gestão financeira dar o exemplo (tone at the top), definir responsabilidades e alçadas por organogramas e procedimentos documentados, e investir na capacitação da equipe. A conformidade com controles também deve entrar na avaliação de desempenho, e o conselho ou órgão de governança acompanha o resultado e aprova as políticas relevantes. O objetivo é dar segurança razoável de que metas operacionais, de relatório e de conformidade serão atingidas.
+Fonte: GFOA (Government Finance Officers Association), "Internal Control Environment".
+Link: https://www.gfoa.org/materials/internal-control-environment
+Data de coleta: 2026-10-05
