@@ -165,6 +165,24 @@ def html_status():
             f'<span><b>{m["pautas_ok"]}</b> aprovados aguardando produção</span></div>')
     return '<div class="section-label">Status dos agentes</div><div class="agentes">' + "".join(cards) + "</div>" + metr
 
+def html_briefings():
+    itens = []
+    for _, c in tabela(CONT / "decisoes-pauta.md"):
+        ap = c[-1]
+        if ap.startswith("Sim (Artigo"):
+            continue
+        tese = c[5] if len(c) > 6 else ""
+        if tese.lower() == "a definir":
+            tese = ""
+        pend = ap == "Pendente"
+        selo = "Aguardando sua aprovação" if pend else ("Aprovado, na fila do Copywriter" if ap == "Sim" else esc(ap))
+        classe = "bf-pend" if pend else "bf-ok"
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">Briefing {esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span></div>'
+                     + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
+                     + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div></div>')
+    corpo = "".join(itens) or '<div class="brief bf-vazio">Nenhum briefing aguardando. O Head monta 2 por semana, às segundas.</div>'
+    return '<div class="section-label">Briefings para aprovar</div>' + corpo
+
 def html_indice(linhas):
     itens = []
     for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
@@ -227,6 +245,18 @@ details[open] .chev{transform:rotate(90deg);}
 .ag-agenda{font-size:12px;color:var(--muted);margin-top:4px;}
 .metricas{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);margin:2px 0 26px;}
 .metricas b{color:var(--fg);}
+.brief{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px;}
+.brief-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
+.bf{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 7px;}
+.bf-pend{color:#7A4B00;background:#FFEFC9;}
+.bf-ok{color:var(--teal);background:var(--teal-soft);}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .bf-pend{color:#FFD98A;background:#3A2C0A;}}
+:root[data-theme="dark"] .bf-pend{color:#FFD98A;background:#3A2C0A;}
+.bf-data{font-size:12px;color:var(--muted);margin-left:auto;}
+.bf-tese{font-size:15px;font-weight:bold;line-height:1.4;margin-bottom:8px;color:var(--fg);}
+.bf-sem{color:var(--muted);font-weight:normal;font-style:italic;}
+.bf-linha{font-size:13px;line-height:1.5;color:var(--muted);margin-top:4px;}
+.bf-vazio{color:var(--muted);font-size:14px;}
 .indice{list-style:none;margin:0 0 28px;padding:0;background:var(--card);border:1px solid var(--border);border-radius:10px;}
 .indice li{display:flex;gap:12px;align-items:flex-start;padding:12px 16px;border-bottom:1px solid var(--border);}
 .indice li:last-child{border-bottom:0;}
@@ -295,6 +325,7 @@ def gerar_pagina():
 <div class="wrap"><header><div class="bar"></div><h1>Artigos BudgetXpert</h1></header>
 <div class="sub">Squad de conteúdo &middot; referencie pelo código ao pedir ajustes no chat</div>
 {html_status()}
+{html_briefings()}
 {html_indice(linhas)}
 <div class="section-label">Artigos</div>
 {chr(10).join(cards)}
