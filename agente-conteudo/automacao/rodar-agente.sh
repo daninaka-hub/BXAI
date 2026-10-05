@@ -21,9 +21,8 @@ painel() {
     git add agente-conteudo/status agente-conteudo/validacao &&
     git commit -q -m "Painel: status do $AGENTE ($1)" &&
     git pull -q --rebase --autostash origin main &&
-    git push -q origin HEAD:main &&
-    caffeinate -i claude -p "$(cat agente-conteudo/automacao/prompt-publicar.md)" \
-      --permission-mode acceptEdits --allowedTools "Read,Artifact" ) >> "$LOG" 2>&1 || true
+    git push -q origin HEAD:main ) >> "$LOG" 2>&1 || git rebase --abort >> "$LOG" 2>&1 || true
+  # A página é servida pelo GitHub Pages, então o push já atualiza o painel
 }
 falha() { echo "FALHA: $1" | tee -a "$LOG"; painel falhou "$1"; notificar "$AGENTE falhou" "$1"; exit 1; }
 

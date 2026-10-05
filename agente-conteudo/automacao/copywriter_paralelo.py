@@ -55,9 +55,9 @@ def painel(motivo):
         sh(["git", "commit", "-m", f"Painel: produção ({motivo})"], check=False)
         sh(["git", "pull", "--rebase", "--autostash", "origin", "main"])
         sh(["git", "push", "origin", "HEAD:main"])
-        claude((AUTO / "prompt-publicar.md").read_text(encoding="utf-8"), REPO, tools="Read,Artifact")
     except Exception as e:
         log(f"painel ({motivo}) não atualizou: {e}")
+        sh(["git", "rebase", "--abort"], check=False)
 
 def preparar(b):
     """Cria a cópia de trabalho do artigo. Roda em sequência, porque o git trava a configuração se duas cópias nascem juntas."""
@@ -202,19 +202,10 @@ def main():
                 sh(["git", "worktree", "remove", "--force", str(wt)], check=False)
             sh(["git", "branch", "-D", f"artigo-{b['codigo']}"], check=False)
 
-        publicado = "não tentado"
-        if boas:
-            try:
-                saida = claude((AUTO / "prompt-publicar.md").read_text(encoding="utf-8"), REPO, tools="Read,Artifact")
-                publicado = "PUBLICADO" if "PUBLICADO" in saida else saida.strip()[:120]
-            except Exception as e:
-                publicado = f"erro: {e}"
         falhas = [b["codigo"] for b in briefs if isinstance(resultados[b["codigo"]], Exception)]
-        msg = f"Artigos {codigos} prontos. Página: {publicado}."
+        msg = f"Artigos {codigos} prontos. A página atualiza sozinha em instantes."
         if falhas:
             msg += f" Falharam: {falhas}."
-        if publicado != "PUBLICADO" and boas:
-            msg += " Peça no chat: publique a página de artigos."
         log(msg)
         notificar("Copywriter concluído" if not falhas else "Copywriter com falhas", msg)
     except Exception as e:
