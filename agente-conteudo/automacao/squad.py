@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+"""Utilitários do squad BXAI: lê briefings aprovados, valida texto e gera a página de validação."""
+import sys, re, json, html, unicodedata, pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]  # agente-conteudo
+CONT = ROOT / "conteudo"
+PAGINA = ROOT / "validacao" / "artigos.html"
+
+def _cells(line):
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+def tabela(path):
+    out = []
+    for ln in pathlib.Path(path).read_text(encoding="utf-8").splitlines():
+        if ln.startswith("|") and not ln.startswith("|---") and not ln.startswith("| Semana") and not ln.startswith("| Código"):
+            out.append((ln, _cells(ln)))
+    return out
+
+def slugify(s, n=7):
+    s = re.sub(r"\(.*?\)", "", s)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    w = re.findall(r"[a-z0-9]+", s.lower())
+    stop = {"de", "do", "da", "a", "o", "e", "que", "um", "uma", "para", "por", "com", "em", "os", "as"}
+    w = [x for x in w if x not in stop][:n]
+    return "-".join(w)
+
+def indice():
+    return tabela(CONT / "indice-artigos.md")
+
+def proximo_codigo():
+    nums = [int(m.group(1)) for _, c in indice() if (m := re.match(r"Artigo (\d+)", c[0]))]
+    return (max(nums) if nums else 0) + 1
+
+def listar():
+    linhas = tabela(CONT / "decisoes-pauta.md")
+    if not linhas:
+        return []
+    semana = max(c[0] for _, c in linhas)
+    sel = [(ln, c) for ln, c in linhas if c[0] == semana and c[5] == "Sim"]
+    n = proximo_codigo()
+    briefs = []
+    for i, (ln, c) in enumerate(sel):
+        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "linha": ln})
+    return briefs
+
+def marcar(linha, texto):
+    p = CONT / "decisoes-pauta.md"
+    t = p.read_text(encoding="utf-8")
+    assert linha in t, "linha do briefing não encontrada"
+    nova = linha.rstrip()
+    assert nova.endswith("| Sim |")
+    nova = nova[: -len("| Sim |")] + f"| {texto} |"
+    p.write_text(t.replace(linha, nova, 1), encoding="utf-8")
+
+def indexar(codigo, slug, titulo, pilar, teoria, apoio):
+    p = CONT / "indice-artigos.md"
+    t = p.read_text(encoding="utf-8").rstrip("\n")
+    t += f"\n| Artigo {codigo} | {titulo} | {pilar} | {teoria} | {apoio} | Em validação | conteudo/artigos/{slug}.md |\n"
+    p.write_text(t, encoding="utf-8")
+
+def titulo_do_artigo(slug):
+    primeira = (CONT / "artigos" / f"{slug}.md").read_text(encoding="utf-8").splitlines()[0]
+    return primeira.lstrip("# ").strip()
+
+def caminhos(slug):
+    return [CONT / "artigos" / f"{slug}.md", CONT / "posts-linkedin" / f"{slug}.md", CONT / "roteiros-video" / f"{slug}.md"]
+
+def lint(slug):
+    """Devolve a lista de problemas encontrados nos três arquivos."""
+    erros = []
+    art, post, rot = caminhos(slug)
+    for p in (art, post, rot):
+        if not p.exists() or not p.read_text(encoding="utf-8").strip():
+            erros.append(f"{p.name}: arquivo ausente ou vazio ({p.parent.name})")
+            continue
+        t = p.read_text(encoding="utf-8")
+        for m in re.finditer(r"[\u2014\u2013]", t):
+            erros.append(f"{p.parent.name}/{p.name}: travessão perto de \"{t[max(0, m.start()-30):m.start()+30].strip()}\"")
+        for m in re.finditer(r",\s+e\s", t):
+            erros.append(f"{p.parent.name}/{p.name}: vírgula seguida de \"e\" perto de \"{t[max(0, m.start()-30):m.start()+30].strip()}\"")
+    if art.exists():
+        corpo = re.sub(r"^#.*\n", "", art.read_text(encoding="utf-8"))
+        corpo = corpo.split("\nFonte:")[0]
+        palavras = len(corpo.split())
+        if palavras < 800 or palavras > 1400:
+            erros.append(f"artigo com {palavras} palavras, a meta é cerca de 1000 (aceito de 800 a 1400)")
+    if post.exists():
+        linhas = post.read_text(encoding="utf-8").splitlines()
+        if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
+            erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
+    return erros
+
+CSS = """
+:root{--bg:#F4F6F6;--card:#FFFFFF;--border:#D9E3E1;--fg:#0F2A32;--muted:#53696D;--navy:#062D3E;--teal:#19B09F;--teal-soft:#E4F5F2;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#071A20;--card:#0D2832;--border:#1C3A42;--fg:#EAF3F2;--muted:#9FB8BA;--navy:#0A3A4E;--teal:#2BD6C2;--teal-soft:#113A38;color-scheme:dark;}}
+:root[data-theme="dark"]{--bg:#071A20;--card:#0D2832;--border:#1C3A42;--fg:#EAF3F2;--muted:#9FB8BA;--navy:#0A3A4E;--teal:#2BD6C2;--teal-soft:#113A38;color-scheme:dark;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Arial,Helvetica,sans-serif;}
+.wrap{max-width:720px;margin:0 auto;padding:28px 16px 48px;padding-inline:16px;}
+header{display:flex;align-items:center;gap:12px;margin-bottom:6px;}
+.bar{width:6px;height:34px;background:var(--teal);border-radius:3px;flex:none;}
+h1{font-size:22px;margin:0;letter-spacing:.2px;color:var(--fg);}
+.sub{color:var(--muted);font-size:14px;margin:6px 0 28px 18px;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;margin-bottom:14px;overflow:hidden;}
+.card summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;align-items:flex-start;gap:12px;}
+.card summary::-webkit-details-marker{display:none;}
+.code{flex:none;background:var(--navy);color:#fff;font-size:12px;font-weight:bold;padding:4px 9px;border-radius:6px;letter-spacing:.3px;white-space:nowrap;margin-top:2px;}
+.head-text{min-width:0;flex:1;}
+.title{font-size:15.5px;font-weight:bold;line-height:1.35;color:var(--fg);}
+.meta{display:flex;gap:8px;margin-top:7px;flex-wrap:wrap;}
+.tag{font-size:11px;color:var(--muted);border:1px solid var(--border);border-radius:5px;padding:2px 7px;}
+.status{font-size:11px;font-weight:bold;color:var(--teal);background:var(--teal-soft);border-radius:5px;padding:2px 7px;}
+.chev{flex:none;color:var(--muted);transition:transform .15s ease;margin-top:6px;}
+details[open] .chev{transform:rotate(90deg);}
+.body{padding:0 18px 20px;}
+.section-label{font-size:11px;font-weight:bold;letter-spacing:.6px;text-transform:uppercase;color:var(--teal);margin:18px 0 8px;}
+.text p{font-size:14.5px;line-height:1.65;margin:0 0 12px;color:var(--fg);}
+.text h2{font-size:15.5px;margin:20px 0 8px;color:var(--fg);}
+.source{font-size:12.5px;color:var(--muted);border-top:1px solid var(--border);padding-top:10px;margin-top:4px;}
+.post-box{background:var(--teal-soft);border-radius:8px;padding:14px 16px;margin-top:4px;}
+.post-box p{font-size:14px;line-height:1.6;margin:0 0 10px;color:var(--fg);}
+.post-header{font-size:15px;font-weight:bold;line-height:1.5;margin:0 0 14px;color:var(--fg);}
+.cut-marker{display:flex;align-items:center;gap:8px;margin:0 0 14px;font-size:10.5px;font-weight:bold;letter-spacing:.3px;text-transform:uppercase;color:var(--muted);}
+.cut-marker::before,.cut-marker::after{content:"";flex:1;border-top:1px dashed var(--border);}
+.video-box{border:1px dashed var(--border);border-radius:8px;padding:14px 16px;margin-top:4px;}
+.video-box .block{margin-bottom:12px;}
+.video-box .time{font-size:11px;font-weight:bold;color:var(--teal);}
+.video-box .fala{font-size:14px;margin:3px 0;color:var(--fg);}
+.footer-note{color:var(--muted);font-size:12.5px;text-align:center;margin-top:24px;line-height:1.6;}
+"""
+
+def esc(s):
+    return html.escape(s, quote=False)
+
+def blocos(texto):
+    return [b.strip() for b in re.split(r"\n\s*\n", texto.strip()) if b.strip()]
+
+def html_artigo(slug):
+    t = caminhos(slug)[0].read_text(encoding="utf-8")
+    t = re.sub(r"^#.*\n", "", t, count=1)
+    out = []
+    for b in blocos(t):
+        if b.startswith("## "):
+            out.append(f"<h2>{esc(b[3:].strip())}</h2>")
+        elif b.startswith("Fonte:"):
+            out.append(f'<div class="source">{esc(b)}</div>')
+        else:
+            out.append(f"<p>{esc(' '.join(b.splitlines()))}</p>")
+    return "\n".join(out)
+
+def html_post(slug):
+    linhas = caminhos(slug)[1].read_text(encoding="utf-8").splitlines()
+    cab = linhas[0].strip()
+    resto = "\n".join(x for x in linhas[1:] if x.strip() != ".")
+    ps = "\n".join(f"<p>{esc('<br>'.join(b.splitlines())).replace('&lt;br&gt;', '<br>')}</p>" for b in blocos(resto))
+    return (f'<div class="post-box"><div class="post-header">{esc(cab)}</div>'
+            f'<div class="cut-marker">corte do "ver mais" no LinkedIn</div>\n{ps}</div>')
+
+def html_roteiro(slug):
+    t = caminhos(slug)[2].read_text(encoding="utf-8")
+    achados = re.findall(r"\*\*(.+?)\*\*\s*\n(.+?)(?=\n\s*\n|\Z)", t, flags=re.S)
+    blocos_html = "".join(f'<div class="block"><div class="time">{esc(h.strip())}</div><div class="fala">{esc(" ".join(f.split()))}</div></div>' for h, f in achados)
+    return f'<div class="video-box">{blocos_html}</div>'
+
+def gerar_pagina():
+    cards = []
+    linhas = indice()
+    codigos = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas), reverse=True)
+    abertos = set(codigos[:2])
+    for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
+        cod, titulo, pilar, status, arquivo = c[0], c[1], c[2], c[5], c[6]
+        slug = pathlib.Path(arquivo).stem
+        n = int(re.search(r"\d+", cod).group())
+        aberto = " open" if n in abertos else ""
+        cards.append(f"""<details class="card"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
+<div class="body"><div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
+<div class="section-label">Post LinkedIn</div>{html_post(slug)}
+<div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}</div></details>""")
+    pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
+<div class="wrap"><header><div class="bar"></div><h1>Artigos BudgetXpert</h1></header>
+<div class="sub">Squad de conteúdo &middot; referencie pelo código ao pedir ajustes no chat</div>
+{chr(10).join(cards)}
+<div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div></body></html>"""
+    PAGINA.parent.mkdir(exist_ok=True)
+    PAGINA.write_text(pagina, encoding="utf-8")
+
+if __name__ == "__main__":
+    cmd = sys.argv[1]
+    if cmd == "listar":
+        print(json.dumps(listar(), ensure_ascii=False))
+    elif cmd == "lint":
+        e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if e else 0)
+    elif cmd == "gerar-pagina":
+        gerar_pagina(); print(PAGINA)
