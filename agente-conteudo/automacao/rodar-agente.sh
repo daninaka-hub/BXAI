@@ -39,7 +39,9 @@ if [ ! -d "$REPO/.git" ]; then
   git clone https://github.com/daninaka-hub/BXAI "$REPO" >> "$LOG" 2>&1 || falha "clone do repositório falhou"
 fi
 cd "$REPO" || falha "pasta $REPO não existe"
-git pull --rebase origin main >> "$LOG" 2>&1 || falha "git pull falhou (sem rede ou conflito)"
+git rebase --abort >> "$LOG" 2>&1 || true
+git fetch -q origin >> "$LOG" 2>&1 || falha "git fetch falhou (sem rede)"
+git checkout -q -f -B main origin/main >> "$LOG" 2>&1 || falha "não consegui voltar o clone para o origin/main"
 # Registra o início da execução no painel (só git, sem chamar o Claude)
 python3 agente-conteudo/automacao/squad.py status-inicio "$AGENTE" "Em execução" >> "$LOG" 2>&1 &&
   git add agente-conteudo/status && git commit -q -m "Painel: $AGENTE iniciou" >> "$LOG" 2>&1 &&

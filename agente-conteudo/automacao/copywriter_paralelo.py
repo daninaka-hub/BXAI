@@ -92,7 +92,10 @@ def main():
     try:
         if not (REPO / ".git").exists():
             return
-        sh(["git", "pull", "--rebase", "origin", "main"])
+        # Clone dedicado ao automático: se um rebase travou ou o HEAD soltou, volta para o origin/main
+        sh(["git", "rebase", "--abort"], check=False)
+        sh(["git", "fetch", "origin"])
+        sh(["git", "checkout", "-q", "-f", "-B", "main", "origin/main"])
         briefs = __import__("json").loads(squad("listar").stdout or "[]")
         if not briefs:
             return
