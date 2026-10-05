@@ -40,6 +40,10 @@ if [ ! -d "$REPO/.git" ]; then
 fi
 cd "$REPO" || falha "pasta $REPO não existe"
 git pull --rebase origin main >> "$LOG" 2>&1 || falha "git pull falhou (sem rede ou conflito)"
+# Registra o início da execução no painel (só git, sem chamar o Claude)
+python3 agente-conteudo/automacao/squad.py status-inicio "$AGENTE" "Em execução" >> "$LOG" 2>&1 &&
+  git add agente-conteudo/status && git commit -q -m "Painel: $AGENTE iniciou" >> "$LOG" 2>&1 &&
+  git push -q origin HEAD:main >> "$LOG" 2>&1 || true
 ANTES=$(git rev-parse HEAD)
 
 PROMPT_FILE="agente-conteudo/automacao/prompt-$AGENTE.md"

@@ -103,6 +103,7 @@ def main():
         log(f"=== {len(briefs)} briefing(s) aprovado(s): {[b['codigo'] for b in briefs]} ===")
         WT.mkdir(exist_ok=True)
         sh(["git", "fetch", "origin"])
+        squad("status-inicio", "copywriter", f"Produzindo os artigos {', '.join(str(b['codigo']) for b in briefs)} em paralelo", str(8 + 4 * len(briefs)))
         for b in briefs:
             prod(b["codigo"], "escrita", "andamento", titulo=b["tese"] or b["teoria"])
         painel("início da escrita")

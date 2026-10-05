@@ -118,10 +118,59 @@ def lint(slug):
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     return erros
 
+PREVISAO_MIN = {"pesquisador": 20, "head": 10, "copywriter": 15}
+
+def _agora():
+    return datetime.datetime.now().astimezone()
+
+def iniciar_status(agente, resumo, previsao_min=None):
+    STATUS.mkdir(exist_ok=True)
+    ant = ler_status(agente) or {}
+    dur = ant.get("duracoes", [])
+    prev = previsao_min or (round(sum(dur[-3:]) / len(dur[-3:])) if dur else PREVISAO_MIN.get(agente, 15))
+    ini = _agora()
+    d = {"agente": agente, "resultado": "executando", "resumo": resumo, "commit": "", "inicio": ini.isoformat(timespec="minutes"),
+         "previsao": (ini + datetime.timedelta(minutes=prev)).isoformat(timespec="minutes"), "duracoes": dur,
+         "anterior": {k: ant.get(k, "") for k in ("resultado", "quando", "resumo", "commit")} if ant.get("resultado") != "executando" else ant.get("anterior", {})}
+    (STATUS / f"{agente}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+
 def gravar_status(agente, resultado, resumo, commit="", quando=None):
     STATUS.mkdir(exist_ok=True)
-    agora = quando or datetime.datetime.now().astimezone().isoformat(timespec="minutes")
-    (STATUS / f"{agente}.json").write_text(json.dumps({"agente": agente, "resultado": resultado, "quando": agora, "resumo": resumo, "commit": commit}, ensure_ascii=False, indent=1), encoding="utf-8")
+    ant = ler_status(agente) or {}
+    agora = quando or _agora().isoformat(timespec="minutes")
+    dur = list(ant.get("duracoes", []))
+    d = {"agente": agente, "resultado": resultado, "quando": agora, "resumo": resumo, "commit": commit}
+    if ant.get("inicio") and not quando:
+        ini = datetime.datetime.fromisoformat(ant["inicio"])
+        minutos = max(1, round((datetime.datetime.fromisoformat(agora) - ini).total_seconds() / 60))
+        d["inicio"] = ant["inicio"]
+        d["duracao_min"] = minutos
+        if resultado == "ok":
+            dur.append(minutos)
+    d["duracoes"] = dur[-5:]
+    (STATUS / f"{agente}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+
+def proxima_execucao(agente):
+    agora = _agora()
+    if agente == "pesquisador":
+        n = agora.replace(hour=7, minute=0, second=0, microsecond=0)
+        if n <= agora:
+            n += datetime.timedelta(days=1)
+        return n.strftime("%d/%m às %H:%M")
+    if agente == "head":
+        n = agora.replace(hour=8, minute=0, second=0, microsecond=0)
+        dias = (7 - agora.weekday()) % 7
+        n += datetime.timedelta(days=dias)
+        if n <= agora:
+            n += datetime.timedelta(days=7)
+        return n.strftime("%d/%m às %H:%M")
+    return "em até 30 minutos (confere se há briefing aprovado)"
+
+def _hora(iso):
+    try:
+        return datetime.datetime.fromisoformat(iso).strftime("%H:%M")
+    except Exception:
+        return iso
 
 def ler_status(agente):
     p = STATUS / f"{agente}.json"
@@ -148,17 +197,29 @@ def html_status():
     cards = []
     for chave, (nome, agenda) in AGENTES.items():
         s = ler_status(chave)
+        linhas = []
         if not s:
-            badge, cls, quando, resumo = "Ainda não rodou", "idle", "", ""
+            badge, cls = "Ainda não rodou", "idle"
+            linhas.append("Sem execução registrada")
+        elif s["resultado"] == "executando":
+            badge, cls = "Em execução", "run"
+            linhas.append(f'Iniciou às {esc(_hora(s["inicio"]))}, previsão de término às {esc(_hora(s["previsao"]))}')
+            if s.get("resumo"):
+                linhas.append(esc(s["resumo"]))
+            ant = s.get("anterior") or {}
+            if ant.get("quando"):
+                linhas.append(f'Execução anterior: {esc(fmt_quando(ant["quando"]))}, {"concluída" if ant.get("resultado") == "ok" else "falhou"}')
         else:
             ok = s["resultado"] == "ok"
             badge, cls = ("Concluído" if ok else "Falhou"), ("ok" if ok else "bad")
-            quando, resumo = fmt_quando(s["quando"]), s["resumo"]
-            if s.get("commit"):
-                resumo += f" (commit {s['commit']})"
+            ini = f'Iniciou às {esc(_hora(s["inicio"]))}, terminou às {esc(_hora(s["quando"]))}' + (f' ({s["duracao_min"]} min)' if s.get("duracao_min") else "") if s.get("inicio") else f'Última execução: {esc(fmt_quando(s["quando"]))}'
+            linhas.append(ini)
+            resumo = s["resumo"] + (f" (commit {s['commit']})" if s.get("commit") else "")
+            linhas.append(esc(resumo))
+            linhas.append(f'Próxima execução: {esc(proxima_execucao(chave))}')
+        corpo = "".join(f'<div class="ag-linha">{l}</div>' for l in linhas)
         cards.append(f'<div class="ag"><div class="ag-top"><span class="ag-nome">{esc(nome)}</span><span class="badge {cls}">{badge}</span></div>'
-                     f'<div class="ag-linha">{("Última execução: " + esc(quando)) if quando else "Sem execução registrada"}</div>'
-                     f'<div class="ag-linha">{esc(resumo)}</div><div class="ag-agenda">Agenda: {esc(agenda)}</div></div>')
+                     f'{corpo}<div class="ag-agenda">Agenda: {esc(agenda)}</div></div>')
     metr = (f'<div class="metricas"><span><b>{m["pend"]}</b> fontes pendentes no backlog</span>'
             f'<span><b>{m["proc"]}</b> processadas, <b>{m["desc"]}</b> descartadas</span>'
             f'<span><b>{m["pautas_pend"]}</b> briefings pendentes de aprovação</span>'
@@ -273,6 +334,9 @@ details[open] .chev{transform:rotate(90deg);}
 .badge{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 8px;}
 .badge.ok{color:var(--teal);background:var(--teal-soft);}
 .badge.bad{color:#B3261E;background:#FBE9E7;}
+.badge.run{color:#7A4B00;background:#FFEFC9;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .badge.run{color:#FFD98A;background:#3A2C0A;}}
+:root[data-theme="dark"] .badge.run{color:#FFD98A;background:#3A2C0A;}
 .badge.idle{color:var(--muted);border:1px solid var(--border);}
 .ag-linha{font-size:13px;line-height:1.5;color:var(--fg);}
 .ag-agenda{font-size:12px;color:var(--muted);margin-top:4px;}
@@ -385,6 +449,8 @@ if __name__ == "__main__":
         e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if e else 0)
     elif cmd == "status":
         gravar_status(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5] if len(sys.argv) > 5 else "")
+    elif cmd == "status-inicio":
+        iniciar_status(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "", int(sys.argv[4]) if len(sys.argv) > 4 else None)
     elif cmd == "producao":
         a = sys.argv[2:] + [""] * 5
         gravar_producao(a[0], a[1] or None, a[2] or None, a[3], a[4])
