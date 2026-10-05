@@ -6,8 +6,6 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]  # agente-conteudo
 CONT = ROOT / "conteudo"
 PAGINA = ROOT / "validacao" / "artigos.html"
 STATUS = ROOT / "status"
-URL_ARTIGOS = "https://claude.ai/artifact/2QA4eeTeqW7WDHKQyvN6G6"
-URL_STATUS = "https://claude.ai/artifact/6xvCUZ1kkEbvYLqjYaXzE9"
 GITHUB = "https://github.com/daninaka-hub/BXAI/blob/main/agente-conteudo/"
 AGENTES = {
     "pesquisador": ("Pesquisador", "todo dia às 7h"),
@@ -377,11 +375,11 @@ details[open] .chev{transform:rotate(90deg);}
 .ix-links a{color:var(--teal);text-decoration:none;}
 .ix-links a:hover{text-decoration:underline;}
 .card{scroll-margin-top:12px;}
-.nav{display:flex;gap:8px;margin:0 0 22px 18px;}
-.nav a,.nav-on{font-size:13px;font-weight:bold;border-radius:6px;padding:5px 12px;text-decoration:none;}
-.nav a{color:var(--teal);border:1px solid var(--border);}
-.nav a:hover{background:var(--teal-soft);}
-.nav-on{background:var(--navy);color:#fff;}
+.abas{display:flex;gap:8px;margin:0 0 22px 18px;}
+.aba{font:inherit;font-size:14px;font-weight:bold;border-radius:8px;padding:8px 18px;cursor:pointer;background:var(--card);color:var(--muted);border:1px solid var(--border);}
+.aba:hover{color:var(--fg);}
+.aba:focus-visible{outline:2px solid var(--teal);outline-offset:2px;}
+.aba-on{background:var(--navy);color:#fff;border-color:var(--navy);}
 .footer-note{color:var(--muted);font-size:12.5px;text-align:center;margin-top:24px;line-height:1.6;}
 """
 
@@ -418,17 +416,11 @@ def html_roteiro(slug):
     blocos_html = "".join(f'<div class="block"><div class="time">{esc(h.strip())}</div><div class="fala">{esc(" ".join(f.split()))}</div></div>' for h, f in achados)
     return f'<div class="video-box">{blocos_html}</div>'
 
-JS = r'''function abrir(){var h=location.hash;if(!h)return;var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){e.open=true;e.scrollIntoView();}}document.addEventListener("click",function(ev){var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){e.open=true;e.scrollIntoView({behavior:"smooth"});}});window.addEventListener("hashchange",abrir);abrir();'''
+JS = r'''function aba(n){["status","artigos"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});}
+function abrir(){var h=location.hash;if(!h)return;if(h==="#status"||h==="#artigos"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba("artigos");e.open=true;e.scrollIntoView();}}
+document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba("artigos");e.open=true;e.scrollIntoView({behavior:"smooth"});}});
+window.addEventListener("hashchange",abrir);aba("status");abrir();'''
 
-
-def nav(ativa):
-    itens = []
-    for chave, rotulo, url in (("artigos", "Artigos", URL_ARTIGOS), ("status", "Status", URL_STATUS)):
-        if chave == ativa:
-            itens.append(f'<span class="nav-on">{rotulo}</span>')
-        elif url:
-            itens.append(f'<a href="{url}" target="_blank" rel="noopener">{rotulo}</a>')
-    return '<nav class="nav">' + "".join(itens) + "</nav>" if len(itens) > 1 else ""
 
 def gerar_pagina():
     cards = []
@@ -445,24 +437,25 @@ def gerar_pagina():
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}</div></details>""")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
-<div class="wrap"><header><div class="bar"></div><h1>Artigos BudgetXpert</h1></header>
-<div class="sub">Squad de conteúdo &middot; referencie pelo código ao pedir ajustes no chat</div>
-{nav("artigos")}
-{html_indice(linhas)}
-<div class="section-label">Artigos</div>
-{chr(10).join(cards)}
-<div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div><script>{JS}</script></body></html>"""
-    PAGINA.parent.mkdir(exist_ok=True)
-    PAGINA.write_text(pagina, encoding="utf-8")
-    status = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Status BXAI</title><style>{CSS}</style></head><body>
-<div class="wrap"><header><div class="bar"></div><h1>Status do squad BXAI</h1></header>
-<div class="sub">Agentes, briefings e produção dos artigos</div>
-{nav("status")}
+<div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
+<div class="sub">Referencie pelo código ao pedir ajustes no chat</div>
+<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-artigos" role="tab" data-aba="artigos">Artigos</button></div>
+<section id="aba-status" role="tabpanel">
 {html_status()}
 {html_briefings()}
 {html_producao()}
-<div class="footer-note">Para aprovar um briefing, responda no chat. O histórico fica no repositório daninaka-hub/BXAI.</div></div></body></html>"""
-    (PAGINA.parent / "status.html").write_text(status, encoding="utf-8")
+</section>
+<section id="aba-artigos" role="tabpanel" hidden>
+{html_indice(linhas)}
+<div class="section-label">Artigos</div>
+{chr(10).join(cards)}
+</section>
+<div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div><script>{JS}</script></body></html>"""
+    PAGINA.parent.mkdir(exist_ok=True)
+    PAGINA.write_text(pagina, encoding="utf-8")
+    old = PAGINA.parent / "status.html"
+    if old.exists():
+        old.unlink()
 
 if __name__ == "__main__":
     cmd = sys.argv[1]
