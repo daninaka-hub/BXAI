@@ -10,7 +10,11 @@ WT = HOME / "BXAI-wt"
 LOGS = HOME / "BXAI-logs"
 AUTO = REPO / "agente-conteudo" / "automacao"
 CLAUDE_TOOLS = "Read,Glob,Grep,Write,Edit"
-os.environ["PATH"] = f"{HOME}/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:" + os.environ.get("PATH", "")
+try:
+    EXTRA = (HOME / ".bxai-path").read_text().strip()
+except OSError:
+    EXTRA = ""
+os.environ["PATH"] = (EXTRA + ":" if EXTRA else "") + f"{HOME}/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:" + os.environ.get("PATH", "")
 LOGS.mkdir(exist_ok=True)
 LOG = LOGS / f"{datetime.date.today()}-copywriter.log"
 
@@ -77,6 +81,10 @@ def main():
         briefs = __import__("json").loads(squad("listar").stdout or "[]")
         if not briefs:
             return
+        if not shutil.which("claude"):
+            log("FALHA: Claude Code não encontrado no PATH do agendamento. Rode de novo o instalar.sh")
+            notificar("Copywriter parado", "Claude Code não encontrado. Rode de novo o instalar.sh")
+            sys.exit(1)
         log(f"=== {len(briefs)} briefing(s) aprovado(s): {[b['codigo'] for b in briefs]} ===")
         WT.mkdir(exist_ok=True)
         sh(["git", "fetch", "origin"])

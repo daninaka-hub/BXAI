@@ -5,7 +5,12 @@ DIR="$HOME/BXAI/agente-conteudo/automacao"
 DEST="$HOME/Library/LaunchAgents"
 mkdir -p "$DEST" "$HOME/BXAI-logs"
 chmod +x "$DIR/rodar-agente.sh"
-command -v claude >/dev/null 2>&1 || { echo "Claude Code não encontrado. Instale e faça login antes."; exit 1; }
+CL="$(command -v claude)" || { echo "Claude Code não encontrado. Instale e faça login antes."; exit 1; }
+# O launchd não herda o PATH do seu terminal. Guarda os caminhos reais do claude e do node.
+CAMINHOS="$(dirname "$CL")"
+ND="$(command -v node 2>/dev/null)" && CAMINHOS="$CAMINHOS:$(dirname "$ND")"
+echo "$CAMINHOS" > "$HOME/.bxai-path"
+echo "Claude Code em: $CL"
 for nome in pesquisador head copywriter; do
   P="com.budgetxpert.bxai.$nome"
   launchctl bootout "gui/$(id -u)/$P" 2>/dev/null || true

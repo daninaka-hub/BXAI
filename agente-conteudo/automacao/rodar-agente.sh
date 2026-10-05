@@ -2,7 +2,8 @@
 # Roda um agente do squad BXAI (pesquisador ou head) e confere se o push chegou ao GitHub.
 # Uso: rodar-agente.sh pesquisador|head
 set -u
-export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+EXTRA="$(cat "$HOME/.bxai-path" 2>/dev/null)"
+export PATH="${EXTRA:+$EXTRA:}$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 AGENTE="${1:-}"
 REPO="$HOME/BXAI"
@@ -33,7 +34,7 @@ esac
 
 echo "=== $(date '+%d/%m/%Y %H:%M:%S') início: $AGENTE ===" >> "$LOG"
 
-command -v claude >/dev/null 2>&1 || falha "Claude Code não encontrado no PATH"
+command -v claude >/dev/null 2>&1 || falha "Claude Code não encontrado no PATH. Rode de novo o instalar.sh"
 if [ ! -d "$REPO/.git" ]; then
   git clone https://github.com/daninaka-hub/BXAI "$REPO" >> "$LOG" 2>&1 || falha "clone do repositório falhou"
 fi
