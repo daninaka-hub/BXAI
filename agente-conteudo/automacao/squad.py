@@ -6,6 +6,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]  # agente-conteudo
 CONT = ROOT / "conteudo"
 PAGINA = ROOT / "validacao" / "artigos.html"
 STATUS = ROOT / "status"
+URL_ARTIGOS = "https://claude.ai/artifact/2QA4eeTeqW7WDHKQyvN6G6"
+URL_STATUS = "https://claude.ai/artifact/6xvCUZ1kkEbvYLqjYaXzE9"
 GITHUB = "https://github.com/daninaka-hub/BXAI/blob/main/agente-conteudo/"
 AGENTES = {
     "pesquisador": ("Pesquisador", "todo dia às 7h"),
@@ -375,6 +377,11 @@ details[open] .chev{transform:rotate(90deg);}
 .ix-links a{color:var(--teal);text-decoration:none;}
 .ix-links a:hover{text-decoration:underline;}
 .card{scroll-margin-top:12px;}
+.nav{display:flex;gap:8px;margin:0 0 22px 18px;}
+.nav a,.nav-on{font-size:13px;font-weight:bold;border-radius:6px;padding:5px 12px;text-decoration:none;}
+.nav a{color:var(--teal);border:1px solid var(--border);}
+.nav a:hover{background:var(--teal-soft);}
+.nav-on{background:var(--navy);color:#fff;}
 .footer-note{color:var(--muted);font-size:12.5px;text-align:center;margin-top:24px;line-height:1.6;}
 """
 
@@ -414,6 +421,15 @@ def html_roteiro(slug):
 JS = r'''function abrir(){var h=location.hash;if(!h)return;var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){e.open=true;e.scrollIntoView();}}document.addEventListener("click",function(ev){var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){e.open=true;e.scrollIntoView({behavior:"smooth"});}});window.addEventListener("hashchange",abrir);abrir();'''
 
 
+def nav(ativa):
+    itens = []
+    for chave, rotulo, url in (("artigos", "Artigos", URL_ARTIGOS), ("status", "Status", URL_STATUS)):
+        if chave == ativa:
+            itens.append(f'<span class="nav-on">{rotulo}</span>')
+        elif url:
+            itens.append(f'<a href="{url}" target="_blank" rel="noopener">{rotulo}</a>')
+    return '<nav class="nav">' + "".join(itens) + "</nav>" if len(itens) > 1 else ""
+
 def gerar_pagina():
     cards = []
     linhas = indice()
@@ -431,15 +447,22 @@ def gerar_pagina():
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>Artigos BudgetXpert</h1></header>
 <div class="sub">Squad de conteúdo &middot; referencie pelo código ao pedir ajustes no chat</div>
-{html_status()}
-{html_briefings()}
-{html_producao()}
+{nav("artigos")}
 {html_indice(linhas)}
 <div class="section-label">Artigos</div>
 {chr(10).join(cards)}
 <div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div><script>{JS}</script></body></html>"""
     PAGINA.parent.mkdir(exist_ok=True)
     PAGINA.write_text(pagina, encoding="utf-8")
+    status = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Status BXAI</title><style>{CSS}</style></head><body>
+<div class="wrap"><header><div class="bar"></div><h1>Status do squad BXAI</h1></header>
+<div class="sub">Agentes, briefings e produção dos artigos</div>
+{nav("status")}
+{html_status()}
+{html_briefings()}
+{html_producao()}
+<div class="footer-note">Para aprovar um briefing, responda no chat. O histórico fica no repositório daninaka-hub/BXAI.</div></div></body></html>"""
+    (PAGINA.parent / "status.html").write_text(status, encoding="utf-8")
 
 if __name__ == "__main__":
     cmd = sys.argv[1]
