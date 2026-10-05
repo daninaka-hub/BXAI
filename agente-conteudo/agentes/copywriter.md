@@ -63,6 +63,13 @@ Na mesma revisão, cortar qualquer característica que soe gerada por IA:
 - Construções do tipo "o que é X, e por que Y" (vírgula mais "e" unindo duas orações). Esse padrão e qualquer variação equivalente soam gerados por IA, não usar nenhum deles.
 Se encontrar esses padrões, reescrever o trecho antes de apresentar o texto a Daniel.
 
+Por último, uma revisão gramatical, frase por frase, como faria um revisor de português:
+- Sujeito compatível com o verbo. Para cada frase, perguntar "quem faz isso?". Se o sujeito não puder realizar a ação (ex: "uma premissa que vigiasse"), trocar o sujeito ou o verbo. Premissa, critério e gatilho não vigiam, avisam ou decidem. Quem faz isso é uma pessoa ou uma área.
+- Concordância verbal e nominal, regência e crase.
+- Paralelismo em listas: todos os itens com a mesma estrutura (ex: três substantivos, ou três orações com o mesmo tipo de verbo). Não misturar substantivo, oração e verbo na mesma enumeração.
+- Pronomes e referências claras: o leitor precisa saber a que cada "isso", "ele" ou "essa" se refere, sem voltar ao parágrafo anterior.
+- Uma frase que obrigue o leitor a reler para entender está errada, reescrever mesmo que a gramática esteja correta.
+
 ## Como gravar
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos, agente-conteudo/conteudo/posts-linkedin e agente-conteudo/conteudo/roteiros-video. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
 
