@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """Utilitários do squad BXAI: lê briefings aprovados, valida texto e gera a página de validação."""
-import sys, re, json, html, unicodedata, pathlib
+import sys, re, json, html, unicodedata, pathlib, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]  # agente-conteudo
 CONT = ROOT / "conteudo"
 PAGINA = ROOT / "validacao" / "artigos.html"
+STATUS = ROOT / "status"
+GITHUB = "https://github.com/daninaka-hub/BXAI/blob/main/agente-conteudo/"
+AGENTES = {
+    "pesquisador": ("Pesquisador", "todo dia às 7h"),
+    "head": ("Head de Conteúdo", "segundas às 8h"),
+    "copywriter": ("Copywriter", "a cada 30 min, só quando há briefing aprovado"),
+}
 
 def _cells(line):
     return [c.strip() for c in line.strip().strip("|").split("|")]
@@ -90,6 +97,66 @@ def lint(slug):
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     return erros
 
+def gravar_status(agente, resultado, resumo, commit="", quando=None):
+    STATUS.mkdir(exist_ok=True)
+    agora = quando or datetime.datetime.now().astimezone().isoformat(timespec="minutes")
+    (STATUS / f"{agente}.json").write_text(json.dumps({"agente": agente, "resultado": resultado, "quando": agora, "resumo": resumo, "commit": commit}, ensure_ascii=False, indent=1), encoding="utf-8")
+
+def ler_status(agente):
+    p = STATUS / f"{agente}.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+def metricas():
+    bl = (ROOT / "dados-mercado" / "backlog-notebooklm.md").read_text(encoding="utf-8")
+    pend = len(re.findall(r"\| Pendente \|$", bl, flags=re.M))
+    proc = len(re.findall(r"\| Processado \|$", bl, flags=re.M))
+    desc = len(re.findall(r"\| Descartado \|$", bl, flags=re.M))
+    dec = tabela(CONT / "decisoes-pauta.md")
+    pautas_pend = sum(1 for _, c in dec if c[5] == "Pendente")
+    pautas_ok = sum(1 for _, c in dec if c[5] == "Sim")
+    return {"pend": pend, "proc": proc, "desc": desc, "pautas_pend": pautas_pend, "pautas_ok": pautas_ok}
+
+def fmt_quando(iso):
+    try:
+        return datetime.datetime.fromisoformat(iso).strftime("%d/%m às %H:%M")
+    except Exception:
+        return iso
+
+def html_status():
+    m = metricas()
+    cards = []
+    for chave, (nome, agenda) in AGENTES.items():
+        s = ler_status(chave)
+        if not s:
+            badge, cls, quando, resumo = "Ainda não rodou", "idle", "", ""
+        else:
+            ok = s["resultado"] == "ok"
+            badge, cls = ("Concluído" if ok else "Falhou"), ("ok" if ok else "bad")
+            quando, resumo = fmt_quando(s["quando"]), s["resumo"]
+            if s.get("commit"):
+                resumo += f" (commit {s['commit']})"
+        cards.append(f'<div class="ag"><div class="ag-top"><span class="ag-nome">{esc(nome)}</span><span class="badge {cls}">{badge}</span></div>'
+                     f'<div class="ag-linha">{("Última execução: " + esc(quando)) if quando else "Sem execução registrada"}</div>'
+                     f'<div class="ag-linha">{esc(resumo)}</div><div class="ag-agenda">Agenda: {esc(agenda)}</div></div>')
+    metr = (f'<div class="metricas"><span><b>{m["pend"]}</b> fontes pendentes no backlog</span>'
+            f'<span><b>{m["proc"]}</b> processadas, <b>{m["desc"]}</b> descartadas</span>'
+            f'<span><b>{m["pautas_pend"]}</b> briefings pendentes de aprovação</span>'
+            f'<span><b>{m["pautas_ok"]}</b> aprovados aguardando produção</span></div>')
+    return '<div class="section-label">Status dos agentes</div><div class="agentes">' + "".join(cards) + "</div>" + metr
+
+def html_indice(linhas):
+    itens = []
+    for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
+        cod, titulo, pilar, status, arquivo = c[0], c[1], c[2], c[5], c[6]
+        slug = pathlib.Path(arquivo).stem
+        n = int(re.search(r"\d+", cod).group())
+        links = (f'<a href="{GITHUB}conteudo/artigos/{slug}.md" target="_blank" rel="noopener">artigo</a> &middot; '
+                 f'<a href="{GITHUB}conteudo/posts-linkedin/{slug}.md" target="_blank" rel="noopener">post</a> &middot; '
+                 f'<a href="{GITHUB}conteudo/roteiros-video/{slug}.md" target="_blank" rel="noopener">roteiro</a>')
+        itens.append(f'<li><span class="code">{esc(cod)}</span><div class="ix-txt"><a class="ix-titulo" href="#artigo-{n}" data-abrir="{n}">{esc(titulo)}</a>'
+                     f'<div class="ix-meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span><span class="ix-links">{links}</span></div></div></li>')
+    return '<div class="section-label">Índice dos artigos</div><ul class="indice">' + "".join(itens) + "</ul>"
+
 CSS = """
 :root{--bg:#F4F6F6;--card:#FFFFFF;--border:#D9E3E1;--fg:#0F2A32;--muted:#53696D;--navy:#062D3E;--teal:#19B09F;--teal-soft:#E4F5F2;}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#071A20;--card:#0D2832;--border:#1C3A42;--fg:#EAF3F2;--muted:#9FB8BA;--navy:#0A3A4E;--teal:#2BD6C2;--teal-soft:#113A38;color-scheme:dark;}}
@@ -126,6 +193,30 @@ details[open] .chev{transform:rotate(90deg);}
 .video-box .block{margin-bottom:12px;}
 .video-box .time{font-size:11px;font-weight:bold;color:var(--teal);}
 .video-box .fala{font-size:14px;margin:3px 0;color:var(--fg);}
+
+.agentes{display:grid;gap:10px;margin-bottom:12px;}
+.ag{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 14px;}
+.ag-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px;}
+.ag-nome{font-weight:bold;font-size:14.5px;}
+.badge{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 8px;}
+.badge.ok{color:var(--teal);background:var(--teal-soft);}
+.badge.bad{color:#B3261E;background:#FBE9E7;}
+.badge.idle{color:var(--muted);border:1px solid var(--border);}
+.ag-linha{font-size:13px;line-height:1.5;color:var(--fg);}
+.ag-agenda{font-size:12px;color:var(--muted);margin-top:4px;}
+.metricas{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);margin:2px 0 26px;}
+.metricas b{color:var(--fg);}
+.indice{list-style:none;margin:0 0 28px;padding:0;background:var(--card);border:1px solid var(--border);border-radius:10px;}
+.indice li{display:flex;gap:12px;align-items:flex-start;padding:12px 16px;border-bottom:1px solid var(--border);}
+.indice li:last-child{border-bottom:0;}
+.ix-txt{min-width:0;}
+.ix-titulo{font-size:14.5px;font-weight:bold;line-height:1.35;color:var(--fg);text-decoration:none;}
+.ix-titulo:hover{color:var(--teal);text-decoration:underline;}
+.ix-meta{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap;align-items:center;}
+.ix-links{font-size:12px;color:var(--muted);}
+.ix-links a{color:var(--teal);text-decoration:none;}
+.ix-links a:hover{text-decoration:underline;}
+.card{scroll-margin-top:12px;}
 .footer-note{color:var(--muted);font-size:12.5px;text-align:center;margin-top:24px;line-height:1.6;}
 """
 
@@ -162,6 +253,9 @@ def html_roteiro(slug):
     blocos_html = "".join(f'<div class="block"><div class="time">{esc(h.strip())}</div><div class="fala">{esc(" ".join(f.split()))}</div></div>' for h, f in achados)
     return f'<div class="video-box">{blocos_html}</div>'
 
+JS = r'''function abrir(){var h=location.hash;if(!h)return;var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){e.open=true;e.scrollIntoView();}}document.addEventListener("click",function(ev){var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){e.open=true;e.scrollIntoView({behavior:"smooth"});}});window.addEventListener("hashchange",abrir);abrir();'''
+
+
 def gerar_pagina():
     cards = []
     linhas = indice()
@@ -172,15 +266,18 @@ def gerar_pagina():
         slug = pathlib.Path(arquivo).stem
         n = int(re.search(r"\d+", cod).group())
         aberto = " open" if n in abertos else ""
-        cards.append(f"""<details class="card"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
+        cards.append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
 <div class="body"><div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}</div></details>""")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>Artigos BudgetXpert</h1></header>
 <div class="sub">Squad de conteúdo &middot; referencie pelo código ao pedir ajustes no chat</div>
+{html_status()}
+{html_indice(linhas)}
+<div class="section-label">Artigos</div>
 {chr(10).join(cards)}
-<div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div></body></html>"""
+<div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div><script>{JS}</script></body></html>"""
     PAGINA.parent.mkdir(exist_ok=True)
     PAGINA.write_text(pagina, encoding="utf-8")
 
@@ -190,5 +287,7 @@ if __name__ == "__main__":
         print(json.dumps(listar(), ensure_ascii=False))
     elif cmd == "lint":
         e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if e else 0)
+    elif cmd == "status":
+        gravar_status(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5] if len(sys.argv) > 5 else "")
     elif cmd == "gerar-pagina":
         gerar_pagina(); print(PAGINA)

@@ -136,9 +136,12 @@ def main():
                 spec = importlib.util.spec_from_file_location("squad", AUTO / "squad.py"); sq = importlib.util.module_from_spec(spec); spec.loader.exec_module(sq)
                 sq.marcar(b["linha"], "Sim (falhou na produção, ver log)")
 
+        codigos = ", ".join(str(b["codigo"]) for b in boas) or "nenhum"
+        falhou = [b["codigo"] for b in briefs if isinstance(resultados[b["codigo"]], Exception)]
+        squad("status", "copywriter", "falhou" if (falhou and not boas) else "ok",
+              f"Artigos {codigos} produzidos" + (f", falharam {falhou}" if falhou else ""))
         squad("gerar-pagina")
         sh(["git", "add", "agente-conteudo"])
-        codigos = ", ".join(str(b["codigo"]) for b in boas) or "nenhum"
         sh(["git", "commit", "-m", f"Copywriter: artigos {codigos} produzidos em paralelo e página de validação atualizada"], check=False)
         sh(["git", "push", "origin", "HEAD:main"])
         sh(["git", "fetch", "origin"])

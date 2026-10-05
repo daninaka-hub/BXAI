@@ -11,7 +11,20 @@ mkdir -p "$LOGS"
 LOG="$LOGS/$(date +%Y-%m-%d)-${AGENTE:-sem-agente}.log"
 
 notificar() { osascript -e "display notification \"$2\" with title \"BXAI: $1\"" >/dev/null 2>&1; }
-falha() { echo "FALHA: $1" | tee -a "$LOG"; notificar "$AGENTE falhou" "$1"; exit 1; }
+# Atualiza o painel de status e republica a página (melhor esforço, nunca derruba o agente)
+painel() {
+  [ -d "$REPO/.git" ] || return 0
+  ( cd "$REPO" &&
+    python3 agente-conteudo/automacao/squad.py status "$AGENTE" "$1" "$2" "${3:-}" &&
+    python3 agente-conteudo/automacao/squad.py gerar-pagina &&
+    git add agente-conteudo/status agente-conteudo/validacao &&
+    git commit -q -m "Painel: status do $AGENTE ($1)" &&
+    git pull -q --rebase --autostash origin main &&
+    git push -q origin HEAD:main &&
+    caffeinate -i claude -p "$(cat agente-conteudo/automacao/prompt-publicar.md)" \
+      --permission-mode acceptEdits --allowedTools "Read,Artifact" ) >> "$LOG" 2>&1 || true
+}
+falha() { echo "FALHA: $1" | tee -a "$LOG"; painel falhou "$1"; notificar "$AGENTE falhou" "$1"; exit 1; }
 
 case "$AGENTE" in
   pesquisador|head) ;;
@@ -49,5 +62,6 @@ fi
 [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ] || falha "o commit não chegou ao origin/main"
 
 HASH=$(git rev-parse --short HEAD)
+painel ok "Rodada concluída" "$HASH"
 echo "OK: commit $HASH no origin/main às $(date '+%H:%M:%S')" | tee -a "$LOG"
 notificar "$AGENTE concluído" "Commit $HASH publicado no GitHub"
