@@ -165,6 +165,39 @@ def html_status():
             f'<span><b>{m["pautas_ok"]}</b> aprovados aguardando produção</span></div>')
     return '<div class="section-label">Status dos agentes</div><div class="agentes">' + "".join(cards) + "</div>" + metr
 
+ETAPAS = [("escrita", "Escrita"), ("revisao", "Revisão"), ("github", "No GitHub"), ("pagina", "Na página")]
+
+def gravar_producao(cod, etapa=None, estado=None, msg="", titulo=""):
+    STATUS.mkdir(exist_ok=True)
+    p = STATUS / "producao.json"
+    d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    e = d.setdefault(str(cod), {"titulo": titulo, "etapas": {k: "pendente" for k, _ in ETAPAS}, "msg": ""})
+    if titulo:
+        e["titulo"] = titulo
+    if etapa:
+        e["etapas"][etapa] = estado
+        if estado == "falhou":
+            e["msg"] = msg
+    e["quando"] = datetime.datetime.now().astimezone().isoformat(timespec="minutes")
+    p.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+
+def html_producao():
+    p = STATUS / "producao.json"
+    if not p.exists():
+        return ""
+    d = json.loads(p.read_text(encoding="utf-8"))
+    rotulo = {"ok": "concluída", "andamento": "em andamento", "falhou": "falhou", "pendente": "aguardando"}
+    simbolo = {"ok": "&#10003;", "andamento": "&#9679;", "falhou": "&#10005;", "pendente": "&#9675;"}
+    itens = []
+    for cod in sorted(d, key=lambda x: -int(x))[:4]:
+        e = d[cod]
+        chips = '<span class="et et-ok">&#10003; Briefing aprovado</span>' + "".join(
+            f'<span class="et et-{e["etapas"][k]}">{simbolo[e["etapas"][k]]} {nome}<small>{rotulo[e["etapas"][k]]}</small></span>' for k, nome in ETAPAS)
+        erro = f'<div class="et-msg">{esc(e["msg"])}</div>' if e.get("msg") and "falhou" in e["etapas"].values() else ""
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">Artigo {esc(cod)}</span><span class="bf-data">atualizado {esc(fmt_quando(e.get("quando", "")))}</span></div>'
+                     f'<div class="bf-tese">{esc(e.get("titulo", ""))}</div><div class="etapas">{chips}</div>{erro}</div>')
+    return '<div class="section-label">Produção dos artigos</div>' + "".join(itens)
+
 def html_briefings():
     itens = []
     for _, c in tabela(CONT / "decisoes-pauta.md"):
@@ -245,6 +278,16 @@ details[open] .chev{transform:rotate(90deg);}
 .ag-agenda{font-size:12px;color:var(--muted);margin-top:4px;}
 .metricas{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);margin:2px 0 26px;}
 .metricas b{color:var(--fg);}
+.etapas{display:flex;flex-wrap:wrap;gap:6px;}
+.et{font-size:12px;border-radius:6px;padding:4px 9px;display:inline-flex;flex-direction:column;gap:1px;background:var(--bg);color:var(--muted);border:1px solid var(--border);}
+.et small{font-size:10px;opacity:.85;}
+.et-ok{color:var(--teal);background:var(--teal-soft);border-color:var(--teal-soft);}
+.et-andamento{color:#7A4B00;background:#FFEFC9;border-color:#FFEFC9;}
+.et-falhou{color:#8A1C1C;background:#FBDADA;border-color:#FBDADA;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .et-andamento{color:#FFD98A;background:#3A2C0A;border-color:#3A2C0A;}:root:not([data-theme="light"]) .et-falhou{color:#FFB4B4;background:#431616;border-color:#431616;}}
+:root[data-theme="dark"] .et-andamento{color:#FFD98A;background:#3A2C0A;border-color:#3A2C0A;}
+:root[data-theme="dark"] .et-falhou{color:#FFB4B4;background:#431616;border-color:#431616;}
+.et-msg{font-size:12px;color:var(--muted);margin-top:8px;}
 .brief{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px;}
 .brief-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
 .bf{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 7px;}
@@ -326,6 +369,7 @@ def gerar_pagina():
 <div class="sub">Squad de conteúdo &middot; referencie pelo código ao pedir ajustes no chat</div>
 {html_status()}
 {html_briefings()}
+{html_producao()}
 {html_indice(linhas)}
 <div class="section-label">Artigos</div>
 {chr(10).join(cards)}
@@ -341,5 +385,8 @@ if __name__ == "__main__":
         e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if e else 0)
     elif cmd == "status":
         gravar_status(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5] if len(sys.argv) > 5 else "")
+    elif cmd == "producao":
+        a = sys.argv[2:] + [""] * 5
+        gravar_producao(a[0], a[1] or None, a[2] or None, a[3], a[4])
     elif cmd == "gerar-pagina":
         gerar_pagina(); print(PAGINA)
