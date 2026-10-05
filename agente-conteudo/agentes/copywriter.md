@@ -63,6 +63,13 @@ Na mesma revisão, cortar qualquer característica que soe gerada por IA:
 - Construções do tipo "o que é X, e por que Y" (vírgula mais "e" unindo duas orações). Esse padrão e qualquer variação equivalente soam gerados por IA, não usar nenhum deles.
 Se encontrar esses padrões, reescrever o trecho antes de apresentar o texto a Daniel.
 
+Depois da revisão de estilo, uma revisão de contexto, para o leitor que não conhece o assunto:
+- Assuma que o leitor não conhece a teoria, a empresa, o caso nem as pessoas citadas, e que não sabe o jargão de finanças.
+- Antes de usar qualquer elemento, apresente-o: quem é, o que faz ou o que é, em uma oração curta. Vale para empresas, pessoas, modelos, métodos, siglas e termos técnicos, na primeira vez em que aparecem.
+- Nenhuma frase pode falar de "o modelo", "a premissa", "o processo" ou "essa decisão" sem que o texto já tenha dito que isso existe. Erro típico: "O modelo não calculou errado" (que modelo? havia um modelo?). Correto: "...comprando casas com um algoritmo de precificação. Esse algoritmo não calculou errado."
+- Vale para o artigo inteiro, não só para a abertura. Cada seção pode ser lida por quem pulou a anterior, então o termo central é reapresentado em meia oração quando a seção começa.
+- Teste: releia cada parágrafo como se fosse a primeira vez que vê o tema, e marque toda palavra que depende de um conhecimento que o texto ainda não deu. Reescreva até não sobrar nenhuma.
+
 Por último, uma revisão gramatical, frase por frase, como faria um revisor de português:
 - Sujeito compatível com o verbo. Para cada frase, perguntar "quem faz isso?". Se o sujeito não puder realizar a ação (ex: "uma premissa que vigiasse"), trocar o sujeito ou o verbo. Premissa, critério e gatilho não vigiam, avisam ou decidem. Quem faz isso é uma pessoa ou uma área.
 - Concordância verbal e nominal, regência e crase.

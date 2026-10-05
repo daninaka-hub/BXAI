@@ -5,10 +5,10 @@ Artigo de referência: A Zillow perdeu US$ 881 milhões sem errar uma única con
 "A Zillow perdeu US$ 881 milhões com um algoritmo que calculava tudo certo."
 
 **3 a 15s**
-"Em 2021, o modelo continuou funcionando exatamente como foi treinado. O que mudou foi a empresa passar a transformar estimativas em ofertas de compra vinculantes, sem nenhuma governança nova para isso."
+"A Zillow é a maior plataforma de imóveis dos Estados Unidos. Em 2021, seu algoritmo de preços continuou funcionando como foi treinado. O que mudou foi a empresa passar a transformar as estimativas em ofertas de compra obrigatórias, sem nenhuma regra nova de controle."
 
 **15 a 22s**
-"O erro não foi de cálculo. Foi de uma premissa sem dono, sem critério, ou sem data de revisão."
+"O erro não foi de cálculo. Foi de uma premissa, a hipótese sobre o futuro que sustenta o número, sem dono, sem critério, ou sem data de revisão."
 
 **22 a 38s**
 "Toda premissa de orçamento precisa responder três perguntas. Quem definiu esse número. Com que critério. Quando ele vai ser revisado."

@@ -72,6 +72,8 @@ def titulo_do_artigo(slug):
 def caminhos(slug):
     return [CONT / "artigos" / f"{slug}.md", CONT / "posts-linkedin" / f"{slug}.md", CONT / "roteiros-video" / f"{slug}.md"]
 
+SIGLAS_OK = {"EUA", "IA", "PIB", "CEO", "CFO", "SaaS", "ERP"}
+
 def lint(slug):
     """Devolve a lista de problemas encontrados nos três arquivos."""
     erros = []
@@ -85,6 +87,25 @@ def lint(slug):
             erros.append(f"{p.parent.name}/{p.name}: travessão perto de \"{t[max(0, m.start()-30):m.start()+30].strip()}\"")
         for m in re.finditer(r",\s+e\s", t):
             erros.append(f"{p.parent.name}/{p.name}: vírgula seguida de \"e\" perto de \"{t[max(0, m.start()-30):m.start()+30].strip()}\"")
+    # contexto para leitor que não conhece o assunto
+    for arq in (art, post, rot):
+        if not arq.exists():
+            continue
+        t = arq.read_text(encoding="utf-8").split("\nFonte:")[0]
+        vistas = set()
+        for m in re.finditer(r"(?<![#\w])[A-Z]{2,6}\b(?!\$)", t):
+            sg = m.group(0)
+            if sg in vistas or sg in SIGLAS_OK:
+                continue
+            vistas.add(sg)
+            depois = t[m.end():m.end() + 3]
+            antes = t[max(0, m.start() - 2):m.start()]
+            if not (depois.lstrip().startswith("(") or antes.endswith("(")):
+                erros.append(f"{arq.parent.name}/{arq.name}: sigla {sg} sem explicação na primeira menção")
+    if art.exists():
+        paras = [x for x in art.read_text(encoding="utf-8").split("\n\n") if x.strip() and not x.startswith("#")]
+        if paras and re.match(r"(Esse|Essa|Esses|Essas|Isso|Aquele|Aquela|Ele|Ela|Eles|Elas)\b", paras[0].strip()):
+            erros.append("artigo: a primeira frase começa com pronome ou demonstrativo, sem apresentar o assunto antes")
     if art.exists():
         corpo = re.sub(r"^#.*\n", "", art.read_text(encoding="utf-8"))
         corpo = corpo.split("\nFonte:")[0]
