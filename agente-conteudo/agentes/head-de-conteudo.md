@@ -11,6 +11,7 @@ Antes de qualquer artigo ser escrito, o Head de Conteúdo monta um briefing e ag
 
 O briefing traz:
 - **Teoria base**: o conceito de FP&A, Controladoria ou planejamento que o artigo vai ensinar, e de qual conteúdo da base de conhecimento (dados-mercado) ele vem.
+- **Tese**: a afirmação que o artigo defende, em uma frase, com posição clara que o leitor pode aceitar ou contestar (ex: "IA agêntica não corrige um processo sem dono, só acelera o erro"). Não é o tema nem a teoria, é o que o artigo prova. A teoria base e o apoio existem para sustentar a tese. Se a tese não cabe numa frase ou não dá para discordar dela, ainda não é tese.
 - **Apoio**: um ou mais itens da base de conhecimento que sustentam essa teoria (mais evidência de que ela é verdadeira) ou mostram a consequência de não aplicá-la (um caso real), com a fonte de cada um.
 - Título provisório e pilar de origem.
 
@@ -19,7 +20,7 @@ O briefing traz:
 2. Identificar uma teoria ainda não coberta (ver conteudo/indice-artigos.md, para não repetir tema já publicado), buscar na base de conhecimento um ou mais itens de apoio para essa teoria, e montar o briefing do primeiro artigo.
 3. Repetir o passo 2 para o segundo artigo da semana.
 4. Apresentar os 2 briefings juntos a Daniel. Nenhum artigo é escrito antes dos 2 briefings da semana estarem aprovados.
-5. Depois da aprovação dos 2, registrar em conteudo/decisoes-pauta.md, com a data da semana, e passar os briefings ao Copywriter.
+5. Depois da aprovação dos 2, registrar em conteudo/decisoes-pauta.md, com a data da semana (a tabela tem a coluna Tese, preencher sempre), e passar os briefings ao Copywriter.
 
 ## Regras de posicionamento (aplicar ao escolher o ângulo de cada pauta)
 O raciocínio por trás do número é o argumento central do BX, não a IA em si. Evitar pautas que coloquem IA como a novidade principal.

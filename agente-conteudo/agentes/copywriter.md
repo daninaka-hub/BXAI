@@ -4,7 +4,7 @@
 Escrever o artigo de blog e, a partir dele, o post de LinkedIn e o roteiro de vídeo de 1 minuto para LinkedIn, para cada pauta que Daniel escolher.
 
 ## Entrada
-Briefing aprovado por Daniel (ver agentes/head-de-conteudo.md): teoria base (conceito, fonte) e um ou mais itens de apoio (dado ou caso, fonte, se é sustentação ou consequência).
+Briefing aprovado por Daniel (ver agentes/head-de-conteudo.md): tese (a afirmação que o artigo defende), teoria base (conceito, fonte) e um ou mais itens de apoio (dado ou caso, fonte, se é sustentação ou consequência).
 
 ## Cadência
 2 artigos por semana. Cada artigo é independente e completo em si mesmo, não faz parte de um cluster de vários artigos no mesmo pilar. Tamanho alvo: cerca de 1000 palavras. Abrangência e profundidade vêm antes de concisão, o artigo precisa cobrir o tema de forma completa para quem está lendo no blog, não só o suficiente para um resumo de LinkedIn.
@@ -63,7 +63,15 @@ Na mesma revisão, cortar qualquer característica que soe gerada por IA:
 - Construções do tipo "o que é X, e por que Y" (vírgula mais "e" unindo duas orações). Esse padrão e qualquer variação equivalente soam gerados por IA, não usar nenhum deles.
 Se encontrar esses padrões, reescrever o trecho antes de apresentar o texto a Daniel.
 
-Depois da revisão de estilo, uma revisão de contexto, para o leitor que não conhece o assunto:
+A tese do briefing é o fio do artigo. A introdução anuncia a tese (sem copiar a frase do briefing) e o conceito que a primeira seção vai desenvolver, cada seção prova uma parte dela e o fechamento mostra o que muda para o leitor por causa dela. Parágrafo que não ajuda a defender a tese sai.
+
+Depois da revisão de estilo, uma revisão de coesão, para o texto formar um raciocínio único:
+- A introdução cria o vínculo com o primeiro tópico do desenvolvimento. Se a primeira seção trata de premissas, a abertura já apresenta o caso como um problema de premissa, nomeando o conceito antes de ele ser explicado.
+- O fim de cada parágrafo prepara o começo do seguinte, e o início de cada seção retoma o que a anterior deixou aberto.
+- Teste: leia só a primeira e a última frase de cada parágrafo. Elas precisam formar uma cadeia lógica, cada uma levando à próxima. Se um parágrafo pudesse trocar de lugar sem ninguém notar, falta coesão, reescreva a ligação.
+- O mesmo vale entre as seções e para o post e o roteiro, que seguem a mesma cadeia em versão curta.
+
+Depois da revisão de coesão, uma revisão de contexto, para o leitor que não conhece o assunto:
 - Assuma que o leitor não conhece a teoria, a empresa, o caso nem as pessoas citadas, e que não sabe o jargão de finanças.
 - Antes de usar qualquer elemento, apresente-o: quem é, o que faz ou o que é, em uma oração curta. Vale para empresas, pessoas, modelos, métodos, siglas e termos técnicos, na primeira vez em que aparecem.
 - Nenhuma frase pode falar de "o modelo", "a premissa", "o processo" ou "essa decisão" sem que o texto já tenha dito que isso existe. Erro típico: "O modelo não calculou errado" (que modelo? havia um modelo?). Correto: "...comprando casas com um algoritmo de precificação. Esse algoritmo não calculou errado."

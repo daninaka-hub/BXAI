@@ -43,11 +43,11 @@ def listar():
     if not linhas:
         return []
     semana = max(c[0] for _, c in linhas)
-    sel = [(ln, c) for ln, c in linhas if c[0] == semana and c[5] == "Sim"]
+    sel = [(ln, c) for ln, c in linhas if c[0] == semana and c[-1] == "Sim"]
     n = proximo_codigo()
     briefs = []
     for i, (ln, c) in enumerate(sel):
-        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "linha": ln})
+        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "tese": (c[5] if len(c) > 6 and c[5].lower() != "a definir" else ""), "linha": ln})
     return briefs
 
 def marcar(linha, texto):
@@ -133,8 +133,8 @@ def metricas():
     proc = len(re.findall(r"\| Processado \|$", bl, flags=re.M))
     desc = len(re.findall(r"\| Descartado \|$", bl, flags=re.M))
     dec = tabela(CONT / "decisoes-pauta.md")
-    pautas_pend = sum(1 for _, c in dec if c[5] == "Pendente")
-    pautas_ok = sum(1 for _, c in dec if c[5] == "Sim")
+    pautas_pend = sum(1 for _, c in dec if c[-1] == "Pendente")
+    pautas_ok = sum(1 for _, c in dec if c[-1] == "Sim")
     return {"pend": pend, "proc": proc, "desc": desc, "pautas_pend": pautas_pend, "pautas_ok": pautas_ok}
 
 def fmt_quando(iso):

@@ -11,6 +11,7 @@ Briefing aprovado por Daniel:
 - Código: Artigo {CODIGO}
 - Pilar: {PILAR}
 - Teoria base: {TEORIA}
+- Tese a defender: {TESE}
 - Apoio: {APOIO}
 
 Ao final, responda só a palavra PRONTO e o título do artigo.

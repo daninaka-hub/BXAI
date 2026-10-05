@@ -1,12 +1,12 @@
 # A Zillow perdeu US$ 881 milhões sem errar uma única conta, por quê?
 
-Em 2021, a Zillow Offers, braço de compra e venda direta de imóveis da Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, perdeu US$ 881 milhões comprando casas com um algoritmo de precificação, um programa que estimava quanto cada imóvel valia. Esse algoritmo não calculou errado. Funcionava exatamente como foi treinado para funcionar. O problema foi outro: ninguém definiu quem revalidaria essas estimativas, com que critério e em que momento.
+Em 2021, a Zillow Offers, braço de compra e venda direta de imóveis da Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, perdeu US$ 881 milhões comprando casas com um algoritmo de precificação, um programa que estimava quanto cada imóvel valia. Esse algoritmo não calculou errado. Funcionava exatamente como foi treinado para funcionar. O problema foi outro. A estimativa de preço era uma premissa, a hipótese sobre o futuro em que toda a compra se apoiava. Ninguém definiu quem revalidaria essa premissa, com que critério e em que momento.
 
-Até fevereiro de 2021, o algoritmo só gerava estimativas de referência, uma espécie de palpite informativo sobre o valor de um imóvel. A partir daquele mês, a Zillow passou a transformar essa mesma estimativa em oferta de compra vinculante, ou seja, uma oferta que a obrigava a comprar pelo preço calculado. Fez isso sem criar nenhuma camada nova de governança, as regras e os responsáveis que controlam como uma ferramenta é usada. O algoritmo continuou calculando do mesmo jeito. O que mudou foi o tamanho da consequência de cada erro.
+Até fevereiro de 2021, o algoritmo só gerava estimativas de referência, uma espécie de palpite informativo sobre o valor de um imóvel. A partir daquele mês, a Zillow passou a transformar essa mesma estimativa em oferta de compra vinculante, ou seja, uma oferta que a obrigava a comprar pelo preço calculado. Fez isso sem criar nenhuma camada nova de governança, as regras e os responsáveis que controlam como uma ferramenta é usada. O algoritmo continuou calculando do mesmo jeito. O que mudou foi o tamanho da consequência de cada erro. É o que acontece quando uma premissa muda de papel e ninguém percebe.
 
 ## A premissa não é um fato, é uma decisão
 
-Premissa de orçamento é a hipótese sobre o futuro em que os números do orçamento se apoiam. Parece um dado objetivo, mas é uma escolha. Alguém decidiu que o custo ia subir 8%, ou que a taxa de conversão ia se manter em 3%, ou que o preço do produto ficaria estável. Essa escolha foi feita com base em alguma informação disponível naquele momento. Essa informação tem prazo de validade.
+Num orçamento, a premissa funciona do mesmo jeito: é a hipótese sobre o futuro em que os números se apoiam. Parece um dado objetivo, mas é uma escolha. Alguém decidiu que o custo ia subir 8%, ou que a taxa de conversão ia se manter em 3%, ou que o preço do produto ficaria estável. Essa escolha foi feita com base em alguma informação disponível naquele momento. Essa informação tem prazo de validade.
 
 O erro mais comum não é escolher a premissa errada. É tratar a premissa como se fosse permanente, como se o momento em que ela foi definida não importasse. Foi exatamente isso que aconteceu com o algoritmo da Zillow: ele tinha sido treinado num mercado imobiliário em alta constante, sem nenhuma representação de um mercado em desaceleração. Quando o mercado esfriou em meados de 2021, o algoritmo seguiu precificando como se a alta continuasse.
 
@@ -14,7 +14,7 @@ Existe uma forma simples de testar se uma premissa está sob controle. Três per
 
 ## Pergunta 1: quem definiu
 
-Toda premissa precisa ter um dono. Não um dono formal no organograma, um dono de fato, alguém que pode explicar por que aquele número e não outro. No caso da Zillow, a conversão da estimativa em oferta vinculante, em fevereiro de 2021, foi uma decisão de negócio tomada em cima de um algoritmo, mas sem transferir para alguém a responsabilidade de vigiar se aquela premissa ainda fazia sentido depois da mudança de uso. Quando a premissa não tem dono claro, ela normalmente foi herdada de uma versão anterior do processo, copiada de um contexto que já não existe mais, ou automatizada por quem só olhava o resultado técnico, não o risco do negócio.
+Toda premissa precisa ter um dono. Não um dono formal no organograma, um dono de fato, alguém que pode explicar por que aquele número e não outro. No caso da Zillow, a conversão da estimativa em oferta vinculante, em fevereiro de 2021, foi uma decisão de negócio tomada em cima de um algoritmo, mas sem transferir para alguém a responsabilidade de vigiar se aquela premissa ainda fazia sentido depois da mudança de uso. Sem dono claro, a premissa costuma ser herdada de um processo antigo ou copiada de um contexto que já não existe.
 
 ## Pergunta 2: com que critério
 
@@ -44,11 +44,11 @@ A terceira é esperar o fechamento do trimestre ou do ano para revisar qualquer 
 
 Antes de fechar qualquer premissa de orçamento, três respostas precisam existir por escrito, não na memória de quem fez a conta. Quem é o responsável por esse número. Qual foi o critério ou a fonte usada para chegar nele. Quando essa premissa será reexaminada e sob qual gatilho.
 
-Isso não exige um sistema novo nem um processo complexo. Pode começar como uma coluna extra na própria planilha de orçamento, ao lado de cada premissa relevante. O que importa não é a ferramenta, é o hábito de nunca deixar uma premissa sem essas três respostas antes de ela entrar no orçamento oficial.
+Pode começar como uma coluna extra na própria planilha de orçamento, ao lado de cada premissa relevante. O que importa não é a ferramenta, é o hábito de nunca deixar uma premissa sem essas três respostas antes de ela entrar no orçamento oficial.
 
 ## Por que isso é mais importante do que parece
 
-Essas três perguntas não são burocracia. Elas são a diferença entre uma empresa que toma uma decisão consciente de manter uma premissa e uma empresa que simplesmente não percebeu que a premissa envelheceu. A primeira é um risco calculado. A segunda é um ponto cego.
+Essas perguntas são a diferença entre uma empresa que toma uma decisão consciente de manter uma premissa e uma empresa que simplesmente não percebeu que a premissa envelheceu. A primeira é um risco calculado. A segunda é um ponto cego.
 
 O dado da EY, rede global de auditoria e consultoria, citado pelo Journal of Accountancy, revista profissional de contabilidade, mostra que 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa nos próximos cinco anos. Parte dessa mudança é justamente essa, sair da função de registrar o número fechado e assumir a função de garantir que cada premissa por trás do número tenha dono, critério e data de revisão. Isso é controladoria, não é auditoria. Auditoria encontra o problema depois que ele já aconteceu. As três perguntas evitam que ele aconteça.
 
