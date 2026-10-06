@@ -1,15 +1,12 @@
 {
  "agente": "pesquisador",
- "resultado": "executando",
- "resumo": "Em execução",
- "commit": "",
+ "resultado": "ok",
+ "quando": "2026-10-06T07:18-03:00",
+ "resumo": "Rodada concluída",
+ "commit": "773fcf4",
  "inicio": "2026-10-06T07:00-03:00",
- "previsao": "2026-10-06T07:20-03:00",
- "duracoes": [],
- "anterior": {
-  "resultado": "ok",
-  "quando": "2026-10-05T11:06-03:00",
-  "resumo": "Rodada manual: 20 fontes do backlog e 8 macrotemas, 37 entradas novas",
-  "commit": "8f9ee9f"
- }
+ "duracao_min": 18,
+ "duracoes": [
+  18
+ ]
 }
