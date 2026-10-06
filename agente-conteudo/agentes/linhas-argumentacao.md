@@ -66,7 +66,7 @@ Base do Copywriter para o fechamento de todo artigo (Passo 1.5) e para a linha d
 
 ### 10. IA com trilha
 - Problema: a IA mexe em números mais rápido do que alguém consegue registrar o motivo, e depois ninguém responde por eles.
-- Custo de não resolver: Kraft Heinz (cerca de 300 transações de desconto de fornecedor fictício escondidas por três anos).
+- Custo de não resolver: Kraft Heinz (US$ 208 milhões em economias indevidas, vindas de 295 transações entre 2015 e 2018, com contratos enganosos de compras que a controladoria somou sem conferir).
 - Solução: P32 (tudo que a IA criou ou alterou fica registrado, com autor, data, mudança e a conversa que originou), P31 (a IA sugere as premissas a partir de uma conversa) e P34 (controle de quanto cada usuário gasta de IA, com desligamento do módulo). Não citar P33 (confirmação antes de executar), que ainda não existe.
 - Cabe em: Artigo 2, qualquer artigo sobre IA agêntica em finanças.
 

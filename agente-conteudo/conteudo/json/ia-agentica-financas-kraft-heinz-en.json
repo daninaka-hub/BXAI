@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Agentic AI in Finance: What Kraft Heinz Teaches",
-    "description": "Kraft Heinz booked 300 fake discounts for 3 years. See what it reveals about agentic AI in finance and what to fix before you automate.",
+    "description": "Kraft Heinz booked $208 million in improper savings. See what it reveals about agentic AI in finance and what to fix before you automate.",
     "keywords": [
       "agentic AI",
       "process governance",
@@ -14,7 +14,7 @@
   "id": "17",
   "slug": "agentic-ai-finance-kraft-heinz",
   "title": "What does Kraft Heinz's $208 million fraud say about agentic AI in finance?",
-  "excerpt": "Kraft Heinz booked $208 million in fake discounts and nobody traced where they came from. Before automating finance with agentic AI, see what needs an owner.",
+  "excerpt": "Kraft Heinz booked $208 million in improper savings and nobody checked where they came from. Before automating finance with agentic AI, see what needs an owner.",
   "coverImage": "/blog-media/ia-agentica-financas-kraft-heinz-capa.webp",
   "date": "2026-10-06",
   "author": {
@@ -30,7 +30,7 @@
     "accounting fraud"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "9 min",
   "featured": false,
   "content": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Under that pressure, procurement (the purchasing department) began booking as savings supplier discounts the company had never earned, in roughly 300 transactions from late 2015 to late 2018. The fraud was deliberate. What let it through was a process governance failure: in consolidation, nothing recorded where each number came from."
+      "content": "Under pressure from the chief operating officer for savings the budget did not support, procurement (the purchasing department) structured supplier contracts so that savings that did not yet exist could be booked. The head of procurement approved the contracts. Controllership, the function that closes the company's numbers, added up what it received. Later, the restatement corrected $208 million in improper savings, from 295 transactions between 2015 and 2018. The fraud was deliberate. What let it through was a process governance failure: in consolidation, nothing recorded where each number came from."
     },
     {
       "type": "paragraph",
@@ -60,11 +60,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Who benefited from Kraft Heinz's 300 discounts?"
+      "content": "Who benefited from Kraft Heinz's improper savings?"
     },
     {
       "type": "paragraph",
-      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. Every booked discount moved the result closer to it. Consolidation, the step where every department's numbers are added into the company's results, had no stage that traced where each discount came from. Whoever booked the discount gained. Whoever added the numbers was not paid to doubt them."
+      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. Every booked saving moved the result closer to it. The chief operating officer pressed procurement for unrealistic savings targets. The head of procurement approved improper contracts. Consolidation, the step where every department's numbers are added into the company's results, had no stage that traced where each saving came from. Whoever booked the savings gained. Whoever added the numbers was not paid to doubt them."
     },
     {
       "type": "paragraph",
@@ -81,11 +81,11 @@
     },
     {
       "type": "paragraph",
-      "content": "In consolidation, the number arrives without its origin. Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, every discount arrived that way, without the assumption behind it."
+      "content": "In consolidation, the number arrives without its origin. Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, what reached controllership was a contract that described the discount differently. Nobody checked the assumption behind it."
     },
     {
       "type": "paragraph",
-      "content": "There was bad faith on the part of those who booked the discounts. Even so, the lesson lies in the process, which had no way to notice. A simple question was missing, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks."
+      "content": "There was bad faith on the part of those who built the contracts. Even so, the lesson lies in the process, which had no way to notice. A simple question was missing, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks."
     },
     {
       "type": "paragraph",
@@ -110,12 +110,12 @@
       "rows": [
         [
           "Who booked the number?",
-          "Procurement, with no visible record in consolidation",
+          "Procurement, with misleading contracts and no visible record in consolidation",
           "The agent, with no record of what it changed, if the process does not require one"
         ],
         [
           "On what basis?",
-          "A supplier discount that never existed",
+          "Contracts that described the discount differently",
           "A rule or conversation nobody kept"
         ],
         [
@@ -145,7 +145,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with governance or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the discount that never existed. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
+      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with governance or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the saving that did not yet exist. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
     },
     {
       "type": "paragraph",
@@ -204,12 +204,12 @@
       "rows": [
         [
           "Who booked the number?",
-          "Procurement, with no visible record in consolidation",
+          "Procurement, with misleading contracts and no visible record in consolidation",
           "Every assumption has an owner. Everything the AI creates or changes is recorded, with author and date"
         ],
         [
           "On what basis?",
-          "A supplier discount that never existed",
+          "Contracts that described the discount differently",
           "The record keeps the change made and the conversation that originated the adjustment. The discussion stays in the cell, next to the number"
         ],
         [

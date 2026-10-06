@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "IA agéntica en finanzas: lo que enseña Kraft Heinz",
-    "description": "Kraft Heinz registró 300 descuentos falsos durante 3 años. Descubre qué revela sobre la IA agéntica en finanzas y qué hacer antes de automatizar.",
+    "description": "Kraft Heinz registró 208 millones de dólares en ahorros indebidos. Descubre qué revela sobre la IA agéntica en finanzas y qué hacer antes de automatizar.",
     "keywords": [
       "IA agéntica",
       "gobernanza de procesos",
@@ -14,7 +14,7 @@
   "id": "17",
   "slug": "ia-agentica-finanzas-kraft-heinz",
   "title": "¿Qué dice el fraude de 208 millones de dólares de Kraft Heinz sobre la IA agéntica en las finanzas?",
-  "excerpt": "Kraft Heinz registró 208 millones de dólares en descuentos falsos y nadie rastreó su origen. Antes de automatizar finanzas con IA agéntica, mira qué necesita un dueño.",
+  "excerpt": "Kraft Heinz registró 208 millones de dólares en ahorros indebidos y nadie comprobó su origen. Antes de automatizar finanzas con IA agéntica, mira qué necesita un dueño.",
   "coverImage": "/blog-media/ia-agentica-financas-kraft-heinz-capa.webp",
   "date": "2026-10-06",
   "author": {
@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Bajo esa presión, el área de compras (procurement) registró como ahorro descuentos de proveedores que nunca había ganado, en unas 300 transacciones, de fines de 2015 a fines de 2018. El fraude fue deliberado. Lo que lo dejó pasar fue una falla de gobernanza de proceso: en la consolidación, nada registraba de dónde venía cada cifra."
+      "content": "Bajo la presión del director de operaciones por ahorros que el presupuesto no sostenía, el área de compras (procurement) estructuró contratos con proveedores para que se registraran ahorros que aún no existían. El director de compras aprobó los contratos. El control de gestión (controlaría), el área que cierra las cifras de la empresa, sumó lo que recibió. Después, la reexpresión corrigió 208 millones de dólares en ahorros indebidos, provenientes de 295 transacciones entre 2015 y 2018. El fraude fue deliberado. Lo que lo dejó pasar fue una falla de gobernanza de proceso: en la consolidación, nada registraba de dónde venía cada cifra."
     },
     {
       "type": "paragraph",
@@ -60,11 +60,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Quién ganaba con los 300 descuentos de Kraft Heinz?"
+      "content": "¿Quién ganaba con los ahorros indebidos de Kraft Heinz?"
     },
     {
       "type": "paragraph",
-      "content": "Los incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. Cada descuento registrado acercaba el resultado a esa meta. La consolidación, el momento en que las cifras de todas las áreas se suman en el resultado de la empresa, no tenía una etapa que rastreara de dónde venía cada descuento. Quien registraba ganaba. A quien sumaba no le pagaban por dudar."
+      "content": "Los incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. Cada ahorro registrado acercaba el resultado a esa meta. El director de operaciones presionó a compras con metas de ahorro irreales. El director de compras aprobó contratos indebidos. La consolidación, el momento en que las cifras de todas las áreas se suman en el resultado de la empresa, no tenía una etapa que rastreara de dónde venía cada ahorro. Quien registraba ganaba. A quien sumaba no le pagaban por dudar."
     },
     {
       "type": "paragraph",
@@ -81,11 +81,11 @@
     },
     {
       "type": "paragraph",
-      "content": "En la consolidación, la cifra llega sin su origen. Cada cifra tiene una premisa, la razón para creer en ella. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando solo llega la cifra, quien suma ve únicamente el total. En Kraft Heinz, cada descuento llegó así, sin la premisa que lo sostenía."
+      "content": "En la consolidación, la cifra llega sin su origen. Cada cifra tiene una premisa, la razón para creer en ella. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando solo llega la cifra, quien suma ve únicamente el total. En Kraft Heinz, lo que llegó al control de gestión fue un contrato que describía el descuento de otra forma. Nadie comprobó la premisa que había detrás."
     },
     {
       "type": "paragraph",
-      "content": "Hubo mala fe de quien registró los descuentos. Aun así, la lección está en el proceso, que no tenía cómo percibirlo. Faltaba una pregunta simple, repetida en cada etapa: ¿de dónde salió esta cifra y quién confirma la premisa que la sostiene? Sin dueño para esa pregunta, la cadena de aprobación se alarga, la presión por la meta sigue siendo real y la visibilidad sobre el origen de la cifra se reduce."
+      "content": "Hubo mala fe de quien armó los contratos. Aun así, la lección está en el proceso, que no tenía cómo percibirlo. Faltaba una pregunta simple, repetida en cada etapa: ¿de dónde salió esta cifra y quién confirma la premisa que la sostiene? Sin dueño para esa pregunta, la cadena de aprobación se alarga, la presión por la meta sigue siendo real y la visibilidad sobre el origen de la cifra se reduce."
     },
     {
       "type": "paragraph",
@@ -110,12 +110,12 @@
       "rows": [
         [
           "¿Quién registró la cifra?",
-          "El área de compras, sin registro visible en la consolidación",
+          "El área de compras, con contratos engañosos y sin registro visible en la consolidación",
           "El agente, sin registro de lo que cambió, si el proceso no lo exige"
         ],
         [
           "¿Con base en qué?",
-          "Un descuento de proveedor que nunca existió",
+          "Contratos que describían el descuento de otra forma",
           "Una regla o conversación que nadie guardó"
         ],
         [
@@ -145,7 +145,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La intuición dice que faltan herramientas. El dato dice que falta base. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con gobernanza o sin ella. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el descuento que nunca existió. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. El mismo banco dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real."
+      "content": "La intuición dice que faltan herramientas. El dato dice que falta base. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con gobernanza o sin ella. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el ahorro que aún no existía. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. El mismo banco dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real."
     },
     {
       "type": "paragraph",
@@ -204,12 +204,12 @@
       "rows": [
         [
           "¿Quién registró la cifra?",
-          "El área de compras, sin registro visible en la consolidación",
+          "El área de compras, con contratos engañosos y sin registro visible en la consolidación",
           "Cada premisa tiene un dueño. Todo lo que la IA crea o modifica queda registrado, con autor y fecha"
         ],
         [
           "¿Con base en qué?",
-          "Un descuento de proveedor que nunca existió",
+          "Contratos que describían el descuento de otra forma",
           "El registro guarda el cambio hecho y la conversación que originó el ajuste. La discusión queda junto a la cifra, en la celda"
         ],
         [

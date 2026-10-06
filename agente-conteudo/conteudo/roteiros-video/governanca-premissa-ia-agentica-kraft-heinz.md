@@ -8,7 +8,7 @@ Artigo de referência: O que a fraude de US$ 208 milhões da Kraft Heinz diz sob
 "A Kraft Heinz é uma gigante americana de alimentos. Precisava crescer o lucro operacional em 6,1% para pagar bônus. Entregou 3%. O que ela fez depois?"
 
 **15 a 30s**
-"Do fim de 2015 ao fim de 2018, a área de compras lançou cerca de 300 descontos de fornecedores como economia. Em 2019, a empresa corrigiu 208 milhões de dólares nos resultados. Por que ninguém viu antes?"
+"Do fim de 2015 ao fim de 2018, pressionada por metas de economia irreais, a área de compras montou contratos enganosos com fornecedores para contabilizar economias que ainda não existiam. Em 2019, a empresa corrigiu 208 milhões de dólares nos resultados. Por que ninguém viu antes?"
 
 **30 a 45s**
 "Veio uma multa de 62 milhões de dólares da SEC, o regulador do mercado americano. Depois, um acordo de 450 milhões com acionistas. A fraude foi deliberada. Mas o que a deixou passar foi o processo: na consolidação, ninguém registrava de onde vinha cada número."

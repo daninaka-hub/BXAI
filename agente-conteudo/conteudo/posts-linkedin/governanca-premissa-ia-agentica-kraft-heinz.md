@@ -5,7 +5,7 @@ Em 2017, a Kraft Heinz errou uma meta de lucro. Em 2019, baixou US$ 15,4 bilhõe
 .
 A Kraft Heinz, gigante americana de alimentos, precisava crescer 6,1% no EBITDA (lucro operacional) para pagar bônus. Entregou 3%.
 
-Do fim de 2015 ao fim de 2018, a área de compras lançou cerca de 300 descontos de fornecedores como economia. Em fevereiro de 2019, a empresa registrou a baixa de US$ 15,4 bilhões. Em junho, corrigiu US$ 208 milhões nas demonstrações financeiras. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais americano. Em 2023, fechou acordo de US$ 450 milhões com acionistas.
+Do fim de 2015 ao fim de 2018, pressionada por metas de economia irreais, a área de compras montou contratos enganosos com fornecedores para contabilizar economias que ainda não existiam. Em fevereiro de 2019, a empresa registrou a baixa de US$ 15,4 bilhões. Em junho, corrigiu US$ 208 milhões em economias indevidas nas demonstrações financeiras. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais americano. Em 2023, fechou acordo de US$ 450 milhões com acionistas.
 
 A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número. Nenhuma IA participou disso.
 
