@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Kraft Heinz: por que a IA agêntica só funciona sobre premissas governadas"
+    },
+    {
       "type": "paragraph",
       "content": "Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos e depreciação, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta."
     },

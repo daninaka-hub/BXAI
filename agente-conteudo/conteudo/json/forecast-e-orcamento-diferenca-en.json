@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Forecast: why measuring your own forecast error improves planning"
+    },
+    {
       "type": "paragraph",
       "content": "Every month, most finance teams publish a new forecast without checking the last one. A forecast is the prediction of how the company should close the period. Only 14% of teams formally track its accuracy, according to the AFP (Association for Financial Professionals), a U.S. body for corporate finance professionals. The figure comes from the 2026 FP&A (Financial Planning & Analysis) Benchmarking Survey, which polled 332 professionals in 54 countries."
     },

@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Strategic planning: why every goal is a hypothesis to test in phases"
+    },
+    {
       "type": "paragraph",
       "content": "In 2013, Target, one of the largest retail chains in the United States (target.com), entered Canada by opening 133 stores in a little over a year, with three distribution centers running at the same time. In early 2015 it announced the closing of every one of them, affecting 17,600 employees (Panorama Consulting). Was it a lack of capital? No. The strategic plan failed to separate what the company knew from what it merely assumed."
     },

@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Forecast: por que medir o erro do próprio forecast melhora o planejamento"
+    },
+    {
       "type": "paragraph",
       "content": "Todo mês, a maioria das equipes de finanças publica um forecast novo sem conferir o anterior. Forecast é a previsão de como a empresa deve fechar o período. Só 14% das equipes acompanham formalmente a acurácia dele, segundo a AFP (Association for Financial Professionals), entidade americana que reúne profissionais de finanças corporativas."
     },

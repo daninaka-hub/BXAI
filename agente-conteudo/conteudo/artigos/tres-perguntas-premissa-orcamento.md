@@ -1,5 +1,7 @@
 # Quem era dono da premissa que custou US$ 881 milhões à Zillow?
 
+### Zillow: a importância da governança de premissas em um processo orçamentário
+
 Em fevereiro de 2021, a Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, deu a um número o poder de comprar casas. Até então, a estimativa de preço do seu algoritmo, um programa que calcula quanto vale cada imóvel, servia só de referência. Naquele mês, virou oferta de compra vinculante: a empresa se obrigava a pagar o valor calculado. Em 2021, a Zillow Offers, sua divisão de compra de casas, perdeu US$ 881 milhões.
 
 O algoritmo não calculou errado. Falhou uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. Ninguém tinha a tarefa de revisá-la. Toda premissa pode nascer certa e envelhecer errada sem que ninguém tome uma decisão errada no caminho. Existem três perguntas que mostram se as suas estão sob controle. O caso da Zillow ajuda a entender cada uma.

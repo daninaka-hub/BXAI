@@ -18,6 +18,8 @@ Cada artigo é construído em torno de uma teoria base (o conceito de FP&A, Cont
 - **Sustentação**: mais uma evidência, argumento ou ângulo que reforça a teoria, mostrando por que ela é verdadeira ou como funciona na prática.
 - **Consequência**: um caso real que mostra o que acontece quando a teoria não é aplicada (como o caso Zillow).
 
+Subtítulo (padrão em todo artigo, nos 3 idiomas): logo depois do título, uma linha com "### " no formato "Prefixo: frase", até 100 caracteres. O prefixo é o nome da empresa quando o artigo gira em torno de um caso só (ex: "Zillow: a importância da governança de premissas em um processo orçamentário") e o tema quando a tese é maior que o caso (ex: "Forecast: por que medir o erro do próprio forecast melhora o planejamento"). A frase diz o tema do artigo sem entregar a conclusão. Em EN e ES, o campo artigo do arquivo de idiomas também começa com o subtítulo. No JSON do blog ele vira o primeiro bloco, heading nível 3. O lint bloqueia artigo sem subtítulo.
+
 Estrutura: título que nomeia o que o leitor vai aprender, sem entregar a conclusão (ver regra geral de título). Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento ensina a teoria em profundidade, com seções que abordam as diferentes facetas do tema (o que é, como funciona, quando aplicar, erros comuns), e encaixa o apoio como evidência ou como caso dentro dessas seções, não como um bloco solto ao final. Fechamento com a mudança de ponto de vista e, por último, o parágrafo da BudgetXpert descrito no Passo 1.5.
 
 ## Passo 1.5: fechamento com a BudgetXpert

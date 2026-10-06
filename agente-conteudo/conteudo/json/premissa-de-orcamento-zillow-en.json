@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Zillow: why governing assumptions matters in a budgeting process"
+    },
+    {
       "type": "paragraph",
       "content": "In February 2021, Zillow (zillow.com), the largest real estate search platform in the United States, gave a number the power to buy houses. Until then, the price estimate from its algorithm, a program that calculates what each home is worth, was only a reference. That month, it became a binding purchase offer, obliging the company to pay the calculated price. By the end of 2021, Zillow Offers, the division that bought and resold homes directly, had lost $881 million."
     },

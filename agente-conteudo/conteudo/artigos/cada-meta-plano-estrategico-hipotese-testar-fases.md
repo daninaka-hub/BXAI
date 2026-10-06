@@ -1,5 +1,7 @@
 # A Target abriu 133 lojas no Canadá sem testar a primeira
 
+### Planejamento estratégico: por que cada meta é uma hipótese a testar em fases
+
 Em 2013, a Target, uma das maiores redes de varejo dos Estados Unidos (target.com), entrou no Canadá abrindo 133 lojas em pouco mais de um ano, com três centros de distribuição funcionando ao mesmo tempo. No início de 2015 anunciou o fechamento de todas, afetando 17.600 funcionários (Panorama Consulting). Faltou capital? Não. Faltou ao plano estratégico separar o que a empresa sabia do que apenas supunha.
 
 A suposição era simples: o modelo de loja que funcionava nos Estados Unidos funcionaria igual no Canadá, na mesma escala, no mesmo momento. Essa suposição tem nome, hipótese: uma afirmação sobre o mundo que ainda não foi confrontada com a realidade. Todo plano é feito delas. A Target as tratou como fato e assinou o compromisso inteiro antes de conferir uma só.

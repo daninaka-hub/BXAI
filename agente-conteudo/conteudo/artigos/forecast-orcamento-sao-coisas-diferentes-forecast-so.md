@@ -1,5 +1,7 @@
 # Por que 86% das equipes de finanças não medem o erro do próprio forecast?
 
+### Forecast: por que medir o erro do próprio forecast melhora o planejamento
+
 Todo mês, a maioria das equipes de finanças publica um forecast novo sem conferir o anterior. Forecast é a previsão de como a empresa deve fechar o período. Só 14% das equipes acompanham formalmente a acurácia dele, segundo a AFP (Association for Financial Professionals), entidade americana que reúne profissionais de finanças corporativas.
 
 A explicação habitual é falta de tempo ou de ferramenta. O argumento aqui é outro: em muitas empresas, forecast e orçamento viraram a mesma planilha com dois nomes. Os dois respondem a perguntas diferentes. O forecast só melhora quando alguém mede o erro dele.

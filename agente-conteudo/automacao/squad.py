@@ -74,6 +74,21 @@ def caminhos(slug):
 
 SIGLAS_OK = {"EUA", "IA", "PIB", "CEO", "CFO", "SaaS", "ERP"}
 
+def _lint_subtitulo(texto, nome, com_titulo):
+    """O artigo tem um subtítulo (### Prefixo: frase, até 100 caracteres) logo depois do título."""
+    if com_titulo:
+        texto = re.sub(r"^#\s.*\n", "", texto, count=1)
+    prim = texto.strip().split("\n\n")[0].strip()
+    if not prim.startswith("### "):
+        return [f"{nome}: falta o subtítulo com \"### \" logo depois do título (formato \"Prefixo: frase\")"]
+    sub = prim[4:].strip()
+    erros = []
+    if ":" not in sub:
+        erros.append(f"{nome}: o subtítulo precisa do formato \"Prefixo: frase\"")
+    if len(sub) > 100:
+        erros.append(f"{nome}: subtítulo com {len(sub)} caracteres, o limite é 100")
+    return erros
+
 def lint(slug):
     """Devolve a lista de problemas encontrados nos três arquivos."""
     erros = []
@@ -118,6 +133,12 @@ def lint(slug):
         if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     erros += lint_idiomas(slug)
+    if art.exists():
+        erros += _lint_subtitulo(art.read_text(encoding="utf-8"), "artigo", True)
+    if (IDIOMAS / f"{slug}.json").exists():
+        di = ler_idiomas(slug) or {}
+        for lg in ("en", "es"):
+            erros += _lint_subtitulo(str(di.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo", False)
     if art.exists() and "budgetxpert.ai" not in art.read_text(encoding="utf-8").lower():
         erros.append("artigo: falta o fechamento com a BudgetXpert e o link budgetxpert.ai (Passo 1.5)")
     if post.exists() and "budgetxpert.ai" not in post.read_text(encoding="utf-8").lower():

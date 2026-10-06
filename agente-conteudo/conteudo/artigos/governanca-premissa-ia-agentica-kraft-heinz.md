@@ -1,5 +1,7 @@
 # A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?
 
+### Kraft Heinz: por que a IA agêntica só funciona sobre premissas governadas
+
 Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos e depreciação, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta.
 
 Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa: ninguém conferiu a hipótese de que cada desconto era real.

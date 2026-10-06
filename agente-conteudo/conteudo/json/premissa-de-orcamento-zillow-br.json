@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Zillow: a importância da governança de premissas em um processo orçamentário"
+    },
+    {
       "type": "paragraph",
       "content": "Em fevereiro de 2021, a Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, deu a um número o poder de comprar casas. Até então, a estimativa de preço do seu algoritmo, um programa que calcula quanto vale cada imóvel, servia só de referência. Naquele mês, virou oferta de compra vinculante: a empresa se obrigava a pagar o valor calculado. Em 2021, a Zillow Offers, sua divisão de compra de casas, perdeu US$ 881 milhões."
     },

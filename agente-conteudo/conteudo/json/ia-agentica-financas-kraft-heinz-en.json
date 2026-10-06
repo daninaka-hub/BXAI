@@ -34,6 +34,11 @@
   "featured": false,
   "content": [
     {
+      "type": "heading",
+      "level": 3,
+      "content": "Kraft Heinz: why agentic AI only works on top of governed assumptions"
+    },
+    {
       "type": "paragraph",
       "content": "In 2017, Kraft Heinz, an American multinational food company (kraftheinzcompany.com), needed its EBITDA to grow 6.1% for its teams to receive bonuses. EBITDA is operating profit before interest, taxes and depreciation. The company delivered 3%, less than half the target."
     },
