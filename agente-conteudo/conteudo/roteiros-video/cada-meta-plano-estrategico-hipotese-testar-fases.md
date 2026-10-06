@@ -11,7 +11,7 @@ Artigo de referência: A Target abriu 133 lojas no Canadá sem testar a primeira
 "Junto com as lojas, ligou o sistema que controla estoque, compras e preço. Tudo no mesmo dia. Ninguém na equipe conhecia a ferramenta. Veio a prateleira vazia. Veio o preço errado no caixa. Mas o erro estava mesmo no sistema?"
 
 **28 a 42s**
-"Havia duas apostas ali. Uma sobre as lojas. Outra sobre o sistema. As duas foram respondidas no mesmo dia, nas mesmas 133 lojas. Quando o resultado chegou, ninguém soube dizer qual das duas falhou. Por quê?"
+"Havia duas hipóteses ali. Uma sobre as lojas. Outra sobre o sistema. As duas foram respondidas no mesmo dia, nas mesmas 133 lojas. Quando o resultado chegou, ninguém soube dizer qual das duas falhou. Por quê?"
 
 **42 a 52s**
 "Em 2015, 17.600 funcionários foram afetados. Você deve estar achando que faltou dinheiro ou execução. Não foi isso. Faltou uma coisa que quase todo plano de empresa também não tem."

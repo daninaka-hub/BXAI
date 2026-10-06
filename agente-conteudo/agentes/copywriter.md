@@ -35,6 +35,7 @@ Todo artigo termina com a seção "Como a BudgetXpert faria diferente", sem par�
 - Nunca citar "BXAI" no texto, só "BudgetXpert".
 
 ## Passo 2: post de LinkedIn
+Termos do artigo: o post e o roteiro de vídeo usam os mesmos termos do artigo aprovado (premissa, dono, critério, governança de processo, hipótese etc.), nos 3 idiomas, e a mesma causa do caso. Se o artigo mudar um termo ou a causa, o post e o roteiro mudam junto (pedido de Daniel em 06/10).
 A partir do artigo pronto, escrever o post em conteudo/posts-linkedin/. O post conta o caso como uma história curta e deixa a curiosidade aberta: apresenta o personagem e o que estava em jogo, mostra o que deu errado e termina com a pergunta que só o artigo responde, sem entregar a solução completa. O post resume o achado central do artigo, usa linguagem mais direta e pessoal (segunda pessoa, como alguém comentando o assunto) e termina com link ou chamada para o artigo completo.
 A primeira linha é o header do post e precisa ser clickbait: gerar curiosidade ou tensão forte o suficiente para parar o scroll, sem entregar o achado inteiro de uma vez. Pode usar número chocante, pergunta direta ou afirmação que contradiz o senso comum. Nunca inventar dado para isso, o gancho vem do mesmo dado real do artigo, só apresentado de forma mais provocativa.
 O header segue a mesma lógica do título do artigo: curto, intrigante, sem entregar a conclusão. Testar: se o header já conta o porquê ou a solução, reescrever.

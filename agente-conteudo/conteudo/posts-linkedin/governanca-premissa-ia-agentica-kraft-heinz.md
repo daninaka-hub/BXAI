@@ -7,13 +7,15 @@ A Kraft Heinz, gigante americana de alimentos, precisava crescer 6,1% no EBITDA 
 
 Do fim de 2015 ao fim de 2018, a área de compras lançou cerca de 300 descontos de fornecedores como economia. Em fevereiro de 2019, a empresa registrou a baixa de US$ 15,4 bilhões. Em junho, corrigiu US$ 208 milhões nas demonstrações financeiras. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais americano. Em 2023, fechou acordo de US$ 450 milhões com acionistas.
 
-Nenhum cálculo estava errado. E nenhuma IA participou disso.
+A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número. Nenhuma IA participou disso.
 
-Hoje, 99% das empresas planejam colocar IA agêntica em finanças, agentes que executam tarefas por conta própria. Só 11% já colocaram em produção (Neurons Lab, 2025).
+Hoje, 99% das empresas planejam colocar IA agêntica em finanças, agentes que executam tarefas por conta própria. Só 11% já colocaram em produção (Neurons Lab, 2025). O foco é automação e produtividade. A pressa de não ficar para trás deixa a governança em segundo plano.
 
-Um agente soma em minutos o que as pessoas somavam em meses. Então qual pergunta a Kraft Heinz deixou de fazer? Por que ela pesa mais quando quem soma é uma IA?
+Um agente soma em minutos o que as pessoas somavam em meses. Sem governança de processo, a IA agêntica não corrige o problema, só o acelera.
 
-A resposta está no artigo.
+Quem lançou o número? Com base em quê? Quem o conferiu antes de somar? Foi o que a Kraft Heinz deixou de perguntar.
+
+O artigo mostra por que isso pesa mais quando quem soma é uma IA.
 
 Artigo completo: [link do artigo]
 

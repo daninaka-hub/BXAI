@@ -11,10 +11,10 @@ Artigo de referência: O que a fraude de US$ 208 milhões da Kraft Heinz diz sob
 "Do fim de 2015 ao fim de 2018, a área de compras lançou cerca de 300 descontos de fornecedores como economia. Em 2019, a empresa corrigiu 208 milhões de dólares nos resultados. Por que ninguém viu antes?"
 
 **30 a 45s**
-"Veio uma multa de 62 milhões de dólares da SEC, o regulador do mercado americano. Depois, um acordo de 450 milhões com acionistas. Dois executivos foram punidos. E nenhum número estava calculado errado."
+"Veio uma multa de 62 milhões de dólares da SEC, o regulador do mercado americano. Depois, um acordo de 450 milhões com acionistas. A fraude foi deliberada. Mas o que a deixou passar foi o processo: na consolidação, ninguém registrava de onde vinha cada número."
 
 **45 a 55s**
-"Agora a virada. Nenhuma IA estava envolvida. Hoje, 99% das empresas planejam colocar IA agêntica nas finanças, agentes que executam tarefas sozinhos. Só 11% já colocaram. Por quê?"
+"Agora a virada. Nenhuma IA estava envolvida. Hoje, 99% das empresas planejam colocar IA agêntica nas finanças, atrás de automação e produtividade. Só 11% já colocaram. E a governança?"
 
 **55 a 60s**
 "O que a Kraft Heinz deixou de perguntar? A resposta está no artigo completo, no link nos comentários."
