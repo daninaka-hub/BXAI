@@ -55,11 +55,19 @@ Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsá
 
 A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem três coisas ao lado, um nome, o critério usado e a data em que será revisto. Quem assina o número é quem vai olhar para ele de novo.
 
+## Como a BudgetXpert faria diferente
+
+Cada uma das três perguntas do artigo tem uma resposta registrada na plataforma, ao lado do número.
+
+| Pergunta | O que faltou na Zillow | O que a BudgetXpert faz |
+|---|---|---|
+| Quem definiu esse número? | Ninguém recebeu a tarefa de vigiar a premissa depois que a estimativa virou oferta | Cada premissa tem um dono. Só quem tem permissão altera o valor |
+| Com que critério? | Sem critério escrito, a pressão pela meta de volume pesou mais que a regra | A razão e a discussão ficam na célula, junto do número |
+| Quando será revisto? | Nenhum gatilho para conferir se o mercado ainda se comportava como a premissa dizia | O ciclo cai de 5 meses para 2. A revisão vira ritual do mês |
+
 ## O que teria mudado na Zillow se revisar premissas fosse rotina?
 
-Em todo orçamento, a premissa perde o rastro de por que existe depois do dia em que é validada. A de que o preço das casas continuaria subindo seguiu esse caminho. Revisar durante o ano quase não acontece, porque o processo leva meses para ficar pronto. Repeti-lo todo mês significaria passar o ano em orçamento.
-
-Na BudgetXpert, o ciclo cai de 5 meses para 2. Cada premissa tem um dono. Só quem tem permissão altera o valor. A razão fica em comentário na célula, ao lado do número. Revisar passa a ser um ritual do mês, sem abrir um novo orçamento. Na Zillow, a pergunta "o mercado ainda se comporta como essa premissa diz?" teria um dono para fazê-la todo mês.
+Em todo orçamento, a premissa perde o rastro de por que existe depois do dia em que é validada. A de que o preço das casas continuaria subindo seguiu esse caminho. Revisar durante o ano quase não acontece, porque o processo leva meses para ficar pronto e repeti-lo todo mês seria passar o ano em orçamento. Na BudgetXpert, o ciclo cai de 5 meses para 2, então revisar passa a ser um ritual do mês. Na Zillow, a pergunta "o mercado ainda se comporta como essa premissa diz?" teria um dono para fazê-la todo mês, com a razão da premissa registrada ao lado do número.
 
 Veja como funciona em [budgetxpert.ai](https://www.budgetxpert.ai).
 

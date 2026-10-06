@@ -160,15 +160,45 @@
     {
       "type": "heading",
       "level": 2,
+      "content": "How BudgetXpert would do it differently"
+    },
+    {
+      "type": "paragraph",
+      "content": "Each of the article's three questions has an answer recorded on the platform, next to the number."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "What was missing at Zillow",
+        "What BudgetXpert does"
+      ],
+      "rows": [
+        [
+          "Who defined this number?",
+          "Nobody was tasked with watching the assumption once the estimate became an offer",
+          "Every assumption has an owner, and only people with permission change the value"
+        ],
+        [
+          "On what criterion?",
+          "Without a written criterion, the pressure for volume targets outweighed the rule",
+          "The reason and the discussion stay in the cell, next to the number"
+        ],
+        [
+          "When will it be reviewed?",
+          "No trigger to check whether the market still behaved the way the assumption said",
+          "The cycle drops from 5 months to 2, and reviewing becomes a monthly ritual"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
       "content": "What would have changed at Zillow if reviewing assumptions were routine?"
     },
     {
       "type": "paragraph",
-      "content": "In every budget, an assumption loses the trail of why it exists after the day it is validated. The assumption that home prices would keep rising followed that path. Reviewing during the year rarely happens, because the process takes months to finish, and repeating it every month would mean spending the whole year in budgeting."
-    },
-    {
-      "type": "paragraph",
-      "content": "In BudgetXpert, the cycle drops from 5 months to 2. Every assumption has an owner. Only people with permission change the value. The reason stays in a comment on the cell, next to the number. Reviewing becomes a monthly ritual, not a new budget. At Zillow, the question \"does the market still behave the way this assumption says?\" would have had an owner to ask it every month."
+      "content": "In every budget, an assumption loses the trail of why it exists after the day it is validated. The assumption that home prices would keep rising followed that path. Reviewing during the year rarely happens, because the process takes months to finish and repeating it every month would mean spending the whole year in budgeting. In BudgetXpert, the cycle drops from 5 months to 2, so reviewing becomes a monthly ritual. At Zillow, the question \"does the market still behave the way this assumption says?\" would have had an owner to ask it every month, with the reason for the assumption recorded next to the number."
     },
     {
       "type": "paragraph",

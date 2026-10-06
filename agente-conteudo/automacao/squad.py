@@ -95,9 +95,32 @@ def _fechamentos(texto):
     achados = []
     for m in re.finditer(r"(?:^|\n)(## [^\n]+\n+(?:(?!\n## |\n(?:Fonte|Fontes|Source|Sources|Fuente|Fuentes):)[\s\S])*?budgetxpert\.ai[^\n]*)", texto):
         achados.append(m.group(1))
+    for m in re.finditer(r"(?im)^(## [^\n]*budgetxpert[^\n]*\n(?:(?!\n## |\n(?:Fonte|Fontes|Source|Sources|Fuente|Fuentes):)[\s\S])*)", texto):
+        if m.group(1) not in achados:
+            achados.append(m.group(1))
     if not achados:
         achados = [x for x in texto.splitlines() if "budgetxpert" in x.lower()]
     return achados
+
+def _lint_estrutura_bx(texto, nome):
+    """Padrão de 06/10: seção 'Como a BudgetXpert faria diferente' com tabela, e fechamento de 5 a 6 frases (contando a frase do link)."""
+    erros = []
+    secoes = re.split(r"(?m)^(?=## )", texto)
+    tem_tabela = any(re.match(r"## [^\n]*budgetxpert", s_, flags=re.I) and re.search(r"(?m)^\|", s_) for s_ in secoes)
+    if not tem_tabela:
+        erros.append(f"{nome}: falta a seção 'Como a BudgetXpert faria diferente' (subtítulo com BudgetXpert e tabela)")
+    fech = [s_ for s_ in secoes if "](https://www.budgetxpert.ai)" in s_ and not re.search(r"(?m)^\|", s_)]
+    if not fech:
+        erros.append(f"{nome}: falta o fechamento com a BudgetXpert e o link")
+    else:
+        corpo = re.split(r"\n(?:Fonte|Fontes|Source|Sources|Fuente|Fuentes):", fech[-1])[0]
+        corpo = "\n".join(corpo.splitlines()[1:])
+        corpo = re.sub(r"\]\(https?://[^)]*\)", "]", corpo)
+        corpo = re.sub(r"\[budgetxpert\.ai\]", "budgetxpert_ai", corpo)
+        n = len([f for f in re.split(r"(?<=[.!?])[\"”]?\s+(?=[A-ZÀ-Ý¿¡\"“])", " ".join(corpo.split())) if f.strip()])
+        if not 5 <= n <= 6:
+            erros.append(f"{nome}: fechamento com {n} frases (esperado 5 ou 6, contando a frase do link)")
+    return erros
 
 LINK_SITE = "[budgetxpert.ai](https://www.budgetxpert.ai)"
 
@@ -193,6 +216,12 @@ def lint(slug):
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     erros += lint_idiomas(slug)
     erros += lint_promessas(slug)
+    if art.exists():
+        erros += _lint_estrutura_bx(art.read_text(encoding="utf-8"), "artigo")
+    if (IDIOMAS / f"{slug}.json").exists():
+        _d2 = ler_idiomas(slug)
+        for lg in ("en", "es"):
+            erros += _lint_estrutura_bx(str(_d2.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo")
     if art.exists():
         erros += _lint_link_site(art.read_text(encoding="utf-8"), "artigo", True)
     if post.exists():
