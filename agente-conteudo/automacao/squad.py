@@ -193,6 +193,47 @@ def fmt_quando(iso):
     except Exception:
         return iso
 
+def html_resumo(linhas):
+    m = metricas()
+    ag_falhou = [AGENTES[k][0] for k in AGENTES if (ler_status(k) or {}).get("resultado") == "falhou"]
+    ag_rodando = [AGENTES[k][0] for k in AGENTES if (ler_status(k) or {}).get("resultado") == "executando"]
+    validar = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas if c[5] == "Em validação"), reverse=True)
+    prod = {}
+    pj = STATUS / "producao.json"
+    if pj.exists():
+        prod = json.loads(pj.read_text(encoding="utf-8"))
+    em_producao = sorted(int(k) for k, e in prod.items() if "andamento" in e["etapas"].values())
+    prod_falha = sorted(int(k) for k, e in prod.items() if "falhou" in e["etapas"].values() and "ok" not in (e["etapas"]["pagina"],))
+    n_falhas = len(ag_falhou) + len(prod_falha)
+
+    def tile(rotulo, n, classe):
+        return f'<div class="rs-tile {classe}"><div class="rs-n">{n}</div><div class="rs-l">{rotulo}</div></div>'
+    tiles = (tile("Briefings para aprovar", m["pautas_pend"], "rs-alerta" if m["pautas_pend"] else "rs-ok")
+             + tile("Artigos para validar", len(validar), "rs-alerta" if validar else "rs-ok")
+             + tile("Em produção", len(em_producao) + len(ag_rodando), "rs-info" if (em_producao or ag_rodando) else "rs-ok")
+             + tile("Falhas", n_falhas, "rs-erro" if n_falhas else "rs-ok"))
+    acoes = []
+    if m["pautas_pend"]:
+        acoes.append(f'<li><b>Aprovar {m["pautas_pend"]} briefing(s).</b> <a href="#status">Ver na aba Status</a> e responder no chat.</li>')
+    if validar:
+        links = ", ".join(f'<a href="#artigo-{n}" data-abrir="{n}">Artigo {n}</a>' for n in validar)
+        acoes.append(f'<li><b>Validar {len(validar)} artigo(s):</b> {links}. Peça ajustes pelo código no chat.</li>')
+    if m["pautas_ok"]:
+        acoes.append(f'<li>{m["pautas_ok"]} briefing(s) aprovado(s) aguardando o Copywriter, que confere a fila a cada 30 minutos.</li>')
+    if ag_rodando:
+        acoes.append(f'<li>Em execução agora: {esc(", ".join(ag_rodando))}.</li>')
+    if em_producao:
+        acoes.append(f'<li>Artigos em produção: {esc(", ".join("Artigo " + str(n) for n in em_producao))}.</li>')
+    if ag_falhou:
+        acoes.append(f'<li class="rs-erro-txt"><b>Agente com falha:</b> {esc(", ".join(ag_falhou))}. Veja o log em ~/BXAI-logs no Mac.</li>')
+    if prod_falha:
+        acoes.append(f'<li class="rs-erro-txt"><b>Produção com falha:</b> {esc(", ".join("Artigo " + str(n) for n in prod_falha))}.</li>')
+    lista = '<ul class="rs-lista">' + "".join(acoes) + "</ul>" if acoes else '<div class="rs-ok-txt">Nada pendente. Operação em dia.</div>'
+    agora = _agora().strftime("%d/%m às %H:%M")
+    base = (f'<div class="rs-base">Backlog: <b>{m["pend"]}</b> fontes pendentes, <b>{m["proc"]}</b> processadas, <b>{m["desc"]}</b> descartadas. '
+            f'Painel gerado em {agora}.</div>')
+    return f'<div class="resumo"><div class="section-label rs-titulo">Resumo da operação</div><div class="rs-tiles">{tiles}</div>{lista}{base}</div>'
+
 def html_status():
     m = metricas()
     cards = []
@@ -221,11 +262,7 @@ def html_status():
         corpo = "".join(f'<div class="ag-linha">{l}</div>' for l in linhas)
         cards.append(f'<div class="ag"><div class="ag-top"><span class="ag-nome">{esc(nome)}</span><span class="badge {cls}">{badge}</span></div>'
                      f'{corpo}<div class="ag-agenda">Agenda: {esc(agenda)}</div></div>')
-    metr = (f'<div class="metricas"><span><b>{m["pend"]}</b> fontes pendentes no backlog</span>'
-            f'<span><b>{m["proc"]}</b> processadas, <b>{m["desc"]}</b> descartadas</span>'
-            f'<span><b>{m["pautas_pend"]}</b> briefings pendentes de aprovação</span>'
-            f'<span><b>{m["pautas_ok"]}</b> aprovados aguardando produção</span></div>')
-    return '<div class="section-label">Status dos agentes</div><div class="agentes">' + "".join(cards) + "</div>" + metr
+    return '<div class="section-label">Status dos agentes</div><div class="agentes">' + "".join(cards) + "</div>"
 
 ETAPAS = [("escrita", "Escrita"), ("revisao", "Revisão"), ("github", "No GitHub"), ("pagina", "Na página")]
 
@@ -388,6 +425,31 @@ details[open] .chev{transform:rotate(90deg);}
 .arte-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--fg);}
 .copiar{font:inherit;font-size:12px;font-weight:bold;border-radius:6px;padding:4px 10px;cursor:pointer;background:var(--card);color:var(--teal);border:1px solid var(--border);}
 .copiar:focus-visible{outline:2px solid var(--teal);outline-offset:2px;}
+.resumo{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin:0 0 22px;}
+.rs-titulo{margin:0 0 10px;}
+.rs-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin-bottom:12px;}
+.rs-tile{border-radius:8px;padding:10px 12px;border:1px solid var(--border);background:var(--bg);}
+.rs-n{font-size:24px;font-weight:bold;line-height:1.1;font-variant-numeric:tabular-nums;}
+.rs-l{font-size:12px;color:var(--muted);margin-top:3px;}
+.rs-ok .rs-n{color:var(--muted);}
+.rs-alerta{background:#FFEFC9;border-color:#FFEFC9;}
+.rs-alerta .rs-n,.rs-alerta .rs-l{color:#7A4B00;}
+.rs-erro{background:#FBDADA;border-color:#FBDADA;}
+.rs-erro .rs-n,.rs-erro .rs-l{color:#8A1C1C;}
+.rs-info{background:var(--teal-soft);border-color:var(--teal-soft);}
+.rs-info .rs-n{color:var(--teal);}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .rs-alerta{background:#3A2C0A;border-color:#3A2C0A;}:root:not([data-theme="light"]) .rs-alerta .rs-n,:root:not([data-theme="light"]) .rs-alerta .rs-l{color:#FFD98A;}:root:not([data-theme="light"]) .rs-erro{background:#431616;border-color:#431616;}:root:not([data-theme="light"]) .rs-erro .rs-n,:root:not([data-theme="light"]) .rs-erro .rs-l{color:#FFB4B4;}}
+:root[data-theme="dark"] .rs-alerta{background:#3A2C0A;border-color:#3A2C0A;}
+:root[data-theme="dark"] .rs-alerta .rs-n,:root[data-theme="dark"] .rs-alerta .rs-l{color:#FFD98A;}
+:root[data-theme="dark"] .rs-erro{background:#431616;border-color:#431616;}
+:root[data-theme="dark"] .rs-erro .rs-n,:root[data-theme="dark"] .rs-erro .rs-l{color:#FFB4B4;}
+.rs-lista{margin:0 0 10px;padding-left:18px;font-size:13.5px;line-height:1.6;}
+.rs-lista a{color:var(--teal);}
+.rs-erro-txt{color:#B3261E;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .rs-erro-txt{color:#FFB4B4;}}
+:root[data-theme="dark"] .rs-erro-txt{color:#FFB4B4;}
+.rs-ok-txt{font-size:13.5px;color:var(--muted);margin-bottom:10px;}
+.rs-base{font-size:12px;color:var(--muted);}
 .abas{display:flex;gap:8px;margin:0 0 22px 18px;}
 .aba{font:inherit;font-size:14px;font-weight:bold;border-radius:8px;padding:8px 18px;cursor:pointer;background:var(--card);color:var(--muted);border:1px solid var(--border);}
 .aba:hover{color:var(--fg);}
@@ -466,6 +528,7 @@ def gerar_pagina():
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
 <div class="sub">Referencie pelo código ao pedir ajustes no chat</div>
+{html_resumo(linhas)}
 <div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-artigos" role="tab" data-aba="artigos">Artigos</button></div>
 <section id="aba-status" role="tabpanel">
 {html_status()}
