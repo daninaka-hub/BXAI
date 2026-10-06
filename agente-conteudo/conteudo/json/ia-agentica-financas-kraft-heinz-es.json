@@ -30,7 +30,7 @@
     "control de gestión"
   ],
   "templateType": "guide",
-  "readingTime": "9 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "Quién ganaba con los ahorros indebidos de Kraft Heinz, por qué la cifra llega a la consolidación sin origen, qué es la gobernanza de proceso, por qué solo el 11% de las empresas puso la IA agéntica en producción y cómo prepararte antes de automatizar."
+      "content": "Quién ganaba con los ahorros indebidos de Kraft Heinz, por qué la cifra llega a la consolidación sin origen, qué es la gobernanza de proceso y por qué solo el 11% de las empresas puso la IA agéntica en producción."
     },
     {
       "type": "paragraph",
@@ -150,36 +150,6 @@
     {
       "type": "paragraph",
       "content": "Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Cómo aplicarlo antes de automatizar"
-    },
-    {
-      "type": "paragraph",
-      "content": "La gobernanza de proceso empieza con tres respuestas escritas para cada cifra del presupuesto o del cierre: quién la registró, con base en qué y quién la verificó antes de entrar en la consolidación."
-    },
-    {
-      "type": "paragraph",
-      "content": "Empieza por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Un punto del proceso a la vez ya basta para empezar."
-    },
-    {
-      "type": "paragraph",
-      "content": "Las tres respuestas quedan con el control de gestión (controlaría), el área responsable de la confiabilidad de las cifras de la empresa. Es distinto de la auditoría, que encuentra el problema después de que ocurrió."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Cómo cambia la pregunta"
-    },
-    {
-      "type": "paragraph",
-      "content": "La pregunta habitual es cuándo podrá la empresa usar IA agéntica en finanzas. La mejor pregunta es qué cifra del presupuesto de hoy nadie sabría explicar. Kraft Heinz la respondió sin ninguna IA."
-    },
-    {
-      "type": "paragraph",
-      "content": "La IA no crea el problema de gobernanza de proceso. Acelera los efectos de la falta de gobernanza. Por eso, quien ordena el origen de sus cifras antes de automatizar decide si la IA trabajará a favor de sus resultados o en contra."
     },
     {
       "type": "heading",

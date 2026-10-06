@@ -30,7 +30,7 @@
     "accounting fraud"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "Who benefited from Kraft Heinz's improper savings, why the number reaches consolidation with no origin, what process governance is, why only 11% of companies have put agentic AI into production and how to prepare before you automate."
+      "content": "Who benefited from Kraft Heinz's improper savings, why the number reaches consolidation with no origin, what process governance is and why only 11% of companies have put agentic AI into production."
     },
     {
       "type": "paragraph",
@@ -150,36 +150,6 @@
     {
       "type": "paragraph",
       "content": "When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "How to apply this before automating"
-    },
-    {
-      "type": "paragraph",
-      "content": "Process governance starts with three written answers for every number in the budget or the close: who booked it, on what basis and who checked it before it entered consolidation."
-    },
-    {
-      "type": "paragraph",
-      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement department. Those are the points where AI, if it arrives before governance, will amplify the problem. One point of the process at a time is enough to start."
-    },
-    {
-      "type": "paragraph",
-      "content": "The three answers sit with controllership, the function responsible for the reliability of the company's numbers. It differs from auditing, which finds the problem after it has happened."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "How the question changes"
-    },
-    {
-      "type": "paragraph",
-      "content": "The usual question is when the company will be able to use agentic AI in finance. The better question is which number in today's budget nobody could explain. Kraft Heinz answered it without any AI."
-    },
-    {
-      "type": "paragraph",
-      "content": "AI does not create the process governance problem. It speeds up the effects of the lack of governance. So a company that organizes the origin of its numbers before automating decides whether AI will work for its results or against them."
     },
     {
       "type": "heading",

@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "Neste artigo",
-      "content": "Quem ganhava com as economias indevidas da Kraft Heinz, por que o número chega à consolidação sem origem, o que é governança de processo, por que só 11% das empresas colocaram a IA agêntica em produção e como se preparar antes de automatizar."
+      "content": "Quem ganhava com as economias indevidas da Kraft Heinz, por que o número chega à consolidação sem origem, o que é governança de processo e por que só 11% das empresas colocaram a IA agêntica em produção."
     },
     {
       "type": "paragraph",
@@ -150,36 +150,6 @@
     {
       "type": "paragraph",
       "content": "Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Como aplicar antes de automatizar"
-    },
-    {
-      "type": "paragraph",
-      "content": "Governança de processo começa com três respostas escritas para cada número do orçamento ou do fechamento: quem o lançou, com base em quê e quem o conferiu antes de entrar na consolidação."
-    },
-    {
-      "type": "paragraph",
-      "content": "Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como a área de compras da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema."
-    },
-    {
-      "type": "paragraph",
-      "content": "As três respostas ficam com a controladoria, a área responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "O que muda na pergunta"
-    },
-    {
-      "type": "paragraph",
-      "content": "A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A pergunta melhor é qual número do orçamento de hoje ninguém saberia explicar. A Kraft Heinz respondeu isso sem nenhuma IA."
-    },
-    {
-      "type": "paragraph",
-      "content": "A IA não cria o problema de governança de processo. Ela acelera os efeitos da falta de governança. Por isso, quem organiza a origem dos números antes de automatizar define se a IA vai trabalhar a favor do resultado ou contra ele."
     },
     {
       "type": "heading",

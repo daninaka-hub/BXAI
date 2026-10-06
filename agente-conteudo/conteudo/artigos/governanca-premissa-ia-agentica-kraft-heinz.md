@@ -45,20 +45,6 @@ Pense no que a falta dela faria na Kraft Heinz. O esquema levou três anos para 
 
 Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
 
-## Como aplicar antes de automatizar
-
-Governança de processo começa com três respostas escritas para cada número do orçamento ou do fechamento: quem o lançou, com base em quê e quem o conferiu antes de entrar na consolidação.
-
-Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como a área de compras da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema.
-
-As três respostas ficam com a controladoria, a área responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu.
-
-## O que muda na pergunta
-
-A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A pergunta melhor é qual número do orçamento de hoje ninguém saberia explicar. A Kraft Heinz respondeu isso sem nenhuma IA.
-
-A IA não cria o problema de governança de processo. Ela acelera os efeitos da falta de governança. Por isso, quem organiza a origem dos números antes de automatizar define se a IA vai trabalhar a favor do resultado ou contra ele.
-
 ## Como a BudgetXpert faria diferente
 
 Só 11% das empresas que planejam usar IA agêntica chegaram à produção. O motivo mais citado é a governança. Na BudgetXpert, cada pergunta de governança do artigo tem uma resposta registrada na plataforma.
