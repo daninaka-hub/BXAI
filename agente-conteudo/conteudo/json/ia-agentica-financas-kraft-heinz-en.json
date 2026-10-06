@@ -30,7 +30,7 @@
     "accounting fraud"
   ],
   "templateType": "guide",
-  "readingTime": "9 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "type": "paragraph",
-      "content": "That is where agentic AI can stall too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. Talk about it in finance usually centers on automation and productivity. The rush not to fall behind pushes governance into second place. The thesis here is simple: the risk of agentic AI in finance is process governance, because AI speeds up what the process already does, right or wrong."
+      "content": "That is where agentic AI can stall too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. The rush not to fall behind pushes governance into second place. The thesis here is simple: the risk of agentic AI in finance is process governance, because AI speeds up what the process already does, right or wrong."
     },
     {
       "type": "heading",
@@ -64,7 +64,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. The chief operating officer's pressure carried that target down to procurement. Every booked saving moved the result closer to it. Consolidation, the step where every department's numbers are added into the company's results, had no stage that traced where each saving came from. Whoever booked the savings gained. Whoever added the numbers was not paid to doubt them."
+      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. The chief operating officer's pressure carried that target down to procurement. Every booked saving moved the result closer to it. In consolidation, the step where every department's numbers are added into the results, nobody traced where each saving came from. Whoever booked the savings gained. Whoever added the numbers was not paid to doubt them."
     },
     {
       "type": "paragraph",
@@ -81,11 +81,11 @@
     },
     {
       "type": "paragraph",
-      "content": "In consolidation, the number arrives without its origin. Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, what reached controllership was a contract that described the discount differently. Nobody checked the assumption behind it. An AI agent that consolidates receives the number the same way, with no origin."
+      "content": "Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, what reached controllership was a contract that described the discount differently. Nobody checked the assumption behind it. An AI agent that consolidates receives the number the same way, with no origin."
     },
     {
       "type": "paragraph",
-      "content": "There was bad faith on the part of those who built the contracts. Even so, the lesson lies in the process, which had no way to notice. A simple question was missing, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks."
+      "content": "The process had no way to notice. A simple question was missing, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks."
     },
     {
       "type": "paragraph",
@@ -149,7 +149,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A lack of process governance already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody in consolidation checked where each saving came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
+      "content": "When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
     },
     {
       "type": "heading",
@@ -162,11 +162,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement department, pushed by the chief operating officer. Those are the points where AI, if it arrives before governance, will amplify the problem. One point of the process at a time is enough to start."
+      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement department. Those are the points where AI, if it arrives before governance, will amplify the problem. One point of the process at a time is enough to start."
     },
     {
       "type": "paragraph",
-      "content": "The three answers sit with controllership, the function responsible for the reliability of the company's numbers. It differs from auditing, which finds the problem after it has happened, as it did at Kraft Heinz, when the bill already ran into the billions."
+      "content": "The three answers sit with controllership, the function responsible for the reliability of the company's numbers. It differs from auditing, which finds the problem after it has happened."
     },
     {
       "type": "heading",

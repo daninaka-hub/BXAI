@@ -55,7 +55,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Ahí es donde la IA agéntica, sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto, también puede atascarse. La conversación sobre ella en finanzas suele girar en torno a la automatización y la productividad. La prisa por no quedarse atrás deja la gobernanza en segundo plano. La tesis de este texto es directa: el riesgo de la IA agéntica en finanzas es la gobernanza de proceso, porque la IA acelera lo que el proceso ya hace, bien o mal."
+      "content": "Ahí es donde la IA agéntica, sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto, también puede atascarse. La prisa por no quedarse atrás deja la gobernanza en segundo plano. La tesis de este texto es directa: el riesgo de la IA agéntica en finanzas es la gobernanza de proceso, porque la IA acelera lo que el proceso ya hace, bien o mal."
     },
     {
       "type": "heading",
@@ -64,7 +64,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Los incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. La presión del director de operaciones llevaba esa meta hasta compras. Cada ahorro registrado acercaba el resultado a esa meta. La consolidación, el momento en que las cifras de todas las áreas se suman en el resultado de la empresa, no tenía una etapa que rastreara de dónde venía cada ahorro. Quien registraba ganaba. A quien sumaba no le pagaban por dudar."
+      "content": "Los incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. La presión del director de operaciones llevaba esa meta hasta compras. Cada ahorro registrado acercaba el resultado a esa meta. En la consolidación, el momento en que las cifras de todas las áreas se suman en el resultado, nadie rastreaba de dónde venía cada ahorro. Quien registraba ganaba. A quien sumaba no le pagaban por dudar."
     },
     {
       "type": "paragraph",
@@ -81,11 +81,11 @@
     },
     {
       "type": "paragraph",
-      "content": "En la consolidación, la cifra llega sin su origen. Cada cifra tiene una premisa, la razón para creer en ella. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando solo llega la cifra, quien suma ve únicamente el total. En Kraft Heinz, lo que llegó al control de gestión fue un contrato que describía el descuento de otra forma. Nadie comprobó la premisa que había detrás. Un agente de IA que consolida recibe la cifra de la misma forma, sin el origen."
+      "content": "Cada cifra tiene una premisa, la razón para creer en ella. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando solo llega la cifra, quien suma ve únicamente el total. En Kraft Heinz, lo que llegó al control de gestión fue un contrato que describía el descuento de otra forma. Nadie comprobó la premisa que había detrás. Un agente de IA que consolida recibe la cifra de la misma forma, sin el origen."
     },
     {
       "type": "paragraph",
-      "content": "Hubo mala fe de quien armó los contratos. Aun así, la lección está en el proceso, que no tenía cómo percibirlo. Faltaba una pregunta simple, repetida en cada etapa: ¿de dónde salió esta cifra y quién confirma la premisa que la sostiene? Sin dueño para esa pregunta, la cadena de aprobación se alarga, la presión por la meta sigue siendo real y la visibilidad sobre el origen de la cifra se reduce."
+      "content": "El proceso no tenía cómo percibirlo. Faltaba una pregunta simple, repetida en cada etapa: ¿de dónde salió esta cifra y quién confirma la premisa que la sostiene? Sin dueño para esa pregunta, la cadena de aprobación se alarga, la presión por la meta sigue siendo real y la visibilidad sobre el origen de la cifra se reduce."
     },
     {
       "type": "paragraph",
@@ -149,7 +149,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La falta de gobernanza de proceso ya tiene un precio. En Kraft Heinz fueron 208 millones de dólares corregidos en los resultados, 62 millones de multa y 450 millones de acuerdo con los accionistas, todo porque nadie en la consolidación comprobaba de dónde venía cada ahorro. Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
+      "content": "Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
     },
     {
       "type": "heading",
@@ -162,11 +162,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Empieza por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz, presionada por el director de operaciones. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Un punto del proceso a la vez ya basta para empezar."
+      "content": "Empieza por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Un punto del proceso a la vez ya basta para empezar."
     },
     {
       "type": "paragraph",
-      "content": "Las tres respuestas quedan con el control de gestión (controlaría), el área responsable de la confiabilidad de las cifras de la empresa. Es distinto de la auditoría, que encuentra el problema después de que ocurrió, como pasó en Kraft Heinz, cuando la cuenta ya sumaba miles de millones."
+      "content": "Las tres respuestas quedan con el control de gestión (controlaría), el área responsable de la confiabilidad de las cifras de la empresa. Es distinto de la auditoría, que encuentra el problema después de que ocurrió."
     },
     {
       "type": "heading",

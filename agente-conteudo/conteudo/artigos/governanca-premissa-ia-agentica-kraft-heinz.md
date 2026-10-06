@@ -6,11 +6,11 @@ Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.
 
 Sob a pressão do diretor de operações por economias que o orçamento não sustentava, a área de compras (procurement) montou contratos com fornecedores para que economias que ainda não existiam fossem contabilizadas. O diretor de compras aprovou os contratos. A controladoria, a área que fecha os números da empresa, somou o que recebeu. Depois, a reapresentação corrigiu US$ 208 milhões em economias indevidas, vindas de 295 transações entre 2015 e 2018. A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número.
 
-Esse é o ponto em que a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento, também pode travar. A conversa sobre ela nas finanças costuma girar em torno de automação e produtividade. A pressa de não ficar para trás coloca a governança em segundo plano. A tese deste texto é direta: o risco da IA agêntica nas finanças é a governança de processo, porque a IA acelera o que o processo já faz, certo ou errado.
+Esse é o ponto em que a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento, também pode travar. A pressa de não ficar para trás coloca a governança em segundo plano. A tese deste texto é direta: o risco da IA agêntica nas finanças é a governança de processo, porque a IA acelera o que o processo já faz, certo ou errado.
 
 ## Quem ganhava com as economias indevidas da Kraft Heinz?
 
-O incentivo explica quase tudo. O bônus dependia de bater a meta de EBITDA. A pressão do diretor de operações levava essa meta até compras. Cada economia contabilizada aproximava o resultado da meta. Já a consolidação, o momento em que os números de todas as áreas são somados no resultado da empresa, não tinha uma etapa que rastreasse de onde vinha cada economia. Quem contabilizava ganhava. Quem somava não era pago para duvidar.
+O incentivo explica quase tudo. O bônus dependia de bater a meta de EBITDA. A pressão do diretor de operações levava essa meta até compras. Cada economia contabilizada aproximava o resultado da meta. Na consolidação, o momento em que os números de todas as áreas são somados no resultado, ninguém rastreava de onde vinha cada economia. Quem contabilizava ganhava. Quem somava não era pago para duvidar.
 
 A 3G Capital, gestora que controla a Kraft Heinz, aplicava o orçamento base zero, no qual toda despesa precisa ser justificada do zero a cada ciclo. A prática é legítima. Ela só aumentou a pressão sobre quem precisava mostrar economia.
 
@@ -18,9 +18,9 @@ A conta veio em etapas. Em fevereiro de 2019, a empresa anunciou uma baixa cont�
 
 ## Por que o número chega à consolidação sem origem?
 
-Na consolidação, o número chega sem a origem. Cada número tem uma premissa, o motivo para acreditar nele. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando só o número chega, quem soma enxerga apenas o total. Na Kraft Heinz, o que chegou à controladoria foi um contrato que descrevia o desconto de outro jeito. Ninguém conferiu a premissa por trás dele. Um agente de IA que consolida recebe o número do mesmo jeito, sem a origem.
+Cada número tem uma premissa, o motivo para acreditar nele. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando só o número chega, quem soma enxerga apenas o total. Na Kraft Heinz, o que chegou à controladoria foi um contrato que descrevia o desconto de outro jeito. Ninguém conferiu a premissa por trás dele. Um agente de IA que consolida recebe o número do mesmo jeito, sem a origem.
 
-Houve má-fé de quem montou os contratos. Mesmo assim, a lição está no processo, que não tinha como perceber. Faltava uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe.
+O processo não tinha como perceber. Faltava uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe.
 
 O erro silencioso é mais comum do que o deliberado: na maior parte das empresas existe um número que todo mundo usa e ninguém sabe explicar.
 
@@ -43,13 +43,13 @@ A intuição diz que falta ferramenta. O dado diz que falta governança do proce
 
 Pense no que a falta dela faria na Kraft Heinz. O esquema levou três anos para aparecer porque ninguém rastreava a origem de cada economia. Um agente que consolida em minutos, sem esse rastreio, teria levado o mesmo padrão ao mesmo tamanho em meses.
 
-Faltar governança de processo já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém na consolidação conferia de onde vinha cada economia. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
+Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
 
 ## Como aplicar antes de automatizar
 
 Governança de processo começa com três respostas escritas para cada número do orçamento ou do fechamento: quem o lançou, com base em quê e quem o conferiu antes de entrar na consolidação.
 
-Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava a área de compras da Kraft Heinz, pressionada pelo diretor de operações. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema.
+Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como a área de compras da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema.
 
 As três respostas ficam com a controladoria, a área responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu.
 
