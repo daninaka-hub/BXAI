@@ -30,7 +30,7 @@
     "momentum case"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "Neste artigo",
-      "content": "A diferença entre forecast e orçamento, por que o orçamento contamina o forecast, como detectar viés, o que custa começar a medir e como começar no próximo fechamento."
+      "content": "A diferença entre forecast e orçamento, por que o orçamento contamina o forecast, como detectar viés, o que o forecast sem nota custa a quem o defende, como começar no próximo fechamento e o que mudaria com a versão oficial à vista de todos."
     },
     {
       "type": "paragraph",
@@ -84,7 +84,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Separar é um investimento com retorno. A empresa passa a ter dois números na mesa, um deles desconfortável. Em troca, ganha um forecast que dá para medir."
+      "content": "Com a separação, a empresa passa a ter dois números na mesa: o compromisso e a estimativa. Sem ela, o forecast repete o orçamento e não sobra erro para medir."
     },
     {
       "type": "paragraph",
@@ -118,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Frequência sozinha não resolve. Um rolling forecast sem medição de erro repete o mesmo viés doze vezes por ano, com mais trabalho. O ganho aparece quando cada ciclo começa pela leitura do erro do ciclo anterior."
+      "content": "Frequência sozinha não resolve. Um rolling forecast sem medição de erro repete o mesmo viés doze vezes por ano. O ganho aparece quando cada ciclo começa pela leitura do erro do ciclo anterior."
     },
     {
       "type": "paragraph",
@@ -127,23 +127,23 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que custa começar a medir?"
+      "content": "O que o forecast sem nota custa a quem o defende?"
     },
     {
       "type": "paragraph",
-      "content": "Medir custa tempo para congelar a versão de cada fechamento, uma conversa difícil sobre o erro e dois números na mesa em vez de um. É um investimento com retorno: um forecast que deixa de repetir o mesmo viés. O mais caro é adiar: um erro descoberto onze meses depois não corrige decisão nenhuma, só alimenta uma apresentação de aprendizados."
+      "content": "Custa o mesmo erro, mês após mês. Quando ninguém guarda a versão de cada fechamento para comparar, o forecast repete o viés do anterior. O orçamento segue contaminando a previsão sem que ninguém veja. Os 86% que não medem pagam essa conta sem saber que ela existe."
     },
     {
       "type": "paragraph",
-      "content": "O único limite é de ordem, por onde começar. A medição cobre o forecast inteiro. O primeiro ciclo pode partir das linhas que mais pesam no resultado. Dois cuidados protegem o investimento."
+      "content": "O erro também chega tarde. Descoberto onze meses depois, não corrige decisão nenhuma, só alimenta uma apresentação de aprendizados."
     },
     {
       "type": "paragraph",
-      "content": "O primeiro é não usar o erro para avaliar pessoas. Quando ele entra na avaliação de desempenho, todo mundo passa a prever com folga proposital. A acurácia serve para corrigir o modelo e as premissas, não para pontuar quem preencheu a planilha."
+      "content": "Ficam ainda dois pontos cegos. O primeiro é o total, que esconde as linhas: erros grandes em direções opostas se cancelam no consolidado. A empresa comemora um desvio pequeno no faturamento total enquanto duas regiões erraram muito, uma para cada lado. Por isso a medição cobre o forecast inteiro, linha por linha."
     },
     {
       "type": "paragraph",
-      "content": "O segundo é não medir só o total. Erros grandes em direções opostas se cancelam no consolidado. A empresa comemora um desvio pequeno no faturamento total enquanto duas regiões erraram muito, uma para cada lado. Por isso a medição desce até cada linha."
+      "content": "O segundo é a própria nota, que vale pelo que corrige. Quando serve para ajustar o modelo e as premissas, o analista mostra o erro sem receio. Quando vira pontuação de pessoas, todo mundo prevê com folga proposital. O forecast volta a esconder o que deveria mostrar."
     },
     {
       "type": "heading",
@@ -152,11 +152,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Comece pelas linhas que mais pesam no resultado, como receita por canal e volume. A cada fechamento, acrescente linhas até o forecast inteiro entrar na medição. Em cada um, guarde a versão do forecast daquele mês antes de atualizá-la, porque sem a versão congelada não existe erro para calcular. Compare o previsto com o realizado e registre o desvio com sinal, para cima ou para baixo, nunca em módulo. O sinal é o que revela o viés."
+      "content": "Meça o forecast inteiro, linha por linha, a partir do próximo fechamento. Em cada um, guarde a versão do forecast daquele mês antes de atualizá-la, porque sem a versão congelada não existe erro para calcular. Compare o previsto com o realizado e registre o desvio com sinal, para cima ou para baixo, nunca em módulo. O sinal é o que revela o viés."
     },
     {
       "type": "paragraph",
-      "content": "Depois de três ciclos, a conversa na mesa muda. Em vez de discutir se o número do mês parece razoável, a área olha o padrão: esta linha erra sempre para cima, aquela erra junto com a sazonalidade. Numa empresa pequena, em que o dono decide tudo, guardar a versão e comparar cabe numa reunião curta de fechamento, com retorno desde o primeiro ciclo."
+      "content": "Depois de três ciclos, a conversa na mesa muda. Em vez de discutir se o número do mês parece razoável, a área olha o padrão: esta linha erra sempre para cima, aquela erra junto com a sazonalidade. Numa empresa pequena, em que o dono decide tudo, vale a mesma rotina: com a versão guardada, o dono vê já no primeiro ciclo onde o forecast errou."
     },
     {
       "type": "heading",
@@ -170,6 +170,19 @@
     {
       "type": "paragraph",
       "content": "Orçamento e forecast não competem. Eles se protegem quando ficam separados: o orçamento sustenta o compromisso, o forecast avisa cedo quando o compromisso está em risco. Um orçamento errado é um problema de negociação. Um forecast errado é informação, desde que alguém meça o erro. O trabalho do financeiro, então, não é prever melhor de uma vez. É tornar seguro errar em público, porque só o erro medido ensina alguma coisa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "O que mudaria se todos olhassem a mesma versão do plano?"
+    },
+    {
+      "type": "paragraph",
+      "content": "E se a versão oficial do plano estivesse marcada e à vista de todos? Na BudgetXpert, orçamento e forecast conviveriam como versões separadas do mesmo plano. Só uma levaria a marca de oficial. As outras não se confundiriam com ela, mesmo com número diferente. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dá para ver em budgetxpert.ai."
     },
     {
       "type": "divider"

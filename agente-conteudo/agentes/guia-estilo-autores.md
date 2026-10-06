@@ -7,14 +7,14 @@ Usado pelo Copywriter em todo artigo, post e roteiro. Descreve como pensam e esc
 - Começa pela afirmação, sem preâmbulo. O texto é um raciocínio feito em voz alta, passo a passo, e o leitor acompanha como a ideia foi construída.
 - Uma ideia por texto, defendida por ângulos diferentes. Antes da regra geral, um exemplo pequeno e concreto (uma pessoa, uma empresa, uma decisão).
 - Parte do que todo mundo acredita e mostra onde isso falha.
-- Mostra o custo e a dificuldade da própria ideia com honestidade, sem enfraquecer a conclusão. Isso aumenta a confiança no resto.
+- Prova a ideia com o custo de não adotá-la. Nunca enfraquece a própria conclusão.
 - Sem jargão de consultoria, sem lista de dicas, sem tom de palestra. Parágrafos curtos, ritmo de fala.
 - Termina quando a ideia termina, com a consequência prática, sem recapitular.
 
 ## Michael Porter (estratégia)
 - Define o termo com precisão antes de usá-lo e separa conceitos que o leitor confunde (ex: fazer a mesma coisa melhor versus fazer uma coisa diferente).
 - Estrutura lógica visível: tese, definição, condições, caso real, consequência.
-- Estratégia é escolha, e escolher tem custo. Cada argumento mostra o que a empresa investe ao seguir a ideia (o trade-off), e o que ganha em troca.
+- Estratégia é escolha. Cada argumento mostra o que a empresa perde ao não seguir a ideia (o trade-off da omissão).
 - Poucos elementos que o leitor consegue lembrar, três ou cinco, nunca uma lista longa.
 - Caso real com detalhe operacional, que mostra a lógica de como a empresa funciona, não só o resultado.
 - Autoridade sem exagero. Afirmação bem delimitada, sem adjetivo que não prova nada.
@@ -35,12 +35,12 @@ Usado pelo Copywriter em todo artigo, post e roteiro. Descreve como pensam e esc
 3. Todo conceito é definido na primeira aparição e separado do vizinho que o leitor costuma confundir.
 4. Quando há decisão envolvida, a seção responde quem ganha o quê e por que cada pessoa age como age.
 5. Cada seção tem um dado ou fato que contraria a intuição, e o texto explica por quê.
-6. O texto diz o que custa adotar a ideia (tempo, disciplina, discussão difícil) e mostra o retorno desse custo. Nunca sugere que parte do problema pode ficar sem tratamento.
+6. O texto mostra o custo de NÃO adotar a ideia (o que o erro custou ao caso). Nunca apresenta a adoção como lenta, trabalhosa ou burocrática. Quando houver escolha, ela é de ordem (por onde começar), nunca de esforço.
 7. Voz direta, frases curtas alternadas com frases longas, ritmo de fala. Pode falar com o leitor na segunda pessoa.
-8. O limite admitido é de ordem, nunca de escopo: por onde começar, não o que deixar de fora. É proibido dizer que algo "não se aplica", "pode seguir sem" ou "não vale a pena" para premissa, controle, medição ou governança.
+8. O limite admitido é de ordem, nunca de escopo: por onde começar, não o que deixar de fora. É proibido dizer que algo "não se aplica", "pode seguir sem" ou "não vale a pena" para premissa, controle, medição ou governança, e proibido dizer que a governança atrasa, dá trabalho ou tem ressalva.
 9. O fechamento reenquadra a pergunta da abertura e entrega uma forma nova de olhar o problema.
 10. Post e roteiro seguem a mesma lógica em versão curta: gancho concreto, um dado que surpreende, reenquadramento.
 
 Teste final: se o texto soa como consultoria, palestra ou resumo de livro, reescrever. Deve soar como uma pessoa inteligente explicando algo curioso para outra.
 
-Regra de posicionamento da BudgetXpert: a marca vende premissas 100% governadas, com dono, critério e revisão em todas. Nenhum texto pode sugerir que alguma premissa, número ou controle dispensa essa governança.
+Regra de posicionamento da BudgetXpert: a proposta é raciocínio atrás de cada premissa, menos tempo e mais controle, inteiramente governado. Nenhum texto contém argumento contrário a ela (ver Regras de marca do copywriter.md). Todo artigo fecha com o parágrafo da BudgetXpert e o link budgetxpert.ai (Passo 1.5), com abordagem diferente a cada artigo.

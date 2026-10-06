@@ -30,7 +30,7 @@
     "Target Canadá"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A conta assusta. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. Nenhuma empresa consegue bancar todas por inteiro ao mesmo tempo. A Target tentou. Por isso todas entram em fases, com a ordem decidindo qual vem primeiro."
+      "content": "O custo do erro cresce com o número de apostas. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. A Target colocou todas na rua ao mesmo tempo. Cada aposta que falha sem aviso custa tudo o que já foi investido nela. Em fases, cada uma tem a sua hora de ser conferida, com a ordem decidindo qual vem primeiro."
     },
     {
       "type": "heading",
@@ -80,7 +80,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Isoladas, as decisões têm defesa. Abrir rápido ganha mercado antes que o concorrente reaja. Ligar o sistema inteiro de uma vez evita o custo de operar dois mundos em paralelo."
+      "content": "Isoladas, as decisões parecem razoáveis. Abrir rápido ganha mercado antes que o concorrente reaja. Ligar o sistema inteiro de uma vez promete uma virada limpa de um dia para o outro."
     },
     {
       "type": "paragraph",
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Isso exige investimento. Quem testa cede parte da velocidade e convive, por um tempo, com dois jeitos de operar. Em troca, paga 10 lojas pelo erro que custaria 133 e descobre cedo qual hipótese falhou. Esse retorno vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase."
+      "content": "Sem teste, o mesmo erro custou as 133 lojas e afetou 17.600 funcionários. Com teste, custaria 10 lojas. Cada hipótese seria respondida separada da outra, então a empresa saberia cedo qual delas falhou. Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase."
     },
     {
       "type": "heading",
@@ -148,7 +148,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Duas regras mantêm o teste honesto. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio."
+      "content": "Duas regras fazem o teste valer. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio."
     },
     {
       "type": "heading",
@@ -158,6 +158,19 @@
     {
       "type": "paragraph",
       "content": "A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "E se cada hipótese do plano tivesse dono?"
+    },
+    {
+      "type": "paragraph",
+      "content": "No plano da Target, 133 lojas dependiam das mesmas hipóteses que 10 lojas teriam bastado para testar. Na BudgetXpert, cada hipótese teria virado uma premissa com dono definido, definida uma vez e reutilizada em vários orçamentos. Cada área veria e editaria só a parte dela, enquanto quem consolida veria tudo, então no dia do resultado haveria um nome para cada hipótese que falhou."
+    },
+    {
+      "type": "paragraph",
+      "content": "O resto está em budgetxpert.ai."
     },
     {
       "type": "divider"

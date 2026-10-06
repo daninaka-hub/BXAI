@@ -12,13 +12,13 @@ O método que melhor expõe isso é o Strategy Map, ou mapa estratégico, criado
 
 Cada seta é uma hipótese, não um fato. "Se treinarmos a equipe, o processo melhora" pode ser verdade na empresa do caso de estudo e falso na sua, neste mercado, neste ano. Por isso o método prevê revisão trimestral do mapa, com realocação de recursos (Umbrex). A revisão serve para confrontar cada seta com o que aconteceu, enquanto ainda sobra dinheiro para mudar de rumo.
 
-A conta assusta. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. Nenhuma empresa consegue bancar todas por inteiro ao mesmo tempo. A Target tentou. Por isso todas entram em fases, com a ordem decidindo qual vem primeiro.
+O custo do erro cresce com o número de apostas. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. A Target colocou todas na rua ao mesmo tempo. Cada aposta que falha sem aviso custa tudo o que já foi investido nela. Em fases, cada uma tem a sua hora de ser conferida, com a ordem decidindo qual vem primeiro.
 
 ## O que a Target apostou ao mesmo tempo
 
 Junto com as lojas, a Target ligou de uma vez o sistema de gestão integrada, o software que controla estoque, compras e preço. Foi no modelo chamado big bang, em que todas as áreas passam para o sistema novo no mesmo dia, sem ninguém na equipe com conhecimento funcional da ferramenta. Quem descreve o caso é a Panorama Consulting (panorama-consulting.com), consultoria especializada em seleção e implantação de sistemas de gestão. Dado de estoque errado virou prateleira vazia. Cadastro errado virou preço errado no caixa. Foi assim de 2013 a 2015.
 
-Isoladas, as decisões têm defesa. Abrir rápido ganha mercado antes que o concorrente reaja. Ligar o sistema inteiro de uma vez evita o custo de operar dois mundos em paralelo.
+Isoladas, as decisões parecem razoáveis. Abrir rápido ganha mercado antes que o concorrente reaja. Ligar o sistema inteiro de uma vez promete uma virada limpa de um dia para o outro.
 
 O problema está na soma. A hipótese "nosso modelo de loja funciona no Canadá" e a hipótese "nosso sistema roda bem num país novo" foram respondidas no mesmo dia, nas mesmas 133 lojas. Quando o resultado veio ruim, ninguém podia dizer qual das duas estava errada. Não havia loja fora do teste para comparar nem fase seguinte para corrigir.
 
@@ -30,7 +30,7 @@ Para isso, cada fase precisa de três definições feitas antes de começar: a h
 
 No caso canadense, a versão em fases seria abrir 10 lojas numa única região, com o sistema novo rodando só nelas, antes das outras 123. O erro de cadastro custaria 10 lojas, não 133. O aprendizado seria o mesmo.
 
-Isso exige investimento. Quem testa cede parte da velocidade e convive, por um tempo, com dois jeitos de operar. Em troca, paga 10 lojas pelo erro que custaria 133 e descobre cedo qual hipótese falhou. Esse retorno vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
+Sem teste, o mesmo erro custou as 133 lojas e afetou 17.600 funcionários. Com teste, custaria 10 lojas. Cada hipótese seria respondida separada da outra, então a empresa saberia cedo qual delas falhou. Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
 
 ## Quem decide quando o teste falha?
 
@@ -50,10 +50,16 @@ O dado não prova que o cenário causa a rapidez, já que empresas mais organiza
 
 Pegue cada meta e escreva ao lado "se fizermos X, então Y acontece". Defina o número que derruba a frase, não só o que a confirma. Escolha a menor versão que dá para testar, um mês, uma região, uma linha de produto. Marque a data da verificação e o nome de quem decide nela. A meta que não aceita essa escrita provavelmente é desejo, não hipótese.
 
-Duas regras mantêm o teste honesto. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
+Duas regras fazem o teste valer. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
 
 ## O que o plano da Target deveria ter perguntado
 
 A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
+
+## E se cada hipótese do plano tivesse dono?
+
+No plano da Target, 133 lojas dependiam das mesmas hipóteses que 10 lojas teriam bastado para testar. Na BudgetXpert, cada hipótese teria virado uma premissa com dono definido, definida uma vez e reutilizada em vários orçamentos. Cada área veria e editaria só a parte dela, enquanto quem consolida veria tudo, então no dia do resultado haveria um nome para cada hipótese que falhou.
+
+O resto está em budgetxpert.ai.
 
 Fonte: Panorama Consulting (panorama-consulting.com), consultoria de seleção e implantação de sistemas de gestão, "6 Lessons Learned From The Target Canada Supply Chain Failure". Umbrex (umbrex.com), rede global de consultores independentes, "Strategy Map (Kaplan e Norton)", descrevendo o framework cuja obra original é de Robert Kaplan com David Norton. Deloitte (deloitte.com), rede global de auditoria e consultoria, "2026 Chief Strategy Officer Survey" (12 de fevereiro de 2026). AFP, Association for Financial Professionals (financialprofessionals.org), associação de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report: Integrated Planning".

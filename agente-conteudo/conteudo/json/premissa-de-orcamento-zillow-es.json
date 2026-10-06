@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas y lo que ese costo devuelve al presupuesto."
+      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas, cuánto cuesta dejar un supuesto sin dueño y lo que habría cambiado con BudgetXpert."
     },
     {
       "type": "paragraph",
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Piense en quién gana qué. Revisar un supuesto da trabajo y puede traer malas noticias. Dejarlo como está no cuesta nada hasta el día en que cuesta todo. Sin dueño, el incentivo es siempre ignorarlo. Con dueño, una persona responde por la cifra y tiene un motivo para mirarla."
+      "content": "Piense en quién gana qué. Revisar un supuesto puede traer malas noticias. Dejarlo como está no cuesta nada hasta el día en que cuesta todo. Sin dueño, el incentivo es siempre ignorarlo. Con dueño, una persona responde por la cifra y tiene un motivo para mirarla."
     },
     {
       "type": "heading",
@@ -129,24 +129,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Lo que esto cuesta y lo que se gana"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Cuánto cuesta responder las tres preguntas y qué devuelve?"
+      "content": "¿Cuánto cuesta dejar un supuesto sin dueño?"
     },
     {
       "type": "paragraph",
-      "content": "Responder las tres preguntas tiene un costo. Ese costo es una inversión. Al principio, el presupuesto cierra más despacio, porque alguien pasa a responder por cifras que antes eran de todos. La discusión sobre el criterio deja ver desacuerdos que la hoja de cálculo ocultaba: dos áreas usaban supuestos distintos para la misma variable sin saberlo. Ese es el beneficio. El desacuerdo que aparece en una reunión cuesta una conversación. El que aparece en el resultado del año cuesta lo que le costó a Zillow."
-    },
-    {
-      "type": "paragraph",
-      "content": "La única decisión es de orden. Si el equipo no puede hacerlo todo a la vez, empiece por los supuestos que más cambian el resultado del año si están equivocados. Después avance hasta cubrirlos todos. Ninguno queda afuera."
-    },
-    {
-      "type": "paragraph",
-      "content": "Gobernar también tiene una salvedad. Tener dueño, criterio y fecha de revisión no garantiza que el supuesto sea correcto. Garantiza que, si está equivocado, alguien lo verá. En la práctica, el comienzo es simple: una columna junto a cada supuesto, con las tres respuestas por escrito. Ningún supuesto entra en el presupuesto oficial sin ellas."
+      "content": "Cuesta lo que pagó Zillow. Un supuesto sin dueño no avisa cuando deja de valer, así que el error aparece solo en el resultado, cuando ya es una pérdida. En Zillow, nadie miró la cifra que sostenía las ofertas. La distancia entre el algoritmo y el mercado solo apareció en el balance de 2021. La misma distancia, vista en una reunión, habría costado una conversación."
     },
     {
       "type": "paragraph",
@@ -164,6 +151,19 @@
     {
       "type": "paragraph",
       "content": "La decisión que corresponde a la dirección es pequeña y concreta: ninguna cifra entra en el presupuesto oficial sin un nombre al lado. Quien firma la cifra es quien volverá a mirarla."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Qué habría cambiado en Zillow con un dueño para cada supuesto?"
+    },
+    {
+      "type": "paragraph",
+      "content": "En febrero de 2021, cuando la estimación pasó a ser una oferta de compra, cada supuesto del algoritmo habría tenido en BudgetXpert un dueño definido. Solo quien tiene permiso habría cambiado el valor. La discusión sobre la cifra se habría quedado junto a la cifra, como comentario en la celda, en lugar de dispersarse en correos. Cuando la gerencia quiso subir las ofertas, la pregunta sobre la base del nuevo valor habría aparecido a su lado, a la vista de todos."
+    },
+    {
+      "type": "paragraph",
+      "content": "Más información en budgetxpert.ai."
     },
     {
       "type": "divider"

@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "La diferencia entre forecast y presupuesto, por qué el presupuesto contamina el forecast, cómo detectar sesgo, cuánto cuesta empezar a medir y cómo empezar en el próximo cierre."
+      "content": "La diferencia entre forecast y presupuesto, por qué el presupuesto contamina el forecast, cómo detectar sesgo, cuánto le cuesta a quien lo defiende un forecast sin nota, cómo empezar en el próximo cierre y qué cambiaría con una versión oficial a la vista de todos."
     },
     {
       "type": "paragraph",
@@ -84,7 +84,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Separar es una inversión con retorno. La empresa pasa a tener dos números sobre la mesa, uno de ellos incómodo. A cambio, obtiene un forecast que se puede medir."
+      "content": "Con la separación, la empresa tiene dos números sobre la mesa: el compromiso y la estimación. Sin ella, el forecast repite el presupuesto y no queda error que medir."
     },
     {
       "type": "paragraph",
@@ -118,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La frecuencia sola no resuelve nada. Un rolling forecast sin medición de error repite el mismo sesgo doce veces al año, con más trabajo. La ganancia aparece cuando cada ciclo empieza leyendo el error del ciclo anterior."
+      "content": "La frecuencia sola no resuelve nada. Un rolling forecast sin medición de error repite el mismo sesgo doce veces al año. La ganancia aparece cuando cada ciclo empieza leyendo el error del ciclo anterior."
     },
     {
       "type": "paragraph",
@@ -127,23 +127,23 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Cuánto cuesta empezar a medir?"
+      "content": "¿Cuánto le cuesta a quien lo defiende un forecast sin nota?"
     },
     {
       "type": "paragraph",
-      "content": "Medir cuesta tiempo para congelar la versión de cada cierre, una conversación difícil sobre el error y dos números sobre la mesa en vez de uno. Es una inversión con retorno: un forecast que deja de repetir el mismo sesgo. Lo más caro es postergar: un error descubierto once meses después no corrige ninguna decisión. Solo alimenta una presentación de lecciones aprendidas."
+      "content": "Cuesta el mismo error, mes tras mes. Si nadie guarda la versión de cada cierre para compararla, el forecast repite el sesgo anterior. El presupuesto sigue contaminando la proyección sin que nadie lo vea. El 86% que no mide paga esa cuenta sin saber que existe."
     },
     {
       "type": "paragraph",
-      "content": "El único límite es de orden, por dónde empezar. La medición cubre todo el forecast. El primer ciclo puede partir de las líneas que más pesan en el resultado. Dos cuidados protegen la inversión."
+      "content": "El error además llega tarde. Descubierto once meses después, no corrige ninguna decisión. Solo alimenta una presentación de lecciones aprendidas."
     },
     {
       "type": "paragraph",
-      "content": "El primero es no usar el error para evaluar personas. Cuando entra en la evaluación de desempeño, todos empiezan a proyectar con holgura a propósito. La precisión sirve para corregir el modelo y los supuestos, no para calificar a quien llenó la hoja."
+      "content": "Quedan dos puntos ciegos. El primero es el total, que esconde las líneas: los errores grandes en direcciones opuestas se cancelan en el consolidado. La empresa celebra una desviación pequeña en la facturación total mientras dos regiones fallaron por mucho, una para cada lado. Por eso la medición cubre todo el forecast, línea por línea."
     },
     {
       "type": "paragraph",
-      "content": "El segundo es no medir solo el total. Los errores grandes en direcciones opuestas se cancelan en el consolidado. La empresa celebra una desviación pequeña en la facturación total mientras dos regiones fallaron por mucho, una para cada lado. Por eso la medición baja hasta cada línea."
+      "content": "El segundo es la nota misma, que vale por lo que corrige. Cuando sirve para ajustar el modelo y los supuestos, el analista muestra el error sin miedo. Cuando se vuelve una calificación de personas, todos proyectan con holgura a propósito. El forecast vuelve a esconder lo que debería mostrar."
     },
     {
       "type": "heading",
@@ -152,11 +152,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Empiece por las líneas que más pesan en el resultado, como ingresos por canal y volumen. En cada cierre, agregue líneas hasta que todo el forecast entre en la medición. En cada uno, guarde la versión del forecast de ese mes antes de actualizarla, porque sin la versión congelada no hay error que calcular. Compare lo proyectado con lo real y registre la desviación con signo, hacia arriba o hacia abajo, nunca en valor absoluto. El signo es lo que revela el sesgo."
+      "content": "Mida todo el forecast, línea por línea, desde el próximo cierre. En cada cierre, guarde la versión del forecast de ese mes antes de actualizarla, porque sin la versión congelada no hay error que calcular. Compare lo proyectado con lo real y registre la desviación con signo, hacia arriba o hacia abajo, nunca en valor absoluto. El signo es lo que revela el sesgo."
     },
     {
       "type": "paragraph",
-      "content": "Después de tres ciclos, la conversación en la mesa cambia. En vez de discutir si el número del mes parece razonable, el área mira el patrón: esta línea siempre falla hacia arriba, aquella falla junto con la estacionalidad. En una empresa pequeña, donde el dueño decide todo, guardar la versión y comparar cabe en una reunión corta de cierre, con retorno desde el primer ciclo."
+      "content": "Después de tres ciclos, la conversación en la mesa cambia. En vez de discutir si el número del mes parece razonable, el área mira el patrón: esta línea siempre falla hacia arriba, aquella falla junto con la estacionalidad. En una empresa pequeña, donde el dueño decide todo, sirve la misma rutina: con la versión guardada, el dueño ve en el primer ciclo dónde falló el forecast."
     },
     {
       "type": "heading",
@@ -170,6 +170,19 @@
     {
       "type": "paragraph",
       "content": "Presupuesto y forecast no compiten. Se protegen cuando se mantienen separados: el presupuesto sostiene el compromiso, el forecast avisa temprano cuando el compromiso está en riesgo. Un presupuesto equivocado es un problema de negociación. Un forecast equivocado es información, siempre que alguien mida el error. El trabajo de finanzas, entonces, no es proyectar mejor de golpe. Es hacer que equivocarse en público sea seguro, porque solo el error medido enseña algo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Qué cambiaría si todos miraran la misma versión del plan?"
+    },
+    {
+      "type": "paragraph",
+      "content": "¿Y si la versión oficial del plan estuviera marcada y a la vista de todos? En BudgetXpert, presupuesto y forecast convivirían como versiones separadas del mismo plan. Solo una llevaría la marca de oficial. Las otras no se confundirían con ella, aunque tuvieran otro número. En mayo, el director comercial y la analista de finanzas mirarían la misma versión oficial."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mira cómo funciona en budgetxpert.ai."
     },
     {
       "type": "divider"

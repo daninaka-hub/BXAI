@@ -118,10 +118,20 @@ def lint(slug):
         if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     erros += lint_idiomas(slug)
+    if art.exists() and "budgetxpert.ai" not in art.read_text(encoding="utf-8").lower():
+        erros.append("artigo: falta o fechamento com a BudgetXpert e o link budgetxpert.ai (Passo 1.5)")
+    if post.exists() and "budgetxpert.ai" not in post.read_text(encoding="utf-8").lower():
+        erros.append("post: falta a frase com a BudgetXpert e o link budgetxpert.ai")
+    d_ = ler_idiomas(slug) if (IDIOMAS / f"{slug}.json").exists() else None
+    if d_:
+        for lg in ("en", "es"):
+            for campo in ("artigo", "post"):
+                if "budgetxpert.ai" not in str(d_.get(lg, {}).get(campo, "")).lower():
+                    erros.append(f"idiomas: {lg}.{campo} sem o link budgetxpert.ai")
     for arq in (art, post, rot, IDIOMAS / f"{slug}.json"):
         if arq.exists():
             tx = arq.read_text(encoding="utf-8")
-            for m in re.finditer(r"não se aplica|nao se aplica|onde não vale|pode seguir sem|não vale a pena|dispensa (?:o|a) (?:dono|critério|revisão)|does not apply|can go without|no se aplica|puede seguir sin", tx, flags=re.I):
+            for m in re.finditer(r"não se aplica|nao se aplica|onde não vale|pode seguir sem|não vale a pena|dispensa (?:o|a) (?:dono|critério|revisão)|does not apply|can go without|no se aplica|puede seguir sin|mais devagar|mais lent[oa]|atrasa o (?:fechamento|ciclo)|custo de governar|tem uma ressalva|100% governad|slower|slows? (?:down )?the|más lent[oa]|más despacio|más tarde en cerrar", tx, flags=re.I):
                 erros.append(f"{arq.parent.name}/{arq.name}: trecho enfraquece a governança (\"{tx[max(0, m.start()-30):m.end()+30].strip()}\")")
     return erros
 

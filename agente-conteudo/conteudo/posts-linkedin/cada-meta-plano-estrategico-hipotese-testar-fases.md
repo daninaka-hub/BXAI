@@ -15,4 +15,6 @@ Qual pergunta a Target deveria ter feito antes de abrir a primeira loja? A respo
 
 Artigo completo: [link do artigo]
 
+Sobre dar dono a cada hipótese do plano, a BudgetXpert trata disso em budgetxpert.ai.
+
 #PlanejamentoEstratégico #StrategyMap #FPA #Orçamento

@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them and what that cost returns to the budget."
+      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them, what it costs to leave an assumption without an owner and what would have changed with BudgetXpert."
     },
     {
       "type": "paragraph",
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Think about who gains what. Reviewing an assumption takes work and may bring bad news. Leaving it alone costs nothing until the day it costs everything. Without an owner, the incentive is always to ignore it. With an owner, one person answers for the number and has a reason to look at it."
+      "content": "Think about who gains what. Reviewing an assumption may bring bad news. Leaving it alone costs nothing until the day it costs everything. Without an owner, the incentive is always to ignore it. With an owner, one person answers for the number and has a reason to look at it."
     },
     {
       "type": "heading",
@@ -129,24 +129,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What this costs and what you gain"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What does it cost to answer the three questions and what comes back?"
+      "content": "What does it cost to leave an assumption without an owner?"
     },
     {
       "type": "paragraph",
-      "content": "Answering the three questions has a cost. That cost is an investment. At first, the budget closes more slowly, because someone starts answering for numbers that used to belong to everyone. The discussion about the criterion exposes disagreements the spreadsheet used to hide: two areas used different assumptions for the same variable without knowing it. That is the gain. A disagreement that surfaces in a meeting costs a conversation. One that surfaces in the year's result costs what it cost Zillow."
-    },
-    {
-      "type": "paragraph",
-      "content": "The only choice is one of order. If the team cannot do everything at once, start with the assumptions that change the year's result the most if they are wrong. Then keep going until all of them are covered. None is left out."
-    },
-    {
-      "type": "paragraph",
-      "content": "Governing also has a caveat. Having an owner, a criterion and a review date does not guarantee the assumption is right. It guarantees that if it is wrong, someone will see it. In practice, the start is simple: a column next to each assumption with the three answers in writing. No assumption enters the official budget without them."
+      "content": "It costs what Zillow paid. An assumption with no owner does not warn anyone when it stops holding, so the error shows up only in the result, when it has already become a loss. At Zillow, nobody looked at the number behind the offers. The distance between the algorithm and the market surfaced only in the 2021 accounts. The same distance, seen in a meeting, would have cost a conversation."
     },
     {
       "type": "paragraph",
@@ -164,6 +151,19 @@
     {
       "type": "paragraph",
       "content": "The decision that belongs to leadership is small and concrete: no number enters the official budget without a name next to it. Whoever signs the number is the person who will look at it again."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What would have changed at Zillow with an owner for every assumption?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In February 2021, when the estimate became a purchase offer, every assumption behind the algorithm would have had a defined owner in BudgetXpert. Only people with permission would have changed a value. The discussion about the number would have stayed next to the number, as a comment on the cell, instead of scattering across emails. When management wanted to raise the offers, the question about the basis for the new value would have appeared beside it, in view of everyone."
+    },
+    {
+      "type": "paragraph",
+      "content": "See how it works at budgetxpert.ai."
     },
     {
       "type": "divider"

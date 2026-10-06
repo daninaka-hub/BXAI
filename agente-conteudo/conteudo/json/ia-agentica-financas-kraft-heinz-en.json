@@ -30,7 +30,7 @@
     "accounting fraud"
   ],
   "templateType": "guide",
-  "readingTime": "6 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A 2025 survey, cited by Neurons Lab, an agentic AI engineering consultancy (neurons-lab.com), found that 99% of companies plan to put AI agents into production in finance. Only 11% have done so. The most cited reason is not the price of the technology. It is data, governance and security, the least glamorous items on the list."
+      "content": "A 2025 survey, cited by Neurons Lab, an agentic AI engineering consultancy (neurons-lab.com), found that 99% of companies plan to put AI agents into production in finance. Only 11% have done so. The most cited reason is not the price of the technology. It is data, governance and security, the foundation any agent works on."
     },
     {
       "type": "paragraph",
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Tracing assumptions is an investment. Every number gets an owner and a record, the close slows down at first and someone has to say \"I don't know where this came from\" out loud. The return follows: the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill. No number stays out, because an error hides exactly where nobody traces."
+      "content": "Not tracing assumptions already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody knew where each discount came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill. Every number comes in, because an error hides exactly where nobody traces."
     },
     {
       "type": "heading",
@@ -118,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "content": "This does not require a new system or a months-long project. Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem. That is an order of entry, not a cut: every number comes in, one point of the process at a time."
+      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem. Every number comes in, one point of the process at a time."
     },
     {
       "type": "paragraph",
@@ -135,7 +135,20 @@
     },
     {
       "type": "paragraph",
-      "content": "AI does not create the governance problem. It measures how long the problem takes to appear. So a company that organizes the origin of its numbers before automating is not slowing AI down. It is deciding whether AI will work for its results or against them."
+      "content": "AI does not create the governance problem. It measures how long the problem takes to appear. So a company that organizes the origin of its numbers before automating decides whether AI will work for its results or against them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Who would answer for every number the AI touched?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Picture an AI agent adjusting supplier discounts in Kraft Heinz's budget. With BudgetXpert, everything it created or changed would be recorded, with author, date, the change itself and the conversation that prompted it. Every assumption would have a defined owner. Whoever consolidated would know whom to ask."
+    },
+    {
+      "type": "paragraph",
+      "content": "See the record at work at budgetxpert.ai."
     },
     {
       "type": "divider"

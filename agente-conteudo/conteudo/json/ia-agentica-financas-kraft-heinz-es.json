@@ -93,7 +93,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Una encuesta de 2025, citada por Neurons Lab, consultora de ingeniería de IA agéntica (neurons-lab.com), muestra que el 99% de las empresas planea poner agentes de IA en producción en finanzas. Solo el 11% ya lo hizo. El motivo más citado no es el precio de la tecnología. Son los datos, la gobernanza y la seguridad, el trabajo menos atractivo de la lista."
+      "content": "Una encuesta de 2025, citada por Neurons Lab, consultora de ingeniería de IA agéntica (neurons-lab.com), muestra que el 99% de las empresas planea poner agentes de IA en producción en finanzas. Solo el 11% ya lo hizo. El motivo más citado no es el precio de la tecnología. Son los datos, la gobernanza y la seguridad, la base sobre la que trabaja cualquier agente."
     },
     {
       "type": "paragraph",
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Rastrear premisas es una inversión. Cada cifra recibe un dueño y un registro, el cierre se vuelve más lento al principio y alguien tiene que decir en voz alta \"no sé de dónde salió esto\". El retorno llega enseguida: el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría. Ninguna cifra queda afuera, porque el error se esconde justo en lo que nadie rastrea."
+      "content": "No rastrear las premisas ya tiene un precio. En Kraft Heinz fueron 208 millones de dólares corregidos en los resultados, 62 millones de multa y 450 millones de acuerdo con los accionistas, todo porque nadie sabía de dónde venía cada descuento. Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría. Todas las cifras entran, porque el error se esconde justo en lo que nadie rastrea."
     },
     {
       "type": "heading",
@@ -118,7 +118,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Esto no exige un sistema nuevo ni un proyecto de meses. Empiece por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Es un orden de inicio, no un recorte: todas las cifras entran, un punto del proceso a la vez."
+      "content": "Empiece por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Todas las cifras entran, un punto del proceso a la vez."
     },
     {
       "type": "paragraph",
@@ -135,7 +135,20 @@
     },
     {
       "type": "paragraph",
-      "content": "La IA no crea el problema de gobernanza. Mide cuánto tarda en aparecer. Por eso, quien ordena el origen de sus cifras antes de automatizar no está frenando a la IA. Está decidiendo si ella trabajará a favor de sus resultados o en contra."
+      "content": "La IA no crea el problema de gobernanza. Mide cuánto tarda en aparecer. Por eso, quien ordena el origen de sus cifras antes de automatizar decide si la IA trabajará a favor de sus resultados o en contra."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Quién respondería por cada cifra que tocó la IA?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine un agente de IA ajustando los descuentos de proveedores en el presupuesto de Kraft Heinz. Con BudgetXpert, todo lo que creara o modificara quedaría registrado, con autor, fecha, el cambio realizado y la conversación que lo originó. Cada premisa tendría un dueño definido. Quien consolidara sabría a quién preguntar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Puede ver ese registro en budgetxpert.ai."
     },
     {
       "type": "divider"

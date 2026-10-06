@@ -15,4 +15,6 @@ O artigo completo conta o caso e responde.
 
 Artigo completo: [link do artigo]
 
+É o assunto da BudgetXpert, onde cada premissa tem dono: budgetxpert.ai
+
 #Controladoria #Orçamento #FPA #GovernançaFinanceira

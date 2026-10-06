@@ -17,4 +17,6 @@ A resposta está no artigo.
 
 Artigo completo: [link do artigo]
 
+É por isso que a BudgetXpert registra cada alteração que a IA faz no orçamento: budgetxpert.ai.
+
 #Controladoria #FinanceAutomation #IAAgentica #GovernançaFinanceira

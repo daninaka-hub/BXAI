@@ -20,7 +20,7 @@ Havia ainda um efeito que contraria a intuição. Quando a empresa oferece o pre
 
 Toda premissa precisa de um dono. Não de um nome no organograma, mas de alguém que sabe explicar por que aquele número e não outro e que será chamado quando ele deixar de valer. Na Zillow, a decisão de transformar estimativa em oferta vinculante foi de negócio, tomada em cima de um algoritmo. Ninguém recebeu a tarefa de vigiar se a premissa ainda fazia sentido depois da mudança.
 
-Pense em quem ganha o quê. Rever uma premissa dá trabalho e pode trazer más notícias. Deixá-la como está não custa nada até o dia em que custa tudo. Sem dono, o incentivo é sempre ignorar. Com dono, a pessoa responde pelo número e passa a ter motivo para olhá-lo.
+Pense em quem ganha o quê. Rever uma premissa pode trazer más notícias. Deixá-la como está não custa nada até o dia em que custa tudo. Sem dono, o incentivo é sempre ignorar. Com dono, a pessoa responde pelo número e passa a ter motivo para olhá-lo.
 
 ## Pergunta 2: com que critério ele foi escolhido?
 
@@ -40,15 +40,9 @@ No terceiro trimestre de 2021, a empresa registrou US$ 304 milhões de baixa con
 
 O CEO, Rich Barton, explicou ao encerrar a operação que o algoritmo não conseguia prever com confiabilidade quanto capital a empresa precisaria arriscar. Recusou atribuir a perda a eventos externos imprevisíveis. Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono, sem critério protegido da pressão por meta e sem gatilho de revisão.
 
-## O que isso custa e o que se ganha
+## Quanto custa deixar a premissa sem dono?
 
-### Quanto custa responder às três perguntas e o que volta em troca?
-
-Responder às três perguntas tem um custo. Esse custo é um investimento. No começo, o orçamento fecha mais devagar, porque alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia: duas áreas usavam hipóteses diferentes para a mesma variável sem saber. Esse é o ganho. A divergência que aparece numa reunião custa uma conversa. A que aparece no resultado do ano custa o que custou à Zillow.
-
-A única escolha é de ordem. Se o time não consegue fazer tudo de uma vez, comece pelas premissas que, se estiverem erradas, mais mudam o resultado do ano. Depois avance até cobrir todas. Nenhuma fica de fora.
-
-Governar também tem uma ressalva. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas.
+Custa o que a Zillow pagou. Uma premissa sem dono não avisa quando deixa de valer, então o erro só aparece no resultado, quando já virou perda. Na Zillow, ninguém olhou o número que sustentava as ofertas. A distância entre o algoritmo e o mercado só apareceu no balanço de 2021. A mesma distância, vista numa reunião, teria custado uma conversa.
 
 Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão.
 
@@ -57,5 +51,11 @@ Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsá
 A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em que foi respondida. A pergunta que protege a empresa é outra: quem vai perceber quando ela deixar de estar certa? Uma premissa que ninguém desmentiu ainda não é uma premissa verdadeira, é só uma que ninguém foi procurar desmentir.
 
 A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo.
+
+## O que teria mudado na Zillow com um dono para cada premissa?
+
+Em fevereiro de 2021, quando a estimativa virou oferta de compra, cada premissa do algoritmo teria na BudgetXpert um dono definido. Só quem tem permissão alteraria o valor. A discussão sobre o número ficaria junto do número, por comentário na célula, em vez de se espalhar por e-mails. Quando a gestão quis subir as ofertas, a pergunta sobre a base do novo valor teria aparecido ao lado dele, à vista de todos.
+
+Veja como funciona em budgetxpert.ai.
 
 Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

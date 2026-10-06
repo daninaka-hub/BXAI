@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "The difference between budget and forecast, why the budget contaminates the forecast, how to detect bias, what it costs to start measuring and how to start at the next close."
+      "content": "The difference between budget and forecast, why the budget contaminates the forecast, how to detect bias, what a forecast without a score costs the people who defend it, how to start at the next close and what would change with one official version in view of everyone."
     },
     {
       "type": "paragraph",
@@ -80,7 +80,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Separating them is an investment with a return. The company now has two numbers on the table, one of them uncomfortable. In exchange, it gets a forecast it can measure."
+      "content": "With the separation, the company has two numbers on the table: the commitment and the estimate. Without it, the forecast echoes the budget and there is no error left to measure."
     },
     {
       "type": "paragraph",
@@ -114,7 +114,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Frequency alone does not solve it. A rolling forecast with no error measurement repeats the same bias twelve times a year, with more work. The gain shows up when each cycle starts by reading the error of the previous one."
+      "content": "Frequency alone does not solve it. A rolling forecast with no error measurement repeats the same bias twelve times a year. The gain shows up when each cycle starts by reading the error of the previous one."
     },
     {
       "type": "paragraph",
@@ -123,23 +123,23 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What does it cost to start measuring?"
+      "content": "What does a forecast without a score cost the people who defend it?"
     },
     {
       "type": "paragraph",
-      "content": "Measuring costs time to freeze each close's version, a hard conversation about the error and two numbers on the table instead of one. It is an investment with a return: a forecast that stops repeating the same bias. Postponing is the costliest part: an error discovered eleven months later corrects no decision. It only feeds a lessons-learned presentation."
+      "content": "It costs the same error, month after month. When no one keeps each close's version to compare against, the forecast repeats the previous bias. The budget keeps contaminating the outlook, unseen. The 86% who do not measure pay that bill without knowing it exists."
     },
     {
       "type": "paragraph",
-      "content": "The only limit is one of order, where to start. Measurement covers the whole forecast. The first cycle can begin with the lines that weigh most on the result. Two precautions protect the investment."
+      "content": "The error also arrives late. Found eleven months later, it corrects no decision. It only feeds a lessons-learned presentation."
     },
     {
       "type": "paragraph",
-      "content": "The first is not using the error to evaluate people. When it enters performance reviews, everyone starts padding their predictions on purpose. Accuracy is there to fix the model and its assumptions, not to score whoever filled in the spreadsheet."
+      "content": "Two blind spots remain. The first is the total, which hides the lines: large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way. That is why measurement covers the whole forecast, line by line."
     },
     {
       "type": "paragraph",
-      "content": "The second is not measuring only the total. Large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way. That is why measurement goes down to each line."
+      "content": "The second is the score itself, which is worth what it corrects. When it is used to adjust the model and its assumptions, the analyst shows the error without fear. When it becomes a ranking of people, everyone pads their predictions on purpose. The forecast goes back to hiding what it should show."
     },
     {
       "type": "heading",
@@ -148,11 +148,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Start with the lines that weigh most on the result, such as revenue by channel and volume. At each close, add lines until the whole forecast is inside the measurement. At each one, save that month's forecast version before updating it, because without the frozen version there is no error to calculate. Compare forecast with actual and record the deviation with its sign, up or down, never as an absolute value. The sign is what reveals bias."
+      "content": "Measure the whole forecast, line by line, from the next close. At each close, save that month's forecast version before updating it, because without the frozen version there is no error to calculate. Compare forecast with actual and record the deviation with its sign, up or down, never as an absolute value. The sign is what reveals bias."
     },
     {
       "type": "paragraph",
-      "content": "After three cycles, the conversation at the table changes. Instead of debating whether this month's number looks reasonable, the team looks at the pattern: this line always misses high, that one misses along with seasonality. At a small company where the owner decides everything, saving the version and comparing fits in a short close meeting, with a return from the first cycle."
+      "content": "After three cycles, the conversation at the table changes. Instead of debating whether this month's number looks reasonable, the team looks at the pattern: this line always misses high, that one misses along with seasonality. At a small company where the owner decides everything, the same routine holds: with the version saved, the owner sees in the first cycle where the forecast missed."
     },
     {
       "type": "heading",
@@ -166,6 +166,19 @@
     {
       "type": "paragraph",
       "content": "Budget and forecast do not compete. They protect each other when kept apart: the budget holds the commitment, the forecast warns early when the commitment is at risk. A wrong budget is a negotiation problem. A wrong forecast is information, as long as someone measures the error. The finance team's job, then, is not to predict better in one leap. It is to make it safe to be wrong in public, because only a measured error teaches anything."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What would change if everyone looked at the same version of the plan?"
+    },
+    {
+      "type": "paragraph",
+      "content": "What if the official version of the plan were marked and visible to everyone? At BudgetXpert, budget and forecast would live side by side as separate versions of the same plan. Only one would carry the official mark. The others would not be mistaken for it, even with a different number. In May, the sales director and the analyst would look at the same official version."
+    },
+    {
+      "type": "paragraph",
+      "content": "See how it works at budgetxpert.ai."
     },
     {
       "type": "divider"

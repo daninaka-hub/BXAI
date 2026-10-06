@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "Neste artigo",
-      "content": "O que é uma premissa de orçamento, por que ela envelhece sem ninguém errar, as três perguntas sobre dono, critério e revisão, o que a Zillow pagou por não fazê-las e o que esse custo devolve ao orçamento."
+      "content": "O que é uma premissa de orçamento, por que ela envelhece sem ninguém errar, as três perguntas sobre dono, critério e revisão, o que a Zillow pagou por não fazê-las, quanto custa deixar a premissa sem dono e o que teria mudado com a BudgetXpert."
     },
     {
       "type": "paragraph",
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Pense em quem ganha o quê. Rever uma premissa dá trabalho e pode trazer más notícias. Deixá-la como está não custa nada até o dia em que custa tudo. Sem dono, o incentivo é sempre ignorar. Com dono, a pessoa responde pelo número e passa a ter motivo para olhá-lo."
+      "content": "Pense em quem ganha o quê. Rever uma premissa pode trazer más notícias. Deixá-la como está não custa nada até o dia em que custa tudo. Sem dono, o incentivo é sempre ignorar. Com dono, a pessoa responde pelo número e passa a ter motivo para olhá-lo."
     },
     {
       "type": "heading",
@@ -129,24 +129,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que isso custa e o que se ganha"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Quanto custa responder às três perguntas e o que volta em troca?"
+      "content": "Quanto custa deixar a premissa sem dono?"
     },
     {
       "type": "paragraph",
-      "content": "Responder às três perguntas tem um custo. Esse custo é um investimento. No começo, o orçamento fecha mais devagar, porque alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia: duas áreas usavam hipóteses diferentes para a mesma variável sem saber. Esse é o ganho. A divergência que aparece numa reunião custa uma conversa. A que aparece no resultado do ano custa o que custou à Zillow."
-    },
-    {
-      "type": "paragraph",
-      "content": "A única escolha é de ordem. Se o time não consegue fazer tudo de uma vez, comece pelas premissas que, se estiverem erradas, mais mudam o resultado do ano. Depois avance até cobrir todas. Nenhuma fica de fora."
-    },
-    {
-      "type": "paragraph",
-      "content": "Governar também tem uma ressalva. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas."
+      "content": "Custa o que a Zillow pagou. Uma premissa sem dono não avisa quando deixa de valer, então o erro só aparece no resultado, quando já virou perda. Na Zillow, ninguém olhou o número que sustentava as ofertas. A distância entre o algoritmo e o mercado só apareceu no balanço de 2021. A mesma distância, vista numa reunião, teria custado uma conversa."
     },
     {
       "type": "paragraph",
@@ -164,6 +151,19 @@
     {
       "type": "paragraph",
       "content": "A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "O que teria mudado na Zillow com um dono para cada premissa?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Em fevereiro de 2021, quando a estimativa virou oferta de compra, cada premissa do algoritmo teria na BudgetXpert um dono definido. Só quem tem permissão alteraria o valor. A discussão sobre o número ficaria junto do número, por comentário na célula, em vez de se espalhar por e-mails. Quando a gestão quis subir as ofertas, a pergunta sobre a base do novo valor teria aparecido ao lado dele, à vista de todos."
+    },
+    {
+      "type": "paragraph",
+      "content": "Veja como funciona em budgetxpert.ai."
     },
     {
       "type": "divider"

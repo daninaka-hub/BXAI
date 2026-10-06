@@ -67,7 +67,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La cuenta asusta. El mapa desglosa de 2 a 4 temas estratégicos en 12 a 20 objetivos vinculados entre sí, es decir, hasta 20 apuestas simultáneas dentro de un mismo plan. Ninguna empresa puede financiarlas todas por completo al mismo tiempo. Target lo intentó. Por eso todas pasan por fases, con el orden decidiendo cuál va primero."
+      "content": "El costo del error crece con el número de apuestas. El mapa desglosa de 2 a 4 temas estratégicos en 12 a 20 objetivos vinculados entre sí, es decir, hasta 20 apuestas simultáneas dentro de un mismo plan. Target puso todas en la calle al mismo tiempo. Cada apuesta que falla sin aviso cuesta todo lo ya invertido en ella, mientras que por fases cada una tiene su momento de verificación, con el orden decidiendo cuál va primero."
     },
     {
       "type": "heading",
@@ -80,7 +80,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Por separado, las decisiones tienen defensa. Abrir rápido gana mercado antes de que la competencia reaccione. Encender todo el sistema de una vez evita el costo de operar dos mundos en paralelo."
+      "content": "Por separado, las decisiones parecen razonables. Abrir rápido gana mercado antes de que la competencia reaccione. Encender todo el sistema de una vez promete un cambio limpio de un día para otro."
     },
     {
       "type": "paragraph",
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Esto exige inversión. Quien prueba cede parte de la velocidad y convive, durante un tiempo, con dos formas de operar. A cambio, paga 10 tiendas por el error que habría costado 133 y descubre temprano qué hipótesis falló. Ese retorno vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
+      "content": "Sin prueba, el mismo error costó las 133 tiendas y afectó a 17.600 empleados. Con prueba, habría costado 10 tiendas, y cada hipótesis se habría respondido por separado de la otra, así que la empresa habría sabido temprano cuál falló. Eso vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
     },
     {
       "type": "heading",
@@ -148,7 +148,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Dos reglas mantienen honesta la prueba. Si ningún resultado puede cancelar la expansión, el piloto es solo un ensayo de implementación. Y mide la premisa, no la ejecución: saber si las 10 tiendas abrieron a tiempo responde sobre la obra, saber cuánto vendió cada metro cuadrado responde sobre el negocio."
+      "content": "Dos reglas hacen que la prueba valga. Si ningún resultado puede cancelar la expansión, el piloto es solo un ensayo de implementación. Y mide la premisa, no la ejecución: saber si las 10 tiendas abrieron a tiempo responde sobre la obra, saber cuánto vendió cada metro cuadrado responde sobre el negocio."
     },
     {
       "type": "heading",
@@ -158,6 +158,19 @@
     {
       "type": "paragraph",
       "content": "La pregunta de casi todo plan es cuánto vamos a crecer. La que le faltó a Target era otra: ¿cuánto cuesta descubrir que nos equivocamos? Con 10 tiendas, el costo habría sido 10 tiendas. Con 133, fue toda la operación en Canadá. Un plan no vale por la precisión de las metas que proyecta. Vale por el precio que cobra para revelar el error."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Y si cada hipótesis del plan tuviera dueño?"
+    },
+    {
+      "type": "paragraph",
+      "content": "En el plan de Target, 133 tiendas dependían de las mismas hipótesis que 10 tiendas habrían bastado para probar. En BudgetXpert, cada hipótesis se habría vuelto una premisa con dueño definido, definida una vez y reutilizada en varios presupuestos. Cada área vería y editaría solo su parte mientras quien consolida vería todo, así que el día del resultado habría un nombre para cada hipótesis que falló."
+    },
+    {
+      "type": "paragraph",
+      "content": "El resto está en budgetxpert.ai."
     },
     {
       "type": "divider"
