@@ -1,12 +1,12 @@
-# A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?
+# O que a fraude de US$ 208 milhões da Kraft Heinz diz sobre a IA agêntica nas finanças?
 
-### Kraft Heinz: por que a IA agêntica só funciona sobre premissas governadas
+### Kraft Heinz: por que a IA agêntica só funciona com governança de processo
 
 Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos e depreciação, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta.
 
-Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa, o motivo para acreditar em um número: ninguém conferiu a hipótese de que cada desconto era real.
+Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número.
 
-É o mesmo ponto em que trava a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. A tese deste texto é direta: a IA agêntica não corrige um processo sem dono, só o acelera. Para ver por quê, o caminho começa dentro da Kraft Heinz.
+Esse é o ponto em que a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento, também pode travar. A conversa sobre ela nas finanças costuma girar em torno de automação e produtividade. A pressa de não ficar para trás coloca a governança em segundo plano. A tese deste texto é direta: a IA agêntica não corrige um processo sem governança, só o acelera. Para ver por quê, o caminho começa dentro da Kraft Heinz.
 
 ## Quem ganhava com os 300 descontos da Kraft Heinz?
 
@@ -16,13 +16,26 @@ A 3G Capital, gestora que controla a Kraft Heinz, aplicava o orçamento base zer
 
 A conta veio em etapas. Em fevereiro de 2019, a empresa anunciou uma baixa contábil de US$ 15,4 bilhões em goodwill (o valor pago a mais em aquisições) e em marcas como Kraft e Oscar Mayer, com prejuízo líquido de US$ 12,6 bilhões no trimestre. Em junho de 2019, reapresentou suas demonstrações financeiras, os relatórios oficiais de resultado, corrigindo US$ 208 milhões em economias que não existiam. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais dos Estados Unidos. Dois executivos foram punidos: o diretor de operações pagou US$ 300 mil, enquanto o diretor de compras pagou US$ 100 mil e foi banido por 5 anos de cargos de direção em empresas de capital aberto. Em 2023, o acordo com acionistas custou mais US$ 450 milhões.
 
-## O que é uma premissa e por que ela some na consolidação?
+## Por que o número chega à consolidação sem origem?
 
 Premissa é o motivo para acreditar em um número. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando o número chega à consolidação sem a premissa, quem soma só enxerga o total.
 
-É por isso que trezentas transações em três anos não indicam uma fraude sofisticada. Indicam a falta de uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe. Não precisa de má-fé generalizada para o processo falhar.
+Houve má-fé de quem lançou. Mesmo assim, a lição está no processo, que não tinha como perceber. Faltava uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe.
 
 O erro silencioso é mais comum do que o deliberado. Na maior parte das empresas ninguém quer enganar ninguém. Existe um número que todo mundo usa e ninguém sabe explicar. A Kraft Heinz é o caso extremo da mesma fragilidade.
+
+## O problema é de governança de processo
+
+Governança de processo é o conjunto de regras que registra, para cada número do orçamento, quem o lançou, com base em quê e quem o conferiu antes de somá-lo ao resultado. Na Kraft Heinz, essa governança não existia na consolidação. Com a IA agêntica, o problema é o mesmo, porque a IA também lança e altera números. Mudam quem lança e a velocidade.
+
+| Pergunta de governança | Kraft Heinz (2015 a 2018) | IA agêntica |
+|---|---|---|
+| Quem lançou o número? | A área de compras, sem registro visível na consolidação | O agente, sem registro do que alterou, se o processo não exigir |
+| Com base em quê? | Um desconto de fornecedor que nunca existiu | Uma regra ou conversa que ninguém guardou |
+| Quem conferiu antes de somar? | Ninguém na consolidação | Ninguém, se o agente consolida sozinho |
+| Quando o erro aparece? | Anos depois | Mais rápido, porque o volume de alterações é maior |
+
+Sem essa governança, a fraude de ontem e o erro da IA de amanhã passam pelo mesmo buraco.
 
 ## Por que a IA agêntica não resolve isso sozinha?
 

@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "IA agêntica em finanças: o caso Kraft Heinz",
+    "title": "IA agêntica nas finanças: o que a Kraft Heinz ensina",
     "description": "A Kraft Heinz lançou 300 descontos falsos por 3 anos. Veja o que isso revela sobre a IA agêntica em finanças e o que fazer antes de automatizar.",
     "keywords": [
       "IA agêntica",
-      "governança de premissas",
+      "governança de processo",
       "IA agêntica em finanças",
       "consolidação orçamentária",
       "controladoria",
@@ -13,7 +13,7 @@
   },
   "id": "17",
   "slug": "ia-agentica-financas-kraft-heinz",
-  "title": "A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?",
+  "title": "O que a fraude de US$ 208 milhões da Kraft Heinz diz sobre a IA agêntica nas finanças?",
   "excerpt": "A Kraft Heinz lançou US$ 208 milhões em descontos falsos e ninguém rastreou a origem. Antes de automatizar finanças com IA agêntica, veja o que precisa ter dono.",
   "coverImage": "/blog-media/ia-agentica-financas-kraft-heinz-capa.webp",
   "date": "2026-10-06",
@@ -24,19 +24,19 @@
   "category": "finance-automation",
   "tags": [
     "IA agêntica",
-    "governança de premissas",
+    "governança de processo",
     "IA agêntica em finanças",
     "consolidação orçamentária",
     "controladoria"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Kraft Heinz: por que a IA agêntica só funciona sobre premissas governadas"
+      "content": "Kraft Heinz: por que a IA agêntica só funciona com governança de processo"
     },
     {
       "type": "paragraph",
@@ -47,15 +47,15 @@
       "variant": "blue",
       "icon": "📌",
       "title": "Neste artigo",
-      "content": "Quem ganhava com os descontos falsos da Kraft Heinz, o que é uma premissa e por que ela some na consolidação, por que a IA agêntica não resolve isso sozinha e como se preparar antes de automatizar."
+      "content": "Quem ganhava com os descontos falsos da Kraft Heinz, por que o número chega à consolidação sem origem, o que é governança de processo, por que a IA agêntica não resolve isso sozinha e como se preparar antes de automatizar."
     },
     {
       "type": "paragraph",
-      "content": "Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa, o motivo para acreditar em um número: ninguém conferiu a hipótese de que cada desconto era real."
+      "content": "Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número."
     },
     {
       "type": "paragraph",
-      "content": "É o mesmo ponto em que trava a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. A tese deste texto é direta: a IA agêntica não corrige um processo sem dono, só o acelera. Para ver por quê, o caminho começa dentro da Kraft Heinz."
+      "content": "Esse é o ponto em que a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento, também pode travar. A conversa sobre ela nas finanças costuma girar em torno de automação e produtividade. A pressa de não ficar para trás coloca a governança em segundo plano. A tese deste texto é direta: a IA agêntica não corrige um processo sem governança, só o acelera. Para ver por quê, o caminho começa dentro da Kraft Heinz."
     },
     {
       "type": "heading",
@@ -77,7 +77,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que é uma premissa e por que ela some na consolidação?"
+      "content": "Por que o número chega à consolidação sem origem?"
     },
     {
       "type": "paragraph",
@@ -85,11 +85,54 @@
     },
     {
       "type": "paragraph",
-      "content": "É por isso que trezentas transações em três anos não indicam uma fraude sofisticada. Indicam a falta de uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe. Não precisa de má-fé generalizada para o processo falhar."
+      "content": "Houve má-fé de quem lançou. Mesmo assim, a lição está no processo, que não tinha como perceber. Faltava uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe."
     },
     {
       "type": "paragraph",
       "content": "O erro silencioso é mais comum do que o deliberado. Na maior parte das empresas ninguém quer enganar ninguém. Existe um número que todo mundo usa e ninguém sabe explicar. A Kraft Heinz é o caso extremo da mesma fragilidade."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "O problema é de governança de processo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Governança de processo é o conjunto de regras que registra, para cada número do orçamento, quem o lançou, com base em quê e quem o conferiu antes de somá-lo ao resultado. Na Kraft Heinz, essa governança não existia na consolidação. Com a IA agêntica, o problema é o mesmo, porque a IA também lança e altera números. Mudam quem lança e a velocidade."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pergunta de governança",
+        "Kraft Heinz (2015 a 2018)",
+        "IA agêntica"
+      ],
+      "rows": [
+        [
+          "Quem lançou o número?",
+          "A área de compras, sem registro visível na consolidação",
+          "O agente, sem registro do que alterou, se o processo não exigir"
+        ],
+        [
+          "Com base em quê?",
+          "Um desconto de fornecedor que nunca existiu",
+          "Uma regra ou conversa que ninguém guardou"
+        ],
+        [
+          "Quem conferiu antes de somar?",
+          "Ninguém na consolidação",
+          "Ninguém, se o agente consolida sozinho"
+        ],
+        [
+          "Quando o erro aparece?",
+          "Anos depois",
+          "Mais rápido, porque o volume de alterações é maior"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Sem essa governança, a fraude de ontem e o erro da IA de amanhã passam pelo mesmo buraco."
     },
     {
       "type": "heading",

@@ -629,6 +629,9 @@ details[open] .chev{transform:rotate(90deg);}
 .body{padding:0 18px 20px;}
 .section-label{font-size:11px;font-weight:bold;letter-spacing:.6px;text-transform:uppercase;color:var(--teal);margin:18px 0 8px;}
 .text p{font-size:14.5px;line-height:1.65;margin:0 0 12px;color:var(--fg);}
+.text table.tb{border-collapse:collapse;width:100%;margin:4px 0 14px;font-size:13px;}
+.text table.tb th,.text table.tb td{border:1px solid var(--line,#d5dde3);padding:7px 9px;text-align:left;vertical-align:top;}
+.text table.tb th{background:#062D3E;color:#fff;}
 .text h3{font-size:14px;margin:14px 0 6px;color:var(--fg);}
 .text h2{font-size:15.5px;margin:20px 0 8px;color:var(--fg);}
 .source{font-size:12.5px;color:var(--muted);border-top:1px solid var(--border);padding-top:10px;margin-top:4px;}
@@ -753,6 +756,12 @@ def html_artigo_txt(t):
             out.append(f"<h2>{esc(b[3:].strip())}</h2>")
         elif re.match(r"(Fonte|Fontes|Source|Sources|Fuente|Fuentes):", b):
             out.append(f'<div class="source">{esc(b)}</div>')
+        elif b.startswith("|"):
+            lin = [l for l in b.splitlines() if not re.match(r"^\|[\s\-|:]+\|$", l)]
+            cel = [[c.strip() for c in l.strip().strip("|").split("|")] for l in lin]
+            cab = "".join(f"<th>{esc(c)}</th>" for c in cel[0])
+            corpo = "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for r in cel[1:])
+            out.append(f'<table class="tb"><thead><tr>{cab}</tr></thead><tbody>{corpo}</tbody></table>')
         else:
             out.append(f"<p>{_links_html(esc(' '.join(b.splitlines())))}</p>")
     return "\n".join(out)

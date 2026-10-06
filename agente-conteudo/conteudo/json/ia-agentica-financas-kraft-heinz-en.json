@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "Agentic AI in Finance: The Kraft Heinz Case",
+    "title": "Agentic AI in Finance: What Kraft Heinz Teaches",
     "description": "Kraft Heinz booked 300 fake discounts for 3 years. See what it reveals about agentic AI in finance and what to fix before you automate.",
     "keywords": [
       "agentic AI",
-      "assumption governance",
+      "process governance",
       "budget consolidation",
       "controllership",
       "accounting fraud",
@@ -13,7 +13,7 @@
   },
   "id": "17",
   "slug": "agentic-ai-finance-kraft-heinz",
-  "title": "Would agentic AI repeat Kraft Heinz's $208 million fraud?",
+  "title": "What does Kraft Heinz's $208 million fraud say about agentic AI in finance?",
   "excerpt": "Kraft Heinz booked $208 million in fake discounts and nobody traced where they came from. Before automating finance with agentic AI, see what needs an owner.",
   "coverImage": "/blog-media/ia-agentica-financas-kraft-heinz-capa.webp",
   "date": "2026-10-06",
@@ -24,19 +24,19 @@
   "category": "finance-automation",
   "tags": [
     "agentic AI",
-    "assumption governance",
+    "process governance",
     "budget consolidation",
     "controllership",
     "accounting fraud"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Kraft Heinz: why agentic AI only works on top of governed assumptions"
+      "content": "Kraft Heinz: why agentic AI only works with process governance"
     },
     {
       "type": "paragraph",
@@ -47,15 +47,15 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "Who benefited from Kraft Heinz's fake discounts, what an assumption is and why it vanishes in consolidation, why agentic AI cannot fix this alone and how to prepare before you automate."
+      "content": "Who benefited from Kraft Heinz's fake discounts, why the number reaches consolidation with no origin, what process governance is, why agentic AI cannot fix this alone and how to prepare before you automate."
     },
     {
       "type": "paragraph",
-      "content": "Under that pressure, procurement (the purchasing department) began booking as savings supplier discounts the company had never earned, in roughly 300 transactions from late 2015 to late 2018. The failure was not arithmetic. It was an assumption, the reason to believe a number: nobody checked that each discount was real."
+      "content": "Under that pressure, procurement (the purchasing department) began booking as savings supplier discounts the company had never earned, in roughly 300 transactions from late 2015 to late 2018. The fraud was deliberate. What let it through was a process governance failure: in consolidation, nothing recorded where each number came from."
     },
     {
       "type": "paragraph",
-      "content": "That is where agentic AI stalls too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. The thesis here is simple: agentic AI does not fix a process that has no owner, it only speeds it up. To see why, start inside Kraft Heinz."
+      "content": "That is where agentic AI can stall too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. Talk about it in finance usually centers on automation and productivity. The rush not to fall behind pushes governance into second place. The thesis here is simple: agentic AI does not fix a process without governance, it only speeds it up. To see why, start inside Kraft Heinz."
     },
     {
       "type": "heading",
@@ -77,7 +77,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What is an assumption, and why does it vanish in consolidation?"
+      "content": "Why does the number reach consolidation with no origin?"
     },
     {
       "type": "paragraph",
@@ -85,11 +85,54 @@
     },
     {
       "type": "paragraph",
-      "content": "That is why three hundred transactions over three years do not point to a sophisticated fraud. They point to a missing question, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks. A process does not need widespread bad faith to fail."
+      "content": "There was bad faith on the part of those who booked the discounts. Even so, the lesson lies in the process, which had no way to notice. A simple question was missing, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks."
     },
     {
       "type": "paragraph",
       "content": "Silent error is more common than deliberate fraud. In most companies nobody is trying to fool anybody. There is simply a number everyone uses and nobody can explain. Kraft Heinz is the extreme case of the same weakness."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The problem is process governance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Process governance is the set of rules that records, for every number in the budget, who booked it, on what basis and who checked it before it was added to the result. At Kraft Heinz, that governance did not exist in consolidation. With agentic AI the problem is the same, because AI also books and changes numbers. What changes is who books them and how fast."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Governance question",
+        "Kraft Heinz (2015 to 2018)",
+        "Agentic AI"
+      ],
+      "rows": [
+        [
+          "Who booked the number?",
+          "Procurement, with no visible record in consolidation",
+          "The agent, with no record of what it changed, if the process does not require one"
+        ],
+        [
+          "On what basis?",
+          "A supplier discount that never existed",
+          "A rule or conversation nobody kept"
+        ],
+        [
+          "Who checked it before adding it up?",
+          "Nobody in consolidation",
+          "Nobody, if the agent consolidates alone"
+        ],
+        [
+          "When does the error surface?",
+          "Years later",
+          "Faster, because the volume of changes is higher"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Without that governance, yesterday's fraud and tomorrow's AI error go through the same gap."
     },
     {
       "type": "heading",
