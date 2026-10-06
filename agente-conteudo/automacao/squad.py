@@ -590,7 +590,7 @@ def html_briefings():
     corpo = "".join(itens) or '<div class="brief bf-vazio">Nenhum briefing aguardando. O Head monta 2 por semana, às segundas.</div>'
     return '<div class="section-label">Briefings para aprovar</div>' + corpo
 
-def html_indice(linhas):
+def html_indice(linhas, titulo="Índice dos artigos"):
     itens = []
     for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
         cod, titulo, pilar, status, arquivo = c[0], c[1], c[2], c[5], c[6]
@@ -602,7 +602,9 @@ def html_indice(linhas):
                  f'<a href="{GITHUB}conteudo/artes/{slug}.md" target="_blank" rel="noopener">arte</a>')
         itens.append(f'<li><span class="code">{esc(cod)}</span><div class="ix-txt"><a class="ix-titulo" href="#artigo-{n}" data-abrir="{n}">{esc(titulo)}</a>'
                      f'<div class="ix-meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span><span class="ix-links">{links}</span></div></div></li>')
-    return '<div class="section-label">Índice dos artigos</div><ul class="indice">' + "".join(itens) + "</ul>"
+    if not itens:
+        return ""
+    return f'<div class="section-label">{esc(titulo)}</div><ul class="indice">' + "".join(itens) + "</ul>"
 
 CSS = """
 :root{--bg:#F4F6F6;--card:#FFFFFF;--border:#D9E3E1;--fg:#0F2A32;--muted:#53696D;--navy:#062D3E;--teal:#19B09F;--teal-soft:#E4F5F2;}
@@ -830,9 +832,9 @@ def html_idiomas(slug):
         saida.append(f'<details class="sub"><summary>Relatório de SEO e GEO, {NOMES_IDIOMA[lg]}</summary>{html_seo(d[lg]["seo"])}</details>')
     return "\n".join(saida)
 
-JS = r'''function aba(n){["status","artigos"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
-function abrir(){var h=location.hash;if(!h)return;if(h==="#status"||h==="#artigos"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba("artigos");e.open=true;e.scrollIntoView();}}
-document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba("artigos");e.open=true;e.scrollIntoView({behavior:"smooth"});}});
+JS = r'''function aba(n){["status","aprovar","biblioteca"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
+function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#biblioteca"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(5));e.open=true;e.scrollIntoView();}}
+document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(5));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
 document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
 if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hidden&&!document.getElementById("aba-status").hidden)location.reload();},60000);}'''
@@ -840,15 +842,17 @@ if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hi
 
 def gerar_pagina():
     cards = []
+    cards_bib = []
     linhas = indice()
     codigos = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas), reverse=True)
-    abertos = set(codigos[:2])
+    aprovar = [c for _, c in linhas if c[5] != "Aprovado"]
+    abertos = set(sorted((int(re.search(r"\d+", c[0]).group()) for c in aprovar), reverse=True)[:2])
     for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
         cod, titulo, pilar, status, arquivo = c[0], c[1], c[2], c[5], c[6]
         slug = pathlib.Path(arquivo).stem
         n = int(re.search(r"\d+", cod).group())
         aberto = " open" if n in abertos else ""
-        cards.append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
+        (cards_bib if status == "Aprovado" else cards).append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
 <div class="body"><div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
@@ -858,16 +862,21 @@ def gerar_pagina():
 <div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
 <div class="sub">Referencie pelo código ao pedir ajustes no chat</div>
 {html_resumo(linhas)}
-<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-artigos" role="tab" data-aba="artigos">Artigos</button></div>
+<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-aprovar" role="tab" data-aba="aprovar">A aprovar ({len(cards)})</button><button type="button" class="aba" id="btn-biblioteca" role="tab" data-aba="biblioteca">Biblioteca ({len(cards_bib)})</button></div>
 <section id="aba-status" role="tabpanel">
 {html_status()}
 {html_briefings()}
 {html_producao()}
 </section>
-<section id="aba-artigos" role="tabpanel" hidden>
-{html_indice(linhas)}
-<div class="section-label">Artigos</div>
-{chr(10).join(cards)}
+<section id="aba-aprovar" role="tabpanel" hidden>
+{html_indice([l for l in linhas if l[1][5] != "Aprovado"], "Índice dos artigos a aprovar")}
+<div class="section-label">Artigos a aprovar</div>
+{chr(10).join(cards) or '<p class="sub">Nenhum artigo aguardando aprovação.</p>'}
+</section>
+<section id="aba-biblioteca" role="tabpanel" hidden>
+{html_indice([l for l in linhas if l[1][5] == "Aprovado"], "Biblioteca, artigos aprovados")}
+<div class="section-label">Artigos aprovados</div>
+{chr(10).join(cards_bib) or '<p class="sub">Nenhum artigo aprovado ainda.</p>'}
 </section>
 <div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div><script>{JS}</script></body></html>"""
     PAGINA.parent.mkdir(exist_ok=True)
