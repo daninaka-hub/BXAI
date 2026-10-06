@@ -62,4 +62,18 @@ A pergunta do começo era por que 86% das equipes não medem o erro do forecast.
 
 Orçamento e forecast não competem. Eles se protegem quando ficam separados: o orçamento sustenta o compromisso, o forecast avisa cedo quando o compromisso está em risco. Um orçamento errado é um problema de negociação. Um forecast errado é informação, desde que alguém meça o erro. O trabalho do financeiro, então, não é prever melhor de uma vez. É tornar seguro errar em público, porque só o erro medido ensina alguma coisa.
 
+## Perguntas frequentes
+
+### Qual é a diferença entre forecast e orçamento?
+
+O orçamento é um compromisso: define quanto cada área pode gastar e que resultado a empresa promete entregar. O forecast é uma estimativa de onde a empresa chega se nada mudar de rota, com base no que se sabe hoje.
+
+### Quantas equipes de finanças medem a acurácia do forecast?
+
+Só 14%, segundo a AFP FP&A Benchmarking Survey 2026, feita com 332 profissionais em 54 países. Os outros 86% não têm medição estruturada do erro.
+
+### O que é viés no forecast e como detectá-lo?
+
+Viés é o erro que cai sempre para o mesmo lado, mês após mês. Para detectá-lo, guarde a versão do forecast antes de atualizá-la, compare com o realizado e registre o desvio com sinal, para cima ou para baixo.
+
 Fonte: AFP (Association for Financial Professionals, financialprofessionals.org), entidade americana de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report" e artigo de opinião "Your Forecast Doesn't Have a Score. It Should." (Jason Brisbane, 28/04/2026). McKinsey & Company (mckinsey.com), consultoria global de gestão, "Bringing the real world into your forecasting process" (13/03/2020).

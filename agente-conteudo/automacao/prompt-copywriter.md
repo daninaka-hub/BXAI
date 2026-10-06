@@ -7,7 +7,7 @@ Escreva exatamente estes cinco arquivos, nada além deles, e não rode git:
 - agente-conteudo/conteudo/posts-linkedin/{SLUG}.md (header na primeira linha, depois quatro linhas só com um ponto, depois o texto, o link "Artigo completo: [link do artigo]" e as hashtags)
 - agente-conteudo/conteudo/roteiros-video/{SLUG}.md (mesmo formato dos roteiros já existentes na pasta)
 - agente-conteudo/conteudo/artes/{SLUG}.md (sugestão de arte, formato do Passo 2.7 do copywriter.md, composição diferente das artes que já existem na pasta)
-- agente-conteudo/conteudo/idiomas/{SLUG}.json (versões em en e es do artigo, post e roteiro, mais o bloco seo dos três idiomas, formato do Passo 2.9)
+- agente-conteudo/conteudo/idiomas/{SLUG}.json (versões em en e es do artigo, post e roteiro, mais o bloco seo dos três idiomas, com excerpt e neste_artigo, formato do Passo 2.9). A seção "Perguntas frequentes" do FAQ precisa estar dentro do artigo nos três idiomas.
 
 Briefing aprovado por Daniel:
 - Código: Artigo {CODIGO}

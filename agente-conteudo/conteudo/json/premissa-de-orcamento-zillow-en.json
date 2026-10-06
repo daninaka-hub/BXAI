@@ -1,0 +1,199 @@
+{
+  "seo": {
+    "title": "Budget Assumption: Why Zillow Lost $881 Million",
+    "description": "How one budget assumption with no owner cost Zillow $881 million in 2021, and the three questions that show whether yours are under control.",
+    "keywords": [
+      "budget assumption",
+      "hypothesis about the future",
+      "annual budget",
+      "controllership",
+      "review trigger",
+      "Zillow Offers"
+    ]
+  },
+  "id": "16",
+  "slug": "budget-assumption-zillow",
+  "title": "Who Owned the Assumption That Cost Zillow $881 Million?",
+  "excerpt": "Zillow lost $881 million in 2021 because of an assumption nobody reviewed. See the three questions every budget assumption must answer.",
+  "coverImage": "/blog-media/premissa-de-orcamento-zillow-capa.webp",
+  "date": "2026-10-06",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "controllership",
+  "tags": [
+    "budget assumption",
+    "hypothesis about the future",
+    "annual budget",
+    "controllership",
+    "review trigger"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "In February 2021, Zillow (zillow.com), the largest real estate search platform in the United States, gave a number the power to buy houses. Until then, the price estimate from its algorithm, a program that calculates what each home is worth, was only a reference. That month, it became a binding purchase offer, obliging the company to pay the calculated price. By the end of 2021, Zillow Offers, the division that bought and resold homes directly, had lost $881 million."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "In this article",
+      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them and where the rule does not apply."
+    },
+    {
+      "type": "paragraph",
+      "content": "The algorithm did not miscalculate. A budget assumption failed: the hypothesis about the future that every purchase relied on. Nobody had the job of reviewing it. All of them carry the same risk. It can be born right and grow old wrong without anyone making a wrong decision along the way. Three questions show whether yours are under control. The Zillow case helps explain each one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What is a budget assumption?"
+    },
+    {
+      "type": "paragraph",
+      "content": "An assumption is the hypothesis about the future that holds a number up. When someone writes that costs will rise 8% or that the sales conversion rate will stay at 3%, they are supposing something, not recording a fact. It is also not the same as a target. The target is what the company wants to reach. The assumption is what it supposes about the world to believe it can get there."
+    },
+    {
+      "type": "paragraph",
+      "content": "Every assumption is born from information available on a given date. That information has a shelf life. Zillow's algorithm had been trained in a housing market that kept rising, with no example of a slowing one. When the market cooled in mid-2021, it kept pricing as if the climb would last forever."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Why does an assumption grow old when nobody makes a mistake?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Because what changes is often not the calculation but how it is used. Until February 2021, an estimation error was just an imprecise guess. After that, every error became a signed check. According to the analysis by Shackleford, an AI leadership consultancy, Zillow made this switch without creating any new governance rule, meaning without defining who would control how the tool was used."
+    },
+    {
+      "type": "paragraph",
+      "content": "There was also an effect that runs against intuition. When a company offers the estimated average price, owners of homes worth more than average prefer to sell on the open market, for more. Owners of homes with problems take the quick offer. Zillow ended up buying exactly what the market was already discounting. According to IdeaProof, a site that analyzes business failures, it paid above market value for 65% of the homes it bought."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Question 1: who set this number?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every assumption needs an owner. Not a name on the org chart, but someone who can explain why this number and not another one and who will be called when it stops holding. At Zillow, the decision to turn an estimate into a binding offer was a business decision, made on top of an algorithm. Nobody was given the task of checking whether the assumption still made sense after the change."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think about who gains what. Reviewing an assumption takes work and may bring bad news. Leaving it alone costs nothing until the day it costs everything. Without an owner, the incentive is always to ignore it. With an owner, one person answers for the number and has a reason to look at it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Question 2: what criterion was used to choose it?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The criterion is the source or the rule used to arrive at the number. When it is clear, anyone can challenge it. When it is not, the opinion of whoever is under the most pressure wins."
+    },
+    {
+      "type": "paragraph",
+      "content": "In mid-2021, an internal Zillow project nicknamed \"Project Ketchup\" had management override the algorithm's own offers upward to hit a target for purchase volume. The target rewarded buying, not buying well. The independent human check that existed before disappeared exactly when the criterion needed to be stricter. A written, stable criterion no longer depends on the mood of the quarter."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Question 3: when will it be reviewed?"
+    },
+    {
+      "type": "paragraph",
+      "content": "This is the question most often missing, even in companies that already have an owner and a criterion. Every assumption needs an expiration date, a trigger that says when it will be re-examined. Re-examined, not abandoned: reviewing an assumption does not change the target, it only checks whether the basis of the calculation still reflects reality."
+    },
+    {
+      "type": "paragraph",
+      "content": "The review date does not have to follow the fiscal calendar. It has to follow the speed of the variable the assumption tries to predict. The price of a raw material in a volatile market may call for a monthly review, even inside an annual budget. At Zillow, there was no trigger to check whether the profile of the owners accepting offers had changed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What Zillow paid for it"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the third quarter of 2021, the company booked a $304 million write-down, the recognition of a loss on the balance sheet, on its home inventory alone. It accumulated up to $3.8 billion in houses and sold about 7,000 of them at a loss. In November 2021, when it announced the end of Zillow Offers, it cut about 2,000 employees, a quarter of the division's staff. The stock fell 18% that day and ended the year down 50%."
+    },
+    {
+      "type": "paragraph",
+      "content": "CEO Rich Barton explained at the shutdown that the algorithm could not reliably predict how much capital the company would need to put at risk. He refused to blame the loss on unpredictable outside events. None of these numbers came from a wrong calculation. They came from an assumption with no owner, with no criterion protected from target pressure and with no review trigger."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What this costs and where it does not apply"
+    },
+    {
+      "type": "paragraph",
+      "content": "Answering the three questions has a price. The budget closes more slowly, someone starts answering for numbers that used to belong to everyone. The discussion about the criterion exposes disagreements the spreadsheet used to hide. So it does not apply to every cell. A low-impact assumption, or one tied to a variable that barely moves, can go without this care. The rule is for the few that change the year's result if they are wrong."
+    },
+    {
+      "type": "paragraph",
+      "content": "There is also a limit. Having an owner, a criterion and a review date does not guarantee the assumption is right. It guarantees that if it is wrong, someone will see it. In practice, the start is simple: a column next to each relevant assumption with the three answers in writing. No assumption enters the official budget without them."
+    },
+    {
+      "type": "paragraph",
+      "content": "According to a 2024 survey by EY, the global audit and consulting network, 86% of controllers, the people responsible for a company's financial and accounting control, expect their own role to change significantly within five years. Part of that change is this: moving from recording the closed number to making sure every assumption behind it has an owner, a criterion and a review date."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What remains"
+    },
+    {
+      "type": "paragraph",
+      "content": "The usual question is whether the assumption is right. That can only hold for the day it was answered. The question that protects a company is a different one: who will notice when it stops being right? An assumption nobody has disproved is not yet a true assumption, only one nobody went looking to disprove."
+    },
+    {
+      "type": "paragraph",
+      "content": "The decision that belongs to leadership is small and concrete: no number enters the official budget without a name next to it. Whoever signs the number is the person who will look at it again."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Frequently asked questions"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What is a budget assumption?"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is the hypothesis about the future that supports a budget number, such as costs rising 8% or a conversion rate staying at 3%. It is not the target, which is what the company wants to reach."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What are the three questions to control an assumption?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Who set the number, what criterion was used to choose it, and when it will be reviewed. Without these three answers in writing, the assumption is not under control."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Why did Zillow lose $881 million in 2021?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Its pricing algorithm worked as trained, but in February 2021 the estimate began to generate binding purchase offers with no new governance. Nobody reviewed the assumption when the market cooled."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source: EY (ey.com), global professional services network for audit and consulting, \"Global DNA of the Financial Controller Survey\" (2024), cited by the Journal of Accountancy, a professional accounting magazine. Zillow case: Shackleford, AI leadership consultancy (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
+    }
+  ]
+}

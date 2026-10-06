@@ -1,0 +1,214 @@
+{
+  "seo": {
+    "title": "Forecast y presupuesto: por qué nadie mide el error",
+    "description": "Solo el 14% de los equipos de finanzas mide la precisión del forecast (AFP, 2026). Mira la diferencia entre forecast y presupuesto y cómo medir el error.",
+    "keywords": [
+      "forecast y presupuesto",
+      "precisión del forecast",
+      "sesgo de proyección",
+      "rolling forecast",
+      "momentum case",
+      "error de pronóstico"
+    ]
+  },
+  "id": "18",
+  "slug": "forecast-y-presupuesto-diferencia",
+  "title": "¿Por qué el 86% de los equipos de finanzas no mide el error de su propio forecast?",
+  "excerpt": "El 86% de los equipos de finanzas no mide el error de su propio forecast. Descubre por qué el presupuesto contamina la proyección y cómo empezar a medir en el próximo cierre.",
+  "coverImage": "/blog-media/forecast-e-orcamento-diferenca-capa.webp",
+  "date": "2026-10-06",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "forecasting",
+  "tags": [
+    "forecast y presupuesto",
+    "precisión del forecast",
+    "sesgo de proyección",
+    "rolling forecast",
+    "momentum case"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "Cada mes, la mayoría de los equipos de finanzas publica un forecast nuevo sin revisar el anterior. El forecast es la proyección de cómo debería cerrar la empresa el período. Solo el 14% de los equipos mide formalmente su precisión, según la AFP (Association for Financial Professionals), entidad estadounidense que reúne a profesionales de finanzas corporativas."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "En este artículo",
+      "content": "La diferencia entre forecast y presupuesto, por qué el presupuesto contamina el forecast, cómo detectar sesgo, cuándo estorba la medición y cómo empezar en el próximo cierre."
+    },
+    {
+      "type": "paragraph",
+      "content": "La explicación habitual es la falta de tiempo o de herramientas. Este artículo defiende otra: en muchas empresas, forecast y presupuesto se volvieron la misma hoja de cálculo con dos nombres. Responden a preguntas distintas. El forecast solo mejora cuando alguien mide su error."
+    },
+    {
+      "type": "paragraph",
+      "content": "El dato viene de la encuesta FP&A (Financial Planning & Analysis, planeación y análisis financiero) Benchmarking Survey 2026, hecha con 332 profesionales de 54 países."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Forecast y presupuesto: ¿cuál es la diferencia?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine al director comercial de una industria que, en diciembre, se comprometió ante la junta con la meta de ventas del año. En mayo, la cartera de pedidos muestra que la meta no se cumple. La analista de finanzas abre la hoja para escribir la proyección anual. ¿Qué número pone?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Depende de la pregunta que esté respondiendo. El presupuesto es un compromiso: define cuánto puede gastar cada área y qué resultado promete entregar la empresa. Sirve para asignar recursos y exigir responsabilidad, por eso se negocia y se congela. El forecast es una estimación: dice adónde llega la empresa si nada cambia de rumbo, con base en lo que se sabe hoy. El presupuesto pregunta cuánto vamos a entregar. El forecast pregunta adónde vamos a llegar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cuando las dos preguntas se funden en una, queda una sola respuesta. Se inclina hacia el compromiso, porque el compromiso es el que tiene dueño."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Por qué el presupuesto contamina el forecast?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hay que preguntar quién gana qué. El presupuesto tiene meta, responsable y bono atado. El forecast no tiene nada de eso. Si la proyección honesta muestra que la meta no se cumple, ajustar la proyección cuesta menos que admitir la meta perdida. Y muchas veces quien escribe el forecast es la misma persona que defiende el presupuesto en la reunión de resultados. Poco a poco, el forecast deja de responder adónde llegará la empresa y pasa a responder adónde todavía es defendible decir que llegará."
+    },
+    {
+      "type": "paragraph",
+      "content": "McKinsey, consultora global de gestión, describió esta mezcla en un artículo del 13 de marzo de 2020 y propuso un antídoto: el momentum case. Es una línea base construida solo con la inercia del negocio, sin ninguna iniciativa nueva y separada del plan de negocios. Su función es impedir que el presupuesto se convierta en forecast."
+    },
+    {
+      "type": "paragraph",
+      "content": "Separar tiene un costo. La empresa pasa a tener dos números sobre la mesa, uno de ellos incómodo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esa desviación tiene nombre técnico: sesgo. El sesgo es el error que cae siempre del mismo lado, mes tras mes. No se confunde con la imprecisión, que es errar hacia arriba y hacia abajo sin patrón. La imprecisión es ruido. El sesgo es la señal de que algo en el proceso empuja el número."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Cómo saber si el forecast tiene sesgo?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Solo mirando el historial de errores, y ahí es justo donde el 86% queda ciego. En un artículo de opinión publicado en el sitio de la AFP el 28 de abril de 2026, Jason Brisbane propone darle al forecast una nota de 0 a 100, armada con cuatro componentes. Precisión, el tamaño promedio del error. Sesgo, si el error tiene una dirección preferida. Volatilidad, si el error cambia mucho de un mes a otro. Persistencia, si el mismo error se repite en el mismo lugar. La nota es una propuesta del autor, no una norma, pero la lógica le sirve a cualquier equipo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Imagine un forecast con error promedio de 2%. Parece excelente, hasta que se descubre que el error es siempre optimista y siempre en la misma línea de ingresos. Eso no es un problema de proyección, es un problema de proceso. Y un proceso tiene arreglo. Un error aleatorio de 8% molesta más, pero no revela nada. Un error sistemático de 2% lo revela todo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Por qué medir el error hace que el forecast aprenda?"
+    },
+    {
+      "type": "paragraph",
+      "content": "El cuarto frente que McKinsey recomienda para mejorar el forecast es medir la efectividad con detalle, por línea y por área, no solo en el total. El objetivo es descubrir qué indicador venía siendo ignorado antes de que el problema llegara al resultado."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquí entra el rolling forecast, el modelo que mantiene siempre un horizonte fijo hacia adelante, doce meses por ejemplo. Cada vez que cierra un mes, el resultado real reemplaza la proyección de ese mes y un mes nuevo entra al final de la fila. McKinsey registra que este formato, con actualización frecuente, generó más satisfacción entre los CFO, los directores financieros, que el forecast anual."
+    },
+    {
+      "type": "paragraph",
+      "content": "La frecuencia sola no resuelve nada. Un rolling forecast sin medición de error repite el mismo sesgo doce veces al año, con más trabajo. La ganancia aparece cuando cada ciclo empieza leyendo el error del ciclo anterior."
+    },
+    {
+      "type": "paragraph",
+      "content": "La propia AFP hace este diagnóstico en la edición 2026 de la encuesta: proceso, habilidades y disciplina de ejecución no acompañaron a la tecnología. El ciclo presupuestario promedio sigue cerca de nueve semanas, sin cambios en tres años. Solo el 38% de las organizaciones usa planeación de escenarios estructurada, aunque quienes la usan cierran el presupuesto 11% más rápido, en promedio. Ninguno de esos números es un problema de software. Son síntomas de un proceso que produce números sin volver a revisar el anterior."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Cuándo estorba la medición?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tres errores comunes le quitan valor a la medición."
+    },
+    {
+      "type": "paragraph",
+      "content": "El primero es usarla para evaluar personas. Cuando el error entra en la evaluación de desempeño, todos empiezan a proyectar con holgura a propósito. La medición deja de informar y pasa a distorsionar. La precisión sirve para corregir el modelo y los supuestos, no para calificar a quien llenó la hoja."
+    },
+    {
+      "type": "paragraph",
+      "content": "El segundo es medir solo el total. Los errores grandes en direcciones opuestas se cancelan en el consolidado. La empresa celebra una desviación pequeña en la facturación total mientras dos regiones fallaron por mucho, una para cada lado."
+    },
+    {
+      "type": "paragraph",
+      "content": "El tercero es medir una vez al año. Un error descubierto once meses después no corrige ninguna decisión. Solo alimenta una presentación de lecciones aprendidas."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Cómo empezar en el próximo cierre?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Empiece por tres a cinco líneas que de verdad muevan el resultado, como ingresos por canal y volumen. En cada cierre, guarde la versión del forecast de ese mes antes de actualizarla, porque sin la versión congelada no hay error que calcular. Compare lo proyectado con lo real y registre la desviación con signo, hacia arriba o hacia abajo, nunca en valor absoluto. El signo es lo que revela el sesgo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Después de tres ciclos, la conversación en la mesa cambia. En vez de discutir si el número del mes parece razonable, el área mira el patrón: esta línea siempre falla hacia arriba, aquella falla junto con la estacionalidad. En una empresa pequeña, donde el dueño decide todo, el ritual puede ser más liviano. La regla de guardar la versión y comparar vale igual."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "¿Qué revela que nadie revise?"
+    },
+    {
+      "type": "paragraph",
+      "content": "La pregunta del comienzo era por qué el 86% de los equipos nunca revisa su forecast. La respuesta es de incentivos, no de pereza. Revisar expone el error. El error expuesto incomoda a quien defiende el número. Mientras el forecast sea el presupuesto con fecha nueva, nadie quiere la nota."
+    },
+    {
+      "type": "paragraph",
+      "content": "Presupuesto y forecast no compiten. Se protegen cuando se mantienen separados: el presupuesto sostiene el compromiso, el forecast avisa temprano cuando el compromiso está en riesgo. Un presupuesto equivocado es un problema de negociación. Un forecast equivocado es información, siempre que alguien mida el error. El trabajo de finanzas, entonces, no es proyectar mejor de golpe. Es hacer que equivocarse en público sea seguro, porque solo el error medido enseña algo."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Preguntas frecuentes"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "¿Cuál es la diferencia entre forecast y presupuesto?"
+    },
+    {
+      "type": "paragraph",
+      "content": "El presupuesto es un compromiso: define cuánto puede gastar cada área y qué resultado promete entregar la empresa. El forecast es una estimación de adónde llega la empresa si nada cambia de rumbo, con base en lo que se sabe hoy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "¿Cuántos equipos de finanzas miden la precisión del forecast?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Solo el 14%, según la encuesta FP&A Benchmarking Survey 2026 de la AFP, hecha con 332 profesionales de 54 países. El otro 86% no tiene una medición estructurada del error."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "¿Qué es el sesgo en el forecast y cómo se detecta?"
+    },
+    {
+      "type": "paragraph",
+      "content": "El sesgo es el error que cae siempre del mismo lado, mes tras mes. Para detectarlo, guarde la versión del forecast antes de actualizarla, compárela con lo real y registre la desviación con signo, hacia arriba o hacia abajo."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fuente: AFP (Association for Financial Professionals, financialprofessionals.org), entidad estadounidense de profesionales de finanzas corporativas, \"2026 AFP FP&A Benchmarking Survey Report\" y artículo de opinión \"Your Forecast Doesn't Have a Score. It Should.\" (Jason Brisbane, 28/04/2026). McKinsey & Company (mckinsey.com), consultora global de gestión, \"Bringing the real world into your forecasting process\" (13/03/2020)."
+    }
+  ]
+}

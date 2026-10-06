@@ -1,0 +1,202 @@
+{
+  "seo": {
+    "title": "Strategic Plan: Target Opened 133 Stores Untested",
+    "description": "Target opened 133 stores in Canada and closed them all by 2015. Learn how to test each goal of your strategic plan in phases before betting everything.",
+    "keywords": [
+      "strategic plan",
+      "hypothesis",
+      "strategy map",
+      "phased testing",
+      "Target Canada",
+      "scenario planning"
+    ]
+  },
+  "id": "19",
+  "slug": "strategic-plan-hypothesis-test-in-phases",
+  "title": "Target Opened 133 Stores in Canada Without Testing the First",
+  "excerpt": "Target opened 133 stores in Canada all at once and closed them in 2015. See how to treat each strategic plan goal as a hypothesis to test in phases.",
+  "coverImage": "/blog-media/plano-estrategico-hipotese-testar-fases-capa.webp",
+  "date": "2026-10-06",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "strategic-planning",
+  "tags": [
+    "strategic plan",
+    "hypothesis",
+    "strategy map",
+    "phased testing",
+    "Target Canada"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "In 2013, Target, one of the largest retail chains in the United States (target.com), entered Canada by opening 133 stores in a little over a year, with three distribution centers running at the same time. In early 2015 it announced the closing of every one of them, affecting 17,600 employees (Panorama Consulting). Was it a lack of capital? No. The strategic plan failed to separate what the company knew from what it merely assumed."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "In this article",
+      "content": "What a hypothesis is inside a strategic plan, what Target bet on all at once, how to test in phases, who decides when a test fails and how to apply this to your next plan."
+    },
+    {
+      "type": "paragraph",
+      "content": "The assumption was simple: the store model that worked in the United States would work the same way in Canada, at the same scale, at the same moment. That assumption has a name, hypothesis: a claim about the world that has not yet been checked against reality. Every plan is built from them. Target treated them as facts and signed the full commitment before checking a single one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What Is a Hypothesis Inside a Strategic Plan?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A goal says where you want to arrive. A hypothesis says why you believe you will. \"Grow 15% this year\" is a goal. \"Customers will accept the new price without buying less\" is a hypothesis. Almost every goal hides one or more of them. Almost no plan writes them down."
+    },
+    {
+      "type": "paragraph",
+      "content": "The method that exposes this best is the Strategy Map, created by Robert Kaplan, a Harvard professor, with the consultant David Norton. It fits on one page and stacks the company's objectives in four levels: learning and growth at the base, internal processes, customers and, at the top, financial results. Cause-and-effect arrows climb from one level to the next. Training the team improves the process, the process changes the customer's experience and the customer starts buying more."
+    },
+    {
+      "type": "paragraph",
+      "content": "Each arrow is a hypothesis, not a fact. \"If we train the team, the process improves\" may be true at the company in the case study and false at yours, in this market, this year. That is why the method calls for a quarterly review of the map, with resources reallocated (Umbrex). The review exists to check each arrow against what happened, while there is still money left to change course."
+    },
+    {
+      "type": "paragraph",
+      "content": "The math is daunting. The map breaks 2 to 4 strategic themes into 12 to 20 linked objectives, which means up to 20 simultaneous bets inside one plan. No company can fund all of them in full before knowing which ones work. Target tried."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What Did Target Bet On All at Once?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Along with the stores, Target switched on its integrated management system, the software that controls inventory, purchasing and pricing, all at once. It was a \"big bang\" rollout, in which every area moves to the new system on the same day, with nobody on the team who had functional knowledge of the tool. The case is described by Panorama Consulting (panorama-consulting.com), a firm that specializes in selecting and implementing management systems. Wrong inventory data became empty shelves. Wrong product records became wrong prices at the register."
+    },
+    {
+      "type": "paragraph",
+      "content": "Taken one by one, the decisions have a defense. Opening fast wins market share before competitors react. Switching the whole system on at once avoids the cost of running two worlds in parallel."
+    },
+    {
+      "type": "paragraph",
+      "content": "The problem is the sum. The hypothesis \"our store model works in Canada\" and the hypothesis \"our system runs well in a new country\" were answered on the same day, in the same 133 stores. When the results came in bad, nobody could say which of the two was wrong. There was no store outside the test to compare against and no next phase in which to correct course."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How Do You Test a Strategic Plan in Phases?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A phase is not a smaller piece of the same plan. A schedule in stages only spreads over time a commitment that was already made in full. A phased test does something else: it creates a point where the company can stop without having lost everything."
+    },
+    {
+      "type": "paragraph",
+      "content": "For that, every phase needs three definitions made before it starts: the hypothesis written in one sentence, in the format \"if we do X, then Y happens\"; the indicator that confirms or breaks it, with the minimum acceptable value stated; and the decision rule for the end of the phase, which chooses between continuing, adjusting or stopping."
+    },
+    {
+      "type": "paragraph",
+      "content": "In the Canadian case, the phased version would be opening 10 stores in a single region, with the new system running only in them, before the other 123. The data-entry error would cost 10 stores, not 133."
+    },
+    {
+      "type": "paragraph",
+      "content": "This has a price. Whoever tests gives up some speed and some of the advantage of arriving first. For a while they live with two ways of operating. There is also a limit: when a mistake is cheap and easy to undo, testing costs more than being wrong. Phases are for bets that are expensive to reverse."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Who Decides When the Test Fails?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is the most common reason the test never happens. In Deloitte's survey (deloitte.com), a global audit and consulting network, of Chief Strategy Officers, the executives responsible for a company's strategy, 65% say they do not own the main strategic decisions. Half say they have too many priorities for the time available (February 2026)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think about who gains what. Stopping something already announced costs reputation for the person who stops it. Nobody is paid to absorb that cost if the hypothesis is not theirs. Without an owner, the bet never gets a check date. The plan moves ahead because moving ahead is the path of least friction."
+    },
+    {
+      "type": "paragraph",
+      "content": "An indicator warns no one. A goal does not review itself. The one who checks the hypothesis against the result is a named person, on a set date, with the authority to change the decision."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Is It a Lack of Technology or a Lack of Discipline?"
+    },
+    {
+      "type": "paragraph",
+      "content": "The AFP, Association for Financial Professionals, an association of corporate finance professionals, surveyed 332 FP&A professionals, people who work in financial planning and analysis, in 54 countries in 2026. Only 38% of organizations use structured scenario planning, the practice of building alternative versions of the plan before executing it. Those that do close the budget 11% faster on average."
+    },
+    {
+      "type": "paragraph",
+      "content": "The data does not prove that scenarios cause the speed, since better-organized companies may do both. It shows something more useful: the tool exists and the practice has not kept up. In the AFP's reading, process, skills and execution discipline have fallen behind technology. A scenario is a hypothesis tested on paper. A phase is a hypothesis tested with money, at small scale. Both find out early which bet in the plan is wrong."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How to Apply This to Your Next Plan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Take each goal and write beside it \"if we do X, then Y happens.\" Define the number that breaks the sentence, not only the one that confirms it. Pick the smallest version you can test: a month, a region, a product line. Set the check date and the name of the person who decides on it. A goal that will not accept this wording is probably a wish, not a hypothesis."
+    },
+    {
+      "type": "paragraph",
+      "content": "Two cautions. If no result could cancel the expansion, the pilot is only a rehearsal of the rollout. And measure the premise, not the execution: knowing whether the 10 stores opened on time tells you about construction, knowing how much each square foot sold tells you about the business."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What the Target Plan Should Have Asked"
+    },
+    {
+      "type": "paragraph",
+      "content": "The question behind almost every plan is how much we will grow. The one Target missed was different: what does it cost to find out we are wrong? With 10 stores, the cost would have been 10 stores. With 133, it was the entire operation in Canada. A plan is not worth the precision of the goals it projects. It is worth the price it charges to reveal the mistake."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Frequently asked questions"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What is a hypothesis in a strategic plan?"
+    },
+    {
+      "type": "paragraph",
+      "content": "It is a claim about the world that supports a goal and has not yet been checked against reality, such as \"customers will accept the new price without buying less.\" In Kaplan and Norton's Strategy Map, every cause-and-effect arrow is a hypothesis, not a fact."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "How do you test a strategic plan in phases?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Before each phase, define the hypothesis in one sentence (\"if we do X, then Y happens\"), the indicator that confirms or breaks it with a minimum acceptable value, and the decision rule to continue, adjust or stop. In Target's case, the phased version would have opened 10 stores in one region before the other 123."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Why are so many strategic plans never tested?"
+    },
+    {
+      "type": "paragraph",
+      "content": "In Deloitte's 2026 survey, 65% of Chief Strategy Officers say they do not own the main strategic decisions, and half say they have too many priorities for the time available. Without an owner, a hypothesis never gets a check date."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source: Panorama Consulting (panorama-consulting.com), a consultancy for selecting and implementing management systems, \"6 Lessons Learned From The Target Canada Supply Chain Failure\". Umbrex (umbrex.com), a global network of independent consultants, \"Strategy Map (Kaplan and Norton)\", describing the framework whose original work is by Robert Kaplan with David Norton. Deloitte (deloitte.com), a global audit and consulting network, \"2026 Chief Strategy Officer Survey\" (February 12, 2026). AFP, Association for Financial Professionals (financialprofessionals.org), an association of corporate finance professionals, \"2026 AFP FP&A Benchmarking Survey Report: Integrated Planning\"."
+    }
+  ]
+}

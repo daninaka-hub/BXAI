@@ -111,8 +111,8 @@ def lint(slug):
         corpo = re.sub(r"^#.*\n", "", art.read_text(encoding="utf-8"))
         corpo = corpo.split("\nFonte:")[0]
         palavras = len(corpo.split())
-        if palavras < 800 or palavras > 1400:
-            erros.append(f"artigo com {palavras} palavras, a meta é cerca de 1000 (aceito de 800 a 1400)")
+        if palavras < 800 or palavras > 1600:
+            erros.append(f"artigo com {palavras} palavras, a meta é cerca de 1000 (aceito de 800 a 1600)")
     if post.exists():
         linhas = post.read_text(encoding="utf-8").splitlines()
         if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
@@ -122,7 +122,7 @@ def lint(slug):
 
 IDIOMAS = CONT / "idiomas"
 JSONS = CONT / "json"
-SEO_CAMPOS = ("palavra_chave", "palavras_secundarias", "titulo_seo", "meta_descricao", "slug_url", "resumo_geo", "faq", "entidades")
+SEO_CAMPOS = ("palavra_chave", "palavras_secundarias", "titulo_seo", "meta_descricao", "slug_url", "excerpt", "neste_artigo", "resumo_geo", "faq", "entidades")
 NOMES_IDIOMA = {"pt": "Português", "en": "English", "es": "Español"}
 
 def ler_idiomas(slug):
@@ -181,8 +181,12 @@ def lint_idiomas(slug):
         else:
             primeiras = _primeiras_palavras(str(b.get("artigo", "")))
             n = len(str(b.get("artigo", "")).split("\nFonte:")[0].split()) if lg != "pt" else 0
-            if lg != "pt" and (n < 700 or n > 1400):
-                erros.append(f"aviso: idiomas/{p.name}: {lg}.artigo com {n} palavras (esperado de 700 a 1400)")
+            if lg != "pt" and (n < 700 or n > 1600):
+                erros.append(f"aviso: idiomas/{p.name}: {lg}.artigo com {n} palavras (esperado de 700 a 1600)")
+        texto_art = (caminhos(slug)[0].read_text(encoding="utf-8") if caminhos(slug)[0].exists() else "") if lg == "pt" else str(b.get("artigo", ""))
+        for x in seo["faq"]:
+            if isinstance(x, dict) and x.get("pergunta") and x["pergunta"] not in texto_art:
+                erros.append(f"idiomas/{p.name}: {lg}, a pergunta do FAQ \"{x['pergunta']}\" precisa estar no texto do artigo, como subtítulo \"###\" na seção de perguntas frequentes")
         if kw not in primeiras:
             erros.append(f"aviso: idiomas/{p.name}: {lg}, a palavra-chave não aparece nas primeiras 100 palavras do artigo")
     return erros
@@ -190,26 +194,95 @@ def lint_idiomas(slug):
 def _sem_pontos(texto):
     return "\n".join(x for x in texto.splitlines() if x.strip() != ".").strip()
 
+CATEGORIAS = {"controllership": "controllership", "finance automation": "finance-automation", "forecasting methods": "forecasting",
+              "strategic planning": "strategic-planning", "integrated planning": "integrated-planning", "fp&a fundamentals": "fpa-fundamentals",
+              "leadership roles": "leadership", "organization": "organization"}
+AUTOR = {"name": "Daniel Nakamura", "avatar": "/blog-media/autor-daniel-nakamura.webp"}
+TITULO_NESTE = {"pt": "Neste artigo", "en": "In this article", "es": "En este artículo"}
+SUFIXO = {"pt": "br", "en": "en", "es": "es"}
+
+def _inline(s):
+    s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+    return re.sub(r"\[(.+?)\]\((.+?)\)", r"\1 (\2)", s)
+
+def md_para_blocos(corpo, lg, neste):
+    """Converte o markdown do artigo nos blocos de conteúdo do blog."""
+    out, intro = [], True
+    for b in re.split(r"\n\s*\n", corpo.strip()):
+        b = b.strip()
+        if not b:
+            continue
+        linhas = b.splitlines()
+        if b.startswith("### "):
+            out.append({"type": "heading", "level": 3, "content": b[4:].strip()})
+        elif b.startswith("## "):
+            out.append({"type": "heading", "level": 2, "content": b[3:].strip()})
+        elif all(re.match(r"[-*] ", x) for x in linhas):
+            out.append({"type": "list", "ordered": False, "items": [_inline(x[2:].strip()) for x in linhas]})
+        elif all(re.match(r"\d+\. ", x) for x in linhas):
+            out.append({"type": "list", "ordered": True, "items": [_inline(re.sub(r"^\d+\.\s*", "", x)) for x in linhas]})
+        elif all(x.startswith("|") for x in linhas):
+            linhas = [x for x in linhas if not re.match(r"\|\s*:?-+", x)]
+            cel = [[_inline(c.strip()) for c in x.strip().strip("|").split("|")] for x in linhas]
+            out.append({"type": "table", "headers": cel[0], "rows": cel[1:]})
+        elif re.match(r"(Fonte|Fontes|Source|Sources|Fuente|Fuentes):", b):
+            out.append({"type": "divider"})
+            out.append({"type": "paragraph", "content": " ".join(b.split())})
+        else:
+            out.append({"type": "paragraph", "content": _inline(" ".join(b.split()))})
+            if intro:
+                out.append({"type": "callout", "variant": "blue", "icon": "\U0001F4CC", "title": TITULO_NESTE[lg], "content": neste})
+                intro = False
+    return out
+
 def montar_json(slug):
-    """Monta o JSON de download com pt, en e es. O português vem dos arquivos .md, en e es do arquivo de idiomas."""
+    """Monta um JSON por idioma (br, en, es) no formato do blog. O português vem dos .md, en e es do arquivo de idiomas."""
     d = ler_idiomas(slug)
     if not d:
         return None
-    art, post, rot = caminhos(slug)
+    art = caminhos(slug)[0]
     t = art.read_text(encoding="utf-8")
-    titulo = re.match(r"#\s*(.+)", t).group(1).strip()
-    corpo = re.sub(r"^#.*\n", "", t, count=1).strip()
-    codigo = ""
+    titulos = {"pt": re.match(r"#\s*(.+)", t).group(1).strip(), "en": d.get("en", {}).get("titulo", ""), "es": d.get("es", {}).get("titulo", "")}
+    corpos = {"pt": re.sub(r"^#.*\n", "", t, count=1).strip(), "en": d.get("en", {}).get("artigo", ""), "es": d.get("es", {}).get("artigo", "")}
+    codigo, pilar = "", ""
     for _, c in indice():
         if pathlib.Path(c[6]).stem == slug:
-            codigo = c[0]
-    pt = {"titulo": titulo, "artigo": corpo, "post": _sem_pontos(post.read_text(encoding="utf-8")),
-          "roteiro": rot.read_text(encoding="utf-8").strip(), "seo": d.get("pt", {}).get("seo", {})}
-    saida = {"slug": slug, "codigo": codigo, "idiomas": ["pt", "en", "es"], "pt": pt, "en": d.get("en", {}), "es": d.get("es", {})}
+            codigo, pilar = c[0], c[2]
+    n = int(re.search(r"\d+", codigo).group()) if codigo else 0
+    if not d.get("data"):
+        d["data"] = _agora().strftime("%Y-%m-%d")
+        (IDIOMAS / f"{slug}.json").write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    primeiro = re.split(r"\s*/\s*", pilar.strip().lower())[0]
+    categoria = CATEGORIAS.get(primeiro, slugify(primeiro, 3))
+    base = d["pt"]["seo"]["slug_url"]
     JSONS.mkdir(exist_ok=True)
-    dest = JSONS / f"{slug}.json"
-    dest.write_text(json.dumps(saida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return dest
+    for velho in JSONS.glob(f"{slug}*.json"):
+        velho.unlink()
+    saidas = {}
+    for lg in ("pt", "en", "es"):
+        seo = d[lg]["seo"]
+        chaves = [seo["palavra_chave"]] + list(seo["palavras_secundarias"])
+        palavras = len(re.sub(r"[#*]", " ", corpos[lg]).split())
+        doc = {
+            "seo": {"title": seo["titulo_seo"], "description": seo["meta_descricao"], "keywords": chaves},
+            "id": str(15 + n),
+            "slug": seo["slug_url"],
+            "title": titulos[lg],
+            "excerpt": seo["excerpt"],
+            "coverImage": f"/blog-media/{base}-capa.webp",
+            "date": d["data"],
+            "author": AUTOR,
+            "category": categoria,
+            "tags": chaves[:5],
+            "templateType": "guide",
+            "readingTime": f"{max(1, -(-palavras // 200))} min",
+            "featured": False,
+            "content": md_para_blocos(corpos[lg], lg, seo["neste_artigo"]),
+        }
+        dest = JSONS / f"{base}-{SUFIXO[lg]}.json"
+        dest.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        saidas[lg] = dest
+    return saidas
 
 PREVISAO_MIN = {"pesquisador": 20, "head": 10, "copywriter": 15}
 
@@ -450,6 +523,7 @@ details[open] .chev{transform:rotate(90deg);}
 .body{padding:0 18px 20px;}
 .section-label{font-size:11px;font-weight:bold;letter-spacing:.6px;text-transform:uppercase;color:var(--teal);margin:18px 0 8px;}
 .text p{font-size:14.5px;line-height:1.65;margin:0 0 12px;color:var(--fg);}
+.text h3{font-size:14px;margin:14px 0 6px;color:var(--fg);}
 .text h2{font-size:15.5px;margin:20px 0 8px;color:var(--fg);}
 .source{font-size:12.5px;color:var(--muted);border-top:1px solid var(--border);padding-top:10px;margin-top:4px;}
 .post-box{background:var(--teal-soft);border-radius:8px;padding:14px 16px;margin-top:4px;}
@@ -510,7 +584,7 @@ details[open] .chev{transform:rotate(90deg);}
 .ix-links a{color:var(--teal);text-decoration:none;}
 .ix-links a:hover{text-decoration:underline;}
 .card{scroll-margin-top:12px;}
-.dl{display:inline-block;background:var(--teal);color:var(--navy);text-decoration:none;font-size:13px;font-weight:bold;padding:8px 14px;border-radius:6px;margin-bottom:10px;}
+.dl{display:inline-block;background:var(--teal);color:var(--navy);text-decoration:none;font-size:13px;font-weight:bold;padding:8px 14px;border-radius:6px;margin:0 6px 10px 0;}
 details.sub{border:1px solid var(--border);border-radius:8px;margin:8px 0;padding:0 14px;}
 details.sub>summary{cursor:pointer;padding:10px 0;font-size:13.5px;font-weight:bold;color:var(--fg);}
 details.sub[open]{padding-bottom:12px;}
@@ -567,9 +641,11 @@ def html_artigo_txt(t):
     t = re.sub(r"^#.*\n", "", t, count=1)
     out = []
     for b in blocos(t):
-        if b.startswith("## "):
+        if b.startswith("### "):
+            out.append(f"<h3>{esc(b[4:].strip())}</h3>")
+        elif b.startswith("## "):
             out.append(f"<h2>{esc(b[3:].strip())}</h2>")
-        elif re.match(r"(Fonte|Fontes|Source|Sources):", b):
+        elif re.match(r"(Fonte|Fontes|Source|Sources|Fuente|Fuentes):", b):
             out.append(f'<div class="source">{esc(b)}</div>')
         else:
             out.append(f"<p>{esc(' '.join(b.splitlines()))}</p>")
@@ -615,18 +691,20 @@ def html_seo(seo):
             + lin(f"Título SEO ({len(seo.get('titulo_seo', ''))} caracteres)", seo.get("titulo_seo", ""))
             + lin(f"Meta descrição ({len(seo.get('meta_descricao', ''))} caracteres)", seo.get("meta_descricao", ""))
             + lin("Slug", seo.get("slug_url", ""))
+            + lin("Resumo do card (excerpt)", seo.get("excerpt", ""))
+            + lin("Neste artigo", seo.get("neste_artigo", ""))
             + lin("Resumo GEO", seo.get("resumo_geo", ""))
             + lin("Entidades", ", ".join(seo.get("entidades", [])))
             + f'<div class="section-label">FAQ</div>{faq}</div>')
 
 def html_idiomas(slug):
     import base64
-    arq = montar_json(slug)
-    if not arq:
+    arqs = montar_json(slug)
+    if not arqs:
         return ""
-    d = json.loads(arq.read_text(encoding="utf-8"))
-    b64 = base64.b64encode(arq.read_bytes()).decode()
-    saida = [f'<div class="section-label">Idiomas, SEO e GEO</div><a class="dl" download="{esc(slug)}.json" href="data:application/json;base64,{b64}">Baixar JSON (pt, en, es)</a>']
+    d = ler_idiomas(slug)
+    botoes = "".join(f'<a class="dl" download="{esc(arqs[lg].name)}" href="data:application/json;base64,{base64.b64encode(arqs[lg].read_bytes()).decode()}">Baixar JSON {NOMES_IDIOMA[lg]}</a> ' for lg in ("pt", "en", "es"))
+    saida = [f'<div class="section-label">Idiomas, SEO e GEO</div>{botoes}']
     for lg in ("en", "es"):
         x = d[lg]
         saida.append(f'<details class="sub"><summary>{NOMES_IDIOMA[lg]}: {esc(x["titulo"])}</summary>'
@@ -634,7 +712,7 @@ def html_idiomas(slug):
                      f'<div class="section-label">Post LinkedIn</div>{html_post_txt(x["post"])}'
                      f'<div class="section-label">Roteiro de vídeo</div>{html_roteiro_txt(x["roteiro"])}</details>')
     for lg in ("pt", "en", "es"):
-        saida.append(f'<details class="sub"><summary>SEO e GEO, {NOMES_IDIOMA[lg]}</summary>{html_seo(d[lg]["seo"])}</details>')
+        saida.append(f'<details class="sub"><summary>Relatório de SEO e GEO, {NOMES_IDIOMA[lg]}</summary>{html_seo(d[lg]["seo"])}</details>')
     return "\n".join(saida)
 
 JS = r'''function aba(n){["status","artigos"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}

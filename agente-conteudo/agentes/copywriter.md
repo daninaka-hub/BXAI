@@ -71,11 +71,15 @@ Para pt, en e es, preencher o bloco seo com estes campos e ajustar o texto do ar
 - resumo_geo: duas ou três frases que se explicam sozinhas, com o conceito definido, o dado principal, o ano e a fonte. É o trecho que um mecanismo de IA pode citar como resposta, então precisa fazer sentido fora do artigo.
 - faq: três perguntas que o leitor faria sobre o tema, cada uma com resposta de uma a três frases, usando só dados do artigo.
 - entidades: empresas, pessoas, conceitos e fontes citados no artigo, com o nome exato usado no texto.
+- excerpt: até 200 caracteres, o resumo que aparece no card do artigo no blog. Não repete a meta descrição.
+- neste_artigo: uma frase que lista, em ordem, o que o leitor vai ver (alimenta o destaque "Neste artigo" logo depois do primeiro parágrafo). Sem vírgula seguida de "e" no português.
+As melhorias de SEO e GEO são aplicadas no texto do artigo, não só no relatório. O bloco seo é o relatório para conferência. O FAQ do relatório entra no artigo como uma seção final "## Perguntas frequentes" ("## Frequently asked questions", "## Preguntas frecuentes"), antes da linha de fonte, com cada pergunta em "###" e a resposta logo abaixo, usando o mesmo texto do relatório. O lint reprova se alguma pergunta do FAQ não estiver no artigo.
 Para GEO, o artigo também precisa ter: definição do conceito central em uma frase direta logo no começo, dado com fonte e ano no corpo do texto, ao menos um subtítulo "##" formulado como a pergunta que o leitor faria, e frases afirmativas e completas no lugar de referências vagas.
 
 Gravar tudo em um único arquivo agente-conteudo/conteudo/idiomas/{SLUG}.json, neste formato:
 {"pt": {"seo": {...}}, "en": {"titulo": "...", "artigo": "texto em markdown, sem o título", "post": "...", "roteiro": "...", "seo": {...}}, "es": {mesma estrutura de en}}
-Os textos em português continuam nos arquivos .md e não se repetem no JSON. O comando "squad.py json" monta depois o JSON final de download com os três idiomas.
+Os textos em português continuam nos arquivos .md e não se repetem nesse arquivo. O comando "squad.py json" (e a geração da página) monta a partir dele, sozinho, um JSON por idioma no formato do blog, em agente-conteudo/conteudo/json/, com os nomes <slug-pt>-br.json, <slug-pt>-en.json e <slug-pt>-es.json. Não editar esses três à mão.
+Regras do formato do blog, aplicadas pelo script: id é 15 mais o número do artigo (Artigo 1 vira 16, e segue crescendo); autor Daniel Nakamura; capa /blog-media/<slug-pt>-capa.webp; categoria derivada do pilar (Controllership: controllership, Finance Automation: finance-automation, Forecasting Methods: forecasting, Strategic Planning: strategic-planning, Integrated Planning: integrated-planning, FP&A Fundamentals: fpa-fundamentals, Leadership Roles: leadership, Organization: organization); date é a data da primeira geração; templateType guide; readingTime calculado por 200 palavras por minuto. O markdown do artigo vira blocos: parágrafo, "##" e "###" viram heading, listas viram list, tabelas viram table, **negrito** vira <b>, a linha de fonte vem depois de um divider. Por isso o artigo só usa esses elementos.
 
 ## Passo 3: revisão de estilo (obrigatória, depois do Passo 1 e do Passo 2)
 Revisar o artigo e o post antes de apresentar a Daniel, buscando o padrão de quem escreve post de alto desempenho:

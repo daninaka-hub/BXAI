@@ -56,4 +56,18 @@ Dois cuidados. Se nenhum resultado é capaz de cancelar a expansão, o piloto é
 
 A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
 
+## Perguntas frequentes
+
+### O que é uma hipótese em um plano estratégico?
+
+É uma afirmação sobre o mundo que sustenta uma meta e ainda não foi confrontada com a realidade, como "o cliente aceitará o novo preço sem comprar menos". No mapa estratégico de Kaplan e Norton, cada seta de causa e efeito é uma hipótese, não um fato.
+
+### Como testar um plano estratégico em fases?
+
+Antes de cada fase, defina a hipótese em uma frase ("se fizermos X, então Y acontece"), o indicador que a confirma ou derruba, com o valor mínimo aceitável e a regra de decisão para seguir, ajustar ou parar. No caso da Target, a versão em fases seria abrir 10 lojas numa região antes das outras 123.
+
+### Por que tantos planos estratégicos não são testados?
+
+Na pesquisa da Deloitte de 2026, 65% dos Chief Strategy Officers dizem não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível. Sem dono, a hipótese não ganha data de verificação.
+
 Fonte: Panorama Consulting (panorama-consulting.com), consultoria de seleção e implantação de sistemas de gestão, "6 Lessons Learned From The Target Canada Supply Chain Failure". Umbrex (umbrex.com), rede global de consultores independentes, "Strategy Map (Kaplan e Norton)", descrevendo o framework cuja obra original é de Robert Kaplan com David Norton. Deloitte (deloitte.com), rede global de auditoria e consultoria, "2026 Chief Strategy Officer Survey" (12 de fevereiro de 2026). AFP, Association for Financial Professionals (financialprofessionals.org), associação de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report: Integrated Planning".

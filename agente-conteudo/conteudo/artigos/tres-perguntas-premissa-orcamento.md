@@ -54,4 +54,18 @@ A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em qu
 
 A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo.
 
+## Perguntas frequentes
+
+### O que é uma premissa de orçamento?
+
+É a hipótese sobre o futuro que sustenta um número do orçamento, como um custo que vai subir 8% ou uma conversão que vai ficar em 3%. Não é a meta, que é o que a empresa quer atingir.
+
+### Quais são as três perguntas para controlar uma premissa?
+
+Quem definiu o número, com que critério ele foi escolhido e quando será revisado. Sem essas três respostas por escrito, a premissa fica sem controle.
+
+### Por que a Zillow perdeu US$ 881 milhões em 2021?
+
+O algoritmo de preços funcionava como foi treinado, mas a estimativa passou a gerar ofertas de compra obrigatórias em fevereiro de 2021 sem nova governança. Ninguém revisou a premissa quando o mercado esfriou.
+
 Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

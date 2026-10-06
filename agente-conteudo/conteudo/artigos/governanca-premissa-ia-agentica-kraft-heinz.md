@@ -46,4 +46,18 @@ A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A p
 
 A IA não cria o problema de governança. Ela mede quanto tempo ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar não está atrasando a IA. Está definindo se ela vai trabalhar a favor do resultado ou contra ele.
 
+## Perguntas frequentes
+
+### O que é IA agêntica em finanças?
+
+São sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. Eles aplicam regras sobre os dados que já existem na empresa.
+
+### Por que só 11% das empresas colocaram IA agêntica em produção?
+
+Segundo pesquisa de 2025 citada pela Neurons Lab, 99% planejam usar, mas o motivo mais citado para não avançar são dados, governança e segurança, não o preço da tecnologia.
+
+### O que o caso Kraft Heinz ensina sobre governança de premissas?
+
+Entre 2015 e 2018, cerca de 300 transações lançaram descontos de fornecedores que nunca existiram, somando US$ 208 milhões. Ninguém rastreava de onde vinha cada número na consolidação. Um agente de IA levaria o mesmo erro ao mesmo tamanho em menos tempo.
+
 Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme". The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million". Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".
