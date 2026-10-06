@@ -30,7 +30,7 @@
     "critério de revisão"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "Neste artigo",
-      "content": "O que é uma premissa de orçamento, por que ela envelhece sem ninguém errar, as três perguntas sobre dono, critério e revisão, o que a Zillow pagou por não fazê-las, quanto custa deixar a premissa sem dono e o que teria mudado com a BudgetXpert."
+      "content": "O que é uma premissa de orçamento, por que ela envelhece sem ninguém errar, as três perguntas sobre dono, critério e revisão, o que a Zillow pagou por não fazê-las e o que teria mudado com a BudgetXpert."
     },
     {
       "type": "paragraph",
@@ -134,28 +134,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Quanto custa deixar a premissa sem dono?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Custa o que a Zillow pagou. Uma premissa sem dono não avisa quando deixa de valer, então o erro só aparece no resultado, quando já virou perda. Na Zillow, ninguém conferiu de forma independente o número que sustentava as ofertas. A distância entre o algoritmo e o mercado só apareceu no balanço de 2021. A mesma distância, vista numa reunião, teria custado uma conversa."
-    },
-    {
-      "type": "heading",
-      "level": 2,
       "content": "O que fica"
     },
     {
       "type": "paragraph",
       "content": "A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em que foi respondida. A pergunta que protege a empresa é outra: quem vai perceber quando ela deixar de estar certa? Uma premissa que ninguém desmentiu ainda não é uma premissa verdadeira, é só uma que ninguém foi procurar desmentir."
-    },
-    {
-      "type": "paragraph",
-      "content": "Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão."
-    },
-    {
-      "type": "paragraph",
-      "content": "A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem três coisas ao lado, um nome, o critério usado e a data em que será revisto. Quem assina o número é quem vai olhar para ele de novo."
     },
     {
       "type": "heading",
@@ -200,7 +183,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, \"Global DNA of the Financial Controller Survey\" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
+      "content": "Fonte: Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
     }
   ]
 }

@@ -42,18 +42,9 @@ No terceiro trimestre de 2021, a empresa registrou US$ 304 milhões de baixa con
 
 O CEO, Rich Barton, explicou ao encerrar a operação que o algoritmo não conseguia prever com confiabilidade quanto capital a empresa precisaria arriscar. Recusou atribuir a perda a eventos externos imprevisíveis. O problema que ele descreveu é o da premissa: o modelo supunha um mercado que deixou de existir. Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono, sem critério protegido da pressão por meta e sem gatilho de revisão.
 
-## Quanto custa deixar a premissa sem dono?
-
-Custa o que a Zillow pagou. Uma premissa sem dono não avisa quando deixa de valer, então o erro só aparece no resultado, quando já virou perda. Na Zillow, ninguém conferiu de forma independente o número que sustentava as ofertas. A distância entre o algoritmo e o mercado só apareceu no balanço de 2021. A mesma distância, vista numa reunião, teria custado uma conversa.
-
-
 ## O que fica
 
 A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em que foi respondida. A pergunta que protege a empresa é outra: quem vai perceber quando ela deixar de estar certa? Uma premissa que ninguém desmentiu ainda não é uma premissa verdadeira, é só uma que ninguém foi procurar desmentir.
-
-Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão.
-
-A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem três coisas ao lado, um nome, o critério usado e a data em que será revisto. Quem assina o número é quem vai olhar para ele de novo.
 
 ## Como a BudgetXpert faria diferente
 
@@ -67,4 +58,4 @@ Cada uma das três perguntas do artigo tem uma resposta registrada na plataforma
 
 Veja como funciona em [budgetxpert.ai](https://www.budgetxpert.ai).
 
-Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".
+Fonte: Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

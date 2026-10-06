@@ -110,7 +110,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Cada hipótesis se habría respondido por separado de la otra, así que la empresa habría sabido temprano cuál falló. Eso vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
+      "content": "Eso vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
     },
     {
       "type": "heading",
@@ -149,10 +149,6 @@
     },
     {
       "type": "paragraph",
-      "content": "Toma cada meta y escribe al lado \"si hacemos X, entonces ocurre Y\". Define el número que derrumba la frase, no solo el que la confirma. Elige la versión más pequeña que se pueda probar: un mes, una región, una línea de producto. Fija la fecha de verificación y el nombre de quien decide en ella. La meta que no acepta esta escritura probablemente es un deseo, no una hipótesis."
-    },
-    {
-      "type": "paragraph",
       "content": "Dos reglas hacen que la prueba valga. Si ningún resultado puede cancelar la expansión, el piloto es solo un ensayo de implementación. Y mide la premisa, no la ejecución: saber si las 10 tiendas abrieron a tiempo responde sobre la obra, saber cuánto vendió cada metro cuadrado responde sobre el negocio."
     },
     {
@@ -162,7 +158,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La pregunta de casi todo plan es cuánto vamos a crecer. La que le faltó a Target era otra: ¿cuánto cuesta descubrir que nos equivocamos? Con 10 tiendas, el costo habría sido 10 tiendas. Con 133, fue toda la operación en Canadá. Un plan no vale por la precisión de las metas que proyecta. Vale por el precio que cobra para revelar el error."
+      "content": "La pregunta de casi todo plan es cuánto vamos a crecer. La que le faltó a Target era otra: ¿cuánto cuesta descubrir que nos equivocamos? Un plan no vale por la precisión de las metas que proyecta. Vale por el precio que cobra para revelar el error."
     },
     {
       "type": "heading",

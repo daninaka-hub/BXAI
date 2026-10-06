@@ -30,7 +30,7 @@
     "review trigger"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them, what it costs to leave an assumption without an owner and what would have changed with BudgetXpert."
+      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them and what would have changed with BudgetXpert."
     },
     {
       "type": "paragraph",
@@ -134,28 +134,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What does it cost to leave an assumption without an owner?"
-    },
-    {
-      "type": "paragraph",
-      "content": "It costs what Zillow paid. An assumption with no owner does not warn anyone when it stops holding, so the error shows up only in the result, when it has already become a loss. At Zillow, nobody independently checked the number behind the offers. The distance between the algorithm and the market surfaced only in the 2021 accounts. The same distance, seen in a meeting, would have cost a conversation."
-    },
-    {
-      "type": "heading",
-      "level": 2,
       "content": "What remains"
     },
     {
       "type": "paragraph",
       "content": "The usual question is whether the assumption is right. That can only hold for the day it was answered. The question that protects a company is a different one: who will notice when it stops being right? An assumption nobody has disproved is not yet a true assumption, only one nobody went looking to disprove."
-    },
-    {
-      "type": "paragraph",
-      "content": "According to a 2024 survey by EY, the global audit and consulting network, 86% of controllers, the people responsible for a company's financial and accounting control, expect their own role to change significantly within five years. Part of that change is this: moving from recording the closed number to making sure every assumption behind it has an owner, a criterion and a review date."
-    },
-    {
-      "type": "paragraph",
-      "content": "The decision that belongs to leadership is small and concrete: no number enters the official budget without three things next to it, a name, the criterion used and the date it will be reviewed. Whoever signs the number is the person who will look at it again."
     },
     {
       "type": "heading",
@@ -200,7 +183,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Source: EY (ey.com), global professional services network for audit and consulting, \"Global DNA of the Financial Controller Survey\" (2024), cited by the Journal of Accountancy, a professional accounting magazine. Zillow case: Shackleford, AI leadership consultancy (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
+      "content": "Source: Zillow case: Shackleford, AI leadership consultancy (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
     }
   ]
 }

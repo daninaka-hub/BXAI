@@ -32,7 +32,7 @@ Para isso, cada fase precisa de três definições feitas antes de começar: a h
 
 No caso canadense, a versão em fases seria abrir 10 lojas numa única região, com o sistema novo rodando só nelas, antes das outras 123. O erro de cadastro custaria 10 lojas, não 133. O aprendizado seria o mesmo.
 
-Cada hipótese seria respondida separada da outra, então a empresa saberia cedo qual delas falhou. Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
+Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
 
 ## Quem decide quando o teste falha?
 
@@ -50,13 +50,11 @@ O dado não prova que o cenário causa a rapidez, já que empresas mais organiza
 
 ## Como aplicar no próximo plano
 
-Pegue cada meta e escreva ao lado "se fizermos X, então Y acontece". Defina o número que derruba a frase, não só o que a confirma. Escolha a menor versão que dá para testar, um mês, uma região, uma linha de produto. Marque a data da verificação e o nome de quem decide nela. A meta que não aceita essa escrita provavelmente é desejo, não hipótese.
-
 Duas regras fazem o teste valer. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
 
 ## O que o plano da Target deveria ter perguntado
 
-A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
+A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
 
 ## Como a BudgetXpert faria diferente
 

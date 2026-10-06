@@ -30,7 +30,7 @@
     "disparador de revisión"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas, cuánto cuesta dejar un supuesto sin dueño y lo que habría cambiado con BudgetXpert."
+      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas y lo que habría cambiado con BudgetXpert."
     },
     {
       "type": "paragraph",
@@ -134,28 +134,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Cuánto cuesta dejar un supuesto sin dueño?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Cuesta lo que pagó Zillow. Un supuesto sin dueño no avisa cuando deja de valer, así que el error aparece solo en el resultado, cuando ya es una pérdida. En Zillow, nadie comprobó de forma independiente la cifra que sostenía las ofertas. La distancia entre el algoritmo y el mercado solo apareció en el balance de 2021. La misma distancia, vista en una reunión, habría costado una conversación."
-    },
-    {
-      "type": "heading",
-      "level": 2,
       "content": "Lo que queda"
     },
     {
       "type": "paragraph",
       "content": "La pregunta de siempre es si el supuesto es correcto. Esa respuesta solo vale para el día en que se dio. La pregunta que protege a la empresa es otra: ¿quién notará cuando deje de serlo? Un supuesto que nadie ha desmentido todavía no es un supuesto verdadero, es solo uno que nadie fue a buscar desmentir."
-    },
-    {
-      "type": "paragraph",
-      "content": "Según una encuesta de EY (2024), la red global de auditoría y consultoría, el 86% de los controllers, los responsables del control financiero y contable de las empresas, espera que su propio rol cambie de forma significativa en cinco años. Parte de ese cambio es esta: dejar de registrar la cifra cerrada y pasar a garantizar que cada supuesto que la sostiene tenga dueño, criterio y fecha de revisión."
-    },
-    {
-      "type": "paragraph",
-      "content": "La decisión que corresponde a la dirección es pequeña y concreta: ninguna cifra entra en el presupuesto oficial sin tres cosas al lado, un nombre, el criterio usado y la fecha en que se revisará. Quien firma la cifra es quien volverá a mirarla."
     },
     {
       "type": "heading",
@@ -200,7 +183,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Fuente: EY (ey.com), red global de servicios profesionales de auditoría y consultoría, \"Global DNA of the Financial Controller Survey\" (2024), citada por el Journal of Accountancy, revista profesional de contabilidad. Caso Zillow: Shackleford, consultora de liderazgo en IA (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
+      "content": "Fuente: Caso Zillow: Shackleford, consultora de liderazgo en IA (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
     }
   ]
 }

@@ -44,11 +44,9 @@ A própria AFP faz esse diagnóstico na edição 2026 da pesquisa: processo, hab
 
 ## O que o forecast sem nota custa a quem o defende?
 
-Custa o mesmo erro, mês após mês. Quando ninguém guarda a versão de cada fechamento para comparar, o forecast repete o viés do anterior. O orçamento segue contaminando a previsão sem que ninguém veja. Os 86% que não medem pagam essa conta sem saber que ela existe.
-
 O erro também chega tarde. Quando só aparece na revisão do fim do ano, não corrige decisão nenhuma, só alimenta uma apresentação de aprendizados.
 
-Ficam ainda dois pontos de atenção. O primeiro é o total, que esconde as linhas: erros grandes em direções opostas se cancelam no consolidado. A empresa comemora um desvio pequeno no faturamento total enquanto duas regiões erraram muito, uma para cada lado. Por isso a medição cobre o forecast inteiro, linha por linha.
+Há dois pontos de atenção. O primeiro é o total, que esconde as linhas: erros grandes em direções opostas se cancelam no consolidado. A empresa comemora um desvio pequeno no faturamento total enquanto duas regiões erraram muito, uma para cada lado.
 
 O segundo é a própria nota, que vale pelo que corrige. Quando serve para ajustar o modelo e as premissas, o analista mostra o erro sem receio. Quando vira pontuação de pessoas, todo mundo prevê com folga proposital. O forecast volta a esconder o que deveria mostrar.
 
@@ -60,7 +58,7 @@ Depois de três ciclos, a conversa na mesa muda. Em vez de discutir se o número
 
 ## O que a falta de conferência revela
 
-A pergunta do começo era por que 86% das equipes não medem o erro do forecast. A resposta é de incentivo, não de preguiça. Conferir expõe o erro. Erro exposto incomoda quem defende o número. Enquanto o forecast for o orçamento com data nova, ninguém quer a nota.
+A resposta ao título é de incentivo, não de preguiça: enquanto o forecast for o orçamento com data nova, ninguém quer a nota.
 
 Orçamento e forecast não competem. Eles se protegem quando ficam separados: o orçamento sustenta o compromisso, o forecast avisa cedo quando o compromisso está em risco. Um orçamento errado é um problema de negociação. Um forecast errado é informação, desde que alguém meça o erro. O trabalho do financeiro, então, não é prever melhor de uma vez. É tornar seguro errar em público, porque só o erro medido ensina alguma coisa.
 
