@@ -66,7 +66,7 @@ Orçamento e forecast não competem. Eles se protegem quando ficam separados: o 
 
 ## O que mudaria se todos olhassem a mesma versão do plano?
 
-E se a versão oficial do plano estivesse marcada e à vista de todos? Na BudgetXpert, orçamento e forecast conviveriam como versões separadas do mesmo plano. Só uma levaria a marca de oficial. As outras não se confundiriam com ela, mesmo com número diferente. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial.
+O forecast só melhora quando alguém mede o erro dele. Medir exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Só uma leva a marca de oficial. As outras não se confundem com ela. Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial, com a anterior guardada para comparar.
 
 Dá para ver em budgetxpert.ai.
 

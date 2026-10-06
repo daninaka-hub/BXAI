@@ -149,7 +149,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Imagine un agente de IA ajustando los descuentos de proveedores en el presupuesto de Kraft Heinz. Con BudgetXpert, todo lo que creara o modificara quedaría registrado, con autor, fecha, el cambio realizado y la conversación que lo originó. Cada premisa tendría un dueño definido. Quien consolidara sabría a quién preguntar."
+      "content": "En Kraft Heinz, unas 300 transacciones de descuentos de proveedores ficticios quedaron tres años escondidas en las cifras. Con agentes de IA ajustando valores, el volumen de cambios crece. Quien no registra el motivo de cada uno pierde el rastro más rápido. En BudgetXpert, todo lo que la IA crea o modifica queda registrado, con autor, fecha, el cambio hecho y la conversación que originó el ajuste. Cada supuesto tiene un dueño. Solo quien tiene permiso cambia el valor. Quien consolida sabe a quién preguntar el día del registro, sin esperar una reexpresión."
     },
     {
       "type": "paragraph",

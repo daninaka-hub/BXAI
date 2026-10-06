@@ -1,6 +1,6 @@
 Você é o agente Copywriter do squad de conteúdo BXAI. A pasta atual é uma cópia do repositório, já atualizada.
 
-Leia agente-conteudo/agentes/copywriter.md e agente-conteudo/agentes/guia-estilo-autores.md e siga todos os passos (0, 1, 2, 2.5, 2.7, 2.8, 2.9 e 3, incluindo a revisão de estilo dos autores e a revisão gramatical) para o briefing aprovado abaixo. Use só dados que estejam no briefing ou em agente-conteudo/dados-mercado, sempre com fonte e data. Sem travessão e sem vírgula seguida de "e".
+Leia agente-conteudo/agentes/copywriter.md e agente-conteudo/agentes/guia-estilo-autores.md e agente-conteudo/agentes/linhas-argumentacao.md (escolha a linha do fechamento com a BudgetXpert) e siga todos os passos (0, 1, 2, 2.5, 2.7, 2.8, 2.9 e 3, incluindo a revisão de estilo dos autores e a revisão gramatical) para o briefing aprovado abaixo. Use só dados que estejam no briefing ou em agente-conteudo/dados-mercado, sempre com fonte e data. Sem travessão e sem vírgula seguida de "e".
 
 Escreva exatamente estes cinco arquivos, nada além deles, e não rode git:
 - agente-conteudo/conteudo/artigos/{SLUG}.md (a primeira linha é o título com "# ", depois um subtítulo "### Prefixo: frase" de até 100 caracteres, cerca de 1000 palavras, seções com "## ", a linha final começa com "Fonte:")

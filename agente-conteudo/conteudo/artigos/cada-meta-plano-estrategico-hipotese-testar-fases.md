@@ -60,7 +60,7 @@ A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target e
 
 ## E se cada hipótese do plano tivesse dono?
 
-No plano da Target, 133 lojas dependiam das mesmas hipóteses que 10 lojas teriam bastado para testar. Na BudgetXpert, cada hipótese teria virado uma premissa com dono definido, definida uma vez e reutilizada em vários orçamentos. Cada área veria e editaria só a parte dela, enquanto quem consolida veria tudo, então no dia do resultado haveria um nome para cada hipótese que falhou.
+No plano da Target, 133 lojas dependiam das mesmas hipóteses que 10 lojas teriam bastado para testar. Na BudgetXpert, o plano não tem estrutura fixa. Cada hipótese viraria uma premissa com dono, definida uma vez e reutilizada em vários orçamentos, com valor diferente mês a mês conforme as lojas abrem. Cada área veria e editaria só a parte dela. Quem consolida veria tudo. No dia do resultado, haveria um nome para cada hipótese que falhou.
 
 O resto está em budgetxpert.ai.
 

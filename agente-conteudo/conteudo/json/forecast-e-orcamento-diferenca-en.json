@@ -179,7 +179,7 @@
     },
     {
       "type": "paragraph",
-      "content": "What if the official version of the plan were marked and visible to everyone? At BudgetXpert, budget and forecast would live side by side as separate versions of the same plan. Only one would carry the official mark. The others would not be mistaken for it, even with a different number. In May, the sales director and the analyst would look at the same official version."
+      "content": "A forecast only improves when someone measures its error. Measuring requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan. Only one carries the official mark. The others do not get confused with it. A line in the new forecast pulls the result from the previous one on its own, without copying cells. In May, the sales director and the finance analyst would look at the same official version, with the previous one kept for comparison."
     },
     {
       "type": "paragraph",

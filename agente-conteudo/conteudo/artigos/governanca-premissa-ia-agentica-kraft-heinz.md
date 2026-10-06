@@ -50,7 +50,7 @@ A IA não cria o problema de governança. Ela mede quanto tempo ele leva para ap
 
 ## Quem responderia por cada número que a IA mexeu?
 
-Imagine um agente de IA ajustando os descontos de fornecedores no orçamento da Kraft Heinz. Com a BudgetXpert, tudo o que ele criasse ou alterasse ficaria registrado, com autor, data, a mudança feita e a conversa que originou o ajuste. Cada premissa teria um dono definido. Quem somasse na consolidação saberia a quem perguntar.
+Na Kraft Heinz, cerca de 300 transações de desconto de fornecedor fictício ficaram três anos escondidas nos números. Com agentes de IA ajustando valores, o volume de alterações cresce. Quem não registra o motivo de cada uma perde o rastro mais rápido. Na BudgetXpert, tudo o que a IA cria ou altera fica registrado, com autor, data, a mudança feita e a conversa que originou o ajuste. Cada premissa tem um dono. Só quem tem permissão altera o valor. Quem consolida sabe a quem perguntar no dia do lançamento, sem esperar uma reapresentação.
 
 Veja o registro funcionando em budgetxpert.ai.
 

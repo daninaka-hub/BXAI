@@ -183,7 +183,7 @@
     },
     {
       "type": "paragraph",
-      "content": "¿Y si la versión oficial del plan estuviera marcada y a la vista de todos? En BudgetXpert, presupuesto y forecast convivirían como versiones separadas del mismo plan. Solo una llevaría la marca de oficial. Las otras no se confundirían con ella, aunque tuvieran otro número. En mayo, el director comercial y la analista de finanzas mirarían la misma versión oficial."
+      "content": "Un forecast solo mejora cuando alguien mide su error. Medir exige que la previsión de cada mes siga existiendo cuando el mes cierra. En BudgetXpert, presupuesto y forecast conviven como versiones del mismo plan. Solo una lleva la marca de oficial. Las otras no se confunden con ella. Una línea del forecast nuevo trae sola el resultado del anterior, sin copiar celdas. En mayo, el director comercial y el analista de finanzas mirarían la misma versión oficial, con la anterior guardada para comparar."
     },
     {
       "type": "paragraph",

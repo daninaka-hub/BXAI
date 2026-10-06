@@ -171,7 +171,7 @@
     },
     {
       "type": "paragraph",
-      "content": "En el plan de Target, 133 tiendas dependían de las mismas hipótesis que 10 tiendas habrían bastado para probar. En BudgetXpert, cada hipótesis se habría vuelto una premisa con dueño definido, definida una vez y reutilizada en varios presupuestos. Cada área vería y editaría solo su parte mientras quien consolida vería todo, así que el día del resultado habría un nombre para cada hipótesis que falló."
+      "content": "En el plan de Target, 133 tiendas dependían de las mismas hipótesis que 10 tiendas habrían bastado para probar. En BudgetXpert, el plan no tiene una estructura fija. Cada hipótesis se convertiría en un supuesto con dueño, definido una vez y reutilizado en varios presupuestos, con un valor distinto mes a mes a medida que se abren las tiendas. Cada área vería y editaría solo su parte. Quien consolida vería todo. El día del resultado, habría un nombre para cada hipótesis que falló."
     },
     {
       "type": "paragraph",

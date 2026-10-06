@@ -149,7 +149,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Picture an AI agent adjusting supplier discounts in Kraft Heinz's budget. With BudgetXpert, everything it created or changed would be recorded, with author, date, the change itself and the conversation that prompted it. Every assumption would have a defined owner. Whoever consolidated would know whom to ask."
+      "content": "At Kraft Heinz, about 300 transactions of fictitious supplier discounts stayed hidden in the numbers for three years. With AI agents adjusting values, the volume of changes grows. Whoever does not record the reason for each one loses the trail faster. In BudgetXpert, everything the AI creates or changes is recorded, with author, date, the change made and the conversation that originated the adjustment. Every assumption has an owner. Only people with permission change the value. Whoever consolidates knows whom to ask on the day of the entry, without waiting for a restatement."
     },
     {
       "type": "paragraph",
