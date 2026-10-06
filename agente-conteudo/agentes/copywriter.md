@@ -80,6 +80,7 @@ O fechamento do artigo e do post nunca pode ser raso. Não vale restabelecer o d
 
 ## Passo 2.8: versões em inglês e espanhol
 Depois do artigo, do post e do roteiro em português, escrever as versões em inglês (en) e espanhol (es) do artigo, do post e do roteiro. Não é tradução literal. É adaptação para o leitor de cada idioma, com o mesmo raciocínio, a mesma tese, os mesmos dados e fontes, e o mesmo estilo do guia de autores. Ajustar o que não funciona fora do Brasil (formato de número e moeda, expressões, referências locais) e manter nomes de empresas, datas e valores idênticos aos do original. Mesmas regras de marca: sem travessão (nem o longo nem o curto), sem tom de IA, contexto para o leitor leigo. O post em en e es não leva as quatro linhas de ponto, só o header e o texto. O título de cada idioma segue a regra geral de título.
+Regra de tradução para o espanhol: tratar sempre o leitor por tuteo (tú), em todo o texto, incluindo as instruções ao leitor. Escrever "Piensa", "Imagina", "Mide", "Guarda", "Compara", "Registra", "tus premisas", nunca "usted" nem as formas "Piense", "Imagine", "Mida", "Guarde", "Compare", "Registre", "sus premisas" quando se refere ao leitor. Vale para artigo, post e roteiro. Não é verificado pelo lint, depende da tradução.
 
 ## Passo 2.9: revisão de SEO e GEO nos três idiomas
 Para pt, en e es, preencher o bloco seo com estes campos e ajustar o texto do artigo quando o critério não for atendido:
@@ -159,7 +160,7 @@ Por último, uma revisão gramatical, frase por frase, como faria um revisor de 
 - Pronomes e referências claras: o leitor precisa saber a que cada "isso", "ele" ou "essa" se refere, sem voltar ao parágrafo anterior.
 - Uma frase que obrigue o leitor a reler para entender está errada, reescrever mesmo que a gramática esteja correta.
 
-Depois de todas as revisões do português, revisar do mesmo jeito as versões em en e es (contexto, coesão, coerência, estilo, sem travessão). Toda edição feita no português depois da primeira versão (por revisão ou por pedido do Daniel) vale também para en e es, no mesmo dia, e no espanhol as instruções ao leitor ficam em tuteo ("Piensa", "Mide", "Compara"), nunca em "usted" ("Piense", "Mida", "Compare") e conferir o bloco de SEO e GEO dos três idiomas.
+Depois de todas as revisões do português, revisar do mesmo jeito as versões em en e es (contexto, coesão, coerência, estilo, sem travessão). Toda edição feita no português depois da primeira versão (por revisão ou por pedido do Daniel) vale também para en e es, no mesmo dia e conferir o bloco de SEO e GEO dos três idiomas.
 
 ## Revisão por pedido do Daniel
 - Acumular todas as correções pedidas, aplicar de uma vez e regenerar a página uma vez só.
