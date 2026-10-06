@@ -127,6 +127,22 @@ Depois da revisão de estilo, uma revisão de coesão, para o texto formar um ra
 - Teste: leia só a primeira e a última frase de cada parágrafo. Elas precisam formar uma cadeia lógica, cada uma levando à próxima. Se um parágrafo pudesse trocar de lugar sem ninguém notar, falta coesão, reescreva a ligação.
 - O mesmo vale entre as seções e para o post e o roteiro, que seguem a mesma cadeia em versão curta.
 
+Depois da revisão de coesão, uma revisão de coerência entre parágrafos e seções (aprendida na revisão dos Artigos 1 a 4, em 06/10). Cada item abaixo foi um erro real:
+- Uma causa só. A explicação da abertura é a mesma da conclusão. Se uma seção traz outra causa (por exemplo, o tempo numa seção e o uso na seguinte), abrir com uma frase de ponte que diga isso.
+- Cada seção responde à pergunta do próprio título. Dado ou parágrafo que não fala disso é cortado ou ligado ao tema da seção.
+- Nenhuma frase contradiz outra. Antes de afirmar "ninguém olhou", "não calculou errado" ou "não havia regra", conferir se outro trecho do artigo (um caso, uma fala do CEO) diz o contrário.
+- Causa e efeito corretos. Não atribuir um efeito a uma causa que o próprio texto já explicou de outro jeito (por exemplo, "demorou porque somavam devagar" quando a causa é a falta de rastreio).
+- Termo definido na primeira menção, mesmo na abertura, em meia frase. Nunca usar um conceito antes de apresentá-lo.
+- Sem referência pendente. "A quarta frente", "como visto" ou "o primeiro ponto" só existem se a lista ou o ponto foi apresentado antes.
+- O dado que sustenta a tese vem logo depois da tese. A origem da pesquisa (quem, quantos, onde) fica junto do primeiro número, não no fim da abertura.
+- Afirmação sem fonte vira "costuma", "um motivo frequente", ou leva atribuição. Leitura própria do caso não vira fato: dizer "não há registro de que" no lugar de "ninguém".
+- A mesma comparação ou número aparece em no máximo dois lugares do artigo. O fechamento com a BudgetXpert não repete a abertura nem a tese.
+- Entre artigos: ler os artigos já escritos e não repetir os mesmos números de pesquisa nem a mesma história. Quando o dado já foi usado, citar só o necessário.
+- Obstáculo apresentado antes de ser usado. Se o fechamento com a BudgetXpert resolve um obstáculo (por exemplo, revisar premissa exige refazer o orçamento), o corpo do artigo já apresentou esse obstáculo.
+- A frase que resume o artigo cobre tudo o que o artigo propôs. Se o texto traz três perguntas, a decisão final cita as três.
+- Conectores só quando há a relação. "Mesmo assim" exige contraste real, "por isso" exige causa real.
+- Os blocos de dado da abertura e do fechamento não repetem a tese palavra por palavra.
+
 Depois da revisão de coesão, uma revisão de contexto, para o leitor que não conhece o assunto:
 - Assuma que o leitor não conhece a teoria, a empresa, o caso nem as pessoas citadas, e que não sabe o jargão de finanças.
 - Antes de usar qualquer elemento, apresente-o: quem é, o que faz ou o que é, em uma oração curta. Vale para empresas, pessoas, modelos, métodos, siglas e termos técnicos, na primeira vez em que aparecem.
@@ -143,7 +159,14 @@ Por último, uma revisão gramatical, frase por frase, como faria um revisor de 
 - Pronomes e referências claras: o leitor precisa saber a que cada "isso", "ele" ou "essa" se refere, sem voltar ao parágrafo anterior.
 - Uma frase que obrigue o leitor a reler para entender está errada, reescrever mesmo que a gramática esteja correta.
 
-Depois de todas as revisões do português, revisar do mesmo jeito as versões em en e es (contexto, coesão, estilo, sem travessão) e conferir o bloco de SEO e GEO dos três idiomas.
+Depois de todas as revisões do português, revisar do mesmo jeito as versões em en e es (contexto, coesão, coerência, estilo, sem travessão). Toda edição feita no português depois da primeira versão (por revisão ou por pedido do Daniel) vale também para en e es, no mesmo dia, e no espanhol as instruções ao leitor ficam em tuteo ("Piensa", "Mide", "Compara"), nunca em "usted" ("Piense", "Mida", "Compare") e conferir o bloco de SEO e GEO dos três idiomas.
+
+## Revisão por pedido do Daniel
+- Acumular todas as correções pedidas, aplicar de uma vez e regenerar a página uma vez só.
+- Mexer só no trecho pedido. Não reescrever parágrafos vizinhos que não foram tocados.
+- Quando a mudança vier como orientação nova (uma regra), registrar a regra neste arquivo e conferir os artigos já escritos, para o texto antigo seguir a regra nova.
+- Confirmar o entendimento antes de aplicar uma orientação. Se houver mais de uma leitura possível, perguntar.
+- Depois de aplicar, mostrar o que mudou em cada artigo, em poucas linhas.
 
 ## Como gravar
 Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos, agente-conteudo/conteudo/posts-linkedin e agente-conteudo/conteudo/roteiros-video, mais agente-conteudo/conteudo/artes e agente-conteudo/conteudo/idiomas. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
