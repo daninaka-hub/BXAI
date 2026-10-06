@@ -30,7 +30,7 @@
     "control de gestión"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "9 min",
   "featured": false,
   "content": [
     {
@@ -145,7 +145,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La intuición dice que faltan herramientas. El dato dice que falta base. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con dueño o sin él. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el descuento que nunca existió. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. El mismo banco dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real."
+      "content": "La intuición dice que faltan herramientas. El dato dice que falta base. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con gobernanza o sin ella. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el descuento que nunca existió. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. El mismo banco dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real."
     },
     {
       "type": "paragraph",
@@ -153,7 +153,7 @@
     },
     {
       "type": "paragraph",
-      "content": "No rastrear las premisas ya tiene un precio. En Kraft Heinz fueron 208 millones de dólares corregidos en los resultados, 62 millones de multa y 450 millones de acuerdo con los accionistas, todo porque nadie en la consolidación comprobaba de dónde venía cada descuento. Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
+      "content": "La falta de gobernanza de proceso ya tiene un precio. En Kraft Heinz fueron 208 millones de dólares corregidos en los resultados, 62 millones de multa y 450 millones de acuerdo con los accionistas, todo porque nadie en la consolidación comprobaba de dónde venía cada descuento. Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
     },
     {
       "type": "heading",
@@ -162,7 +162,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Para cada cifra del presupuesto o del cierre, deben quedar escritas tres respuestas: quién es responsable de la premisa, qué criterio llevó a ella y quién la validó antes de entrar en la consolidación."
+      "content": "La gobernanza de proceso empieza con tres respuestas escritas para cada cifra del presupuesto o del cierre: quién la registró, con base en qué y quién la verificó antes de entrar en la consolidación."
     },
     {
       "type": "paragraph",
@@ -183,16 +183,46 @@
     },
     {
       "type": "paragraph",
-      "content": "La IA no crea el problema de gobernanza. Mide cuánto tarda en aparecer. Por eso, quien ordena el origen de sus cifras antes de automatizar decide si la IA trabajará a favor de sus resultados o en contra."
+      "content": "La IA no crea el problema de gobernanza de proceso. Acorta el tiempo que tarda en aparecer. Por eso, quien ordena el origen de sus cifras antes de automatizar decide si la IA trabajará a favor de sus resultados o en contra."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Quién respondería por cada cifra que tocó la IA?"
+      "content": "Cómo lo haría diferente BudgetXpert"
     },
     {
       "type": "paragraph",
-      "content": "En Kraft Heinz, unas 300 transacciones de descuentos de proveedores ficticios quedaron tres años escondidas en las cifras. Con agentes de IA ajustando valores, el volumen de cambios crece. Quien no registra el motivo de cada uno pierde el rastro más rápido. En BudgetXpert, todo lo que la IA crea o modifica queda registrado, con autor, fecha, el cambio hecho y la conversación que originó el ajuste. Cada premisa tiene un dueño. Solo quien tiene permiso cambia el valor. Quien consolida sabe a quién preguntar el día del registro, sin esperar una reexpresión."
+      "content": "Cada pregunta de gobernanza del artículo tiene una respuesta registrada en la plataforma."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pregunta de gobernanza",
+        "Qué faltó en Kraft Heinz",
+        "Qué hace BudgetXpert"
+      ],
+      "rows": [
+        [
+          "¿Quién registró la cifra?",
+          "El área de compras, sin registro visible en la consolidación",
+          "Cada premisa tiene un dueño. Todo lo que la IA crea o modifica queda registrado, con autor y fecha"
+        ],
+        [
+          "¿Con base en qué?",
+          "Un descuento de proveedor que nunca existió",
+          "El registro guarda el cambio hecho y la conversación que originó el ajuste. La discusión queda junto a la cifra, en la celda"
+        ],
+        [
+          "¿Quién la verificó antes de sumarla?",
+          "Nadie en la consolidación",
+          "Solo quien tiene permiso cambia el valor. Quien consolida sabe a quién preguntar"
+        ],
+        [
+          "¿Y cuando entra la IA?",
+          "Más cambios en menos tiempo, sin el motivo de cada uno",
+          "La IA sugiere las premisas a partir de una conversación. Cada usuario tiene el gasto de IA controlado, con desactivación del módulo"
+        ]
+      ]
     },
     {
       "type": "paragraph",

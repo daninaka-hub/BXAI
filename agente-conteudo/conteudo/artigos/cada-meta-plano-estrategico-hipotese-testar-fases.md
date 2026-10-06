@@ -58,9 +58,16 @@ Duas regras fazem o teste valer. Se nenhum resultado é capaz de cancelar a expa
 
 A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
 
-## E se cada hipótese do plano tivesse dono?
+## Como a BudgetXpert faria diferente
 
-Na BudgetXpert, o plano não tem estrutura fixa. Cada hipótese viraria uma premissa com dono, definida uma vez e reutilizada em vários orçamentos, com valor diferente mês a mês conforme as lojas abrem. Cada área veria e editaria só a parte dela. Quem consolida veria tudo. No dia do resultado, haveria um nome para cada hipótese que falhou.
+Num plano em fases, cada hipótese precisa de alguém que a confira na data marcada. Na BudgetXpert, o plano não tem estrutura fixa.
+
+| Pergunta | O que faltou | O que a BudgetXpert faz |
+|---|---|---|
+| Quem responde por cada hipótese? | Sem dono, a aposta não ganha data de verificação | Cada hipótese vira uma premissa com dono, definida uma vez e reutilizada em vários orçamentos |
+| Onde fica cada hipótese? | O modelo de loja e o sistema foram respondidos no mesmo dia, nas mesmas 133 lojas | O plano aceita qualquer estrutura, inclusive não financeira, com cada hipótese tratada como premissa |
+| E quando as lojas abrem aos poucos? | Todas abriram ao mesmo tempo, sem fase para conferir | A premissa tem valor diferente mês a mês, conforme cada fase |
+| Quem mexe em quê? | Ninguém podia dizer qual hipótese estava errada | Cada área vê e edita só a parte dela. Quem consolida vê tudo |
 
 O resto está em [budgetxpert.ai](https://www.budgetxpert.ai).
 

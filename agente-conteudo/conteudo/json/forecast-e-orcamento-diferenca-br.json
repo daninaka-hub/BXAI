@@ -179,11 +179,36 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que mudaria se todos olhassem a mesma versão do plano?"
+      "content": "Como a BudgetXpert faria diferente"
     },
     {
       "type": "paragraph",
-      "content": "Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Só uma leva a marca de oficial. As outras não se confundem com ela. Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial, com a anterior guardada para comparar."
+      "content": "Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pergunta",
+        "O que faltou",
+        "O que a BudgetXpert faz"
+      ],
+      "rows": [
+        [
+          "A previsão de cada mês continua existindo?",
+          "Quando ninguém guarda a versão de cada fechamento, não há erro para medir",
+          "A versão anterior continua guardada, para comparar com o realizado"
+        ],
+        [
+          "Todos olham o mesmo número?",
+          "Orçamento, forecast e rascunhos circulam em cópias. Cada pessoa defende um número",
+          "Só uma versão leva a marca de oficial. Vários gestores preenchem o mesmo orçamento ao mesmo tempo, sem cópias divergentes"
+        ],
+        [
+          "O forecast novo parte do anterior?",
+          "O resultado do mês anterior é copiado à mão, célula por célula",
+          "Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula"
+        ]
+      ]
     },
     {
       "type": "paragraph",

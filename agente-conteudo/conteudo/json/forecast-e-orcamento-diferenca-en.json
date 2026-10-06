@@ -175,11 +175,36 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What would change if everyone looked at the same version of the plan?"
+      "content": "How BudgetXpert would do it differently"
     },
     {
       "type": "paragraph",
-      "content": "Measuring the error requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan. Only one carries the official mark. The others do not get confused with it. A line in the new forecast pulls the result from the previous one on its own, without copying cells. In May, the sales director and the finance analyst would look at the same official version, with the previous one kept for comparison."
+      "content": "Measuring the error requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "What was missing",
+        "What BudgetXpert does"
+      ],
+      "rows": [
+        [
+          "Does each month's prediction still exist?",
+          "When nobody keeps the version of each close, there is no error to measure",
+          "The previous version stays saved, for comparison with the actual result"
+        ],
+        [
+          "Is everyone looking at the same number?",
+          "Budget, forecast and drafts circulate in copies. Each person defends a different number",
+          "Only one version carries the official mark. Several managers fill in the same budget at the same time, with no diverging copies"
+        ],
+        [
+          "Does the new forecast start from the previous one?",
+          "The previous month's result is copied by hand, cell by cell",
+          "A line in the new forecast pulls the result from the previous one on its own, without copying cells"
+        ]
+      ]
     },
     {
       "type": "paragraph",

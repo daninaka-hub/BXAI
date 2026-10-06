@@ -167,11 +167,41 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What If Every Hypothesis in the Plan Had an Owner?"
+      "content": "How BudgetXpert would do it differently"
     },
     {
       "type": "paragraph",
-      "content": "In BudgetXpert, the plan has no fixed structure. Each hypothesis would become an assumption with an owner, defined once and reused across several budgets, with a different value month by month as the stores open. Each area would see and edit only its own part. Whoever consolidates would see everything. On the day of the result, there would be a name for every hypothesis that failed."
+      "content": "In a phased plan, every hypothesis needs someone to check it on a set date. In BudgetXpert, the plan has no fixed structure."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "What was missing",
+        "What BudgetXpert does"
+      ],
+      "rows": [
+        [
+          "Who answers for each hypothesis?",
+          "With no owner, the bet gets no verification date",
+          "Each hypothesis becomes an assumption with an owner, defined once and reused across several budgets"
+        ],
+        [
+          "Where does each hypothesis live?",
+          "The store model and the system were answered on the same day, in the same 133 stores",
+          "The plan accepts any structure, including non-financial ones, with each hypothesis treated as an assumption"
+        ],
+        [
+          "What about stores opening gradually?",
+          "All opened at the same time, with no phase to check",
+          "The assumption has a different value month by month, following each phase"
+        ],
+        [
+          "Who changes what?",
+          "Nobody could say which hypothesis was wrong",
+          "Each area sees and edits only its own part. Whoever consolidates sees everything"
+        ]
+      ]
     },
     {
       "type": "paragraph",

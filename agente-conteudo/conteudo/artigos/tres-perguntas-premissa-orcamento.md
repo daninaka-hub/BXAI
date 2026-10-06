@@ -65,10 +65,6 @@ Cada uma das três perguntas do artigo tem uma resposta registrada na plataforma
 | Com que critério? | Sem critério escrito, a pressão pela meta de volume pesou mais que a regra | A razão e a discussão ficam na célula, junto do número |
 | Quando será revisto? | Nenhum gatilho para conferir se o mercado ainda se comportava como a premissa dizia | O ciclo cai de 5 meses para 2. A revisão vira ritual do mês |
 
-## O que teria mudado na Zillow se revisar premissas fosse rotina?
-
-Em todo orçamento, a premissa perde o rastro de por que existe depois do dia em que é validada. A de que o preço das casas continuaria subindo seguiu esse caminho. Revisar durante o ano quase não acontece, porque o processo leva meses para ficar pronto e repeti-lo todo mês seria passar o ano em orçamento. Na BudgetXpert, o ciclo cai de 5 meses para 2, então revisar passa a ser um ritual do mês. Na Zillow, a pergunta "o mercado ainda se comporta como essa premissa diz?" teria um dono para fazê-la todo mês, com a razão da premissa registrada ao lado do número.
-
 Veja como funciona em [budgetxpert.ai](https://www.budgetxpert.ai).
 
 Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

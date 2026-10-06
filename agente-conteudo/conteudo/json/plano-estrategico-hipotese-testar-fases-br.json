@@ -167,11 +167,41 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "E se cada hipótese do plano tivesse dono?"
+      "content": "Como a BudgetXpert faria diferente"
     },
     {
       "type": "paragraph",
-      "content": "Na BudgetXpert, o plano não tem estrutura fixa. Cada hipótese viraria uma premissa com dono, definida uma vez e reutilizada em vários orçamentos, com valor diferente mês a mês conforme as lojas abrem. Cada área veria e editaria só a parte dela. Quem consolida veria tudo. No dia do resultado, haveria um nome para cada hipótese que falhou."
+      "content": "Num plano em fases, cada hipótese precisa de alguém que a confira na data marcada. Na BudgetXpert, o plano não tem estrutura fixa."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pergunta",
+        "O que faltou",
+        "O que a BudgetXpert faz"
+      ],
+      "rows": [
+        [
+          "Quem responde por cada hipótese?",
+          "Sem dono, a aposta não ganha data de verificação",
+          "Cada hipótese vira uma premissa com dono, definida uma vez e reutilizada em vários orçamentos"
+        ],
+        [
+          "Onde fica cada hipótese?",
+          "O modelo de loja e o sistema foram respondidos no mesmo dia, nas mesmas 133 lojas",
+          "O plano aceita qualquer estrutura, inclusive não financeira, com cada hipótese tratada como premissa"
+        ],
+        [
+          "E quando as lojas abrem aos poucos?",
+          "Todas abriram ao mesmo tempo, sem fase para conferir",
+          "A premissa tem valor diferente mês a mês, conforme cada fase"
+        ],
+        [
+          "Quem mexe em quê?",
+          "Ninguém podia dizer qual hipótese estava errada",
+          "Cada área vê e edita só a parte dela. Quem consolida vê tudo"
+        ]
+      ]
     },
     {
       "type": "paragraph",

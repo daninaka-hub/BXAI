@@ -41,15 +41,15 @@ Sem essa governança, a fraude de ontem e o erro da IA de amanhã passam pelo me
 
 Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já fizeram isso. O motivo mais citado não é o preço da tecnologia. São dados, governança e segurança, a base sobre a qual qualquer agente trabalha.
 
-A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com dono ou sem ele. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. O mesmo banco diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real.
+A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com governança ou sem ela. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. O mesmo banco diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real.
 
 Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque ninguém rastreava a origem de cada desconto. Um agente que consolida em minutos, sem esse rastreio, teria levado o mesmo padrão ao mesmo tamanho em meses.
 
-Não rastrear premissas já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém na consolidação conferia de onde vinha cada desconto. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
+Faltar governança de processo já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém na consolidação conferia de onde vinha cada desconto. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
 
 ## Como aplicar antes de automatizar
 
-Para cada número do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação.
+Governança de processo começa com três respostas escritas para cada número do orçamento ou do fechamento: quem o lançou, com base em quê e quem o conferiu antes de entrar na consolidação.
 
 Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Um ponto do processo de cada vez já basta para começar.
 
@@ -59,11 +59,18 @@ As três respostas ficam com a controladoria, a área responsável pela confiabi
 
 A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A pergunta melhor é qual número do orçamento de hoje ninguém saberia explicar. A Kraft Heinz respondeu isso sem nenhuma IA. O custo só levou anos para aparecer.
 
-A IA não cria o problema de governança. Ela mede quanto tempo ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar define se a IA vai trabalhar a favor do resultado ou contra ele.
+A IA não cria o problema de governança de processo. Ela encurta o tempo que ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar define se a IA vai trabalhar a favor do resultado ou contra ele.
 
-## Quem responderia por cada número que a IA mexeu?
+## Como a BudgetXpert faria diferente
 
-Na Kraft Heinz, cerca de 300 transações de desconto de fornecedor fictício ficaram três anos escondidas nos números. Com agentes de IA ajustando valores, o volume de alterações cresce. Quem não registra o motivo de cada uma perde o rastro mais rápido. Na BudgetXpert, tudo o que a IA cria ou altera fica registrado, com autor, data, a mudança feita e a conversa que originou o ajuste. Cada premissa tem um dono. Só quem tem permissão altera o valor. Quem consolida sabe a quem perguntar no dia do lançamento, sem esperar uma reapresentação.
+Cada pergunta de governança do artigo tem uma resposta registrada na plataforma.
+
+| Pergunta de governança | O que faltou na Kraft Heinz | O que a BudgetXpert faz |
+|---|---|---|
+| Quem lançou o número? | A área de compras, sem registro visível na consolidação | Cada premissa tem um dono. Tudo o que a IA cria ou altera fica registrado, com autor e data |
+| Com base em quê? | Um desconto de fornecedor que nunca existiu | O registro guarda a mudança feita e a conversa que originou o ajuste. A discussão fica junto do número, na célula |
+| Quem conferiu antes de somar? | Ninguém na consolidação | Só quem tem permissão altera o valor. Quem consolida sabe a quem perguntar |
+| E quando a IA entra? | Mais alterações em menos tempo, sem o motivo de cada uma | A IA sugere as premissas a partir de uma conversa. Cada usuário tem o gasto de IA controlado, com desligamento do módulo |
 
 Veja o registro funcionando em [budgetxpert.ai](https://www.budgetxpert.ai).
 

@@ -145,7 +145,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with an owner or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the discount that never existed. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
+      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with governance or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the discount that never existed. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
     },
     {
       "type": "paragraph",
@@ -153,7 +153,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Not tracing assumptions already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody in consolidation checked where each discount came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
+      "content": "A lack of process governance already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody in consolidation checked where each discount came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
     },
     {
       "type": "heading",
@@ -162,7 +162,7 @@
     },
     {
       "type": "paragraph",
-      "content": "For every number in the budget or the close, three answers must be written down: who owns the assumption, what criterion produced the number and who validated it before it entered consolidation."
+      "content": "Process governance starts with three written answers for every number in the budget or the close: who booked it, on what basis and who checked it before it entered consolidation."
     },
     {
       "type": "paragraph",
@@ -183,16 +183,46 @@
     },
     {
       "type": "paragraph",
-      "content": "AI does not create the governance problem. It measures how long the problem takes to appear. So a company that organizes the origin of its numbers before automating decides whether AI will work for its results or against them."
+      "content": "AI does not create the process governance problem. It shortens the time the problem takes to appear. So a company that organizes the origin of its numbers before automating decides whether AI will work for its results or against them."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "Who would answer for every number the AI touched?"
+      "content": "How BudgetXpert would do it differently"
     },
     {
       "type": "paragraph",
-      "content": "At Kraft Heinz, about 300 transactions of fictitious supplier discounts stayed hidden in the numbers for three years. With AI agents adjusting values, the volume of changes grows. Whoever does not record the reason for each one loses the trail faster. In BudgetXpert, everything the AI creates or changes is recorded, with author, date, the change made and the conversation that originated the adjustment. Every assumption has an owner. Only people with permission change the value. Whoever consolidates knows whom to ask on the day of the entry, without waiting for a restatement."
+      "content": "Each governance question in the article has an answer recorded on the platform."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Governance question",
+        "What was missing at Kraft Heinz",
+        "What BudgetXpert does"
+      ],
+      "rows": [
+        [
+          "Who booked the number?",
+          "Procurement, with no visible record in consolidation",
+          "Every assumption has an owner. Everything the AI creates or changes is recorded, with author and date"
+        ],
+        [
+          "On what basis?",
+          "A supplier discount that never existed",
+          "The record keeps the change made and the conversation that originated the adjustment. The discussion stays in the cell, next to the number"
+        ],
+        [
+          "Who checked it before adding it up?",
+          "Nobody in consolidation",
+          "Only people with permission change the value. Whoever consolidates knows whom to ask"
+        ],
+        [
+          "And when AI comes in?",
+          "More changes in less time, with no reason recorded for each",
+          "The AI suggests assumptions from a conversation. Each user's AI spending is controlled, with the option to switch the module off"
+        ]
+      ]
     },
     {
       "type": "paragraph",

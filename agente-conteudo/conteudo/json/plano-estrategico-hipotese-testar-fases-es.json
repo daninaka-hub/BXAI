@@ -167,11 +167,41 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Y si cada hipótesis del plan tuviera dueño?"
+      "content": "Cómo lo haría diferente BudgetXpert"
     },
     {
       "type": "paragraph",
-      "content": "En BudgetXpert, el plan no tiene una estructura fija. Cada hipótesis se convertiría en un supuesto con dueño, definido una vez y reutilizado en varios presupuestos, con un valor distinto mes a mes a medida que se abren las tiendas. Cada área vería y editaría solo su parte. Quien consolida vería todo. El día del resultado, habría un nombre para cada hipótesis que falló."
+      "content": "En un plan por fases, cada hipótesis necesita a alguien que la revise en la fecha marcada. En BudgetXpert, el plan no tiene una estructura fija."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pregunta",
+        "Qué faltó",
+        "Qué hace BudgetXpert"
+      ],
+      "rows": [
+        [
+          "¿Quién responde por cada hipótesis?",
+          "Sin dueño, la apuesta no tiene fecha de verificación",
+          "Cada hipótesis se convierte en un supuesto con dueño, definido una vez y reutilizado en varios presupuestos"
+        ],
+        [
+          "¿Dónde vive cada hipótesis?",
+          "El modelo de tienda y el sistema se respondieron el mismo día, en las mismas 133 tiendas",
+          "El plan acepta cualquier estructura, incluso no financiera, con cada hipótesis tratada como supuesto"
+        ],
+        [
+          "¿Y cuando las tiendas abren de a poco?",
+          "Todas abrieron al mismo tiempo, sin fase para comprobar",
+          "El supuesto tiene un valor distinto mes a mes, según cada fase"
+        ],
+        [
+          "¿Quién cambia qué?",
+          "Nadie podía decir qué hipótesis estaba equivocada",
+          "Cada área ve y edita solo su parte. Quien consolida ve todo"
+        ]
+      ]
     },
     {
       "type": "paragraph",

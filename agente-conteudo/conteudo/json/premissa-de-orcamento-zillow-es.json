@@ -30,7 +30,7 @@
     "disparador de revisión"
   ],
   "templateType": "guide",
-  "readingTime": "9 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -190,15 +190,6 @@
           "El ciclo baja de 5 meses a 2, y revisar pasa a ser un ritual del mes"
         ]
       ]
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "¿Qué habría cambiado en Zillow si revisar los supuestos fuera rutina?"
-    },
-    {
-      "type": "paragraph",
-      "content": "En todo presupuesto, el supuesto pierde el rastro de por qué existe después del día en que se valida. El de que el precio de las casas seguiría subiendo siguió ese camino. Revisar durante el año casi no ocurre, porque el proceso tarda meses en quedar listo y repetirlo cada mes significaría pasar el año entero en presupuesto. En BudgetXpert, el ciclo baja de 5 meses a 2, así que revisar pasa a ser un ritual del mes. En Zillow, la pregunta \"¿el mercado todavía se comporta como dice este supuesto?\" habría tenido un dueño para hacerla cada mes, con la razón del supuesto registrada junto a la cifra."
     },
     {
       "type": "paragraph",

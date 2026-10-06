@@ -103,24 +103,12 @@ def _fechamentos(texto):
     return achados
 
 def _lint_estrutura_bx(texto, nome):
-    """Padrão de 06/10: seção 'Como a BudgetXpert faria diferente' com tabela, e fechamento de 5 a 6 frases (contando a frase do link)."""
-    erros = []
+    """Padrão de 06/10: o artigo termina com a seção 'Como a BudgetXpert faria diferente', com tabela e a linha do link. Não há parágrafo de fechamento depois da tabela."""
     secoes = re.split(r"(?m)^(?=## )", texto)
-    tem_tabela = any(re.match(r"## [^\n]*budgetxpert", s_, flags=re.I) and re.search(r"(?m)^\|", s_) for s_ in secoes)
-    if not tem_tabela:
-        erros.append(f"{nome}: falta a seção 'Como a BudgetXpert faria diferente' (subtítulo com BudgetXpert e tabela)")
-    fech = [s_ for s_ in secoes if "](https://www.budgetxpert.ai)" in s_ and not re.search(r"(?m)^\|", s_)]
-    if not fech:
-        erros.append(f"{nome}: falta o fechamento com a BudgetXpert e o link")
-    else:
-        corpo = re.split(r"\n(?:Fonte|Fontes|Source|Sources|Fuente|Fuentes):", fech[-1])[0]
-        corpo = "\n".join(corpo.splitlines()[1:])
-        corpo = re.sub(r"\]\(https?://[^)]*\)", "]", corpo)
-        corpo = re.sub(r"\[budgetxpert\.ai\]", "budgetxpert_ai", corpo)
-        n = len([f for f in re.split(r"(?<=[.!?])[\"”]?\s+(?=[A-ZÀ-Ý¿¡\"“])", " ".join(corpo.split())) if f.strip()])
-        if not 5 <= n <= 6:
-            erros.append(f"{nome}: fechamento com {n} frases (esperado 5 ou 6, contando a frase do link)")
-    return erros
+    ok = [s_ for s_ in secoes if re.match(r"## [^\n]*budgetxpert", s_, flags=re.I) and re.search(r"(?m)^\|", s_) and "](https://www.budgetxpert.ai)" in s_]
+    if not ok:
+        return [f"{nome}: falta a seção final 'Como a BudgetXpert faria diferente' (subtítulo com BudgetXpert, tabela e a linha do link)"]
+    return []
 
 LINK_SITE = "[budgetxpert.ai](https://www.budgetxpert.ai)"
 
@@ -862,8 +850,8 @@ def html_idiomas(slug):
     return "\n".join(saida)
 
 JS = r'''function aba(n){["status","aprovar","biblioteca"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
-function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#biblioteca"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(5));e.open=true;e.scrollIntoView();}}
-document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(5));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
+function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#biblioteca"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView();}}
+document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
 document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
 if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hidden&&!document.getElementById("aba-status").hidden)location.reload();},60000);}'''

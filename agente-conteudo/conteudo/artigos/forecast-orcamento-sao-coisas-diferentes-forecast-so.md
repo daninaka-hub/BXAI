@@ -64,9 +64,15 @@ A pergunta do começo era por que 86% das equipes não medem o erro do forecast.
 
 Orçamento e forecast não competem. Eles se protegem quando ficam separados: o orçamento sustenta o compromisso, o forecast avisa cedo quando o compromisso está em risco. Um orçamento errado é um problema de negociação. Um forecast errado é informação, desde que alguém meça o erro. O trabalho do financeiro, então, não é prever melhor de uma vez. É tornar seguro errar em público, porque só o erro medido ensina alguma coisa.
 
-## O que mudaria se todos olhassem a mesma versão do plano?
+## Como a BudgetXpert faria diferente
 
-Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Só uma leva a marca de oficial. As outras não se confundem com ela. Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial, com a anterior guardada para comparar.
+Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano.
+
+| Pergunta | O que faltou | O que a BudgetXpert faz |
+|---|---|---|
+| A previsão de cada mês continua existindo? | Quando ninguém guarda a versão de cada fechamento, não há erro para medir | A versão anterior continua guardada, para comparar com o realizado |
+| Todos olham o mesmo número? | Orçamento, forecast e rascunhos circulam em cópias. Cada pessoa defende um número | Só uma versão leva a marca de oficial. Vários gestores preenchem o mesmo orçamento ao mesmo tempo, sem cópias divergentes |
+| O forecast novo parte do anterior? | O resultado do mês anterior é copiado à mão, célula por célula | Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula |
 
 Dá para ver em [budgetxpert.ai](https://www.budgetxpert.ai).
 
