@@ -17,6 +17,6 @@ Por que 86% das equipes seguem sem medir o erro do próprio forecast? A resposta
 
 Artigo completo: [link do artigo]
 
-Na BudgetXpert, orçamento e forecast convivem como versões separadas do mesmo plano, com a oficial à vista de todos: budgetxpert.ai
+Na BudgetXpert, orçamento e forecast convivem como versões separadas do mesmo plano, com a oficial à vista de todos: www.budgetxpert.ai
 
 #ForecastingMethods #FPA #RollingForecast #Orçamento #Controladoria

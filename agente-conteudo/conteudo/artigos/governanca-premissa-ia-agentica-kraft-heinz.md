@@ -52,6 +52,6 @@ A IA não cria o problema de governança. Ela mede quanto tempo ele leva para ap
 
 Na Kraft Heinz, cerca de 300 transações de desconto de fornecedor fictício ficaram três anos escondidas nos números. Com agentes de IA ajustando valores, o volume de alterações cresce. Quem não registra o motivo de cada uma perde o rastro mais rápido. Na BudgetXpert, tudo o que a IA cria ou altera fica registrado, com autor, data, a mudança feita e a conversa que originou o ajuste. Cada premissa tem um dono. Só quem tem permissão altera o valor. Quem consolida sabe a quem perguntar no dia do lançamento, sem esperar uma reapresentação.
 
-Veja o registro funcionando em budgetxpert.ai.
+Veja o registro funcionando em [budgetxpert.ai](https://www.budgetxpert.ai).
 
 Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme". The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million". Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".

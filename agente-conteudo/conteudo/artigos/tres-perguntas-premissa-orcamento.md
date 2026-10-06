@@ -60,6 +60,6 @@ Em todo orçamento, a premissa é validada no dia e depois perde o rastro de por
 
 Na BudgetXpert, o ciclo cai de 5 meses para 2. Cada premissa tem um dono. Só quem tem permissão altera o valor. A razão fica em comentário na célula, ao lado do número. Revisar passa a ser um ritual do mês, sem abrir um novo orçamento. Na Zillow, a pergunta "o mercado ainda se comporta como essa premissa diz?" teria um dono para fazê-la todo mês.
 
-Veja como funciona em budgetxpert.ai.
+Veja como funciona em [budgetxpert.ai](https://www.budgetxpert.ai).
 
 Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

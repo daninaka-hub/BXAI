@@ -68,6 +68,6 @@ Orçamento e forecast não competem. Eles se protegem quando ficam separados: o 
 
 O forecast só melhora quando alguém mede o erro dele. Medir exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Só uma leva a marca de oficial. As outras não se confundem com ela. Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial, com a anterior guardada para comparar.
 
-Dá para ver em budgetxpert.ai.
+Dá para ver em [budgetxpert.ai](https://www.budgetxpert.ai).
 
 Fonte: AFP (Association for Financial Professionals, financialprofessionals.org), entidade americana de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report" e artigo de opinião "Your Forecast Doesn't Have a Score. It Should." (Jason Brisbane, 28/04/2026). McKinsey & Company (mckinsey.com), consultoria global de gestão, "Bringing the real world into your forecasting process" (13/03/2020).

@@ -62,6 +62,6 @@ A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target e
 
 No plano da Target, 133 lojas dependiam das mesmas hipóteses que 10 lojas teriam bastado para testar. Na BudgetXpert, o plano não tem estrutura fixa. Cada hipótese viraria uma premissa com dono, definida uma vez e reutilizada em vários orçamentos, com valor diferente mês a mês conforme as lojas abrem. Cada área veria e editaria só a parte dela. Quem consolida veria tudo. No dia do resultado, haveria um nome para cada hipótese que falhou.
 
-O resto está em budgetxpert.ai.
+O resto está em [budgetxpert.ai](https://www.budgetxpert.ai).
 
 Fonte: Panorama Consulting (panorama-consulting.com), consultoria de seleção e implantação de sistemas de gestão, "6 Lessons Learned From The Target Canada Supply Chain Failure". Umbrex (umbrex.com), rede global de consultores independentes, "Strategy Map (Kaplan e Norton)", descrevendo o framework cuja obra original é de Robert Kaplan com David Norton. Deloitte (deloitte.com), rede global de auditoria e consultoria, "2026 Chief Strategy Officer Survey" (12 de fevereiro de 2026). AFP, Association for Financial Professionals (financialprofessionals.org), associação de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report: Integrated Planning".

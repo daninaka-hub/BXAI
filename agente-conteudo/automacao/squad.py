@@ -99,6 +99,20 @@ def _fechamentos(texto):
         achados = [x for x in texto.splitlines() if "budgetxpert" in x.lower()]
     return achados
 
+LINK_SITE = "[budgetxpert.ai](https://www.budgetxpert.ai)"
+
+def _lint_link_site(texto, nome, md):
+    """Todo budgetxpert.ai do artigo é link para https://www.budgetxpert.ai. No post, o endereço é www.budgetxpert.ai."""
+    if md:
+        sobra = texto.replace(LINK_SITE, "")
+        if re.search(r"budgetxpert\.ai", sobra, flags=re.I):
+            return [f"{nome}: todo \"budgetxpert.ai\" precisa ser link, no formato {LINK_SITE}"]
+        return []
+    sobra = re.sub(r"www\.budgetxpert\.ai", "", texto, flags=re.I)
+    if re.search(r"budgetxpert\.ai", sobra, flags=re.I):
+        return [f"{nome}: no post, escrever www.budgetxpert.ai"]
+    return []
+
 def lint_promessas(slug):
     erros = []
     art, post, rot = caminhos(slug)
@@ -179,6 +193,15 @@ def lint(slug):
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     erros += lint_idiomas(slug)
     erros += lint_promessas(slug)
+    if art.exists():
+        erros += _lint_link_site(art.read_text(encoding="utf-8"), "artigo", True)
+    if post.exists():
+        erros += _lint_link_site(post.read_text(encoding="utf-8"), "post", False)
+    _d = ler_idiomas(slug) if (IDIOMAS / f"{slug}.json").exists() else None
+    for lg in ("en", "es"):
+        if _d:
+            erros += _lint_link_site(str(_d.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo", True)
+            erros += _lint_link_site(str(_d.get(lg, {}).get("post", "")), f"idiomas {lg}.post", False)
     if art.exists():
         erros += _lint_subtitulo(art.read_text(encoding="utf-8"), "artigo", True)
     if (IDIOMAS / f"{slug}.json").exists():
@@ -281,7 +304,12 @@ SUFIXO = {"pt": "br", "en": "en", "es": "es"}
 
 def _inline(s):
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
-    return re.sub(r"\[(.+?)\]\((.+?)\)", r"\1 (\2)", s)
+    return re.sub(r"\[(.+?)\]\((https?://[^)]+)\)", r'<a href="\2">\1</a>', s)
+
+def _links_html(h):
+    """Depois de esc(): transforma [texto](url) e o endereço do post em links clicáveis."""
+    h = re.sub(r"\[(.+?)\]\((https?://[^)\s]+)\)", r'<a href="\2" target="_blank" rel="noopener">\1</a>', h)
+    return re.sub(r'(?<![">/\w.])(www\.budgetxpert\.ai)', r'<a href="https://\1" target="_blank" rel="noopener">\1</a>', h)
 
 def md_para_blocos(corpo, lg, neste):
     """Converte o markdown do artigo nos blocos de conteúdo do blog."""
@@ -726,7 +754,7 @@ def html_artigo_txt(t):
         elif re.match(r"(Fonte|Fontes|Source|Sources|Fuente|Fuentes):", b):
             out.append(f'<div class="source">{esc(b)}</div>')
         else:
-            out.append(f"<p>{esc(' '.join(b.splitlines()))}</p>")
+            out.append(f"<p>{_links_html(esc(' '.join(b.splitlines())))}</p>")
     return "\n".join(out)
 
 def html_post(slug):
@@ -736,7 +764,7 @@ def html_post_txt(texto):
     linhas = texto.splitlines()
     cab = linhas[0].strip()
     resto = "\n".join(x for x in linhas[1:] if x.strip() != ".")
-    ps = "\n".join(f"<p>{esc('<br>'.join(b.splitlines())).replace('&lt;br&gt;', '<br>')}</p>" for b in blocos(resto))
+    ps = "\n".join(f"<p>{_links_html(esc('<br>'.join(b.splitlines())).replace('&lt;br&gt;', '<br>'))}</p>" for b in blocos(resto))
     return (f'<div class="post-box"><div class="post-header">{esc(cab)}</div>'
             f'<div class="cut-marker">corte do "ver mais" no LinkedIn</div>\n{ps}</div>')
 
