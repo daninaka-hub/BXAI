@@ -30,7 +30,7 @@
     "disparador de revisión"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -160,11 +160,15 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Qué habría cambiado en Zillow con un dueño para cada supuesto?"
+      "content": "¿Qué habría cambiado en Zillow si revisar los supuestos fuera rutina?"
     },
     {
       "type": "paragraph",
-      "content": "En febrero de 2021, cuando la estimación pasó a ser una oferta de compra, cada supuesto del algoritmo habría tenido en BudgetXpert un dueño definido. Solo quien tiene permiso habría cambiado el valor. La discusión sobre la cifra se habría quedado junto a la cifra, como comentario en la celda, en lugar de dispersarse en correos. Cuando la gerencia quiso subir las ofertas, la pregunta sobre la base del nuevo valor habría aparecido a su lado, a la vista de todos."
+      "content": "En todo presupuesto, el supuesto se valida ese día y luego pierde el rastro de por qué existe. El de que el precio de las casas seguiría subiendo siguió ese camino. Revisar los supuestos durante el año casi no ocurre, porque el proceso tarda meses en quedar listo, y repetirlo cada mes significaría pasar el año entero en presupuesto."
+    },
+    {
+      "type": "paragraph",
+      "content": "En BudgetXpert, el ciclo baja de 5 meses a 2. Cada supuesto tiene un dueño. Solo quien tiene permiso cambia el valor. La razón queda en un comentario en la celda, junto al número. Revisar pasa a ser un ritual del mes, no un presupuesto nuevo. En Zillow, la pregunta \"¿el mercado todavía se comporta como dice este supuesto?\" habría tenido un dueño para hacerla cada mes."
     },
     {
       "type": "paragraph",

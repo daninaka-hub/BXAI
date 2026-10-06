@@ -54,9 +54,11 @@ A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em qu
 
 A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo.
 
-## O que teria mudado na Zillow com um dono para cada premissa?
+## O que teria mudado na Zillow se revisar premissas fosse rotina?
 
-Em fevereiro de 2021, quando a estimativa virou oferta de compra, cada premissa do algoritmo teria na BudgetXpert um dono definido. Só quem tem permissão alteraria o valor. A discussão sobre o número ficaria junto do número, por comentário na célula, em vez de se espalhar por e-mails. Quando a gestão quis subir as ofertas, a pergunta sobre a base do novo valor teria aparecido ao lado dele, à vista de todos.
+Em todo orçamento, a premissa é validada no dia e depois perde o rastro de por que existe. A de que o preço das casas continuaria subindo seguiu esse caminho. Revisar premissas durante o ano quase não acontece, porque o processo leva meses para ficar pronto. Repeti-lo todo mês significaria passar o ano em orçamento.
+
+Na BudgetXpert, o ciclo cai de 5 meses para 2. Cada premissa tem um dono. Só quem tem permissão altera o valor. A razão fica em comentário na célula, ao lado do número. Revisar passa a ser um ritual do mês, sem abrir um novo orçamento. Na Zillow, a pergunta "o mercado ainda se comporta como essa premissa diz?" teria um dono para fazê-la todo mês.
 
 Veja como funciona em budgetxpert.ai.
 

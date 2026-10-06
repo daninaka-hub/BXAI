@@ -160,11 +160,15 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What would have changed at Zillow with an owner for every assumption?"
+      "content": "What would have changed at Zillow if reviewing assumptions were routine?"
     },
     {
       "type": "paragraph",
-      "content": "In February 2021, when the estimate became a purchase offer, every assumption behind the algorithm would have had a defined owner in BudgetXpert. Only people with permission would have changed a value. The discussion about the number would have stayed next to the number, as a comment on the cell, instead of scattering across emails. When management wanted to raise the offers, the question about the basis for the new value would have appeared beside it, in view of everyone."
+      "content": "In every budget, an assumption is validated on the day and then loses the trail of why it exists. The assumption that home prices would keep rising followed that path. Reviewing assumptions during the year rarely happens, because the process takes months to finish, and repeating it every month would mean spending the whole year in budgeting."
+    },
+    {
+      "type": "paragraph",
+      "content": "In BudgetXpert, the cycle drops from 5 months to 2. Every assumption has an owner. Only people with permission change the value. The reason stays in a comment on the cell, next to the number. Reviewing becomes a monthly ritual, not a new budget. At Zillow, the question \"does the market still behave the way this assumption says?\" would have had an owner to ask it every month."
     },
     {
       "type": "paragraph",
