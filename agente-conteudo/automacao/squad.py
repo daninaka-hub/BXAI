@@ -895,7 +895,6 @@ def gerar_pagina():
 <section id="aba-status" role="tabpanel">
 {html_status()}
 {html_briefings()}
-{html_producao()}
 </section>
 <section id="aba-aprovar" role="tabpanel" hidden>
 {html_indice([l for l in linhas if l[1][5] != "Aprovado"], "Índice dos artigos a aprovar")}
