@@ -64,7 +64,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Los incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. Cada ahorro registrado acercaba el resultado a esa meta. El director de operaciones presionó a compras con metas de ahorro irreales. El director de compras aprobó contratos indebidos. La consolidación, el momento en que las cifras de todas las áreas se suman en el resultado de la empresa, no tenía una etapa que rastreara de dónde venía cada ahorro. Quien registraba ganaba. A quien sumaba no le pagaban por dudar."
+      "content": "Los incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. La presión del director de operaciones llevaba esa meta hasta compras. Cada ahorro registrado acercaba el resultado a esa meta. La consolidación, el momento en que las cifras de todas las áreas se suman en el resultado de la empresa, no tenía una etapa que rastreara de dónde venía cada ahorro. Quien registraba ganaba. A quien sumaba no le pagaban por dudar."
     },
     {
       "type": "paragraph",
@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La factura llegó por etapas. En febrero de 2019, la empresa anunció un ajuste contable de 15.400 millones de dólares en goodwill (lo pagado de más en adquisiciones sobre el valor de sus activos) y en marcas como Kraft y Oscar Mayer, con una pérdida neta de 12.600 millones de dólares en el trimestre. En junio de 2019 reexpresó sus estados financieros, los informes oficiales de resultados. Corrigió así 208 millones de dólares en ahorros que no existían. En 2021 pagó 62 millones de dólares de multa a la SEC, el regulador del mercado de valores de Estados Unidos. Dos ejecutivos también fueron sancionados: el director de operaciones pagó 300.000 dólares, mientras que el director de compras pagó 100.000 dólares y quedó inhabilitado por 5 años para ocupar cargos directivos en empresas que cotizan en bolsa. En 2023, el acuerdo con los accionistas costó otros 450 millones de dólares."
+      "content": "La factura llegó por etapas. En febrero de 2019, la empresa anunció un ajuste contable de 15.400 millones de dólares en goodwill (lo pagado de más en adquisiciones sobre el valor de sus activos) y en marcas como Kraft y Oscar Mayer, con una pérdida neta de 12.600 millones de dólares en el trimestre. En junio de 2019 reexpresó sus estados financieros, los informes oficiales de resultados. Corrigió así 208 millones de dólares en ahorros indebidos. En 2021 pagó 62 millones de dólares de multa a la SEC, el regulador del mercado de valores de Estados Unidos. Los dos directores también fueron sancionados: el de operaciones pagó 300.000 dólares, mientras que el de compras pagó 100.000 dólares y quedó inhabilitado por 5 años para ocupar cargos directivos en empresas que cotizan en bolsa. En 2023, el acuerdo con los accionistas costó otros 450 millones de dólares."
     },
     {
       "type": "heading",
@@ -110,7 +110,7 @@
       "rows": [
         [
           "¿Quién registró la cifra?",
-          "El área de compras, con contratos engañosos y sin registro visible en la consolidación",
+          "El área de compras, bajo presión del director de operaciones, con contratos engañosos y sin registro visible en la consolidación",
           "El agente, sin registro de lo que cambió, si el proceso no lo exige"
         ],
         [
@@ -120,7 +120,7 @@
         ],
         [
           "¿Quién la verificó antes de sumarla?",
-          "Nadie en la consolidación",
+          "El director de compras aprobó los contratos. El control de gestión sumó lo que recibió",
           "Nadie, si el agente consolida solo"
         ],
         [
@@ -129,10 +129,6 @@
           "Más rápido, porque el volumen de cambios es mayor"
         ]
       ]
-    },
-    {
-      "type": "paragraph",
-      "content": "Sin esa gobernanza, el fraude de ayer y el error de la IA de mañana pasan por el mismo hueco."
     },
     {
       "type": "heading",
@@ -149,11 +145,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Piensa en lo que eso habría hecho en Kraft Heinz. El esquema tardó tres años en salir a la luz porque nadie rastreaba el origen de cada descuento. Un agente que consolida en minutos, sin ese rastreo, habría llevado el mismo patrón al mismo tamaño en meses."
+      "content": "Piensa en lo que eso habría hecho en Kraft Heinz. El esquema tardó tres años en salir a la luz porque nadie rastreaba el origen de cada ahorro. Un agente que consolida en minutos, sin ese rastreo, habría llevado el mismo patrón al mismo tamaño en meses."
     },
     {
       "type": "paragraph",
-      "content": "La falta de gobernanza de proceso ya tiene un precio. En Kraft Heinz fueron 208 millones de dólares corregidos en los resultados, 62 millones de multa y 450 millones de acuerdo con los accionistas, todo porque nadie en la consolidación comprobaba de dónde venía cada descuento. Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
+      "content": "La falta de gobernanza de proceso ya tiene un precio. En Kraft Heinz fueron 208 millones de dólares corregidos en los resultados, 62 millones de multa y 450 millones de acuerdo con los accionistas, todo porque nadie en la consolidación comprobaba de dónde venía cada ahorro. Cuando cada cifra tiene dueño y registro, el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría."
     },
     {
       "type": "heading",
@@ -166,7 +162,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Empieza por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Un punto del proceso a la vez ya basta para empezar."
+      "content": "Empieza por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz, presionada por el director de operaciones. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Un punto del proceso a la vez ya basta para empezar."
     },
     {
       "type": "paragraph",
@@ -179,7 +175,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La pregunta habitual es cuándo podrá la empresa usar IA agéntica en finanzas. La mejor pregunta es qué cifra del presupuesto de hoy nadie sabría explicar. Kraft Heinz la respondió sin ninguna IA. El costo tardó años en aparecer."
+      "content": "La pregunta habitual es cuándo podrá la empresa usar IA agéntica en finanzas. La mejor pregunta es qué cifra del presupuesto de hoy nadie sabría explicar. Kraft Heinz la respondió sin ninguna IA."
     },
     {
       "type": "paragraph",
@@ -204,7 +200,7 @@
       "rows": [
         [
           "¿Quién registró la cifra?",
-          "El área de compras, con contratos engañosos y sin registro visible en la consolidación",
+          "El área de compras, bajo presión del director de operaciones, con contratos engañosos y sin registro visible en la consolidación",
           "Cada premisa tiene un dueño. Todo lo que la IA crea o modifica queda registrado, con autor y fecha"
         ],
         [
@@ -214,7 +210,7 @@
         ],
         [
           "¿Quién la verificó antes de sumarla?",
-          "Nadie en la consolidación",
+          "El director de compras aprobó los contratos. El control de gestión sumó lo que recibió",
           "Solo quien tiene permiso cambia el valor. Quien consolida sabe a quién preguntar"
         ],
         [

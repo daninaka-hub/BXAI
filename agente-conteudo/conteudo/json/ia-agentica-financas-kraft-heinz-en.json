@@ -64,7 +64,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. Every booked saving moved the result closer to it. The chief operating officer pressed procurement for unrealistic savings targets. The head of procurement approved improper contracts. Consolidation, the step where every department's numbers are added into the company's results, had no stage that traced where each saving came from. Whoever booked the savings gained. Whoever added the numbers was not paid to doubt them."
+      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. The chief operating officer's pressure carried that target down to procurement. Every booked saving moved the result closer to it. Consolidation, the step where every department's numbers are added into the company's results, had no stage that traced where each saving came from. Whoever booked the savings gained. Whoever added the numbers was not paid to doubt them."
     },
     {
       "type": "paragraph",
@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The bill arrived in stages. In February 2019, the company announced a $15.4 billion write-down of goodwill (the premium paid for acquisitions above the value of their assets) and of brands such as Kraft and Oscar Mayer, with a net loss of $12.6 billion for the quarter. In June 2019, it restated its financial statements, the official earnings reports, correcting $208 million in savings that did not exist. In 2021, it paid a $62 million penalty to the SEC, the US regulator of securities markets. Two executives were also penalized: the chief operating officer paid $300,000, while the chief procurement officer paid $100,000 and was barred for 5 years from serving as an officer or director of a public company. In 2023, the settlement with shareholders cost another $450 million."
+      "content": "The bill arrived in stages. In February 2019, the company announced a $15.4 billion write-down of goodwill (the premium paid for acquisitions above the value of their assets) and of brands such as Kraft and Oscar Mayer, with a net loss of $12.6 billion for the quarter. In June 2019, it restated its financial statements, the official earnings reports, correcting $208 million in improper savings. In 2021, it paid a $62 million penalty to the SEC, the US regulator of securities markets. Both executives were also penalized: the chief operating officer paid $300,000, while the chief procurement officer paid $100,000 and was barred for 5 years from serving as an officer or director of a public company. In 2023, the settlement with shareholders cost another $450 million."
     },
     {
       "type": "heading",
@@ -110,7 +110,7 @@
       "rows": [
         [
           "Who booked the number?",
-          "Procurement, with misleading contracts and no visible record in consolidation",
+          "Procurement, under pressure from the chief operating officer, with misleading contracts and no visible record in consolidation",
           "The agent, with no record of what it changed, if the process does not require one"
         ],
         [
@@ -120,7 +120,7 @@
         ],
         [
           "Who checked it before adding it up?",
-          "Nobody in consolidation",
+          "The head of procurement approved the contracts. Controllership added up what it received",
           "Nobody, if the agent consolidates alone"
         ],
         [
@@ -129,10 +129,6 @@
           "Faster, because the volume of changes is higher"
         ]
       ]
-    },
-    {
-      "type": "paragraph",
-      "content": "Without that governance, yesterday's fraud and tomorrow's AI error go through the same gap."
     },
     {
       "type": "heading",
@@ -149,11 +145,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Now picture what that would have done at Kraft Heinz. The scheme took three years to surface because nobody traced where each discount came from. An agent that consolidates in minutes, without that tracing, would have grown the same pattern to the same size in months."
+      "content": "Now picture what that would have done at Kraft Heinz. The scheme took three years to surface because nobody traced where each saving came from. An agent that consolidates in minutes, without that tracing, would have grown the same pattern to the same size in months."
     },
     {
       "type": "paragraph",
-      "content": "A lack of process governance already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody in consolidation checked where each discount came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
+      "content": "A lack of process governance already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody in consolidation checked where each saving came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
     },
     {
       "type": "heading",
@@ -166,7 +162,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem. One point of the process at a time is enough to start."
+      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement department, pushed by the chief operating officer. Those are the points where AI, if it arrives before governance, will amplify the problem. One point of the process at a time is enough to start."
     },
     {
       "type": "paragraph",
@@ -179,7 +175,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The usual question is when the company will be able to use agentic AI in finance. The better question is which number in today's budget nobody could explain. Kraft Heinz answered it without any AI. The cost took years to show up."
+      "content": "The usual question is when the company will be able to use agentic AI in finance. The better question is which number in today's budget nobody could explain. Kraft Heinz answered it without any AI."
     },
     {
       "type": "paragraph",
@@ -204,7 +200,7 @@
       "rows": [
         [
           "Who booked the number?",
-          "Procurement, with misleading contracts and no visible record in consolidation",
+          "Procurement, under pressure from the chief operating officer, with misleading contracts and no visible record in consolidation",
           "Every assumption has an owner. Everything the AI creates or changes is recorded, with author and date"
         ],
         [
@@ -214,7 +210,7 @@
         ],
         [
           "Who checked it before adding it up?",
-          "Nobody in consolidation",
+          "The head of procurement approved the contracts. Controllership added up what it received",
           "Only people with permission change the value. Whoever consolidates knows whom to ask"
         ],
         [
