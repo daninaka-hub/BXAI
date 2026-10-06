@@ -74,6 +74,51 @@ def caminhos(slug):
 
 SIGLAS_OK = {"EUA", "IA", "PIB", "CEO", "CFO", "SaaS", "ERP"}
 
+PROMESSAS_PROIBIDAS = [
+    (r"hist[óo]rico de (?:altera|mudan|valor)|toda altera[çc][ãa]o de valor|every (?:value )?change .{0,20}(?:is )?(?:recorded|logged)|historial de (?:cambios|valores)", "histórico de alteração de valor (P02, não existe)"),
+    (r"notifica|menciona(?:r|ndo)? (?:um|o) respons|menção a respons|notif(?:y|ies|ication)|mention(?:s)? (?:an|the) owner|notifica(?:r|ción)", "notificação ou menção a responsável (P05, não existe)"),
+    (r"propag|todos os or[çc]amentos (?:que a usam )?mudam|recalcula(?:m)? (?:sozinh|automatic)|all (?:the )?budgets (?:that use it )?(?:update|change)|se actualizan? (?:solos|autom)", "propagação automática da premissa (P12, pendente)"),
+    (r"fluxo de aprova|aprova[çc][ãa]o formal|envia o or[çc]amento e o gestor aprova|approval workflow|flujo de aprobaci", "fluxo de aprovação (P21, pendente)"),
+    (r"(?:IA|agente) pede (?:sua )?confirma|confirma[çc][ãa]o antes de executar|asks? for (?:your )?confirmation before|pide (?:tu )?confirmaci", "IA que pede confirmação antes de alterar (P33, não existe)"),
+    (r"compara(?:r|ção)? .{0,30}planejado .{0,30}realizado|planned .{0,20}(?:vs|against|with) .{0,10}actual", "comparação automática planejado x realizado (P42, a classificar)"),
+    (r"erp (?:atualiza|alimenta)|integra[çc][ãa]o com (?:o )?erp|erp (?:updates|feeds)|el erp (?:actualiza|alimenta)", "integração com ERP (P13 e P29, não existe ou com contorno)"),
+    (r"importa(?:r|[çc][ãa]o)? (?:d[ao] )?(?:sua )?planilha|importa(?:r)? (?:o seu )?excel|import (?:your )?(?:spreadsheet|excel)|importar (?:tu )?(?:planilla|excel)", "importação de planilha (P28, não existe)"),
+    (r"de-para|mapeamento entre planos de contas|chart[- ]of[- ]accounts mapping|mapeo entre planes de cuentas", "de-para entre planos de contas (P24, não existe)"),
+    (r"simula(?:r|ção|ções)? (?:um )?cen[áa]rio|compara(?:r)? dois caminhos|simulate (?:a )?scenario|simular (?:un )?escenario", "cenários e simulações (P48, P49, P52, a classificar)"),
+    (r"intragrupo|elimina(?:r|ção)? .{0,20}transa[çc][õo]es entre|multimoeda|multi-?currency|m[úu]ltiplas moedas|mais de uma moeda", "consolidação intragrupo ou multimoeda (P25, P37, não existe)"),
+    (r"nenhum dado .{0,30}treina|dados .{0,20}n[ãa]o treinam|data .{0,20}(?:does not|doesn't|never) train", "dados não treinam modelo de terceiros (P36, pendente)"),
+    (r"reduz(?:ir|iria)? (?:o )?custo|economiz|corta(?:r)? (?:o )?custo|elimina(?:r)? (?:um |o )?(?:FTE|analista)|cut(?:s|ting)? costs?|saves? (?:time|money)", "ganho de custo ou FTE (não permitido)"),
+]
+
+def _fechamentos(texto):
+    """Devolve os trechos do artigo que citam a BudgetXpert: o parágrafo e o subtítulo do fechamento, e as linhas do post."""
+    achados = []
+    for m in re.finditer(r"(?:^|\n)(## [^\n]+\n+(?:(?!\n## |\n(?:Fonte|Fontes|Source|Sources|Fuente|Fuentes):)[\s\S])*?budgetxpert\.ai[^\n]*)", texto):
+        achados.append(m.group(1))
+    if not achados:
+        achados = [x for x in texto.splitlines() if "budgetxpert" in x.lower()]
+    return achados
+
+def lint_promessas(slug):
+    erros = []
+    art, post, rot = caminhos(slug)
+    fontes = []
+    for arq in (art, post):
+        if arq.exists():
+            fontes.append((arq.parent.name + "/" + arq.name, arq.read_text(encoding="utf-8")))
+    d = ler_idiomas(slug) if (IDIOMAS / f"{slug}.json").exists() else None
+    if d:
+        for lg in ("en", "es"):
+            for campo in ("artigo", "post"):
+                fontes.append((f"idiomas {lg}.{campo}", str(d.get(lg, {}).get(campo, ""))))
+    for nome, tx in fontes:
+        for trecho in _fechamentos(tx):
+            for padrao, rotulo in PROMESSAS_PROIBIDAS:
+                m = re.search(padrao, trecho, flags=re.I)
+                if m:
+                    erros.append(f"{nome}: promessa proibida no fechamento com a BudgetXpert, {rotulo}, perto de \"{trecho[max(0, m.start()-25):m.end()+25].strip()}\"")
+    return erros
+
 def _lint_subtitulo(texto, nome, com_titulo):
     """O artigo tem um subtítulo (### Prefixo: frase, até 100 caracteres) logo depois do título."""
     if com_titulo:
@@ -133,6 +178,7 @@ def lint(slug):
         if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     erros += lint_idiomas(slug)
+    erros += lint_promessas(slug)
     if art.exists():
         erros += _lint_subtitulo(art.read_text(encoding="utf-8"), "artigo", True)
     if (IDIOMAS / f"{slug}.json").exists():
