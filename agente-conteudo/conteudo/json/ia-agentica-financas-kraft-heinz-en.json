@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Under that pressure, procurement (the purchasing department) began booking as savings supplier discounts the company had never earned, in roughly 300 transactions from late 2015 to late 2018. The failure was not arithmetic. It was an assumption: nobody checked that each discount was real."
+      "content": "Under that pressure, procurement (the purchasing department) began booking as savings supplier discounts the company had never earned, in roughly 300 transactions from late 2015 to late 2018. The failure was not arithmetic. It was an assumption, the reason to believe a number: nobody checked that each discount was real."
     },
     {
       "type": "paragraph",
@@ -102,15 +102,15 @@
     },
     {
       "type": "paragraph",
-      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with an owner or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the discount that never existed. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. Even so, it says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
+      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with an owner or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the discount that never existed. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
     },
     {
       "type": "paragraph",
-      "content": "Now picture what that would have done at Kraft Heinz. The scheme took three years to surface because people added numbers slowly. An agent that consolidates in minutes would have grown the same pattern to the same size in months."
+      "content": "Now picture what that would have done at Kraft Heinz. The scheme took three years to surface because nobody traced where each discount came from. An agent that consolidates in minutes, without that tracing, would have grown the same pattern to the same size in months."
     },
     {
       "type": "paragraph",
-      "content": "Not tracing assumptions already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody knew where each discount came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill. Every number comes in, because an error hides exactly where nobody traces."
+      "content": "Not tracing assumptions already has a price. At Kraft Heinz it was $208 million corrected in earnings, a $62 million penalty and a $450 million shareholder settlement, all because nobody in consolidation checked where each discount came from. When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
     },
     {
       "type": "heading",
@@ -123,11 +123,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem. Every number comes in, one point of the process at a time."
+      "content": "Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem. One point of the process at a time is enough to start."
     },
     {
       "type": "paragraph",
-      "content": "The function that handles this is controllership, which is responsible for the reliability of the company's numbers. It differs from auditing, which finds the problem after it has happened, as it did at Kraft Heinz, when the bill already ran into the billions."
+      "content": "The three answers sit with controllership, the function responsible for the reliability of the company's numbers. It differs from auditing, which finds the problem after it has happened, as it did at Kraft Heinz, when the bill already ran into the billions."
     },
     {
       "type": "heading",

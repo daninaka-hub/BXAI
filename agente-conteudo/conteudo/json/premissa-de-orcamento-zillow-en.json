@@ -30,7 +30,7 @@
     "review trigger"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The algorithm did not miscalculate. A budget assumption failed: the hypothesis about the future that every purchase relied on. Nobody had the job of reviewing it. All of them carry the same risk. It can be born right and grow old wrong without anyone making a wrong decision along the way. Three questions show whether yours are under control. The Zillow case helps explain each one."
+      "content": "The calculation worked as designed. A budget assumption failed: the hypothesis about the future that every purchase relied on. An assumption can be right on the day it is set and wrong six months later. The market changed. Nobody went back to check. Three questions show whether yours are under control. The Zillow case helps explain each one."
     },
     {
       "type": "heading",
@@ -73,7 +73,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Because what changes is often not the calculation but how it is used. Until February 2021, an estimation error was just an imprecise guess. After that, every error became a signed check. According to the analysis by Shackleford, an AI leadership consultancy, Zillow made this switch without creating any new governance rule, meaning without defining who would control how the tool was used."
+      "content": "Time is one cause. The other is use: what often changes is not the calculation but what is done with it. Until February 2021, an estimation error was just an imprecise guess. After that, every error became a signed check. According to the analysis by Shackleford, an AI leadership consultancy, Zillow made this switch without creating any new governance rule, meaning without defining who would control how the tool was used."
     },
     {
       "type": "paragraph",
@@ -86,7 +86,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Every assumption needs an owner. Not a name on the org chart, but someone who can explain why this number and not another one and who will be called when it stops holding. At Zillow, the decision to turn an estimate into a binding offer was a business decision, made on top of an algorithm. Nobody was given the task of checking whether the assumption still made sense after the change."
+      "content": "Every assumption needs an owner. Not a name on the org chart, but someone who can explain why this number and not another one and who will be called when it stops holding. At Zillow, the decision to turn an estimate into a binding offer was a business decision, made on top of an algorithm. There is no record that anyone was given the task of checking whether the assumption still made sense after the change."
     },
     {
       "type": "paragraph",
@@ -112,11 +112,11 @@
     },
     {
       "type": "paragraph",
-      "content": "This is the question most often missing, even in companies that already have an owner and a criterion. Every assumption needs an expiration date, a trigger that says when it will be re-examined. Re-examined, not abandoned: reviewing an assumption does not change the target, it only checks whether the basis of the calculation still reflects reality."
+      "content": "This is the question that usually goes unanswered, even where an owner and a criterion already exist. Every assumption needs an expiration date, a trigger that says when it will be re-examined. Re-examined, not abandoned: reviewing an assumption does not change the target, it only checks whether the basis of the calculation still reflects reality."
     },
     {
       "type": "paragraph",
-      "content": "The review date does not have to follow the fiscal calendar. It has to follow the speed of the variable the assumption tries to predict. The price of a raw material in a volatile market may call for a monthly review, even inside an annual budget. At Zillow, there was no trigger to check whether the profile of the owners accepting offers had changed."
+      "content": "The review date does not have to follow the fiscal calendar. It has to follow the speed of the variable the assumption tries to predict. The price of a raw material in a volatile market may call for a monthly review, even inside an annual budget. The obstacle is practical: reviewing an assumption usually means redoing parts of the budget. A budget that takes months to close cannot support a monthly review. At Zillow, there was no trigger to check whether the profile of the owners accepting offers had changed."
     },
     {
       "type": "heading",
@@ -129,7 +129,7 @@
     },
     {
       "type": "paragraph",
-      "content": "CEO Rich Barton explained at the shutdown that the algorithm could not reliably predict how much capital the company would need to put at risk. He refused to blame the loss on unpredictable outside events. None of these numbers came from a wrong calculation. They came from an assumption with no owner, with no criterion protected from target pressure and with no review trigger."
+      "content": "CEO Rich Barton explained at the shutdown that the algorithm could not reliably predict how much capital the company would need to put at risk. He refused to blame the loss on unpredictable outside events. The problem he described is the assumption: the model supposed a market that no longer existed. None of these numbers came from a wrong calculation. They came from an assumption with no owner, with no criterion protected from target pressure and with no review trigger."
     },
     {
       "type": "heading",
@@ -138,11 +138,7 @@
     },
     {
       "type": "paragraph",
-      "content": "It costs what Zillow paid. An assumption with no owner does not warn anyone when it stops holding, so the error shows up only in the result, when it has already become a loss. At Zillow, nobody looked at the number behind the offers. The distance between the algorithm and the market surfaced only in the 2021 accounts. The same distance, seen in a meeting, would have cost a conversation."
-    },
-    {
-      "type": "paragraph",
-      "content": "According to a 2024 survey by EY, the global audit and consulting network, 86% of controllers, the people responsible for a company's financial and accounting control, expect their own role to change significantly within five years. Part of that change is this: moving from recording the closed number to making sure every assumption behind it has an owner, a criterion and a review date."
+      "content": "It costs what Zillow paid. An assumption with no owner does not warn anyone when it stops holding, so the error shows up only in the result, when it has already become a loss. At Zillow, nobody independently checked the number behind the offers. The distance between the algorithm and the market surfaced only in the 2021 accounts. The same distance, seen in a meeting, would have cost a conversation."
     },
     {
       "type": "heading",
@@ -155,7 +151,11 @@
     },
     {
       "type": "paragraph",
-      "content": "The decision that belongs to leadership is small and concrete: no number enters the official budget without a name next to it. Whoever signs the number is the person who will look at it again."
+      "content": "According to a 2024 survey by EY, the global audit and consulting network, 86% of controllers, the people responsible for a company's financial and accounting control, expect their own role to change significantly within five years. Part of that change is this: moving from recording the closed number to making sure every assumption behind it has an owner, a criterion and a review date."
+    },
+    {
+      "type": "paragraph",
+      "content": "The decision that belongs to leadership is small and concrete: no number enters the official budget without three things next to it, a name, the criterion used and the date it will be reviewed. Whoever signs the number is the person who will look at it again."
     },
     {
       "type": "heading",
@@ -164,7 +164,7 @@
     },
     {
       "type": "paragraph",
-      "content": "In every budget, an assumption is validated on the day and then loses the trail of why it exists. The assumption that home prices would keep rising followed that path. Reviewing assumptions during the year rarely happens, because the process takes months to finish, and repeating it every month would mean spending the whole year in budgeting."
+      "content": "In every budget, an assumption loses the trail of why it exists after the day it is validated. The assumption that home prices would keep rising followed that path. Reviewing during the year rarely happens, because the process takes months to finish, and repeating it every month would mean spending the whole year in budgeting."
     },
     {
       "type": "paragraph",

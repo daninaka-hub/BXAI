@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "content": "El costo del error crece con el número de apuestas. El mapa desglosa de 2 a 4 temas estratégicos en 12 a 20 objetivos vinculados entre sí, es decir, hasta 20 apuestas simultáneas dentro de un mismo plan. Target puso todas en la calle al mismo tiempo. Cada apuesta que falla sin aviso cuesta todo lo ya invertido en ella, mientras que por fases cada una tiene su momento de verificación, con el orden decidiendo cuál va primero."
+      "content": "El costo del error crece con el número de apuestas. El mapa desglosa de 2 a 4 temas estratégicos en 12 a 20 objetivos vinculados entre sí, es decir, hasta 20 apuestas simultáneas dentro de un mismo plan. Target puso todas en la calle al mismo tiempo. Cada apuesta que falla sin aviso cuesta todo lo ya invertido en ella. Por fases, cada apuesta tiene su momento de verificación. El orden define cuál va primero."
     },
     {
       "type": "heading",
@@ -110,7 +110,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Sin prueba, el mismo error costó las 133 tiendas y afectó a 17.600 empleados. Con prueba, habría costado 10 tiendas, y cada hipótesis se habría respondido por separado de la otra, así que la empresa habría sabido temprano cuál falló. Eso vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
+      "content": "Cada hipótesis se habría respondido por separado de la otra, así que la empresa habría sabido temprano cuál falló. Eso vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
     },
     {
       "type": "heading",
@@ -119,7 +119,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Aquí está el motivo más común de que la prueba nunca ocurra. En la encuesta de Deloitte (deloitte.com), red global de auditoría y consultoría, a Chief Strategy Officers, los ejecutivos responsables de la estrategia de la empresa, 65% afirma no ser dueño de las principales decisiones estratégicas. La mitad dice tener demasiadas prioridades para el tiempo disponible (febrero de 2026)."
+      "content": "Aquí está un motivo frecuente de que la prueba nunca ocurra. En la encuesta de Deloitte (deloitte.com), red global de auditoría y consultoría, a Chief Strategy Officers, los ejecutivos responsables de la estrategia de la empresa, 65% afirma no ser dueño de las principales decisiones estratégicas. La mitad dice tener demasiadas prioridades para el tiempo disponible (febrero de 2026)."
     },
     {
       "type": "paragraph",
@@ -136,7 +136,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La AFP, Association for Financial Professionals, asociación de profesionales de finanzas corporativas, encuestó en 2026 a 332 profesionales de FP&A, el área de planificación y análisis financiero, en 54 países. Solo 38% de las organizaciones usa planificación de escenarios estructurada, la práctica de armar versiones alternativas del plan antes de ejecutarlo. Quienes la usan cierran el presupuesto 11% más rápido en promedio."
+      "content": "La AFP, Association for Financial Professionals, asociación de profesionales de finanzas corporativas, encuestó en 2026 a profesionales de FP&A, el área de planificación y análisis financiero. Solo 38% de las organizaciones usa planificación de escenarios estructurada, la práctica de armar versiones alternativas del plan antes de ejecutarlo. Quienes la usan cierran el presupuesto 11% más rápido en promedio."
     },
     {
       "type": "paragraph",
@@ -171,7 +171,7 @@
     },
     {
       "type": "paragraph",
-      "content": "En el plan de Target, 133 tiendas dependían de las mismas hipótesis que 10 tiendas habrían bastado para probar. En BudgetXpert, el plan no tiene una estructura fija. Cada hipótesis se convertiría en un supuesto con dueño, definido una vez y reutilizado en varios presupuestos, con un valor distinto mes a mes a medida que se abren las tiendas. Cada área vería y editaría solo su parte. Quien consolida vería todo. El día del resultado, habría un nombre para cada hipótesis que falló."
+      "content": "En BudgetXpert, el plan no tiene una estructura fija. Cada hipótesis se convertiría en un supuesto con dueño, definido una vez y reutilizado en varios presupuestos, con un valor distinto mes a mes a medida que se abren las tiendas. Cada área vería y editaría solo su parte. Quien consolida vería todo. El día del resultado, habría un nombre para cada hipótesis que falló."
     },
     {
       "type": "paragraph",

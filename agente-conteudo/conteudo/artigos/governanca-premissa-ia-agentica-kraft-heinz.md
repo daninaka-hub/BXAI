@@ -4,7 +4,7 @@
 
 Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos e depreciação, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta.
 
-Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa: ninguém conferiu a hipótese de que cada desconto era real.
+Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa, o motivo para acreditar em um número: ninguém conferiu a hipótese de que cada desconto era real.
 
 É o mesmo ponto em que trava a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. A tese deste texto é direta: a IA agêntica não corrige um processo sem dono, só o acelera. Para ver por quê, o caminho começa dentro da Kraft Heinz.
 
@@ -28,19 +28,19 @@ O erro silencioso é mais comum do que o deliberado. Na maior parte das empresas
 
 Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já fizeram isso. O motivo mais citado não é o preço da tecnologia. São dados, governança e segurança, a base sobre a qual qualquer agente trabalha.
 
-A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com dono ou sem ele. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. Mesmo assim, diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real.
+A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com dono ou sem ele. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. O mesmo banco diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real.
 
-Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque as pessoas somavam devagar. Um agente que consolida em minutos teria levado o mesmo padrão ao mesmo tamanho em meses.
+Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque ninguém rastreava a origem de cada desconto. Um agente que consolida em minutos, sem esse rastreio, teria levado o mesmo padrão ao mesmo tamanho em meses.
 
-Não rastrear premissas já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém sabia de onde vinha cada desconto. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria. Todos os números entram, porque o erro se esconde justamente no que ninguém rastreia.
+Não rastrear premissas já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém na consolidação conferia de onde vinha cada desconto. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
 
 ## Como aplicar antes de automatizar
 
 Para cada número do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação.
 
-Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Todos os números entram, um ponto do processo de cada vez.
+Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Um ponto do processo de cada vez já basta para começar.
 
-A área que cuida disso é a controladoria, responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu, como ocorreu na Kraft Heinz, quando a conta já somava bilhões.
+As três respostas ficam com a controladoria, a área responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu, como ocorreu na Kraft Heinz, quando a conta já somava bilhões.
 
 ## O que muda na pergunta
 

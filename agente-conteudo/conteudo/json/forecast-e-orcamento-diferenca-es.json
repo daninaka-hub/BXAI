@@ -51,11 +51,11 @@
     },
     {
       "type": "paragraph",
-      "content": "La explicación habitual es la falta de tiempo o de herramientas. Este artículo defiende otra: en muchas empresas, forecast y presupuesto se volvieron la misma hoja de cálculo con dos nombres. Responden a preguntas distintas. El forecast solo mejora cuando alguien mide su error."
+      "content": "El dato viene de la encuesta FP&A (Financial Planning & Analysis, planeación y análisis financiero) Benchmarking Survey 2026, hecha con 332 profesionales de 54 países."
     },
     {
       "type": "paragraph",
-      "content": "El dato viene de la encuesta FP&A (Financial Planning & Analysis, planeación y análisis financiero) Benchmarking Survey 2026, hecha con 332 profesionales de 54 países."
+      "content": "La explicación habitual es la falta de tiempo o de herramientas. Este artículo defiende otra: en muchas empresas el forecast se volvió el presupuesto con fecha nueva. Nadie tiene incentivo para medirlo. Presupuesto y forecast responden a preguntas distintas. El forecast solo mejora cuando alguien mide su error."
     },
     {
       "type": "heading",
@@ -64,7 +64,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Imagine al director comercial de una industria que, en diciembre, se comprometió ante la junta con la meta de ventas del año. En mayo, la cartera de pedidos muestra que la meta no se cumple. La analista de finanzas abre la hoja para escribir la proyección anual. ¿Qué número pone?"
+      "content": "Imagina al director comercial de una industria que, en diciembre, se comprometió ante la junta con la meta de ventas del año. En mayo, la cartera de pedidos muestra que la meta no se cumple. La analista de finanzas abre la hoja para escribir la proyección anual. ¿Qué número pone?"
     },
     {
       "type": "paragraph",
@@ -106,7 +106,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Imagine un forecast con error promedio de 2%. Parece excelente, hasta que se descubre que el error es siempre optimista y siempre en la misma línea de ingresos. Eso no es un problema de proyección, es un problema de proceso. Y un proceso tiene arreglo. Un error aleatorio de 8% molesta más, pero no revela nada. Un error sistemático de 2% lo revela todo."
+      "content": "Imagina un forecast con error promedio de 2%. Parece excelente, hasta que se descubre que el error es siempre optimista y siempre en la misma línea de ingresos. Eso no es un problema de proyección, es un problema de proceso. Y un proceso tiene arreglo. Un error aleatorio de 8% molesta más, pero no revela nada. Un error sistemático de 2% lo revela todo."
     },
     {
       "type": "heading",
@@ -115,7 +115,7 @@
     },
     {
       "type": "paragraph",
-      "content": "El cuarto frente que McKinsey recomienda para mejorar el forecast es medir la efectividad con detalle, por línea y por área, no solo en el total. El objetivo es descubrir qué indicador venía siendo ignorado antes de que el problema llegara al resultado."
+      "content": "Entre los frentes que McKinsey recomienda para mejorar el forecast está medir la efectividad con detalle, por línea y por área, no solo en el total. El objetivo es descubrir qué indicador venía siendo ignorado antes de que el problema llegara al resultado."
     },
     {
       "type": "paragraph",
@@ -127,7 +127,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La propia AFP hace este diagnóstico en la edición 2026 de la encuesta: proceso, habilidades y disciplina de ejecución no acompañaron a la tecnología. El ciclo presupuestario promedio sigue cerca de nueve semanas, sin cambios en tres años. Solo el 38% de las organizaciones usa planeación de escenarios estructurada, aunque quienes la usan cierran el presupuesto 11% más rápido, en promedio. Ninguno de esos números es un problema de software. Son síntomas de un proceso que produce números sin volver a revisar el anterior."
+      "content": "La propia AFP hace este diagnóstico en la edición 2026 de la encuesta: proceso, habilidades y disciplina de ejecución no acompañaron a la tecnología. El ciclo presupuestario promedio sigue cerca de nueve semanas, sin cambios en tres años. Son síntomas de un proceso que produce números sin volver a revisar el anterior."
     },
     {
       "type": "heading",
@@ -140,11 +140,11 @@
     },
     {
       "type": "paragraph",
-      "content": "El error además llega tarde. Descubierto once meses después, no corrige ninguna decisión. Solo alimenta una presentación de lecciones aprendidas."
+      "content": "El error además llega tarde. Cuando solo aparece en la revisión de fin de año, no corrige ninguna decisión. Solo alimenta una presentación de lecciones aprendidas."
     },
     {
       "type": "paragraph",
-      "content": "Quedan dos puntos ciegos. El primero es el total, que esconde las líneas: los errores grandes en direcciones opuestas se cancelan en el consolidado. La empresa celebra una desviación pequeña en la facturación total mientras dos regiones fallaron por mucho, una para cada lado. Por eso la medición cubre todo el forecast, línea por línea."
+      "content": "Quedan dos puntos de atención. El primero es el total, que esconde las líneas: los errores grandes en direcciones opuestas se cancelan en el consolidado. La empresa celebra una desviación pequeña en la facturación total mientras dos regiones fallaron por mucho, una para cada lado. Por eso la medición cubre todo el forecast, línea por línea."
     },
     {
       "type": "paragraph",
@@ -157,7 +157,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Mida todo el forecast, línea por línea, desde el próximo cierre. En cada cierre, guarde la versión del forecast de ese mes antes de actualizarla, porque sin la versión congelada no hay error que calcular. Compare lo proyectado con lo real y registre la desviación con signo, hacia arriba o hacia abajo, nunca en valor absoluto. El signo es lo que revela el sesgo."
+      "content": "Mide todo el forecast, línea por línea, desde el próximo cierre. En cada cierre, guarda la versión del forecast de ese mes antes de actualizarla, porque sin la versión congelada no hay error que calcular. Compara lo proyectado con lo real y registra la desviación con signo, hacia arriba o hacia abajo, nunca en valor absoluto. El signo es lo que revela el sesgo."
     },
     {
       "type": "paragraph",
@@ -170,7 +170,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La pregunta del comienzo era por qué el 86% de los equipos nunca revisa su forecast. La respuesta es de incentivos, no de pereza. Revisar expone el error. El error expuesto incomoda a quien defiende el número. Mientras el forecast sea el presupuesto con fecha nueva, nadie quiere la nota."
+      "content": "La pregunta del comienzo era por qué el 86% de los equipos no mide su forecast. La respuesta es de incentivos, no de pereza. Revisar expone el error. El error expuesto incomoda a quien defiende el número. Mientras el forecast sea el presupuesto con fecha nueva, nadie quiere la nota."
     },
     {
       "type": "paragraph",
@@ -183,7 +183,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Un forecast solo mejora cuando alguien mide su error. Medir exige que la previsión de cada mes siga existiendo cuando el mes cierra. En BudgetXpert, presupuesto y forecast conviven como versiones del mismo plan. Solo una lleva la marca de oficial. Las otras no se confunden con ella. Una línea del forecast nuevo trae sola el resultado del anterior, sin copiar celdas. En mayo, el director comercial y el analista de finanzas mirarían la misma versión oficial, con la anterior guardada para comparar."
+      "content": "Medir el error exige que la previsión de cada mes siga existiendo cuando el mes cierra. En BudgetXpert, presupuesto y forecast conviven como versiones del mismo plan. Solo una lleva la marca de oficial. Las otras no se confunden con ella. Una línea del forecast nuevo trae sola el resultado del anterior, sin copiar celdas. En mayo, el director comercial y el analista de finanzas mirarían la misma versión oficial, con la anterior guardada para comparar."
     },
     {
       "type": "paragraph",

@@ -51,11 +51,11 @@
     },
     {
       "type": "paragraph",
-      "content": "A explicação habitual é falta de tempo ou de ferramenta. O argumento aqui é outro: em muitas empresas, forecast e orçamento viraram a mesma planilha com dois nomes. Os dois respondem a perguntas diferentes. O forecast só melhora quando alguém mede o erro dele."
+      "content": "O dado vem da pesquisa FP&A (Financial Planning & Analysis, planejamento e análise financeira) Benchmarking Survey 2026, feita com 332 profissionais em 54 países."
     },
     {
       "type": "paragraph",
-      "content": "O dado vem da pesquisa FP&A (Financial Planning & Analysis, planejamento e análise financeira) Benchmarking Survey 2026, feita com 332 profissionais em 54 países."
+      "content": "A explicação habitual é falta de tempo ou de ferramenta. O argumento aqui é outro: em muitas empresas o forecast virou o orçamento com data nova. Ninguém tem incentivo para medi-lo. Orçamento e forecast respondem a perguntas diferentes. O forecast só melhora quando alguém mede o erro dele."
     },
     {
       "type": "heading",
@@ -115,7 +115,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A quarta frente que a McKinsey recomenda para melhorar o forecast é medir a efetividade com granularidade, por linha e por área, não só no total. O objetivo é descobrir qual indicador vinha sendo ignorado antes de o problema chegar ao resultado."
+      "content": "A McKinsey recomenda, entre as frentes para melhorar o forecast, medir a efetividade com granularidade, por linha e por área, não só no total. O objetivo é descobrir qual indicador vinha sendo ignorado antes de o problema chegar ao resultado."
     },
     {
       "type": "paragraph",
@@ -127,7 +127,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A própria AFP faz esse diagnóstico na edição 2026 da pesquisa: processo, habilidade e disciplina de execução não acompanharam a tecnologia. O ciclo orçamentário médio segue perto de nove semanas, sem mudança em três anos. Só 38% das organizações usam planejamento de cenários estruturado, embora quem use feche o orçamento 11% mais rápido, em média. Nenhum desses números é problema de software. São sintomas de um processo que produz número sem voltar para conferir o anterior."
+      "content": "A própria AFP faz esse diagnóstico na edição 2026 da pesquisa: processo, habilidade e disciplina de execução não acompanharam a tecnologia. O ciclo orçamentário médio segue perto de nove semanas, sem mudança em três anos. São sintomas de um processo que produz número sem voltar para conferir o anterior."
     },
     {
       "type": "heading",
@@ -140,11 +140,11 @@
     },
     {
       "type": "paragraph",
-      "content": "O erro também chega tarde. Descoberto onze meses depois, não corrige decisão nenhuma, só alimenta uma apresentação de aprendizados."
+      "content": "O erro também chega tarde. Quando só aparece na revisão do fim do ano, não corrige decisão nenhuma, só alimenta uma apresentação de aprendizados."
     },
     {
       "type": "paragraph",
-      "content": "Ficam ainda dois pontos cegos. O primeiro é o total, que esconde as linhas: erros grandes em direções opostas se cancelam no consolidado. A empresa comemora um desvio pequeno no faturamento total enquanto duas regiões erraram muito, uma para cada lado. Por isso a medição cobre o forecast inteiro, linha por linha."
+      "content": "Ficam ainda dois pontos de atenção. O primeiro é o total, que esconde as linhas: erros grandes em direções opostas se cancelam no consolidado. A empresa comemora um desvio pequeno no faturamento total enquanto duas regiões erraram muito, uma para cada lado. Por isso a medição cobre o forecast inteiro, linha por linha."
     },
     {
       "type": "paragraph",
@@ -183,7 +183,7 @@
     },
     {
       "type": "paragraph",
-      "content": "O forecast só melhora quando alguém mede o erro dele. Medir exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Só uma leva a marca de oficial. As outras não se confundem com ela. Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial, com a anterior guardada para comparar."
+      "content": "Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Só uma leva a marca de oficial. As outras não se confundem com ela. Uma linha do forecast novo puxa o resultado do anterior sozinha, sem copiar célula. Em maio, o diretor comercial e o analista de finanças olhariam a mesma versão oficial, com a anterior guardada para comparar."
     },
     {
       "type": "paragraph",

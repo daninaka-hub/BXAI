@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Lack of time or tools is the usual explanation. This article argues something else: in many companies, budget vs forecast has stopped being a distinction. They became one spreadsheet with two names. The two answer different questions, and the forecast only improves when someone measures its error."
+      "content": "Lack of time or tools is the usual explanation. This article argues something else: in many companies the forecast has become the budget with a new date. Nobody has an incentive to measure it. Budget and forecast answer different questions. The forecast only improves when someone measures its error."
     },
     {
       "type": "heading",
@@ -111,7 +111,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The fourth front McKinsey recommends for improving a forecast is to measure effectiveness in detail, by line and by area, not just in total. The goal is to find which indicator was being ignored before the problem reached the results."
+      "content": "Among the fronts McKinsey recommends for improving a forecast is to measure effectiveness in detail, by line and by area, not just in total. The goal is to find which indicator was being ignored before the problem reached the results."
     },
     {
       "type": "paragraph",
@@ -123,7 +123,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The AFP makes this diagnosis itself in the 2026 edition of the survey: process, skills and execution discipline have not kept pace with technology. The average budget cycle still takes close to nine weeks, unchanged in three years. Only 38% of organizations use structured scenario planning, although those that do close the budget 11% faster on average. None of these numbers is a software problem. They are symptoms of a process that produces numbers without going back to check the previous one."
+      "content": "The AFP makes this diagnosis itself in the 2026 edition of the survey: process, skills and execution discipline have not kept pace with technology. The average budget cycle still takes close to nine weeks, unchanged in three years. They are symptoms of a process that produces numbers without going back to check the previous one."
     },
     {
       "type": "heading",
@@ -136,11 +136,11 @@
     },
     {
       "type": "paragraph",
-      "content": "The error also arrives late. Found eleven months later, it corrects no decision. It only feeds a lessons-learned presentation."
+      "content": "The error also arrives late. When it only shows up in the year-end review, it corrects no decision. It only feeds a lessons-learned presentation."
     },
     {
       "type": "paragraph",
-      "content": "Two blind spots remain. The first is the total, which hides the lines: large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way. That is why measurement covers the whole forecast, line by line."
+      "content": "Two points of attention remain. The first is the total, which hides the lines: large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way. That is why measurement covers the whole forecast, line by line."
     },
     {
       "type": "paragraph",
@@ -166,7 +166,7 @@
     },
     {
       "type": "paragraph",
-      "content": "The question at the start was why 86% of teams never check their forecast. The answer is about incentives, not laziness. Checking exposes the error. An exposed error bothers whoever defends the number. As long as the forecast is the budget with a new date, nobody wants the score."
+      "content": "The question at the start was why 86% of teams do not measure their forecast. The answer is about incentives, not laziness. Checking exposes the error. An exposed error bothers whoever defends the number. As long as the forecast is the budget with a new date, nobody wants the score."
     },
     {
       "type": "paragraph",
@@ -179,7 +179,7 @@
     },
     {
       "type": "paragraph",
-      "content": "A forecast only improves when someone measures its error. Measuring requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan. Only one carries the official mark. The others do not get confused with it. A line in the new forecast pulls the result from the previous one on its own, without copying cells. In May, the sales director and the finance analyst would look at the same official version, with the previous one kept for comparison."
+      "content": "Measuring the error requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan. Only one carries the official mark. The others do not get confused with it. A line in the new forecast pulls the result from the previous one on its own, without copying cells. In May, the sales director and the finance analyst would look at the same official version, with the previous one kept for comparison."
     },
     {
       "type": "paragraph",

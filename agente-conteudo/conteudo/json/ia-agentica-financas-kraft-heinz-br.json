@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa: ninguém conferiu a hipótese de que cada desconto era real."
+      "content": "Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa, o motivo para acreditar em um número: ninguém conferiu a hipótese de que cada desconto era real."
     },
     {
       "type": "paragraph",
@@ -102,15 +102,15 @@
     },
     {
       "type": "paragraph",
-      "content": "A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com dono ou sem ele. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. Mesmo assim, diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real."
+      "content": "A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com dono ou sem ele. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. O mesmo banco diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real."
     },
     {
       "type": "paragraph",
-      "content": "Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque as pessoas somavam devagar. Um agente que consolida em minutos teria levado o mesmo padrão ao mesmo tamanho em meses."
+      "content": "Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque ninguém rastreava a origem de cada desconto. Um agente que consolida em minutos, sem esse rastreio, teria levado o mesmo padrão ao mesmo tamanho em meses."
     },
     {
       "type": "paragraph",
-      "content": "Não rastrear premissas já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém sabia de onde vinha cada desconto. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria. Todos os números entram, porque o erro se esconde justamente no que ninguém rastreia."
+      "content": "Não rastrear premissas já tem preço. Na Kraft Heinz foram US$ 208 milhões corrigidos nos resultados, US$ 62 milhões de multa e US$ 450 milhões de acordo com acionistas, tudo porque ninguém na consolidação conferia de onde vinha cada desconto. Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria."
     },
     {
       "type": "heading",
@@ -123,11 +123,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Todos os números entram, um ponto do processo de cada vez."
+      "content": "Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Um ponto do processo de cada vez já basta para começar."
     },
     {
       "type": "paragraph",
-      "content": "A área que cuida disso é a controladoria, responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu, como ocorreu na Kraft Heinz, quando a conta já somava bilhões."
+      "content": "As três respostas ficam com a controladoria, a área responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu, como ocorreu na Kraft Heinz, quando a conta já somava bilhões."
     },
     {
       "type": "heading",

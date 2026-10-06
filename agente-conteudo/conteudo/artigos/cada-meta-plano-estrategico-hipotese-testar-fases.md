@@ -14,7 +14,7 @@ O método que melhor expõe isso é o Strategy Map, ou mapa estratégico, criado
 
 Cada seta é uma hipótese, não um fato. "Se treinarmos a equipe, o processo melhora" pode ser verdade na empresa do caso de estudo e falso na sua, neste mercado, neste ano. Por isso o método prevê revisão trimestral do mapa, com realocação de recursos (Umbrex). A revisão serve para confrontar cada seta com o que aconteceu, enquanto ainda sobra dinheiro para mudar de rumo.
 
-O custo do erro cresce com o número de apostas. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. A Target colocou todas na rua ao mesmo tempo. Cada aposta que falha sem aviso custa tudo o que já foi investido nela. Em fases, cada uma tem a sua hora de ser conferida, com a ordem decidindo qual vem primeiro.
+O custo do erro cresce com o número de apostas. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. A Target colocou todas na rua ao mesmo tempo. Cada aposta que falha sem aviso custa tudo o que já foi investido nela. Em fases, cada aposta tem a sua hora de ser conferida. A ordem define qual vem primeiro.
 
 ## O que a Target apostou ao mesmo tempo
 
@@ -32,11 +32,11 @@ Para isso, cada fase precisa de três definições feitas antes de começar: a h
 
 No caso canadense, a versão em fases seria abrir 10 lojas numa única região, com o sistema novo rodando só nelas, antes das outras 123. O erro de cadastro custaria 10 lojas, não 133. O aprendizado seria o mesmo.
 
-Sem teste, o mesmo erro custou as 133 lojas e afetou 17.600 funcionários. Com teste, custaria 10 lojas. Cada hipótese seria respondida separada da outra, então a empresa saberia cedo qual delas falhou. Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
+Cada hipótese seria respondida separada da outra, então a empresa saberia cedo qual delas falhou. Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
 
 ## Quem decide quando o teste falha?
 
-Aqui está o motivo mais comum de o teste nunca acontecer. Na pesquisa da Deloitte (deloitte.com), rede global de auditoria e consultoria, com Chief Strategy Officers, os executivos responsáveis pela estratégia da empresa, 65% afirmam não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível (fevereiro de 2026).
+Aqui está um motivo frequente de o teste nunca acontecer. Na pesquisa da Deloitte (deloitte.com), rede global de auditoria e consultoria, com Chief Strategy Officers, os executivos responsáveis pela estratégia da empresa, 65% afirmam não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível (fevereiro de 2026).
 
 Pense em quem ganha o quê. Interromper algo já anunciado custa reputação a quem interrompe. Ninguém é pago para assumir esse custo se a hipótese não é dele. Sem dono, a aposta não ganha data de verificação. O plano segue porque seguir é o caminho de menor atrito.
 
@@ -44,7 +44,7 @@ Vale separar duas coisas que se confundem. Um indicador não avisa ninguém. Uma
 
 ## Falta tecnologia ou falta disciplina para testar?
 
-A AFP, Association for Financial Professionals, associação de profissionais de finanças corporativas, ouviu em 2026 um total de 332 profissionais de FP&A, a área de planejamento e análise financeira, em 54 países. Só 38% das organizações usam planejamento de cenários estruturado, a prática de montar versões alternativas do plano antes de executá-lo. Quem usa fecha o orçamento 11% mais rápido em média.
+A AFP, Association for Financial Professionals, associação de profissionais de finanças corporativas, ouviu em 2026 profissionais de FP&A, a área de planejamento e análise financeira. Só 38% das organizações usam planejamento de cenários estruturado, a prática de montar versões alternativas do plano antes de executá-lo. Quem usa fecha o orçamento 11% mais rápido em média.
 
 O dado não prova que o cenário causa a rapidez, já que empresas mais organizadas podem fazer as duas coisas. Mostra algo mais útil: a ferramenta existe e a prática não acompanhou. Para a AFP, processo, habilidades e disciplina de execução ficaram para trás da tecnologia. Cenário é hipótese testada no papel. Fase é hipótese testada com dinheiro, em escala pequena. As duas descobrem cedo qual aposta do plano está errada.
 
@@ -60,7 +60,7 @@ A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target e
 
 ## E se cada hipótese do plano tivesse dono?
 
-No plano da Target, 133 lojas dependiam das mesmas hipóteses que 10 lojas teriam bastado para testar. Na BudgetXpert, o plano não tem estrutura fixa. Cada hipótese viraria uma premissa com dono, definida uma vez e reutilizada em vários orçamentos, com valor diferente mês a mês conforme as lojas abrem. Cada área veria e editaria só a parte dela. Quem consolida veria tudo. No dia do resultado, haveria um nome para cada hipótese que falhou.
+Na BudgetXpert, o plano não tem estrutura fixa. Cada hipótese viraria uma premissa com dono, definida uma vez e reutilizada em vários orçamentos, com valor diferente mês a mês conforme as lojas abrem. Cada área veria e editaria só a parte dela. Quem consolida veria tudo. No dia do resultado, haveria um nome para cada hipótese que falhou.
 
 O resto está em [budgetxpert.ai](https://www.budgetxpert.ai).
 

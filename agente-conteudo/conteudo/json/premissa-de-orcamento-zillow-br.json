@@ -30,7 +30,7 @@
     "critério de revisão"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "O algoritmo não calculou errado. Falhou uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. Ninguém tinha a tarefa de revisá-la. Toda premissa pode nascer certa e envelhecer errada sem que ninguém tome uma decisão errada no caminho. Existem três perguntas que mostram se as suas estão sob controle. O caso da Zillow ajuda a entender cada uma."
+      "content": "O cálculo funcionava como foi projetado. Falhou uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. Uma premissa pode estar certa no dia em que é definida e errada seis meses depois. O mercado mudou. Ninguém voltou a conferir. Existem três perguntas que mostram se as suas estão sob controle. O caso da Zillow ajuda a entender cada uma."
     },
     {
       "type": "heading",
@@ -73,7 +73,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Porque o que muda, muitas vezes, não é o cálculo, é o uso que se faz dele. Até fevereiro de 2021, um erro de estimativa era só um palpite impreciso. Depois, cada erro passou a ser um cheque assinado. Segundo a análise da Shackleford, consultoria de liderança em IA, a Zillow fez essa troca sem criar nenhuma regra nova de governança, ou seja, sem definir quem controlaria o uso da ferramenta."
+      "content": "O tempo é uma causa. A outra é o uso: o que muda, muitas vezes, não é o cálculo, é o que se faz com ele. Até fevereiro de 2021, um erro de estimativa era só um palpite impreciso. Depois, cada erro passou a ser um cheque assinado. Segundo a análise da Shackleford, consultoria de liderança em IA, a Zillow fez essa troca sem criar nenhuma regra nova de governança, ou seja, sem definir quem controlaria o uso da ferramenta."
     },
     {
       "type": "paragraph",
@@ -86,7 +86,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Toda premissa precisa de um dono. Não de um nome no organograma, mas de alguém que sabe explicar por que aquele número e não outro e que será chamado quando ele deixar de valer. Na Zillow, a decisão de transformar estimativa em oferta vinculante foi de negócio, tomada em cima de um algoritmo. Ninguém recebeu a tarefa de vigiar se a premissa ainda fazia sentido depois da mudança."
+      "content": "Toda premissa precisa de um dono. Não de um nome no organograma, mas de alguém que sabe explicar por que aquele número e não outro e que será chamado quando ele deixar de valer. Na Zillow, a decisão de transformar estimativa em oferta vinculante foi de negócio, tomada em cima de um algoritmo. Não há registro de que alguém tenha recebido a tarefa de vigiar se a premissa ainda fazia sentido depois da mudança."
     },
     {
       "type": "paragraph",
@@ -112,11 +112,11 @@
     },
     {
       "type": "paragraph",
-      "content": "É a pergunta que mais falta, até em empresas que já têm dono e critério. Toda premissa precisa de uma data de validade, um gatilho que diga quando será reexaminada. Reexaminada, não abandonada: revisar a premissa não muda a meta, só confere se a base de cálculo ainda reflete a realidade."
+      "content": "É a pergunta que costuma ficar sem resposta, mesmo onde já existem dono e critério. Toda premissa precisa de uma data de validade, um gatilho que diga quando será reexaminada. Reexaminada, não abandonada: revisar a premissa não muda a meta, só confere se a base de cálculo ainda reflete a realidade."
     },
     {
       "type": "paragraph",
-      "content": "A data de revisão não precisa seguir o calendário fiscal. Precisa seguir a velocidade da variável que a premissa tenta prever. O preço de uma matéria-prima em mercado volátil pode pedir revisão todo mês, mesmo dentro de um orçamento anual. Na Zillow, não havia gatilho para conferir se o perfil de quem aceitava as ofertas tinha mudado."
+      "content": "A data de revisão não precisa seguir o calendário fiscal. Precisa seguir a velocidade da variável que a premissa tenta prever. O preço de uma matéria-prima em mercado volátil pode pedir revisão todo mês, mesmo dentro de um orçamento anual. O obstáculo é prático: revisar a premissa costuma exigir refazer partes do orçamento. Um orçamento que leva meses para fechar não comporta uma revisão por mês. Na Zillow, não havia gatilho para conferir se o perfil de quem aceitava as ofertas tinha mudado."
     },
     {
       "type": "heading",
@@ -129,7 +129,7 @@
     },
     {
       "type": "paragraph",
-      "content": "O CEO, Rich Barton, explicou ao encerrar a operação que o algoritmo não conseguia prever com confiabilidade quanto capital a empresa precisaria arriscar. Recusou atribuir a perda a eventos externos imprevisíveis. Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono, sem critério protegido da pressão por meta e sem gatilho de revisão."
+      "content": "O CEO, Rich Barton, explicou ao encerrar a operação que o algoritmo não conseguia prever com confiabilidade quanto capital a empresa precisaria arriscar. Recusou atribuir a perda a eventos externos imprevisíveis. O problema que ele descreveu é o da premissa: o modelo supunha um mercado que deixou de existir. Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono, sem critério protegido da pressão por meta e sem gatilho de revisão."
     },
     {
       "type": "heading",
@@ -138,11 +138,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Custa o que a Zillow pagou. Uma premissa sem dono não avisa quando deixa de valer, então o erro só aparece no resultado, quando já virou perda. Na Zillow, ninguém olhou o número que sustentava as ofertas. A distância entre o algoritmo e o mercado só apareceu no balanço de 2021. A mesma distância, vista numa reunião, teria custado uma conversa."
-    },
-    {
-      "type": "paragraph",
-      "content": "Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão."
+      "content": "Custa o que a Zillow pagou. Uma premissa sem dono não avisa quando deixa de valer, então o erro só aparece no resultado, quando já virou perda. Na Zillow, ninguém conferiu de forma independente o número que sustentava as ofertas. A distância entre o algoritmo e o mercado só apareceu no balanço de 2021. A mesma distância, vista numa reunião, teria custado uma conversa."
     },
     {
       "type": "heading",
@@ -155,7 +151,11 @@
     },
     {
       "type": "paragraph",
-      "content": "A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo."
+      "content": "Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão."
+    },
+    {
+      "type": "paragraph",
+      "content": "A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem três coisas ao lado, um nome, o critério usado e a data em que será revisto. Quem assina o número é quem vai olhar para ele de novo."
     },
     {
       "type": "heading",
@@ -164,7 +164,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Em todo orçamento, a premissa é validada no dia e depois perde o rastro de por que existe. A de que o preço das casas continuaria subindo seguiu esse caminho. Revisar premissas durante o ano quase não acontece, porque o processo leva meses para ficar pronto. Repeti-lo todo mês significaria passar o ano em orçamento."
+      "content": "Em todo orçamento, a premissa perde o rastro de por que existe depois do dia em que é validada. A de que o preço das casas continuaria subindo seguiu esse caminho. Revisar durante o ano quase não acontece, porque o processo leva meses para ficar pronto. Repeti-lo todo mês significaria passar o ano em orçamento."
     },
     {
       "type": "paragraph",
