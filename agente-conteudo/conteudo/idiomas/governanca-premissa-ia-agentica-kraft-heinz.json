@@ -1,0 +1,145 @@
+{
+  "pt": {
+    "seo": {
+      "palavra_chave": "IA agêntica",
+      "palavras_secundarias": [
+        "governança de premissas",
+        "IA agêntica em finanças",
+        "consolidação orçamentária",
+        "controladoria",
+        "fraude contábil"
+      ],
+      "titulo_seo": "IA agêntica em finanças: o caso Kraft Heinz",
+      "meta_descricao": "A Kraft Heinz lançou 300 descontos falsos por 3 anos. Veja o que isso revela sobre a IA agêntica em finanças e o que fazer antes de automatizar.",
+      "slug_url": "ia-agentica-financas-kraft-heinz",
+      "resumo_geo": "IA agêntica é um sistema de IA que executa tarefas por conta própria, como somar e conciliar números. Uma pesquisa de 2025 citada pela Neurons Lab mostra que 99% das empresas planejam usá-la em finanças e só 11% já a colocaram em produção, por falta de dados e governança. O caso Kraft Heinz, com US$ 208 milhões em descontos falsos lançados de 2015 a 2018, mostra o que acontece quando ninguém rastreia a premissa de cada número.",
+      "faq": [
+        {
+          "pergunta": "O que é IA agêntica em finanças?",
+          "resposta": "São sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. Eles aplicam regras sobre os dados que já existem na empresa."
+        },
+        {
+          "pergunta": "Por que só 11% das empresas colocaram IA agêntica em produção?",
+          "resposta": "Segundo pesquisa de 2025 citada pela Neurons Lab, 99% planejam usar, mas o motivo mais citado para não avançar são dados, governança e segurança, não o preço da tecnologia."
+        },
+        {
+          "pergunta": "O que o caso Kraft Heinz ensina sobre governança de premissas?",
+          "resposta": "Entre 2015 e 2018, cerca de 300 transações lançaram descontos de fornecedores que nunca existiram, somando US$ 208 milhões. Ninguém rastreava de onde vinha cada número na consolidação, e um agente de IA levaria o mesmo erro ao mesmo tamanho em menos tempo."
+        }
+      ],
+      "entidades": [
+        "Kraft Heinz",
+        "3G Capital",
+        "SEC",
+        "Neurons Lab",
+        "Lloyds Banking Group",
+        "The D&O Diary",
+        "Journal of Forensic and Investigative Accounting",
+        "IA agêntica",
+        "premissa",
+        "consolidação",
+        "controladoria",
+        "EBITDA",
+        "goodwill"
+      ]
+    }
+  },
+  "en": {
+    "titulo": "Would agentic AI repeat Kraft Heinz's $208 million fraud?",
+    "artigo": "In 2017, Kraft Heinz, an American multinational food company (kraftheinzcompany.com), needed its EBITDA to grow 6.1% for its teams to receive bonuses. EBITDA is operating profit before interest, taxes and depreciation. The company delivered 3%, less than half the target.\n\nUnder that pressure, procurement (the purchasing department) began booking as savings supplier discounts the company had never earned, in roughly 300 transactions from late 2015 to late 2018. The failure was not arithmetic. It was an assumption: nobody checked that each discount was real.\n\nThat is where agentic AI stalls too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. The thesis here is simple: agentic AI does not fix a process that has no owner, it only speeds it up. To see why, start inside Kraft Heinz.\n\n## Who benefited from Kraft Heinz's 300 discounts?\n\nIncentives explain most of it. The bonus depended on hitting the EBITDA target. Every booked discount moved the result closer to it. Consolidation, the step where every department's numbers are added into the company's results, had no stage that traced where each discount came from. Whoever booked the discount gained. Whoever added the numbers was not paid to doubt them.\n\n3G Capital, the investment firm that controls Kraft Heinz, used zero-based budgeting, in which every expense must be justified from scratch each cycle. The practice is legitimate and it is not the villain of this story. It only raised the pressure on the people who had to show savings.\n\nThe bill arrived in stages. In February 2019, the company announced a $15.4 billion write-down of goodwill (the premium paid for acquisitions above the value of their assets) and of brands such as Kraft and Oscar Mayer, with a net loss of $12.6 billion for the quarter. In June 2019, it restated its financial statements, the official earnings reports, correcting $208 million in savings that did not exist. In 2021, it paid a $62 million penalty to the SEC, the US regulator of securities markets. Two executives were also penalized: the chief operating officer paid $300,000, while the chief procurement officer paid $100,000 and was barred for 5 years from serving as an officer or director of a public company. In 2023, the settlement with shareholders cost another $450 million.\n\n## What is an assumption, and why does it vanish in consolidation?\n\nAn assumption is the reason to believe a number. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When the number reaches consolidation without its assumption, the person adding things up sees only the total.\n\nThat is why three hundred transactions over three years do not point to a sophisticated fraud. They point to a missing question, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks. A process does not need widespread bad faith to fail.\n\nSilent error is more common than deliberate fraud. In most companies nobody is trying to fool anybody. There is simply a number everyone uses and nobody can explain. Kraft Heinz is the extreme case of the same weakness.\n\n## Why can't agentic AI in finance fix this on its own?\n\nA 2025 survey, cited by Neurons Lab, an agentic AI engineering consultancy (neurons-lab.com), found that 99% of companies plan to put AI agents into production in finance. Only 11% have done so. The most cited reason is not the price of the technology. It is data, governance and security, the least glamorous items on the list.\n\nIntuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with an owner or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the discount that never existed. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. Even so, it says it deploys its agents with rigorous testing, human oversight and real-time monitoring.\n\nNow picture what that would have done at Kraft Heinz. The scheme took three years to surface because people added numbers slowly. An agent that consolidates in minutes would have grown the same pattern to the same size in months.\n\nTracing assumptions has a cost. Every relevant number gets an owner and a record, the close slows down at first and someone has to say \"I don't know where this came from\" out loud. For small, low-risk tasks such as formatting a report, that cost is not worth paying. For budgeting and closing the books, it is.\n\n## How to apply this before automating\n\nFor every relevant number in the budget or the close, three answers must be written down: who owns the assumption, what criterion produced the number and who validated it before it entered consolidation.\n\nThis does not require a new system or a months-long project. Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem.\n\nThe function that handles this is controllership, which is responsible for the reliability of the company's numbers. It differs from auditing, which finds the problem after it has happened, as it did at Kraft Heinz, when the bill already ran into the billions.\n\n## How the question changes\n\nThe usual question is when the company will be able to use agentic AI in finance. The better question is which number in today's budget nobody could explain. Kraft Heinz answered it without any AI. The cost took years to show up.\n\nAI does not create the governance problem. It measures how long the problem takes to appear. So a company that organizes the origin of its numbers before automating is not slowing AI down. It is deciding whether AI will work for its results or against them.\n\nSource: cited by Neurons Lab (neurons-lab.com), an agentic AI engineering consultancy, \"Agentic AI in Financial Services: A Research Roundup for 2026\" (2025 survey). Lloyds Banking Group (lloydsbankinggroup.com), British bank, \"2026: The year of Agentic AI, and a new era for finance\" (January 21, 2026). Kraft Heinz case: SEC, \"SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme\". The D&O Diary (dandodiary.com), a publication on securities litigation, \"Kraft Heinz Securities Litigation Settles for $450 Million\". Journal of Forensic and Investigative Accounting, \"Kraft Heinz Company and the $15.4 Billion\".",
+    "post": "Would your AI ask where Kraft Heinz's 300 fake discounts came from?\n\nIn 2017, Kraft Heinz, the American food giant, needed its EBITDA (operating profit) to grow 6.1% to pay bonuses. It delivered 3%.\n\nFrom late 2015 to late 2018, its procurement team booked as savings supplier discounts the company had never earned, across about 300 transactions. Nobody in consolidation, the step that adds up every department's numbers, asked where each one came from. In 2019, the company corrected $208 million in its financial statements. In 2021, it paid a $62 million penalty to the SEC, the US securities regulator. In 2023, it settled with shareholders for $450 million.\n\nIt was not a sophisticated fraud. It was an assumption nobody checked: that every discount was real.\n\nNow the surprising number. 99% of companies plan to put agentic AI in finance, meaning agents that carry out tasks on their own. Only 11% have done it. The reason is not the price of the tool, it is data and governance.\n\nAn agent adds everything up with the same confidence, including the discount that never existed. What took three years at Kraft Heinz would take months.\n\nSo the question stops being when you will use AI. It becomes which number in your budget nobody could explain.\n\nFull article: [article link]\n\n#Controllership #FinanceAutomation #AgenticAI #FinancialGovernance",
+    "roteiro": "**0 to 3s**\n\"Would your AI ask where Kraft Heinz's 300 fake discounts came from?\"\n\n**3 to 20s**\n\"Kraft Heinz, the American food giant, needed operating profit to grow 6.1% to pay bonuses. It delivered 3%. From late 2015 to late 2018, its procurement team booked as savings supplier discounts the company had never earned, across about 300 transactions. In 2019, it corrected 208 million dollars. Then came a penalty and a 450 million dollar settlement with shareholders.\"\n\n**20 to 30s**\n\"It was not a sophisticated fraud. It was a question nobody asked: where does this number come from, and who confirms it is real?\"\n\n**30 to 45s**\n\"Now the surprising part. 99% of companies plan to use agentic AI in finance, agents that carry out tasks on their own. Only 11% have put it into production. The reason is not the price of the tool, it is data and governance. An agent adds everything up with the same confidence, including the discount that never existed.\"\n\n**45 to 55s**\n\"What took three years at Kraft Heinz would take months. The question stops being when you will use AI. It becomes which number in your budget nobody could explain.\"\n\n**55 to 60s**\n\"The full article is linked in the comments.\"",
+    "seo": {
+      "palavra_chave": "agentic AI",
+      "palavras_secundarias": [
+        "assumption governance",
+        "budget consolidation",
+        "controllership",
+        "accounting fraud",
+        "AI agents"
+      ],
+      "titulo_seo": "Agentic AI in Finance: The Kraft Heinz Case",
+      "meta_descricao": "Kraft Heinz booked 300 fake discounts for 3 years. See what it reveals about agentic AI in finance and what to fix before you automate.",
+      "slug_url": "agentic-ai-finance-kraft-heinz",
+      "resumo_geo": "Agentic AI is AI that carries out tasks on its own, such as adding up and reconciling numbers. A 2025 survey cited by Neurons Lab found that 99% of companies plan to use it in finance and only 11% have put it into production, mainly because of data and governance gaps. The Kraft Heinz case, with $208 million in fake discounts booked from 2015 to 2018, shows what happens when nobody traces the assumption behind each number.",
+      "faq": [
+        {
+          "pergunta": "What is agentic AI in finance?",
+          "resposta": "It is AI that carries out tasks on its own, such as adding up and reconciling the numbers in a budget. It applies rules to the data a company already has."
+        },
+        {
+          "pergunta": "Why have only 11% of companies put agentic AI into production?",
+          "resposta": "A 2025 survey cited by Neurons Lab found that 99% plan to use it, but the most cited obstacles are data, governance and security, not the price of the technology."
+        },
+        {
+          "pergunta": "What does the Kraft Heinz case teach about assumption governance?",
+          "resposta": "From 2015 to 2018, about 300 transactions booked supplier discounts that never existed, totaling $208 million. Nobody traced where each number came from in consolidation, and an AI agent would grow the same error to the same size in less time."
+        }
+      ],
+      "entidades": [
+        "Kraft Heinz",
+        "3G Capital",
+        "SEC",
+        "Neurons Lab",
+        "Lloyds Banking Group",
+        "The D&O Diary",
+        "Journal of Forensic and Investigative Accounting",
+        "agentic AI",
+        "assumption",
+        "consolidation",
+        "controllership",
+        "EBITDA",
+        "goodwill"
+      ]
+    }
+  },
+  "es": {
+    "titulo": "¿La IA agéntica repetiría el fraude de 208 millones de dólares de Kraft Heinz?",
+    "artigo": "En 2017, Kraft Heinz, multinacional estadounidense de alimentos (kraftheinzcompany.com), necesitaba que su EBITDA creciera 6,1% para que sus equipos cobraran bonos. EBITDA es la utilidad operativa antes de intereses, impuestos y depreciación. La empresa entregó 3%, menos de la mitad de la meta.\n\nBajo esa presión, el área de compras (procurement) registró como ahorro descuentos de proveedores que nunca había ganado, en unas 300 transacciones, de fines de 2015 a fines de 2018. La falla no fue de cálculo. Fue de premisa: nadie comprobó que cada descuento era real.\n\nAhí se atasca también la IA agéntica, sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto. La tesis de este texto es directa: la IA agéntica no corrige un proceso sin dueño, solo lo acelera. Para entender por qué, hay que empezar dentro de Kraft Heinz.\n\n## ¿Quién ganaba con los 300 descuentos de Kraft Heinz?\n\nLos incentivos explican casi todo. El bono dependía de alcanzar la meta de EBITDA. Cada descuento registrado acercaba el resultado a esa meta. La consolidación, el momento en que las cifras de todas las áreas se suman en el resultado de la empresa, no tenía una etapa que rastreara de dónde venía cada descuento. Quien registraba ganaba. A quien sumaba no le pagaban por dudar.\n\n3G Capital, la gestora que controla a Kraft Heinz, aplicaba el presupuesto base cero, en el que todo gasto debe justificarse desde cero en cada ciclo. La práctica es legítima y no es la villana de esta historia. Solo aumentó la presión sobre quienes tenían que mostrar ahorro.\n\nLa factura llegó por etapas. En febrero de 2019, la empresa anunció un ajuste contable de 15.400 millones de dólares en goodwill (lo pagado de más en adquisiciones sobre el valor de sus activos) y en marcas como Kraft y Oscar Mayer, con una pérdida neta de 12.600 millones de dólares en el trimestre. En junio de 2019 reexpresó sus estados financieros, los informes oficiales de resultados. Corrigió así 208 millones de dólares en ahorros que no existían. En 2021 pagó 62 millones de dólares de multa a la SEC, el regulador del mercado de valores de Estados Unidos. Dos ejecutivos también fueron sancionados: el director de operaciones pagó 300.000 dólares, mientras que el director de compras pagó 100.000 dólares y quedó inhabilitado por 5 años para ocupar cargos directivos en empresas que cotizan en bolsa. En 2023, el acuerdo con los accionistas costó otros 450 millones de dólares.\n\n## ¿Qué es una premisa y por qué desaparece en la consolidación?\n\nLa premisa es la razón para creer en una cifra. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando la cifra llega a la consolidación sin su premisa, quien suma solo ve el total.\n\nPor eso trescientas transacciones en tres años no indican un fraude sofisticado. Indican la falta de una pregunta simple, repetida en cada etapa: ¿de dónde salió esta cifra y quién confirma la premisa que la sostiene? Sin dueño para esa pregunta, la cadena de aprobación se alarga, la presión por la meta sigue siendo real y la visibilidad sobre el origen de la cifra se reduce. Para que el proceso falle no hace falta mala fe generalizada.\n\nEl error silencioso es más común que el deliberado. En la mayoría de las empresas nadie quiere engañar a nadie. Hay una cifra que todos usan y nadie sabe explicar. Kraft Heinz es el caso extremo de la misma fragilidad.\n\n## ¿Por qué la IA agéntica en finanzas no resuelve esto por sí sola?\n\nUna encuesta de 2025, citada por Neurons Lab, consultora de ingeniería de IA agéntica (neurons-lab.com), muestra que el 99% de las empresas planea poner agentes de IA en producción en finanzas. Solo el 11% ya lo hizo. El motivo más citado no es el precio de la tecnología. Son los datos, la gobernanza y la seguridad, el trabajo menos atractivo de la lista.\n\nLa intuición dice que faltan herramientas. El dato dice que falta base. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con dueño o sin él. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el descuento que nunca existió. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. Aun así, dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real.\n\nPiense en lo que eso habría hecho en Kraft Heinz. El esquema tardó tres años en salir a la luz porque las personas sumaban despacio. Un agente que consolida en minutos habría llevado el mismo patrón al mismo tamaño en meses.\n\nRastrear premisas tiene un costo. Cada cifra relevante recibe un dueño y un registro, el cierre se vuelve más lento al principio y alguien tiene que decir en voz alta \"no sé de dónde salió esto\". En tareas pequeñas y de bajo riesgo, como dar formato a un informe, ese costo no vale la pena. En presupuesto y cierre contable, sí.\n\n## Cómo aplicarlo antes de automatizar\n\nPara cada cifra relevante del presupuesto o del cierre, deben quedar escritas tres respuestas: quién es responsable de la premisa, qué criterio llevó a ella y quién la validó antes de entrar en la consolidación.\n\nEsto no exige un sistema nuevo ni un proyecto de meses. Empiece por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema.\n\nEl área que se ocupa de esto es el control de gestión (controlaría), responsable de la confiabilidad de las cifras de la empresa. Es distinto de la auditoría, que encuentra el problema después de que ocurrió, como pasó en Kraft Heinz, cuando la cuenta ya sumaba miles de millones.\n\n## Cómo cambia la pregunta\n\nLa pregunta habitual es cuándo podrá la empresa usar IA agéntica en finanzas. La mejor pregunta es qué cifra del presupuesto de hoy nadie sabría explicar. Kraft Heinz la respondió sin ninguna IA. El costo tardó años en aparecer.\n\nLa IA no crea el problema de gobernanza. Mide cuánto tarda en aparecer. Por eso, quien ordena el origen de sus cifras antes de automatizar no está frenando a la IA. Está decidiendo si ella trabajará a favor de sus resultados o en contra.\n\nFuente: citado por Neurons Lab (neurons-lab.com), consultora de ingeniería de IA agéntica, \"Agentic AI in Financial Services: A Research Roundup for 2026\" (encuesta de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco británico, \"2026: The year of Agentic AI, and a new era for finance\" (21 de enero de 2026). Caso Kraft Heinz: SEC, \"SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme\". The D&O Diary (dandodiary.com), publicación especializada en litigios de valores, \"Kraft Heinz Securities Litigation Settles for $450 Million\". Journal of Forensic and Investigative Accounting, \"Kraft Heinz Company and the $15.4 Billion\".",
+    "post": "¿Tu IA preguntaría de dónde salieron los 300 descuentos falsos de Kraft Heinz?\n\nEn 2017, Kraft Heinz, la gigante estadounidense de alimentos, necesitaba que su EBITDA (utilidad operativa) creciera 6,1% para pagar bonos. Entregó 3%.\n\nDesde finales de 2015 hasta finales de 2018, su área de compras registró como ahorro descuentos de proveedores que nunca había ganado, en unas 300 transacciones. Nadie en la consolidación, el paso que suma las cifras de todas las áreas, preguntó de dónde venía cada uno. En 2019, la empresa corrigió 208 millones de dólares en sus estados financieros. En 2021 pagó 62 millones de dólares de multa a la SEC, el regulador del mercado de valores de Estados Unidos. En 2023 cerró un acuerdo de 450 millones de dólares con sus accionistas.\n\nNo fue un fraude sofisticado. Fue una premisa que nadie comprobó: que cada descuento era real.\n\nAhora el dato que sorprende. El 99% de las empresas planea llevar IA agéntica a finanzas, agentes que ejecutan tareas por su cuenta. Solo el 11% ya la puso en producción. El motivo no es el precio de la herramienta, son los datos y la gobernanza.\n\nUn agente suma todo con la misma confianza, incluido el descuento que nunca existió. Lo que tardó tres años en Kraft Heinz tardaría meses.\n\nEntonces la pregunta deja de ser cuándo vas a usar IA. Pasa a ser qué cifra de tu presupuesto nadie sabría explicar.\n\nArtículo completo: [enlace del artículo]\n\n#Controlaría #FinanceAutomation #IAAgéntica #GobernanzaFinanciera",
+    "roteiro": "**0 a 3s**\n\"¿Tu IA preguntaría de dónde salieron los 300 descuentos falsos de Kraft Heinz?\"\n\n**3 a 20s**\n\"Kraft Heinz, la gigante estadounidense de alimentos, necesitaba que su utilidad operativa creciera 6,1% para pagar bonos. Entregó 3%. Desde finales de 2015 hasta finales de 2018, su área de compras registró como ahorro descuentos de proveedores que nunca había ganado, en unas 300 transacciones. En 2019 corrigió 208 millones de dólares. Después llegaron una multa y un acuerdo de 450 millones con los accionistas.\"\n\n**20 a 30s**\n\"No fue un fraude sofisticado. Fue una pregunta que nadie hizo: ¿de dónde sale esta cifra y quién confirma que es real?\"\n\n**30 a 45s**\n\"Ahora el dato que sorprende. El 99% de las empresas planea usar IA agéntica en finanzas, agentes que ejecutan tareas por su cuenta. Solo el 11% la puso en producción. El motivo no es el precio de la herramienta, son los datos y la gobernanza. Un agente suma todo con la misma confianza, incluido el descuento que nunca existió.\"\n\n**45 a 55s**\n\"Lo que tardó tres años en Kraft Heinz tardaría meses. La pregunta deja de ser cuándo vas a usar IA. Pasa a ser qué cifra de tu presupuesto nadie sabría explicar.\"\n\n**55 a 60s**\n\"El artículo completo está en el enlace de los comentarios.\"",
+    "seo": {
+      "palavra_chave": "IA agéntica",
+      "palavras_secundarias": [
+        "gobernanza de premisas",
+        "IA agéntica en finanzas",
+        "consolidación presupuestaria",
+        "control de gestión",
+        "fraude contable"
+      ],
+      "titulo_seo": "IA agéntica en finanzas: el caso Kraft Heinz",
+      "meta_descricao": "Kraft Heinz registró 300 descuentos falsos durante 3 años. Descubre qué revela sobre la IA agéntica en finanzas y qué hacer antes de automatizar.",
+      "slug_url": "ia-agentica-finanzas-kraft-heinz",
+      "resumo_geo": "La IA agéntica es un sistema de IA que ejecuta tareas por su cuenta, como sumar y conciliar cifras. Una encuesta de 2025 citada por Neurons Lab muestra que el 99% de las empresas planea usarla en finanzas y solo el 11% ya la puso en producción, por falta de datos y gobernanza. El caso Kraft Heinz, con 208 millones de dólares en descuentos falsos registrados de 2015 a 2018, muestra lo que pasa cuando nadie rastrea la premisa de cada cifra.",
+      "faq": [
+        {
+          "pergunta": "¿Qué es la IA agéntica en finanzas?",
+          "resposta": "Son sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto. Aplican reglas sobre los datos que la empresa ya tiene."
+        },
+        {
+          "pergunta": "¿Por qué solo el 11% de las empresas puso la IA agéntica en producción?",
+          "resposta": "Según una encuesta de 2025 citada por Neurons Lab, el 99% planea usarla, pero los motivos más citados para no avanzar son los datos, la gobernanza y la seguridad, no el precio de la tecnología."
+        },
+        {
+          "pergunta": "¿Qué enseña el caso Kraft Heinz sobre la gobernanza de premisas?",
+          "resposta": "Entre 2015 y 2018, unas 300 transacciones registraron descuentos de proveedores que nunca existieron, por 208 millones de dólares. Nadie rastreaba de dónde venía cada cifra en la consolidación, y un agente de IA llevaría el mismo error al mismo tamaño en menos tiempo."
+        }
+      ],
+      "entidades": [
+        "Kraft Heinz",
+        "3G Capital",
+        "SEC",
+        "Neurons Lab",
+        "Lloyds Banking Group",
+        "The D&O Diary",
+        "Journal of Forensic and Investigative Accounting",
+        "IA agéntica",
+        "premisa",
+        "consolidación",
+        "control de gestión",
+        "EBITDA",
+        "goodwill"
+      ]
+    }
+  }
+}

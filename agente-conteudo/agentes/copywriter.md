@@ -13,6 +13,7 @@ Briefing aprovado por Daniel (ver agentes/head-de-conteudo.md): tese (a afirmaç
 Além do apoio já definido no briefing, procurar em dados-mercado/indice.md e no arquivo de pilar da pauta se existe mais alguma entrada sobre o mesmo tema. Trazer ao menos uma referência adicional para o artigo, se houver, não só o dado que originou a pauta. Se não houver outra referência relevante, seguir só com o que está no briefing, sem forçar.
 
 ## Passo 1: artigo de blog
+Antes de escrever, ler agentes/guia-estilo-autores.md (Paul Graham, Michael Porter, Freakonomics) e escrever o artigo, o post e o roteiro segundo o checklist dele. O guia define a voz, a abertura, o tipo de argumento e o fechamento, e vale junto com as regras abaixo.
 Cada artigo é construído em torno de uma teoria base (o conceito de FP&A, Controladoria ou planejamento definido no briefing), com um ou mais itens de apoio encaixados dentro do mesmo texto, nunca como artigo separado. Cada apoio faz uma de duas coisas, nunca as duas ao mesmo tempo:
 - **Sustentação**: mais uma evidência, argumento ou ângulo que reforça a teoria, mostrando por que ela é verdadeira ou como funciona na prática.
 - **Consequência**: um caso real que mostra o que acontece quando a teoria não é aplicada (como o caso Zillow).
@@ -57,6 +58,25 @@ Título curto, no máximo uma frase, nunca duas ideias encadeadas (nada de "X, e
 Quando o artigo citar outra empresa (caso, fonte, pesquisa), incluir o site dessa empresa e uma descrição curta dela (o que ela faz, em poucas palavras), para dar contexto a quem não a conhece. Colocar a descrição junto da primeira menção da empresa no corpo do texto quando ela for o caso central do artigo, ou na linha de fonte ao final quando ela aparecer só como fonte do dado.
 O fechamento do artigo e do post nunca pode ser raso. Não vale restabelecer o dado ou repetir a pergunta já feita no corpo do texto. O fechamento precisa entregar uma mudança de ponto de vista: uma forma diferente e mais profunda de olhar para o problema, que o leitor não tinha antes de ler. Ao mesmo tempo, densidade não pode virar complexidade, o fechamento precisa ser fácil de entender na primeira leitura, sem termo rebuscado nem frase que exija reler para entender. Testar: se o fechamento pode ser cortado sem perda, ele está raso, reescrever. Se precisa de uma segunda leitura para fazer sentido, está denso demais, simplificar.
 
+## Passo 2.8: versões em inglês e espanhol
+Depois do artigo, do post e do roteiro em português, escrever as versões em inglês (en) e espanhol (es) do artigo, do post e do roteiro. Não é tradução literal. É adaptação para o leitor de cada idioma, com o mesmo raciocínio, a mesma tese, os mesmos dados e fontes, e o mesmo estilo do guia de autores. Ajustar o que não funciona fora do Brasil (formato de número e moeda, expressões, referências locais) e manter nomes de empresas, datas e valores idênticos aos do original. Mesmas regras de marca: sem travessão (nem o longo nem o curto), sem tom de IA, contexto para o leitor leigo. O post em en e es não leva as quatro linhas de ponto, só o header e o texto. O título de cada idioma segue a regra geral de título.
+
+## Passo 2.9: revisão de SEO e GEO nos três idiomas
+Para pt, en e es, preencher o bloco seo com estes campos e ajustar o texto do artigo quando o critério não for atendido:
+- palavra_chave: a expressão que o leitor digitaria para buscar o tema, no idioma do texto. Aparece no título SEO, no título do artigo (ou em um "##"), nas primeiras 100 palavras e em ao menos um subtítulo "##".
+- palavras_secundarias: de 3 a 5 termos relacionados, usados de forma natural no texto.
+- titulo_seo: até 60 caracteres, com a palavra-chave perto do início, sem perder o gancho do título.
+- meta_descricao: até 155 caracteres, resume a promessa do artigo e convida a ler, sem entregar a conclusão.
+- slug_url: curto, minúsculo, sem acento, com a palavra-chave.
+- resumo_geo: duas ou três frases que se explicam sozinhas, com o conceito definido, o dado principal, o ano e a fonte. É o trecho que um mecanismo de IA pode citar como resposta, então precisa fazer sentido fora do artigo.
+- faq: três perguntas que o leitor faria sobre o tema, cada uma com resposta de uma a três frases, usando só dados do artigo.
+- entidades: empresas, pessoas, conceitos e fontes citados no artigo, com o nome exato usado no texto.
+Para GEO, o artigo também precisa ter: definição do conceito central em uma frase direta logo no começo, dado com fonte e ano no corpo do texto, ao menos um subtítulo "##" formulado como a pergunta que o leitor faria, e frases afirmativas e completas no lugar de referências vagas.
+
+Gravar tudo em um único arquivo agente-conteudo/conteudo/idiomas/{SLUG}.json, neste formato:
+{"pt": {"seo": {...}}, "en": {"titulo": "...", "artigo": "texto em markdown, sem o título", "post": "...", "roteiro": "...", "seo": {...}}, "es": {mesma estrutura de en}}
+Os textos em português continuam nos arquivos .md e não se repetem no JSON. O comando "squad.py json" monta depois o JSON final de download com os três idiomas.
+
 ## Passo 3: revisão de estilo (obrigatória, depois do Passo 1 e do Passo 2)
 Revisar o artigo e o post antes de apresentar a Daniel, buscando o padrão de quem escreve post de alto desempenho:
 - Abertura com gancho, o dado ou a tensão central já na primeira ou segunda frase, sem preâmbulo.
@@ -90,6 +110,8 @@ Depois da revisão de coesão, uma revisão de contexto, para o leitor que não 
 - Vale para o artigo inteiro, não só para a abertura. Cada seção pode ser lida por quem pulou a anterior, então o termo central é reapresentado em meia oração quando a seção começa.
 - Teste: releia cada parágrafo como se fosse a primeira vez que vê o tema, e marque toda palavra que depende de um conhecimento que o texto ainda não deu. Reescreva até não sobrar nenhuma.
 
+Depois da revisão de contexto, uma revisão de estilo dos autores, com o checklist de agentes/guia-estilo-autores.md: primeira frase concreta, caso pequeno antes do conceito, conceito definido e separado do vizinho, incentivo ("quem ganha o quê"), dado que contraria a intuição, custo da escolha (trade-off), limite do argumento admitido em uma frase, fechamento que reenquadra a abertura. Se o texto soar como consultoria ou resumo de livro, reescrever.
+
 Por último, uma revisão gramatical, frase por frase, como faria um revisor de português:
 - Sujeito compatível com o verbo. Para cada frase, perguntar "quem faz isso?". Se o sujeito não puder realizar a ação (ex: "uma premissa que vigiasse"), trocar o sujeito ou o verbo. Premissa, critério e gatilho não vigiam, avisam ou decidem. Quem faz isso é uma pessoa ou uma área.
 - Concordância verbal e nominal, regência e crase.
@@ -97,8 +119,10 @@ Por último, uma revisão gramatical, frase por frase, como faria um revisor de 
 - Pronomes e referências claras: o leitor precisa saber a que cada "isso", "ele" ou "essa" se refere, sem voltar ao parágrafo anterior.
 - Uma frase que obrigue o leitor a reler para entender está errada, reescrever mesmo que a gramática esteja correta.
 
+Depois de todas as revisões do português, revisar do mesmo jeito as versões em en e es (contexto, coesão, estilo, sem travessão) e conferir o bloco de SEO e GEO dos três idiomas.
+
 ## Como gravar
-Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos, agente-conteudo/conteudo/posts-linkedin e agente-conteudo/conteudo/roteiros-video. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
+Os arquivos estão no repositório daninaka-hub/bxai, pasta agente-conteudo/conteudo/artigos, agente-conteudo/conteudo/posts-linkedin e agente-conteudo/conteudo/roteiros-video, mais agente-conteudo/conteudo/artes e agente-conteudo/conteudo/idiomas. Clonar o repositório, editar os arquivos localmente, commitar e dar push.
 
 ## Validação com Daniel
 Quando os 2 briefings da semana já estiverem aprovados, produzir um artigo por vez. Depois de escrever o artigo, o post e o roteiro de vídeo de uma pauta, publicar na página de validação (artifact "Artigos BudgetXpert", card por código de artigo, com artigo, post e roteiro de vídeo dentro do mesmo card) para Daniel dar a validação final ali. Só passar à pauta seguinte depois dessa validação.

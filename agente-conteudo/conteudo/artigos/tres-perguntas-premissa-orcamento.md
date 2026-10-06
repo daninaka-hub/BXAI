@@ -1,59 +1,57 @@
-# A Zillow perdeu US$ 881 milhões sem errar uma única conta, por quê?
+# Quem era dono da premissa que custou US$ 881 milhões à Zillow?
 
-Em 2021, a Zillow Offers, braço de compra e venda direta de imóveis da Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, perdeu US$ 881 milhões comprando casas com um algoritmo de precificação, um programa que estimava quanto cada imóvel valia. Esse algoritmo não calculou errado. Funcionava exatamente como foi treinado para funcionar. O problema foi outro. A estimativa de preço era uma premissa, a hipótese sobre o futuro em que toda a compra se apoiava. Ninguém definiu quem revalidaria essa premissa, com que critério e em que momento.
+Em fevereiro de 2021, a Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, deu a um número o poder de comprar casas. Até então, a estimativa de preço do seu algoritmo, um programa que calcula quanto vale cada imóvel, servia só de referência. Naquele mês, virou oferta de compra vinculante: a empresa se obrigava a pagar o valor calculado. Em 2021, a Zillow Offers, sua divisão de compra de casas, perdeu US$ 881 milhões.
 
-Até fevereiro de 2021, o algoritmo só gerava estimativas de referência, uma espécie de palpite informativo sobre o valor de um imóvel. A partir daquele mês, a Zillow passou a transformar essa mesma estimativa em oferta de compra vinculante, ou seja, uma oferta que a obrigava a comprar pelo preço calculado. Fez isso sem criar nenhuma camada nova de governança, as regras e os responsáveis que controlam como uma ferramenta é usada. O algoritmo continuou calculando do mesmo jeito. O que mudou foi o tamanho da consequência de cada erro. É o que acontece quando uma premissa muda de papel e ninguém percebe.
+O algoritmo não calculou errado. Falhou uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. Ninguém tinha a tarefa de revisá-la. Toda premissa pode nascer certa e envelhecer errada sem que ninguém tome uma decisão errada no caminho. Existem três perguntas que mostram se as suas estão sob controle. O caso da Zillow ajuda a entender cada uma.
 
-## A premissa não é um fato, é uma decisão
+## O que é uma premissa de orçamento?
 
-Num orçamento, a premissa funciona do mesmo jeito: é a hipótese sobre o futuro em que os números se apoiam. Parece um dado objetivo, mas é uma escolha. Alguém decidiu que o custo ia subir 8%, ou que a taxa de conversão ia se manter em 3%, ou que o preço do produto ficaria estável. Essa escolha foi feita com base em alguma informação disponível naquele momento. Essa informação tem prazo de validade.
+Premissa é a hipótese sobre o futuro que sustenta um número. Quando alguém escreve que o custo vai subir 8% ou que a conversão de vendas vai ficar em 3%, está supondo algo, não registrando um fato. Não é o mesmo que a meta. A meta é o que a empresa quer atingir, a premissa é o que ela supõe sobre o mundo para achar que consegue.
 
-O erro mais comum não é escolher a premissa errada. É tratar a premissa como se fosse permanente, como se o momento em que ela foi definida não importasse. Foi exatamente isso que aconteceu com o algoritmo da Zillow: ele tinha sido treinado num mercado imobiliário em alta constante, sem nenhuma representação de um mercado em desaceleração. Quando o mercado esfriou em meados de 2021, o algoritmo seguiu precificando como se a alta continuasse.
+Toda premissa nasce de uma informação disponível numa data. Essa informação tem prazo de validade. O algoritmo da Zillow tinha sido treinado num mercado imobiliário em alta constante, sem nenhum exemplo de mercado em desaceleração. Quando o mercado esfriou, em meados de 2021, ele continuou a precificar como se a alta fosse eterna.
 
-Existe uma forma simples de testar se uma premissa está sob controle. Três perguntas, nessa ordem.
+## Por que uma premissa envelhece sem ninguém errar?
 
-## Pergunta 1: quem definiu
+Porque o que muda, muitas vezes, não é o cálculo, é o uso que se faz dele. Até fevereiro de 2021, um erro de estimativa era só um palpite impreciso. Depois, cada erro passou a ser um cheque assinado. Segundo a análise da Shackleford, consultoria de liderança em IA, a Zillow fez essa troca sem criar nenhuma regra nova de governança, ou seja, sem definir quem controlaria o uso da ferramenta.
 
-Toda premissa precisa ter um dono. Não um dono formal no organograma, um dono de fato, alguém que pode explicar por que aquele número e não outro. No caso da Zillow, a conversão da estimativa em oferta vinculante, em fevereiro de 2021, foi uma decisão de negócio tomada em cima de um algoritmo, mas sem transferir para alguém a responsabilidade de vigiar se aquela premissa ainda fazia sentido depois da mudança de uso. Sem dono claro, a premissa costuma ser herdada de um processo antigo ou copiada de um contexto que já não existe.
+Havia ainda um efeito que contraria a intuição. Quando a empresa oferece o preço médio estimado, quem tem um imóvel acima da média prefere vendê-lo no mercado aberto, por mais. Quem tem um imóvel com problemas aceita a oferta rápida. A Zillow passou a comprar justamente o que o mercado já estava descontando. Segundo o site IdeaProof, que analisa fracassos de empresas, ela pagou acima do valor de mercado em 65% das casas que comprou.
 
-## Pergunta 2: com que critério
+## Pergunta 1: quem definiu esse número?
 
-Depois do dono, vem o critério. Por que esse número e não outro. Em meados de 2021, um projeto interno da Zillow apelidado de "Project Ketchup" fez a gestão sobrescrever manualmente as ofertas do próprio algoritmo para cima, para bater meta de volume de compras. Isso removeu a checagem humana independente que existia antes, exatamente no momento em que o critério original precisava ser mais rigoroso, não menos. Um critério documentado e estável é o que permite auditar a premissa sem depender da pressão do trimestre para decidir o que é razoável.
+Toda premissa precisa de um dono. Não de um nome no organograma, mas de alguém que sabe explicar por que aquele número e não outro e que será chamado quando ele deixar de valer. Na Zillow, a decisão de transformar estimativa em oferta vinculante foi de negócio, tomada em cima de um algoritmo. Ninguém recebeu a tarefa de vigiar se a premissa ainda fazia sentido depois da mudança.
 
-## Pergunta 3: quando revisar
+Pense em quem ganha o quê. Rever uma premissa dá trabalho e pode trazer más notícias. Deixá-la como está não custa nada até o dia em que custa tudo. Sem dono, o incentivo é sempre ignorar. Com dono, a pessoa responde pelo número e passa a ter motivo para olhá-lo.
 
-Essa é a pergunta que mais falta nas empresas, mesmo nas que têm dono e critério definidos. Toda premissa precisa de uma data de validade, um gatilho que diz quando ela deve ser reexaminada, não abandonada, reexaminada. O algoritmo da Zillow também sofria do que a análise da Shackleford, consultoria de liderança em IA, chama de seleção adversa: como a empresa comprava pelo valor médio estimado, donos de imóveis acima da média preferiam vender no mercado aberto, enquanto donos de imóveis com problemas aceitavam a oferta rápido. A Zillow foi, sem perceber, comprando sistematicamente os imóveis que o próprio mercado já estava descontando. Sem um gatilho de revisão, ninguém parou para checar se esse padrão de quem aceitava a oferta tinha mudado.
+## Pergunta 2: com que critério ele foi escolhido?
 
-## O que o caso Zillow confirma
+O critério é a fonte ou a regra usada para chegar ao número. Quando ele é claro, qualquer pessoa consegue contestá-lo. Quando não é, vale a opinião de quem estiver mais pressionado.
 
-No terceiro trimestre de 2021, a Zillow registrou US$ 304 milhões de baixa contábil, o reconhecimento de uma perda no balanço, só no estoque de imóveis, parte dos US$ 881 milhões perdidos no ano. A empresa chegou a acumular US$ 3,8 bilhões em estoque de casas e vendeu cerca de 7.000 delas com prejuízo, tendo pago acima do valor de mercado em 65% dos imóveis que comprou. No anúncio do encerramento da Zillow Offers, em novembro de 2021, cortou cerca de 2.000 funcionários, um quarto do quadro da divisão. As ações caíram 18% no dia, fechando o ano com queda acumulada de 50%. O CEO da Zillow, Rich Barton, resumiu o problema como a incapacidade do próprio algoritmo de prever com confiabilidade quanto capital a empresa precisaria arriscar no futuro. Recusou atribuir a causa a eventos externos imprevisíveis.
+Em meados de 2021, um projeto interno da Zillow, apelidado de "Project Ketchup", fez a gestão sobrescrever para cima as ofertas do próprio algoritmo, para bater a meta de volume de compras. A meta premiava comprar, não comprar bem. A checagem humana independente que existia antes sumiu justamente quando o critério precisava ser mais rigoroso. Um critério escrito e estável deixa de depender do humor do trimestre.
 
-Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono que vigiasse a mudança de contexto, sem critério protegido da pressão de meta e sem gatilho que avisasse quando o padrão do mercado mudou.
+## Pergunta 3: quando ele será revisado?
 
-## Erros comuns ao tentar aplicar isso
+É a pergunta que mais falta, até em empresas que já têm dono e critério. Toda premissa precisa de uma data de validade, um gatilho que diga quando será reexaminada. Reexaminada, não abandonada: revisar a premissa não muda a meta, só confere se a base de cálculo ainda reflete a realidade.
 
-Três confusões aparecem com frequência quando uma empresa tenta colocar essas perguntas em prática.
+A data de revisão não precisa seguir o calendário fiscal. Precisa seguir a velocidade da variável que a premissa tenta prever. O preço de uma matéria-prima em mercado volátil pode pedir revisão todo mês, mesmo dentro de um orçamento anual. Na Zillow, não havia gatilho para conferir se o perfil de quem aceitava as ofertas tinha mudado.
 
-A primeira é confundir revisão com mudança de meta. Revisar uma premissa não é afrouxar um objetivo, é checar se a base de cálculo daquele objetivo ainda reflete a realidade. Uma meta pode continuar a mesma mesmo depois que a premissa por trás dela foi atualizada.
+## O que a Zillow pagou por isso
 
-A segunda é tratar o critério como propriedade de uma pessoa, em vez de um registro da empresa. Quando o critério mora só na cabeça de quem fez a conta, ele desaparece junto com essa pessoa na primeira saída ou troca de função. Um critério documentado sobrevive à equipe que o criou.
+No terceiro trimestre de 2021, a empresa registrou US$ 304 milhões de baixa contábil, o reconhecimento da perda no balanço, só no estoque de casas. Chegou a acumular US$ 3,8 bilhões em imóveis e vendeu cerca de 7.000 deles com prejuízo. Em novembro de 2021, ao anunciar o fim da Zillow Offers, cortou cerca de 2.000 funcionários, um quarto do quadro da divisão. As ações caíram 18% no dia e fecharam o ano com queda acumulada de 50%.
 
-A terceira é esperar o fechamento do trimestre ou do ano para revisar qualquer coisa. A data de revisão de uma premissa não precisa seguir o calendário fiscal, precisa seguir a velocidade real da variável que ela tenta prever. Uma premissa de custo de matéria-prima em mercado volátil pode precisar de revisão mensal, mesmo dentro de um ciclo orçamentário anual.
+O CEO, Rich Barton, explicou ao encerrar a operação que o algoritmo não conseguia prever com confiabilidade quanto capital a empresa precisaria arriscar. Recusou atribuir a perda a eventos externos imprevisíveis. Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono, sem critério protegido da pressão por meta e sem gatilho de revisão.
 
-## Como aplicar na prática
+## O que isso custa e onde não se aplica
 
-Antes de fechar qualquer premissa de orçamento, três respostas precisam existir por escrito, não na memória de quem fez a conta. Quem é o responsável por esse número. Qual foi o critério ou a fonte usada para chegar nele. Quando essa premissa será reexaminada e sob qual gatilho.
+Responder às três perguntas tem preço. O orçamento fecha mais devagar, alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia. Por isso, não vale para todas as células. Uma premissa de baixo impacto, ou de uma variável que quase não se move, pode seguir sem esse cuidado. A regra serve para as poucas que, se estiverem erradas, mudam o resultado do ano.
 
-Pode começar como uma coluna extra na própria planilha de orçamento, ao lado de cada premissa relevante. O que importa não é a ferramenta, é o hábito de nunca deixar uma premissa sem essas três respostas antes de ela entrar no orçamento oficial.
+Também há um limite. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa relevante, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas.
 
-## Por que isso é mais importante do que parece
-
-Essas perguntas são a diferença entre uma empresa que toma uma decisão consciente de manter uma premissa e uma empresa que simplesmente não percebeu que a premissa envelheceu. A primeira é um risco calculado. A segunda é um ponto cego.
-
-O dado da EY, rede global de auditoria e consultoria, citado pelo Journal of Accountancy, revista profissional de contabilidade, mostra que 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa nos próximos cinco anos. Parte dessa mudança é justamente essa, sair da função de registrar o número fechado e assumir a função de garantir que cada premissa por trás do número tenha dono, critério e data de revisão. Isso é controladoria, não é auditoria. Auditoria encontra o problema depois que ele já aconteceu. As três perguntas evitam que ele aconteça.
+Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão.
 
 ## O que fica
 
-A pergunta que a maioria das empresas faz é se a premissa está certa. A pergunta certa é se alguém ainda é dono dela. A Zillow não perdeu US$ 881 milhões porque seu algoritmo calculava mal. Perdeu porque uma premissa pode nascer certa e morrer errada sem que ninguém tenha tomado uma única decisão errada no caminho, ela só ficou velha em silêncio, porque ninguém tinha a tarefa de notar isso. Dono, critério e data de revisão não evitam o erro de cálculo. Evitam que esse erro fique invisível até custar caro.
+A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em que foi respondida. A pergunta que protege a empresa é outra: quem vai perceber quando ela deixar de estar certa? Uma premissa que ninguém desmentiu ainda não é uma premissa verdadeira, é só uma que ninguém foi procurar desmentir.
 
-Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".
+A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo.
+
+Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

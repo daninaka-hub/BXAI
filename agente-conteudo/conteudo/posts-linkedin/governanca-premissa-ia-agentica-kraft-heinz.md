@@ -1,15 +1,19 @@
-A Kraft Heinz escondeu uma fraude por 3 anos. O mesmo buraco trava a IA agêntica hoje.
+Sua IA perguntaria de onde vieram os 300 descontos falsos da Kraft Heinz?
 .
 .
 .
 .
-A Kraft Heinz é uma das maiores empresas de alimentos dos Estados Unidos. Entre 2015 e 2018, sua área de compras (procurement) lançou como economia descontos de fornecedores que nunca existiram, em cerca de 300 transações. Em 2019, a empresa corrigiu US$ 208 milhões nas demonstrações financeiras e, no mesmo anúncio, baixou US$ 15,4 bilhões em goodwill (o valor pago a mais em aquisições) e marcas. Pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais americano. Em 2023, fechou acordo de US$ 450 milhões com acionistas. Dois executivos foram punidos individualmente, um deles banido por 5 anos de cargos de direção.
+Em 2017, a Kraft Heinz, gigante americana de alimentos, precisava crescer 6,1% no EBITDA (lucro operacional) para pagar bônus. Entregou 3%.
 
-O esquema não precisou de sofisticação. Precisou só de uma coisa: ninguém rastreando de onde vinha cada número na soma dos resultados das áreas, numa empresa sob pressão forte de meta de custo.
+Do fim de 2015 ao fim de 2018, a área de compras lançou como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações. Ninguém na consolidação, a soma dos números de todas as áreas, perguntou de onde vinha cada um. Em 2019, a empresa corrigiu US$ 208 milhões nas demonstrações financeiras. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais americano. Em 2023, fechou acordo de US$ 450 milhões com acionistas.
 
-99% das empresas planejam usar IA agêntica em finanças, ou seja, agentes de IA que executam tarefas sozinhos. Só 11% já colocaram em produção. O motivo não é custo de ferramenta, é dados e governança. Um agente de IA só opera bem sobre premissas organizadas, com dono claro. Jogar IA num processo sem rastreio não resolve nada, só automatiza a confusão em velocidade maior.
+Não foi fraude sofisticada. Foi uma premissa que ninguém conferiu: a de que cada desconto era real.
 
-O que decide se uma empresa aproveita IA agêntica de verdade não é o orçamento de software. É ter, antes da IA chegar, alguém capaz de responder de onde vem cada número e quem validou.
+Agora o dado que surpreende. 99% das empresas planejam colocar IA agêntica em finanças, agentes que executam tarefas por conta própria. Só 11% já colocaram em produção. O motivo não é o preço da ferramenta, é dados e governança.
+
+Um agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. O que levou três anos na Kraft Heinz levaria meses.
+
+Então a pergunta deixa de ser quando você vai usar IA. Passa a ser qual número do seu orçamento ninguém saberia explicar.
 
 Artigo completo: [link do artigo]
 

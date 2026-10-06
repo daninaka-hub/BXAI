@@ -1,21 +1,21 @@
-86% das equipes de finanças nunca conferem se o forecast do mês passado acertou.
+86% das equipes de finanças não medem formalmente se o forecast do mês passado acertou.
 .
 .
 .
 .
-O dado é da AFP (Association for Financial Professionals), associação americana de profissionais de finanças, na pesquisa FP&A (Financial Planning & Analysis, planejamento e análise financeira) Benchmarking Survey 2026, com 332 profissionais em 54 países: só 14% acompanham formalmente a acurácia do forecast. Os outros 86% entregam uma previsão nova a cada mês sem calcular o erro da anterior.
+Forecast é a previsão de como a empresa deve fechar o período. A AFP (Association for Financial Professionals), associação americana de profissionais de finanças, perguntou a 332 profissionais de 54 países na pesquisa FP&A (Financial Planning & Analysis, planejamento e análise financeira) Benchmarking Survey 2026. Só 14% medem formalmente o erro da própria previsão.
 
-Isso raramente é falta de tempo. É que o forecast e o orçamento viraram a mesma planilha com dois nomes.
+Falta de tempo é a explicação comum. Minha leitura é outra: o forecast virou o orçamento com data nova.
 
-São perguntas diferentes. O orçamento pergunta quanto você vai se comprometer a entregar. O forecast pergunta onde você vai chegar se nada mudar de rota. Quando as duas se fundem, sobra uma resposta só. Ela sempre pende para o lado do compromisso, porque é o compromisso que tem meta e bônus atrelado.
+Pense no diretor comercial que prometeu a meta do ano em dezembro. Em maio, a carteira de pedidos mostra que ela não fecha. Quem escreve a previsão costuma ser quem defende o orçamento na reunião de resultado. O incentivo é claro: ajustar a previsão, não a meta, porque é a meta que tem dono e bônus.
 
-A McKinsey chama o antídoto de momentum case: uma linha de base montada só com a inércia do negócio, separada do plano, justamente para o orçamento não virar forecast. Isso é de 2020.
+A McKinsey propôs em 2020 um antídoto, o momentum case: uma linha de base só com a inércia do negócio, separada do plano. O custo é ter dois números na mesa, um deles incômodo.
 
-Mas nada disso funciona sem medir o erro. E medir não é só olhar o tamanho do desvio. É olhar o sinal dele. Um erro de 8% para cima e para baixo é imprecisão. Um erro de 2% sempre para cima, na mesma linha, é viés. E viés tem causa no processo, não no mercado.
+Medir também tem pegadinha. Um erro de 8% para cima e para baixo é imprecisão. Um erro de 2% sempre para cima, na mesma linha, é viés. O segundo revela mais, porque aponta para o processo, não para o mercado.
 
-Teste no seu próprio ciclo: guarde a versão do forecast antes de atualizá-la no fechamento, compare com o realizado e registre o desvio com sinal. Três meses disso e o padrão aparece sozinho.
+Faça no próximo fechamento: guarde a versão do forecast antes de atualizá-la, compare com o realizado e registre o desvio com sinal.
 
-Enquanto ninguém mede, seu forecast não está errado nem certo. Ele é o orçamento repetido com uma data nova.
+Errar não é o problema. O problema é ninguém ver o erro. Um orçamento errado é assunto de negociação. Um forecast errado e medido é informação.
 
 Artigo completo: [link do artigo]
 

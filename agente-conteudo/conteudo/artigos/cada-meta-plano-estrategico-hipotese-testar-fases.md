@@ -1,57 +1,59 @@
 # A Target abriu 133 lojas no Canadá sem testar a primeira
 
-A Target, uma das maiores redes de varejo dos Estados Unidos (target.com), entrou no Canadá em 2013 abrindo 133 lojas em pouco mais de um ano, com três centros de distribuição funcionando em paralelo. No início de 2015 anunciou o fechamento de todas, afetando 17.600 funcionários (Panorama Consulting). O plano não caiu por falta de capital nem de ambição. Caiu porque tratou como certeza algo que ainda era hipótese: que o modelo de loja que funcionava nos Estados Unidos funcionaria igual no Canadá, na mesma escala, no mesmo momento.
+Em 2013, a Target, uma das maiores redes de varejo dos Estados Unidos (target.com), entrou no Canadá abrindo 133 lojas em pouco mais de um ano, com três centros de distribuição funcionando ao mesmo tempo. No início de 2015 anunciou o fechamento de todas, afetando 17.600 funcionários (Panorama Consulting). Faltou capital? Não. Faltou ao plano estratégico separar o que a empresa sabia do que apenas supunha.
 
-Hipótese é uma palavra do método científico que quase nunca aparece num plano estratégico. Deveria aparecer em cada linha dele. Toda meta carrega uma aposta sobre o mundo: que o cliente vai reagir ao novo preço, que a fábrica vai absorver o volume. Enquanto a aposta não é confrontada com a realidade, ela é hipótese. A Target respondeu várias de uma vez, com o compromisso inteiro já assinado.
+A suposição era simples: o modelo de loja que funcionava nos Estados Unidos funcionaria igual no Canadá, na mesma escala, no mesmo momento. Essa suposição tem nome, hipótese: uma afirmação sobre o mundo que ainda não foi confrontada com a realidade. Todo plano é feito delas. A Target as tratou como fato e assinou o compromisso inteiro antes de conferir uma só.
 
-## Toda meta do plano é uma hipótese disfarçada de número
+## O que é uma hipótese dentro de um plano estratégico?
 
-O Strategy Map, ou mapa estratégico, é um método criado por Robert Kaplan, professor de Harvard, junto com o consultor David Norton. Ele cabe em uma página única e mostra como a estratégia gera valor, organizando os objetivos em quatro perspectivas empilhadas: aprendizado e crescimento na base, processos internos acima, clientes depois, resultado financeiro no topo. Entre uma perspectiva e a seguinte existem setas de causa e efeito que sobem: treinar a equipe melhora o processo, que muda a experiência do cliente, que passa a comprar mais.
+Uma meta diz aonde você quer chegar. Uma hipótese diz por que você acredita que vai chegar. "Crescer 15% no ano" é meta. "O cliente aceitará o novo preço sem comprar menos" é hipótese. Quase toda meta esconde uma ou mais delas. Quase nenhum plano as escreve.
 
-A parte do método que costuma ser ignorada está nessas setas: cada ligação é uma hipótese a ser testada, não um fato dado. "Se treinarmos a equipe, o processo melhora" é uma aposta que pode estar certa na empresa do caso de estudo e errada na sua, neste mercado, neste ano. É por isso que o método pede revisão trimestral do mapa com realocação de recursos. A revisão não existe para atualizar o slide. Existe para confrontar cada hipótese com o que aconteceu no trimestre, enquanto ainda sobra dinheiro para mudar de rumo.
+O método que melhor expõe isso é o Strategy Map, ou mapa estratégico, criado por Robert Kaplan, professor de Harvard, com o consultor David Norton. Ele cabe em uma página e empilha os objetivos da empresa em quatro níveis: aprendizado e crescimento na base, processos internos, clientes e, no topo, o resultado financeiro. Setas de causa e efeito sobem de um nível ao outro. Treinar a equipe melhora o processo, o processo muda a experiência do cliente e o cliente passa a comprar mais.
 
-Na prática, o framework desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si. São até 20 apostas rodando ao mesmo tempo no mesmo plano. Nenhuma empresa consegue bancar as 20 por inteiro antes de saber quais funcionam. A Target tentou.
+Cada seta é uma hipótese, não um fato. "Se treinarmos a equipe, o processo melhora" pode ser verdade na empresa do caso de estudo e falso na sua, neste mercado, neste ano. Por isso o método prevê revisão trimestral do mapa, com realocação de recursos (Umbrex). A revisão serve para confrontar cada seta com o que aconteceu, enquanto ainda sobra dinheiro para mudar de rumo.
 
-## O que a Target não testou
+A conta assusta. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. Nenhuma empresa consegue bancar todas por inteiro antes de saber quais funcionam. A Target tentou.
 
-A Panorama Consulting, consultoria especializada em seleção e implantação de sistemas de gestão, analisou a operação canadense da rede. Junto com as 133 lojas abertas em massa a partir de 2013, a empresa ligou de uma vez o sistema de gestão integrada que controla estoque, compras e preço, no modelo chamado big bang, sem ninguém na equipe com conhecimento funcional da ferramenta. O efeito veio em cascata: dado de estoque errado virou prateleira vazia, cadastro errado virou preço errado no caixa. Foi o cenário de 2013 a 2015.
+## O que a Target apostou ao mesmo tempo
 
-Isolada, cada uma dessas decisões é defensável. Abrir rápido para ganhar mercado é estratégia conhecida. Ligar o sistema inteiro de uma vez evita o custo de operar dois mundos em paralelo. O problema aparece na soma: a hipótese "nosso modelo de operação funciona no Canadá" foi respondida no mesmo dia que a hipótese "nosso sistema roda bem num país novo", nas mesmas 133 lojas. Quando o resultado chegou, não havia como separar qual das duas estava errada. Faltava loja fora do teste para comparar, faltava fase seguinte para corrigir.
+Junto com as lojas, a Target ligou de uma vez o sistema de gestão integrada, o software que controla estoque, compras e preço. Foi no modelo chamado big bang, em que todas as áreas passam para o sistema novo no mesmo dia, sem ninguém na equipe com conhecimento funcional da ferramenta. Quem descreve o caso é a Panorama Consulting (panorama-consulting.com), consultoria especializada em seleção e implantação de sistemas de gestão. Dado de estoque errado virou prateleira vazia. Cadastro errado virou preço errado no caixa. Foi assim de 2013 a 2015.
 
-## Testar em fases não é ir mais devagar
+Isoladas, as decisões têm defesa. Abrir rápido ganha mercado antes que o concorrente reaja. Ligar o sistema inteiro de uma vez evita o custo de operar dois mundos em paralelo.
 
-Fase não é um pedaço menor do mesmo plano. Um cronograma em etapas apenas distribui no tempo um compromisso que já foi assumido por inteiro. Um teste em fases faz outra coisa: cria um ponto em que a empresa pode parar sem ter perdido tudo.
+O problema está na soma. A hipótese "nosso modelo de loja funciona no Canadá" e a hipótese "nosso sistema roda bem num país novo" foram respondidas no mesmo dia, nas mesmas 133 lojas. Quando o resultado veio ruim, ninguém podia dizer qual das duas estava errada. Não havia loja fora do teste para comparar nem fase seguinte para corrigir.
 
-Para funcionar, cada fase precisa de três definições feitas antes de começar. A hipótese escrita em uma frase, no formato "se fizermos X, então Y acontece". O indicador que confirma ou derruba essa frase, com o valor mínimo aceitável declarado. A regra de decisão combinada para o final da fase, entre seguir, ajustar ou parar.
+## Como testar um plano estratégico em fases
 
-No caso canadense, a versão em fases seria abrir 10 lojas em uma única região, com o sistema novo rodando apenas nelas, antes das outras 123. O custo de descobrir o erro de cadastro cairia de 133 lojas para 10. O aprendizado seria o mesmo.
+Fase não é um pedaço menor do mesmo plano. Um cronograma em etapas só distribui no tempo um compromisso já assumido por inteiro. Um teste em fases faz outra coisa: cria um ponto em que a empresa pode parar sem ter perdido tudo.
 
-## Uma hipótese sem dono não é testada
+Para isso, cada fase precisa de três definições feitas antes de começar: a hipótese escrita em uma frase, no formato "se fizermos X, então Y acontece"; o indicador que a confirma ou derruba, com o valor mínimo aceitável declarado; e a regra de decisão para o fim da fase, que escolhe entre seguir, ajustar ou parar.
 
-Aqui aparece o motivo mais comum de o teste nunca acontecer. Na pesquisa da Deloitte de 2026 com Chief Strategy Officers, os executivos responsáveis pela estratégia da empresa, 65% afirmam não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível. Sem dono, a aposta não ganha data de verificação nem alguém disposto a pagar o custo de interromper o que já foi anunciado. O plano segue em frente porque seguir em frente é o caminho de menor atrito.
+No caso canadense, a versão em fases seria abrir 10 lojas numa única região, com o sistema novo rodando só nelas, antes das outras 123. O erro de cadastro custaria 10 lojas, não 133. O aprendizado seria o mesmo.
 
-Vale separar duas coisas que se confundem: uma meta não se revisa sozinha, um indicador não avisa ninguém. Quem confronta a hipótese com o resultado é uma pessoa com nome, numa data marcada, com autoridade para mudar a decisão.
+Isso tem preço. Quem testa abre mão de parte da velocidade e da vantagem de chegar primeiro. Convive, por um tempo, com dois jeitos de operar. Há também um limite: quando o erro é barato e fácil de desfazer, testar custa mais que errar. Fase é para aposta cara de reverter.
 
-## A disciplina pesa mais que a ferramenta
+## Quem decide quando o teste falha?
 
-A AFP, Association for Financial Professionals, associação de profissionais de finanças corporativas, ouviu em 2026 um total de 332 profissionais de FP&A, a área de planejamento e análise financeira, em 54 países. A pesquisa de benchmarking mostra que só 38% das organizações usam planejamento de cenários estruturado, a prática de montar versões alternativas do plano antes de executar. Quem usa fecha o orçamento 11% mais rápido. A leitura da AFP é direta: processo, habilidades e disciplina de execução não acompanharam a tecnologia disponível.
+Aqui está o motivo mais comum de o teste nunca acontecer. Na pesquisa da Deloitte (deloitte.com), rede global de auditoria e consultoria, com Chief Strategy Officers, os executivos responsáveis pela estratégia da empresa, 65% afirmam não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível (fevereiro de 2026).
 
-Cenário é hipótese testada no papel. Fase é hipótese testada com dinheiro, em escala pequena. As duas práticas descobrem cedo qual aposta do plano está errada.
+Pense em quem ganha o quê. Interromper algo já anunciado custa reputação a quem interrompe. Ninguém é pago para assumir esse custo se a hipótese não é dele. Sem dono, a aposta não ganha data de verificação. O plano segue porque seguir é o caminho de menor atrito.
 
-## Erros comuns na hora de aplicar
+Vale separar duas coisas que se confundem. Um indicador não avisa ninguém. Uma meta não se revisa sozinha. Quem confronta a hipótese com o resultado é uma pessoa com nome, numa data marcada, com autoridade para mudar a decisão.
 
-O primeiro é chamar de piloto algo cuja decisão já foi tomada. Se não existe resultado capaz de cancelar a expansão, aquilo não é teste, é ensaio de implantação.
+## Falta tecnologia ou falta disciplina para testar?
 
-O segundo é confundir fase com lentidão. A Target levou pouco mais de um ano para abrir tudo. Levou dois para fechar tudo. Rápido não foi.
+A AFP, Association for Financial Professionals, associação de profissionais de finanças corporativas, ouviu em 2026 um total de 332 profissionais de FP&A, a área de planejamento e análise financeira, em 54 países. Só 38% das organizações usam planejamento de cenários estruturado, a prática de montar versões alternativas do plano antes de executá-lo. Quem usa fecha o orçamento 11% mais rápido em média.
 
-O terceiro é testar a execução em vez da premissa. Medir se as 10 lojas abriram no prazo responde sobre a equipe de obras. Medir venda por metro quadrado e ruptura de estoque responde sobre a hipótese do negócio.
+O dado não prova que o cenário causa a rapidez, já que empresas mais organizadas podem fazer as duas coisas. Mostra algo mais útil: a ferramenta existe e a prática não acompanhou. Para a AFP, processo, habilidades e disciplina de execução ficaram para trás da tecnologia. Cenário é hipótese testada no papel. Fase é hipótese testada com dinheiro, em escala pequena. As duas descobrem cedo qual aposta do plano está errada.
 
 ## Como aplicar no próximo plano
 
-Pegue cada meta do plano e escreva ao lado a frase "se fizermos X, então Y acontece". Defina o número que derruba a frase, não só o que a confirma. Escolha a menor versão possível de testar, um mês, uma região, uma linha de produto. Marque a data da verificação e o nome de quem decide nela. Metas que não aceitam essa escrita costumam ser desejos, não hipóteses.
+Pegue cada meta e escreva ao lado "se fizermos X, então Y acontece". Defina o número que derruba a frase, não só o que a confirma. Escolha a menor versão que dá para testar, um mês, uma região, uma linha de produto. Marque a data da verificação e o nome de quem decide nela. A meta que não aceita essa escrita provavelmente é desejo, não hipótese.
 
-## O que fica
+Dois cuidados. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
 
-O valor de um plano estratégico não está na precisão das metas que ele projeta. Está na velocidade com que ele informa qual das suas apostas está errada, enquanto ainda dá tempo de agir. O plano canadense da Target não errou por ser ousado. Errou por não poder ser contestado antes de as 133 lojas estarem abertas. Um plano que só pode ser avaliado no fim não é plano, é aposta única.
+## O que o plano da Target deveria ter perguntado
 
-Fonte: Panorama Consulting (panorama-consulting.com), consultoria de seleção e implantação de sistemas de gestão, "6 Lessons Learned From The Target Canada Supply Chain Failure". Umbrex (umbrex.com), rede global de consultores independentes, "Strategy Map (Kaplan e Norton)", descrevendo o framework cuja obra original é de Robert Kaplan com David Norton. Deloitte (deloitte.com), rede global de auditoria e consultoria, "2026 Chief Strategy Officer Survey" (fevereiro de 2026). AFP, Association for Financial Professionals (financialprofessionals.org), associação de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report: Integrated Planning".
+A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
+
+Fonte: Panorama Consulting (panorama-consulting.com), consultoria de seleção e implantação de sistemas de gestão, "6 Lessons Learned From The Target Canada Supply Chain Failure". Umbrex (umbrex.com), rede global de consultores independentes, "Strategy Map (Kaplan e Norton)", descrevendo o framework cuja obra original é de Robert Kaplan com David Norton. Deloitte (deloitte.com), rede global de auditoria e consultoria, "2026 Chief Strategy Officer Survey" (12 de fevereiro de 2026). AFP, Association for Financial Professionals (financialprofessionals.org), associação de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report: Integrated Planning".

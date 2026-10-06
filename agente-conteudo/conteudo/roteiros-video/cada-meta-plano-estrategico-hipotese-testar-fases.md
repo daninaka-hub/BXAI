@@ -5,16 +5,16 @@ Artigo de referência: A Target abriu 133 lojas no Canadá sem testar a primeira
 "A Target abriu 133 lojas no Canadá sem testar nenhuma antes. Fechou todas em dois anos."
 
 **3 a 16s**
-"Em 2013 ela entrou no Canadá com 133 lojas, três centros de distribuição em paralelo e o sistema de gestão ligado de uma vez. Deu erro de estoque em cascata, prateleira vazia, preço errado no caixa. Em 2015 fechou tudo. 17.600 pessoas perderam o emprego."
+"Em 2013, uma das maiores redes de varejo dos Estados Unidos entrou no Canadá com 133 lojas e ligou o sistema de gestão inteiro de uma vez. Deu erro de estoque, prateleira vazia, preço errado no caixa. Em 2015 fechou tudo. 17.600 pessoas foram afetadas."
 
 **16 a 28s**
-"Repara. Duas apostas diferentes. 'Nosso modelo funciona no Canadá.' 'Nosso sistema roda bem num país novo.' As duas respondidas no mesmo dia, nas mesmas 133 lojas. Quando o resultado chegou, ninguém sabia qual estava errada."
+"Repara. Eram duas apostas diferentes. 'Nosso modelo de loja funciona no Canadá.' 'Nosso sistema roda bem num país novo.' As duas respondidas no mesmo dia, nas mesmas 133 lojas. Quando deu errado, ninguém sabia qual das duas tinha falhado."
 
 **28 a 40s**
-"Kaplan e Norton, os criadores do mapa estratégico, dizem uma coisa que quase todo mundo ignora. Cada seta do plano é uma hipótese a testar, não um fato. Sua meta de crescimento é uma hipótese. Sua premissa de custo também."
+"Essas apostas se chamam hipóteses. No mapa estratégico, de Kaplan e Norton, cada seta do plano é uma hipótese, não um fato. Sua meta de crescimento é uma. Sua premissa de custo também. Hipótese se testa pequena, antes de virar compromisso total."
 
 **40 a 50s**
-"E por que ninguém testa? Pesquisa da Deloitte de 2026: 65% dos diretores de estratégia dizem não ser donos das principais decisões. Sem dono, a aposta não ganha data de verificação."
+"Por que ninguém testa? Pesquisa da Deloitte de 2026: 65% dos diretores de estratégia dizem não ser donos das principais decisões. Sem dono, ninguém paga o custo de parar."
 
 **50 a 60s**
-"Escreve cada meta assim: se fizermos X, então Y acontece. Define o número que derruba a frase. Testa na menor escala possível. O artigo completo está no link nos comentários."
+"Escreve cada meta assim: se fizermos X, então Y acontece. Define o número que derruba a frase. A pergunta não é quanto vamos crescer, é quanto custa descobrir que estamos errados. O artigo completo está no link nos comentários."

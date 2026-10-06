@@ -117,7 +117,99 @@ def lint(slug):
         linhas = post.read_text(encoding="utf-8").splitlines()
         if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
+    erros += lint_idiomas(slug)
     return erros
+
+IDIOMAS = CONT / "idiomas"
+JSONS = CONT / "json"
+SEO_CAMPOS = ("palavra_chave", "palavras_secundarias", "titulo_seo", "meta_descricao", "slug_url", "resumo_geo", "faq", "entidades")
+NOMES_IDIOMA = {"pt": "Português", "en": "English", "es": "Español"}
+
+def ler_idiomas(slug):
+    p = IDIOMAS / f"{slug}.json"
+    if not p.exists():
+        return None
+    return json.loads(p.read_text(encoding="utf-8"))
+
+def _primeiras_palavras(texto, n=100):
+    return " ".join(re.sub(r"[#*_>\[\]]", " ", texto).split()[:n]).lower()
+
+def lint_idiomas(slug):
+    """Confere o arquivo de idiomas (en, es) e o bloco de SEO e GEO dos três idiomas."""
+    p = IDIOMAS / f"{slug}.json"
+    if not p.exists():
+        return [f"idiomas/{p.name}: arquivo ausente"]
+    cru = p.read_text(encoding="utf-8")
+    if re.search(r"[\u2014\u2013]|\\u201[34]", cru):
+        return [f"idiomas/{p.name}: travessão no texto"]
+    try:
+        d = json.loads(cru)
+    except Exception as e:
+        return [f"idiomas/{p.name}: JSON inválido ({e})"]
+    erros = []
+    for lg in ("pt", "en", "es"):
+        b = d.get(lg)
+        if not isinstance(b, dict):
+            erros.append(f"idiomas/{p.name}: falta o bloco {lg}")
+            continue
+        if lg != "pt":
+            for c in ("titulo", "artigo", "post", "roteiro"):
+                if not str(b.get(c, "")).strip():
+                    erros.append(f"idiomas/{p.name}: {lg}.{c} ausente ou vazio")
+        seo = b.get("seo")
+        if not isinstance(seo, dict):
+            erros.append(f"idiomas/{p.name}: {lg}.seo ausente")
+            continue
+        faltam = [c for c in SEO_CAMPOS if not seo.get(c)]
+        if faltam:
+            erros.append(f"idiomas/{p.name}: {lg}.seo sem {', '.join(faltam)}")
+            continue
+        if len(seo["titulo_seo"]) > 60:
+            erros.append(f"idiomas/{p.name}: {lg}.seo.titulo_seo com {len(seo['titulo_seo'])} caracteres, o limite é 60")
+        if len(seo["meta_descricao"]) > 155:
+            erros.append(f"idiomas/{p.name}: {lg}.seo.meta_descricao com {len(seo['meta_descricao'])} caracteres, o limite é 155")
+        faq = seo["faq"]
+        if not isinstance(faq, list) or len(faq) < 3 or any(not (isinstance(x, dict) and x.get("pergunta") and x.get("resposta")) for x in faq):
+            erros.append(f"idiomas/{p.name}: {lg}.seo.faq precisa de 3 perguntas, cada uma com resposta")
+        kw = str(seo["palavra_chave"]).lower()
+        if kw not in seo["titulo_seo"].lower():
+            erros.append(f"aviso: idiomas/{p.name}: {lg}.seo.titulo_seo não contém a palavra-chave")
+        if lg == "pt":
+            art = caminhos(slug)[0]
+            corpo = art.read_text(encoding="utf-8") if art.exists() else ""
+            primeiras = _primeiras_palavras(corpo)
+        else:
+            primeiras = _primeiras_palavras(str(b.get("artigo", "")))
+            n = len(str(b.get("artigo", "")).split("\nFonte:")[0].split()) if lg != "pt" else 0
+            if lg != "pt" and (n < 700 or n > 1400):
+                erros.append(f"aviso: idiomas/{p.name}: {lg}.artigo com {n} palavras (esperado de 700 a 1400)")
+        if kw not in primeiras:
+            erros.append(f"aviso: idiomas/{p.name}: {lg}, a palavra-chave não aparece nas primeiras 100 palavras do artigo")
+    return erros
+
+def _sem_pontos(texto):
+    return "\n".join(x for x in texto.splitlines() if x.strip() != ".").strip()
+
+def montar_json(slug):
+    """Monta o JSON de download com pt, en e es. O português vem dos arquivos .md, en e es do arquivo de idiomas."""
+    d = ler_idiomas(slug)
+    if not d:
+        return None
+    art, post, rot = caminhos(slug)
+    t = art.read_text(encoding="utf-8")
+    titulo = re.match(r"#\s*(.+)", t).group(1).strip()
+    corpo = re.sub(r"^#.*\n", "", t, count=1).strip()
+    codigo = ""
+    for _, c in indice():
+        if pathlib.Path(c[6]).stem == slug:
+            codigo = c[0]
+    pt = {"titulo": titulo, "artigo": corpo, "post": _sem_pontos(post.read_text(encoding="utf-8")),
+          "roteiro": rot.read_text(encoding="utf-8").strip(), "seo": d.get("pt", {}).get("seo", {})}
+    saida = {"slug": slug, "codigo": codigo, "idiomas": ["pt", "en", "es"], "pt": pt, "en": d.get("en", {}), "es": d.get("es", {})}
+    JSONS.mkdir(exist_ok=True)
+    dest = JSONS / f"{slug}.json"
+    dest.write_text(json.dumps(saida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return dest
 
 PREVISAO_MIN = {"pesquisador": 20, "head": 10, "copywriter": 15}
 
@@ -418,6 +510,10 @@ details[open] .chev{transform:rotate(90deg);}
 .ix-links a{color:var(--teal);text-decoration:none;}
 .ix-links a:hover{text-decoration:underline;}
 .card{scroll-margin-top:12px;}
+.dl{display:inline-block;background:var(--teal);color:var(--navy);text-decoration:none;font-size:13px;font-weight:bold;padding:8px 14px;border-radius:6px;margin-bottom:10px;}
+details.sub{border:1px solid var(--border);border-radius:8px;margin:8px 0;padding:0 14px;}
+details.sub>summary{cursor:pointer;padding:10px 0;font-size:13.5px;font-weight:bold;color:var(--fg);}
+details.sub[open]{padding-bottom:12px;}
 .arte-box{border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin-top:4px;}
 .arte-linha{font-size:13.5px;line-height:1.55;margin-bottom:6px;color:var(--fg);}
 .arte-prompt{background:var(--teal-soft);border-radius:8px;padding:12px 14px;margin-top:10px;}
@@ -465,20 +561,25 @@ def blocos(texto):
     return [b.strip() for b in re.split(r"\n\s*\n", texto.strip()) if b.strip()]
 
 def html_artigo(slug):
-    t = caminhos(slug)[0].read_text(encoding="utf-8")
+    return html_artigo_txt(caminhos(slug)[0].read_text(encoding="utf-8"))
+
+def html_artigo_txt(t):
     t = re.sub(r"^#.*\n", "", t, count=1)
     out = []
     for b in blocos(t):
         if b.startswith("## "):
             out.append(f"<h2>{esc(b[3:].strip())}</h2>")
-        elif b.startswith("Fonte:"):
+        elif re.match(r"(Fonte|Fontes|Source|Sources):", b):
             out.append(f'<div class="source">{esc(b)}</div>')
         else:
             out.append(f"<p>{esc(' '.join(b.splitlines()))}</p>")
     return "\n".join(out)
 
 def html_post(slug):
-    linhas = caminhos(slug)[1].read_text(encoding="utf-8").splitlines()
+    return html_post_txt(caminhos(slug)[1].read_text(encoding="utf-8"))
+
+def html_post_txt(texto):
+    linhas = texto.splitlines()
     cab = linhas[0].strip()
     resto = "\n".join(x for x in linhas[1:] if x.strip() != ".")
     ps = "\n".join(f"<p>{esc('<br>'.join(b.splitlines())).replace('&lt;br&gt;', '<br>')}</p>" for b in blocos(resto))
@@ -497,10 +598,44 @@ def html_arte(slug):
             f'<div class="arte-prompt"><div class="arte-top"><b>Prompt</b><button type="button" class="copiar">Copiar prompt</button></div><p>{esc(prompt)}</p></div></div>')
 
 def html_roteiro(slug):
-    t = caminhos(slug)[2].read_text(encoding="utf-8")
+    return html_roteiro_txt(caminhos(slug)[2].read_text(encoding="utf-8"))
+
+def html_roteiro_txt(t):
     achados = re.findall(r"\*\*(.+?)\*\*\s*\n(.+?)(?=\n\s*\n|\Z)", t, flags=re.S)
     blocos_html = "".join(f'<div class="block"><div class="time">{esc(h.strip())}</div><div class="fala">{esc(" ".join(f.split()))}</div></div>' for h, f in achados)
     return f'<div class="video-box">{blocos_html}</div>'
+
+def html_seo(seo):
+    def lin(k, v):
+        return f'<div class="arte-linha"><b>{esc(k)}:</b> {esc(v)}</div>'
+    faq = "".join(f'<div class="arte-linha"><b>{esc(x["pergunta"])}</b><br>{esc(x["resposta"])}</div>' for x in seo.get("faq", []))
+    return ('<div class="arte-box">'
+            + lin("Palavra-chave", seo.get("palavra_chave", ""))
+            + lin("Secundárias", ", ".join(seo.get("palavras_secundarias", [])))
+            + lin(f"Título SEO ({len(seo.get('titulo_seo', ''))} caracteres)", seo.get("titulo_seo", ""))
+            + lin(f"Meta descrição ({len(seo.get('meta_descricao', ''))} caracteres)", seo.get("meta_descricao", ""))
+            + lin("Slug", seo.get("slug_url", ""))
+            + lin("Resumo GEO", seo.get("resumo_geo", ""))
+            + lin("Entidades", ", ".join(seo.get("entidades", [])))
+            + f'<div class="section-label">FAQ</div>{faq}</div>')
+
+def html_idiomas(slug):
+    import base64
+    arq = montar_json(slug)
+    if not arq:
+        return ""
+    d = json.loads(arq.read_text(encoding="utf-8"))
+    b64 = base64.b64encode(arq.read_bytes()).decode()
+    saida = [f'<div class="section-label">Idiomas, SEO e GEO</div><a class="dl" download="{esc(slug)}.json" href="data:application/json;base64,{b64}">Baixar JSON (pt, en, es)</a>']
+    for lg in ("en", "es"):
+        x = d[lg]
+        saida.append(f'<details class="sub"><summary>{NOMES_IDIOMA[lg]}: {esc(x["titulo"])}</summary>'
+                     f'<div class="section-label">Artigo</div><div class="text">{html_artigo_txt("# t" + chr(10) + x["artigo"])}</div>'
+                     f'<div class="section-label">Post LinkedIn</div>{html_post_txt(x["post"])}'
+                     f'<div class="section-label">Roteiro de vídeo</div>{html_roteiro_txt(x["roteiro"])}</details>')
+    for lg in ("pt", "en", "es"):
+        saida.append(f'<details class="sub"><summary>SEO e GEO, {NOMES_IDIOMA[lg]}</summary>{html_seo(d[lg]["seo"])}</details>')
+    return "\n".join(saida)
 
 JS = r'''function aba(n){["status","artigos"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
 function abrir(){var h=location.hash;if(!h)return;if(h==="#status"||h==="#artigos"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba("artigos");e.open=true;e.scrollIntoView();}}
@@ -524,7 +659,8 @@ def gerar_pagina():
 <div class="body"><div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
-{html_arte(slug)}</div></details>""")
+{html_arte(slug)}
+{html_idiomas(slug)}</div></details>""")
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
 <div class="sub">Referencie pelo código ao pedir ajustes no chat</div>
@@ -560,5 +696,7 @@ if __name__ == "__main__":
     elif cmd == "producao":
         a = sys.argv[2:] + [""] * 5
         gravar_producao(a[0], a[1] or None, a[2] or None, a[3], a[4])
+    elif cmd == "json":
+        print(montar_json(sys.argv[2]))
     elif cmd == "gerar-pagina":
         gerar_pagina(); print(PAGINA)

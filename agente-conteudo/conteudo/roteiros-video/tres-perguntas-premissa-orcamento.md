@@ -1,20 +1,20 @@
 ## Roteiro de vídeo, 1 minuto, LinkedIn
-Artigo de referência: A Zillow perdeu US$ 881 milhões sem errar uma única conta, por quê?
+Artigo de referência: Quem era dono da premissa que custou US$ 881 milhões à Zillow?
 
 **0 a 3s**
 "A Zillow perdeu US$ 881 milhões com um algoritmo que calculava tudo certo."
 
-**3 a 15s**
-"A Zillow é a maior plataforma de imóveis dos Estados Unidos. Em 2021, seu algoritmo de preços continuou funcionando como foi treinado. O que mudou foi a empresa passar a transformar as estimativas em ofertas de compra obrigatórias, sem nenhuma regra nova de controle."
+**3 a 17s**
+"A Zillow é a maior plataforma de imóveis dos Estados Unidos. Até fevereiro de 2021, o algoritmo dela só dava uma estimativa de preço. Naquele mês, a estimativa virou oferta de compra obrigatória. A conta era a mesma. O custo de cada erro, não."
 
-**15 a 22s**
-"O erro não foi de cálculo. Foi de uma premissa, a hipótese sobre o futuro que sustenta o número, sem dono, sem critério, ou sem data de revisão."
+**17 a 28s**
+"O erro foi de premissa, a hipótese sobre o futuro em que o preço se apoiava. Ninguém tinha a tarefa de revisar essa hipótese quando o mercado esfriou. E a meta premiava comprar, não comprar bem."
 
-**22 a 38s**
-"Toda premissa de orçamento precisa responder três perguntas. Quem definiu esse número. Com que critério. Quando ele vai ser revisado."
+**28 a 42s**
+"Toda premissa de orçamento precisa de três respostas. Quem definiu esse número. Com que critério. Quando ele vai ser revisado. Isso custa tempo, então use nas premissas que mudam o resultado do ano."
 
-**38 a 50s**
-"Sem essas três respostas, a premissa não está errada ainda. Ela só está sem controle. E isso não aparece na hora em que foi criada. Aparece meses depois, como prejuízo."
+**42 a 52s**
+"Uma premissa que ninguém desmentiu ainda não é uma premissa certa. É só uma que ninguém foi procurar desmentir."
 
-**50 a 60s**
-"O artigo completo explica as três perguntas e o caso Zillow em detalhe. Link nos comentários."
+**52 a 60s**
+"O artigo completo traz o caso e as três perguntas. Link nos comentários."

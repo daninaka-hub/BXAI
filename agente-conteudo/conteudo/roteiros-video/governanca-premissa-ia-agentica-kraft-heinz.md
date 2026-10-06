@@ -1,20 +1,20 @@
 ## Roteiro de vídeo, 1 minuto, LinkedIn
-Artigo de referência: O que a fraude de US$ 208 milhões da Kraft Heinz tem a ver com sua IA agêntica
+Artigo de referência: A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?
 
 **0 a 3s**
-"A Kraft Heinz, gigante americana de alimentos, escondeu uma fraude por 3 anos. O buraco que permitiu isso é o mesmo que trava a IA agêntica hoje."
+"Sua IA perguntaria de onde vieram os 300 descontos falsos da Kraft Heinz?"
 
-**3 a 18s**
-"Entre 2015 e 2018, a área de compras lançava como economia descontos de fornecedor que não existiam, em 300 transações. Em 2019, corrigiu 208 milhões de dólares e baixou 15 bilhões em ágio de aquisições. Pagou multa e fechou acordo de 450 milhões com acionistas."
+**3 a 20s**
+"A Kraft Heinz, gigante americana de alimentos, precisava crescer o lucro operacional em 6,1% para pagar bônus. Entregou 3%. Do fim de 2015 ao fim de 2018, a área de compras lançou como economia descontos de fornecedor que nunca tinha ganhado, em cerca de 300 transações. Em 2019, corrigiu 208 milhões de dólares. Depois vieram multa e um acordo de 450 milhões com acionistas."
 
-**18 a 28s**
-"O esquema não precisou de sofisticação. Precisou só de uma coisa: ninguém rastreando de onde vinha cada número, numa empresa sob pressão forte de meta de custo."
+**20 a 30s**
+"Não foi fraude sofisticada. Foi uma pergunta que ninguém fez: de onde vem esse número e quem confirma que ele é real."
 
-**28 a 42s**
-"99% das empresas querem usar IA agêntica em finanças, agentes que executam tarefas sozinhos. Só 11% colocaram em produção. O motivo não é a ferramenta. É dados e governança."
+**30 a 45s**
+"Agora o dado que surpreende. 99% das empresas planejam usar IA agêntica em finanças, agentes que executam tarefas sozinhos. Só 11% colocaram em produção. O motivo não é o preço da ferramenta, é dados e governança. Um agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu."
 
-**42 a 53s**
-"Um agente de IA só funciona bem sobre premissas organizadas, com dono claro. Jogar IA num processo sem rastreio não resolve nada, só automatiza a confusão mais rápido."
+**45 a 55s**
+"O que levou três anos na Kraft Heinz levaria meses. A pergunta deixa de ser quando você vai usar IA. Passa a ser qual número do seu orçamento ninguém saberia explicar."
 
-**53 a 60s**
-"O artigo completo explica o caso Kraft Heinz e o que isso tem a ver com IA agêntica. Link nos comentários."
+**55 a 60s**
+"O artigo completo está no link nos comentários."

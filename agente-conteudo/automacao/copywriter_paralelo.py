@@ -146,7 +146,7 @@ def main():
             if erros:
                 log(f"Artigo {b['codigo']}: {len(erros)} problema(s), uma rodada de correção")
                 try:
-                    claude("Corrija somente os problemas abaixo nos arquivos do artigo {s} (artigo, post e roteiro), sem mudar o resto, sem travessão e sem vírgula seguida de e. Responda só PRONTO.\n\n".replace("{s}", b["slug"]) + "\n".join(erros), wt)
+                    claude("Corrija somente os problemas abaixo nos arquivos do artigo {s} (artigo, post, roteiro e o arquivo de idiomas), sem mudar o resto, sem travessão e sem vírgula seguida de e. Responda só PRONTO.\n\n".replace("{s}", b["slug"]) + "\n".join(erros), wt)
                     erros = lint_em(wt, b["slug"])
                 except Exception as e:
                     log(f"correção falhou: {e}")
@@ -161,7 +161,7 @@ def main():
 
         for b in boas:
             wt = resultados[b["codigo"]]
-            for rel in (f"conteudo/artigos/{b['slug']}.md", f"conteudo/posts-linkedin/{b['slug']}.md", f"conteudo/roteiros-video/{b['slug']}.md", f"conteudo/artes/{b['slug']}.md"):
+            for rel in (f"conteudo/artigos/{b['slug']}.md", f"conteudo/posts-linkedin/{b['slug']}.md", f"conteudo/roteiros-video/{b['slug']}.md", f"conteudo/artes/{b['slug']}.md", f"conteudo/idiomas/{b['slug']}.json"):
                 dest = REPO / "agente-conteudo" / rel
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(wt / "agente-conteudo" / rel, dest)

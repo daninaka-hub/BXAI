@@ -1,53 +1,49 @@
-# O que a fraude de US$ 208 milhões da Kraft Heinz tem a ver com sua IA agêntica
+# A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?
 
-A Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), é controlada pela 3G Capital, gestora conhecida por aplicar orçamento base zero: toda despesa precisa ser justificada do zero a cada ciclo, sem herdar automaticamente o que já existia no ano anterior. Para liberar bônus, as equipes precisavam bater uma meta mínima de crescimento do EBITDA, o lucro operacional antes de juros, impostos e depreciação, de 6,1%. Em 2017, a empresa entregou 3%, menos da metade do exigido.
+Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos e depreciação, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta.
 
-Foi dentro dessa pressão que a área de procurement, responsável pelas compras de fornecedores, passou a lançar como economia descontos que nunca tinha efetivamente ganhado, em cerca de 300 transações, entre o último trimestre de 2015 e o final de 2018. Em fevereiro de 2019, a empresa reapresentou suas demonstrações financeiras, os relatórios oficiais de resultado, corrigindo US$ 208 milhões em economias de custo que não existiam de verdade. No mesmo anúncio, registrou uma baixa contábil separada de US$ 15,4 bilhões em goodwill (o valor pago a mais em aquisições além do valor dos ativos) e em marcas, incluindo Kraft e Oscar Mayer, resultando em prejuízo líquido de US$ 12,6 bilhões no trimestre. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais dos Estados Unidos. Dois executivos foram punidos individualmente: o COO (diretor de operações) Eduardo Pelleissone pagou US$ 300 mil em multa. O diretor de compras (Chief Procurement Officer) Klaus Hofmann pagou US$ 100 mil e foi banido por 5 anos de cargos de direção em empresas de capital aberto. Em 2023, a Kraft Heinz fechou acordo de US$ 450 milhões com acionistas para encerrar a ação coletiva sobre o caso.
+Sob essa pressão, a área de compras (procurement) passou a lançar como economia descontos de fornecedores que nunca tinha ganhado, em cerca de 300 transações, do último trimestre de 2015 até o fim de 2018. A falha não foi de cálculo. Foi de premissa: ninguém conferiu a hipótese de que cada desconto era real.
 
-Trezentas transações sustentando um esquema por três anos não é fraude sofisticada. É a ausência de uma pergunta simples, repetida em cada etapa da consolidação, o momento em que os números de todas as áreas são somados no resultado da empresa: de onde veio este número e quem confirma a premissa por trás dele. Essa mesma ausência é o motivo pelo qual a maioria das empresas que compra IA agêntica, agentes de IA que executam tarefas por conta própria, como somar e conciliar números, para finanças não consegue usá-la de verdade.
+É o mesmo ponto em que trava a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. A tese deste texto é direta: a IA agêntica não corrige um processo sem dono, só o acelera. Para ver por quê, o caminho começa dentro da Kraft Heinz.
 
-## O número que todo mundo cita errado
+## Quem ganhava com os 300 descontos da Kraft Heinz?
 
-Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nos processos financeiros. Só 11% já fizeram isso de fato. O motivo mais citado não é o custo da tecnologia, nem a falta de interesse. É um conjunto de desafios bem mais chato de resolver: dados, governança e segurança.
+O incentivo explica quase tudo. O bônus dependia de bater a meta de EBITDA. Cada desconto lançado aproximava o resultado da meta. Já a consolidação, o momento em que os números de todas as áreas são somados no resultado da empresa, não tinha uma etapa que rastreasse de onde vinha cada desconto. Quem lançava ganhava. Quem somava não era pago para duvidar.
 
-Isso não é um problema de adoção lenta. É um problema de pré-requisito. A Wolters Kluwer, empresa global de informação e software para profissionais (wolterskluwer.com), projeta que 44% dos times de finanças vão usar IA agêntica em 2026, um salto de mais de 600% em relação ao ano anterior. A velocidade da promessa está correta. A velocidade da base que sustenta essa promessa, não.
+A 3G Capital, gestora que controla a Kraft Heinz, aplicava o orçamento base zero, no qual toda despesa precisa ser justificada do zero a cada ciclo. A prática é legítima e não é a vilã da história. Ela só aumentou a pressão sobre quem precisava mostrar economia.
 
-## Um agente de IA não cria governança, ele depende dela
+A conta veio em etapas. Em fevereiro de 2019, a empresa anunciou uma baixa contábil de US$ 15,4 bilhões em goodwill (o valor pago a mais em aquisições) e em marcas como Kraft e Oscar Mayer, com prejuízo líquido de US$ 12,6 bilhões no trimestre. Em junho de 2019, reapresentou suas demonstrações financeiras, os relatórios oficiais de resultado, corrigindo US$ 208 milhões em economias que não existiam. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais dos Estados Unidos. Dois executivos foram punidos: o diretor de operações pagou US$ 300 mil, enquanto o diretor de compras pagou US$ 100 mil e foi banido por 5 anos de cargos de direção em empresas de capital aberto. Em 2023, o acordo com acionistas custou mais US$ 450 milhões.
 
-Um agente de IA, por mais avançado que seja, só age bem sobre dados e premissas já organizados, rastreáveis, com dono definido. Se o processo de orçamento ou consolidação de uma empresa já roda sem controle de versão, sem clareza sobre quem aprovou cada número, colocar um agente em cima disso não resolve nada. Só automatiza a confusão em velocidade maior.
+## O que é uma premissa e por que ela some na consolidação?
 
-É por isso que 99% planeja e só 11% executa. A pergunta que trava a maioria das empresas não é qual ferramenta de IA escolher. É se o processo de planejamento tem base governada o suficiente para uma IA operar nele com segurança.
+Premissa é o motivo para acreditar em um número. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando o número chega à consolidação sem a premissa, quem soma só enxerga o total.
 
-## O que o caso Kraft Heinz confirma
+É por isso que trezentas transações em três anos não indicam uma fraude sofisticada. Indicam a falta de uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe. Não precisa de má-fé generalizada para o processo falhar.
 
-O orçamento base zero da 3G Capital não é o vilão da história, é só o acelerador. Exigir que cada despesa seja justificada do zero é uma prática legítima de controle de custos. O problema foi combinar essa pressão com uma meta de EBITDA que a operação não estava entregando, numa estrutura de consolidação onde ninguém rastreava de onde vinha cada desconto de fornecedor lançado no resultado. A distância entre quem registrava o número final e quem entendia a premissa por trás dele deu espaço para quase 300 transações seguirem o mesmo padrão por três anos, até alguém perguntar a origem de um único desconto.
+O erro silencioso é mais comum do que o deliberado. Na maior parte das empresas ninguém quer enganar ninguém. Existe um número que todo mundo usa e ninguém sabe explicar. A Kraft Heinz é o caso extremo da mesma fragilidade.
 
-Em qualquer orçamento ou fechamento com muita gente envolvida, cada área alimenta sua parte do número. Quando a consolidação só soma o que chega, sem rastrear de onde veio cada premissa e quem a validou, o processo fica estruturalmente vulnerável. Não precisa haver má-fé generalizada. Basta a cadeia de aprovação ser longa o suficiente, a pressão de meta ser real o suficiente e a visibilidade sobre a premissa original, curta o suficiente.
+## Por que a IA agêntica não resolve isso sozinha?
 
-Agora imagine esse mesmo processo sem rastreio, só que com um agente de IA somando e consolidando em escala maior e em menos tempo. Um esquema que levou três anos para aparecer na Kraft Heinz não precisaria de três anos para crescer do mesmo tamanho. Precisaria de meses.
+Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já fizeram isso. O motivo mais citado não é o preço da tecnologia. São dados, governança e segurança, o trabalho menos atraente da lista.
 
-## Erros comuns ao tentar aplicar isso
+A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de IA executa regras sobre o que já existe, seja um processo com dono ou sem ele. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. Mesmo assim, diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real.
 
-A primeira confusão é tratar governança como um projeto de compliance separado, que vem depois da IA. Governança de premissa é pré-requisito, não etapa posterior. Uma empresa que automatiza antes de rastrear só chega mais rápido ao mesmo problema.
+Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque as pessoas somavam devagar. Um agente que consolida em minutos teria levado o mesmo padrão ao mesmo tamanho em meses.
 
-A segunda é achar que o risco é exclusivo de fraude deliberada. A maior parte das empresas não tem ninguém tentando enganar ninguém. Tem só processo sem dono claro, premissa sem critério documentado, número que todo mundo usa e ninguém sabe explicar de onde veio. O risco de erro silencioso é maior do que o risco de má-fé, mesmo quando a má-fé, como na Kraft Heinz, acaba sendo a consequência final.
+Rastrear premissas tem custo. Cada número relevante ganha um dono e um registro, o fechamento fica mais lento no começo e alguém precisa ouvir "não sei de onde veio" em voz alta. Em tarefas pequenas e de baixo risco, como formatar um relatório, esse custo não compensa. Em orçamento e fechamento, compensa.
 
-A terceira é esperar o agente de IA resolver o problema de dados como parte da implementação. Um agente de IA bem configurado executa regras sobre o que já existe. Ele não cria, por conta própria, o dono, o critério e o rastro que faltam.
+## Como aplicar antes de automatizar
 
-## Como aplicar na prática
+Para cada número relevante do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação.
 
-Antes de automatizar qualquer parte do orçamento ou do fechamento com IA, três respostas precisam estar documentadas para cada número relevante do processo. Quem é o responsável por essa premissa ou esse dado. Qual foi o critério usado para chegar nele. Quem validou antes de ele entrar na consolidação.
+Isso não exige sistema novo nem projeto de meses. Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema.
 
-Isso não exige esperar um sistema novo nem um projeto de meses. Pode começar revisando os pontos do processo atual onde um número troca de mão sem registro de quem aprovou, especialmente os pontos sob pressão de meta, como o procurement da Kraft Heinz estava. Esses pontos são exatamente onde a IA, se chegar antes da governança, vai amplificar o problema em vez de resolvê-lo.
+A área que cuida disso é a controladoria, responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu, como ocorreu na Kraft Heinz, quando a conta já somava bilhões.
 
-## Por que isso é mais importante do que parece
+## O que muda na pergunta
 
-A diferença entre as empresas que vão estar nos 11% que executam IA agêntica de verdade e as que vão continuar comprando ferramenta sem conseguir colocá-la em produção não é o orçamento de tecnologia. É ter, antes da IA chegar, alguém capaz de responder de onde vem cada número do orçamento e quem validou esse número.
+A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A pergunta melhor é qual número do orçamento de hoje ninguém saberia explicar. A Kraft Heinz respondeu isso sem nenhuma IA. O custo só levou anos para aparecer.
 
-Isso é controladoria, a área que cuida da confiabilidade dos números da empresa. Não é auditoria. Auditoria encontra o problema depois que ele já aconteceu, como aconteceu com a Kraft Heinz, só depois que o prejuízo somou bilhões. Governança de premissa evita que ele aconteça, com IA ou sem ela.
+A IA não cria o problema de governança. Ela mede quanto tempo ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar não está atrasando a IA. Está definindo se ela vai trabalhar a favor do resultado ou contra ele.
 
-## O que fica
-
-A pergunta que a maioria das empresas faz é quando vai poder usar IA agêntica em finanças. A pergunta certa é se o processo de hoje já resistiria a rodar em escala maior e mais rápido, sem ninguém olhando cada número. A Kraft Heinz respondeu essa pergunta na prática, sem nenhuma IA envolvida. O custo só levou anos para aparecer. Uma empresa que automatiza um processo sem dono só troca o tempo que o problema leva para aparecer, não o problema.
-
-Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026". Wolters Kluwer (wolterskluwer.com), empresa global de informação e software para profissionais (2025), citada pela mesma pesquisa. Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme". The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million". Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".
+Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme". The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million". Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".

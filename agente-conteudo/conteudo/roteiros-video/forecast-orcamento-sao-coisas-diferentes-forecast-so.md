@@ -1,20 +1,20 @@
 ## Roteiro de vídeo, 1 minuto, LinkedIn
-Artigo de referência: Só 14% das equipes de finanças medem o erro do forecast, por quê?
+Artigo de referência: Por que 86% das equipes de finanças não medem o erro do próprio forecast?
 
 **0 a 3s**
-"86% das equipes de finanças nunca conferem se o forecast do mês passado acertou."
+"86% das equipes de finanças não medem formalmente se o forecast do mês passado acertou."
 
 **3 a 14s**
-"O dado é da AFP, a associação americana de profissionais de finanças, na pesquisa de 2026 com 332 profissionais em 54 países. Só 14% medem formalmente a acurácia do forecast. Todo mês sai uma previsão nova sem ninguém calcular o erro da anterior."
+"Forecast é a previsão de como a empresa vai fechar o período. A AFP, a associação americana de profissionais de finanças, perguntou a 332 profissionais em 54 países, em 2026. Só 14% medem o erro da própria previsão."
 
-**14 a 26s**
-"E quase nunca é falta de tempo. É que o forecast e o orçamento viraram a mesma planilha com dois nomes. São perguntas diferentes. O orçamento pergunta quanto você vai se comprometer a entregar. O forecast pergunta onde você chega se nada mudar de rota."
+**14 a 28s**
+"Você pode achar que falta tempo. Eu acho que o forecast virou o orçamento com data nova. Pense no diretor que prometeu uma meta em dezembro. Em maio, a meta não fecha. Quem escreve a previsão é quem defende o orçamento. O incentivo é ajustar a previsão, não a meta."
 
-**26 a 38s**
-"Quando as duas se misturam, sobra uma resposta só. E ela sempre pende para o lado do compromisso, porque é o compromisso que tem meta e bônus atrelado. A McKinsey já apontava isso em 2020."
+**28 a 40s**
+"A McKinsey propôs, em 2020, uma linha de base separada do plano, só com a inércia do negócio. Dá trabalho, porque você passa a ter dois números na mesa. Mas só assim o erro aparece."
 
-**38 a 50s**
-"Medir o erro não é olhar só o tamanho do desvio. É olhar o sinal. Errar 8% para cima e para baixo é imprecisão. Errar 2% sempre para cima, sempre na mesma linha, é viés. E viés tem causa no processo, não no mercado."
+**40 a 52s**
+"E olhe o sinal do erro. Errar 8% para cima e para baixo é imprecisão. Errar 2% sempre para cima, na mesma linha, é viés. Viés aponta para o processo, não para o mercado."
 
-**50 a 60s**
-"Enquanto ninguém mede, seu forecast não está errado nem certo. Ele é o orçamento com uma data nova. O artigo completo mostra como medir isso em três ciclos. Link nos comentários."
+**52 a 60s**
+"Errar não é o problema. O problema é ninguém ver o erro. O artigo completo mostra como medir em três ciclos. Link nos comentários."
