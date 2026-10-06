@@ -57,7 +57,7 @@ As três respostas ficam com a controladoria, a área responsável pela confiabi
 
 A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A pergunta melhor é qual número do orçamento de hoje ninguém saberia explicar. A Kraft Heinz respondeu isso sem nenhuma IA.
 
-A IA não cria o problema de governança de processo. Ela encurta o tempo que ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar define se a IA vai trabalhar a favor do resultado ou contra ele.
+A IA não cria o problema de governança de processo. Ela acelera os efeitos da falta de governança. Por isso, quem organiza a origem dos números antes de automatizar define se a IA vai trabalhar a favor do resultado ou contra ele.
 
 ## Como a BudgetXpert faria diferente
 
