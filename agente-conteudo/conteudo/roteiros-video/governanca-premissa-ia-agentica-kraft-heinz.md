@@ -1,5 +1,5 @@
 ## Roteiro de vídeo, 1 minuto, LinkedIn
-Artigo de referência: A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?
+Artigo de referência: O que a fraude de US$ 208 milhões da Kraft Heinz diz sobre a IA agêntica nas finanças?
 
 **0 a 3s**
 "Em 2017, a Kraft Heinz errou uma meta de lucro. Em 2019, registrou uma baixa de 15,4 bilhões de dólares."
