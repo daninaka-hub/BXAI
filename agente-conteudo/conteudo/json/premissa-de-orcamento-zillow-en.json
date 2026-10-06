@@ -30,7 +30,7 @@
     "review trigger"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them and where the rule does not apply."
+      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them and what that cost returns to the budget."
     },
     {
       "type": "paragraph",
@@ -129,15 +129,24 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What this costs and where it does not apply"
+      "content": "What this costs and what you gain"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "What does it cost to answer the three questions and what comes back?"
     },
     {
       "type": "paragraph",
-      "content": "Answering the three questions has a price. The budget closes more slowly, someone starts answering for numbers that used to belong to everyone. The discussion about the criterion exposes disagreements the spreadsheet used to hide. So it does not apply to every cell. A low-impact assumption, or one tied to a variable that barely moves, can go without this care. The rule is for the few that change the year's result if they are wrong."
+      "content": "Answering the three questions has a cost. That cost is an investment. At first, the budget closes more slowly, because someone starts answering for numbers that used to belong to everyone. The discussion about the criterion exposes disagreements the spreadsheet used to hide: two areas used different assumptions for the same variable without knowing it. That is the gain. A disagreement that surfaces in a meeting costs a conversation. One that surfaces in the year's result costs what it cost Zillow."
     },
     {
       "type": "paragraph",
-      "content": "There is also a limit. Having an owner, a criterion and a review date does not guarantee the assumption is right. It guarantees that if it is wrong, someone will see it. In practice, the start is simple: a column next to each relevant assumption with the three answers in writing. No assumption enters the official budget without them."
+      "content": "The only choice is one of order. If the team cannot do everything at once, start with the assumptions that change the year's result the most if they are wrong. Then keep going until all of them are covered. None is left out."
+    },
+    {
+      "type": "paragraph",
+      "content": "Governing also has a caveat. Having an owner, a criterion and a review date does not guarantee the assumption is right. It guarantees that if it is wrong, someone will see it. In practice, the start is simple: a column next to each assumption with the three answers in writing. No assumption enters the official budget without them."
     },
     {
       "type": "paragraph",
@@ -155,38 +164,6 @@
     {
       "type": "paragraph",
       "content": "The decision that belongs to leadership is small and concrete: no number enters the official budget without a name next to it. Whoever signs the number is the person who will look at it again."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Frequently asked questions"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What is a budget assumption?"
-    },
-    {
-      "type": "paragraph",
-      "content": "It is the hypothesis about the future that supports a budget number, such as costs rising 8% or a conversion rate staying at 3%. It is not the target, which is what the company wants to reach."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What are the three questions to control an assumption?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Who set the number, what criterion was used to choose it, and when it will be reviewed. Without these three answers in writing, the assumption is not under control."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Why did Zillow lose $881 million in 2021?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Its pricing algorithm worked as trained, but in February 2021 the estimate began to generate binding purchase offers with no new governance. Nobody reviewed the assumption when the market cooled."
     },
     {
       "type": "divider"

@@ -11,7 +11,7 @@ O erro não foi de conta. Foi de premissa, a hipótese sobre o futuro em que o p
 
 Toda premissa de orçamento precisa de três respostas antes de entrar na planilha. Quem definiu esse número. Com que critério. Quando ele será revisado.
 
-Isso custa tempo, então não vale para toda célula. Vale para as poucas que, se estiverem erradas, mudam o resultado do ano.
+Isso custa tempo no começo, o orçamento fecha mais devagar. O retorno vem quando a discussão do critério expõe a divergência que a planilha escondia, antes que ela chegue ao resultado do ano. Comece pelas premissas de maior impacto e avance até cobrir todas.
 
 Uma premissa que ninguém desmentiu ainda não é uma premissa certa. É só uma que ninguém foi procurar desmentir.
 

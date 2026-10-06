@@ -12,7 +12,7 @@ O método que melhor expõe isso é o Strategy Map, ou mapa estratégico, criado
 
 Cada seta é uma hipótese, não um fato. "Se treinarmos a equipe, o processo melhora" pode ser verdade na empresa do caso de estudo e falso na sua, neste mercado, neste ano. Por isso o método prevê revisão trimestral do mapa, com realocação de recursos (Umbrex). A revisão serve para confrontar cada seta com o que aconteceu, enquanto ainda sobra dinheiro para mudar de rumo.
 
-A conta assusta. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. Nenhuma empresa consegue bancar todas por inteiro antes de saber quais funcionam. A Target tentou.
+A conta assusta. O mapa desdobra de 2 a 4 temas estratégicos em 12 a 20 objetivos ligados entre si, ou seja, até 20 apostas simultâneas no mesmo plano. Nenhuma empresa consegue bancar todas por inteiro ao mesmo tempo. A Target tentou. Por isso todas entram em fases, com a ordem decidindo qual vem primeiro.
 
 ## O que a Target apostou ao mesmo tempo
 
@@ -30,7 +30,7 @@ Para isso, cada fase precisa de três definições feitas antes de começar: a h
 
 No caso canadense, a versão em fases seria abrir 10 lojas numa única região, com o sistema novo rodando só nelas, antes das outras 123. O erro de cadastro custaria 10 lojas, não 133. O aprendizado seria o mesmo.
 
-Isso tem preço. Quem testa abre mão de parte da velocidade e da vantagem de chegar primeiro. Convive, por um tempo, com dois jeitos de operar. Há também um limite: quando o erro é barato e fácil de desfazer, testar custa mais que errar. Fase é para aposta cara de reverter.
+Isso exige investimento. Quem testa cede parte da velocidade e convive, por um tempo, com dois jeitos de operar. Em troca, paga 10 lojas pelo erro que custaria 133 e descobre cedo qual hipótese falhou. Esse retorno vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
 
 ## Quem decide quando o teste falha?
 
@@ -50,24 +50,10 @@ O dado não prova que o cenário causa a rapidez, já que empresas mais organiza
 
 Pegue cada meta e escreva ao lado "se fizermos X, então Y acontece". Defina o número que derruba a frase, não só o que a confirma. Escolha a menor versão que dá para testar, um mês, uma região, uma linha de produto. Marque a data da verificação e o nome de quem decide nela. A meta que não aceita essa escrita provavelmente é desejo, não hipótese.
 
-Dois cuidados. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
+Duas regras mantêm o teste honesto. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
 
 ## O que o plano da Target deveria ter perguntado
 
 A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Com 10 lojas, o custo seria 10 lojas. Com 133, foi a operação inteira no Canadá. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
-
-## Perguntas frequentes
-
-### O que é uma hipótese em um plano estratégico?
-
-É uma afirmação sobre o mundo que sustenta uma meta e ainda não foi confrontada com a realidade, como "o cliente aceitará o novo preço sem comprar menos". No mapa estratégico de Kaplan e Norton, cada seta de causa e efeito é uma hipótese, não um fato.
-
-### Como testar um plano estratégico em fases?
-
-Antes de cada fase, defina a hipótese em uma frase ("se fizermos X, então Y acontece"), o indicador que a confirma ou derruba, com o valor mínimo aceitável e a regra de decisão para seguir, ajustar ou parar. No caso da Target, a versão em fases seria abrir 10 lojas numa região antes das outras 123.
-
-### Por que tantos planos estratégicos não são testados?
-
-Na pesquisa da Deloitte de 2026, 65% dos Chief Strategy Officers dizem não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível. Sem dono, a hipótese não ganha data de verificação.
 
 Fonte: Panorama Consulting (panorama-consulting.com), consultoria de seleção e implantação de sistemas de gestão, "6 Lessons Learned From The Target Canada Supply Chain Failure". Umbrex (umbrex.com), rede global de consultores independentes, "Strategy Map (Kaplan e Norton)", descrevendo o framework cuja obra original é de Robert Kaplan com David Norton. Deloitte (deloitte.com), rede global de auditoria e consultoria, "2026 Chief Strategy Officer Survey" (12 de fevereiro de 2026). AFP, Association for Financial Professionals (financialprofessionals.org), associação de profissionais de finanças corporativas, "2026 AFP FP&A Benchmarking Survey Report: Integrated Planning".

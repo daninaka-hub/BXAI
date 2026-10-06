@@ -11,7 +11,7 @@ Artigo de referência: Quem era dono da premissa que custou US$ 881 milhões à 
 "O erro foi de premissa, a hipótese sobre o futuro em que o preço se apoiava. Ninguém tinha a tarefa de revisar essa hipótese quando o mercado esfriou. E a meta premiava comprar, não comprar bem."
 
 **28 a 42s**
-"Toda premissa de orçamento precisa de três respostas. Quem definiu esse número. Com que critério. Quando ele vai ser revisado. Isso custa tempo, então use nas premissas que mudam o resultado do ano."
+"Toda premissa de orçamento precisa de três respostas. Quem definiu esse número. Com que critério. Quando ele vai ser revisado. Isso atrasa o fechamento no começo. O ganho é ver na reunião a divergência que a planilha escondia. Comece pelas de maior impacto e cubra todas."
 
 **42 a 52s**
 "Uma premissa que ninguém desmentiu ainda não é uma premissa certa. É só uma que ninguém foi procurar desmentir."

@@ -30,7 +30,7 @@
     "disparador de revisión"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas y dónde la regla no se aplica."
+      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas y lo que ese costo devuelve al presupuesto."
     },
     {
       "type": "paragraph",
@@ -129,15 +129,24 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Lo que esto cuesta y dónde no se aplica"
+      "content": "Lo que esto cuesta y lo que se gana"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "¿Cuánto cuesta responder las tres preguntas y qué devuelve?"
     },
     {
       "type": "paragraph",
-      "content": "Responder las tres preguntas tiene un precio. El presupuesto cierra más despacio, alguien pasa a responder por cifras que antes eran de todos y la discusión sobre el criterio deja ver desacuerdos que la hoja de cálculo ocultaba. Por eso no vale para todas las celdas. Un supuesto de bajo impacto, o ligado a una variable que casi no se mueve, puede seguir sin este cuidado. La regla es para los pocos que, si están equivocados, cambian el resultado del año."
+      "content": "Responder las tres preguntas tiene un costo. Ese costo es una inversión. Al principio, el presupuesto cierra más despacio, porque alguien pasa a responder por cifras que antes eran de todos. La discusión sobre el criterio deja ver desacuerdos que la hoja de cálculo ocultaba: dos áreas usaban supuestos distintos para la misma variable sin saberlo. Ese es el beneficio. El desacuerdo que aparece en una reunión cuesta una conversación. El que aparece en el resultado del año cuesta lo que le costó a Zillow."
     },
     {
       "type": "paragraph",
-      "content": "También hay un límite. Tener dueño, criterio y fecha de revisión no garantiza que el supuesto sea correcto. Garantiza que, si está equivocado, alguien lo verá. En la práctica, el comienzo es simple: una columna junto a cada supuesto relevante, con las tres respuestas por escrito. Ningún supuesto entra en el presupuesto oficial sin ellas."
+      "content": "La única decisión es de orden. Si el equipo no puede hacerlo todo a la vez, empiece por los supuestos que más cambian el resultado del año si están equivocados. Después avance hasta cubrirlos todos. Ninguno queda afuera."
+    },
+    {
+      "type": "paragraph",
+      "content": "Gobernar también tiene una salvedad. Tener dueño, criterio y fecha de revisión no garantiza que el supuesto sea correcto. Garantiza que, si está equivocado, alguien lo verá. En la práctica, el comienzo es simple: una columna junto a cada supuesto, con las tres respuestas por escrito. Ningún supuesto entra en el presupuesto oficial sin ellas."
     },
     {
       "type": "paragraph",
@@ -155,38 +164,6 @@
     {
       "type": "paragraph",
       "content": "La decisión que corresponde a la dirección es pequeña y concreta: ninguna cifra entra en el presupuesto oficial sin un nombre al lado. Quien firma la cifra es quien volverá a mirarla."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Preguntas frecuentes"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Qué es un supuesto presupuestario?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Es la hipótesis sobre el futuro que sostiene una cifra del presupuesto, como un costo que subirá 8% o una conversión que se mantendrá en 3%. No es la meta, que es lo que la empresa quiere alcanzar."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Cuáles son las tres preguntas para controlar un supuesto?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Quién definió la cifra, con qué criterio se eligió y cuándo se revisará. Sin esas tres respuestas por escrito, el supuesto no está bajo control."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Por qué Zillow perdió 881 millones de dólares en 2021?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Su algoritmo de precios funcionaba como fue entrenado, pero en febrero de 2021 la estimación empezó a generar ofertas de compra vinculantes sin nueva gobernanza. Nadie revisó el supuesto cuando el mercado se enfrió."
     },
     {
       "type": "divider"

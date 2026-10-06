@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "The difference between budget and forecast, why the budget contaminates the forecast, how to detect bias, when measurement backfires and how to start at the next close."
+      "content": "The difference between budget and forecast, why the budget contaminates the forecast, how to detect bias, what it costs to start measuring and how to start at the next close."
     },
     {
       "type": "paragraph",
@@ -80,7 +80,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Separating them has a cost. The company now has two numbers on the table, one of them uncomfortable."
+      "content": "Separating them is an investment with a return. The company now has two numbers on the table, one of them uncomfortable. In exchange, it gets a forecast it can measure."
     },
     {
       "type": "paragraph",
@@ -123,23 +123,23 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "When does measurement backfire?"
+      "content": "What does it cost to start measuring?"
     },
     {
       "type": "paragraph",
-      "content": "Three common mistakes strip measurement of its value."
+      "content": "Measuring costs time to freeze each close's version, a hard conversation about the error and two numbers on the table instead of one. It is an investment with a return: a forecast that stops repeating the same bias. Postponing is the costliest part: an error discovered eleven months later corrects no decision. It only feeds a lessons-learned presentation."
     },
     {
       "type": "paragraph",
-      "content": "The first is using it to evaluate people. When forecast error enters performance reviews, everyone starts padding their predictions on purpose. Measurement stops informing and starts distorting. Accuracy is there to fix the model and its assumptions, not to score whoever filled in the spreadsheet."
+      "content": "The only limit is one of order, where to start. Measurement covers the whole forecast. The first cycle can begin with the lines that weigh most on the result. Two precautions protect the investment."
     },
     {
       "type": "paragraph",
-      "content": "The second is measuring only the total. Large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way."
+      "content": "The first is not using the error to evaluate people. When it enters performance reviews, everyone starts padding their predictions on purpose. Accuracy is there to fix the model and its assumptions, not to score whoever filled in the spreadsheet."
     },
     {
       "type": "paragraph",
-      "content": "The third is measuring once a year. An error discovered eleven months later corrects no decision. It only feeds a lessons-learned presentation."
+      "content": "The second is not measuring only the total. Large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way. That is why measurement goes down to each line."
     },
     {
       "type": "heading",
@@ -148,11 +148,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Start with three to five lines that really move the result, such as revenue by channel and volume. At each close, save that month's forecast version before updating it, because without the frozen version there is no error to calculate. Compare forecast with actual and record the deviation with its sign, up or down, never as an absolute value. The sign is what reveals bias."
+      "content": "Start with the lines that weigh most on the result, such as revenue by channel and volume. At each close, add lines until the whole forecast is inside the measurement. At each one, save that month's forecast version before updating it, because without the frozen version there is no error to calculate. Compare forecast with actual and record the deviation with its sign, up or down, never as an absolute value. The sign is what reveals bias."
     },
     {
       "type": "paragraph",
-      "content": "After three cycles, the conversation at the table changes. Instead of debating whether this month's number looks reasonable, the team looks at the pattern: this line always misses high, that one misses along with seasonality. At a small company where the owner decides everything, the ritual can be lighter. The rule of saving the version and comparing holds all the same."
+      "content": "After three cycles, the conversation at the table changes. Instead of debating whether this month's number looks reasonable, the team looks at the pattern: this line always misses high, that one misses along with seasonality. At a small company where the owner decides everything, saving the version and comparing fits in a short close meeting, with a return from the first cycle."
     },
     {
       "type": "heading",
@@ -166,38 +166,6 @@
     {
       "type": "paragraph",
       "content": "Budget and forecast do not compete. They protect each other when kept apart: the budget holds the commitment, the forecast warns early when the commitment is at risk. A wrong budget is a negotiation problem. A wrong forecast is information, as long as someone measures the error. The finance team's job, then, is not to predict better in one leap. It is to make it safe to be wrong in public, because only a measured error teaches anything."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Frequently asked questions"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What is the difference between budget and forecast?"
-    },
-    {
-      "type": "paragraph",
-      "content": "The budget is a commitment: it sets how much each area can spend and what result the company promises to deliver. The forecast is an estimate of where the company lands if nothing changes course, based on what is known today."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "How many finance teams measure forecast accuracy?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Only 14%, according to the 2026 AFP FP&A Benchmarking Survey of 332 professionals in 54 countries. The other 86% have no structured measurement of error."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What is forecast bias and how do you detect it?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Bias is error that falls on the same side month after month. To detect it, save the forecast version before updating it, compare it with actuals and record the deviation with its sign, up or down."
     },
     {
       "type": "divider"

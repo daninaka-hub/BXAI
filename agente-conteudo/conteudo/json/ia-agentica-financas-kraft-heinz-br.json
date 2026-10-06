@@ -30,7 +30,7 @@
     "controladoria"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "6 min",
   "featured": false,
   "content": [
     {
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Rastrear premissas tem custo. Cada número relevante ganha um dono e um registro, o fechamento fica mais lento no começo e alguém precisa ouvir \"não sei de onde veio\" em voz alta. Em tarefas pequenas e de baixo risco, como formatar um relatório, esse custo não compensa. Em orçamento e fechamento, compensa."
+      "content": "Rastrear premissas é um investimento. Cada número ganha um dono e um registro, o fechamento fica mais lento no começo e alguém precisa ouvir \"não sei de onde veio\" em voz alta. O retorno vem em seguida: o erro aparece na origem, antes da consolidação. Sem rastreio, ele aparece anos depois, na conta de uma auditoria. Nenhum número fica de fora, porque o erro se esconde justamente no que ninguém rastreia."
     },
     {
       "type": "heading",
@@ -114,11 +114,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Para cada número relevante do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação."
+      "content": "Para cada número do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação."
     },
     {
       "type": "paragraph",
-      "content": "Isso não exige sistema novo nem projeto de meses. Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema."
+      "content": "Isso não exige sistema novo nem projeto de meses. Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Essa é uma ordem de início, não um recorte: todos os números entram, um ponto do processo de cada vez."
     },
     {
       "type": "paragraph",
@@ -136,38 +136,6 @@
     {
       "type": "paragraph",
       "content": "A IA não cria o problema de governança. Ela mede quanto tempo ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar não está atrasando a IA. Está definindo se ela vai trabalhar a favor do resultado ou contra ele."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Perguntas frequentes"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "O que é IA agêntica em finanças?"
-    },
-    {
-      "type": "paragraph",
-      "content": "São sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. Eles aplicam regras sobre os dados que já existem na empresa."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Por que só 11% das empresas colocaram IA agêntica em produção?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Segundo pesquisa de 2025 citada pela Neurons Lab, 99% planejam usar, mas o motivo mais citado para não avançar são dados, governança e segurança, não o preço da tecnologia."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "O que o caso Kraft Heinz ensina sobre governança de premissas?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Entre 2015 e 2018, cerca de 300 transações lançaram descontos de fornecedores que nunca existiram, somando US$ 208 milhões. Ninguém rastreava de onde vinha cada número na consolidação. Um agente de IA levaria o mesmo erro ao mesmo tamanho em menos tempo."
     },
     {
       "type": "divider"

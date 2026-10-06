@@ -30,13 +30,13 @@ A intuição diz que falta ferramenta. O dado diz que falta base. Um agente de I
 
 Pense no que isso faria com a Kraft Heinz. O esquema levou três anos para aparecer porque as pessoas somavam devagar. Um agente que consolida em minutos teria levado o mesmo padrão ao mesmo tamanho em meses.
 
-Rastrear premissas tem custo. Cada número relevante ganha um dono e um registro, o fechamento fica mais lento no começo e alguém precisa ouvir "não sei de onde veio" em voz alta. Em tarefas pequenas e de baixo risco, como formatar um relatório, esse custo não compensa. Em orçamento e fechamento, compensa.
+Rastrear premissas é um investimento. Cada número ganha um dono e um registro, o fechamento fica mais lento no começo e alguém precisa ouvir "não sei de onde veio" em voz alta. O retorno vem em seguida: o erro aparece na origem, antes da consolidação. Sem rastreio, ele aparece anos depois, na conta de uma auditoria. Nenhum número fica de fora, porque o erro se esconde justamente no que ninguém rastreia.
 
 ## Como aplicar antes de automatizar
 
-Para cada número relevante do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação.
+Para cada número do orçamento ou do fechamento, três respostas precisam estar escritas: quem é o responsável pela premissa, qual critério levou até ele e quem o validou antes de entrar na consolidação.
 
-Isso não exige sistema novo nem projeto de meses. Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema.
+Isso não exige sistema novo nem projeto de meses. Comece pelos pontos do processo em que um número troca de mão sem registro de quem aprovou, sobretudo onde há pressão de meta, como estava o procurement da Kraft Heinz. É nesses pontos que a IA, chegando antes da governança, vai amplificar o problema. Essa é uma ordem de início, não um recorte: todos os números entram, um ponto do processo de cada vez.
 
 A área que cuida disso é a controladoria, responsável pela confiabilidade dos números da empresa. Ela difere da auditoria, que encontra o problema depois que ele aconteceu, como ocorreu na Kraft Heinz, quando a conta já somava bilhões.
 
@@ -45,19 +45,5 @@ A área que cuida disso é a controladoria, responsável pela confiabilidade dos
 A pergunta comum é quando a empresa poderá usar IA agêntica em finanças. A pergunta melhor é qual número do orçamento de hoje ninguém saberia explicar. A Kraft Heinz respondeu isso sem nenhuma IA. O custo só levou anos para aparecer.
 
 A IA não cria o problema de governança. Ela mede quanto tempo ele leva para aparecer. Por isso, quem organiza a origem dos números antes de automatizar não está atrasando a IA. Está definindo se ela vai trabalhar a favor do resultado ou contra ele.
-
-## Perguntas frequentes
-
-### O que é IA agêntica em finanças?
-
-São sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. Eles aplicam regras sobre os dados que já existem na empresa.
-
-### Por que só 11% das empresas colocaram IA agêntica em produção?
-
-Segundo pesquisa de 2025 citada pela Neurons Lab, 99% planejam usar, mas o motivo mais citado para não avançar são dados, governança e segurança, não o preço da tecnologia.
-
-### O que o caso Kraft Heinz ensina sobre governança de premissas?
-
-Entre 2015 e 2018, cerca de 300 transações lançaram descontos de fornecedores que nunca existiram, somando US$ 208 milhões. Ninguém rastreava de onde vinha cada número na consolidação. Um agente de IA levaria o mesmo erro ao mesmo tamanho em menos tempo.
 
 Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme". The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million". Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".

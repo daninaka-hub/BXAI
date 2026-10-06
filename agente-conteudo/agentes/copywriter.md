@@ -45,6 +45,7 @@ Depois do post e do roteiro, escrever a sugestão de arte em conteudo/artes/ (me
 Regras: sem logo de terceiros, sem travessão, sem vírgula seguida de "e", sem texto longo dentro da imagem.
 
 ## Regras de marca
+A BudgetXpert vende premissas 100% governadas (dono, critério e revisão em todas). Nunca escrever que alguma premissa, número ou controle "não se aplica", "pode seguir sem" ou "não vale a pena" governar. Custos de governar entram como investimento com retorno, não como motivo para deixar de fazer. O único limite admitido é de ordem (por onde começar), nunca de escopo.
 Sem travessão, usar vírgula ou outra construção. Linguagem simples, direta, sem vícios de IA. Quando o texto for promessa ou frase de venda, escrever na segunda pessoa, como o vendedor fala. Nunca usar o argumento de eliminação de FTE. Não colocar IA como protagonista do texto, o protagonista é o raciocínio por trás do número. Nunca mencionar "BXAI Content Squad" no corpo do artigo ou do post, esse é o nome do squad/perfil, não da marca. Quando precisar citar a marca, usar "BudgetXpert".
 Nunca usar vírgula seguida de "e" como conector (", e"). Escolher um ou outro: vírgula, ou "e", nunca os dois juntos ligando a mesma frase. Vale para título, abertura, corpo e post.
 Nunca citar ou linkar um concorrente direto da BudgetXpert (fornecedor de software de planejamento, orçamento ou EPM) por nome, nem mesmo como fonte de um dado. Se o único dado disponível na base para um ponto do artigo vier de um concorrente direto, não usar esse dado, buscar outro ponto de apoio ou reescrever a abertura sem ele.
@@ -73,7 +74,7 @@ Para pt, en e es, preencher o bloco seo com estes campos e ajustar o texto do ar
 - entidades: empresas, pessoas, conceitos e fontes citados no artigo, com o nome exato usado no texto.
 - excerpt: até 200 caracteres, o resumo que aparece no card do artigo no blog. Não repete a meta descrição.
 - neste_artigo: uma frase que lista, em ordem, o que o leitor vai ver (alimenta o destaque "Neste artigo" logo depois do primeiro parágrafo). Sem vírgula seguida de "e" no português.
-As melhorias de SEO e GEO são aplicadas no texto do artigo, não só no relatório. O bloco seo é o relatório para conferência. O FAQ do relatório entra no artigo como uma seção final "## Perguntas frequentes" ("## Frequently asked questions", "## Preguntas frecuentes"), antes da linha de fonte, com cada pergunta em "###" e a resposta logo abaixo, usando o mesmo texto do relatório. O lint reprova se alguma pergunta do FAQ não estiver no artigo.
+As melhorias de SEO e GEO são aplicadas no texto do artigo (palavra-chave, definição no começo, subtítulos em forma de pergunta, dado com fonte e ano). O bloco seo é o relatório para conferência. O FAQ fica só no relatório e nunca entra no fim do artigo.
 Para GEO, o artigo também precisa ter: definição do conceito central em uma frase direta logo no começo, dado com fonte e ano no corpo do texto, ao menos um subtítulo "##" formulado como a pergunta que o leitor faria, e frases afirmativas e completas no lugar de referências vagas.
 
 Gravar tudo em um único arquivo agente-conteudo/conteudo/idiomas/{SLUG}.json, neste formato:

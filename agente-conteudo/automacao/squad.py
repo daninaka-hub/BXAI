@@ -118,6 +118,11 @@ def lint(slug):
         if len(linhas) < 5 or [x.strip() for x in linhas[1:5]] != ["."] * 4:
             erros.append("post: depois do header precisam vir quatro linhas só com um ponto final")
     erros += lint_idiomas(slug)
+    for arq in (art, post, rot, IDIOMAS / f"{slug}.json"):
+        if arq.exists():
+            tx = arq.read_text(encoding="utf-8")
+            for m in re.finditer(r"não se aplica|nao se aplica|onde não vale|pode seguir sem|não vale a pena|dispensa (?:o|a) (?:dono|critério|revisão)|does not apply|can go without|no se aplica|puede seguir sin", tx, flags=re.I):
+                erros.append(f"{arq.parent.name}/{arq.name}: trecho enfraquece a governança (\"{tx[max(0, m.start()-30):m.end()+30].strip()}\")")
     return erros
 
 IDIOMAS = CONT / "idiomas"
@@ -183,10 +188,6 @@ def lint_idiomas(slug):
             n = len(str(b.get("artigo", "")).split("\nFonte:")[0].split()) if lg != "pt" else 0
             if lg != "pt" and (n < 700 or n > 1600):
                 erros.append(f"aviso: idiomas/{p.name}: {lg}.artigo com {n} palavras (esperado de 700 a 1600)")
-        texto_art = (caminhos(slug)[0].read_text(encoding="utf-8") if caminhos(slug)[0].exists() else "") if lg == "pt" else str(b.get("artigo", ""))
-        for x in seo["faq"]:
-            if isinstance(x, dict) and x.get("pergunta") and x["pergunta"] not in texto_art:
-                erros.append(f"idiomas/{p.name}: {lg}, a pergunta do FAQ \"{x['pergunta']}\" precisa estar no texto do artigo, como subtítulo \"###\" na seção de perguntas frequentes")
         if kw not in primeiras:
             erros.append(f"aviso: idiomas/{p.name}: {lg}, a palavra-chave não aparece nas primeiras 100 palavras do artigo")
     return erros

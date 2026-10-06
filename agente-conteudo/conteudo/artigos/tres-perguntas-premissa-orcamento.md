@@ -40,11 +40,15 @@ No terceiro trimestre de 2021, a empresa registrou US$ 304 milhões de baixa con
 
 O CEO, Rich Barton, explicou ao encerrar a operação que o algoritmo não conseguia prever com confiabilidade quanto capital a empresa precisaria arriscar. Recusou atribuir a perda a eventos externos imprevisíveis. Nenhum desses números veio de uma conta errada. Vieram de uma premissa sem dono, sem critério protegido da pressão por meta e sem gatilho de revisão.
 
-## O que isso custa e onde não se aplica
+## O que isso custa e o que se ganha
 
-Responder às três perguntas tem preço. O orçamento fecha mais devagar, alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia. Por isso, não vale para todas as células. Uma premissa de baixo impacto, ou de uma variável que quase não se move, pode seguir sem esse cuidado. A regra serve para as poucas que, se estiverem erradas, mudam o resultado do ano.
+### Quanto custa responder às três perguntas e o que volta em troca?
 
-Também há um limite. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa relevante, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas.
+Responder às três perguntas tem um custo. Esse custo é um investimento. No começo, o orçamento fecha mais devagar, porque alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia: duas áreas usavam hipóteses diferentes para a mesma variável sem saber. Esse é o ganho. A divergência que aparece numa reunião custa uma conversa. A que aparece no resultado do ano custa o que custou à Zillow.
+
+A única escolha é de ordem. Se o time não consegue fazer tudo de uma vez, comece pelas premissas que, se estiverem erradas, mais mudam o resultado do ano. Depois avance até cobrir todas. Nenhuma fica de fora.
+
+Governar também tem uma ressalva. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas.
 
 Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsáveis pelo controle financeiro e contábil das empresas, esperam que o próprio papel mude de forma significativa em cinco anos. Parte dessa mudança é esta: deixar de registrar o número fechado e passar a garantir que cada premissa por trás dele tenha dono, critério e data de revisão.
 
@@ -53,19 +57,5 @@ Segundo pesquisa da EY (2024) com controllers, 86% dos controllers, os responsá
 A pergunta de sempre é se a premissa está certa. Ela só vale para o dia em que foi respondida. A pergunta que protege a empresa é outra: quem vai perceber quando ela deixar de estar certa? Uma premissa que ninguém desmentiu ainda não é uma premissa verdadeira, é só uma que ninguém foi procurar desmentir.
 
 A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo.
-
-## Perguntas frequentes
-
-### O que é uma premissa de orçamento?
-
-É a hipótese sobre o futuro que sustenta um número do orçamento, como um custo que vai subir 8% ou uma conversão que vai ficar em 3%. Não é a meta, que é o que a empresa quer atingir.
-
-### Quais são as três perguntas para controlar uma premissa?
-
-Quem definiu o número, com que critério ele foi escolhido e quando será revisado. Sem essas três respostas por escrito, a premissa fica sem controle.
-
-### Por que a Zillow perdeu US$ 881 milhões em 2021?
-
-O algoritmo de preços funcionava como foi treinado, mas a estimativa passou a gerar ofertas de compra obrigatórias em fevereiro de 2021 sem nova governança. Ninguém revisou a premissa quando o mercado esfriou.
 
 Fonte: EY (ey.com), rede global de serviços profissionais de auditoria e consultoria, "Global DNA of the Financial Controller Survey" (2024), citado pelo Journal of Accountancy, revista profissional de contabilidade. Caso Zillow: Shackleford, consultoria de liderança em IA (shackleford.coach), "Zillow Offers Loss: A $881M Study in AI Model Risk". GeekWire, "Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI". IdeaProof, "Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)".

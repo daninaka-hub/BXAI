@@ -30,7 +30,7 @@
     "accounting fraud"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "6 min",
   "featured": false,
   "content": [
     {
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Tracing assumptions has a cost. Every relevant number gets an owner and a record, the close slows down at first and someone has to say \"I don't know where this came from\" out loud. For small, low-risk tasks such as formatting a report, that cost is not worth paying. For budgeting and closing the books, it is."
+      "content": "Tracing assumptions is an investment. Every number gets an owner and a record, the close slows down at first and someone has to say \"I don't know where this came from\" out loud. The return follows: the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill. No number stays out, because an error hides exactly where nobody traces."
     },
     {
       "type": "heading",
@@ -114,11 +114,11 @@
     },
     {
       "type": "paragraph",
-      "content": "For every relevant number in the budget or the close, three answers must be written down: who owns the assumption, what criterion produced the number and who validated it before it entered consolidation."
+      "content": "For every number in the budget or the close, three answers must be written down: who owns the assumption, what criterion produced the number and who validated it before it entered consolidation."
     },
     {
       "type": "paragraph",
-      "content": "This does not require a new system or a months-long project. Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem."
+      "content": "This does not require a new system or a months-long project. Start with the points in the current process where a number changes hands without a record of who approved it, especially where targets create pressure, as they did in Kraft Heinz's procurement. Those are the points where AI, if it arrives before governance, will amplify the problem. That is an order of entry, not a cut: every number comes in, one point of the process at a time."
     },
     {
       "type": "paragraph",
@@ -136,38 +136,6 @@
     {
       "type": "paragraph",
       "content": "AI does not create the governance problem. It measures how long the problem takes to appear. So a company that organizes the origin of its numbers before automating is not slowing AI down. It is deciding whether AI will work for its results or against them."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Frequently asked questions"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What is agentic AI in finance?"
-    },
-    {
-      "type": "paragraph",
-      "content": "It is AI that carries out tasks on its own, such as adding up and reconciling the numbers in a budget. It applies rules to the data a company already has."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Why have only 11% of companies put agentic AI into production?"
-    },
-    {
-      "type": "paragraph",
-      "content": "A 2025 survey cited by Neurons Lab found that 99% plan to use it, but the most cited obstacles are data, governance and security, not the price of the technology."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "What does the Kraft Heinz case teach about assumption governance?"
-    },
-    {
-      "type": "paragraph",
-      "content": "From 2015 to 2018, about 300 transactions booked supplier discounts that never existed, totaling $208 million. Nobody traced where each number came from in consolidation, and an AI agent would grow the same error to the same size in less time."
     },
     {
       "type": "divider"

@@ -67,7 +67,7 @@
     },
     {
       "type": "paragraph",
-      "content": "La cuenta asusta. El mapa desglosa de 2 a 4 temas estratégicos en 12 a 20 objetivos vinculados entre sí, es decir, hasta 20 apuestas simultáneas dentro de un mismo plan. Ninguna empresa puede financiarlas todas por completo antes de saber cuáles funcionan. Target lo intentó."
+      "content": "La cuenta asusta. El mapa desglosa de 2 a 4 temas estratégicos en 12 a 20 objetivos vinculados entre sí, es decir, hasta 20 apuestas simultáneas dentro de un mismo plan. Ninguna empresa puede financiarlas todas por completo al mismo tiempo. Target lo intentó. Por eso todas pasan por fases, con el orden decidiendo cuál va primero."
     },
     {
       "type": "heading",
@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Esto tiene un precio. Quien prueba renuncia a parte de la velocidad y de la ventaja de llegar primero. Durante un tiempo convive con dos formas de operar. También hay un límite: cuando el error es barato y fácil de deshacer, probar cuesta más que equivocarse. Las fases son para apuestas caras de revertir."
+      "content": "Esto exige inversión. Quien prueba cede parte de la velocidad y convive, durante un tiempo, con dos formas de operar. A cambio, paga 10 tiendas por el error que habría costado 133 y descubre temprano qué hipótesis falló. Ese retorno vale para toda meta, porque toda meta lleva una hipótesis. El único límite es de orden: empieza por las apuestas más caras de revertir, hasta que todas las metas del plan hayan pasado por una fase."
     },
     {
       "type": "heading",
@@ -148,7 +148,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Dos cuidados. Si ningún resultado puede cancelar la expansión, el piloto es solo un ensayo de implementación. Y mide la premisa, no la ejecución: saber si las 10 tiendas abrieron a tiempo responde sobre la obra, saber cuánto vendió cada metro cuadrado responde sobre el negocio."
+      "content": "Dos reglas mantienen honesta la prueba. Si ningún resultado puede cancelar la expansión, el piloto es solo un ensayo de implementación. Y mide la premisa, no la ejecución: saber si las 10 tiendas abrieron a tiempo responde sobre la obra, saber cuánto vendió cada metro cuadrado responde sobre el negocio."
     },
     {
       "type": "heading",
@@ -158,38 +158,6 @@
     {
       "type": "paragraph",
       "content": "La pregunta de casi todo plan es cuánto vamos a crecer. La que le faltó a Target era otra: ¿cuánto cuesta descubrir que nos equivocamos? Con 10 tiendas, el costo habría sido 10 tiendas. Con 133, fue toda la operación en Canadá. Un plan no vale por la precisión de las metas que proyecta. Vale por el precio que cobra para revelar el error."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Preguntas frecuentes"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Qué es una hipótesis en un plan estratégico?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Es una afirmación sobre el mundo que sostiene una meta y todavía no se contrastó con la realidad, como \"el cliente aceptará el nuevo precio sin comprar menos\". En el Strategy Map de Kaplan y Norton, cada flecha de causa y efecto es una hipótesis, no un hecho."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Cómo probar un plan estratégico por fases?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Antes de cada fase, define la hipótesis en una frase (\"si hacemos X, entonces ocurre Y\"), el indicador que la confirma o la derrumba con un valor mínimo aceptable, y la regla de decisión para seguir, ajustar o detenerse. En el caso de Target, la versión por fases habría abierto 10 tiendas en una región antes de las otras 123."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Por qué tantos planes estratégicos no se prueban?"
-    },
-    {
-      "type": "paragraph",
-      "content": "En la encuesta de Deloitte de 2026, 65% de los Chief Strategy Officers dice no ser dueño de las principales decisiones estratégicas, y la mitad dice tener demasiadas prioridades para el tiempo disponible. Sin dueño, la hipótesis no tiene fecha de verificación."
     },
     {
       "type": "divider"

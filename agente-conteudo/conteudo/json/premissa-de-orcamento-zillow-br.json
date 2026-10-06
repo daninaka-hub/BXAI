@@ -30,7 +30,7 @@
     "critério de revisão"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "7 min",
   "featured": false,
   "content": [
     {
@@ -42,7 +42,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "Neste artigo",
-      "content": "O que é uma premissa de orçamento, por que ela envelhece sem ninguém errar, as três perguntas sobre dono, critério e revisão, o que a Zillow pagou por não fazê-las e onde essa regra não se aplica."
+      "content": "O que é uma premissa de orçamento, por que ela envelhece sem ninguém errar, as três perguntas sobre dono, critério e revisão, o que a Zillow pagou por não fazê-las e o que esse custo devolve ao orçamento."
     },
     {
       "type": "paragraph",
@@ -129,15 +129,24 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que isso custa e onde não se aplica"
+      "content": "O que isso custa e o que se ganha"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quanto custa responder às três perguntas e o que volta em troca?"
     },
     {
       "type": "paragraph",
-      "content": "Responder às três perguntas tem preço. O orçamento fecha mais devagar, alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia. Por isso, não vale para todas as células. Uma premissa de baixo impacto, ou de uma variável que quase não se move, pode seguir sem esse cuidado. A regra serve para as poucas que, se estiverem erradas, mudam o resultado do ano."
+      "content": "Responder às três perguntas tem um custo. Esse custo é um investimento. No começo, o orçamento fecha mais devagar, porque alguém passa a responder por números que antes eram de todos. A discussão sobre o critério expõe divergências que a planilha escondia: duas áreas usavam hipóteses diferentes para a mesma variável sem saber. Esse é o ganho. A divergência que aparece numa reunião custa uma conversa. A que aparece no resultado do ano custa o que custou à Zillow."
     },
     {
       "type": "paragraph",
-      "content": "Também há um limite. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa relevante, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas."
+      "content": "A única escolha é de ordem. Se o time não consegue fazer tudo de uma vez, comece pelas premissas que, se estiverem erradas, mais mudam o resultado do ano. Depois avance até cobrir todas. Nenhuma fica de fora."
+    },
+    {
+      "type": "paragraph",
+      "content": "Governar também tem uma ressalva. Ter dono, critério e data de revisão não garante que a premissa esteja certa. Garante que, se estiver errada, alguém vai ver. Na prática, o começo é simples: uma coluna ao lado de cada premissa, com as três respostas por escrito. Nenhuma premissa entra no orçamento oficial sem elas."
     },
     {
       "type": "paragraph",
@@ -155,38 +164,6 @@
     {
       "type": "paragraph",
       "content": "A decisão que cabe à liderança é pequena e concreta: nenhum número entra no orçamento oficial sem um nome ao lado. Quem assina o número é quem vai olhar para ele de novo."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Perguntas frequentes"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "O que é uma premissa de orçamento?"
-    },
-    {
-      "type": "paragraph",
-      "content": "É a hipótese sobre o futuro que sustenta um número do orçamento, como um custo que vai subir 8% ou uma conversão que vai ficar em 3%. Não é a meta, que é o que a empresa quer atingir."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Quais são as três perguntas para controlar uma premissa?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Quem definiu o número, com que critério ele foi escolhido e quando será revisado. Sem essas três respostas por escrito, a premissa fica sem controle."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Por que a Zillow perdeu US$ 881 milhões em 2021?"
-    },
-    {
-      "type": "paragraph",
-      "content": "O algoritmo de preços funcionava como foi treinado, mas a estimativa passou a gerar ofertas de compra obrigatórias em fevereiro de 2021 sem nova governança. Ninguém revisou a premissa quando o mercado esfriou."
     },
     {
       "type": "divider"

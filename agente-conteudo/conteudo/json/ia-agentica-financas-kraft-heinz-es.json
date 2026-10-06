@@ -105,7 +105,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Rastrear premisas tiene un costo. Cada cifra relevante recibe un dueño y un registro, el cierre se vuelve más lento al principio y alguien tiene que decir en voz alta \"no sé de dónde salió esto\". En tareas pequeñas y de bajo riesgo, como dar formato a un informe, ese costo no vale la pena. En presupuesto y cierre contable, sí."
+      "content": "Rastrear premisas es una inversión. Cada cifra recibe un dueño y un registro, el cierre se vuelve más lento al principio y alguien tiene que decir en voz alta \"no sé de dónde salió esto\". El retorno llega enseguida: el error aparece en su origen, antes de la consolidación. Sin rastreo, aparece años después, en la cuenta de una auditoría. Ninguna cifra queda afuera, porque el error se esconde justo en lo que nadie rastrea."
     },
     {
       "type": "heading",
@@ -114,11 +114,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Para cada cifra relevante del presupuesto o del cierre, deben quedar escritas tres respuestas: quién es responsable de la premisa, qué criterio llevó a ella y quién la validó antes de entrar en la consolidación."
+      "content": "Para cada cifra del presupuesto o del cierre, deben quedar escritas tres respuestas: quién es responsable de la premisa, qué criterio llevó a ella y quién la validó antes de entrar en la consolidación."
     },
     {
       "type": "paragraph",
-      "content": "Esto no exige un sistema nuevo ni un proyecto de meses. Empiece por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema."
+      "content": "Esto no exige un sistema nuevo ni un proyecto de meses. Empiece por los puntos del proceso actual donde una cifra cambia de manos sin registro de quién la aprobó, sobre todo donde hay presión por metas, como la había en el área de compras de Kraft Heinz. En esos puntos la IA, si llega antes que la gobernanza, va a amplificar el problema. Es un orden de inicio, no un recorte: todas las cifras entran, un punto del proceso a la vez."
     },
     {
       "type": "paragraph",
@@ -136,38 +136,6 @@
     {
       "type": "paragraph",
       "content": "La IA no crea el problema de gobernanza. Mide cuánto tarda en aparecer. Por eso, quien ordena el origen de sus cifras antes de automatizar no está frenando a la IA. Está decidiendo si ella trabajará a favor de sus resultados o en contra."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "Preguntas frecuentes"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Qué es la IA agéntica en finanzas?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Son sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto. Aplican reglas sobre los datos que la empresa ya tiene."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Por qué solo el 11% de las empresas puso la IA agéntica en producción?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Según una encuesta de 2025 citada por Neurons Lab, el 99% planea usarla, pero los motivos más citados para no avanzar son los datos, la gobernanza y la seguridad, no el precio de la tecnología."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "¿Qué enseña el caso Kraft Heinz sobre la gobernanza de premisas?"
-    },
-    {
-      "type": "paragraph",
-      "content": "Entre 2015 y 2018, unas 300 transacciones registraron descuentos de proveedores que nunca existieron, por 208 millones de dólares. Nadie rastreaba de dónde venía cada cifra en la consolidación, y un agente de IA llevaría el mismo error al mismo tamaño en menos tiempo."
     },
     {
       "type": "divider"
