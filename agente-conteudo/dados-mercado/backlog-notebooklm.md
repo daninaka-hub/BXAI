@@ -35,29 +35,29 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 27 | AI Agents in Finance - IBM | Alta | Processado |
 | 28 | AI Automation ROI Benchmark Report 2026 - Alice Labs | Alta | Processado |
 | 29 | AI Certification for Finance and Accounting Professionals | Baixa | Pendente |
-| 30 | AI Financial Reporting & Internal Controls | Alta | Pendente |
-| 31 | AI Governance Architecture in Corporate Controllership, FP&A, and Planning Processes | Alta | Pendente |
-| 32 | AI Governance Framework for Finance Teams: Building Controls Around AI - Modus | Alta | Pendente |
-| 33 | AI Governance Framework for Finance: The CFO's 2026 Practitioner Walkthrough - Finrep.ai | Alta | Pendente |
-| 34 | AI Governance Guides - In-Depth Compliance Resources - AIGovHub | Alta | Pendente |
-| 35 | AI Risks in Finance Every CFO Should Know Before Deploying It - Modus | Alta | Pendente |
-| 36 | AI Tools for Finance and Accounting | Alta | Pendente |
-| 37 | AI Use Cases in Forecasting, FP&A, and Audit - IMA | Alta | Pendente |
-| 38 | AI for Cash Application: Use Cases, Operating Model, and Agentic Workflows - LeewayHertz | Alta | Pendente |
-| 39 | AI in Corporate Performance Management: Optimizing Your Finances with AI - Proalpha | Alta | Pendente |
-| 40 | AI in FP&A: Top Use Cases You Need To Know - SmartDev | Alta | Pendente |
-| 41 | AI in FP&A: Who Acts First in Financial Planning and Analysis? - Board | Alta | Pendente |
-| 42 | AI in financial planning and analysis (FP&A) - IBM | Alta | Pendente |
-| 43 | AI tools for accounting: best software and buyer guide 2026 - Maxima | Alta | Pendente |
-| 44 | AI use in controllership roles to double, Deloitte survey says - The Accountant Online | Alta | Pendente |
-| 45 | About Finance Agentic AI - Governance Frameworks for Enterprise Finance | Alta | Pendente |
-| 46 | Accounting Automation and the Future of Controllership - Deloitte US | Alta | Pendente |
+| 30 | AI Financial Reporting & Internal Controls | Alta | Descartado |
+| 31 | AI Governance Architecture in Corporate Controllership, FP&A, and Planning Processes | Alta | Descartado |
+| 32 | AI Governance Framework for Finance Teams: Building Controls Around AI - Modus | Alta | Processado |
+| 33 | AI Governance Framework for Finance: The CFO's 2026 Practitioner Walkthrough - Finrep.ai | Alta | Processado |
+| 34 | AI Governance Guides - In-Depth Compliance Resources - AIGovHub | Alta | Descartado |
+| 35 | AI Risks in Finance Every CFO Should Know Before Deploying It - Modus | Alta | Processado |
+| 36 | AI Tools for Finance and Accounting | Alta | Descartado |
+| 37 | AI Use Cases in Forecasting, FP&A, and Audit - IMA | Alta | Descartado |
+| 38 | AI for Cash Application: Use Cases, Operating Model, and Agentic Workflows - LeewayHertz | Alta | Processado |
+| 39 | AI in Corporate Performance Management: Optimizing Your Finances with AI - Proalpha | Alta | Descartado |
+| 40 | AI in FP&A: Top Use Cases You Need To Know - SmartDev | Alta | Processado |
+| 41 | AI in FP&A: Who Acts First in Financial Planning and Analysis? - Board | Alta | Processado |
+| 42 | AI in financial planning and analysis (FP&A) - IBM | Alta | Processado |
+| 43 | AI tools for accounting: best software and buyer guide 2026 - Maxima | Alta | Descartado |
+| 44 | AI use in controllership roles to double, Deloitte survey says - The Accountant Online | Alta | Processado |
+| 45 | About Finance Agentic AI - Governance Frameworks for Enterprise Finance | Alta | Processado |
+| 46 | Accounting Automation and the Future of Controllership - Deloitte US | Alta | Processado |
 | 47 | Ace Your FP&A Leader Interview: Sample Questions and Tips for Success - Vareto | Baixa | Pendente |
 | 48 | Aciona | Baixa | Pendente |
-| 49 | Agentic AI and the future of work in financial services - Accenture Banking Blog | Alta | Pendente |
+| 49 | Agentic AI and the future of work in financial services - Accenture Banking Blog | Alta | Processado |
 | 50 | Agentic AI consulting services from Argano | Baixa | Pendente |
-| 51 | Agentic AI for Finance and Accounting: Key Use Cases & Tips - Auxis | Alta | Pendente |
-| 52 | Agentic AI in Accounting: How AI Finance Agents Are Transforming Enterprise Teams - Vic.ai | Alta | Pendente |
+| 51 | Agentic AI for Finance and Accounting: Key Use Cases & Tips - Auxis | Alta | Processado |
+| 52 | Agentic AI in Accounting: How AI Finance Agents Are Transforming Enterprise Teams - Vic.ai | Alta | Descartado |
 | 53 | Agentic AI in Finance and Accounting: The 2026 CFO Guide - assistents.ai | Alta | Pendente |
 | 54 | Agentic AI in Financial Services: The future of autonomous finance solutions - AWS | Alta | Pendente |
 | 55 | Architecture of Autonomous Finance: Deploying Agentic AI Across FP&A, Controllership, and Integrated Planning | Alta | Pendente |

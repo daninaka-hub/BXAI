@@ -61,3 +61,31 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-05 | Leadership Roles | teórico | Deloitte | As quatro frentes do CFO segundo a Deloitte: Steward, Operator, Strategist e Catalyst |
 | 2026-10-05 | Organization | pesquisa | EY / FP&A Trends | 46% do esforço de FP&A vai para coleta e validação de dados, só 31% para insight e ação (EY e FP&A Trends) |
 | 2026-10-05 | Organization | teórico | ScottMadden | Centro de serviços compartilhados de finanças em três dimensões: geografia, governança e escopo (ScottMadden) |
+| 2026-10-06 | Controllership | estratégia | Modus Alliance / US Treasury | Framework de risco de IA do Tesouro dos EUA tem 230 objetivos de controle, e a SOX 404 se aplica a controles conduzidos por IA |
+| 2026-10-06 | Controllership | conclusão | Modus Alliance / FINRA | FINRA põe IA generativa no relatório de fiscalização 2026, e o EU AI Act adia obrigações de alto risco para dezembro de 2027 |
+| 2026-10-06 | Controllership | pesquisa | The Accountant Online / Deloitte / IMA | Uso de IA em controladoria deve dobrar em 3 a 5 anos, com 16% já em IA generativa (900+ respondentes, 2024) |
+| 2026-10-06 | Controllership | pesquisa | Deloitte | Mais de 50% de 1.700 profissionais ouvidos tinham organizações planejando controladoria digital, com RPA no topo |
+| 2026-10-06 | Controllership | pesquisa | Anrok / Maximor / Wolters Kluwer | 66% dos CFOs veem supervisão humana de IA como crítica e só 14% confiam plenamente nos outputs (2026) |
+| 2026-10-06 | Controllership | estatística | Finrep / PwC / EY / BCG | 73% dos CFOs põem governança de IA no top 3, menos de 30% têm política documentada (dados de 2025) |
+| 2026-10-06 | Controllership | pesquisa | Sixthfin / Odoxa | 67% dos CFOs britânicos priorizam confiabilidade do fechamento, e só 3% usam solução dedicada de conciliação (303 CFOs, 2026) |
+| 2026-10-06 | Controllership | teórico | GAO | Green Book do GAO: cinco componentes e 17 princípios de controle interno |
+| 2026-10-06 | Finance Automation | estudo de caso | Accenture | Casos de banco com IA: KYC 99% mais rápido, 94% menos custo, e 15 milhões de libras de economia em código legado |
+| 2026-10-06 | Finance Automation | estatística | Auxis / PYMNTS / Gartner / UiPath | Só 15% dos CFOs pilotam IA agêntica, e adotantes iniciais relatam fechamento 30% a 50% mais rápido |
+| 2026-10-06 | Finance Automation | estatística | SmartDev / Gartner | 76% dos times automatizaram reporting, mas só 40% automatizaram forecasting |
+| 2026-10-06 | Finance Automation | pesquisa | IBM IBV | Só 6% deixam a IA recomendar ou executar realocação de capital, mas 48% já atualizam alocação em tempo real (1.500 CFOs, 2026) |
+| 2026-10-06 | Finance Automation | teórico | LeewayHertz | Cash application com IA em sete funções, com fronteira humana explícita por processo |
+| 2026-10-06 | Finance Automation | teórico | IFAC | Framework de RPA em cinco estágios e o critério que separa RPA de automação inteligente (IPA) |
+| 2026-10-06 | Forecasting Methods | estatística | Board / FP&A Trends | Só 4% das organizações atualizam uma previsão em um dia, e 54% dos times apenas dão conta do trabalho |
+| 2026-10-06 | Forecasting Methods | pesquisa | Gartner | 55% dos CFOs veem retorno positivo geral de IA, mas 57% dizem que o retorno é pouco claro por caso de uso (160 líderes, 2026) |
+| 2026-10-06 | Forecasting Methods | teórico | Hyndman e Athanasopoulos | Como medir acurácia de previsão: treino e teste, MAE e RMSE, limites do MAPE, e erros escalados (MASE) |
+| 2026-10-06 | FP&A Fundamentals | pesquisa | CPA Practice Advisor / Vena | Só 9% dizem que a liderança vê o FP&A como condutor crítico de crescimento (431 profissionais) |
+| 2026-10-06 | FP&A Fundamentals | teórico | IBM / EY | Quatro áreas de ganho de produtividade com IA em FP&A (EY) e os cinco passos de implementação da IBM |
+| 2026-10-06 | FP&A Fundamentals | teórico | FP&A Trends | FP&A Trends Maturity Model: cinco níveis sobre seis dimensões, três soft e três hard |
+| 2026-10-06 | Integrated Planning | pesquisa | Gartner | Até 2030 só 5% deixarão a IA tomar 10% das decisões de planejamento, apesar de 83% já terem gasto US$ 3 milhões ou mais |
+| 2026-10-06 | Integrated Planning | teórico | Oliver Wight | Ciclo mensal de IBP em cinco passos, com horizonte mínimo de 24 meses e regra dos 70% |
+| 2026-10-06 | Strategic Planning | pesquisa | BCG | Só 30% das empresas valem mais que a soma das partes, e as melhores alocadoras desligam o orçamento do caixa histórico (594 empresas) |
+| 2026-10-06 | Strategic Planning | teórico | Roger Martin | Strategy Choice Cascade: cinco perguntas encadeadas que forçam trade-off explícito |
+| 2026-10-06 | Leadership Roles | estatística | Journal of Accountancy / Crist Kolder | Rotatividade de CFO projetada em 18,3% em 2026, com idade média de contratação caindo para 48,2 anos |
+| 2026-10-06 | Leadership Roles | teórico | IMA | IMA Management Accounting Competency Framework: seis domínios e 33 competências, com liderança como domínio próprio |
+| 2026-10-06 | Organization | pesquisa | IBM IBV | 48% das áreas de finanças têm habilidade de IA concentrada em poucos times, e só 6% se dizem prontas para a transformação |
+| 2026-10-06 | Organization | teórico | ScottMadden | Quatro canais de entrega de serviço de finanças e o escalonamento em quatro camadas (Tier 0 a Tier 3) |
