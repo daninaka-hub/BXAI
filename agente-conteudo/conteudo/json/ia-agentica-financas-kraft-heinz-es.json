@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "Quién ganaba con los descuentos falsos de Kraft Heinz, por qué la cifra llega a la consolidación sin origen, qué es la gobernanza de proceso, por qué la IA agéntica no lo resuelve sola y cómo prepararte antes de automatizar."
+      "content": "Quién ganaba con los ahorros indebidos de Kraft Heinz, por qué la cifra llega a la consolidación sin origen, qué es la gobernanza de proceso, por qué solo el 11% de las empresas puso la IA agéntica en producción y cómo prepararte antes de automatizar."
     },
     {
       "type": "paragraph",
@@ -55,7 +55,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Ahí es donde la IA agéntica, sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto, también puede atascarse. La conversación sobre ella en finanzas suele girar en torno a la automatización y la productividad. La prisa por no quedarse atrás deja la gobernanza en segundo plano. La tesis de este texto es directa: la IA agéntica no corrige un proceso sin gobernanza, solo lo acelera. Para entender por qué, hay que empezar dentro de Kraft Heinz."
+      "content": "Ahí es donde la IA agéntica, sistemas de IA que ejecutan tareas por su cuenta, como sumar y conciliar las cifras de un presupuesto, también puede atascarse. La conversación sobre ella en finanzas suele girar en torno a la automatización y la productividad. La prisa por no quedarse atrás deja la gobernanza en segundo plano. La tesis de este texto es directa: el riesgo de la IA agéntica en finanzas es la gobernanza de proceso, porque la IA acelera lo que el proceso ya hace, bien o mal."
     },
     {
       "type": "heading",
@@ -68,7 +68,7 @@
     },
     {
       "type": "paragraph",
-      "content": "3G Capital, la gestora que controla a Kraft Heinz, aplicaba el presupuesto base cero, en el que todo gasto debe justificarse desde cero en cada ciclo. La práctica es legítima y no es la villana de esta historia. Solo aumentó la presión sobre quienes tenían que mostrar ahorro."
+      "content": "3G Capital, la gestora que controla a Kraft Heinz, aplicaba el presupuesto base cero, en el que todo gasto debe justificarse desde cero en cada ciclo. La práctica es legítima. Solo aumentó la presión sobre quienes tenían que mostrar ahorro."
     },
     {
       "type": "paragraph",
@@ -81,7 +81,7 @@
     },
     {
       "type": "paragraph",
-      "content": "En la consolidación, la cifra llega sin su origen. Cada cifra tiene una premisa, la razón para creer en ella. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando solo llega la cifra, quien suma ve únicamente el total. En Kraft Heinz, lo que llegó al control de gestión fue un contrato que describía el descuento de otra forma. Nadie comprobó la premisa que había detrás."
+      "content": "En la consolidación, la cifra llega sin su origen. Cada cifra tiene una premisa, la razón para creer en ella. La cifra es \"1 millón de dólares en descuentos\". La premisa es \"el proveedor lo aceptó por escrito y lo descontará de la factura\". Cuando solo llega la cifra, quien suma ve únicamente el total. En Kraft Heinz, lo que llegó al control de gestión fue un contrato que describía el descuento de otra forma. Nadie comprobó la premisa que había detrás. Un agente de IA que consolida recibe la cifra de la misma forma, sin el origen."
     },
     {
       "type": "paragraph",
@@ -89,7 +89,7 @@
     },
     {
       "type": "paragraph",
-      "content": "El error silencioso es más común que el deliberado. En la mayoría de las empresas nadie quiere engañar a nadie. Hay una cifra que todos usan y nadie sabe explicar. Kraft Heinz es el caso extremo de la misma fragilidad."
+      "content": "El error silencioso es más común que el deliberado: en la mayoría de las empresas hay una cifra que todos usan y nadie sabe explicar."
     },
     {
       "type": "heading",
@@ -133,7 +133,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Por qué la IA agéntica en finanzas no resuelve esto por sí sola?"
+      "content": "¿Por qué solo el 11% de las empresas puso la IA agéntica en producción?"
     },
     {
       "type": "paragraph",
@@ -141,11 +141,11 @@
     },
     {
       "type": "paragraph",
-      "content": "La intuición dice que faltan herramientas. El dato dice que falta base. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con gobernanza o sin ella. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el ahorro que aún no existía. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. El mismo banco dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real."
+      "content": "La intuición dice que faltan herramientas. El dato dice que falta gobernanza del proceso. Un agente de IA ejecuta reglas sobre lo que ya existe, sea un proceso con gobernanza o sin ella. Si el presupuesto funciona sin control de versiones y sin registro de quién aprobó cada cifra, el agente suma todo con la misma confianza, incluido el ahorro que aún no existía. En enero de 2026, Lloyds Banking Group, banco británico (lloydsbankinggroup.com), llamó a 2026 el año en que la IA agéntica pasa de la experimentación al uso a escala. El mismo banco dice aplicar sus agentes con pruebas rigurosas, supervisión humana y monitoreo en tiempo real."
     },
     {
       "type": "paragraph",
-      "content": "Piensa en lo que eso habría hecho en Kraft Heinz. El esquema tardó tres años en salir a la luz porque nadie rastreaba el origen de cada ahorro. Un agente que consolida en minutos, sin ese rastreo, habría llevado el mismo patrón al mismo tamaño en meses."
+      "content": "Piensa en lo que habría hecho su ausencia en Kraft Heinz. El esquema tardó tres años en salir a la luz porque nadie rastreaba el origen de cada ahorro. Un agente que consolida en minutos, sin ese rastreo, habría llevado el mismo patrón al mismo tamaño en meses."
     },
     {
       "type": "paragraph",
@@ -188,7 +188,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Cada pregunta de gobernanza del artículo tiene una respuesta registrada en la plataforma."
+      "content": "Solo el 11% de las empresas que planean usar IA agéntica llegó a producción. El motivo más citado es la gobernanza. En BudgetXpert, cada pregunta de gobernanza del artículo tiene una respuesta registrada en la plataforma."
     },
     {
       "type": "table",

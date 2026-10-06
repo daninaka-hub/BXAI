@@ -11,7 +11,7 @@ A fraude foi deliberada. O que a deixou passar foi uma falha de governança de p
 
 Hoje, 99% das empresas planejam colocar IA agêntica em finanças, agentes que executam tarefas por conta própria. Só 11% já colocaram em produção (Neurons Lab, 2025). O foco é automação e produtividade. A pressa de não ficar para trás deixa a governança em segundo plano.
 
-Um agente soma em minutos o que as pessoas somavam em meses. Sem governança de processo, a IA agêntica não corrige o problema, só o acelera.
+Um agente soma em minutos o que as pessoas somavam em meses. Sem governança de processo, a IA agêntica só acelera o problema.
 
 Quem lançou o número? Com base em quê? Quem o conferiu antes de somar? Foi o que a Kraft Heinz deixou de perguntar.
 

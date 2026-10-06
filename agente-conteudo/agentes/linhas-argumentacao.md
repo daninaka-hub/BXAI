@@ -80,9 +80,16 @@ Base do Copywriter para o fechamento de todo artigo (Passo 1.5) e para a linha d
 - Solução: P14 (o plano não é fixo, qualquer estrutura, inclusive não financeira) com P09 (hipótese tratada como premissa com dono).
 - Cabe em: Artigo 4, planejamento estratégico, S&OP, planejamento de pessoas.
 
+### 13. Quem governa primeiro, adota
+- Problema: 99% das empresas planejam colocar agentes de IA em produção nas finanças e só 11% conseguiram. O motivo mais citado é dados, governança e segurança (Neurons Lab, pesquisa de 2025).
+- Custo de não resolver: Kraft Heinz (US$ 208 milhões em economias indevidas, US$ 62 milhões de multa à SEC), com um processo em que nada registrava a origem de cada número.
+- Solução: P32 (registro de tudo que a IA criou ou alterou), P01 (cada premissa com dono) e P34 (controle do gasto de IA por usuário). Não prometer adoção nem resultado. Não citar P33.
+- Pergunta: o processo de hoje aguentaria um agente consolidando números sozinho?
+- Cabe em: Artigo 2 (seção da BudgetXpert), artigos sobre adoção de IA agêntica.
+
 ## Mapa dos artigos atuais
 - Artigo 1 (Zillow): linhas 1 e 2.
-- Artigo 2 (Kraft Heinz, IA agêntica): linha 10, com a linha 1 de apoio.
+- Artigo 2 (Kraft Heinz, IA agêntica): linha 10, com a 1 e a 13 de apoio.
 - Artigo 3 (forecast): linhas 3 e 4.
 - Artigo 4 (Target): linhas 1 e 12, com a 6 de apoio.
 

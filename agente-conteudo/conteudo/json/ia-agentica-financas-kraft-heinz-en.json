@@ -47,7 +47,7 @@
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "Who benefited from Kraft Heinz's fake discounts, why the number reaches consolidation with no origin, what process governance is, why agentic AI cannot fix this alone and how to prepare before you automate."
+      "content": "Who benefited from Kraft Heinz's improper savings, why the number reaches consolidation with no origin, what process governance is, why only 11% of companies have put agentic AI into production and how to prepare before you automate."
     },
     {
       "type": "paragraph",
@@ -55,7 +55,7 @@
     },
     {
       "type": "paragraph",
-      "content": "That is where agentic AI can stall too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. Talk about it in finance usually centers on automation and productivity. The rush not to fall behind pushes governance into second place. The thesis here is simple: agentic AI does not fix a process without governance, it only speeds it up. To see why, start inside Kraft Heinz."
+      "content": "That is where agentic AI can stall too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. Talk about it in finance usually centers on automation and productivity. The rush not to fall behind pushes governance into second place. The thesis here is simple: the risk of agentic AI in finance is process governance, because AI speeds up what the process already does, right or wrong."
     },
     {
       "type": "heading",
@@ -68,7 +68,7 @@
     },
     {
       "type": "paragraph",
-      "content": "3G Capital, the investment firm that controls Kraft Heinz, used zero-based budgeting, in which every expense must be justified from scratch each cycle. The practice is legitimate and it is not the villain of this story. It only raised the pressure on the people who had to show savings."
+      "content": "3G Capital, the investment firm that controls Kraft Heinz, used zero-based budgeting, in which every expense must be justified from scratch each cycle. The practice is legitimate. It only raised the pressure on the people who had to show savings."
     },
     {
       "type": "paragraph",
@@ -81,7 +81,7 @@
     },
     {
       "type": "paragraph",
-      "content": "In consolidation, the number arrives without its origin. Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, what reached controllership was a contract that described the discount differently. Nobody checked the assumption behind it."
+      "content": "In consolidation, the number arrives without its origin. Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, what reached controllership was a contract that described the discount differently. Nobody checked the assumption behind it. An AI agent that consolidates receives the number the same way, with no origin."
     },
     {
       "type": "paragraph",
@@ -89,7 +89,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Silent error is more common than deliberate fraud. In most companies nobody is trying to fool anybody. There is simply a number everyone uses and nobody can explain. Kraft Heinz is the extreme case of the same weakness."
+      "content": "Silent error is more common than deliberate fraud: in most companies there is a number everyone uses and nobody can explain."
     },
     {
       "type": "heading",
@@ -133,7 +133,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Why can't agentic AI in finance fix this on its own?"
+      "content": "Why have only 11% of companies put agentic AI into production?"
     },
     {
       "type": "paragraph",
@@ -141,11 +141,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Intuition says the tools are missing. The data says the foundation is missing. An AI agent runs rules on whatever already exists, whether that is a process with governance or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the saving that did not yet exist. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
+      "content": "Intuition says the tools are missing. The data says process governance is missing. An AI agent runs rules on whatever already exists, whether that is a process with governance or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the saving that did not yet exist. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
     },
     {
       "type": "paragraph",
-      "content": "Now picture what that would have done at Kraft Heinz. The scheme took three years to surface because nobody traced where each saving came from. An agent that consolidates in minutes, without that tracing, would have grown the same pattern to the same size in months."
+      "content": "Now picture what the lack of it would have done at Kraft Heinz. The scheme took three years to surface because nobody traced where each saving came from. An agent that consolidates in minutes, without that tracing, would have grown the same pattern to the same size in months."
     },
     {
       "type": "paragraph",
@@ -188,7 +188,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Each governance question in the article has an answer recorded on the platform."
+      "content": "Only 11% of companies that plan to use agentic AI have reached production. The most cited reason is governance. At BudgetXpert, each governance question in the article has an answer recorded on the platform."
     },
     {
       "type": "table",
