@@ -2,19 +2,19 @@
 Artigo de referência: A IA agêntica repetiria a fraude de US$ 208 milhões da Kraft Heinz?
 
 **0 a 3s**
-"Sua IA perguntaria de onde vieram os 300 descontos falsos da Kraft Heinz?"
+"Em 2017, a Kraft Heinz errou uma meta de lucro. Em 2019, registrou uma baixa de 15,4 bilhões de dólares."
 
-**3 a 20s**
-"A Kraft Heinz, gigante americana de alimentos, precisava crescer o lucro operacional em 6,1% para pagar bônus. Entregou 3%. Do fim de 2015 ao fim de 2018, a área de compras lançou como economia descontos de fornecedor que nunca tinha ganhado, em cerca de 300 transações. Em 2019, corrigiu 208 milhões de dólares. Depois vieram multa e um acordo de 450 milhões com acionistas."
+**3 a 15s**
+"A Kraft Heinz é uma gigante americana de alimentos. Precisava crescer o lucro operacional em 6,1% para pagar bônus. Entregou 3%. O que ela fez depois?"
 
-**20 a 30s**
-"Não foi fraude sofisticada. Foi uma pergunta que ninguém fez: de onde vem esse número e quem confirma que ele é real."
+**15 a 30s**
+"Do fim de 2015 ao fim de 2018, a área de compras lançou cerca de 300 descontos de fornecedores como economia. Em 2019, a empresa corrigiu 208 milhões de dólares nos resultados. Por que ninguém viu antes?"
 
 **30 a 45s**
-"Agora o dado que surpreende. 99% das empresas planejam usar IA agêntica em finanças, agentes que executam tarefas sozinhos. Só 11% colocaram em produção. O motivo não é o preço da ferramenta, é dados e governança. Um agente soma tudo com a mesma confiança, inclusive o desconto que nunca existiu."
+"Veio uma multa de 62 milhões de dólares da SEC, o regulador do mercado americano. Depois, um acordo de 450 milhões com acionistas. Dois executivos foram punidos. E nenhum número estava calculado errado."
 
 **45 a 55s**
-"O que levou três anos na Kraft Heinz levaria meses. A pergunta deixa de ser quando você vai usar IA. Passa a ser qual número do seu orçamento ninguém saberia explicar."
+"Agora a virada. Nenhuma IA estava envolvida. Hoje, 99% das empresas planejam colocar IA agêntica nas finanças, agentes que executam tarefas sozinhos. Só 11% já colocaram. Por quê?"
 
 **55 a 60s**
-"O artigo completo está no link nos comentários."
+"O que a Kraft Heinz deixou de perguntar? A resposta está no artigo completo, no link nos comentários."

@@ -2,19 +2,19 @@
 Artigo de referência: A Target abriu 133 lojas no Canadá sem testar a primeira
 
 **0 a 3s**
-"A Target abriu 133 lojas no Canadá sem testar nenhuma antes. Fechou todas em dois anos."
+"Hoje vou contar como a Target abriu 133 lojas no Canadá em 2013 e fechou todas em 2015."
 
-**3 a 16s**
-"Em 2013, uma das maiores redes de varejo dos Estados Unidos entrou no Canadá com 133 lojas e ligou o sistema de gestão inteiro de uma vez. Deu erro de estoque, prateleira vazia, preço errado no caixa. Em 2015 fechou tudo. 17.600 pessoas foram afetadas."
+**3 a 15s**
+"A Target é uma das maiores redes de varejo dos Estados Unidos. Entrou no Canadá com três centros de distribuição funcionando ao mesmo tempo. Dinheiro não faltava. Então o que deu errado?"
 
-**16 a 28s**
-"Repara. Eram duas apostas diferentes. 'Nosso modelo de loja funciona no Canadá.' 'Nosso sistema roda bem num país novo.' As duas respondidas no mesmo dia, nas mesmas 133 lojas. Quando deu errado, ninguém sabia qual das duas tinha falhado."
+**15 a 28s**
+"Junto com as lojas, ligou o sistema que controla estoque, compras e preço. Tudo no mesmo dia. Ninguém na equipe conhecia a ferramenta. Veio a prateleira vazia. Veio o preço errado no caixa. Mas o erro estava mesmo no sistema?"
 
-**28 a 40s**
-"Essas apostas se chamam hipóteses. No mapa estratégico, de Kaplan e Norton, cada seta do plano é uma hipótese, não um fato. Sua meta de crescimento é uma. Sua premissa de custo também. Hipótese se testa pequena, antes de virar compromisso total."
+**28 a 42s**
+"Havia duas apostas ali. Uma sobre as lojas. Outra sobre o sistema. As duas foram respondidas no mesmo dia, nas mesmas 133 lojas. Quando o resultado chegou, ninguém soube dizer qual das duas falhou. Por quê?"
 
-**40 a 50s**
-"Por que ninguém testa? Pesquisa da Deloitte de 2026: 65% dos diretores de estratégia dizem não ser donos das principais decisões. Sem dono, ninguém paga o custo de parar."
+**42 a 52s**
+"Em 2015, 17.600 funcionários foram afetados. Você deve estar achando que faltou dinheiro ou execução. Não foi isso. Faltou uma coisa que quase todo plano de empresa também não tem."
 
-**50 a 60s**
-"Escreve cada meta assim: se fizermos X, então Y acontece. Define o número que derruba a frase. A pergunta não é quanto vamos crescer, é quanto custa descobrir que estamos errados. O artigo completo está no link nos comentários."
+**52 a 60s**
+"Qual pergunta a Target nunca fez? A resposta está no artigo completo, no link nos comentários."
