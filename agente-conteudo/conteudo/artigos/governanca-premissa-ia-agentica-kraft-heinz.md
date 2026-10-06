@@ -18,7 +18,7 @@ A conta veio em etapas. Em fevereiro de 2019, a empresa anunciou uma baixa cont�
 
 ## Por que o número chega à consolidação sem origem?
 
-Premissa é o motivo para acreditar em um número. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando o número chega à consolidação sem a premissa, quem soma só enxerga o total.
+Na consolidação, o número chega sem a origem. Cada número tem uma premissa, o motivo para acreditar nele. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando só o número chega, quem soma enxerga apenas o total. Na Kraft Heinz, cada desconto chegou assim, sem a premissa que o sustentava.
 
 Houve má-fé de quem lançou. Mesmo assim, a lição está no processo, que não tinha como perceber. Faltava uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe.
 
