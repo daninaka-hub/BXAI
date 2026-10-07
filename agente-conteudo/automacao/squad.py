@@ -468,12 +468,14 @@ def ler_status(agente):
 def metricas():
     bl = (ROOT / "dados-mercado" / "backlog-notebooklm.md").read_text(encoding="utf-8")
     pend = len(re.findall(r"\| Pendente \|$", bl, flags=re.M))
+    pend_alta = len(re.findall(r"\| Alta \| Pendente \|$", bl, flags=re.M))
+    pend_baixa = len(re.findall(r"\| Baixa \| Pendente \|$", bl, flags=re.M))
     proc = len(re.findall(r"\| Processado \|$", bl, flags=re.M))
     desc = len(re.findall(r"\| Descartado \|$", bl, flags=re.M))
     dec = tabela(CONT / "decisoes-pauta.md")
     pautas_pend = sum(1 for _, c in dec if c[-1] == "Pendente")
     pautas_ok = sum(1 for _, c in dec if c[-1] == "Sim")
-    return {"pend": pend, "proc": proc, "desc": desc, "pautas_pend": pautas_pend, "pautas_ok": pautas_ok}
+    return {"pend": pend, "pend_alta": pend_alta, "pend_baixa": pend_baixa, "proc": proc, "desc": desc, "pautas_pend": pautas_pend, "pautas_ok": pautas_ok}
 
 def fmt_quando(iso):
     try:
@@ -518,7 +520,7 @@ def html_resumo(linhas):
         acoes.append(f'<li class="rs-erro-txt"><b>Produção com falha:</b> {esc(", ".join("Artigo " + str(n) for n in prod_falha))}.</li>')
     lista = '<ul class="rs-lista">' + "".join(acoes) + "</ul>" if acoes else '<div class="rs-ok-txt">Nada pendente. Operação em dia.</div>'
     agora = _agora().strftime("%d/%m às %H:%M")
-    base = (f'<div class="rs-base">Backlog: <b>{m["pend"]}</b> fontes pendentes, <b>{m["proc"]}</b> processadas, <b>{m["desc"]}</b> descartadas. '
+    base = (f'<div class="rs-base">Backlog: <b>{m["pend"]}</b> fontes pendentes (<b>{m["pend_alta"]}</b> de prioridade Alta, <b>{m["pend_baixa"]}</b> de prioridade Baixa), <b>{m["proc"]}</b> processadas, <b>{m["desc"]}</b> descartadas. '
             f'Painel gerado em {agora}.</div>')
     return f'<div class="resumo"><div class="section-label rs-titulo">Resumo da operação</div><div class="rs-tiles">{tiles}</div>{lista}{base}</div>'
 
