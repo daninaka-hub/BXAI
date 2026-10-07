@@ -58,28 +58,28 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 50 | Agentic AI consulting services from Argano | Baixa | Pendente |
 | 51 | Agentic AI for Finance and Accounting: Key Use Cases & Tips - Auxis | Alta | Processado |
 | 52 | Agentic AI in Accounting: How AI Finance Agents Are Transforming Enterprise Teams - Vic.ai | Alta | Descartado |
-| 53 | Agentic AI in Finance and Accounting: The 2026 CFO Guide - assistents.ai | Alta | Pendente |
-| 54 | Agentic AI in Financial Services: The future of autonomous finance solutions - AWS | Alta | Pendente |
-| 55 | Architecture of Autonomous Finance: Deploying Agentic AI Across FP&A, Controllership, and Integrated Planning | Alta | Pendente |
-| 56 | Arquitetura Financeira Corporativa: Mapeamento Integrado de Processos, Atividades e Governança em Controladoria, FP&A e Planejamento Estratégico | Alta | Pendente |
-| 57 | As Finance Duties Shift, CAOs Take On Strategic Role - Journal of Accountancy | Alta | Pendente |
-| 58 | Automate Financial Close: Guide (June 2026) - Double | Alta | Pendente |
-| 59 | Best AI Agents for Controllers | Alta | Pendente |
-| 60 | Best AI FP&A tools in 2026: 13 platforms compared - Aleph | Alta | Pendente |
-| 61 | Best AI Tools for Finance & Financial Analysis (2026) - DataSnipper | Alta | Pendente |
-| 62 | Best FP&A Tools for Headcount Planning in 2026 - Aleph | Alta | Pendente |
-| 63 | Beyond Budgeting - Overview, Principles, and Techniques - Corporate Finance Institute | Alta | Pendente |
-| 64 | Beyond Budgeting Questions and Answers - Balanced Scorecard | Alta | Pendente |
-| 65 | Beyond Budgeting: How You Can Drive Dynamic Financial Planning - GrowCFO | Alta | Pendente |
-| 66 | Beyond the numbers: How an AI-enabled FP&A is transforming finance: Dbriefs webcast | Alta | Pendente |
-| 67 | BlackLine Guide 2026: Close Automation - CFO Shortlist | Alta | Pendente |
-| 68 | BlackLine vs FloQast Compared - ChatFin | Alta | Pendente |
-| 69 | BlackLine vs Vic.ai (2026): Best in AI Invoicing - AI Central Resources | Alta | Pendente |
+| 53 | Agentic AI in Finance and Accounting: The 2026 CFO Guide - assistents.ai | Alta | Processado |
+| 54 | Agentic AI in Financial Services: The future of autonomous finance solutions - AWS | Alta | Processado |
+| 55 | Architecture of Autonomous Finance: Deploying Agentic AI Across FP&A, Controllership, and Integrated Planning | Alta | Descartado |
+| 56 | Arquitetura Financeira Corporativa: Mapeamento Integrado de Processos, Atividades e Governança em Controladoria, FP&A e Planejamento Estratégico | Alta | Descartado |
+| 57 | As Finance Duties Shift, CAOs Take On Strategic Role - Journal of Accountancy | Alta | Processado |
+| 58 | Automate Financial Close: Guide (June 2026) - Double | Alta | Descartado |
+| 59 | Best AI Agents for Controllers | Alta | Descartado |
+| 60 | Best AI FP&A tools in 2026: 13 platforms compared - Aleph | Alta | Processado |
+| 61 | Best AI Tools for Finance & Financial Analysis (2026) - DataSnipper | Alta | Descartado |
+| 62 | Best FP&A Tools for Headcount Planning in 2026 - Aleph | Alta | Processado |
+| 63 | Beyond Budgeting - Overview, Principles, and Techniques - Corporate Finance Institute | Alta | Processado |
+| 64 | Beyond Budgeting Questions and Answers - Balanced Scorecard | Alta | Processado |
+| 65 | Beyond Budgeting: How You Can Drive Dynamic Financial Planning - GrowCFO | Alta | Processado |
+| 66 | Beyond the numbers: How an AI-enabled FP&A is transforming finance: Dbriefs webcast | Alta | Descartado |
+| 67 | BlackLine Guide 2026: Close Automation - CFO Shortlist | Alta | Processado |
+| 68 | BlackLine vs FloQast Compared - ChatFin | Alta | Processado |
+| 69 | BlackLine vs Vic.ai (2026): Best in AI Invoicing - AI Central Resources | Alta | Descartado |
 | 70 | Blog | Carbonly.ai | Baixa | Pendente |
 | 71 | Board of Directors - Association for Financial Professionals (AFP) | Baixa | Pendente |
-| 72 | Business Partnering Guide for Introverts - FP&A Trends | Alta | Pendente |
-| 73 | CEO WORLD: If Your CFO Isn't Driving Strategy, You Hired a Chief Accounting Officer | Alta | Pendente |
-| 74 | CFO 100-Day Plan: Establish the Facts First - Finance Value Score | Alta | Pendente |
+| 72 | Business Partnering Guide for Introverts - FP&A Trends | Alta | Processado |
+| 73 | CEO WORLD: If Your CFO Isn't Driving Strategy, You Hired a Chief Accounting Officer | Alta | Processado |
+| 74 | CFO 100-Day Plan: Establish the Facts First - Finance Value Score | Alta | Processado |
 | 75 | CFO optimism around AI rises as adoption levels off | Alta | Pendente |
 | 76 | CFOs urged to take disciplined approach to AI spend | Alta | Pendente |
 | 77 | COSO AI framework: Internal controls for generative AI - Deloitte US | Alta | Pendente |

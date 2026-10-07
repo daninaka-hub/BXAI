@@ -89,3 +89,33 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-06 | Leadership Roles | teórico | IMA | IMA Management Accounting Competency Framework: seis domínios e 33 competências, com liderança como domínio próprio |
 | 2026-10-06 | Organization | pesquisa | IBM IBV | 48% das áreas de finanças têm habilidade de IA concentrada em poucos times, e só 6% se dizem prontas para a transformação |
 | 2026-10-06 | Organization | teórico | ScottMadden | Quatro canais de entrega de serviço de finanças e o escalonamento em quatro camadas (Tier 0 a Tier 3) |
+| 2026-10-07 | Controllership | pesquisa | Odoxa / Sixthfin | 67% dos CFOs britânicos põem confiabilidade das contas acima de velocidade no fechamento (303 CFOs) |
+| 2026-10-07 | Controllership | teórico | COSO | Internal Control Integrated Framework: 5 componentes, 17 princípios e o teste de present and functioning |
+| 2026-10-07 | Finance Automation | pesquisa | Deloitte CFO Signals | 93% dos CFOs já usam IA, mas só 43% confiam na própria governança (200 CFOs, 2T26) |
+| 2026-10-07 | Finance Automation | pesquisa | Gartner via Aleph | Adoção de IA em finanças travou em 59%, contra 58% no ano anterior (183 CFOs, nov/2025) |
+| 2026-10-07 | Finance Automation | pesquisa | Forrester / AWS Marketplace | 88% dos líderes de serviços financeiros dizem precisar inovar mais rápido (559 respondentes) |
+| 2026-10-07 | Finance Automation | pesquisa | PEX via CFO Dive | 69% reduziram revisão manual com IA, mas só 28% deixariam a IA decidir (687 líderes) |
+| 2026-10-07 | Finance Automation | estatística | assistents.ai (fornecedor) | Blog cita Deloitte com 54% dos CFOs pondo agentes de IA como prioridade número um |
+| 2026-10-07 | Finance Automation | estatística | ChatFin (fornecedor) | Mercado de automação de fechamento em US$ 5,8 bilhões, CAGR de 12%, com faixas de preço por produto |
+| 2026-10-07 | Finance Automation | estudo de caso | CFO Shortlist | Coca-Cola reduziu de 800 para 360 FTEs com automação de fechamento, mais preços e TCO de 3 anos |
+| 2026-10-07 | Finance Automation | teórico | NIST | AI Risk Management Framework: governar, mapear, medir e gerenciar, aplicado a agentes de finanças |
+| 2026-10-07 | Forecasting Methods | pesquisa | Fed de São Francisco / Duke CFO Survey | CFOs erram 0,69 ponto percentual ao prever salários, melhor que surveys de consumidores |
+| 2026-10-07 | Forecasting Methods | pesquisa | AFP | 43% usam rolling forecast, 38% usam cenário estruturado e o ciclo orçamentário médio é de 8,7 semanas |
+| 2026-10-07 | Forecasting Methods | teórico | Gilliland, Morlidge | Forecast Value Added mede se cada etapa bate o naive: 52% das previsões falharam nesse teste |
+| 2026-10-07 | FP&A Fundamentals | pesquisa | Datarails / Global Surveyz | Times de finanças gastam 26% da semana conferindo saídas de IA (270 CFOs, jul/2026) |
+| 2026-10-07 | FP&A Fundamentals | teórico | Beyond Budgeting Institute / CFI | Os 12 princípios oficiais do Beyond Budgeting e as cinco falhas do orçamento tradicional |
+| 2026-10-07 | FP&A Fundamentals | teórico | ACCA | Variância de uso se decompõe em mix e yield, e mix favorável pode esconder perda de rendimento |
+| 2026-10-07 | Integrated Planning | pesquisa | AFP | Só 46% têm alinhamento horizontal efetivo entre áreas de operação (332 profissionais, 54 países) |
+| 2026-10-07 | Integrated Planning | estratégia | Aleph | Prazo de implantação de ferramenta de planejamento vai de poucos dias a mais de seis meses |
+| 2026-10-07 | Integrated Planning | estratégia | GrowCFO | Planejamento contínuo com horizonte rolante de 12 a 18 meses, revisto mensal ou trimestralmente |
+| 2026-10-07 | Integrated Planning | teórico | Lapide; Grimson e Pyke (via Production) | Maturidade de S&OP em estágios: quatro níveis de Lapide e cinco de Grimson e Pyke |
+| 2026-10-07 | Strategic Planning | pesquisa | EY CEO Outlook | 51% dos CEOs planejam desinvestir em 12 meses, ante 42% em maio, igualando aquisições (1.200 CEOs) |
+| 2026-10-07 | Strategic Planning | pesquisa | Hope e Fraser / CAM-I BBRT | Orçamento consome 20% a 30% do tempo de executivos; Handelsbanken opera sem orçamento há 30 anos |
+| 2026-10-07 | Strategic Planning | teórico | Kaplan e Norton | Balanced Scorecard traduz estratégia em quatro perspectivas ligadas por causa e efeito |
+| 2026-10-07 | Leadership Roles | conclusão | Journal of Accountancy | CAO assume papel estratégico e a Hershey cortou 60% dos lançamentos manuais no razão |
+| 2026-10-07 | Leadership Roles | conclusão | CEOWORLD / Cowen Partners | Cinco atribuições separam CFO estratégico de Chief Accounting Officer, tese sem dados |
+| 2026-10-07 | Leadership Roles | estratégia | Finance Value Score | Plano de 100 dias do CFO com cinco medidas factuais; custo de finanças entre 0,8% e 1,5% da receita |
+| 2026-10-07 | Leadership Roles | teórico | Deloitte | Four Faces of the CFO: steward, operator, strategist e catalyst como grade de diagnóstico de perfil |
+| 2026-10-07 | Leadership Roles | teórico | FP&A Trends | Quatro forças do introvertido no business partnering e as práticas de preparação que as sustentam |
+| 2026-10-07 | Organization | pesquisa | Controllers Council | 61% dos líderes de finanças relatam escassez de talento, e controller é o cargo mais difícil de preencher |
+| 2026-10-07 | Organization | teórico | Deloitte | Maturidade de GBS em três estágios, do modelo de três funções ao Centre Office por serviço ponta a ponta |
