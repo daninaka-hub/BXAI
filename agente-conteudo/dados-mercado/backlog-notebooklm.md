@@ -80,46 +80,46 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 72 | Business Partnering Guide for Introverts - FP&A Trends | Alta | Processado |
 | 73 | CEO WORLD: If Your CFO Isn't Driving Strategy, You Hired a Chief Accounting Officer | Alta | Processado |
 | 74 | CFO 100-Day Plan: Establish the Facts First - Finance Value Score | Alta | Processado |
-| 75 | CFO optimism around AI rises as adoption levels off | Alta | Pendente |
-| 76 | CFOs urged to take disciplined approach to AI spend | Alta | Pendente |
-| 77 | COSO AI framework: Internal controls for generative AI - Deloitte US | Alta | Pendente |
-| 78 | COSO ERM Framework | Alta | Pendente |
-| 79 | COSO Framework | Definition, Pillars, Principles, Stages & Processes - Pathlock | Alta | Pendente |
-| 80 | COSO aligns AI governance with internal control guidance - RSM US | Alta | Pendente |
-| 81 | COSO internal control framework: What it is & how to use it - Diligent | Alta | Pendente |
-| 82 | COSO's enterprise risk management framework - ACCA Global | Alta | Pendente |
+| 75 | CFO optimism around AI rises as adoption levels off | Alta | Processado |
+| 76 | CFOs urged to take disciplined approach to AI spend | Alta | Processado |
+| 77 | COSO AI framework: Internal controls for generative AI - Deloitte US | Alta | Processado |
+| 78 | COSO ERM Framework | Alta | Processado |
+| 79 | COSO Framework | Definition, Pillars, Principles, Stages & Processes - Pathlock | Alta | Processado |
+| 80 | COSO aligns AI governance with internal control guidance - RSM US | Alta | Processado |
+| 81 | COSO internal control framework: What it is & how to use it - Diligent | Alta | Descartado |
+| 82 | COSO's enterprise risk management framework - ACCA Global | Alta | Processado |
 | 83 | CPA vs CIA India 2026: Which Audit Credential Fits You - Board360 | Baixa | Pendente |
-| 84 | Campfire Implementation Partner | AI-Native ERP - Zanovoy | Alta | Pendente |
-| 85 | Case Study: How To Transform Your FP&A Team and Move Towards Advanced FP&A | Alta | Pendente |
-| 86 | Case Study: Strengthening FP&A Processes and Benchmarking for a Leading Life Insurer | Alta | Pendente |
-| 87 | Celebrating 3 Years as a Leader in the Gartner Financial Planning Magic Quadrant | Alta | Pendente |
-| 88 | Certinia CFO-CIO lays the groundwork for growth | Alta | Pendente |
+| 84 | Campfire Implementation Partner | AI-Native ERP - Zanovoy | Alta | Descartado |
+| 85 | Case Study: How To Transform Your FP&A Team and Move Towards Advanced FP&A | Alta | Processado |
+| 86 | Case Study: Strengthening FP&A Processes and Benchmarking for a Leading Life Insurer | Alta | Descartado |
+| 87 | Celebrating 3 Years as a Leader in the Gartner Financial Planning Magic Quadrant | Alta | Descartado |
+| 88 | Certinia CFO-CIO lays the groundwork for growth | Alta | Processado |
 | 89 | Chartered Accountant - RTR - SSC - Finance Controller Job in VENKAT TECH GLOBAL SOLUTIONS | Baixa | Pendente |
 | 90 | Chief Financial Officer job in Bangladesh apparel manufacturing | Baixa | Pendente |
-| 91 | Comprehensive Analysis of AI Adoption in FP&A, Controllership, and Financial Governance: Operational Dynamics, Control Erosion, and Compliance Architectures | Alta | Pendente |
-| 92 | Controladoria e FP&A - Trilha Consultoria e Auditoria | Alta | Pendente |
+| 91 | Comprehensive Analysis of AI Adoption in FP&A, Controllership, and Financial Governance: Operational Dynamics, Control Erosion, and Compliance Architectures | Alta | Descartado |
+| 92 | Controladoria e FP&A - Trilha Consultoria e Auditoria | Alta | Descartado |
 | 93 | Controller of the Year Awards - Controllers Council | Baixa | Pendente |
 | 94 | Controller of the Year Awards - Winners Announced - Controllers Council | Baixa | Pendente |
-| 95 | Controller vs. FP&A: Understanding the Key Differences - Accounting.bi | Alta | Pendente |
-| 96 | Controllership 2030: Study and Predictions Panel (Preview) | Alta | Pendente |
+| 95 | Controller vs. FP&A: Understanding the Key Differences - Accounting.bi | Alta | Processado |
+| 96 | Controllership 2030: Study and Predictions Panel (Preview) | Alta | Processado |
 | 97 | Controlling 2025 - Exploring the future of controlling - dillerup.net | Alta | Pendente |
-| 98 | Convergence of Enterprise Finance: Modernizing FP&A, Controllership, and Integrated Business Planning | Alta | Pendente |
-| 99 | Corporate Budgeting: Move on from traditional budgeting - Jedox | Alta | Pendente |
-| 100 | Corporate finance vs. FP&A: Understanding the differences - Workday | Alta | Pendente |
-| 101 | Critical Governance, Regulatory, and Operational Challenges of Artificial Intelligence in Corporate FP&A and Controllership | Alta | Pendente |
+| 98 | Convergence of Enterprise Finance: Modernizing FP&A, Controllership, and Integrated Business Planning | Alta | Descartado |
+| 99 | Corporate Budgeting: Move on from traditional budgeting - Jedox | Alta | Descartado |
+| 100 | Corporate finance vs. FP&A: Understanding the differences - Workday | Alta | Processado |
+| 101 | Critical Governance, Regulatory, and Operational Challenges of Artificial Intelligence in Corporate FP&A and Controllership | Alta | Descartado |
 | 102 | Department of Management Sciences | IIT Kanpur | Baixa | Pendente |
 | 103 | Director Business Management @ Microsoft | Simplify Jobs | Baixa | Pendente |
 | 104 | Director of Strategic Planning Cover Letter Example (2026) - JobSprout | Baixa | Pendente |
 | 105 | Director, Corporate Strategy (Hybrid) in Houston at VS Tech Solutions | Baixa | Pendente |
 | 106 | Director, Strategic Planning | City of New York Jobs - NYC Jobs | Baixa | Pendente |
-| 107 | Driver Based Planning for FP&A Improve Forecast Accuracy - Jedox | Alta | Pendente |
-| 108 | EPM Gartner Financial Planning Magic Quadrant - Oracle | Alta | Pendente |
-| 109 | EPM Software Trends 2026: What Gartner's Financial Planning Research Means for FP&A Leaders - B EYE | Alta | Pendente |
-| 110 | ERM ppt.pptx - Slideshare | Alta | Pendente |
-| 111 | ESG Reporting 101: An Introduction to Environmental, Social and Governance | Alta | Pendente |
-| 112 | Effective Demand Planning - Oliver Wight EAME | Alta | Pendente |
-| 113 | Effectiveness Of Internal Controls In Preventing Financial Statement Fraud | Alta | Pendente |
-| 114 | Enterprise Performance Management (EPM) - Global Strategic Business Report | Alta | Pendente |
+| 107 | Driver Based Planning for FP&A Improve Forecast Accuracy - Jedox | Alta | Processado |
+| 108 | EPM Gartner Financial Planning Magic Quadrant - Oracle | Alta | Descartado |
+| 109 | EPM Software Trends 2026: What Gartner's Financial Planning Research Means for FP&A Leaders - B EYE | Alta | Descartado |
+| 110 | ERM ppt.pptx - Slideshare | Alta | Descartado |
+| 111 | ESG Reporting 101: An Introduction to Environmental, Social and Governance | Alta | Processado |
+| 112 | Effective Demand Planning - Oliver Wight EAME | Alta | Processado |
+| 113 | Effectiveness Of Internal Controls In Preventing Financial Statement Fraud | Alta | Descartado |
+| 114 | Enterprise Performance Management (EPM) - Global Strategic Business Report | Alta | Processado |
 | 115 | Enterprise Performance Management (EPM) Market Size, Trends Report & Share 2031 | Alta | Pendente |
 | 116 | Enterprise Performance Management Market Size, Global Trends, Forecast, 2032 | Alta | Pendente |
 | 117 | Enterprise Performance Management Market Size, Growth Report 2035 - Research Nester | Alta | Pendente |

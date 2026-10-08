@@ -119,3 +119,37 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-07 | Leadership Roles | teórico | FP&A Trends | Quatro forças do introvertido no business partnering e as práticas de preparação que as sustentam |
 | 2026-10-07 | Organization | pesquisa | Controllers Council | 61% dos líderes de finanças relatam escassez de talento, e controller é o cargo mais difícil de preencher |
 | 2026-10-07 | Organization | teórico | Deloitte | Maturidade de GBS em três estágios, do modelo de três funções ao Centre Office por serviço ponta a ponta |
+| 2026-10-08 | Controllership | estratégia | Deloitte / COSO | COSO publicou em fev/2026 orientação de controle interno sobre GenAI, organizada por oito capacidades |
+| 2026-10-08 | Controllership | conclusão | RSM US | RSM: governança de GenAI é controle interno, com evidência mínima viável por caso de uso |
+| 2026-10-08 | Controllership | teórico | Pathlock | Linha do tempo do COSO de 1985 a 2023 e processo de implementação em quatro estágios |
+| 2026-10-08 | Controllership | pesquisa | Controllers Council | Controllership 2030: escrituração cai de 68% para 45% e supervisão de IA sobe de 10% para 34% (300+ respondentes) |
+| 2026-10-08 | Controllership | conclusão | SEC | SEC criou unidade dedicada a fraude de reporte financeiro na Division of Enforcement (ago/2026) |
+| 2026-10-08 | Controllership | pesquisa | KPMG | Causa raiz de material weakness: 35% falta de recursos contábeis e 36% das empresas reincidem (238 companhias, FY2025) |
+| 2026-10-08 | Controllership | teórico | IIA via TechTarget e Hyperproof | Modelo das Três Linhas do IIA: seis princípios e papéis definidos por propósito, não por título |
+| 2026-10-08 | Controllership | teórico | Visual Lease | Mapa de siglas do reporte ESG: ISSB, GRI, SASB, TCFD, CDP, CSRD e ESRS, SEC e SB 253 e 261 |
+| 2026-10-08 | Controllership | pesquisa | Abeki, IJRISS | Relação positiva e significativa entre controle interno e menos fraude em 230 questionários de bancos nigerianos |
+| 2026-10-08 | Finance Automation | pesquisa | CFO.com / Gartner | Adoção de IA foi de 37% em 2023 a 59% em 2025, mas 67% estão mais otimistas (183 líderes) |
+| 2026-10-08 | Finance Automation | pesquisa | Auditoria.AI | 66,5% aumentam investimento em IA, mas só 21% têm resultado mensurável e 2,5% operam autônomo (292 respondentes) |
+| 2026-10-08 | Finance Automation | estatística | Market Glass via Research and Markets | Mercado de EPM em US$ 7,2 bi em 2025 e US$ 14,0 bi em 2032, CAGR de 10%, puxado por software |
+| 2026-10-08 | Finance Automation | teórico | Redwood Software | Automation Center of Excellence: quatro capacidades, três peças de governança e cinco boas práticas |
+| 2026-10-08 | Forecasting Methods | pesquisa | OFR (Tesouro dos EUA) | Benchmark aberto com 25 bases em sete classes de ativos: nenhum método bate a média histórica em retornos |
+| 2026-10-08 | Forecasting Methods | estratégia | Jedox | Planejamento por drivers em cinco passos, com 8 a 15 drivers explicando mais de 80% do resultado |
+| 2026-10-08 | Forecasting Methods | teórico | Hyndman e Athanasopoulos | Holt Winters: nível, tendência e sazonalidade, versões aditiva, multiplicativa e amortecida |
+| 2026-10-08 | FP&A Fundamentals | pesquisa | Grant Thornton | 80% dos CFOs esperam crescimento de lucro, recorde em 18 trimestres, com otimismo macro em 46% (230 líderes) |
+| 2026-10-08 | FP&A Fundamentals | pesquisa | Vena / Benchmarkit | Metade tem variância de receita acima de 6% e só 34% integraram drivers operacionais (431 profissionais) |
+| 2026-10-08 | FP&A Fundamentals | estudo de caso | FP&A Trends | Transformação de FP&A em empresa de leasing com receita acima de 1 bi de euros, sem resultado quantificado |
+| 2026-10-08 | FP&A Fundamentals | teórico | Zebra BI, City Shift, Business Intelligist | Ponte de receita: fórmulas de preço, volume e mix, mais câmbio e a ponte de margem bruta |
+| 2026-10-08 | Integrated Planning | pesquisa | Board International | 83% dizem que o conselho decidiu com previsão sabidamente desatualizada e só 27% replanejam em tempo real (300 executivos) |
+| 2026-10-08 | Integrated Planning | estratégia | Oliver Wight | Previsão de demanda como pedido formal: horizonte de 24 meses, 5 a 10 premissas e time fence de 3 meses |
+| 2026-10-08 | Integrated Planning | teórico | Oracle | Rough Cut Capacity Planning: bill of resources, setback days e capacity load ratio |
+| 2026-10-08 | Strategic Planning | teórico | COSO via NC State | COSO ERM 2017: cinco componentes e 20 princípios, contra os 17 do framework de controle interno |
+| 2026-10-08 | Strategic Planning | teórico | ACCA | Cubo de ERM do COSO em oito componentes e cinco críticas ao modelo, com divergência de datação |
+| 2026-10-08 | Strategic Planning | teórico | Porter / HBS | Cinco Forças: mecânica de cada força e a separação entre estrutura do setor e posição relativa |
+| 2026-10-08 | Leadership Roles | pesquisa | Russell Reynolds via CFO Dive | 60% das saídas de CFO foram aposentadoria e 64% das nomeações foram de CFOs de primeira viagem (1S26) |
+| 2026-10-08 | Leadership Roles | pesquisa | EY | 60% dizem que o CFO deveria moldar valor, mas só 25% lideram investimento de retorno incerto (1.610 CFOs) |
+| 2026-10-08 | Leadership Roles | conclusão | CFO.com | CFO da Certinia acumula o papel de CIO, com sistemas, dados e aplicações corporativas sob finanças |
+| 2026-10-08 | Leadership Roles | conclusão | Workday / McKinsey | Escopo de finanças corporativas versus FP&A, e planejamento estratégico como prioridade de 38% para 60% dos CFOs |
+| 2026-10-08 | Leadership Roles | teórico | Accounting.bi | Fronteira entre controller e FP&A em cinco responsabilidades de cada lado |
+| 2026-10-08 | Leadership Roles | teórico | FP&A Trends | Business Partnering Maturity Model: seis dimensões em três estágios, de provedor de dados a agente de mudança |
+| 2026-10-08 | Organization | pesquisa | The Hackett Group | Benchmark AI World Class: order to cash com custo 52% a 59% menor e pessoal 56% a 64% menor |
+| 2026-10-08 | Organization | teórico | Deloitte | Global process owner: cinco fatores de sucesso e três desenhos de alocação do papel |
