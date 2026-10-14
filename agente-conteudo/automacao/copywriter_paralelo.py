@@ -174,7 +174,7 @@ def main():
             import importlib.util
             spec = importlib.util.spec_from_file_location("squad", AUTO / "squad.py"); sq = importlib.util.module_from_spec(spec); spec.loader.exec_module(sq)
             if b.get("reescrita"):
-                sq.atualizar_titulo(b["codigo"], sq.titulo_do_artigo(b["slug"]))
+                sq.atualizar_titulo(b["codigo"], sq.titulo_do_artigo(b["slug"])); sq.definir_status(b["codigo"], "Em validação")
             else:
                 sq.indexar(b["codigo"], b["slug"], sq.titulo_do_artigo(b["slug"]), b["pilar"], b["teoria"], b["apoio"])
             sq.marcar(b["linha"], f"Sim (Artigo {b['codigo']})", b["aprov"])

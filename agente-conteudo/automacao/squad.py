@@ -73,6 +73,14 @@ def marcar(linha, texto, atual="Sim"):
     nova = nova[: -len(fim)] + f"| {texto} |"
     p.write_text(t.replace(linha, nova, 1), encoding="utf-8")
 
+def definir_status(codigo, novo):
+    p = CONT / "indice-artigos.md"
+    t = p.read_text(encoding="utf-8")
+    for ln, c in indice():
+        if c[0] == f"Artigo {codigo}" and c[5] != novo:
+            t = t.replace(ln, ln.replace(f"| {c[5]} |", f"| {novo} |", 1), 1)
+    p.write_text(t, encoding="utf-8")
+
 def atualizar_titulo(codigo, titulo):
     p = CONT / "indice-artigos.md"
     t = p.read_text(encoding="utf-8")
@@ -92,7 +100,7 @@ def aprovar(titulo):
                     marcar(ln, "Sim", "Pendente"); return f"Briefing {num} da semana {semana} aprovado. O Copywriter escreve em seguida."
                 r = re.fullmatch(r"Estrutura pendente \(Artigo (\d+)\)", c[-1])
                 if r:
-                    marcar(ln, f"Sim (reescrita Artigo {r.group(1)})", c[-1]); return f"Briefing da reescrita do Artigo {r.group(1)} aprovado. O Copywriter reescreve em seguida."
+                    marcar(ln, f"Sim (reescrita Artigo {r.group(1)})", c[-1]); definir_status(r.group(1), "Em reescrita"); return f"Briefing da reescrita do Artigo {r.group(1)} aprovado. O Copywriter reescreve em seguida."
                 return f"Nada a fazer: o briefing já está como '{c[-1]}'."
         return "Briefing não encontrado."
     m = re.fullmatch(r"Aprovar Artigo (\d+)", titulo.strip())
@@ -932,7 +940,7 @@ if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hi
 def gerar_pagina():
     cards = []
     cards_bib = []
-    linhas = indice()
+    linhas = [x for x in indice() if x[1][5] != "Em reescrita"]
     codigos = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas), reverse=True)
     aprovar = [c for _, c in linhas if c[5] != "Aprovado"]
     abertos = set(sorted((int(re.search(r"\d+", c[0]).group()) for c in aprovar), reverse=True)[:2])
