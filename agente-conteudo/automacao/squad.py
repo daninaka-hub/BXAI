@@ -757,6 +757,7 @@ details[open] .chev{transform:rotate(90deg);}
 .et-msg{font-size:12px;color:var(--muted);margin-top:8px;}
 .brief{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px;}
 .btn-aprovar{margin-left:auto;background:var(--teal);color:#06262B;font-weight:bold;font-size:13px;text-decoration:none;padding:6px 14px;border-radius:6px;}
+.aprov-env{margin-left:auto;font-size:12px;color:var(--muted);}
 .btn-aprovar:hover{filter:brightness(1.08);}
 .brief-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
 .bf{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 7px;}
@@ -922,6 +923,9 @@ function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprova
 document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
 document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
+(function(){var K="bxai-aprovado";var lido=function(){try{return JSON.parse(localStorage.getItem(K)||"[]");}catch(e){return [];}};var grava=function(l){try{localStorage.setItem(K,JSON.stringify(l));}catch(e){}};var marca=function(a){var m=document.createElement("span");m.className="aprov-env";m.textContent="Aprovação enviada, aplicando em instantes";a.replaceWith(m);};
+var l=lido();document.querySelectorAll("a.btn-aprovar").forEach(function(a){if(l.indexOf(a.getAttribute("href"))>=0)marca(a);});
+document.addEventListener("click",function(ev){var a=ev.target.closest("a.btn-aprovar");if(!a)return;var l=lido();l.push(a.getAttribute("href"));grava(l);setTimeout(function(){marca(a);},300);});})();
 if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hidden&&!document.getElementById("aba-status").hidden)location.reload();},60000);}'''
 
 
