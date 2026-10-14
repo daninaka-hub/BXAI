@@ -444,9 +444,11 @@ def lint_idiomas(slug):
 def _sem_pontos(texto):
     return "\n".join(x for x in texto.splitlines() if x.strip() != ".").strip()
 
-CATEGORIAS = {"controllership": "controllership", "finance automation": "finance-automation", "forecasting methods": "forecasting",
-              "strategic planning": "strategic-planning", "integrated planning": "integrated-planning", "fp&a fundamentals": "fpa-fundamentals",
-              "leadership roles": "leadership", "organization": "organization"}
+# O blog só aceita estas sete categorias (o validador do site rejeita qualquer outra)
+CATEGORIAS_BLOG = ("budget-planning", "sales-revenue", "financial-management", "digital-transformation", "business-management", "compliance-risk", "kpis-performance")
+CATEGORIAS = {"controllership": "compliance-risk", "finance automation": "digital-transformation", "forecasting methods": "budget-planning",
+              "strategic planning": "business-management", "integrated planning": "budget-planning", "fp&a fundamentals": "financial-management",
+              "leadership roles": "business-management", "organization": "business-management"}
 AUTOR = {"name": "Daniel Nakamura", "avatar": "/blog-media/autor-daniel-nakamura.webp"}
 TITULO_NESTE = {"pt": "Neste artigo", "en": "In this article", "es": "En este artículo"}
 SUFIXO = {"pt": "br", "en": "en", "es": "es"}
@@ -508,7 +510,8 @@ def montar_json(slug):
         d["data"] = _agora().strftime("%Y-%m-%d")
         (IDIOMAS / f"{slug}.json").write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     primeiro = re.split(r"\s*/\s*", pilar.strip().lower())[0]
-    categoria = CATEGORIAS.get(primeiro, slugify(primeiro, 3))
+    categoria = CATEGORIAS.get(primeiro, "financial-management")
+    assert categoria in CATEGORIAS_BLOG, categoria
     base = d["pt"]["seo"]["slug_url"]
     JSONS.mkdir(exist_ok=True)
     for velho in JSONS.glob(f"{slug}*.json"):

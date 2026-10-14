@@ -21,7 +21,7 @@
     "name": "Daniel Nakamura",
     "avatar": "/blog-media/autor-daniel-nakamura.webp"
   },
-  "category": "forecasting",
+  "category": "budget-planning",
   "tags": [
     "budget vs forecast",
     "forecast accuracy",
@@ -56,7 +56,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Budget vs forecast: what is the difference?"
+      "content": "Budget vs forecast: the difference"
     },
     {
       "type": "paragraph",
@@ -73,7 +73,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Why does the budget contaminate the forecast?"
+      "content": "The budget contaminates the forecast"
     },
     {
       "type": "paragraph",
@@ -94,7 +94,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "How do you know if a forecast is biased?"
+      "content": "Bias only shows up in the error history"
     },
     {
       "type": "paragraph",
@@ -107,7 +107,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Why does measuring error make a forecast learn?"
+      "content": "Measuring error makes a forecast learn"
     },
     {
       "type": "paragraph",
@@ -128,7 +128,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What does a forecast without a score cost the people who defend it?"
+      "content": "What a forecast without a score costs the people who defend it"
     },
     {
       "type": "paragraph",
@@ -145,7 +145,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "How do you start at the next close?"
+      "content": "How to start at the next close"
     },
     {
       "type": "paragraph",
@@ -158,7 +158,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What does the missing check reveal?"
+      "content": "What the missing check reveals"
     },
     {
       "type": "paragraph",
@@ -175,7 +175,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Measuring the error requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan."
+      "content": "Measuring the error requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan. With BudgetXpert, the forecast error could be measured every month, because the previous version stays saved, only one version carries the official mark and the new forecast pulls the previous result without copying cells."
     },
     {
       "type": "table",

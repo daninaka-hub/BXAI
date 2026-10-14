@@ -21,7 +21,7 @@
     "name": "Daniel Nakamura",
     "avatar": "/blog-media/autor-daniel-nakamura.webp"
   },
-  "category": "strategic-planning",
+  "category": "business-management",
   "tags": [
     "plano estratégico",
     "hipótese",
@@ -56,7 +56,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que é uma hipótese dentro de um plano estratégico?"
+      "content": "Hipótese dentro de um plano estratégico"
     },
     {
       "type": "paragraph",
@@ -115,7 +115,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Quem decide quando o teste falha?"
+      "content": "Sem dono, o teste não acontece"
     },
     {
       "type": "paragraph",
@@ -132,7 +132,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Falta tecnologia ou falta disciplina para testar?"
+      "content": "A ferramenta existe, falta disciplina para testar"
     },
     {
       "type": "paragraph",
@@ -154,11 +154,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que o plano da Target deveria ter perguntado"
+      "content": "O que faltou ao plano da Target"
     },
     {
       "type": "paragraph",
-      "content": "A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro."
+      "content": "Quase todo plano parte de quanto vamos crescer. O que faltou à Target foi saber quanto custa descobrir que estamos errados. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro."
     },
     {
       "type": "heading",
@@ -167,7 +167,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Num plano em fases, cada hipótese precisa de alguém que a confira na data marcada. Na BudgetXpert, o plano não tem estrutura fixa."
+      "content": "Num plano em fases, cada hipótese precisa de alguém que a confira na data marcada. Na BudgetXpert, o plano não tem estrutura fixa. Com a BudgetXpert, a Target teria sabido qual hipótese falhou, pois cada hipótese vira uma premissa com dono, o valor muda mês a mês conforme a fase e cada área edita só a parte dela."
     },
     {
       "type": "table",

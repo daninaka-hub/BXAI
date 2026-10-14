@@ -21,7 +21,7 @@
     "name": "Daniel Nakamura",
     "avatar": "/blog-media/autor-daniel-nakamura.webp"
   },
-  "category": "strategic-planning",
+  "category": "business-management",
   "tags": [
     "plan estratégico",
     "hipótesis",
@@ -56,7 +56,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Qué es una hipótesis dentro de un plan estratégico?"
+      "content": "La hipótesis dentro de un plan estratégico"
     },
     {
       "type": "paragraph",
@@ -77,7 +77,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Qué apostó Target al mismo tiempo?"
+      "content": "Lo que Target apostó al mismo tiempo"
     },
     {
       "type": "paragraph",
@@ -94,7 +94,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Cómo probar un plan estratégico por fases?"
+      "content": "Cómo probar un plan estratégico por fases"
     },
     {
       "type": "paragraph",
@@ -115,7 +115,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Quién decide cuando la prueba falla?"
+      "content": "Sin dueño, la prueba no ocurre"
     },
     {
       "type": "paragraph",
@@ -132,7 +132,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Falta tecnología o falta disciplina para probar?"
+      "content": "La herramienta existe, falta disciplina para probar"
     },
     {
       "type": "paragraph",
@@ -154,11 +154,11 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Lo que el plan de Target debió preguntar"
+      "content": "Lo que le faltó al plan de Target"
     },
     {
       "type": "paragraph",
-      "content": "La pregunta de casi todo plan es cuánto vamos a crecer. La que le faltó a Target era otra: ¿cuánto cuesta descubrir que nos equivocamos? Un plan no vale por la precisión de las metas que proyecta. Vale por el precio que cobra para revelar el error."
+      "content": "Casi todo plan parte de cuánto vamos a crecer. Lo que le faltó a Target fue saber cuánto cuesta descubrir que nos equivocamos. Un plan no vale por la precisión de las metas que proyecta. Vale por el precio que cobra para revelar el error."
     },
     {
       "type": "heading",
@@ -167,7 +167,7 @@
     },
     {
       "type": "paragraph",
-      "content": "En un plan por fases, cada hipótesis necesita a alguien que la revise en la fecha marcada. En BudgetXpert, el plan no tiene una estructura fija."
+      "content": "En un plan por fases, cada hipótesis necesita a alguien que la revise en la fecha marcada. En BudgetXpert, el plan no tiene una estructura fija. Con BudgetXpert, Target habría sabido qué hipótesis falló, porque cada hipótesis se convierte en un supuesto con dueño, el valor cambia mes a mes según cada fase y cada área edita solo su parte."
     },
     {
       "type": "table",

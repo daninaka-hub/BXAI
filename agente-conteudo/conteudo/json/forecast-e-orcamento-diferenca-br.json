@@ -21,7 +21,7 @@
     "name": "Daniel Nakamura",
     "avatar": "/blog-media/autor-daniel-nakamura.webp"
   },
-  "category": "forecasting",
+  "category": "budget-planning",
   "tags": [
     "forecast e orçamento",
     "acurácia do forecast",
@@ -60,7 +60,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Forecast e orçamento: qual é a diferença?"
+      "content": "Forecast e orçamento: a diferença"
     },
     {
       "type": "paragraph",
@@ -77,7 +77,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Por que o orçamento contamina o forecast?"
+      "content": "O orçamento contamina o forecast"
     },
     {
       "type": "paragraph",
@@ -98,7 +98,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Como saber se o forecast tem viés?"
+      "content": "O viés só aparece no histórico de erros"
     },
     {
       "type": "paragraph",
@@ -111,7 +111,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Por que medir o erro faz o forecast aprender?"
+      "content": "Medir o erro faz o forecast aprender"
     },
     {
       "type": "paragraph",
@@ -132,7 +132,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "O que o forecast sem nota custa a quem o defende?"
+      "content": "O custo do forecast sem nota para quem o defende"
     },
     {
       "type": "paragraph",
@@ -149,7 +149,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Como começar no próximo fechamento?"
+      "content": "Como começar no próximo fechamento"
     },
     {
       "type": "paragraph",
@@ -179,7 +179,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano."
+      "content": "Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Com a BudgetXpert, o erro do forecast poderia ser medido todo mês, pois a versão anterior continua guardada, só uma versão leva a marca de oficial e o forecast novo puxa o resultado do anterior sem copiar célula."
     },
     {
       "type": "table",

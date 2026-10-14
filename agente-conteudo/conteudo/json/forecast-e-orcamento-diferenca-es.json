@@ -21,7 +21,7 @@
     "name": "Daniel Nakamura",
     "avatar": "/blog-media/autor-daniel-nakamura.webp"
   },
-  "category": "forecasting",
+  "category": "budget-planning",
   "tags": [
     "forecast y presupuesto",
     "precisión del forecast",
@@ -60,7 +60,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Forecast y presupuesto: ¿cuál es la diferencia?"
+      "content": "Forecast y presupuesto: la diferencia"
     },
     {
       "type": "paragraph",
@@ -77,7 +77,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Por qué el presupuesto contamina el forecast?"
+      "content": "El presupuesto contamina el forecast"
     },
     {
       "type": "paragraph",
@@ -98,7 +98,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Cómo saber si el forecast tiene sesgo?"
+      "content": "El sesgo solo aparece en el historial de errores"
     },
     {
       "type": "paragraph",
@@ -111,7 +111,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Por qué medir el error hace que el forecast aprenda?"
+      "content": "Medir el error hace que el forecast aprenda"
     },
     {
       "type": "paragraph",
@@ -132,7 +132,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Cuánto le cuesta a quien lo defiende un forecast sin nota?"
+      "content": "Lo que le cuesta a quien lo defiende un forecast sin nota"
     },
     {
       "type": "paragraph",
@@ -149,7 +149,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Cómo empezar en el próximo cierre?"
+      "content": "Cómo empezar en el próximo cierre"
     },
     {
       "type": "paragraph",
@@ -162,7 +162,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "¿Qué revela que nadie revise?"
+      "content": "Lo que revela que nadie revise"
     },
     {
       "type": "paragraph",
@@ -179,7 +179,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Medir el error exige que la previsión de cada mes siga existiendo cuando el mes cierra. En BudgetXpert, presupuesto y forecast conviven como versiones del mismo plan."
+      "content": "Medir el error exige que la previsión de cada mes siga existiendo cuando el mes cierra. En BudgetXpert, presupuesto y forecast conviven como versiones del mismo plan. Con BudgetXpert, el error del forecast podría medirse cada mes, porque la versión anterior queda guardada, solo una versión lleva la marca de oficial y el forecast nuevo trae el resultado del anterior sin copiar celdas."
     },
     {
       "type": "table",
