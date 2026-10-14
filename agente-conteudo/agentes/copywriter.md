@@ -157,6 +157,12 @@ Depois da revisão de coesão, uma revisão de contexto, para o leitor que não 
 
 Depois da revisão de contexto, uma revisão de estilo dos autores, com o checklist de agentes/guia-estilo-autores.md: primeira frase concreta, caso pequeno antes do conceito, conceito definido e separado do vizinho, incentivo ("quem ganha o quê"), dado que contraria a intuição, custo da escolha (trade-off), limite do argumento admitido em uma frase, fechamento que reenquadra a abertura. Se o texto soar como consultoria ou resumo de livro, reescrever.
 
+Linguagem de uso comum (regra de 14/10, pedido do Daniel). Frase gramaticalmente possível não basta: ela precisa ser algo que um profissional de finanças brasileiro diria numa reunião ou leria numa matéria de negócios. Teste para cada frase: alguém falaria isso em voz alta? Se a construção só existe no papel, reescrever.
+- Sujeito concreto e verbo comum. Quem faz a ação é uma pessoa, uma área ou uma empresa, e o verbo é o que se usaria na conversa. Errado: "a Zillow deu a um número o poder de comprar casas". Certo: "a Zillow passou a comprar casas pelo preço que o algoritmo calculava".
+- Sem metáfora de efeito nem personificação de número, processo ou conceito: número que "tem poder", resultado que "conta uma história", processo que "percebe", premissa que "vigia", dado que "fala", cálculo que "sabe". Dizer o fato em palavras diretas.
+- Sem expressão que só aparece em texto de marketing ou de consultoria ("destravar valor", "jornada", "ecossistema").
+- Dúvida sobre uma frase: trocar pela versão que se diria a um colega, mais curta e com verbo de ação.
+
 Por último, uma revisão gramatical, frase por frase, como faria um revisor de português:
 - Sujeito compatível com o verbo. Para cada frase, perguntar "quem faz isso?". Se o sujeito não puder realizar a ação (ex: "uma premissa que vigiasse"), trocar o sujeito ou o verbo. Premissa, critério e gatilho não vigiam, avisam ou decidem. Quem faz isso é uma pessoa ou uma área.
 - Concordância verbal e nominal, regência e crase.

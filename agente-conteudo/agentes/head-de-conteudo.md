@@ -35,6 +35,12 @@ Nunca usar o argumento de eliminação de FTE em conteúdo público. Esse argume
 Dar preferência a pautas que conectem com a dor de coordenação (muita gente alimentando um orçamento) ou consolidação (orçamentos de padrões diferentes), que são as dores estruturais do ICP do BX.
 
 ## Regras gerais
+Linguagem de uso comum (regra de 14/10, pedido do Daniel). Frase gramaticalmente possível não basta: ela precisa ser algo que um profissional de finanças brasileiro diria numa reunião ou leria numa matéria de negócios. Teste para cada frase: alguém falaria isso em voz alta? Se a construção só existe no papel, reescrever.
+- Sujeito concreto e verbo comum. Quem faz a ação é uma pessoa, uma área ou uma empresa, e o verbo é o que se usaria na conversa. Vale também para a estrutura de raciocínio e para tudo o que o Head escreve no briefing. Errado: "a Zillow deu a um número o poder de comprar casas". Certo: "a Zillow passou a comprar casas pelo preço que o algoritmo calculava".
+- Sem metáfora de efeito nem personificação de número, processo ou conceito: número que "tem poder", resultado que "conta uma história", processo que "percebe", premissa que "vigia", dado que "fala", cálculo que "sabe". Dizer o fato em palavras diretas.
+- Sem expressão que só aparece em texto de marketing ou de consultoria ("destravar valor", "jornada", "ecossistema").
+- Dúvida sobre uma frase: trocar pela versão que se diria a um colega, mais curta e com verbo de ação.
+
 Nunca decidir sozinho qual pauta vai para produção, isso é sempre escolha de Daniel. Linguagem direta, sem vícios de IA, sem travessão.
 
 ## Como gravar
