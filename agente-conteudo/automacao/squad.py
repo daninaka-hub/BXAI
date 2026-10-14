@@ -7,6 +7,12 @@ CONT = ROOT / "conteudo"
 PAGINA = ROOT / "validacao" / "artigos.html"
 STATUS = ROOT / "status"
 GITHUB = "https://github.com/daninaka-hub/BXAI/blob/main/agente-conteudo/"
+ISSUES = "https://github.com/daninaka-hub/BXAI/issues/new"
+
+def botao_aprovar(titulo, corpo):
+    from urllib.parse import quote
+    return f'<a class="btn-aprovar" href="{ISSUES}?title={quote(titulo)}&amp;body={quote(corpo)}" target="_blank" rel="noopener">Aprovar</a>'
+
 AGENTES = {
     "pesquisador": ("Pesquisador", "todo dia às 7h"),
     "head": ("Head de Conteúdo", "segundas às 8h"),
@@ -614,7 +620,7 @@ def html_briefings():
             titulo_art = ""
 
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span></div>'
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{botao_aprovar("Aprovar briefing: " + c[1], "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
                      + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
@@ -706,6 +712,8 @@ details[open] .chev{transform:rotate(90deg);}
 :root[data-theme="dark"] .et-falhou{color:#FFB4B4;background:#431616;border-color:#431616;}
 .et-msg{font-size:12px;color:var(--muted);margin-top:8px;}
 .brief{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px;}
+.btn-aprovar{margin-left:auto;background:var(--teal);color:#06262B;font-weight:bold;font-size:13px;text-decoration:none;padding:6px 14px;border-radius:6px;}
+.btn-aprovar:hover{filter:brightness(1.08);}
 .brief-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
 .bf{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 7px;}
 .bf-pend{color:#7A4B00;background:#FFEFC9;}
@@ -886,7 +894,7 @@ def gerar_pagina():
         n = int(re.search(r"\d+", cod).group())
         aberto = " open" if n in abertos else ""
         (cards_bib if status == "Aprovado" else cards).append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
-<div class="body"><div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
+<div class="body">{botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) if status != "Aprovado" else ""}<div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
 {html_arte(slug)}
