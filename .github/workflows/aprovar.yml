@@ -1,0 +1,31 @@
+name: Aprovar pelo painel
+on:
+  issues:
+    types: [opened]
+concurrency:
+  group: aprovar
+  cancel-in-progress: false
+permissions:
+  contents: write
+  issues: write
+jobs:
+  aprovar:
+    if: github.event.issue.user.login == 'daninaka-hub' && startsWith(github.event.issue.title, 'Aprovar ')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aplicar aprovação
+        env:
+          TITULO: ${{ github.event.issue.title }}
+          NUM: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RES=$(python3 agente-conteudo/automacao/squad.py aprovar "$TITULO")
+          python3 agente-conteudo/automacao/squad.py gerar-pagina
+          git config user.name "bxai-bot"
+          git config user.email "bxai-bot@users.noreply.github.com"
+          git add -A agente-conteudo
+          git commit -m "Aprovação pelo painel: $TITULO" || true
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break || sleep 3; done
+          gh issue comment "$NUM" --body "$RES"
+          gh issue close "$NUM"

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Produz em paralelo os artigos dos briefings aprovados, publica no GitHub e atualiza a página de validação.
-Roda sozinho (launchd, a cada 30 minutos). Sem briefing aprovado, sai em silêncio."""
+Roda sozinho (launchd, a cada minuto). Sem briefing aprovado, sai em silêncio."""
 import os, sys, subprocess, pathlib, shutil, datetime, time
 from concurrent.futures import ThreadPoolExecutor
 
@@ -73,6 +73,10 @@ def produzir(b, wt):
     prompt = (AUTO / "prompt-copywriter.md").read_text(encoding="utf-8")
     for k, v in {"{SLUG}": b["slug"], "{CODIGO}": str(b["codigo"]), "{PILAR}": b["pilar"], "{TEORIA}": b["teoria"], "{APOIO}": b["apoio"], "{ESTRUTURA}": b["estrutura"] or "não definida no briefing, monte a estrutura de raciocínio antes de escrever e registre-a no topo do arquivo de rascunho", "{TESE}": b["tese"] or "não definida no briefing, formule uma tese em uma frase a partir da teoria base e do apoio, e use-a como fio do artigo"}.items():
         prompt = prompt.replace(k, v)
+    if b.get("reescrita"):
+        prompt += ("\n\nEste briefing é de REESCRITA do Artigo " + str(b["codigo"]) + ", que já existe nesta pasta com o mesmo nome de arquivo. "
+                   "Leia os cinco arquivos atuais e use-os como base: mantenha o texto que cabe na estrutura aprovada, reescreva o que a estrutura muda e remova o que ela deixa de fora. "
+                   "Mantenha o mesmo nome de arquivo, o post e o roteiro com os mesmos termos do artigo, e PT, EN e ES alinhados.")
     claude(prompt, wt)
     return wt
 
@@ -169,13 +173,16 @@ def main():
         for b in sorted(boas, key=lambda x: x["codigo"]):
             import importlib.util
             spec = importlib.util.spec_from_file_location("squad", AUTO / "squad.py"); sq = importlib.util.module_from_spec(spec); spec.loader.exec_module(sq)
-            sq.indexar(b["codigo"], b["slug"], sq.titulo_do_artigo(b["slug"]), b["pilar"], b["teoria"], b["apoio"])
-            sq.marcar(b["linha"], f"Sim (Artigo {b['codigo']})")
+            if b.get("reescrita"):
+                sq.atualizar_titulo(b["codigo"], sq.titulo_do_artigo(b["slug"]))
+            else:
+                sq.indexar(b["codigo"], b["slug"], sq.titulo_do_artigo(b["slug"]), b["pilar"], b["teoria"], b["apoio"])
+            sq.marcar(b["linha"], f"Sim (Artigo {b['codigo']})", b["aprov"])
         for b in briefs:
             if isinstance(resultados[b["codigo"]], Exception):
                 import importlib.util
                 spec = importlib.util.spec_from_file_location("squad", AUTO / "squad.py"); sq = importlib.util.module_from_spec(spec); spec.loader.exec_module(sq)
-                sq.marcar(b["linha"], "Sim (falhou na produção, ver log)")
+                sq.marcar(b["linha"], "Sim (falhou na produção, ver log)", b["aprov"])
 
         codigos = ", ".join(str(b["codigo"]) for b in boas) or "nenhum"
         falhou = [b["codigo"] for b in briefs if isinstance(resultados[b["codigo"]], Exception)]

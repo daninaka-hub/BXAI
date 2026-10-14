@@ -52,18 +52,61 @@ def listar():
     sel = [(ln, c) for ln, c in linhas if c[0] == semana and c[-1] == "Sim"]
     n = proximo_codigo()
     briefs = []
+    for ln, c in linhas:
+        m = re.fullmatch(r"Sim \(reescrita Artigo (\d+)\)", c[-1])
+        if not m:
+            continue
+        cod = int(m.group(1))
+        arq = next((x[6] for _, x in indice() if x[0] == f"Artigo {cod}"), "")
+        briefs.append({"codigo": cod, "slug": pathlib.Path(arq).stem, "pilar": c[2], "teoria": c[3], "apoio": c[4], "tese": c[5], "estrutura": c[6], "linha": ln, "reescrita": True, "aprov": c[-1]})
     for i, (ln, c) in enumerate(sel):
-        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "tese": (c[5] if len(c) > 6 and c[5].lower() != "a definir" else ""), "estrutura": (c[6] if len(c) > 7 and c[6].lower() != "a definir" else ""), "linha": ln})
+        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "tese": (c[5] if len(c) > 6 and c[5].lower() != "a definir" else ""), "estrutura": (c[6] if len(c) > 7 and c[6].lower() != "a definir" else ""), "linha": ln, "aprov": "Sim"})
     return briefs
 
-def marcar(linha, texto):
+def marcar(linha, texto, atual="Sim"):
     p = CONT / "decisoes-pauta.md"
     t = p.read_text(encoding="utf-8")
     assert linha in t, "linha do briefing não encontrada"
     nova = linha.rstrip()
-    assert nova.endswith("| Sim |")
-    nova = nova[: -len("| Sim |")] + f"| {texto} |"
+    fim = f"| {atual} |"
+    assert nova.endswith(fim)
+    nova = nova[: -len(fim)] + f"| {texto} |"
     p.write_text(t.replace(linha, nova, 1), encoding="utf-8")
+
+def atualizar_titulo(codigo, titulo):
+    p = CONT / "indice-artigos.md"
+    t = p.read_text(encoding="utf-8")
+    for ln, c in indice():
+        if c[0] == f"Artigo {codigo}" and c[1] != titulo:
+            t = t.replace(ln, ln.replace(f"| {c[1]} |", f"| {titulo} |", 1), 1)
+    p.write_text(t, encoding="utf-8")
+
+def aprovar(titulo):
+    """Aplica uma aprovação vinda do botão da página (título da issue). Devolve a mensagem do resultado."""
+    m = re.fullmatch(r"Aprovar briefing: (?:Artigo )?(\d+)(?: \(reescrita\))? \(semana (\S+)\)", titulo.strip())
+    if m:
+        num, semana = m.group(1), m.group(2)
+        for ln, c in tabela(CONT / "decisoes-pauta.md"):
+            if c[0] == semana and c[1] == num:
+                if c[-1] == "Pendente":
+                    marcar(ln, "Sim", "Pendente"); return f"Briefing {num} da semana {semana} aprovado. O Copywriter escreve em seguida."
+                r = re.fullmatch(r"Estrutura pendente \(Artigo (\d+)\)", c[-1])
+                if r:
+                    marcar(ln, f"Sim (reescrita Artigo {r.group(1)})", c[-1]); return f"Briefing da reescrita do Artigo {r.group(1)} aprovado. O Copywriter reescreve em seguida."
+                return f"Nada a fazer: o briefing já está como '{c[-1]}'."
+        return "Briefing não encontrado."
+    m = re.fullmatch(r"Aprovar Artigo (\d+)", titulo.strip())
+    if m:
+        p = CONT / "indice-artigos.md"
+        t = p.read_text(encoding="utf-8")
+        for ln, c in indice():
+            if c[0] == f"Artigo {m.group(1)}":
+                if c[5] == "Aprovado":
+                    return "Nada a fazer: o artigo já está aprovado."
+                p.write_text(t.replace(ln, ln.replace("| Em validação |", "| Aprovado |", 1), 1), encoding="utf-8")
+                return f"Artigo {m.group(1)} aprovado. Passa para a Biblioteca."
+        return "Artigo não encontrado."
+    return "Título não reconhecido."
 
 def indexar(codigo, slug, titulo, pilar, teoria, apoio):
     p = CONT / "indice-artigos.md"
@@ -479,7 +522,7 @@ def metricas():
     proc = len(re.findall(r"\| Processado \|$", bl, flags=re.M))
     desc = len(re.findall(r"\| Descartado \|$", bl, flags=re.M))
     dec = tabela(CONT / "decisoes-pauta.md")
-    pautas_pend = sum(1 for _, c in dec if c[-1] == "Pendente")
+    pautas_pend = sum(1 for _, c in dec if c[-1] == "Pendente" or c[-1].startswith("Estrutura pendente"))
     pautas_ok = sum(1 for _, c in dec if c[-1] == "Sim")
     return {"pend": pend, "pend_alta": pend_alta, "pend_baixa": pend_baixa, "proc": proc, "desc": desc, "pautas_pend": pautas_pend, "pautas_ok": pautas_ok}
 
@@ -603,24 +646,25 @@ def html_briefings():
         ap = c[-1]
         if ap.startswith("Sim (Artigo"):
             continue
+        rewq = re.fullmatch(r"Sim \(reescrita Artigo (\d+)\)", ap)
         tese = c[5] if len(c) > 6 else ""
         if tese.lower() == "a definir":
             tese = ""
         pend = ap == "Pendente"
-        rew = re.match(r"Estrutura pendente \(Artigo (\d+)\)", ap)
-        if rew:
+        rew = re.match(r"Estrutura pendente \(Artigo (\d+)\)", ap) or rewq
+        if rew and not rewq:
             pend = True
-        selo = "Aguardando sua aprovação" if pend else ("Aprovado, na fila do Copywriter" if ap == "Sim" else esc(ap))
+        selo = "Aguardando sua aprovação" if pend else ("Aprovado, na fila do Copywriter" if (ap == "Sim" or rewq) else esc(ap))
         if rew:
             titulo_art = next((x[1] for _, x in indice() if x[0] == f"Artigo {rew.group(1)}"), "")
             c = list(c)
             c[1] = f"Artigo {rew.group(1)} (reescrita)"
-            selo = "Aguardando sua aprovação"
+            selo = "Aguardando sua aprovação" if not rewq else "Aprovado, na fila do Copywriter"
         else:
             titulo_art = ""
 
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{botao_aprovar("Aprovar briefing: " + c[1], "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
                      + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
@@ -929,6 +973,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "listar":
         print(json.dumps(listar(), ensure_ascii=False))
+    elif cmd == "aprovar":
+        print(aprovar(sys.argv[2]))
     elif cmd == "lint":
         e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if [x for x in e if not x.startswith("aviso:")] else 0)
     elif cmd == "status":
