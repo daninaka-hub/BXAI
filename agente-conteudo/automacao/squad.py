@@ -552,7 +552,7 @@ def proxima_execucao(agente):
         if n <= agora:
             n += datetime.timedelta(days=7)
         return n.strftime("%d/%m às %H:%M")
-    return "em até 30 minutos (confere se há briefing aprovado)"
+    return "em até 1 minuto (confere se há briefing aprovado)"
 
 def _hora(iso):
     try:
@@ -608,7 +608,7 @@ def html_resumo(linhas):
         links = ", ".join(f'<a href="#artigo-{n}" data-abrir="{n}">Artigo {n}</a>' for n in validar)
         acoes.append(f'<li><b>Validar {len(validar)} artigo(s):</b> {links}. Peça ajustes pelo código no chat.</li>')
     if m["pautas_ok"]:
-        acoes.append(f'<li>{m["pautas_ok"]} briefing(s) aprovado(s) aguardando o Copywriter, que confere a fila a cada 30 minutos.</li>')
+        acoes.append(f'<li>{m["pautas_ok"]} briefing(s) aprovado(s) aguardando o Copywriter, que confere a fila a cada minuto.</li>')
     if ag_rodando:
         acoes.append(f'<li>Em execução agora: {esc(", ".join(ag_rodando))}.</li>')
     if em_producao:

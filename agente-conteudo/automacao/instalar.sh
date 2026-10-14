@@ -18,6 +18,6 @@ for nome in pesquisador head copywriter; do
   launchctl bootstrap "gui/$(id -u)" "$DEST/$P.plist"
   echo "Instalado: $P"
 done
-echo "Pronto. Pesquisador todo dia às 7h, Head de Conteúdo às segundas às 8h, Copywriter a cada 30 minutos (só age quando há briefing aprovado)."
+echo "Pronto. Pesquisador todo dia às 7h, Head de Conteúdo às segundas às 8h, Copywriter a cada minuto (só age quando há briefing aprovado)."
 echo "Para testar agora: launchctl kickstart gui/$(id -u)/com.budgetxpert.bxai.pesquisador"
 echo "Logs em: $HOME/BXAI-logs"
