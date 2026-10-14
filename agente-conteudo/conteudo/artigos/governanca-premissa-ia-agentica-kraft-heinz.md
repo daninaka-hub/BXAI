@@ -77,6 +77,6 @@ Só 11% das empresas que planejam usar agentes nas finanças já os colocaram em
 | Com base em quê? | A premissa por trás do desconto, que o contrato descrevia de outro jeito | O registro guarda a mudança feita e a conversa que a originou. A discussão fica junto do número, na célula |
 | Quem conferiu antes de somar? | Uma conferência da premissa na controladoria, antes da soma | Quem consolida vê o dono e o registro de cada número e sabe a quem perguntar. O gasto de IA de cada usuário fica sob controle, com desligamento do módulo |
 
-Como o registro funciona: [budgetxpert.ai](https://www.budgetxpert.ai).
+Veja em [budgetxpert.ai](https://www.budgetxpert.ai) como cada número guarda quem o lançou, com base em quê e quem o conferiu.
 
 Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme" (2021). The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million" (2023). Journal of Forensic and Investigative Accounting, publicação acadêmica de contabilidade forense, "Kraft Heinz Company and the $15.4 Billion" (2023).
