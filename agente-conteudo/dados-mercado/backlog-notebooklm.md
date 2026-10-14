@@ -120,29 +120,29 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 112 | Effective Demand Planning - Oliver Wight EAME | Alta | Processado |
 | 113 | Effectiveness Of Internal Controls In Preventing Financial Statement Fraud | Alta | Descartado |
 | 114 | Enterprise Performance Management (EPM) - Global Strategic Business Report | Alta | Processado |
-| 115 | Enterprise Performance Management (EPM) Market Size, Trends Report & Share 2031 | Alta | Pendente |
-| 116 | Enterprise Performance Management Market Size, Global Trends, Forecast, 2032 | Alta | Pendente |
-| 117 | Enterprise Performance Management Market Size, Growth Report 2035 - Research Nester | Alta | Pendente |
-| 118 | Enterprise Performance Management Market Size, Share & Growth Report 2035 | Alta | Pendente |
-| 119 | Enterprise Performance Management Market Size, Share [2034] - Fortune Business Insights | Alta | Pendente |
-| 120 | Executing your company's growth strategy Getting it right | Alta | Pendente |
-| 121 | Executive Ecosystem Report: Top Voices, VIP Figures, and Strategic Trends in FP&A, Controllership, and Corporate Planning | Alta | Pendente |
-| 122 | Expect Sweeping Changes to the SEC Next Year: An Insider's Preview Briefing Materials - Gibson Dunn | Alta | Pendente |
+| 115 | Enterprise Performance Management (EPM) Market Size, Trends Report & Share 2031 | Alta | Processado |
+| 116 | Enterprise Performance Management Market Size, Global Trends, Forecast, 2032 | Alta | Descartado |
+| 117 | Enterprise Performance Management Market Size, Growth Report 2035 - Research Nester | Alta | Processado |
+| 118 | Enterprise Performance Management Market Size, Share & Growth Report 2035 | Alta | Processado |
+| 119 | Enterprise Performance Management Market Size, Share [2034] - Fortune Business Insights | Alta | Processado |
+| 120 | Executing your company's growth strategy Getting it right | Alta | Descartado |
+| 121 | Executive Ecosystem Report: Top Voices, VIP Figures, and Strategic Trends in FP&A, Controllership, and Corporate Planning | Alta | Descartado |
+| 122 | Expect Sweeping Changes to the SEC Next Year: An Insider's Preview Briefing Materials - Gibson Dunn | Alta | Descartado |
 | 123 | Exploring the Perceptions of Northern Virginia Accountants on Internal Control Weaknesses Resulting in Accounting Fraud - ProQuest | Alta | Pendente |
-| 124 | Extended Planning and Analysis (xP&A) Defined - NetSuite | Alta | Pendente |
+| 124 | Extended Planning and Analysis (xP&A) Defined - NetSuite | Alta | Processado |
 | 125 | FP&A & Controlling : r/FPandA - Reddit | Baixa | Pendente |
-| 126 | FP&A 2026 Trends - IBM | Alta | Pendente |
-| 127 | FP&A Agent Manager: Governing Agentic AI in Finance - FP&A Trends | Alta | Pendente |
-| 128 | FP&A Board Maturity Model | Alta | Pendente |
-| 129 | FP&A Case Study Library - Association for Financial Professionals (AFP) | Alta | Pendente |
+| 126 | FP&A 2026 Trends - IBM | Alta | Processado |
+| 127 | FP&A Agent Manager: Governing Agentic AI in Finance - FP&A Trends | Alta | Processado |
+| 128 | FP&A Board Maturity Model | Alta | Descartado |
+| 129 | FP&A Case Study Library - Association for Financial Professionals (AFP) | Alta | Descartado |
 | 130 | FP&A Interview Questions - Guide for Financial Planning and Analysis | Baixa | Pendente |
 | 131 | FP&A Today Podcast Guests : r/FPandA - Reddit | Baixa | Pendente |
-| 132 | FP&A as a Digital Transformation Leader: Empowering Tomorrow's Enterprise | Alta | Pendente |
-| 133 | FP&A vs Traditional Budgeting: Key Differences Explained - QX Global Group | Alta | Pendente |
-| 134 | FP&A vs. Controller vs. CFO: Key Roles in Corporate Finance | Alta | Pendente |
-| 135 | FP&A: O Guia Completo para Planejamento e Análise Financeira Estratégica - Kamino | Alta | Pendente |
+| 132 | FP&A as a Digital Transformation Leader: Empowering Tomorrow's Enterprise | Alta | Processado |
+| 133 | FP&A vs Traditional Budgeting: Key Differences Explained - QX Global Group | Alta | Descartado |
+| 134 | FP&A vs. Controller vs. CFO: Key Roles in Corporate Finance | Alta | Descartado |
+| 135 | FP&A: O Guia Completo para Planejamento e Análise Financeira Estratégica - Kamino | Alta | Processado |
 | 136 | Finance and AI Glossary - Pluvo | Baixa | Pendente |
-| 137 | Finance and Accounting Salary Guide 2026 | VALiNTRY | Alta | Pendente |
+| 137 | Finance and Accounting Salary Guide 2026 | VALiNTRY | Alta | Processado |
 | 138 | Financial Close Software Market Size, Share & Trends, 2034 | Alta | Pendente |
 | 139 | Financial Close Software Market Trends and Growth Analysis Report To 2035 | Alta | Pendente |
 | 140 | Financial Planning & Analysis (FP&A) Certificate Program | Baixa | Pendente |

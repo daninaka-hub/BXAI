@@ -153,3 +153,27 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-08 | Leadership Roles | teórico | FP&A Trends | Business Partnering Maturity Model: seis dimensões em três estágios, de provedor de dados a agente de mudança |
 | 2026-10-08 | Organization | pesquisa | The Hackett Group | Benchmark AI World Class: order to cash com custo 52% a 59% menor e pessoal 56% a 64% menor |
 | 2026-10-08 | Organization | teórico | Deloitte | Global process owner: cinco fatores de sucesso e três desenhos de alocação do papel |
+| 2026-10-14 | Finance Automation | estatística | Fortune Business Insights / Mordor / Research Nester / Expert Market Research | Mercado de EPM entre US$ 6,3 bi e 7,7 bi em 2025 a 2026, CAGR de 9% a 10%, com horizontes até 2031, 2034 e 2035 |
+| 2026-10-14 | Finance Automation | conclusão | IBM Think / IBM IBV | Cinco tendências de FP&A para 2026, e 69% dos CFOs veem IA como parte integral da transformação de finanças |
+| 2026-10-14 | Finance Automation | estratégia | FP&A Trends | Roteiro de CFO para FP&A digital: rolling de 12 meses com MAPE abaixo de 10% e anomalias em 2 desvios padrão |
+| 2026-10-14 | Finance Automation | pesquisa | Gartner via CPA Practice Advisor e CFO Dive | 45% do investimento de IA em finanças mira produtividade e 20% decisão, mas valor alto é 17% contra 31% (204 líderes) |
+| 2026-10-14 | Finance Automation | estatística | FloQast (fornecedor) | Conciliação é a maior oportunidade para 55%, só 5% a automatizam bem; nível 5 de IA fecha em 6,7 dias contra 8,7 |
+| 2026-10-14 | Finance Automation | teórico | Dunzer et al. / IEEE Task Force on Process Mining | Process mining: descoberta, conformidade e aprimoramento, log mínimo de três campos e quatro dimensões de qualidade |
+| 2026-10-14 | Controllership | pesquisa | FloQast (fornecedor) | 51% fecham o mês com controles informais ou inconsistentes, e 57% dos fechamentos levam sete dias ou mais |
+| 2026-10-14 | Controllership | pesquisa | AFP | 76% das empresas dos EUA sofreram fraude em pagamentos em 2025, e só 17% usam IA contra ela (465 respondentes) |
+| 2026-10-14 | Controllership | teórico | SEC | SAB 99: materialidade vai além da régua de 5%, com fatores qualitativos e proibição de compensar distorções |
+| 2026-10-14 | Forecasting Methods | pesquisa | American Express via IT Brief | 44% priorizam forecast contra aperto de capital de giro (eram 32%), e cenário cai de 41% para 24% (999 CFOs) |
+| 2026-10-14 | Forecasting Methods | teórico | Hyndman e Athanasopoulos | Intervalos de previsão: multiplicadores por cobertura, alargamento com o horizonte e bootstrap para resíduos não normais |
+| 2026-10-14 | FP&A Fundamentals | estatística | Kamino / Gartner / AFP / McKinsey | Só 13% detectam problemas de desempenho antes do resultado (Gartner), e 78% dos analistas de FP&A focam em tecnologia (AFP) |
+| 2026-10-14 | FP&A Fundamentals | teórico | ACCA | CVP: ponto de equilíbrio em três métodos, margem de segurança e índice de contribuição ponderado para vários produtos |
+| 2026-10-14 | Integrated Planning | estratégia | NetSuite | xP&A segundo o Gartner: previsão de 70% dos novos projetos de FP&A como xP&A até 2024 e roteiro de seis passos |
+| 2026-10-14 | Integrated Planning | pesquisa | The Conference Board | 82% dos CHROs mudaram o planejamento de força de trabalho por IA, só 19% integram isso ao plano financeiro |
+| 2026-10-14 | Integrated Planning | teórico | CIPD / OPM | Planejamento estratégico de força de trabalho em seis estágios, horizonte de 3 a 5 anos e o "custo certo" |
+| 2026-10-14 | Strategic Planning | pesquisa | McKinsey via The Consulting Report | 40% esperam mudar o modelo de negócio em 3 anos, e 32% das pioneiras realocaram 20% ou mais dos recursos (1.205 respondentes) |
+| 2026-10-14 | Strategic Planning | teórico | Google re:Work | OKR: 3 a 5 objetivos, cerca de 3 resultados chave, nota de 0 a 1,0 com ponto ideal entre 0,6 e 0,7 |
+| 2026-10-14 | Leadership Roles | teórico | FP&A Trends | Agent Manager em FP&A: quatro camadas de competência e quatro responsabilidades para governar IA agêntica |
+| 2026-10-14 | Leadership Roles | pesquisa | VALiNTRY | Faixas salariais 2026 nos EUA: diretor de FP&A a US$ 161.750 e CFO a US$ 269.750 no ponto médio, alta de 2,1% |
+| 2026-10-14 | Leadership Roles | pesquisa | Deloitte | 73% dos CFOs de saúde esperam pesar em decisões corporativas, só 49% se sentem preparados (64 líderes) |
+| 2026-10-14 | Leadership Roles | teórico | Russell Reynolds Associates | Sucessão de CFO em sete práticas: início 2 a 3 anos antes, 2 a 3 sucessores internos e ano final de exposição |
+| 2026-10-14 | Organization | estatística | Pave (fornecedor) | Mediana de 130 funcionários por pessoa de FP&A no growth stage e 161 acima de 3.000 (p75 de 332), base de 1.400+ empresas |
+| 2026-10-14 | Organization | teórico | AFP | Modelos de FP&A centralizado, descentralizado e híbrido, com quatro critérios de escolha |
