@@ -1,15 +1,12 @@
 {
  "agente": "head",
- "resultado": "executando",
- "resumo": "Em execução",
- "commit": "",
+ "resultado": "ok",
+ "quando": "2026-10-14T07:24-03:00",
+ "resumo": "Rodada concluída",
+ "commit": "ce93255",
  "inicio": "2026-10-14T07:23-03:00",
- "previsao": "2026-10-14T07:33-03:00",
- "duracoes": [],
- "anterior": {
-  "resultado": "ok",
-  "quando": "2026-10-05T11:06-03:00",
-  "resumo": "2 briefings montados e aprovados por Daniel",
-  "commit": "d44f0cd"
- }
+ "duracao_min": 1,
+ "duracoes": [
+  1
+ ]
 }
