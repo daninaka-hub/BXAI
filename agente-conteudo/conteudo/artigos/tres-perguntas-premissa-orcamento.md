@@ -4,7 +4,7 @@
 
 Em fevereiro de 2021, a Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, passou a comprar casas pelo preço que o seu algoritmo calculava. Até então, esse algoritmo, um programa que estima quanto vale cada imóvel, servia só de referência. Naquele mês, a estimativa virou oferta de compra vinculante: a empresa se obrigava a pagar o valor calculado. Em 2021, a Zillow Offers, divisão que comprava e revendia as casas, perdeu US$ 881 milhões, segundo a Shackleford, consultoria de liderança em IA (inteligência artificial).
 
-O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho. Por isso, para definir corretamente uma premissa são necessárias 3 respostas: quem a definiu, com que critério e quando será revista.
+O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho.
 
 ## O que é uma premissa de orçamento?
 
@@ -24,7 +24,7 @@ O segundo é o uso: o número continua o mesmo, muda o que se faz com ele. Até 
 
 A troca também mudou quem aceitava a oferta. Quando a empresa oferece o preço médio estimado, quem tem um imóvel acima da média prefere vender no mercado aberto, por mais. Quem tem um imóvel com problemas aceita a oferta rápida. A Zillow passou a comprar justamente o que o mercado já estava descontando. Segundo o IdeaProof, site que analisa fracassos de empresas, ela pagou acima do valor de mercado em 65% das casas que comprou até fechar a divisão, em 2021.
 
-O algoritmo fez o que foi treinado para fazer. Se a falha não depende de um erro, o controle da premissa também não pode depender de alguém acertar. Depende de três perguntas respondidas antes.
+O algoritmo fez o que foi treinado para fazer. Se a falha não depende de um erro, o controle da premissa também não pode depender de alguém acertar. Por isso, para definir corretamente uma premissa são necessárias 3 respostas: quem a definiu, com que critério e quando será revista.
 
 ## Pergunta 1: quem definiu esse número?
 

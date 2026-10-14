@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho. Por isso, para definir corretamente uma premissa são necessárias 3 respostas: quem a definiu, com que critério e quando será revista."
+      "content": "O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho."
     },
     {
       "type": "heading",
@@ -93,7 +93,7 @@
     },
     {
       "type": "paragraph",
-      "content": "O algoritmo fez o que foi treinado para fazer. Se a falha não depende de um erro, o controle da premissa também não pode depender de alguém acertar. Depende de três perguntas respondidas antes."
+      "content": "O algoritmo fez o que foi treinado para fazer. Se a falha não depende de um erro, o controle da premissa também não pode depender de alguém acertar. Por isso, para definir corretamente uma premissa são necessárias 3 respostas: quem a definiu, com que critério e quando será revista."
     },
     {
       "type": "heading",

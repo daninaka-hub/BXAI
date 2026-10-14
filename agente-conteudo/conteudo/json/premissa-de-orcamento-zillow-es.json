@@ -51,7 +51,7 @@
     },
     {
       "type": "paragraph",
-      "content": "El cálculo funcionaba como fue diseñado. Lo que falló fue un supuesto presupuestario, la hipótesis sobre el futuro en la que se apoyaba cada compra. Y no falló porque alguien se equivocara en una cuenta. Un supuesto puede ser correcto el día en que se define e incorrecto meses después, sin que nadie haya decidido mal en el camino. Por eso, para definir correctamente una premisa, se necesitan 3 respuestas: quién la definió, con qué criterio y cuándo se revisará."
+      "content": "El cálculo funcionaba como fue diseñado. Lo que falló fue un supuesto presupuestario, la hipótesis sobre el futuro en la que se apoyaba cada compra. Y no falló porque alguien se equivocara en una cuenta. Un supuesto puede ser correcto el día en que se define e incorrecto meses después, sin que nadie haya decidido mal en el camino."
     },
     {
       "type": "heading",
@@ -93,7 +93,7 @@
     },
     {
       "type": "paragraph",
-      "content": "El algoritmo hizo lo que fue entrenado para hacer. Si la falla no depende de un error, controlar el supuesto tampoco puede depender de que alguien acierte. Depende de tres preguntas respondidas antes."
+      "content": "El algoritmo hizo lo que fue entrenado para hacer. Si la falla no depende de un error, controlar el supuesto tampoco puede depender de que alguien acierte. Por eso, para definir correctamente una premisa, se necesitan 3 respuestas: quién la definió, con qué criterio y cuándo se revisará."
     },
     {
       "type": "heading",
