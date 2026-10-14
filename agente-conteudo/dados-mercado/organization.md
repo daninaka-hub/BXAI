@@ -66,3 +66,13 @@ Data de coleta: 2026-10-14
 Fonte: AFP, "How to Select the Right FP&A Organizational Model" (Nilly Essaides, 11/08/2016).
 Link: https://www.financialprofessionals.org/training-resources/resources/articles/Details/how-to-select-the-right-fp-a-organizational-model
 Data de coleta: 2026-10-14
+
+The CFO Agenda 2026, do Oliver Wyman Forum com a NYSE, publicada em 28/04/2026, ouviu 494 CFOs entre 12 de janeiro e 13 de março de 2026. Em três anos, 47% esperam centralizar mais a função financeira e 47% planejam ampliar o uso de serviços compartilhados, centros globais de capacidade (GCCs) ou prestadores externos. A centralização sobe para 59% nas grandes empresas e 57% nas megaempresas, enquanto 31% das pequenas pretendem alocar pessoas de finanças nas unidades de negócio, contra 10% das grandes. Sobre quadro, 61% esperam variação abaixo de 10%, em geral estável, 30% esperam queda acima de 10% e 9% alta acima de 10%. No mix de cargos, 64% esperam reduzir o peso dos cargos júnior (41% migrando para nível médio e 23% para sênior), e 70% vão intensificar sucessão e desenvolvimento de liderança. Ressalvas: publicação de abril, fora da janela dos últimos três meses; o relatório traz medidas diferentes de IA em escala que não batem entre si, por isso não foram registradas aqui.
+Fonte: Oliver Wyman Forum e NYSE, "The CFO Agenda 2026" (28/04/2026).
+Link: https://www.oliverwymanforum.com/agenda-cfo/playbook-cfo-strategy-growth-cost-ai.html
+Data de coleta: 2026-10-14
+
+[Teórico] A SSON define o Finance Center of Excellence (FCoE) como um núcleo, físico ou virtual, que concentra expertise, tecnologia e boas práticas de finanças e se reporta ao CFO ou à diretoria. O FCoE atua em cinco frentes: otimização de processos como orçamento, forecast, reporte e compliance; padronização entre unidades; decisão baseada em dados; tecnologia, como ERP, IA e plataformas de FP&A; e desenvolvimento de talentos. Ele não substitui os times locais: trabalha ao lado de serviços compartilhados, contabilidade e business finance, oferecendo modelos, ferramentas, treinamento e supervisão. A implantação segue quatro fases: diagnóstico com patrocínio do CFO; desenho e governança, com escolha entre modelo centralizado, virtual ou híbrido; piloto e escala, por exemplo com templates de orçamento ou automação de conciliação; e talento e cultura. Ressalvas: os exemplos de GE, Johnson & Johnson e Microsoft são qualitativos e o artigo não propõe KPIs para medir o FCoE.
+Fonte: SSON (Shared Services & Outsourcing Network), "How does a Finance Center of Excellence Work?" (Stephanie Dentino, 2025).
+Link: https://www.ssonetwork.com/finance-accounting/columns/how-does-a-finance-center-of-excellence-work
+Data de coleta: 2026-10-14

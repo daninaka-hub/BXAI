@@ -102,7 +102,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 94 | Controller of the Year Awards - Winners Announced - Controllers Council | Baixa | Pendente |
 | 95 | Controller vs. FP&A: Understanding the Key Differences - Accounting.bi | Alta | Processado |
 | 96 | Controllership 2030: Study and Predictions Panel (Preview) | Alta | Processado |
-| 97 | Controlling 2025 - Exploring the future of controlling - dillerup.net | Alta | Pendente |
+| 97 | Controlling 2025 - Exploring the future of controlling - dillerup.net | Alta | Descartado |
 | 98 | Convergence of Enterprise Finance: Modernizing FP&A, Controllership, and Integrated Business Planning | Alta | Descartado |
 | 99 | Corporate Budgeting: Move on from traditional budgeting - Jedox | Alta | Descartado |
 | 100 | Corporate finance vs. FP&A: Understanding the differences - Workday | Alta | Processado |
@@ -128,7 +128,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 120 | Executing your company's growth strategy Getting it right | Alta | Descartado |
 | 121 | Executive Ecosystem Report: Top Voices, VIP Figures, and Strategic Trends in FP&A, Controllership, and Corporate Planning | Alta | Descartado |
 | 122 | Expect Sweeping Changes to the SEC Next Year: An Insider's Preview Briefing Materials - Gibson Dunn | Alta | Descartado |
-| 123 | Exploring the Perceptions of Northern Virginia Accountants on Internal Control Weaknesses Resulting in Accounting Fraud - ProQuest | Alta | Pendente |
+| 123 | Exploring the Perceptions of Northern Virginia Accountants on Internal Control Weaknesses Resulting in Accounting Fraud - ProQuest | Alta | Descartado |
 | 124 | Extended Planning and Analysis (xP&A) Defined - NetSuite | Alta | Processado |
 | 125 | FP&A & Controlling : r/FPandA - Reddit | Baixa | Pendente |
 | 126 | FP&A 2026 Trends - IBM | Alta | Processado |
@@ -143,27 +143,27 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 135 | FP&A: O Guia Completo para Planejamento e Análise Financeira Estratégica - Kamino | Alta | Processado |
 | 136 | Finance and AI Glossary - Pluvo | Baixa | Pendente |
 | 137 | Finance and Accounting Salary Guide 2026 | VALiNTRY | Alta | Processado |
-| 138 | Financial Close Software Market Size, Share & Trends, 2034 | Alta | Pendente |
-| 139 | Financial Close Software Market Trends and Growth Analysis Report To 2035 | Alta | Pendente |
+| 138 | Financial Close Software Market Size, Share & Trends, 2034 | Alta | Processado |
+| 139 | Financial Close Software Market Trends and Growth Analysis Report To 2035 | Alta | Descartado |
 | 140 | Financial Planning & Analysis (FP&A) Certificate Program | Baixa | Pendente |
-| 141 | Financial Planning & Analysis Manager Salary (Updated for 2026) | Robert Half | Alta | Pendente |
-| 142 | Financial Planning and Analysis (FP&A) and Enterprise Performance Management (EPM) | Alta | Pendente |
-| 143 | Financial Planning and Analysis: Why it Occupies Centre Stage - FP&A Trends | Alta | Pendente |
-| 144 | Financial Services AI Risk Management Framework - Cyber Risk Institute | Alta | Pendente |
-| 145 | Five Common FP&A Problems and How to Solve Them | Alta | Pendente |
-| 146 | Five ways to connect and improve planning across your enterprise - Oracle | Alta | Pendente |
-| 147 | FloQast vs. Trintech | Alta | Pendente |
-| 148 | Food and Finance Focused: CFO Kevin Benmoussa | Alta | Pendente |
+| 141 | Financial Planning & Analysis Manager Salary (Updated for 2026) | Robert Half | Alta | Processado |
+| 142 | Financial Planning and Analysis (FP&A) and Enterprise Performance Management (EPM) | Alta | Descartado |
+| 143 | Financial Planning and Analysis: Why it Occupies Centre Stage - FP&A Trends | Alta | Processado |
+| 144 | Financial Services AI Risk Management Framework - Cyber Risk Institute | Alta | Processado |
+| 145 | Five Common FP&A Problems and How to Solve Them | Alta | Descartado |
+| 146 | Five ways to connect and improve planning across your enterprise - Oracle | Alta | Descartado |
+| 147 | FloQast vs. Trintech | Alta | Processado |
+| 148 | Food and Finance Focused: CFO Kevin Benmoussa | Alta | Descartado |
 | 149 | Free IMA CMA Part 1 Formula Sheet PDF, No Signup (2026) - FreeFellow | Baixa | Pendente |
-| 150 | From AI pilots to governed intelligence for agentic banking | EY - Denmark | Alta | Pendente |
-| 151 | Future of Controllership 2026: AI & Transformation | Deloitte US | Alta | Pendente |
-| 152 | Gartner Magic Quadrant For Financial Planning - Get Your Free Copy - OneStream | Alta | Pendente |
-| 153 | Gartner survey shows finance AI adoption remains steady in 2025 - Global CIO Forum | Alta | Pendente |
-| 154 | General Responsibilities of the Auditor in Conducting an Audit and Amendments to PCAOB Standards | Alta | Pendente |
-| 155 | Global FP&A, Controllership, and Financial Planning Market Report: Market Dynamics, Technology Landscape, Performance Benchmarks, and Compensation Trends | Alta | Pendente |
-| 156 | Global sustainability reporting survey: US takeaways - PwC | Alta | Pendente |
+| 150 | From AI pilots to governed intelligence for agentic banking | EY - Denmark | Alta | Processado |
+| 151 | Future of Controllership 2026: AI & Transformation | Deloitte US | Alta | Processado |
+| 152 | Gartner Magic Quadrant For Financial Planning - Get Your Free Copy - OneStream | Alta | Descartado |
+| 153 | Gartner survey shows finance AI adoption remains steady in 2025 - Global CIO Forum | Alta | Processado |
+| 154 | General Responsibilities of the Auditor in Conducting an Audit and Amendments to PCAOB Standards | Alta | Descartado |
+| 155 | Global FP&A, Controllership, and Financial Planning Market Report: Market Dynamics, Technology Landscape, Performance Benchmarks, and Compensation Trends | Alta | Descartado |
+| 156 | Global sustainability reporting survey: US takeaways - PwC | Alta | Processado |
 | 157 | Glossary: Planning, Controlling and FP&A - Valsight | Baixa | Pendente |
-| 158 | Guide to Driver-Based Modeling | BPM Partners | Alta | Pendente |
+| 158 | Guide to Driver-Based Modeling | BPM Partners | Alta | Descartado |
 | 159 | Here's how budgets can keep up with accelerating uncertainty - McKinsey | Alta | Pendente |
 | 160 | How AI Is Transforming FP&A - EY | Alta | Pendente |
 | 161 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC | Alta | Pendente |

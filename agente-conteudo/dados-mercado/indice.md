@@ -177,3 +177,26 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-14 | Leadership Roles | teórico | Russell Reynolds Associates | Sucessão de CFO em sete práticas: início 2 a 3 anos antes, 2 a 3 sucessores internos e ano final de exposição |
 | 2026-10-14 | Organization | estatística | Pave (fornecedor) | Mediana de 130 funcionários por pessoa de FP&A no growth stage e 161 acima de 3.000 (p75 de 332), base de 1.400+ empresas |
 | 2026-10-14 | Organization | teórico | AFP | Modelos de FP&A centralizado, descentralizado e híbrido, com quatro critérios de escolha |
+| 2026-10-14 | Finance Automation | estatística | Custom Market Insights | Software de fechamento financeiro: US$ 8,8 bi em 2025 e US$ 18,5 bi em 2034, CAGR de 8,1% (números não fecham entre si) |
+| 2026-10-14 | Finance Automation | estatística | FloQast (fornecedor) / G2 | G2 outono 2025: FloQast com nota 87 contra 61 da Trintech, e implantação em 1,7 mês contra 3,3 |
+| 2026-10-14 | Finance Automation | estratégia | EY Dinamarca | 52% dos bancos pilotaram IA agêntica e só 16% implantaram; escada de autonomia em cinco níveis |
+| 2026-10-14 | Finance Automation | pesquisa | Ardent Partners via Basware | Fatura custa US$ 2,67 no Best-in-Class contra US$ 12,50, aprovação em 4,1 contra 15,4 dias (cerca de 200 líderes) |
+| 2026-10-14 | Finance Automation | teórico | Oracle Payables | Matching de 2, 3 e 4 vias entre pedido, recebimento e inspeção, com tolerâncias e bloqueios |
+| 2026-10-14 | Leadership Roles | estatística | Robert Half | Salary Guide 2027: FP&A Manager com ponto médio de US$ 143.000, Director US$ 173.000 e VP US$ 213.250 |
+| 2026-10-14 | Leadership Roles | conclusão | Gartner | 74% dos CFOs se veem no nível intermediário ou abaixo em IA; a saída é delegar com régua clara de decisão |
+| 2026-10-14 | Leadership Roles | teórico | Bain & Company | RAPID: cinco papéis de decisão, um único decisor e uso parcimonioso do Agree |
+| 2026-10-14 | FP&A Fundamentals | teórico | FP&A Trends | FP&A corporativo contra FP&A de negócio, perfil analítico, comunicador e parceiro, e regra 20/80 de drivers |
+| 2026-10-14 | FP&A Fundamentals | pesquisa | FP&A Trends via OneStream | 47% do tempo em tarefa de baixo valor e confiança além de 6 meses cai de 39% para 29% (475 respondentes) |
+| 2026-10-14 | FP&A Fundamentals | teórico | LibreTexts | Orçamento flexível: fixo mais variável unitário vezes volume real, separando volume de eficiência (caso Leed) |
+| 2026-10-14 | Controllership | conclusão | Deloitte Center for Controllership | 63% dizem ter IA implantada em finanças, mas só 21% veem valor claro e mensurável |
+| 2026-10-14 | Controllership | estratégia | Cyber Risk Institute | FS AI RMF: 230 objetivos de controle por estágio de adoção de IA, alinhado ao NIST AI RMF |
+| 2026-10-14 | Controllership | pesquisa | PwC via ESG Today | Reporte de sustentabilidade: 66% elevaram recursos, uso de IA sobe de 11% para 28% (quase 500 executivos) |
+| 2026-10-14 | Controllership | pesquisa | ACFE via Whispli | Report to the Nations 2026: mediana de US$ 104 mil, 12 meses até detectar e 43% por denúncia (2.402 casos) |
+| 2026-10-14 | Controllership | teórico | ACFE / EBSCO | Triângulo da fraude de Cressey: pressão, oportunidade e racionalização, e a crítica do caso Coughlin |
+| 2026-10-14 | Forecasting Methods | pesquisa | Protiviti | IA em previsão financeira sobe de 58% para 76% em um ano, mas só 35% medem bem o retorno |
+| 2026-10-14 | Forecasting Methods | teórico | Flyvbjerg / Wikipedia | Reference class forecasting em três passos, e o caso Edinburgh Tram: P80 de £ 400 mi contra custo final de £ 776 mi |
+| 2026-10-14 | Integrated Planning | teórico | AFP | IBP em quatro elementos, diferença para S&OP e FP&A como líder natural do processo |
+| 2026-10-14 | Strategic Planning | pesquisa | The CFO Survey (Duke / Fed Richmond / Fed Atlanta) | 3T26: receita esperada de 7,7% em 2026 e planos de equipamento 8 p.p. menores que no 1T (517 CFOs) |
+| 2026-10-14 | Strategic Planning | teórico | Open University | Oxford Scenario Planning: cenários não são previsões, TUNA no lugar de VUCA e esforço do plano para o contexto |
+| 2026-10-14 | Organization | pesquisa | Oliver Wyman Forum / NYSE | 47% vão centralizar finanças e 64% reduzir o peso de cargos júnior em três anos (494 CFOs) |
+| 2026-10-14 | Organization | teórico | SSON | Finance CoE: cinco frentes, quatro fases de implantação e papel de apoio aos times locais |

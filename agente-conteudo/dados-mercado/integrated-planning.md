@@ -96,3 +96,8 @@ Data de coleta: 2026-10-14
 Fonte: CIPD, "Guidance: workforce planning" (04/05/2023); FedManager, "OPM Releases New Workforce Planning Guide".
 Link: https://www.cipd.org/en/about/news/guidance-workforce-planning/ e https://fedmanager.com/news/opm-releases-new-workforce-planning-guide
 Data de coleta: 2026-10-14
+
+[Teórico] A AFP define Integrated Business Planning (IBP) como um planejamento de toda a empresa que conecta estratégia, operações e finanças num único processo coordenado, com o objetivo de gerir o negócio e não só acompanhar resultado. O verbete apoia o IBP em quatro elementos: pessoas, com times multifuncionais; processo, com ciclo contínuo e repetível; tecnologia; e dados, com definições e premissas comuns. A diferença para o S&OP é de escopo: o S&OP alinha demanda e oferta no curto prazo e é típico de manufatura e varejo, enquanto o IBP parte dele e se estende a resultado financeiro, objetivos estratégicos e trade-offs da empresa inteira. A AFP coloca o FP&A, que reporta ao CFO, como líder natural do IBP, por ser dono de premissas, modelos e cenários e mediador dos trade-offs entre áreas. As boas práticas citadas são sincronizar os calendários financeiro e operacional, usar previsão contínua e cenários estruturados. Os desafios típicos são dados em silos, premissas inconsistentes entre áreas e tecnologia implantada sem redesenho de processo. Ressalva: verbete sem autor nem data e sem números próprios.
+Fonte: AFP (Association for Financial Professionals), verbete "Integrated Business Planning" (sem data).
+Link: https://www.financialprofessionals.org/glossary/integrated-business-planning
+Data de coleta: 2026-10-14
