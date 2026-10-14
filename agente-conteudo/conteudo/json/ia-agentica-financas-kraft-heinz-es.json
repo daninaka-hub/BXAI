@@ -30,7 +30,7 @@
     "control de gestión"
   ],
   "templateType": "guide",
-  "readingTime": "8 min",
+  "readingTime": "9 min",
   "featured": false,
   "content": [
     {
@@ -203,7 +203,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Antes de sumarse al 11% que ya puso agentes en producción, conviene preguntar si tu proceso de hoy aguantaría un agente consolidando cifras solo. En Kraft Heinz, las tres preguntas de gobernanza quedaron sin respuesta. En BudgetXpert, cada una tendría una respuesta registrada."
+      "content": "Antes de sumarse al 11% que ya puso agentes en producción, conviene preguntar si tu proceso de hoy aguantaría un agente consolidando cifras solo. En Kraft Heinz, las tres preguntas de gobernanza quedaron sin respuesta. En BudgetXpert, cada una tendría una respuesta registrada. Con BudgetXpert, Kraft Heinz habría visto el origen de cada cifra antes de sumarla, porque cada premisa tiene un dueño, solo quien tiene permiso cambia el valor y la discusión queda junto a la cifra, en la celda."
     },
     {
       "type": "table",

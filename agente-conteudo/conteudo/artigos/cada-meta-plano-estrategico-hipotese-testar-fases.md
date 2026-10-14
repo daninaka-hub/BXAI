@@ -58,7 +58,7 @@ Quase todo plano parte de quanto vamos crescer. O que faltou à Target foi saber
 
 ## Como a BudgetXpert faria diferente
 
-Num plano em fases, cada hipótese precisa de alguém que a confira na data marcada. Na BudgetXpert, o plano não tem estrutura fixa.
+Num plano em fases, cada hipótese precisa de alguém que a confira na data marcada. Na BudgetXpert, o plano não tem estrutura fixa. Com a BudgetXpert, a Target teria sabido qual hipótese falhou, pois cada hipótese vira uma premissa com dono, o valor muda mês a mês conforme a fase e cada área edita só a parte dela.
 
 | Pergunta | O que faltou | O que a BudgetXpert faz |
 |---|---|---|

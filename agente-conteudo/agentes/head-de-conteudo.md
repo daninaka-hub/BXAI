@@ -17,7 +17,7 @@ O briefing traz:
   - Abertura: o caso pequeno, a pergunta ou o dado que prende o leitor e leva à tese.
   - Passos de 3 a 5, um por seção do artigo. Cada passo diz a função dele no raciocínio (definir, mostrar o incentivo, provar pelo custo, comparar, dar o dado que contraria a intuição, transformar em método), o que o texto afirma e qual caso, dado ou fonte o sustenta. Cada passo responde a uma pergunta e leva ao próximo.
   - Fechamento: a mudança de ponto de vista que a tese produz, em uma frase.
-  - Como a BudgetXpert faria diferente: a linha de argumentação escolhida e como as perguntas do artigo viram a tabela.
+  - Como a BudgetXpert faria diferente: a linha de argumentação escolhida e como as perguntas do artigo viram a tabela. A abertura da seção termina com a conclusão "Com a BudgetXpert, <o caso> teria <o que mudaria>, pois <as razões>", antes da tabela.
   - Fora da estrutura: dado, caso ou parágrafo verdadeiro que não serve a nenhum passo. Fica de fora, ou o Head muda a estrutura para incluí-lo, nunca entra solto.
   Os passos viram seções do artigo com título em afirmação. Pergunta no artigo só as que a estrutura anuncia, no máximo 3, e o fechamento é em afirmação (ver "Perguntas no artigo" em agentes/copywriter.md).
   Antes de publicar os briefings, rodar `python3 agente-conteudo/automacao/squad.py lint-briefings`. Ele confere travessão, vírgula antes de "e", 3 a 5 passos com função, abertura, fechamento, "Como a BudgetXpert faria diferente", "Fora da estrutura" e fonte concorrente. O briefing que não passa não pode ser aprovado. A conferência de linguagem de uso comum e de promessa "Entrega hoje" continua manual.

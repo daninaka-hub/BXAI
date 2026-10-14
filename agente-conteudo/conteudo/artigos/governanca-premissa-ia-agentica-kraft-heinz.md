@@ -69,7 +69,7 @@ Quando cada número tem dono e registro, o erro aparece na origem, na mesa de qu
 
 ## Como a BudgetXpert faria diferente
 
-Só 11% das empresas que planejam usar agentes nas finanças já os colocaram em produção. Antes de entrar nessa conta, cabe perguntar se o processo de hoje aguentaria um agente consolidando números sozinho. Na Kraft Heinz, as três perguntas de governança ficaram sem resposta. Na BudgetXpert, cada uma teria uma resposta registrada.
+Só 11% das empresas que planejam usar agentes nas finanças já os colocaram em produção. Antes de entrar nessa conta, cabe perguntar se o processo de hoje aguentaria um agente consolidando números sozinho. Na Kraft Heinz, as três perguntas de governança ficaram sem resposta. Na BudgetXpert, cada uma teria uma resposta registrada. Com a BudgetXpert, a Kraft Heinz teria visto a origem de cada número antes de somar, pois cada premissa tem dono, só quem tem permissão altera o valor e a discussão fica junto do número, na célula.
 
 | Pergunta de governança | O que faltou na Kraft Heinz | O que a BudgetXpert faz |
 |---|---|---|

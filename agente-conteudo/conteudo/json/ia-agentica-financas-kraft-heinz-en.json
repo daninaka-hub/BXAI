@@ -203,7 +203,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Only 11% of companies that plan to use agents in finance have put them into production. Before joining that count, it is worth asking whether today's process could handle an agent consolidating numbers on its own. At Kraft Heinz, the three governance questions went unanswered. On BudgetXpert, each one would have a recorded answer."
+      "content": "Only 11% of companies that plan to use agents in finance have put them into production. Before joining that count, it is worth asking whether today's process could handle an agent consolidating numbers on its own. At Kraft Heinz, the three governance questions went unanswered. On BudgetXpert, each one would have a recorded answer. With BudgetXpert, Kraft Heinz would have seen the origin of each number before adding it up, because every assumption has an owner, only people with permission change the value and the discussion stays next to the number, in the cell."
     },
     {
       "type": "table",

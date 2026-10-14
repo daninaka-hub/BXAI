@@ -64,7 +64,7 @@ Orçamento e forecast não competem. Eles se protegem quando ficam separados: o 
 
 ## Como a BudgetXpert faria diferente
 
-Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano.
+Medir o erro exige que a previsão de cada mês continue existindo quando o mês fecha. Na BudgetXpert, orçamento e forecast convivem como versões do mesmo plano. Com a BudgetXpert, o erro do forecast poderia ser medido todo mês, pois a versão anterior continua guardada, só uma versão leva a marca de oficial e o forecast novo puxa o resultado do anterior sem copiar célula.
 
 | Pergunta | O que faltou | O que a BudgetXpert faz |
 |---|---|---|

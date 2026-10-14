@@ -220,6 +220,16 @@ def _lint_perguntas(texto, nome):
             erros.append(f"{nome}: o fechamento (seção antes da BudgetXpert) tem pergunta, escrever em afirmação")
     return erros
 
+def _lint_conclusao_bx(texto, nome, lg):
+    """Regra de 14/10: o parágrafo antes da tabela de 'Como a BudgetXpert faria diferente' fecha com a conclusão 'Com a BudgetXpert, ... teria ..., pois ...'."""
+    m = re.search(r"(?m)^## [^\n]*budgetxpert[^\n]*\n(.*?)\n\n\|", texto, flags=re.I | re.S)
+    if not m:
+        return []
+    marca = {"pt": r"\bpois\b", "en": r"\bbecause\b", "es": r"\bporque\b|\bpues\b"}[lg]
+    if not re.search(marca, m.group(1), flags=re.I):
+        return [f"{nome}: falta a conclusão antes da tabela da BudgetXpert (Com a BudgetXpert, ... teria ..., pois ...)"]
+    return []
+
 def _lint_estrutura_bx(texto, nome):
     """Padrão de 06/10: o artigo termina com a seção 'Como a BudgetXpert faria diferente', com tabela e a linha do link. Não há parágrafo de fechamento depois da tabela."""
     secoes = re.split(r"(?m)^(?=## )", texto)
@@ -325,11 +335,13 @@ def lint(slug):
     if art.exists():
         erros += _lint_estrutura_bx(art.read_text(encoding="utf-8"), "artigo")
         erros += _lint_perguntas(art.read_text(encoding="utf-8"), "artigo")
+        erros += _lint_conclusao_bx(art.read_text(encoding="utf-8"), "artigo", "pt")
     if (IDIOMAS / f"{slug}.json").exists():
         _d2 = ler_idiomas(slug)
         for lg in ("en", "es"):
             erros += _lint_estrutura_bx(str(_d2.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo")
             erros += _lint_perguntas(str(_d2.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo")
+            erros += _lint_conclusao_bx(str(_d2.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo", lg)
     if art.exists():
         erros += _lint_link_site(art.read_text(encoding="utf-8"), "artigo", True)
     if post.exists():

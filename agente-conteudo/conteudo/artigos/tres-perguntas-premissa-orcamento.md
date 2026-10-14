@@ -68,7 +68,7 @@ O que protege a empresa é outra coisa: alguém perceber quando a premissa deixa
 
 ## Como a BudgetXpert faria diferente
 
-Na Zillow, as três respostas precisariam de um lugar fixo, junto do número que cada uma explica. Na BudgetXpert, esse lugar é a própria premissa.
+Na Zillow, as três respostas precisariam de um lugar fixo, junto do número que cada uma explica. Na BudgetXpert, esse lugar é a própria premissa. Com a BudgetXpert, a Zillow teria percebido a tempo que a premissa envelhecia, pois cada premissa tem dono, a razão fica registrada na célula e o ciclo do orçamento cai de 5 para 2 meses.
 
 | Pergunta | O que faltou na Zillow | O que a BudgetXpert faz |
 |---|---|---|
