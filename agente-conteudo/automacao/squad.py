@@ -599,7 +599,7 @@ def html_resumo(linhas):
         return f'<div class="rs-tile {classe}"><div class="rs-n">{n}</div><div class="rs-l">{rotulo}</div></div>'
     tiles = (tile("Briefings para aprovar", m["pautas_pend"], "rs-alerta" if m["pautas_pend"] else "rs-ok")
              + tile("Artigos para validar", len(validar), "rs-alerta" if validar else "rs-ok")
-             + tile("Em produção", len(em_producao) + len(ag_rodando), "rs-info" if (em_producao or ag_rodando) else "rs-ok")
+             + tile("Artigos em produção", len(em_producao), "rs-info" if em_producao else "rs-ok")
              + tile("Falhas", n_falhas, "rs-erro" if n_falhas else "rs-ok"))
     acoes = []
     if m["pautas_pend"]:
