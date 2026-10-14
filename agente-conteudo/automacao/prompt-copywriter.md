@@ -14,6 +14,7 @@ Briefing aprovado por Daniel:
 - Pilar: {PILAR}
 - Teoria base: {TEORIA}
 - Tese a defender: {TESE}
+- Estrutura de raciocínio aprovada (escreva o artigo seguindo exatamente estes passos, na ordem, e não inclua nada que não esteja nela): {ESTRUTURA}
 - Apoio: {APOIO}
 
 Ao final, responda só a palavra PRONTO e o título do artigo.

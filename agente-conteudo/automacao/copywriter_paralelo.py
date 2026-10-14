@@ -71,7 +71,7 @@ def preparar(b):
 
 def produzir(b, wt):
     prompt = (AUTO / "prompt-copywriter.md").read_text(encoding="utf-8")
-    for k, v in {"{SLUG}": b["slug"], "{CODIGO}": str(b["codigo"]), "{PILAR}": b["pilar"], "{TEORIA}": b["teoria"], "{APOIO}": b["apoio"], "{TESE}": b["tese"] or "não definida no briefing, formule uma tese em uma frase a partir da teoria base e do apoio, e use-a como fio do artigo"}.items():
+    for k, v in {"{SLUG}": b["slug"], "{CODIGO}": str(b["codigo"]), "{PILAR}": b["pilar"], "{TEORIA}": b["teoria"], "{APOIO}": b["apoio"], "{ESTRUTURA}": b["estrutura"] or "não definida no briefing, monte a estrutura de raciocínio antes de escrever e registre-a no topo do arquivo de rascunho", "{TESE}": b["tese"] or "não definida no briefing, formule uma tese em uma frase a partir da teoria base e do apoio, e use-a como fio do artigo"}.items():
         prompt = prompt.replace(k, v)
     claude(prompt, wt)
     return wt

@@ -47,7 +47,7 @@ def listar():
     n = proximo_codigo()
     briefs = []
     for i, (ln, c) in enumerate(sel):
-        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "tese": (c[5] if len(c) > 6 and c[5].lower() != "a definir" else ""), "linha": ln})
+        briefs.append({"codigo": n + i, "slug": slugify(c[3]), "pilar": c[2], "teoria": c[3], "apoio": c[4], "tese": (c[5] if len(c) > 6 and c[5].lower() != "a definir" else ""), "estrutura": (c[6] if len(c) > 7 and c[6].lower() != "a definir" else ""), "linha": ln})
     return briefs
 
 def marcar(linha, texto):
@@ -605,7 +605,9 @@ def html_briefings():
         classe = "bf-pend" if pend else "bf-ok"
         itens.append(f'<div class="brief"><div class="brief-top"><span class="code">Briefing {esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span></div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
-                     + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div></div>')
+                     + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
+                     + (f'<div class="bf-linha"><b>Estrutura de raciocínio:</b><ol class="bf-est">' + "".join(f"<li>{esc(x.strip())}</li>" for x in c[6].split(" / ")) + '</ol></div>' if len(c) > 7 and c[6].lower() not in ("a definir", "anterior à regra") else "")
+                     + '</div>')
     corpo = "".join(itens) or '<div class="brief bf-vazio">Nenhum briefing aguardando. O Head monta 2 por semana, às segundas.</div>'
     return '<div class="section-label">Briefings para aprovar</div>' + corpo
 
@@ -702,7 +704,7 @@ details[open] .chev{transform:rotate(90deg);}
 .bf-tese{font-size:15px;font-weight:bold;line-height:1.4;margin-bottom:8px;color:var(--fg);}
 .bf-sem{color:var(--muted);font-weight:normal;font-style:italic;}
 .bf-linha{font-size:13px;line-height:1.5;color:var(--muted);margin-top:4px;}
-.bf-vazio{color:var(--muted);font-size:14px;}
+.bf-est{margin:6px 0 0;padding-left:20px;font-size:13px;line-height:1.5;color:var(--fg);}.bf-est li{margin-bottom:5px;}.bf-vazio{color:var(--muted);font-size:14px;}
 .indice{list-style:none;margin:0 0 28px;padding:0;background:var(--card);border:1px solid var(--border);border-radius:10px;}
 .indice li{display:flex;gap:12px;align-items:flex-start;padding:12px 16px;border-bottom:1px solid var(--border);}
 .indice li:last-child{border-bottom:0;}
