@@ -17,7 +17,7 @@ O briefing traz:
   - Abertura: o caso pequeno, a pergunta ou o dado que prende o leitor e leva à tese.
   - Passos de 3 a 5, um por seção do artigo. Cada passo diz a função dele no raciocínio (definir, mostrar o incentivo, provar pelo custo, comparar, dar o dado que contraria a intuição, transformar em método), o que o texto afirma e qual caso, dado ou fonte o sustenta. Cada passo responde a uma pergunta e leva ao próximo.
   - Fechamento: a mudança de ponto de vista que a tese produz, em uma frase.
-  - Seção BudgetXpert: a linha de argumentação escolhida e como as perguntas do artigo viram a tabela.
+  - Como a BudgetXpert faria diferente: a linha de argumentação escolhida e como as perguntas do artigo viram a tabela.
   - Fora da estrutura: dado, caso ou parágrafo verdadeiro que não serve a nenhum passo. Fica de fora, ou o Head muda a estrutura para incluí-lo, nunca entra solto.
   O estilo segue agentes/guia-estilo-autores.md (Graham, Porter, Levitt e Dubner): cada passo indica qual autor guia o movimento. Teste de cada passo: se o passo for retirado, a tese perde uma prova? Se não perde, o passo sai.
 - Título provisório e pilar de origem.
