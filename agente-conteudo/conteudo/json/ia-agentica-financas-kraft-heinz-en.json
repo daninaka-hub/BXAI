@@ -1,20 +1,20 @@
 {
   "seo": {
     "title": "Agentic AI in Finance: What Kraft Heinz Teaches",
-    "description": "Kraft Heinz booked $208 million in improper savings. See what it reveals about agentic AI in finance and what to fix before you automate.",
+    "description": "$208 million in improper savings went through Kraft Heinz's controllership. See what the case says about agentic AI in finance.",
     "keywords": [
       "agentic AI",
       "process governance",
-      "budget consolidation",
+      "agentic AI in finance",
+      "consolidation",
       "controllership",
-      "accounting fraud",
-      "AI agents"
+      "assumption"
     ]
   },
   "id": "17",
   "slug": "agentic-ai-finance-kraft-heinz",
   "title": "What does Kraft Heinz's $208 million fraud say about agentic AI in finance?",
-  "excerpt": "Kraft Heinz booked $208 million in improper savings and nobody checked where they came from. Before automating finance with agentic AI, see what needs an owner.",
+  "excerpt": "At Kraft Heinz, misleading contracts became $208 million in improper savings and the process never showed their origin. What that says about agentic AI in finance.",
   "coverImage": "/blog-media/ia-agentica-financas-kraft-heinz-capa.webp",
   "date": "2026-10-06",
   "author": {
@@ -25,37 +25,41 @@
   "tags": [
     "agentic AI",
     "process governance",
-    "budget consolidation",
-    "controllership",
-    "accounting fraud"
+    "agentic AI in finance",
+    "consolidation",
+    "controllership"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Kraft Heinz: why agentic AI only works with process governance"
+      "content": "Kraft Heinz: process governance and the risk of agentic AI in finance"
     },
     {
       "type": "paragraph",
-      "content": "In 2017, Kraft Heinz, an American multinational food company (kraftheinzcompany.com), needed its EBITDA to grow 6.1% for its teams to receive bonuses. EBITDA is operating profit before interest, taxes and depreciation. The company delivered 3%, less than half the target."
+      "content": "In 2017, Kraft Heinz, an American multinational food company (kraftheinzcompany.com), needed its EBITDA, operating profit before interest, taxes, depreciation and amortization, to grow 6.1% for its teams to receive bonuses. The company delivered 3%, less than half the target."
     },
     {
       "type": "callout",
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "Who benefited from Kraft Heinz's improper savings, why the number reaches consolidation with no origin, what process governance is and why only 11% of companies have put agentic AI into production."
+      "content": "Who benefited from Kraft Heinz's improper savings, why a number reaches consolidation with no origin, what process governance is, why only 11% of companies have put agentic AI into production and where the error shows up first."
     },
     {
       "type": "paragraph",
-      "content": "Under pressure from the chief operating officer for savings the budget did not support, procurement (the purchasing department) structured supplier contracts so that savings that did not yet exist could be booked. The head of procurement approved the contracts. Controllership, the function that closes the company's numbers, added up what it received. Later, the restatement corrected $208 million in improper savings, from 295 transactions between 2015 and 2018. The fraud was deliberate. What let it through was a process governance failure: in consolidation, nothing recorded where each number came from."
+      "content": "Under pressure from the chief operating officer for savings the budget did not support, the procurement team built misleading supplier contracts to book as savings discounts that did not yet exist. The head of procurement approved the contracts. Controllership, the function that closes the company's numbers, added up what it received. When the company restated its financial statements, it corrected $208 million in improper savings, from 295 transactions made between 2015 and 2018."
     },
     {
       "type": "paragraph",
-      "content": "That is where agentic AI can stall too. Agentic AI means AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. The rush not to fall behind pushes governance into second place. The thesis here is simple: the risk of agentic AI in finance is process governance, because AI speeds up what the process already does, right or wrong."
+      "content": "The fraud was deliberate. It passed through procurement, through the executive who approved it and through the controllers who added it up, because the process had no step that showed where each number came from. That step is the core of process governance, the rule that records who booked each number, on what basis and who checked it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The case matters now because finance teams are starting to use agentic AI, AI systems that carry out tasks on their own, such as adding up and reconciling the numbers in a budget. The risk of agentic AI in finance lies in process governance, because AI speeds up whatever the process already does, right or wrong."
     },
     {
       "type": "heading",
@@ -64,71 +68,95 @@
     },
     {
       "type": "paragraph",
-      "content": "Incentives explain most of it. The bonus depended on hitting the EBITDA target. The chief operating officer's pressure carried that target down to procurement. Every booked saving moved the result closer to it. In consolidation, the step where every department's numbers are added into the results, nobody traced where each saving came from. Whoever booked the savings gained. Whoever added the numbers was not paid to doubt them."
+      "content": "Before talking about character, the useful question is who gained what. The teams' bonus depended on EBITDA growing 6.1%. The chief operating officer pushed for savings that would bring the company to that target. The pressure reached procurement, where every discount booked as a saving moved the result closer to the target and, with it, the bonus."
     },
     {
       "type": "paragraph",
-      "content": "3G Capital, the investment firm that controls Kraft Heinz, used zero-based budgeting, in which every expense must be justified from scratch each cycle. The practice is legitimate. It only raised the pressure on the people who had to show savings."
+      "content": "On the other side was consolidation, the step where every department's numbers are added into the results. There, nothing traced the origin of each saving. Whoever booked the saving gained from it. Whoever added it up had neither a reason nor a way to doubt it."
     },
     {
       "type": "paragraph",
-      "content": "The bill arrived in stages. In February 2019, the company announced a $15.4 billion write-down of goodwill (the premium paid for acquisitions above the value of their assets) and of brands such as Kraft and Oscar Mayer, with a net loss of $12.6 billion for the quarter. In June 2019, it restated its financial statements, the official earnings reports, correcting $208 million in improper savings. In 2021, it paid a $62 million penalty to the SEC, the US regulator of securities markets. Both executives were also penalized: the chief operating officer paid $300,000, while the chief procurement officer paid $100,000 and was barred for 5 years from serving as an officer or director of a public company. In 2023, the settlement with shareholders cost another $450 million."
+      "content": "3G Capital, the investment firm that controls Kraft Heinz, used zero-based budgeting, in which every expense must be justified from scratch each cycle. The practice is legitimate. At Kraft Heinz, it raised the pressure on whoever had to show savings."
+    },
+    {
+      "type": "paragraph",
+      "content": "The bill for the fraud came later. The company corrected $208 million in its results. In 2021, it paid a $62 million penalty to the SEC, the agency that oversees US securities markets. The chief operating officer paid a $300,000 penalty. The head of procurement paid $100,000 and was barred for 5 years from serving as an officer or director of a public company. In 2023, the settlement with shareholders cost another $450 million."
+    },
+    {
+      "type": "paragraph",
+      "content": "Incentives explain why the number was inflated. They do not explain why the number went through controllership exactly as it arrived."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "Why does the number reach consolidation with no origin?"
+      "content": "Why does a number reach consolidation with no origin?"
     },
     {
       "type": "paragraph",
-      "content": "Every number has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" When only the number arrives, the person adding things up sees just the total. At Kraft Heinz, what reached controllership was a contract that described the discount differently. Nobody checked the assumption behind it. An AI agent that consolidates receives the number the same way, with no origin."
+      "content": "Every number in a budget has an assumption, the reason to believe it. The number is \"$1 million in discounts.\" The assumption is \"the supplier agreed in writing and will deduct it from the invoice.\" Whoever adds things up only sees the number, unless someone sends the assumption along with it."
     },
     {
       "type": "paragraph",
-      "content": "The process had no way to notice. A simple question was missing, one that should be asked at every step: where did this number come from? Who confirms the assumption behind it? With nobody owning that question, the approval chain gets long, the pressure to hit targets stays real and visibility into the number's origin shrinks."
+      "content": "At Kraft Heinz, what reached controllership was the number, backed by a contract that described the discount differently. There is no record that anyone checked the assumption behind it before adding it up."
     },
     {
       "type": "paragraph",
-      "content": "Silent error is more common than deliberate fraud: in most companies there is a number everyone uses and nobody can explain."
+      "content": "The extreme case hides the common one. Silent error tends to be more frequent than deliberate error: a discount a supplier promised over the phone, a price increase someone assumed and never wrote down. Almost every company tends to have a number everyone uses and nobody can explain. No one needs bad intentions for it to reach the results."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now replace the person adding things up with an AI agent. It receives the number the same way, without the assumption, and adds it up. What is missing in both cases is the same process rule."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "The problem is process governance"
+      "content": "What is process governance?"
     },
     {
       "type": "paragraph",
-      "content": "Process governance is the set of rules that records, for every number in the budget, who booked it, on what basis and who checked it before it was added to the result. At Kraft Heinz, that governance did not exist in consolidation. With agentic AI the problem is the same, because AI also books and changes numbers. What changes is who books them and how fast."
+      "content": "Process governance is the rule that records, for every number in the budget, who booked it, on what basis and who checked it before it was added to the result."
+    },
+    {
+      "type": "paragraph",
+      "content": "It is different from approval. At Kraft Heinz there was approval: the head of procurement approved the contracts. What was missing was the record that would let someone else, in consolidation, see the assumption and check the number."
+    },
+    {
+      "type": "paragraph",
+      "content": "With agentic AI, the three questions stay the same. What changes is who books the number and how fast it reaches the result."
     },
     {
       "type": "table",
       "headers": [
         "Governance question",
         "Kraft Heinz (2015 to 2018)",
-        "Agentic AI"
+        "Agentic AI without process governance"
       ],
       "rows": [
         [
           "Who booked the number?",
-          "Procurement, under pressure from the chief operating officer, with misleading contracts and no visible record in consolidation",
-          "The agent, with no record of what it changed, if the process does not require one"
+          "Procurement, under pressure from the chief operating officer",
+          "The agent, with no record of what it changed"
         ],
         [
           "On what basis?",
           "Contracts that described the discount differently",
-          "A rule or conversation nobody kept"
+          "A rule or a conversation nobody kept"
         ],
         [
           "Who checked it before adding it up?",
-          "The head of procurement approved the contracts. Controllership added up what it received",
-          "Nobody, if the agent consolidates alone"
+          "The head of procurement approved. Controllership added up what it received",
+          "Nobody, if the agent consolidates on its own"
         ],
         [
-          "When does the error surface?",
-          "Years later",
-          "Faster, because the volume of changes is higher"
+          "At what pace?",
+          "At the pace of people, over three years",
+          "At the pace of the agent, with more changes in less time"
         ]
       ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The first three rows show the same failure in both columns. The difference is in the last one: AI repeats the failure faster. If the thesis is right, the lack of governance should show up in AI adoption numbers."
     },
     {
       "type": "heading",
@@ -137,19 +165,36 @@
     },
     {
       "type": "paragraph",
-      "content": "A 2025 survey, cited by Neurons Lab, an agentic AI engineering consultancy (neurons-lab.com), found that 99% of companies plan to put AI agents into production in finance. Only 11% have done so. The most cited reason is not the price of the technology. It is data, governance and security, the foundation any agent works on."
+      "content": "A 2025 survey, cited by Neurons Lab, an agentic AI engineering consultancy (neurons-lab.com), found that 99% of companies plan to put AI agents into production in finance. Only 11% have done so."
     },
     {
       "type": "paragraph",
-      "content": "Intuition says the tools are missing. The data says process governance is missing. An AI agent runs rules on whatever already exists, whether that is a process with governance or one without. If the budget runs without version control and without a record of who approved each number, the agent adds everything up with the same confidence, including the saving that did not yet exist. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
+      "content": "Intuition says the delay comes from the tools. The most cited reason in the survey lies elsewhere: data, governance and security."
     },
     {
       "type": "paragraph",
-      "content": "Now picture what the lack of it would have done at Kraft Heinz. The scheme took three years to surface because nobody traced where each saving came from. An agent that consolidates in minutes, without that tracing, would have grown the same pattern to the same size in months."
+      "content": "The explanation is in what an agent does. It runs rules on the process that already exists. If the process records where each number came from, the agent works with that origin. If it does not, the agent adds everything up the same way, including the saving that did not yet exist."
     },
     {
       "type": "paragraph",
-      "content": "When every number has an owner and a record, the error surfaces at its source, before consolidation. Without tracing, it surfaces years later, on an auditor's bill."
+      "content": "A bank already talking about scale shows the other side. In January 2026, Lloyds Banking Group, a British bank (lloydsbankinggroup.com), called 2026 the year agentic AI moves from experimentation to use at scale. The same bank says it deploys its agents with rigorous testing, human oversight and real-time monitoring."
+    },
+    {
+      "type": "paragraph",
+      "content": "Now picture Kraft Heinz with an agent in consolidation. The scheme lasted about three years, from 2015 to 2018, at the pace of people signing contracts. An agent that consolidates in minutes, with no tracing of origin, would have grown the same pattern to the same size in months."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Where does the error show up first?"
+    },
+    {
+      "type": "paragraph",
+      "content": "People planning to bring an agent into finance tend to ask whether it will get the math right. After Kraft Heinz, the question that matters more is where the error will show up."
+    },
+    {
+      "type": "paragraph",
+      "content": "When every number has an owner and a record, the error shows up at its source, on the desk of whoever booked it, before it reaches the result. Without tracing, it shows up years later, in an audit, already added to everything else."
     },
     {
       "type": "heading",
@@ -158,7 +203,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Only 11% of companies that plan to use agentic AI have reached production. The most cited reason is governance. At BudgetXpert, each governance question in the article has an answer recorded on the platform."
+      "content": "Only 11% of companies that plan to use agents in finance have put them into production. Before joining that count, it is worth asking whether today's process could handle an agent consolidating numbers on its own. At Kraft Heinz, the three governance questions went unanswered. On BudgetXpert, each one would have a recorded answer."
     },
     {
       "type": "table",
@@ -170,36 +215,31 @@
       "rows": [
         [
           "Who booked the number?",
-          "Procurement, under pressure from the chief operating officer, with misleading contracts and no visible record in consolidation",
-          "Every assumption has an owner. Everything the AI creates or changes is recorded, with author and date"
+          "A record of who booked each saving, visible in consolidation",
+          "Every assumption has an owner and only people with permission can change it. Everything the AI creates or changes is recorded, with author and date"
         ],
         [
           "On what basis?",
-          "Contracts that described the discount differently",
-          "The record keeps the change made and the conversation that originated the adjustment. The discussion stays in the cell, next to the number"
+          "The assumption behind the discount, which the contract described differently",
+          "The record keeps the change made and the conversation that originated it. The discussion stays next to the number, in the cell"
         ],
         [
           "Who checked it before adding it up?",
-          "The head of procurement approved the contracts. Controllership added up what it received",
-          "Only people with permission change the value. Whoever consolidates knows whom to ask"
-        ],
-        [
-          "And when AI comes in?",
-          "More changes in less time, with no reason recorded for each",
-          "The AI suggests assumptions from a conversation. Each user's AI spending is controlled, with the option to switch the module off"
+          "A check of the assumption in controllership, before the sum",
+          "Whoever consolidates sees the owner and the record of each number and knows whom to ask. Each user's AI spending is controlled, with the option to switch the module off"
         ]
       ]
     },
     {
       "type": "paragraph",
-      "content": "See the record at work at <a href=\"https://www.budgetxpert.ai\">budgetxpert.ai</a>."
+      "content": "How the record works: <a href=\"https://www.budgetxpert.ai\">budgetxpert.ai</a>."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "content": "Source: cited by Neurons Lab (neurons-lab.com), an agentic AI engineering consultancy, \"Agentic AI in Financial Services: A Research Roundup for 2026\" (2025 survey). Lloyds Banking Group (lloydsbankinggroup.com), British bank, \"2026: The year of Agentic AI, and a new era for finance\" (January 21, 2026). Kraft Heinz case: SEC, \"SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme\". The D&O Diary (dandodiary.com), a publication on securities litigation, \"Kraft Heinz Securities Litigation Settles for $450 Million\". Journal of Forensic and Investigative Accounting, \"Kraft Heinz Company and the $15.4 Billion\"."
+      "content": "Source: cited by Neurons Lab (neurons-lab.com), an agentic AI engineering consultancy, \"Agentic AI in Financial Services: A Research Roundup for 2026\" (2025 survey). Lloyds Banking Group (lloydsbankinggroup.com), British bank, \"2026: The year of Agentic AI, and a new era for finance\" (January 21, 2026). Kraft Heinz case: SEC, \"SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme\" (2021). The D&O Diary (dandodiary.com), a publication on securities litigation, \"Kraft Heinz Securities Litigation Settles for $450 Million\" (2023). Journal of Forensic and Investigative Accounting, an academic forensic accounting journal, \"Kraft Heinz Company and the $15.4 Billion\" (2023)."
     }
   ]
 }

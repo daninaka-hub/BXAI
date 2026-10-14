@@ -1,20 +1,20 @@
 {
   "seo": {
-    "title": "Budget Assumption: Why Zillow Lost $881 Million",
-    "description": "How one budget assumption with no owner cost Zillow $881 million in 2021, and the three questions that show whether yours are under control.",
+    "title": "Budget Assumption: Zillow's $881 Million Lesson",
+    "description": "In 2021, Zillow lost $881 million with an algorithm that calculated right. See how a budget assumption ages without anyone making a mistake.",
     "keywords": [
       "budget assumption",
       "hypothesis about the future",
-      "annual budget",
-      "controllership",
-      "review trigger",
-      "Zillow Offers"
+      "assumption owner",
+      "criterion",
+      "review date",
+      "controllership"
     ]
   },
   "id": "16",
   "slug": "budget-assumption-zillow",
   "title": "Who Owned the Assumption That Cost Zillow $881 Million?",
-  "excerpt": "Zillow lost $881 million in 2021 because of an assumption nobody reviewed. See the three questions every budget assumption must answer.",
+  "excerpt": "Zillow's algorithm calculated right and the company still lost $881 million in 2021. What failed was an assumption that grew old without anyone making a mistake.",
   "coverImage": "/blog-media/premissa-de-orcamento-zillow-capa.webp",
   "date": "2026-10-06",
   "author": {
@@ -25,33 +25,33 @@
   "tags": [
     "budget assumption",
     "hypothesis about the future",
-    "annual budget",
-    "controllership",
-    "review trigger"
+    "assumption owner",
+    "criterion",
+    "review date"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Zillow: why governing assumptions matters in a budgeting process"
+      "content": "Zillow: why governing each budget assumption matters"
     },
     {
       "type": "paragraph",
-      "content": "In February 2021, Zillow (zillow.com), the largest real estate search platform in the United States, gave a number the power to buy houses. Until then, the price estimate from its algorithm, a program that calculates what each home is worth, was only a reference. That month, it became a binding purchase offer, obliging the company to pay the calculated price. By the end of 2021, Zillow Offers, the division that bought and resold homes directly, had lost $881 million."
+      "content": "In February 2021, Zillow (zillow.com), the largest real estate search platform in the United States, started buying homes at the price its algorithm calculated. Until then, that algorithm, a program that estimates what each home is worth, was only a reference. That month, the estimate became a binding purchase offer: the company was obliged to pay the calculated price. In 2021, Zillow Offers, the division that bought and resold the homes, lost $881 million, according to Shackleford, an AI (artificial intelligence) leadership consultancy."
     },
     {
       "type": "callout",
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review, what Zillow paid for skipping them and what would have changed with BudgetXpert."
+      "content": "What a budget assumption is, why it ages without anyone making a mistake, the three questions about owner, criterion and review date, what Zillow paid for not answering them and how BudgetXpert would do it differently."
     },
     {
       "type": "paragraph",
-      "content": "The calculation worked as designed. A budget assumption failed: the hypothesis about the future that every purchase relied on. An assumption can be right on the day it is set and wrong six months later. The market changed. Nobody went back to check. Three questions show whether yours are under control. The Zillow case helps explain each one."
+      "content": "The calculation worked as designed. What failed was a budget assumption, the hypothesis about the future that every purchase relied on. And it did not fail because someone got a sum wrong. An assumption can be right on the day it is set and wrong months later, without anyone making a bad decision along the way. That is why it needs three answers: who set it, on what criterion and when it will be reviewed."
     },
     {
       "type": "heading",
@@ -60,11 +60,15 @@
     },
     {
       "type": "paragraph",
-      "content": "An assumption is the hypothesis about the future that holds a number up. When someone writes that costs will rise 8% or that the sales conversion rate will stay at 3%, they are supposing something, not recording a fact. It is also not the same as a target. The target is what the company wants to reach. The assumption is what it supposes about the world to believe it can get there."
+      "content": "A budget assumption is the hypothesis about the future that holds up a number in the plan. When someone writes that costs will rise 8% or that the sales conversion rate will stay at 3%, they are supposing something about the world, not recording a fact."
     },
     {
       "type": "paragraph",
-      "content": "Every assumption is born from information available on a given date. That information has a shelf life. Zillow's algorithm had been trained in a housing market that kept rising, with no example of a slowing one. When the market cooled in mid-2021, it kept pricing as if the climb would last forever."
+      "content": "An assumption is not a target. The target is what the company wants to reach. The assumption is what it supposes about the world to believe it can get there. The difference matters because a target can stay valid after the assumption behind it has stopped holding."
+    },
+    {
+      "type": "paragraph",
+      "content": "At Zillow, the target was purchase volume. The assumption, built into the algorithm, was a housing market that would keep rising. While the market climbed, the assumption and reality moved together."
     },
     {
       "type": "heading",
@@ -73,11 +77,23 @@
     },
     {
       "type": "paragraph",
-      "content": "Time is one cause. The other is use: what often changes is not the calculation but what is done with it. Until February 2021, an estimation error was just an imprecise guess. After that, every error became a signed check. According to the analysis by Shackleford, an AI leadership consultancy, Zillow made this switch without creating any new governance rule, meaning without defining who would control how the tool was used."
+      "content": "An assumption ages in two ways. Neither of them requires anyone to make a mistake."
     },
     {
       "type": "paragraph",
-      "content": "There was also an effect that runs against intuition. When a company offers the estimated average price, owners of homes worth more than average prefer to sell on the open market, for more. Owners of homes with problems take the quick offer. Zillow ended up buying exactly what the market was already discounting. According to IdeaProof, a site that analyzes business failures, it paid above market value for 65% of the homes it bought."
+      "content": "The first is time. Zillow's algorithm had been trained in a housing market that kept rising, with no example of a slowing market, according to Shackleford. When the market cooled in mid-2021, it kept pricing homes as if the climb would go on. The math was right for the world it was done in. It was the world that changed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The second is use: the number stays the same, what changes is what is done with it. Until February 2021, an estimation error was just an imprecise guess on a web page. After that, every error became a signed check."
+    },
+    {
+      "type": "paragraph",
+      "content": "The switch also changed who accepted the offer. When a company offers the estimated average price, owners of homes worth more than average prefer to sell on the open market, for more. Owners of homes with problems take the quick offer. Zillow ended up buying exactly what the market was already discounting. According to IdeaProof, a site that analyzes business failures, it paid above market value for 65% of the homes it bought before closing the division in 2021."
+    },
+    {
+      "type": "paragraph",
+      "content": "The algorithm did what it was trained to do. If the failure does not depend on a mistake, keeping the assumption under control cannot depend on someone getting it right either. It depends on three questions answered in advance."
     },
     {
       "type": "heading",
@@ -86,16 +102,16 @@
     },
     {
       "type": "paragraph",
-      "content": "Every assumption needs an owner. Not a name on the org chart, but someone who can explain why this number and not another one and who will be called when it stops holding. At Zillow, the decision to turn an estimate into a binding offer was a business decision, made on top of an algorithm. There is no record that anyone was given the task of checking whether the assumption still made sense after the change."
+      "content": "Every assumption needs an owner. Not a name on the org chart, but someone who can explain why this number and not another one and who will be called when it stops holding. At Zillow, according to Shackleford, the switch from reference to offer was made without any new layer of governance. There is no record that anyone was given the task of checking whether the assumption still held after the change."
     },
     {
       "type": "paragraph",
-      "content": "Think about who gains what. Reviewing an assumption may bring bad news. Leaving it alone costs nothing until the day it costs everything. Without an owner, the incentive is always to ignore it. With an owner, one person answers for the number and has a reason to look at it."
+      "content": "To see why this happens, ask who gains what. Reviewing an assumption may bring bad news. Leaving it alone costs nothing until the day it costs everything. Without an owner, everyone has a good reason not to touch it. With an owner, one person answers for the number and has a reason to check it."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "Question 2: what criterion was used to choose it?"
+      "content": "Question 2: on what criterion was it chosen?"
     },
     {
       "type": "paragraph",
@@ -103,7 +119,11 @@
     },
     {
       "type": "paragraph",
-      "content": "In mid-2021, an internal Zillow project nicknamed \"Project Ketchup\" had management override the algorithm's own offers upward to hit a target for purchase volume. The target rewarded buying, not buying well. The independent human check that existed before disappeared exactly when the criterion needed to be stricter. A written, stable criterion no longer depends on the mood of the quarter."
+      "content": "At Zillow, what supported each offer was the algorithm's calculation, checked by an independent human review. In mid-2021, an internal project nicknamed \"Project Ketchup\" had management raise the offers the algorithm calculated to hit a purchase volume target, according to Shackleford. The independent review was dropped just as the market began to cool."
+    },
+    {
+      "type": "paragraph",
+      "content": "The adjustment was made to meet a target that rewarded buying, not buying well. Within that target, the decision made sense. Without a written criterion protected from volume pressure, the assumption became the target under another name."
     },
     {
       "type": "heading",
@@ -112,33 +132,53 @@
     },
     {
       "type": "paragraph",
-      "content": "This is the question that usually goes unanswered, even where an owner and a criterion already exist. Every assumption needs an expiration date, a trigger that says when it will be re-examined. Re-examined, not abandoned: reviewing an assumption does not change the target, it only checks whether the basis of the calculation still reflects reality."
+      "content": "This is the question that usually goes unanswered, even where an owner and a criterion already exist. Every assumption needs a review date, an agreed trigger that says when it will be checked again. Reviewing does not change the target. It only checks whether the basis of the calculation still reflects reality."
     },
     {
       "type": "paragraph",
-      "content": "The review date does not have to follow the fiscal calendar. It has to follow the speed of the variable the assumption tries to predict. The price of a raw material in a volatile market may call for a monthly review, even inside an annual budget. The obstacle is practical: reviewing an assumption usually means redoing parts of the budget. A budget that takes months to close cannot support a monthly review. At Zillow, there was no trigger to check whether the profile of the owners accepting offers had changed."
+      "content": "The date does not have to follow the fiscal calendar. It has to follow the speed of the variable the assumption tries to predict. Home prices, which went from rising to slowing within a few months of 2021, are the kind of variable that calls for a monthly review, even inside an annual budget."
+    },
+    {
+      "type": "paragraph",
+      "content": "Here a practical obstacle appears. Reviewing an assumption usually means redoing parts of the budget. A budget that takes months to close cannot fit a monthly review, so the review waits for the next cycle. At Zillow, there is no record of a trigger to check whether the market was still rising or whether the profile of the sellers accepting offers had changed."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "What Zillow paid for it"
+      "content": "What did Zillow pay for not answering?"
     },
     {
       "type": "paragraph",
-      "content": "In the third quarter of 2021, the company booked a $304 million write-down, the recognition of a loss on the balance sheet, on its home inventory alone. It accumulated up to $3.8 billion in houses and sold about 7,000 of them at a loss. In November 2021, when it announced the end of Zillow Offers, it cut about 2,000 employees, a quarter of the division's staff. The stock fell 18% that day and ended the year down 50%."
+      "content": "The bill for the three unanswered questions arrived in the second half of 2021. Each part of it traces back to one question."
     },
     {
       "type": "paragraph",
-      "content": "CEO Rich Barton explained at the shutdown that the algorithm could not reliably predict how much capital the company would need to put at risk. He refused to blame the loss on unpredictable outside events. The problem he described is the assumption: the model supposed a market that no longer existed. None of these numbers came from a wrong calculation. They came from an assumption with no owner, with no criterion protected from target pressure and with no review trigger."
+      "content": "With no review date, the price drop showed up first on the balance sheet. In the third quarter of 2021, the company booked a $304 million write-down, the recognition of lost value, on its home inventory alone, according to Shackleford."
+    },
+    {
+      "type": "paragraph",
+      "content": "With no criterion protected from the volume target, the buying went on. Zillow built up as much as $3.8 billion in homes in inventory, according to IdeaProof."
+    },
+    {
+      "type": "paragraph",
+      "content": "With no owner for the assumption, there is no record of anyone tasked with adjusting the number gradually. The adjustment came all at once. In November 2021, the company announced the end of Zillow Offers and cut about 2,000 employees, a quarter of the division's staff, according to GeekWire, a technology news site. The stock fell 18% on the day of the announcement and ended the year down 50%."
+    },
+    {
+      "type": "paragraph",
+      "content": "None of these costs came from a wrong calculation. They came from questions that were not part of the process."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "What remains"
+      "content": "The question that changes"
     },
     {
       "type": "paragraph",
-      "content": "The usual question is whether the assumption is right. That can only hold for the day it was answered. The question that protects a company is a different one: who will notice when it stops being right? An assumption nobody has disproved is not yet a true assumption, only one nobody went looking to disprove."
+      "content": "The usual question on budget day is whether the assumption is right. The answer only holds for that day. At Zillow, the rising-market assumption tracked the market until mid-2021 and then stopped tracking it without a single calculation changing."
+    },
+    {
+      "type": "paragraph",
+      "content": "The question that protects a company is a different one: who will notice when the assumption stops being right? It only has an answer when the assumption has an owner who answers for it, a written criterion nobody changes to hit the target and a date when someone will check it again."
     },
     {
       "type": "heading",
@@ -147,7 +187,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Each of the article's three questions has an answer recorded on the platform, next to the number."
+      "content": "At Zillow, the three answers would have needed a fixed place, next to the number each one explains. In BudgetXpert, that place is the assumption itself."
     },
     {
       "type": "table",
@@ -158,32 +198,32 @@
       ],
       "rows": [
         [
-          "Who defined this number?",
-          "Nobody was tasked with watching the assumption once the estimate became an offer",
-          "Every assumption has an owner, and only people with permission change the value"
+          "Who set this number?",
+          "No record of anyone tasked with checking the assumption after the estimate became an offer",
+          "Every assumption has an owner. Only people with permission change the value"
         ],
         [
           "On what criterion?",
-          "Without a written criterion, the pressure for volume targets outweighed the rule",
+          "The independent review was dropped and the volume target started to set the offers",
           "The reason and the discussion stay in the cell, next to the number"
         ],
         [
           "When will it be reviewed?",
-          "No trigger to check whether the market still behaved the way the assumption said",
-          "The cycle drops from 5 months to 2, and reviewing becomes a monthly ritual"
+          "No trigger to check the assumption when the market cooled in mid-2021",
+          "The budget cycle drops from 5 months to 2. Reviewing becomes a monthly ritual, with owner and reason already recorded"
         ]
       ]
     },
     {
       "type": "paragraph",
-      "content": "See how it works at <a href=\"https://www.budgetxpert.ai\">budgetxpert.ai</a>."
+      "content": "More at <a href=\"https://www.budgetxpert.ai\">budgetxpert.ai</a>."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "content": "Source: Zillow case: Shackleford, AI leadership consultancy (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
+      "content": "Source: Zillow case: Shackleford, AI leadership consultancy (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, technology news site (geekwire.com), \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, site that analyzes business failures (ideaproof.io), \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
     }
   ]
 }

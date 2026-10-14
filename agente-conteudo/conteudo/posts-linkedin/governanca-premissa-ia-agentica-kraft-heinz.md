@@ -1,24 +1,24 @@
-Em 2017, a Kraft Heinz errou uma meta de lucro. Em 2019, baixou US$ 15,4 bilhões.
+US$ 208 milhões em economias que não existiam passaram pela controladoria da Kraft Heinz.
 .
 .
 .
 .
-A Kraft Heinz, gigante americana de alimentos, precisava crescer 6,1% no EBITDA (lucro operacional) para pagar bônus. Entregou 3%.
+Em 2017, a Kraft Heinz, gigante americana de alimentos, precisava crescer 6,1% no EBITDA (lucro operacional) para pagar bônus. Entregou 3%.
 
-Do fim de 2015 ao fim de 2018, pressionada pelo diretor de operações por metas de economia irreais, a área de compras montou contratos enganosos com fornecedores para contabilizar economias que ainda não existiam. O diretor de compras os aprovou. Em fevereiro de 2019, a empresa registrou a baixa de US$ 15,4 bilhões. Em junho, corrigiu US$ 208 milhões em economias indevidas nas demonstrações financeiras. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais americano. Em 2023, fechou acordo de US$ 450 milhões com acionistas.
+Pressionada pelo diretor de operações, a área de compras montou contratos enganosos com fornecedores para registrar economias que ainda não existiam. O diretor de compras aprovou. A controladoria somou. Entre 2015 e 2018, foram 295 transações e US$ 208 milhões em economias indevidas.
 
-A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número. Nenhuma IA participou disso.
+A conta: US$ 62 milhões de multa à SEC (o regulador do mercado americano) e US$ 450 milhões de acordo com acionistas.
 
-Hoje, 99% das empresas planejam colocar IA agêntica em finanças, agentes que executam tarefas por conta própria. Só 11% já colocaram em produção (Neurons Lab, 2025). O foco é automação e produtividade. A pressa de não ficar para trás deixa a governança em segundo plano.
+A fraude foi deliberada. Mas repare no processo: nenhuma etapa mostrava de onde vinha cada número. Quem lançou? Com base em quê? Quem conferiu antes de somar? É isso que chamo de governança de processo.
 
-Um agente soma em minutos o que as pessoas somavam em meses. Sem governança de processo, a IA agêntica só acelera o problema.
+Agora coloque nessa consolidação um agente de IA, um sistema que soma e concilia números por conta própria. Ele recebe o número do mesmo jeito, sem a origem. E soma mais rápido.
 
-Quem lançou o número? Com base em quê? Quem o conferiu antes de somar? Foi o que a Kraft Heinz deixou de perguntar.
+Hoje, 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já colocaram (Neurons Lab, 2025). O motivo mais citado não está na ferramenta.
 
-O artigo mostra por que isso pesa mais quando quem soma é uma IA.
+Em quanto tempo um agente teria levado a Kraft Heinz ao mesmo tamanho? O artigo responde.
 
 Artigo completo: [link do artigo]
 
-É por isso que a BudgetXpert registra cada alteração que a IA faz no orçamento: www.budgetxpert.ai.
+Na BudgetXpert, cada premissa tem dono e tudo o que a IA cria ou altera fica registrado: www.budgetxpert.ai.
 
-#Controladoria #FinanceAutomation #IAAgentica #GovernançaFinanceira
+#Controladoria #FinanceAutomation #IAAgentica #GovernançaDeProcesso

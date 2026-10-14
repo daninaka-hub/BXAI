@@ -1,61 +1,82 @@
 # O que a fraude de US$ 208 milhões da Kraft Heinz diz sobre a IA agêntica nas finanças?
 
-### Kraft Heinz: por que a IA agêntica só funciona com governança de processo
+### Kraft Heinz: governança de processo e o risco da IA agêntica nas finanças
 
-Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos e depreciação, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta.
+Em 2017, a Kraft Heinz, multinacional americana de alimentos (kraftheinzcompany.com), precisava fazer o EBITDA, o lucro operacional antes de juros, impostos, depreciação e amortização, crescer 6,1% para que seus times recebessem bônus. A empresa entregou 3%, menos da metade da meta.
 
-Sob a pressão do diretor de operações por economias que o orçamento não sustentava, a área de compras (procurement) montou contratos com fornecedores para que economias que ainda não existiam fossem contabilizadas. O diretor de compras aprovou os contratos. A controladoria, a área que fecha os números da empresa, somou o que recebeu. Depois, a reapresentação corrigiu US$ 208 milhões em economias indevidas, vindas de 295 transações entre 2015 e 2018. A fraude foi deliberada. O que a deixou passar foi uma falha de governança de processo: na consolidação, nada registrava de onde vinha cada número.
+Sob a pressão do diretor de operações por economias que o orçamento não sustentava, a área de compras montou contratos enganosos com fornecedores para registrar como economia descontos que ainda não existiam. O diretor de compras aprovou os contratos. A controladoria, a área que fecha os números da empresa, somou o que recebeu. Quando a empresa reapresentou suas demonstrações financeiras, corrigiu US$ 208 milhões em economias indevidas, vindas de 295 transações feitas entre 2015 e 2018.
 
-Esse é o ponto em que a IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento, também pode travar. A pressa de não ficar para trás coloca a governança em segundo plano. A tese deste texto é direta: o risco da IA agêntica nas finanças é a governança de processo, porque a IA acelera o que o processo já faz, certo ou errado.
+A fraude foi deliberada. Ela passou pela área de compras, pelo diretor que aprovou e pela controladoria que somou, porque o processo não tinha uma etapa que mostrasse de onde vinha cada número. Essa etapa é o centro da governança de processo, a regra que registra quem lançou cada número, com base em quê e quem o conferiu.
+
+O caso importa agora porque as finanças começam a usar IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. O risco da IA agêntica nas finanças está na governança de processo, porque a IA acelera o que o processo já faz, certo ou errado.
 
 ## Quem ganhava com as economias indevidas da Kraft Heinz?
 
-O incentivo explica quase tudo. O bônus dependia de bater a meta de EBITDA. A pressão do diretor de operações levava essa meta até compras. Cada economia contabilizada aproximava o resultado da meta. Na consolidação, o momento em que os números de todas as áreas são somados no resultado, ninguém rastreava de onde vinha cada economia. Quem contabilizava ganhava. Quem somava não era pago para duvidar.
+Antes de falar de caráter, a pergunta útil é quem ganhava o quê. O bônus dos times dependia de o EBITDA crescer 6,1%. O diretor de operações cobrava economias que levassem a empresa até essa meta. A cobrança chegava até compras, onde cada desconto registrado como economia aproximava o resultado da meta e, com ele, o bônus.
 
-A 3G Capital, gestora que controla a Kraft Heinz, aplicava o orçamento base zero, no qual toda despesa precisa ser justificada do zero a cada ciclo. A prática é legítima. Ela só aumentou a pressão sobre quem precisava mostrar economia.
+Do outro lado estava a consolidação, a etapa em que os números de todas as áreas são somados no resultado. Ali não havia rastreio da origem de cada economia. Quem registrava a economia ganhava com ela. Quem somava não tinha motivo nem meio para duvidar.
 
-A conta veio em etapas. Em fevereiro de 2019, a empresa anunciou uma baixa contábil de US$ 15,4 bilhões em goodwill (o valor pago a mais em aquisições) e em marcas como Kraft e Oscar Mayer, com prejuízo líquido de US$ 12,6 bilhões no trimestre. Em junho de 2019, reapresentou suas demonstrações financeiras, os relatórios oficiais de resultado, corrigindo US$ 208 milhões em economias indevidas. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais dos Estados Unidos. Os dois diretores foram punidos: o de operações pagou US$ 300 mil, enquanto o de compras pagou US$ 100 mil e foi banido por 5 anos de cargos de direção em empresas de capital aberto. Em 2023, o acordo com acionistas custou mais US$ 450 milhões.
+A 3G Capital, gestora que controla a Kraft Heinz, aplicava o orçamento base zero, em que toda despesa precisa ser justificada do zero a cada ciclo. A prática é legítima. Na Kraft Heinz, ela aumentou a pressão sobre quem precisava mostrar economia.
 
-## Por que o número chega à consolidação sem origem?
+A conta da fraude veio depois. A empresa corrigiu US$ 208 milhões nos resultados. Em 2021, pagou US$ 62 milhões de multa à SEC, a comissão que fiscaliza o mercado de capitais dos Estados Unidos. O diretor de operações pagou US$ 300 mil de multa. O de compras pagou US$ 100 mil e ficou 5 anos impedido de ocupar cargo de direção em empresa de capital aberto. Em 2023, o acordo com acionistas custou mais US$ 450 milhões.
 
-Cada número tem uma premissa, o motivo para acreditar nele. O número é "US$ 1 milhão de desconto", a premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quando só o número chega, quem soma enxerga apenas o total. Na Kraft Heinz, o que chegou à controladoria foi um contrato que descrevia o desconto de outro jeito. Ninguém conferiu a premissa por trás dele. Um agente de IA que consolida recebe o número do mesmo jeito, sem a origem.
+O incentivo explica por que o número foi inflado. Ele não explica por que o número passou pela controladoria do jeito que chegou.
 
-O processo não tinha como perceber. Faltava uma pergunta simples, repetida em cada etapa: de onde veio este número e quem confirma a premissa dele? Sem dono para a pergunta, a cadeia de aprovação fica longa, a pressão de meta continua real e a visibilidade sobre a origem do número encolhe.
+## Por que um número chega à consolidação sem origem?
 
-O erro silencioso é mais comum do que o deliberado: na maior parte das empresas existe um número que todo mundo usa e ninguém sabe explicar.
+Todo número de um orçamento tem uma premissa, o motivo para acreditar nele. O número é "US$ 1 milhão de desconto". A premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quem soma só enxerga o número, a menos que alguém mande a premissa junto.
 
-## O problema é de governança de processo
+Na Kraft Heinz, o que chegou à controladoria foi o número, apoiado num contrato que descrevia o desconto de outro jeito. Não há registro de que alguém tenha conferido a premissa por trás dele antes de somá-lo.
 
-Governança de processo é o conjunto de regras que registra, para cada número do orçamento, quem o lançou, com base em quê e quem o conferiu antes de somá-lo ao resultado. Na Kraft Heinz, essa governança não existia na consolidação. Com a IA agêntica, o problema é o mesmo, porque a IA também lança e altera números. Mudam quem lança e a velocidade.
+O caso extremo esconde o caso comum. O erro silencioso costuma ser mais frequente que o deliberado: um desconto que o fornecedor prometeu por telefone, um reajuste que alguém supôs e não anotou. Quase toda empresa costuma ter um número que todo mundo usa e ninguém sabe explicar. Ninguém precisa ter má intenção para ele chegar ao resultado.
 
-| Pergunta de governança | Kraft Heinz (2015 a 2018) | IA agêntica |
+Agora troque a pessoa que soma por um agente de IA. Ele recebe o número do mesmo jeito, sem a premissa. E soma. O que falta nos dois casos é a mesma regra de processo.
+
+## O que é governança de processo?
+
+Governança de processo é a regra que registra, para cada número do orçamento, quem o lançou, com base em quê e quem o conferiu antes de somá-lo ao resultado.
+
+Ela é diferente de aprovação. Na Kraft Heinz houve aprovação: o diretor de compras aprovou os contratos. Faltou o registro que permitiria a outra pessoa, na consolidação, ver a premissa e conferir o número.
+
+Com a IA agêntica, as três perguntas continuam as mesmas. Mudam quem lança o número e a velocidade com que ele chega ao resultado.
+
+| Pergunta de governança | Kraft Heinz (2015 a 2018) | IA agêntica sem governança de processo |
 |---|---|---|
-| Quem lançou o número? | A área de compras, sob pressão do diretor de operações, com contratos enganosos e sem registro visível na consolidação | O agente, sem registro do que alterou, se o processo não exigir |
-| Com base em quê? | Contratos que descreviam o desconto de outro jeito | Uma regra ou conversa que ninguém guardou |
-| Quem conferiu antes de somar? | O diretor de compras aprovou os contratos. A controladoria somou o que recebeu | Ninguém, se o agente consolida sozinho |
-| Quando o erro aparece? | Anos depois | Mais rápido, porque o volume de alterações é maior |
+| Quem lançou o número? | A área de compras, sob pressão do diretor de operações | O agente, sem registro do que alterou |
+| Com base em quê? | Contratos que descreviam o desconto de outro jeito | Uma regra ou uma conversa que ninguém guardou |
+| Quem conferiu antes de somar? | O diretor de compras aprovou. A controladoria somou o que recebeu | Ninguém, se o agente consolida sozinho |
+| Em que ritmo? | No ritmo das pessoas, ao longo de três anos | No ritmo do agente, com mais alterações em menos tempo |
+
+As três primeiras linhas mostram a mesma falha nas duas colunas. A diferença está na última: a IA repete a falha mais rápido. Se a tese está certa, a falta de governança deveria aparecer nos números de adoção da IA.
 
 ## Por que só 11% das empresas colocaram a IA agêntica em produção?
 
-Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já fizeram isso. O motivo mais citado não é o preço da tecnologia. São dados, governança e segurança, a base sobre a qual qualquer agente trabalha.
+Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já colocaram.
 
-A intuição diz que falta ferramenta. O dado diz que falta governança do processo. Um agente de IA executa regras sobre o que já existe, seja um processo com governança ou sem ela. Se o orçamento roda sem controle de versão e sem registro de quem aprovou cada número, o agente soma tudo com a mesma confiança, inclusive a economia que ainda não existia. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. O mesmo banco diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real, ou seja, com governança.
+A intuição diz que o atraso vem da ferramenta. O motivo mais citado pela pesquisa está em outro lugar: dados, governança e segurança.
 
-Pense no que a falta dela faria na Kraft Heinz. O esquema levou três anos para aparecer porque ninguém rastreava a origem de cada economia. Um agente que consolida em minutos, sem esse rastreio, teria levado o mesmo padrão ao mesmo tamanho em meses.
+A explicação está no que um agente faz. Ele executa regras sobre o processo que já existe. Se o processo registra a origem de cada número, o agente trabalha com essa origem. Se não registra, o agente soma tudo do mesmo jeito, inclusive a economia que ainda não existia.
 
-Quando cada número tem dono e registro, o erro aparece na origem, antes da consolidação. Sem rastreio, aparece anos depois, na conta de uma auditoria.
+Um banco que já fala em escala mostra o outro lado. Em janeiro de 2026, o Lloyds Banking Group, banco britânico (lloydsbankinggroup.com), chamou 2026 de o ano em que a IA agêntica sai da experimentação para o uso em escala. O mesmo banco diz aplicar seus agentes com testes rigorosos, supervisão humana e monitoramento em tempo real.
+
+Agora imagine a Kraft Heinz com um agente na consolidação. O esquema durou cerca de três anos, de 2015 a 2018, no ritmo de pessoas assinando contratos. Um agente que consolida em minutos, sem rastreio da origem, teria levado o mesmo padrão ao mesmo tamanho em meses.
+
+## Onde o erro aparece primeiro?
+
+Quem planeja colocar um agente nas finanças costuma perguntar se ele vai fazer a conta certa. Depois da Kraft Heinz, a pergunta que pesa mais é onde o erro vai aparecer.
+
+Quando cada número tem dono e registro, o erro aparece na origem, na mesa de quem lançou, antes de chegar ao resultado. Sem rastreio, ele aparece anos depois, numa auditoria, já somado a todos os outros.
 
 ## Como a BudgetXpert faria diferente
 
-Só 11% das empresas que planejam usar IA agêntica chegaram à produção. O motivo mais citado é a governança. Na BudgetXpert, cada pergunta de governança do artigo tem uma resposta registrada na plataforma.
+Só 11% das empresas que planejam usar agentes nas finanças já os colocaram em produção. Antes de entrar nessa conta, cabe perguntar se o processo de hoje aguentaria um agente consolidando números sozinho. Na Kraft Heinz, as três perguntas de governança ficaram sem resposta. Na BudgetXpert, cada uma teria uma resposta registrada.
 
 | Pergunta de governança | O que faltou na Kraft Heinz | O que a BudgetXpert faz |
 |---|---|---|
-| Quem lançou o número? | A área de compras, sob pressão do diretor de operações, com contratos enganosos e sem registro visível na consolidação | Cada premissa tem um dono. Tudo o que a IA cria ou altera fica registrado, com autor e data |
-| Com base em quê? | Contratos que descreviam o desconto de outro jeito | O registro guarda a mudança feita e a conversa que originou o ajuste. A discussão fica junto do número, na célula |
-| Quem conferiu antes de somar? | O diretor de compras aprovou os contratos. A controladoria somou o que recebeu | Só quem tem permissão altera o valor. Quem consolida sabe a quem perguntar |
-| E quando a IA entra? | Mais alterações em menos tempo, sem o motivo de cada uma | A IA sugere as premissas a partir de uma conversa. Cada usuário tem o gasto de IA controlado, com desligamento do módulo |
+| Quem lançou o número? | Um registro de quem lançou cada economia, visível na consolidação | Cada premissa tem um dono e só quem tem permissão altera. Tudo o que a IA cria ou altera fica registrado, com autor e data |
+| Com base em quê? | A premissa por trás do desconto, que o contrato descrevia de outro jeito | O registro guarda a mudança feita e a conversa que a originou. A discussão fica junto do número, na célula |
+| Quem conferiu antes de somar? | Uma conferência da premissa na controladoria, antes da soma | Quem consolida vê o dono e o registro de cada número e sabe a quem perguntar. O gasto de IA de cada usuário fica sob controle, com desligamento do módulo |
 
-Veja o registro funcionando em [budgetxpert.ai](https://www.budgetxpert.ai).
+Como o registro funciona: [budgetxpert.ai](https://www.budgetxpert.ai).
 
-Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme". The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million". Journal of Forensic and Investigative Accounting, "Kraft Heinz Company and the $15.4 Billion".
+Fonte: citado por Neurons Lab (neurons-lab.com), consultoria de engenharia de IA agêntica, "Agentic AI in Financial Services: A Research Roundup for 2026" (pesquisa de 2025). Lloyds Banking Group (lloydsbankinggroup.com), banco britânico, "2026: The year of Agentic AI, and a new era for finance" (21/01/2026). Caso Kraft Heinz: SEC, "SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme" (2021). The D&O Diary (dandodiary.com), publicação especializada em litígios de valores mobiliários, "Kraft Heinz Securities Litigation Settles for $450 Million" (2023). Journal of Forensic and Investigative Accounting, publicação acadêmica de contabilidade forense, "Kraft Heinz Company and the $15.4 Billion" (2023).

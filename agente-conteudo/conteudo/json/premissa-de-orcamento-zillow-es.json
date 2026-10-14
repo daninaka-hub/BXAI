@@ -1,20 +1,20 @@
 {
   "seo": {
-    "title": "Supuestos presupuestarios: el error de Zillow",
-    "description": "Cómo un supuesto sin dueño le costó 881 millones de dólares a Zillow en 2021, y las tres preguntas que muestran si los tuyos están bajo control.",
+    "title": "Supuesto presupuestario: la lección de Zillow",
+    "description": "En 2021, Zillow perdió 881 millones de dólares con un algoritmo que calculaba bien. Mira cómo un supuesto presupuestario envejece sin errores.",
     "keywords": [
-      "supuestos presupuestarios",
+      "supuesto presupuestario",
       "hipótesis sobre el futuro",
-      "presupuesto anual",
-      "controlling",
-      "disparador de revisión",
-      "Zillow Offers"
+      "dueño del supuesto",
+      "criterio",
+      "fecha de revisión",
+      "controlling"
     ]
   },
   "id": "16",
-  "slug": "supuestos-presupuestarios-zillow",
+  "slug": "supuesto-presupuestario-zillow",
   "title": "¿Quién era el dueño del supuesto que le costó 881 millones de dólares a Zillow?",
-  "excerpt": "Zillow perdió 881 millones de dólares en 2021 por un supuesto que nadie revisaba. Mira las tres preguntas que todo supuesto presupuestario debe responder.",
+  "excerpt": "El algoritmo de Zillow calculaba bien y aun así la empresa perdió 881 millones de dólares en 2021. Lo que falló fue un supuesto que envejeció sin errores.",
   "coverImage": "/blog-media/premissa-de-orcamento-zillow-capa.webp",
   "date": "2026-10-06",
   "author": {
@@ -23,35 +23,35 @@
   },
   "category": "controllership",
   "tags": [
-    "supuestos presupuestarios",
+    "supuesto presupuestario",
     "hipótesis sobre el futuro",
-    "presupuesto anual",
-    "controlling",
-    "disparador de revisión"
+    "dueño del supuesto",
+    "criterio",
+    "fecha de revisión"
   ],
   "templateType": "guide",
-  "readingTime": "7 min",
+  "readingTime": "8 min",
   "featured": false,
   "content": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Zillow: la importancia de gobernar las premisas en un proceso presupuestario"
+      "content": "Zillow: la importancia de gobernar cada supuesto presupuestario"
     },
     {
       "type": "paragraph",
-      "content": "En febrero de 2021, Zillow (zillow.com), la mayor plataforma de búsqueda inmobiliaria de Estados Unidos, le dio a un número el poder de comprar casas. Hasta entonces, la estimación de precio de su algoritmo, un programa que calcula cuánto vale cada vivienda, servía solo de referencia. Ese mes pasó a ser una oferta de compra vinculante, que obligaba a la empresa a pagar el valor calculado. A fines de 2021, Zillow Offers, la división que compraba y revendía viviendas directamente, había perdido 881 millones de dólares."
+      "content": "En febrero de 2021, Zillow (zillow.com), la mayor plataforma de búsqueda inmobiliaria de Estados Unidos, empezó a comprar casas al precio que calculaba su algoritmo. Hasta entonces, ese algoritmo, un programa que estima cuánto vale cada vivienda, servía solo de referencia. Ese mes, la estimación pasó a ser una oferta de compra vinculante: la empresa se obligaba a pagar el valor calculado. En 2021, Zillow Offers, la división que compraba y revendía las casas, perdió 881 millones de dólares, según Shackleford, consultora de liderazgo en IA (inteligencia artificial)."
     },
     {
       "type": "callout",
       "variant": "blue",
       "icon": "📌",
       "title": "En este artículo",
-      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y revisión, lo que Zillow pagó por no hacerlas y lo que habría cambiado con BudgetXpert."
+      "content": "Qué es un supuesto presupuestario, por qué envejece sin que nadie se equivoque, las tres preguntas sobre dueño, criterio y fecha de revisión, lo que Zillow pagó por no responderlas y cómo lo haría diferente BudgetXpert."
     },
     {
       "type": "paragraph",
-      "content": "El cálculo funcionaba como fue diseñado. Falló un supuesto presupuestario: la hipótesis sobre el futuro en la que se apoyaba cada compra. Un supuesto puede ser correcto el día en que se define e incorrecto seis meses después. El mercado cambió. Nadie volvió a comprobarlo. Tres preguntas muestran si los tuyos están bajo control. El caso de Zillow ayuda a entender cada una."
+      "content": "El cálculo funcionaba como fue diseñado. Lo que falló fue un supuesto presupuestario, la hipótesis sobre el futuro en la que se apoyaba cada compra. Y no falló porque alguien se equivocara en una cuenta. Un supuesto puede ser correcto el día en que se define e incorrecto meses después, sin que nadie haya decidido mal en el camino. Por eso necesita tres respuestas: quién lo definió, con qué criterio y cuándo se revisará."
     },
     {
       "type": "heading",
@@ -60,11 +60,15 @@
     },
     {
       "type": "paragraph",
-      "content": "Un supuesto es la hipótesis sobre el futuro que sostiene una cifra. Cuando alguien escribe que el costo subirá 8% o que la conversión de ventas se mantendrá en 3%, está suponiendo algo, no registrando un hecho. Tampoco es lo mismo que la meta. La meta es lo que la empresa quiere alcanzar. El supuesto es lo que ella supone sobre el mundo para creer que lo logrará."
+      "content": "Un supuesto presupuestario es la hipótesis sobre el futuro que sostiene una cifra del plan. Cuando alguien escribe que el costo subirá 8% o que la conversión de ventas se mantendrá en 3%, está suponiendo algo sobre el mundo, no registrando un hecho."
     },
     {
       "type": "paragraph",
-      "content": "Todo supuesto nace de una información disponible en una fecha. Esa información tiene fecha de vencimiento. El algoritmo de Zillow había sido entrenado en un mercado inmobiliario en alza constante, sin ningún ejemplo de un mercado que se desacelera. Cuando el mercado se enfrió, a mediados de 2021, siguió fijando precios como si el alza fuera eterna."
+      "content": "Un supuesto no es una meta. La meta es lo que la empresa quiere alcanzar. El supuesto es lo que ella supone sobre el mundo para creer que lo logrará. La diferencia importa porque la meta puede seguir vigente después de que el supuesto dejó de valer."
+    },
+    {
+      "type": "paragraph",
+      "content": "En Zillow, la meta era el volumen de compras. El supuesto, incorporado en el algoritmo, era el de un mercado inmobiliario que seguiría al alza. Mientras el mercado subía, el supuesto y la realidad iban juntos."
     },
     {
       "type": "heading",
@@ -73,11 +77,23 @@
     },
     {
       "type": "paragraph",
-      "content": "El tiempo es una causa. La otra es el uso: lo que cambia, muchas veces, no es el cálculo sino lo que se hace con él. Hasta febrero de 2021, un error de estimación era solo una conjetura imprecisa. Después, cada error pasó a ser un cheque firmado. Según el análisis de Shackleford, consultora de liderazgo en IA, Zillow hizo ese cambio sin crear ninguna regla nueva de gobernanza, es decir, sin definir quién controlaría el uso de la herramienta."
+      "content": "Un supuesto envejece de dos maneras. Ninguna exige que alguien se equivoque."
     },
     {
       "type": "paragraph",
-      "content": "Había además un efecto que contradice la intuición. Cuando una empresa ofrece el precio promedio estimado, quien tiene una vivienda por encima del promedio prefiere venderla en el mercado abierto, por más dinero. Quien tiene una vivienda con problemas acepta la oferta rápida. Zillow pasó a comprar justo lo que el mercado ya estaba descontando. Según IdeaProof, un sitio que analiza fracasos empresariales, pagó por encima del valor de mercado en el 65% de las casas que compró."
+      "content": "La primera es el tiempo. El algoritmo de Zillow había sido entrenado en un mercado inmobiliario en alza constante, sin ningún ejemplo de un mercado que se desacelera, según Shackleford. Cuando el mercado se enfrió, a mediados de 2021, siguió calculando precios como si el alza fuera a continuar. La cuenta era correcta para el mundo en que se hizo. Fue el mundo el que cambió."
+    },
+    {
+      "type": "paragraph",
+      "content": "La segunda es el uso: la cifra sigue siendo la misma, cambia lo que se hace con ella. Hasta febrero de 2021, un error de estimación era solo una conjetura imprecisa en una página web. Después, cada error pasó a ser un cheque firmado."
+    },
+    {
+      "type": "paragraph",
+      "content": "El cambio también modificó quién aceptaba la oferta. Cuando una empresa ofrece el precio promedio estimado, quien tiene una vivienda por encima del promedio prefiere venderla en el mercado abierto, por más dinero. Quien tiene una vivienda con problemas acepta la oferta rápida. Zillow pasó a comprar justo lo que el mercado ya estaba descontando. Según IdeaProof, un sitio que analiza fracasos empresariales, pagó por encima del valor de mercado en el 65% de las casas que compró hasta cerrar la división, en 2021."
+    },
+    {
+      "type": "paragraph",
+      "content": "El algoritmo hizo lo que fue entrenado para hacer. Si la falla no depende de un error, controlar el supuesto tampoco puede depender de que alguien acierte. Depende de tres preguntas respondidas antes."
     },
     {
       "type": "heading",
@@ -86,11 +102,11 @@
     },
     {
       "type": "paragraph",
-      "content": "Todo supuesto necesita un dueño. No un nombre en el organigrama, sino alguien capaz de explicar por qué esa cifra y no otra y a quien se llamará cuando deje de valer. En Zillow, la decisión de convertir una estimación en oferta vinculante fue una decisión de negocio, tomada sobre un algoritmo. No hay registro de que alguien haya recibido la tarea de vigilar si el supuesto seguía teniendo sentido después del cambio."
+      "content": "Todo supuesto necesita un dueño. No un nombre en el organigrama, sino alguien capaz de explicar por qué esa cifra y no otra y a quien se llamará cuando deje de valer. En Zillow, según Shackleford, el paso de referencia a oferta se hizo sin ninguna capa nueva de gobernanza. No hay registro de que alguien haya recibido la tarea de comprobar si el supuesto seguía valiendo después del cambio."
     },
     {
       "type": "paragraph",
-      "content": "Piensa en quién gana qué. Revisar un supuesto puede traer malas noticias. Dejarlo como está no cuesta nada hasta el día en que cuesta todo. Sin dueño, el incentivo es siempre ignorarlo. Con dueño, una persona responde por la cifra y tiene un motivo para mirarla."
+      "content": "Para entender por qué pasa esto, pregúntate quién gana qué. Revisar un supuesto puede traer malas noticias. Dejarlo como está no cuesta nada hasta el día en que cuesta todo. Sin dueño, cada persona tiene un buen motivo para no tocarlo. Con dueño, una persona responde por la cifra y tiene un motivo para comprobarla."
     },
     {
       "type": "heading",
@@ -103,7 +119,11 @@
     },
     {
       "type": "paragraph",
-      "content": "A mediados de 2021, un proyecto interno de Zillow, apodado \"Project Ketchup\", hizo que la dirección corrigiera hacia arriba las ofertas del propio algoritmo para cumplir la meta de volumen de compras. La meta premiaba comprar, no comprar bien. La revisión humana independiente que existía antes desapareció justo cuando el criterio debía ser más estricto. Un criterio escrito y estable deja de depender del ánimo del trimestre."
+      "content": "En Zillow, lo que sostenía cada oferta era el cálculo del algoritmo, comprobado por una revisión humana independiente. A mediados de 2021, un proyecto interno apodado \"Project Ketchup\" hizo que la dirección subiera las ofertas calculadas por el algoritmo para cumplir la meta de volumen de compras, según Shackleford. La revisión independiente desapareció justo cuando el mercado empezaba a enfriarse."
+    },
+    {
+      "type": "paragraph",
+      "content": "El ajuste se hizo para cumplir una meta que premiaba comprar, no comprar bien. Dentro de esa meta, la decisión tenía sentido. Sin un criterio escrito y protegido de la presión por volumen, el supuesto pasó a ser la meta con otro nombre."
     },
     {
       "type": "heading",
@@ -112,33 +132,53 @@
     },
     {
       "type": "paragraph",
-      "content": "Es la pregunta que suele quedar sin respuesta, incluso donde ya existen dueño y criterio. Todo supuesto necesita una fecha de vencimiento, un disparador que diga cuándo será reexaminado. Reexaminado, no abandonado: revisar el supuesto no cambia la meta, solo comprueba si la base del cálculo sigue reflejando la realidad."
+      "content": "Es la pregunta que suele quedar sin respuesta, incluso donde ya existen dueño y criterio. Todo supuesto necesita una fecha de revisión, un disparador acordado que diga cuándo se comprobará de nuevo. Revisar no cambia la meta. Solo comprueba si la base del cálculo sigue reflejando la realidad."
     },
     {
       "type": "paragraph",
-      "content": "La fecha de revisión no tiene que seguir el calendario fiscal. Debe seguir la velocidad de la variable que el supuesto intenta prever. El precio de una materia prima en un mercado volátil puede pedir revisión mensual, incluso dentro de un presupuesto anual. El obstáculo es práctico: revisar el supuesto suele exigir rehacer partes del presupuesto. Un presupuesto que tarda meses en cerrarse no admite una revisión mensual. En Zillow no había ningún disparador para comprobar si el perfil de quienes aceptaban las ofertas había cambiado."
+      "content": "La fecha no tiene que seguir el calendario fiscal. Debe seguir la velocidad de la variable que el supuesto intenta prever. El precio de las casas, que pasó del alza a la desaceleración en pocos meses de 2021, es el tipo de variable que pide revisión mensual, incluso dentro de un presupuesto anual."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquí aparece un obstáculo práctico. Revisar un supuesto suele exigir rehacer partes del presupuesto. Un presupuesto que tarda meses en cerrarse no admite una revisión mensual, así que la revisión queda para el ciclo siguiente. En Zillow, no hay registro de un disparador para comprobar si el mercado seguía subiendo o si el perfil de quienes aceptaban las ofertas había cambiado."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "Lo que Zillow pagó por esto"
+      "content": "¿Qué pagó Zillow por no responder?"
     },
     {
       "type": "paragraph",
-      "content": "En el tercer trimestre de 2021, la empresa registró 304 millones de dólares de deterioro contable, el reconocimiento de una pérdida en el balance, solo en su inventario de casas. Llegó a acumular 3.800 millones de dólares en viviendas y vendió cerca de 7.000 con pérdida. En noviembre de 2021, al anunciar el cierre de Zillow Offers, recortó cerca de 2.000 empleados, una cuarta parte de la plantilla de la división. Las acciones cayeron 18% ese día y terminaron el año con una baja acumulada de 50%."
+      "content": "La cuenta de las tres preguntas sin respuesta llegó en el segundo semestre de 2021. Cada parte tiene origen en una pregunta."
     },
     {
       "type": "paragraph",
-      "content": "El CEO, Rich Barton, explicó al cerrar la operación que el algoritmo no podía prever con fiabilidad cuánto capital debía arriesgar la empresa. Rechazó atribuir la pérdida a eventos externos imprevisibles. El problema que describió es el del supuesto: el modelo suponía un mercado que dejó de existir. Ninguna de estas cifras vino de un cálculo equivocado. Vinieron de un supuesto sin dueño, sin criterio protegido de la presión por la meta y sin disparador de revisión."
+      "content": "Sin fecha de revisión, la caída de los precios apareció primero en el balance. En el tercer trimestre de 2021, la empresa registró 304 millones de dólares de deterioro contable, el reconocimiento de la pérdida de valor, solo en su inventario de casas, según Shackleford."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sin un criterio protegido de la meta de volumen, las compras continuaron. Zillow llegó a acumular 3.800 millones de dólares en casas en inventario, según IdeaProof."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sin dueño del supuesto, no hay registro de alguien encargado de ajustar la cifra poco a poco. El ajuste llegó de golpe. En noviembre de 2021, la empresa anunció el cierre de Zillow Offers y recortó cerca de 2.000 empleados, una cuarta parte de la plantilla de la división, según GeekWire, sitio de noticias de tecnología. Las acciones cayeron 18% el día del anuncio y terminaron el año con una baja acumulada de 50%."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ninguno de estos costos vino de un cálculo equivocado. Vinieron de preguntas que no formaban parte del proceso."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "Lo que queda"
+      "content": "La pregunta que cambia"
     },
     {
       "type": "paragraph",
-      "content": "La pregunta de siempre es si el supuesto es correcto. Esa respuesta solo vale para el día en que se dio. La pregunta que protege a la empresa es otra: ¿quién notará cuando deje de serlo? Un supuesto que nadie ha desmentido todavía no es un supuesto verdadero, es solo uno que nadie fue a buscar desmentir."
+      "content": "La pregunta de siempre, el día del presupuesto, es si el supuesto es correcto. La respuesta solo vale para ese día. En Zillow, el supuesto de alza acompañó al mercado hasta mediados de 2021 y dejó de acompañarlo sin que cambiara ningún cálculo."
+    },
+    {
+      "type": "paragraph",
+      "content": "La pregunta que protege a la empresa es otra: ¿quién notará cuando el supuesto deje de ser correcto? Solo tiene respuesta cuando el supuesto tiene un dueño que responde por él, un criterio escrito que nadie cambia para cumplir la meta y una fecha en que alguien lo comprobará de nuevo."
     },
     {
       "type": "heading",
@@ -147,7 +187,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Cada una de las tres preguntas del artículo tiene una respuesta registrada en la plataforma, junto a la cifra."
+      "content": "En Zillow, las tres respuestas habrían necesitado un lugar fijo, junto a la cifra que cada una explica. En BudgetXpert, ese lugar es el propio supuesto."
     },
     {
       "type": "table",
@@ -159,31 +199,31 @@
       "rows": [
         [
           "¿Quién definió esta cifra?",
-          "Nadie recibió la tarea de vigilar el supuesto después de que la estimación se convirtió en oferta",
-          "Cada supuesto tiene un dueño, y solo quien tiene permiso cambia el valor"
+          "No hay registro de alguien encargado de comprobar el supuesto después de que la estimación se convirtió en oferta",
+          "Cada supuesto tiene un dueño. Solo quien tiene permiso cambia el valor"
         ],
         [
           "¿Con qué criterio?",
-          "Sin criterio escrito, la presión por la meta de volumen pesó más que la regla",
+          "La revisión independiente desapareció y la meta de volumen pasó a definir las ofertas",
           "La razón y la discusión quedan en la celda, junto a la cifra"
         ],
         [
           "¿Cuándo se revisará?",
-          "No había un gatillo para comprobar si el mercado seguía comportándose como decía el supuesto",
-          "El ciclo baja de 5 meses a 2, y revisar pasa a ser un ritual del mes"
+          "Ningún disparador para comprobar el supuesto cuando el mercado se enfrió, a mediados de 2021",
+          "El ciclo del presupuesto baja de 5 meses a 2. Revisar pasa a ser un ritual del mes, con dueño y razón ya registrados"
         ]
       ]
     },
     {
       "type": "paragraph",
-      "content": "Más información en <a href=\"https://www.budgetxpert.ai\">budgetxpert.ai</a>."
+      "content": "Más en <a href=\"https://www.budgetxpert.ai\">budgetxpert.ai</a>."
     },
     {
       "type": "divider"
     },
     {
       "type": "paragraph",
-      "content": "Fuente: Caso Zillow: Shackleford, consultora de liderazgo en IA (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
+      "content": "Fuente: Caso Zillow: Shackleford, consultora de liderazgo en IA (shackleford.coach), \"Zillow Offers Loss: A $881M Study in AI Model Risk\". GeekWire, sitio de noticias de tecnología (geekwire.com), \"Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI\". IdeaProof, sitio que analiza fracasos empresariales (ideaproof.io), \"Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021)\"."
     }
   ]
 }
