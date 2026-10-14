@@ -454,7 +454,9 @@ TITULO_NESTE = {"pt": "Neste artigo", "en": "In this article", "es": "En este ar
 SUFIXO = {"pt": "br", "en": "en", "es": "es"}
 
 def _inline(s):
-    """No JSON do blog o texto é puro. O blog mostrou <a href> e <b> como código, então link e negrito ficam em markdown: [texto](url) e **negrito**."""
+    """O parágrafo do blog é texto puro: <a>, <b> e [texto](url) apareceram como código. Link vira só o texto (budgetxpert.ai) e negrito perde os asteriscos."""
+    s = re.sub(r"\[(.+?)\]\((https?://[^)\s]+)\)", r"\1", s)
+    s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
     return " ".join(s.split())
 
 def _links_html(h):
@@ -514,7 +516,7 @@ def montar_json(slug):
     assert categoria in CATEGORIAS_BLOG, categoria
     base = d["pt"]["seo"]["slug_url"]
     JSONS.mkdir(exist_ok=True)
-    _sem_html = lambda blocos: [x for x in re.findall(r'<(?:a|b|i|strong|em|br)[ >/]', json.dumps(blocos, ensure_ascii=False))]
+    _sem_html = lambda blocos: [x for x in re.findall(r'<(?:a|b|i|strong|em|br)[ >/]|\]\(https?://|\*\*', json.dumps(blocos, ensure_ascii=False))]
 
     for velho in JSONS.glob(f"{slug}*.json"):
         velho.unlink()
