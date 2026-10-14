@@ -201,6 +201,25 @@ def _fechamentos(texto):
         achados = [x for x in texto.splitlines() if "budgetxpert" in x.lower()]
     return achados
 
+def _lint_perguntas(texto, nome):
+    """Regra de 14/10: as únicas perguntas do artigo são as anunciadas (títulos 'Pergunta N' ou 'Question N'). Título de seção é afirmação e o fechamento não termina em pergunta."""
+    erros = []
+    secoes = re.split(r"(?m)^(?=## )", texto)
+    for sec in secoes:
+        titulo = sec.split("\n", 1)[0]
+        if not titulo.startswith("## "):
+            continue
+        guia = re.match(r"## (Pergunta|Pregunta|Question) \d", titulo)
+        if ("?" in titulo or "\u00bf" in titulo) and not guia:
+            erros.append(f"{nome}: título de seção em forma de pergunta, trocar por afirmação: {titulo[:70]}")
+    bx = [i for i, sec in enumerate(secoes) if re.match(r"## [^\n]*budgetxpert", sec, flags=re.I)]
+    if bx and bx[0] >= 1:
+        fech = secoes[bx[0] - 1]
+        corpo = [l for l in fech.split("\n")[1:] if not l.startswith("|")]
+        if any("?" in l for l in corpo):
+            erros.append(f"{nome}: o fechamento (seção antes da BudgetXpert) tem pergunta, escrever em afirmação")
+    return erros
+
 def _lint_estrutura_bx(texto, nome):
     """Padrão de 06/10: o artigo termina com a seção 'Como a BudgetXpert faria diferente', com tabela e a linha do link. Não há parágrafo de fechamento depois da tabela."""
     secoes = re.split(r"(?m)^(?=## )", texto)
@@ -305,10 +324,12 @@ def lint(slug):
     erros += lint_promessas(slug)
     if art.exists():
         erros += _lint_estrutura_bx(art.read_text(encoding="utf-8"), "artigo")
+        erros += _lint_perguntas(art.read_text(encoding="utf-8"), "artigo")
     if (IDIOMAS / f"{slug}.json").exists():
         _d2 = ler_idiomas(slug)
         for lg in ("en", "es"):
             erros += _lint_estrutura_bx(str(_d2.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo")
+            erros += _lint_perguntas(str(_d2.get(lg, {}).get("artigo", "")), f"idiomas {lg}.artigo")
     if art.exists():
         erros += _lint_link_site(art.read_text(encoding="utf-8"), "artigo", True)
     if post.exists():

@@ -56,7 +56,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What is a budget assumption?"
+      "content": "Budget assumption: the hypothesis behind the number"
     },
     {
       "type": "paragraph",
@@ -73,7 +73,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "Why does an assumption grow old when nobody makes a mistake?"
+      "content": "An assumption ages without anyone making a mistake"
     },
     {
       "type": "paragraph",
@@ -145,7 +145,7 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "What did Zillow pay for not answering?"
+      "content": "The cost of the three unanswered questions"
     },
     {
       "type": "paragraph",
@@ -170,15 +170,15 @@
     {
       "type": "heading",
       "level": 2,
-      "content": "The question that changes"
+      "content": "What changes in how the assumption is controlled"
     },
     {
       "type": "paragraph",
-      "content": "The usual question on budget day is whether the assumption is right. The answer only holds for that day. At Zillow, the rising-market assumption tracked the market until mid-2021 and then stopped tracking it without a single calculation changing."
+      "content": "On budget day, the usual control stops at checking whether the assumption is right. That check only holds for that day. At Zillow, the rising-market assumption tracked the market until mid-2021 and then stopped tracking it without a single calculation changing."
     },
     {
       "type": "paragraph",
-      "content": "The question that protects a company is a different one: who will notice when the assumption stops being right? It only has an answer when the assumption has an owner who answers for it, a written criterion nobody changes to hit the target and a date when someone will check it again."
+      "content": "What protects a company is something else: someone noticing when the assumption stops being right. That only happens when the assumption has an owner who answers for it, a written criterion nobody changes to hit the target and a date when someone will check it again."
     },
     {
       "type": "heading",

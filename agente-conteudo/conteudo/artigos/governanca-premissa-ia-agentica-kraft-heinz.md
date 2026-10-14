@@ -10,7 +10,7 @@ A fraude foi deliberada. Ela passou pela área de compras, pelo diretor que apro
 
 O caso importa agora porque as finanças começam a usar IA agêntica, sistemas de IA que executam tarefas por conta própria, como somar e conciliar os números de um orçamento. O risco da IA agêntica nas finanças está na governança de processo, porque a IA acelera o que o processo já faz, certo ou errado.
 
-## Quem ganhava com as economias indevidas da Kraft Heinz?
+## O incentivo por trás das economias indevidas da Kraft Heinz
 
 Antes de falar de caráter, a pergunta útil é quem ganhava o quê. O bônus dos times dependia de o EBITDA crescer 6,1%. O diretor de operações cobrava economias que levassem a empresa até essa meta. A cobrança chegava até compras, onde cada desconto registrado como economia aproximava o resultado da meta e, com ele, o bônus.
 
@@ -22,7 +22,7 @@ A conta da fraude veio depois. A empresa corrigiu US$ 208 milhões nos resultado
 
 O incentivo explica por que o número foi inflado. Ele não explica por que o número passou pela controladoria do jeito que chegou.
 
-## Por que um número chega à consolidação sem origem?
+## Um número chega à consolidação sem origem
 
 Todo número de um orçamento tem uma premissa, o motivo para acreditar nele. O número é "US$ 1 milhão de desconto". A premissa é "o fornecedor aceitou por escrito e vai abater da fatura". Quem soma só enxerga o número, a menos que alguém mande a premissa junto.
 
@@ -32,7 +32,7 @@ O caso extremo esconde o caso comum. O erro silencioso costuma ser mais frequent
 
 Agora troque a pessoa que soma por um agente de IA. Ele recebe o número do mesmo jeito, sem a premissa. E soma. O que falta nos dois casos é a mesma regra de processo.
 
-## O que é governança de processo?
+## Governança de processo: quem lançou, com base em quê e quem conferiu
 
 Governança de processo é a regra que registra, para cada número do orçamento, quem o lançou, com base em quê e quem o conferiu antes de somá-lo ao resultado.
 
@@ -45,11 +45,11 @@ Com a IA agêntica, as três perguntas continuam as mesmas. Mudam quem lança o 
 | Quem lançou o número? | A área de compras, sob pressão do diretor de operações | O agente, sem registro do que alterou |
 | Com base em quê? | Contratos que descreviam o desconto de outro jeito | Uma regra ou uma conversa que ninguém guardou |
 | Quem conferiu antes de somar? | O diretor de compras aprovou. A controladoria somou o que recebeu | Ninguém, se o agente consolida sozinho |
-| Em que ritmo? | No ritmo das pessoas, ao longo de três anos | No ritmo do agente, com mais alterações em menos tempo |
+| Ritmo | No ritmo das pessoas, ao longo de três anos | No ritmo do agente, com mais alterações em menos tempo |
 
 As três primeiras linhas mostram a mesma falha nas duas colunas. A diferença está na última: a IA repete a falha mais rápido. Se a tese está certa, a falta de governança deveria aparecer nos números de adoção da IA.
 
-## Por que só 11% das empresas colocaram a IA agêntica em produção?
+## Só 11% das empresas colocaram a IA agêntica em produção
 
 Uma pesquisa de 2025, citada pela Neurons Lab, consultoria de engenharia de IA agêntica (neurons-lab.com), mostra que 99% das empresas planejam colocar agentes de IA em produção nas finanças. Só 11% já colocaram.
 
@@ -61,9 +61,9 @@ Um banco que já fala em escala mostra o outro lado. Em janeiro de 2026, o Lloyd
 
 Agora imagine a Kraft Heinz com um agente na consolidação. O esquema durou cerca de três anos, de 2015 a 2018, no ritmo de pessoas assinando contratos. Um agente que consolida em minutos, sem rastreio da origem, teria levado o mesmo padrão ao mesmo tamanho em meses.
 
-## Onde o erro aparece primeiro?
+## Onde o erro aparece primeiro, com e sem governança
 
-Quem planeja colocar um agente nas finanças costuma perguntar se ele vai fazer a conta certa. Depois da Kraft Heinz, a pergunta que pesa mais é onde o erro vai aparecer.
+Quem planeja colocar um agente nas finanças costuma se preocupar se ele vai fazer a conta certa. Depois da Kraft Heinz, o que pesa mais é onde o erro vai aparecer.
 
 Quando cada número tem dono e registro, o erro aparece na origem, na mesa de quem lançou, antes de chegar ao resultado. Sem rastreio, ele aparece anos depois, numa auditoria, já somado a todos os outros.
 

@@ -8,7 +8,7 @@ O dado vem da pesquisa FP&A (Financial Planning & Analysis, planejamento e anál
 
 A explicação habitual é falta de tempo ou de ferramenta. O argumento aqui é outro: em muitas empresas o forecast virou o orçamento com data nova. Ninguém tem incentivo para medi-lo. Orçamento e forecast respondem a perguntas diferentes. O forecast só melhora quando alguém mede o erro dele.
 
-## Forecast e orçamento: qual é a diferença?
+## Forecast e orçamento: a diferença
 
 Imagine o diretor comercial de uma indústria que, em dezembro, assumiu perante a diretoria a meta de vendas do ano. Em maio, a carteira de pedidos mostra que a meta não fecha. O analista de finanças abre a planilha para escrever a previsão do ano. Que número ele coloca?
 
@@ -16,7 +16,7 @@ Depende da pergunta que ele está respondendo. O orçamento é um compromisso: d
 
 Quando as duas perguntas viram uma só, sobra uma resposta única. Ela pende para o lado do compromisso, porque é o compromisso que tem dono.
 
-## Por que o orçamento contamina o forecast?
+## O orçamento contamina o forecast
 
 Pergunte quem ganha o quê. O orçamento tem meta, responsável e bônus atrelado. O forecast não tem nada disso. Se a previsão honesta mostra que a meta não fecha, ajustar a previsão custa menos do que admitir a meta perdida. E muitas vezes quem escreve o forecast é a mesma pessoa que defende o orçamento na reunião de resultado. Aos poucos o forecast deixa de responder onde a empresa vai chegar e passa a responder onde ainda é defensável dizer que ela chega.
 
@@ -26,13 +26,13 @@ Com a separação, a empresa passa a ter dois números na mesa: o compromisso e 
 
 Esse desvio tem nome técnico: viés. Viés é o erro que cai sempre para o mesmo lado, mês após mês. Não se confunde com imprecisão, que é errar para cima e para baixo sem padrão. Imprecisão é ruído. Viés é sinal de que algo no processo empurra o número.
 
-## Como saber se o forecast tem viés?
+## O viés só aparece no histórico de erros
 
 Só olhando o histórico de erros. É exatamente aí que os 86% ficam cegos. Em artigo de opinião publicado no site da AFP em 28 de abril de 2026, Jason Brisbane propõe dar ao forecast uma nota de 0 a 100, montada com quatro componentes. Acurácia, o tamanho médio do erro. Viés, se o erro tem direção preferida. Volatilidade, se o erro muda muito de um mês para o outro. Persistência, se o mesmo erro se repete no mesmo lugar. A nota é uma proposta do autor, não uma norma, mas a lógica serve a qualquer equipe.
 
 Imagine um forecast com erro médio de 2%. Parece ótimo, até se descobrir que o erro é sempre otimista e sempre na mesma linha de receita. Não é problema de previsão, é de processo. E processo tem correção. Um erro aleatório de 8% incomoda mais, mas não revela nada. Um erro sistemático de 2% revela tudo.
 
-## Por que medir o erro faz o forecast aprender?
+## Medir o erro faz o forecast aprender
 
 A McKinsey recomenda, entre as frentes para melhorar o forecast, medir a efetividade com granularidade, por linha e por área, não só no total. O objetivo é descobrir qual indicador vinha sendo ignorado antes de o problema chegar ao resultado.
 
@@ -42,7 +42,7 @@ Frequência sozinha não resolve. Um rolling forecast sem medição de erro repe
 
 A própria AFP faz esse diagnóstico na edição 2026 da pesquisa: processo, habilidade e disciplina de execução não acompanharam a tecnologia. O ciclo orçamentário médio segue perto de nove semanas, sem mudança em três anos. São sintomas de um processo que produz número sem voltar para conferir o anterior.
 
-## O que o forecast sem nota custa a quem o defende?
+## O custo do forecast sem nota para quem o defende
 
 O erro também chega tarde. Quando só aparece na revisão do fim do ano, não corrige decisão nenhuma, só alimenta uma apresentação de aprendizados.
 
@@ -50,7 +50,7 @@ Há dois pontos de atenção. O primeiro é o total, que esconde as linhas: erro
 
 O segundo é a própria nota, que vale pelo que corrige. Quando serve para ajustar o modelo e as premissas, o analista mostra o erro sem receio. Quando vira pontuação de pessoas, todo mundo prevê com folga proposital. O forecast volta a esconder o que deveria mostrar.
 
-## Como começar no próximo fechamento?
+## Como começar no próximo fechamento
 
 Meça o forecast inteiro, linha por linha, a partir do próximo fechamento. Em cada um, guarde a versão do forecast daquele mês antes de atualizá-la, porque sem a versão congelada não existe erro para calcular. Compare o previsto com o realizado e registre o desvio com sinal, para cima ou para baixo, nunca em módulo. O sinal é o que revela o viés.
 

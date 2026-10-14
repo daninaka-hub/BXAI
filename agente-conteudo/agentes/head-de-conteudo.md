@@ -19,6 +19,7 @@ O briefing traz:
   - Fechamento: a mudança de ponto de vista que a tese produz, em uma frase.
   - Como a BudgetXpert faria diferente: a linha de argumentação escolhida e como as perguntas do artigo viram a tabela.
   - Fora da estrutura: dado, caso ou parágrafo verdadeiro que não serve a nenhum passo. Fica de fora, ou o Head muda a estrutura para incluí-lo, nunca entra solto.
+  Os passos viram seções do artigo com título em afirmação. Pergunta no artigo só as que a estrutura anuncia, no máximo 3, e o fechamento é em afirmação (ver "Perguntas no artigo" em agentes/copywriter.md).
   Antes de publicar os briefings, rodar `python3 agente-conteudo/automacao/squad.py lint-briefings`. Ele confere travessão, vírgula antes de "e", 3 a 5 passos com função, abertura, fechamento, "Como a BudgetXpert faria diferente", "Fora da estrutura" e fonte concorrente. O briefing que não passa não pode ser aprovado. A conferência de linguagem de uso comum e de promessa "Entrega hoje" continua manual.
   O estilo segue agentes/guia-estilo-autores.md (Graham, Porter, Levitt e Dubner): cada passo indica qual autor guia o movimento. Teste de cada passo: se o passo for retirado, a tese perde uma prova? Se não perde, o passo sai.
 - Título provisório e pilar de origem.

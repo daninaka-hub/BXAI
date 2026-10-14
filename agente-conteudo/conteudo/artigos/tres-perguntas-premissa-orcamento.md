@@ -6,7 +6,7 @@ Em fevereiro de 2021, a Zillow (zillow.com), maior plataforma de buscas imobili�
 
 O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho.
 
-## O que é uma premissa de orçamento?
+## Premissa de orçamento: a hipótese que sustenta o número
 
 Premissa de orçamento é a hipótese sobre o futuro que sustenta um número do plano. Quando alguém escreve que o custo vai subir 8% ou que a conversão de vendas vai ficar em 3%, está supondo algo sobre o mundo, não registrando um fato.
 
@@ -14,7 +14,7 @@ Premissa não é meta. A meta é o que a empresa quer atingir. A premissa é o q
 
 Na Zillow, a meta era volume de compras. A premissa, embutida no algoritmo, era a de um mercado imobiliário que seguiria em alta. Enquanto o mercado subia, a premissa e a realidade andavam juntas.
 
-## Por que uma premissa envelhece sem ninguém errar?
+## A premissa envelhece sem que ninguém erre
 
 Uma premissa envelhece de dois jeitos. Nenhum deles exige que alguém erre.
 
@@ -48,7 +48,7 @@ A data não precisa seguir o calendário fiscal. Precisa seguir a velocidade da 
 
 Aqui aparece um obstáculo prático. Revisar uma premissa costuma exigir refazer partes do orçamento. Um orçamento que leva meses para fechar não comporta uma revisão por mês, então a revisão fica para o ciclo seguinte. Na Zillow, não há registro de um gatilho para conferir se o mercado ainda subia ou se o perfil de quem aceitava as ofertas tinha mudado.
 
-## O que a Zillow pagou por não responder?
+## O custo das três perguntas sem resposta
 
 A conta das três perguntas sem resposta chegou no segundo semestre de 2021. Cada parte dela tem origem numa pergunta.
 
@@ -60,11 +60,11 @@ Sem dono da premissa, não há registro de alguém encarregado de ajustar o núm
 
 Nenhum desses custos veio de uma conta errada. Vieram de perguntas que não faziam parte do processo.
 
-## A pergunta que muda
+## O que muda no controle da premissa
 
-A pergunta de sempre, no dia do orçamento, é se a premissa está certa. A resposta só vale para aquele dia. Na Zillow, a premissa de alta acompanhou o mercado até meados de 2021 e deixou de acompanhar sem que nenhuma conta mudasse.
+No dia do orçamento, o controle costuma parar em conferir se a premissa está certa. Essa conferência só vale para aquele dia. Na Zillow, a premissa de alta acompanhou o mercado até meados de 2021 e deixou de acompanhar sem que nenhuma conta mudasse.
 
-A pergunta que protege a empresa é outra: quem vai perceber quando a premissa deixar de estar certa? Ela só tem resposta quando a premissa tem um dono que responde por ela, um critério escrito que ninguém muda para bater a meta e uma data em que alguém vai conferi-la de novo.
+O que protege a empresa é outra coisa: alguém perceber quando a premissa deixa de estar certa. Isso só acontece quando a premissa tem um dono que responde por ela, um critério escrito que ninguém muda para bater a meta e uma data em que alguém vai conferi-la de novo.
 
 ## Como a BudgetXpert faria diferente
 

@@ -6,7 +6,7 @@ Em 2013, a Target, uma das maiores redes de varejo dos Estados Unidos (target.co
 
 A suposição era simples: o modelo de loja que funcionava nos Estados Unidos funcionaria igual no Canadá, na mesma escala, no mesmo momento. Essa suposição tem nome, hipótese: uma afirmação sobre o mundo que ainda não foi confrontada com a realidade. Todo plano é feito delas. A Target as tratou como fato e assinou o compromisso inteiro antes de conferir uma só.
 
-## O que é uma hipótese dentro de um plano estratégico?
+## Hipótese dentro de um plano estratégico
 
 Uma meta diz aonde você quer chegar. Uma hipótese diz por que você acredita que vai chegar. "Crescer 15% no ano" é meta. "O cliente aceitará o novo preço sem comprar menos" é hipótese. Quase toda meta esconde uma ou mais delas. Quase nenhum plano as escreve.
 
@@ -34,7 +34,7 @@ No caso canadense, a versão em fases seria abrir 10 lojas numa única região, 
 
 Isso vale para toda meta, porque toda meta carrega uma hipótese. O único limite é de ordem: comece pelas apostas mais caras de reverter, até que todas as metas do plano tenham passado por fase.
 
-## Quem decide quando o teste falha?
+## Sem dono, o teste não acontece
 
 Aqui está um motivo frequente de o teste nunca acontecer. Na pesquisa da Deloitte (deloitte.com), rede global de auditoria e consultoria, com Chief Strategy Officers, os executivos responsáveis pela estratégia da empresa, 65% afirmam não ser donos das principais decisões estratégicas. Metade diz ter prioridades demais para o tempo disponível (fevereiro de 2026).
 
@@ -42,7 +42,7 @@ Pense em quem ganha o quê. Interromper algo já anunciado custa reputação a q
 
 Vale separar duas coisas que se confundem. Um indicador não avisa ninguém. Uma meta não se revisa sozinha. Quem confronta a hipótese com o resultado é uma pessoa com nome, numa data marcada, com autoridade para mudar a decisão.
 
-## Falta tecnologia ou falta disciplina para testar?
+## A ferramenta existe, falta disciplina para testar
 
 A AFP, Association for Financial Professionals, associação de profissionais de finanças corporativas, ouviu em 2026 profissionais de FP&A, a área de planejamento e análise financeira. Só 38% das organizações usam planejamento de cenários estruturado, a prática de montar versões alternativas do plano antes de executá-lo. Quem usa fecha o orçamento 11% mais rápido em média.
 
@@ -52,9 +52,9 @@ O dado não prova que o cenário causa a rapidez, já que empresas mais organiza
 
 Duas regras fazem o teste valer. Se nenhum resultado é capaz de cancelar a expansão, o piloto é só ensaio de implantação. E meça a premissa, não a execução: saber se as 10 lojas abriram no prazo responde sobre a obra, saber quanto vendeu cada metro quadrado responde sobre o negócio.
 
-## O que o plano da Target deveria ter perguntado
+## O que faltou ao plano da Target
 
-A pergunta de quase todo plano é quanto vamos crescer. A que faltou à Target era outra: quanto custa descobrir que estamos errados? Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
+Quase todo plano parte de quanto vamos crescer. O que faltou à Target foi saber quanto custa descobrir que estamos errados. Um plano não vale pela precisão das metas que projeta, vale pelo preço que cobra para revelar o erro.
 
 ## Como a BudgetXpert faria diferente
 

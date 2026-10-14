@@ -23,6 +23,9 @@ Subtítulo (padrão em todo artigo, nos 3 idiomas): logo depois do título, uma 
 
 Estrutura: título que nomeia o que o leitor vai aprender, sem entregar a conclusão (ver regra geral de título). Abertura explica por que o tema importa para quem lida com orçamento e planejamento. Desenvolvimento ensina a teoria em profundidade, com seções que abordam as diferentes facetas do tema (o que é, como funciona, quando aplicar, erros comuns), e encaixa o apoio como evidência ou como caso dentro dessas seções, não como um bloco solto ao final. Conclusão com a mudança de ponto de vista só quando traz algo que o texto ainda não disse (ver item de concisão na revisão de coerência). Por último, a seção da BudgetXpert descrita no Passo 1.5.
 
+## Perguntas no artigo (regra de 14/10, pedido do Daniel)
+Não encher o artigo de perguntas. As únicas perguntas do texto são as que o próprio artigo anuncia e responde, no máximo 3 (exemplo do Artigo 1: quem definiu, com que critério, quando será revista). Cada uma ganha o título "Pergunta N: ...". Todos os outros títulos de seção são afirmações ("Premissa de orçamento: a hipótese que sustenta o número", não "O que é uma premissa de orçamento?"). O fechamento é em afirmação e não termina em pergunta. O título do artigo pode ser pergunta (regra de título). A coluna "Pergunta" da tabela da BudgetXpert só retoma as perguntas do artigo, sem criar outras. O lint bloqueia título de seção em pergunta fora do padrão "Pergunta N" e pergunta no fechamento, nos três idiomas.
+
 ## Passo 1.5: seção final com a BudgetXpert
 Todo artigo termina com a seção "Como a BudgetXpert faria diferente", sem parágrafo de fechamento depois da tabela (decisão de Daniel em 06/10: a tabela já explica tudo). É a solução do problema que o artigo mostrou, dita de forma limpa, sem venda forçada.
 - Lugar: depois da conclusão de mudança de ponto de vista e antes da linha de fonte. A seção termina com a linha do link: [budgetxpert.ai](https://www.budgetxpert.ai), em uma frase curta (ex: "Mais em [budgetxpert.ai](https://www.budgetxpert.ai)."), que varia entre artigos.
@@ -97,8 +100,8 @@ Para pt, en e es, preencher o bloco seo com estes campos e ajustar o texto do ar
 - entidades: empresas, pessoas, conceitos e fontes citados no artigo, com o nome exato usado no texto.
 - excerpt: até 200 caracteres, o resumo que aparece no card do artigo no blog. Não repete a meta descrição.
 - neste_artigo: uma frase que lista, em ordem, o que o leitor vai ver (alimenta o destaque "Neste artigo" logo depois do primeiro parágrafo). Sem vírgula seguida de "e" no português.
-As melhorias de SEO e GEO são aplicadas no texto do artigo (palavra-chave, definição no começo, subtítulos em forma de pergunta, dado com fonte e ano). O bloco seo é o relatório para conferência. O FAQ fica só no relatório e nunca entra no fim do artigo.
-Para GEO, o artigo também precisa ter: definição do conceito central em uma frase direta logo no começo, dado com fonte e ano no corpo do texto, ao menos um subtítulo "##" formulado como a pergunta que o leitor faria, e frases afirmativas e completas no lugar de referências vagas.
+As melhorias de SEO e GEO são aplicadas no texto do artigo (palavra-chave, definição no começo, definição de termos em afirmação, dado com fonte e ano). O bloco seo é o relatório para conferência. O FAQ fica só no relatório e nunca entra no fim do artigo.
+Para GEO, o artigo também precisa ter: definição do conceito central em uma frase direta logo no começo, dado com fonte e ano no corpo do texto, subtítulos "##" em afirmação (ver "Perguntas no artigo"), e frases afirmativas e completas no lugar de referências vagas.
 
 Gravar tudo em um único arquivo agente-conteudo/conteudo/idiomas/{SLUG}.json, neste formato:
 {"pt": {"seo": {...}}, "en": {"titulo": "...", "artigo": "texto em markdown, sem o título", "post": "...", "roteiro": "...", "seo": {...}}, "es": {mesma estrutura de en}}
@@ -133,7 +136,7 @@ Depois da revisão de estilo, uma revisão de coesão, para o texto formar um ra
 
 Depois da revisão de coesão, uma revisão de coerência entre parágrafos e seções (aprendida na revisão dos Artigos 1 a 4, em 06/10). Cada item abaixo foi um erro real:
 - Uma causa só. A explicação da abertura é a mesma da conclusão. Se uma seção traz outra causa (por exemplo, o tempo numa seção e o uso na seguinte), abrir com uma frase de ponte que diga isso.
-- Cada seção responde à pergunta do próprio título. Dado ou parágrafo que não fala disso é cortado ou ligado ao tema da seção.
+- Cada seção cumpre a função do próprio título. Dado ou parágrafo que não fala disso é cortado ou ligado ao tema da seção.
 - Nenhuma frase contradiz outra. Antes de afirmar "ninguém olhou", "não calculou errado" ou "não havia regra", conferir se outro trecho do artigo (um caso, uma fala do CEO) diz o contrário.
 - Causa e efeito corretos. Não atribuir um efeito a uma causa que o próprio texto já explicou de outro jeito (por exemplo, "demorou porque somavam devagar" quando a causa é a falta de rastreio).
 - Termo definido na primeira menção, mesmo na abertura, em meia frase. Nunca usar um conceito antes de apresentá-lo.
