@@ -24,23 +24,23 @@
  "1": {
   "titulo": "Uma premissa pode nascer certa e envelhecer errada sem que ninguém decida nada errado, por isso toda premissa precisa de dono, critério e data de revisão.",
   "etapas": {
-   "escrita": "andamento",
-   "revisao": "pendente",
+   "escrita": "ok",
+   "revisao": "andamento",
    "github": "pendente",
    "pagina": "pendente"
   },
   "msg": "",
-  "quando": "2026-10-14T13:16-03:00"
+  "quando": "2026-10-14T13:25-03:00"
  },
  "2": {
   "titulo": "O risco da IA agêntica nas finanças é a governança de processo, porque a IA acelera o que o processo já faz, certo ou errado.",
   "etapas": {
-   "escrita": "andamento",
-   "revisao": "pendente",
+   "escrita": "ok",
+   "revisao": "andamento",
    "github": "pendente",
    "pagina": "pendente"
   },
   "msg": "",
-  "quando": "2026-10-14T13:16-03:00"
+  "quando": "2026-10-14T13:25-03:00"
  }
 }
