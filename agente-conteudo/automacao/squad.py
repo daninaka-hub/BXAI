@@ -89,6 +89,45 @@ def atualizar_titulo(codigo, titulo):
             t = t.replace(ln, ln.replace(f"| {c[1]} |", f"| {titulo} |", 1), 1)
     p.write_text(t, encoding="utf-8")
 
+def lint_briefings():
+    """Confere todos os briefings de decisoes-pauta.md contra as regras do Head. Devolve a lista de problemas."""
+    erros = []
+    for _, c in tabela(CONT / "decisoes-pauta.md"):
+        rot = f"semana {c[0]} artigo {c[1]}"
+        for i, cel in enumerate(c):
+            if re.search(r"[\u2014\u2013]", cel):
+                erros.append(f"{rot}: travessão na coluna {i + 1}")
+            if ", e " in cel:
+                erros.append(f"{rot}: vírgula antes de 'e' na coluna {i + 1}")
+            if "Jedox" in cel and "Anterior" not in c[6]:
+                erros.append(f"{rot}: cita Jedox, fonte concorrente direta")
+            if "Project Ketchup" in cel and c[1] == "1" and c[0] == "2026-10-01":
+                erros.append(f"{rot}: cita Project Ketchup")
+        tese, est = c[5], c[6]
+        if not tese or tese.lower() == "a definir":
+            erros.append(f"{rot}: sem tese")
+        if est.lower() == "anterior à regra" or est.lower() == "a definir":
+            erros.append(f"{rot}: sem estrutura de raciocínio")
+            continue
+        passos = re.findall(r"(?:^| / )(\d)\. ", est)
+        if not 3 <= len(passos) <= 5:
+            erros.append(f"{rot}: {len(passos)} passos, o certo é de 3 a 5")
+        if not est.startswith("Abertura"):
+            erros.append(f"{rot}: não começa com Abertura")
+        for marca in ("Fechamento:", "Como a BudgetXpert faria diferente:", "Fora da estrutura:"):
+            if marca not in est:
+                erros.append(f"{rot}: falta '{marca}'")
+        partes = est.split(" / ")
+        for parte in partes:
+            if re.match(r"\d\. ", parte) and "Função:" not in parte:
+                erros.append(f"{rot}: passo sem Função: {parte[:40]}")
+        if "Seção BudgetXpert" in est:
+            erros.append(f"{rot}: rótulo antigo 'Seção BudgetXpert'")
+    return erros
+
+def _bloqueio(semana, num):
+    return [e for e in lint_briefings() if e.startswith(f"semana {semana} artigo {num}:")]
+
 def aprovar(titulo):
     """Aplica uma aprovação vinda do botão da página (título da issue). Devolve a mensagem do resultado."""
     m = re.fullmatch(r"Aprovar briefing: (?:Artigo )?(\d+)(?: \(reescrita\))? \(semana (\S+)\)", titulo.strip())
@@ -96,6 +135,9 @@ def aprovar(titulo):
         num, semana = m.group(1), m.group(2)
         for ln, c in tabela(CONT / "decisoes-pauta.md"):
             if c[0] == semana and c[1] == num:
+                bl = _bloqueio(semana, num)
+                if bl and c[-1] != "Sim":
+                    return "Briefing não aprovado, fora das regras: " + "; ".join(bl)
                 if c[-1] == "Pendente":
                     marcar(ln, "Sim", "Pendente"); return f"Briefing {num} da semana {semana} aprovado. O Copywriter escreve em seguida."
                 r = re.fullmatch(r"Estrutura pendente \(Artigo (\d+)\)", c[-1])
@@ -985,6 +1027,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "listar":
         print(json.dumps(listar(), ensure_ascii=False))
+    elif cmd == "lint-briefings":
+        e = lint_briefings(); print("\n".join(e) if e else "briefings ok"); sys.exit(1 if e else 0)
     elif cmd == "aprovar":
         print(aprovar(sys.argv[2]))
     elif cmd == "lint":
