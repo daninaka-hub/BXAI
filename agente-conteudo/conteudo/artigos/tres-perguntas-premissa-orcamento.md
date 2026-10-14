@@ -4,7 +4,7 @@
 
 Em fevereiro de 2021, a Zillow (zillow.com), maior plataforma de buscas imobiliárias dos Estados Unidos, passou a comprar casas pelo preço que o seu algoritmo calculava. Até então, esse algoritmo, um programa que estima quanto vale cada imóvel, servia só de referência. Naquele mês, a estimativa virou oferta de compra vinculante: a empresa se obrigava a pagar o valor calculado. Em 2021, a Zillow Offers, divisão que comprava e revendia as casas, perdeu US$ 881 milhões, segundo a Shackleford, consultoria de liderança em IA (inteligência artificial).
 
-O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho. Por isso ela precisa de três respostas: quem a definiu, com que critério e quando será revista.
+O cálculo funcionava como foi projetado. O que falhou foi uma premissa de orçamento, a hipótese sobre o futuro em que cada compra se apoiava. E ela não falhou porque alguém errou uma conta. Uma premissa pode estar certa no dia em que é definida e errada meses depois, sem que ninguém tenha decidido mal no caminho. Por isso, para definir corretamente uma premissa são necessárias 3 respostas: quem a definiu, com que critério e quando será revista.
 
 ## O que é uma premissa de orçamento?
 
