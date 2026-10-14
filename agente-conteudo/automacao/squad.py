@@ -607,7 +607,7 @@ def html_resumo(linhas):
     m = metricas()
     ag_falhou = [AGENTES[k][0] for k in AGENTES if (ler_status(k) or {}).get("resultado") == "falhou"]
     ag_rodando = [AGENTES[k][0] for k in AGENTES if (ler_status(k) or {}).get("resultado") == "executando"]
-    validar = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas if c[5] == "Em validação"), reverse=True)
+    validar = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas if c[5] == "Em validação"))
     prod = {}
     pj = STATUS / "producao.json"
     if pj.exists():
