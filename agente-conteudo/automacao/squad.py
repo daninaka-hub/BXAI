@@ -601,10 +601,22 @@ def html_briefings():
         if tese.lower() == "a definir":
             tese = ""
         pend = ap == "Pendente"
+        rew = re.match(r"Estrutura pendente \(Artigo (\d+)\)", ap)
+        if rew:
+            pend = True
         selo = "Aguardando sua aprovação" if pend else ("Aprovado, na fila do Copywriter" if ap == "Sim" else esc(ap))
+        if rew:
+            titulo_art = next((x[1] for _, x in indice() if x[0] == f"Artigo {rew.group(1)}"), "")
+            c = list(c)
+            c[1] = f"Artigo {rew.group(1)} (reescrita)"
+            selo = "Aguardando sua aprovação"
+        else:
+            titulo_art = ""
+
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">Briefing {esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span></div>'
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span></div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
+                     + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
                      + (f'<div class="bf-linha"><b>Estrutura de raciocínio:</b><ol class="bf-est">' + "".join(f"<li>{esc(x.strip())}</li>" for x in c[6].split(" / ")) + '</ol></div>' if len(c) > 7 and c[6].lower() not in ("a definir", "anterior à regra") else "")
                      + '</div>')
