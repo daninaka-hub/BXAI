@@ -61,10 +61,11 @@ Linguagem falada, não lida. Frases curtas, como alguém explicando o achado par
 Depois do post e do roteiro, escrever a sugestão de arte em conteudo/artes/ (mesmo nome de arquivo do artigo). O formato é o definido pelo Daniel em 14/10: imagem horizontal de 1600 por 900 pixels, fundo navy em degradê, a marca "BudgetXpert Insights" no alto à esquerda, uma ilustração simples à esquerda e um cartão branco com lista à direita. A imagem não leva frase do artigo, dado, fonte nem logo de terceiros. O arquivo segue exatamente este formato:
 - Primeira linha: "# Sugestão de arte, Artigo N".
 - "Formato:" 1600 por 900 pixels (horizontal, 16:9, blog e LinkedIn).
+- "Arquivo:" o caminho da capa que o JSON do blog usa, /blog-media/<slug_url do seo em pt>-capa.webp, seguido de "(salvar a imagem gerada com este nome, em WebP)". Daniel gera a imagem em outra ferramenta a partir do prompt, o Copywriter não gera imagem.
 - "Ilustração:" o elemento visual que remete ao tema do artigo (gráfico de linha, colunas, fluxo, grade de quadrados, linha do tempo), sem texto. Antes de escrever, olhar as artes já feitas em conteudo/artes/ e escolher uma ilustração diferente de todas elas.
 - "Composição:" ilustração à esquerda ocupando dois terços da largura, cartão com lista à direita, marca no alto à esquerda como único texto.
 - "Paleta e tipografia:" navy 062D3E de fundo, teal 19B09F de destaque, branco para o cartão e a marca, Arial.
-- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (formato, fundo, marca, ilustração, cartão, cores).
+- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (formato, fundo, marca, ilustração, cartão, cores) e termina com "Exportar em WebP."
 Regras: sem texto além de "BudgetXpert Insights", sem logo de terceiros, sem travessão, sem vírgula seguida de "e".
 
 ## Regras de marca
