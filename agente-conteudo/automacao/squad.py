@@ -746,7 +746,7 @@ def html_briefings():
 
 def html_indice(linhas, titulo="Índice dos artigos"):
     itens = []
-    for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
+    for _, c in sorted(linhas, key=lambda x: int(re.search(r"\d+", x[1][0]).group())):
         cod, titulo, pilar, status, arquivo = c[0], c[1], c[2], c[5], c[6]
         slug = pathlib.Path(arquivo).stem
         n = int(re.search(r"\d+", cod).group())
@@ -1007,7 +1007,7 @@ def gerar_pagina():
     codigos = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas), reverse=True)
     aprovar = [c for _, c in linhas if c[5] != "Aprovado"]
     abertos = set(sorted((int(re.search(r"\d+", c[0]).group()) for c in aprovar), reverse=True)[:2])
-    for _, c in sorted(linhas, key=lambda x: -int(re.search(r"\d+", x[1][0]).group())):
+    for _, c in sorted(linhas, key=lambda x: int(re.search(r"\d+", x[1][0]).group())):
         cod, titulo, pilar, status, arquivo = c[0], c[1], c[2], c[5], c[6]
         slug = pathlib.Path(arquivo).stem
         n = int(re.search(r"\d+", cod).group())
