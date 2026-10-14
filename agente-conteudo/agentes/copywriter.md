@@ -65,7 +65,7 @@ Depois do post e do roteiro, escrever a sugestão de arte em conteudo/artes/ (me
 - "Ilustração:" o elemento visual que remete ao tema do artigo (gráfico de linha, colunas, fluxo, grade de quadrados, linha do tempo), sem texto. Antes de escrever, olhar as artes já feitas em conteudo/artes/ e escolher uma ilustração diferente de todas elas.
 - "Composição:" ilustração à esquerda ocupando dois terços da largura, cartão com lista à direita, marca no alto à esquerda como único texto.
 - "Paleta e tipografia:" navy 062D3E de fundo, teal 19B09F de destaque, branco para o cartão e a marca, Arial.
-- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (formato, fundo, marca, ilustração, cartão, cores) e termina com "Exportar em WebP."
+- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (formato, fundo, marca, ilustração, cartão, cores) e termina com "Exportar em WebP com o nome de arquivo <slug_url>-capa.webp." O nome do arquivo precisa estar dentro do parágrafo do prompt, porque o botão do painel copia só o prompt
 Regras: sem texto além de "BudgetXpert Insights", sem logo de terceiros, sem travessão, sem vírgula seguida de "e".
 
 ## Regras de marca
