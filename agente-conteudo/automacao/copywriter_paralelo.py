@@ -90,9 +90,19 @@ def main():
     try:
         os.mkdir(lock)
     except FileExistsError:
-        if time.time() - lock.stat().st_mtime < 4 * 3600:
+        # Trava velha: o processo que a criou morreu (reinstalação, Mac dormiu, queda). Só vale se o pid ainda existe.
+        vivo = False
+        try:
+            pid = int((lock / "pid").read_text().strip())
+            os.kill(pid, 0)
+            vivo = True
+        except (OSError, ValueError):
+            vivo = False
+        if vivo and time.time() - lock.stat().st_mtime < 4 * 3600:
             return
+        log("trava antiga removida (processo anterior não existe mais)")
         shutil.rmtree(lock, ignore_errors=True); os.mkdir(lock)
+    (lock / "pid").write_text(str(os.getpid()))
     try:
         if not (REPO / ".git").exists():
             return
