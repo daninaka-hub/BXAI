@@ -1,11 +1,9 @@
 # Sugestão de arte, Artigo 3
 
-Formato: 1080 por 1350 pixels (retrato, LinkedIn).
-Frase de destaque: Em maio, a meta de vendas não fechava. Que número o financeiro escreve na previsão?
-Dado central: 14% medem a acurácia do forecast, 86% não medem
-Composição: Grade de 100 quadrados (10 por 10, estilo waffle) no lado esquerdo, com 14 em teal e 86 em tom neutro do navy. Frase de destaque no lado direito, alinhada ao centro vertical, com a legenda curta "Só 14% medem o erro do próprio forecast" sob a grade. Divisão em duas colunas.
-Paleta e tipografia: navy 062D3E de fundo, teal 19B09F de destaque, branco para texto, Arial.
-Fonte na imagem: AFP (financialprofessionals.org), pesquisa FP&A Benchmarking Survey 2026
+Formato: 1600 por 900 pixels (horizontal, 16:9, blog e LinkedIn).
+Ilustração: Duas linhas no mesmo gráfico, uma reta (orçamento) e outra que se ajusta mês a mês (forecast), ao lado de um cartão de versões.
+Composição: ilustração à esquerda ocupando dois terços da largura e cartão com lista à direita. A marca "BudgetXpert Insights" no alto à esquerda é o único texto.
+Paleta e tipografia: navy 062D3E de fundo, teal 19B09F de destaque, branco para o cartão e a marca, Arial.
 
 Prompt:
-Fundo navy. Na coluna da esquerda, uma grade 10 por 10 de quadrados pequenos: 14 em teal e 86 em azul acinzentado discreto, com a legenda "Só 14% medem o erro do próprio forecast" em branco, Arial, abaixo da grade. Na coluna da direita, a frase "Em maio, a meta de vendas não fechava. Que número o financeiro escreve na previsão?" em branco, Arial bold, com "maio" em teal. Rodapé com a fonte AFP (financialprofessionals.org), pesquisa de 2026. Sem logo de terceiros, sem travessão, sem texto além do indicado.
+Imagem horizontal de 1600 por 900 pixels. Fundo em degradê vertical suave de navy 062D3E no topo para um navy um pouco mais claro na base. No alto à esquerda, a marca "BudgetXpert Insights" em Arial bold, com "BudgetXpert" em branco e "Insights" em teal 19B09F. Lado esquerdo, dois terços da largura: gráfico com linhas de grade finas. Uma linha reta tracejada em branco e uma linha teal com doze pontos que se afasta e se aproxima da reta, mês a mês. Abaixo, doze barras finas teal translúcidas mostrando a diferença entre as duas linhas. Lado direito, um terço da largura: cartão branco de cantos arredondados com uma barra navy no alto e quatro linhas empilhadas como versões, a primeira com ponto teal e as outras com ponto navy, cada uma com uma barra navy de comprimento diferente. Nenhum outro texto, número ou logo na imagem. Cantos arredondados, sombra suave no cartão, estilo limpo e plano.

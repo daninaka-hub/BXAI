@@ -57,17 +57,15 @@ A partir do artigo pronto, escrever o roteiro de um vídeo de até 1 minuto em c
 Formato: marcação de tempo aproximada por bloco (ex: 0-3s, 3-15s) e texto a ser falado em cada bloco. Fechamento do vídeo com a mesma chamada do post, para o artigo completo.
 Linguagem falada, não lida. Frases curtas, como alguém explicando o achado para outra pessoa, não narrando um texto escrito.
 
-## Passo 2.7: sugestão de arte para o post
-Depois do post e do roteiro, escrever a sugestão de arte em conteudo/artes/ (mesmo nome de arquivo do artigo), para o Designer montar a imagem do post. O arquivo segue exatamente este formato:
+## Passo 2.7: sugestão de arte
+Depois do post e do roteiro, escrever a sugestão de arte em conteudo/artes/ (mesmo nome de arquivo do artigo). O formato é o definido pelo Daniel em 14/10: imagem horizontal de 1600 por 900 pixels, fundo navy em degradê, a marca "BudgetXpert Insights" no alto à esquerda, uma ilustração simples à esquerda e um cartão branco com lista à direita. A imagem não leva frase do artigo, dado, fonte nem logo de terceiros. O arquivo segue exatamente este formato:
 - Primeira linha: "# Sugestão de arte, Artigo N".
-- "Formato:" 1080 por 1350 pixels (retrato, LinkedIn).
-- "Frase de destaque:" o gancho da primeira linha do post, igual.
-- "Dado central:" o número ou achado que a imagem mostra.
-- "Composição:" tipo de gráfico ou elemento visual (comparação, proporção, evolução) e a divisão do espaço. Antes de escrever, olhar as artes já feitas em conteudo/artes/ e escolher uma composição diferente de todas elas.
-- "Paleta e tipografia:" navy 062D3E de fundo, teal 19B09F de destaque, branco para texto, Arial.
-- "Fonte na imagem:" a fonte do dado, com o site da empresa quando for outra empresa.
-- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (fundo, elementos, posição, texto exato, cores).
-Regras: sem logo de terceiros, sem travessão, sem vírgula seguida de "e", sem texto longo dentro da imagem.
+- "Formato:" 1600 por 900 pixels (horizontal, 16:9, blog e LinkedIn).
+- "Ilustração:" o elemento visual que remete ao tema do artigo (gráfico de linha, colunas, fluxo, grade de quadrados, linha do tempo), sem texto. Antes de escrever, olhar as artes já feitas em conteudo/artes/ e escolher uma ilustração diferente de todas elas.
+- "Composição:" ilustração à esquerda ocupando dois terços da largura, cartão com lista à direita, marca no alto à esquerda como único texto.
+- "Paleta e tipografia:" navy 062D3E de fundo, teal 19B09F de destaque, branco para o cartão e a marca, Arial.
+- Uma linha "Prompt:" seguida de um parágrafo único, pronto para colar numa ferramenta de imagem, que descreve a arte inteira (formato, fundo, marca, ilustração, cartão, cores).
+Regras: sem texto além de "BudgetXpert Insights", sem logo de terceiros, sem travessão, sem vírgula seguida de "e".
 
 ## Regras de marca
 A proposta de valor da BudgetXpert é "raciocínio atrás de cada premissa, menos tempo e mais controle", inteiramente governado. Nenhuma parte do artigo, do post ou do roteiro, e principalmente nenhuma conclusão ou seção de custo, pode conter argumento contrário a ela. É proibido escrever que governar premissas atrasa o ciclo, deixa o orçamento mais lento, dá trabalho extra, exige esforço heroico ou burocracia, que governar "tem uma ressalva" ou que a governança não garante resultado, que alguma premissa, número ou controle "não se aplica", "pode seguir sem" ou "não vale a pena" governar. O custo que entra no texto é sempre o custo de NÃO governar (o que o erro custou ao caso), nunca o custo de governar. O único limite admitido é de ordem (por onde começar), nunca de escopo. Teste antes de entregar: se um vendedor concorrente pudesse citar o parágrafo contra a BudgetXpert, reescrever.

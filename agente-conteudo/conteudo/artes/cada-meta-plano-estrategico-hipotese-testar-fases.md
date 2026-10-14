@@ -1,11 +1,9 @@
 # Sugestão de arte, Artigo 4
 
-Formato: 1080 por 1350 pixels (retrato, LinkedIn).
-Frase de destaque: A Target abriu 133 lojas no Canadá sem testar nenhuma antes.
-Dado central: 133 lojas abertas de uma vez, todas fechadas em 2015
-Composição: Grade de 133 quadrados pequenos ocupando a metade superior, centralizada, todos em teal. Um único quadrado em branco destacado como a loja que deveria ter sido o teste. Frase de destaque centralizada na metade inferior.
-Paleta e tipografia: navy 062D3E de fundo, teal 19B09F de destaque, branco para texto, Arial.
-Fonte na imagem: Panorama Consulting (panorama-consulting.com)
+Formato: 1600 por 900 pixels (horizontal, 16:9, blog e LinkedIn).
+Ilustração: Grade de quadrados pequenos com um quadrado em destaque (o teste), ao lado de um cartão de hipóteses.
+Composição: ilustração à esquerda ocupando dois terços da largura e cartão com lista à direita. A marca "BudgetXpert Insights" no alto à esquerda é o único texto.
+Paleta e tipografia: navy 062D3E de fundo, teal 19B09F de destaque, branco para o cartão e a marca, Arial.
 
 Prompt:
-Fundo navy. Na metade superior, uma grade centralizada de 133 quadrados pequenos em teal, com um único quadrado em branco no canto superior esquerdo, com a legenda "1 teste". Na metade inferior, centralizada, a frase "A Target abriu 133 lojas no Canadá sem testar nenhuma antes." em branco, Arial bold. Rodapé com a fonte Panorama Consulting (panorama-consulting.com). Sem logo de terceiros, sem travessão, sem texto além do indicado.
+Imagem horizontal de 1600 por 900 pixels. Fundo em degradê vertical suave de navy 062D3E no topo para um navy um pouco mais claro na base. No alto à esquerda, a marca "BudgetXpert Insights" em Arial bold, com "BudgetXpert" em branco e "Insights" em teal 19B09F. Lado esquerdo, dois terços da largura: grade de 10 por 6 quadrados pequenos de cantos arredondados em teal, com um único quadrado branco em destaque, no canto superior esquerdo, com um halo teal. Lado direito, um terço da largura: cartão branco de cantos arredondados com uma barra navy no alto e quatro linhas, cada uma com um ponto (teal, navy, navy, navy) e uma barra navy de comprimento diferente. Nenhum outro texto, número ou logo na imagem. Cantos arredondados, sombra suave no cartão, estilo limpo e plano.

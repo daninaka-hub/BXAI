@@ -954,7 +954,7 @@ def html_arte(slug):
         return ""
     t = p.read_text(encoding="utf-8")
     prompt = t.split("Prompt:", 1)[1].strip() if "Prompt:" in t else ""
-    campos = re.findall(r"^(Formato|Frase de destaque|Dado central|Composição|Paleta e tipografia|Fonte na imagem):\s*(.+)$", t, flags=re.M)
+    campos = re.findall(r"^(Formato|Ilustração|Composição|Paleta e tipografia):\s*(.+)$", t, flags=re.M)
     linhas = "".join(f'<div class="arte-linha"><b>{esc(k)}:</b> {esc(v)}</div>' for k, v in campos)
     return (f'<div class="section-label">Sugestão de arte</div><div class="arte-box">{linhas}'
             f'<div class="arte-prompt"><div class="arte-top"><b>Prompt</b><button type="button" class="copiar">Copiar prompt</button></div><p>{esc(prompt)}</p></div></div>')
