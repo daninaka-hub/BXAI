@@ -8,6 +8,7 @@ concurrency:
 permissions:
   contents: write
   issues: write
+  actions: write
 jobs:
   aprovar:
     if: github.event.issue.user.login == 'daninaka-hub' && startsWith(github.event.issue.title, 'Aprovar ')
@@ -27,5 +28,6 @@ jobs:
           git add -A agente-conteudo
           git commit -m "Aprovação pelo painel: $TITULO" || true
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break || sleep 3; done
+          gh workflow run pages.yml || true
           gh issue comment "$NUM" --body "$RES"
           gh issue close "$NUM"
