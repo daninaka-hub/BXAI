@@ -121,3 +121,23 @@ Data de coleta: 2026-10-14
 Fonte: Bain & Company, "RAPID decision making" (13/10/2023).
 Link: https://www.bain.com/insights/rapid-decision-making/
 Data de coleta: 2026-10-14
+
+No encontro de fim de 2025 da rede de CAOs e controllers da Fortune 100 do EY Center for Executive Leadership (30 empresas), a conclusão foi que a IA não resolve a falta de talentos no curto prazo, porque menos gente entra na profissão e as aposentadorias aumentam. A saída apontada é reforçar o pipeline, usar matrizes de competências e investir em requalificação. As mudanças estaduais no licenciamento de CPA viraram um mosaico de regras visto como barreira para recrutar e reter; a página cita a CFO Dive (jan/2026) dizendo que quase metade dos estados eliminou ou revisou a exigência de 150 horas de créditos. Ressalva: conteúdo de consultoria e amostra de 30 empresas, sem valor estatístico.
+Fonte: EY, "How CAOs and controllers are forging the future of finance" (Myles Corson, 17/04/2026).
+Link: https://www.ey.com/en_us/ey-center-for-executive-leadership/leading-through-finance-transformation
+Data de coleta: 2026-10-15
+
+Jack McCullough, fundador do CFO Leadership Council e do MIT Sloan CFO Summit, diz que o papel do CFO deixou o back-office e virou estratégico, num movimento acelerado pela crise de 2008, pela disrupção digital e pela COVID. Ele chama o CFO de cargo mais transversal da empresa e diz que mais ex-CFOs estão chegando a CEO. O Council oferece mais de 250 programas por ano, poucos sobre contabilidade ou impostos; a maioria trata de digitalização, tecnologia, estratégia e liderança. Ressalva: opinião de um autor em texto promocional de 2021, sem pesquisa.
+Fonte: MIT Sloan Executive Education, "Jack McCullough is Helping CFOs Rise to the Occasion" (17/05/2021).
+Link: https://executive.mit.edu/jack-mccullough-is-helping-cfos-rise-to-the-occasion-MCGVOKTD77UNHH5EXEKYHJOLIQZ4.html
+Data de coleta: 2026-10-15
+
+No Finance Trends 2027, a Deloitte ouviu 1.434 líderes financeiros de 26 países na primavera de 2026, 38% CFOs e 62% um nível abaixo, todos em empresas com receita de US$ 1 bilhão ou mais. O escopo do CFO se amplia: 54% assumiram responsabilidade pela alocação de capital em IA e tecnologia na empresa toda, 48% pela confiança em IA e 48% pela supervisão de gastos e custos de IA e tecnologia. Entre as prioridades até o ano fiscal de 2027, incorporar IA para automatizar operações lidera com 43%, seguida de eficiência de custos (34%), alocação de capital (33%) e influência estratégica de finanças (32%). Ressalva: amostra só de grandes empresas e relatório de consultoria.
+Fonte: Deloitte Insights, "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value" (08/09/2026).
+Link: https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html
+Data de coleta: 2026-10-15
+
+[Teórico] Em The First 90 Days (2003), Michael Watkins organiza a chegada de um novo líder em torno de chegar o quanto antes ao ponto de equilíbrio, o momento em que a pessoa já entregou à organização tanto valor quanto consumiu. O modelo STARS diagnostica a situação herdada em cinco tipos: início, virada, crescimento acelerado, realinhamento e manutenção do sucesso, que podem coexistir. Do diagnóstico sai a escolha entre mudança ousada ou gradual. As ações recomendadas incluem aprender antes de agir, checar o alinhamento entre estratégia, estrutura, processos e competências, combinar expectativas com o chefe, avaliar o time com critérios consistentes, buscar vitórias rápidas alinhadas às prioridades do chefe e construir coalizões. Ressalvas: o resumo vem de site de resumos de livros, e resenha da Stanford Social Innovation Review aponta pouca conexão explícita com pesquisa.
+Fonte: Shortform, "The First 90 Days: Book Overview" (2021); Stanford Social Innovation Review, "The First 90 Days" (2004).
+Link: https://www.shortform.com/blog/the-first-90-days-book/ e https://ssir.org/articles/entry/review_the_first_90_days
+Data de coleta: 2026-10-15

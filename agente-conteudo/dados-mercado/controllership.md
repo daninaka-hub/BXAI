@@ -201,3 +201,33 @@ Data de coleta: 2026-10-14
 Fonte: ACFE, "Fraud 101: What Is Fraud?" (sem data); Elizabeth Mohn, "Fraud triangle", EBSCO Research Starters (2022).
 Link: https://www.acfe.com/fraud-triangle e https://www.ebsco.com/research-starters/law/fraud-triangle/
 Data de coleta: 2026-10-14
+
+No encontro de fim de 2025 da rede de CAOs e controllers da Fortune 100 organizado pelo EY Center for Executive Leadership (30 empresas), as enquetes mostraram que muitas empresas ainda estão experimentando IA, o que sugere que a sensação de atraso em relação aos pares exagera a velocidade real de adoção. Os gráficos das enquetes não trazem valores numéricos. A EY recomenda três ações: um framework de IA responsável com guardrails e pontos de supervisão humana; um plano de competências que una profundidade contábil, analytics e comunicação; e escalar a IA em reporte, forecast, fechamento e documentação técnica, com validação formal dos resultados e medição de ganho de prazo e qualidade. Entre as práticas citadas estão validação cruzada por múltiplos agentes para reduzir alucinação e revisão humana do que a IA produz. Ressalva: conteúdo de consultoria, sem amostra estatística.
+Fonte: EY, "How CAOs and controllers are forging the future of finance" (Myles Corson, 17/04/2026), publicado na URL "Leading through finance transformation".
+Link: https://www.ey.com/en_us/ey-center-for-executive-leadership/leading-through-finance-transformation
+Data de coleta: 2026-10-15
+
+A WNS, prestadora de serviços de processos que promove a própria plataforma, propõe aplicar agentes de IA ao record-to-report em três níveis: atividades padronizadas e de baixo risco totalmente autônomas, áreas de julgamento com humano no circuito e eventos complexos e não recorrentes sob controle humano. O modelo cobre quatro frentes: lançamentos e conciliação feitos pela IA, detecção contínua de anomalias, fechamento orquestrado e sempre ativo, e relatórios com comentário pronto para auditoria. A conclusão é que a IA agêntica amplifica o modelo operacional existente: sem processos padronizados, controles mapeados e dados limpos, ela aumenta inconsistência e risco. Ressalva: os dois casos citados, de hotelaria e de uma rede de escolas, descrevem só o ponto de partida (por exemplo, US$ 1,4 bi de razão não conciliado e fechamento acima de 8 dias), sem resultado medido.
+Fonte: WNS, "How Agentic AI is Transforming Record-to-Report into Continuous Controllership" (Nikunj Sharma, 15/06/2026).
+Link: https://www.wns.com/perspectives/articles/how-agentic-ai-is-transforming-record-to-report-into-continuous-controllership
+Data de coleta: 2026-10-15
+
+O Controllers Council lista quatro riscos de usar IA em decisões financeiras: precisão do modelo e integridade dos dados, falta de transparência de modelos tipo caixa-preta, cibersegurança e privacidade, e viés herdado dos dados de treino. Para mitigar, recomenda quatro passos: um quadro estruturado de risco, governança de IA com papéis claros e participação de finanças, TI e compliance, auditoria frequente dos modelos e treinamento da equipe. Na auditoria, a sugestão é comparar as saídas da IA com métricas tradicionais e com a conclusão de analistas experientes diante dos mesmos dados. Ressalva: texto de orientação, sem estatística nem pesquisa.
+Fonte: Controllers Council, "How Controllers Can Manage Financial Risk From AI-Driven Decision-Making" (04/03/2025).
+Link: https://controllerscouncil.org/how-controllers-can-manage-financial-risk-from-ai-driven-decision-making/
+Data de coleta: 2026-10-15
+
+A Citrin Cooperman, firma de contabilidade e consultoria que oferece o serviço, propõe estender à IA os controles que a empresa já tem, em vez de criar um programa de risco separado. O artigo associa cada função do NIST a uma parte do COSO, sem tabela detalhada: governar ao ambiente de controle, com dono e alçada de aprovação por caso de uso; mapear à avaliação de risco, com inventário de onde a IA toca dados, sistemas, clientes e terceiros; medir e gerenciar a monitoramento e remediação. O ponto prático novo é que a IA pode alterar o escopo de SOC 1 e SOC 2 quando influencia o reporte financeiro ou o processamento de transações; nesse caso deve entrar na descrição do sistema e ser reavaliada sempre que mudarem modelo, prompt, fonte de dados ou fornecedor. Sem estatísticas.
+Fonte: Citrin Cooperman, "Managing AI Risk with Confidence: A Governance Foundation Built on NIST and COSO" (Faten AlKhattar, 26/05/2026).
+Link: https://cm.citrincooperman.com/In-Focus-Resource-Center/Managing-AI-Risk-with-Confidence-A-Governance-Foundation-Built-on-NIST-and-COSO
+Data de coleta: 2026-10-15
+
+Novo recorte do estudo Controllership 2030 do Controllers Council, agora sobre automação: 43% dos respondentes esperam que mais de 40% das responsabilidades atuais do controller sejam automatizadas até 2030, só 6% acham que a automação passará de 80% e 80% situam a automação entre 0% e 60% das tarefas. Sobre tamanho de equipe, 41% esperam times de finanças do mesmo tamanho com outras habilidades e 35% esperam times menores. Ressalvas: a página não mostra amostra nem datas de coleta (a matéria anterior do mesmo estudo fala em mais de 300 respondentes), e o patrocinador é a Lineos, da insightsoftware, fornecedora de software.
+Fonte: Controllers Council, "43% of Controllers Expect More Than 40% of Their Responsibilities to Be Automated by 2030" (09/10/2026).
+Link: https://controllerscouncil.org/43-of-controllers-expect-more-than-40-of-their-responsibilities-to-be-automated-by-2030/
+Data de coleta: 2026-10-15
+
+[Teórico] Segregação de funções é o controle que impede que uma mesma pessoa cometa um erro ou fraude e também consiga escondê-lo. Para isso, quatro funções ficam com pessoas diferentes: aprovar transações, ter a custódia dos ativos, registrar as transações e conciliar ou executar atividades de controle. O guia dá exemplos de acúmulo incompatível: conciliar contas bancárias e também lançar no razão geral; receber pagamentos e também aprovar baixas de recebíveis; aprovar folha de ponto e também controlar os pagamentos. Em áreas pequenas, onde separar tudo não é viável, a recomendação é usar controles compensatórios, como revisão detalhada do supervisor e mais monitoramento. Ressalva: a fonte é um guia de auditoria interna universitária, não uma norma técnica.
+Fonte: University of Pennsylvania, Office of Audit, Compliance and Privacy, "Operational Internal Controls: Segregation of Duties" (sem data; rodapé de 2020).
+Link: https://oacp.upenn.edu/audit/audit101/internal-controls-guidance/operational-internal-controls/
+Data de coleta: 2026-10-15

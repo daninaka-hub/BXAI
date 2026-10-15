@@ -200,3 +200,40 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-14 | Strategic Planning | teórico | Open University | Oxford Scenario Planning: cenários não são previsões, TUNA no lugar de VUCA e esforço do plano para o contexto |
 | 2026-10-14 | Organization | pesquisa | Oliver Wyman Forum / NYSE | 47% vão centralizar finanças e 64% reduzir o peso de cargos júnior em três anos (494 CFOs) |
 | 2026-10-14 | Organization | teórico | SSON | Finance CoE: cinco frentes, quatro fases de implantação e papel de apoio aos times locais |
+| 2026-10-15 | Controllership | estratégia | EY | Rede de CAOs e controllers da Fortune 100: três ações de IA e adoção real ainda em fase experimental |
+| 2026-10-15 | Controllership | estratégia | WNS (fornecedor) | IA agêntica no record-to-report em três níveis de autonomia, do autônomo ao controle humano |
+| 2026-10-15 | Controllership | estratégia | Controllers Council | Quatro riscos da IA em decisões financeiras (dados, caixa-preta, ciber, viés) e quatro passos de mitigação |
+| 2026-10-15 | Controllership | estratégia | Citrin Cooperman | Funções do NIST AI RMF ligadas ao COSO, e IA que afeta o reporte entra no escopo de SOC 1 e SOC 2 |
+| 2026-10-15 | Controllership | estatística | Controllers Council | 43% dos controllers esperam mais de 40% das tarefas automatizadas até 2030; só 6% veem mais de 80% |
+| 2026-10-15 | Controllership | teórico | University of Pennsylvania | Segregação de funções: separar aprovação, custódia, registro e conciliação, com controles compensatórios em áreas pequenas |
+| 2026-10-15 | Finance Automation | estatística | EY / FP&A Trends | Uso de IA em FP&A foi de 6% em 2024 para 41% em 2025, e até 45% do tempo ainda vai para limpar e conciliar dados |
+| 2026-10-15 | Finance Automation | estatística | WNS / FP&A Trends / McKinsey / Capgemini | Só 7% usam IA para detectar anomalias em transações e 39% ainda revisam manualmente (FP&A Trends, via WNS) |
+| 2026-10-15 | Finance Automation | conclusão | The FP&A Guy | CFO da insightsoftware estima que só cerca de 5% das empresas têm IA agêntica real em finanças |
+| 2026-10-15 | Finance Automation | estudo de caso | CFO.com | Match Group gastou US$ 4 a 5 mi em ferramentas de IA e passou a exigir business case medido antes de escalar |
+| 2026-10-15 | Finance Automation | pesquisa | Deloitte | Finance Trends 2027: 95% aceitam agentes em finanças, só 14% autonomia total em decisão crítica (1.434 líderes) |
+| 2026-10-15 | Finance Automation | teórico | TechTarget | IDP: OCR com aprendizado de máquina e NLP para classificar, extrair e validar dados de documentos além de templates fixos |
+| 2026-10-15 | Forecasting Methods | estratégia | Oliver Wight | ROI de demand planning medido pelo custo da falha (acurácia e viés) nas decisões, não só pela acurácia do forecast |
+| 2026-10-15 | Forecasting Methods | pesquisa | Kyriba (fornecedor) | Só 26% dos CFOs modelam cenários de forma contínua e 83% não medem impacto de risco em tempo real (1.354 CFOs) |
+| 2026-10-15 | Forecasting Methods | conclusão | Forbes / Deloitte / McKinsey | 76% dos CFOs europeus veem incerteza alta ou muito alta, e cenários são a mitigação mais comum (Deloitte, via Forbes) |
+| 2026-10-15 | Forecasting Methods | teórico | Hyndman e Athanasopoulos | Combinar previsões pela média simples costuma superar o melhor modelo isolado (Bates e Granger, Clemen) |
+| 2026-10-15 | FP&A Fundamentals | estatística | Onetribe / Hackett / APQC | Só 18% a 25% dos líderes financeiros estão satisfeitos com o orçamento (Hackett), e o quartil superior fecha em 4 a 6 semanas (APQC) |
+| 2026-10-15 | FP&A Fundamentals | estratégia | Onetribe | Orçamento de mid-market: cinco princípios, separar meta de forecast e fechar em menos de oito semanas |
+| 2026-10-15 | FP&A Fundamentals | pesquisa | The Hackett Group | Ciclo de caixa de 38,4 dias, DSO piora pelo 3º ano e capital de giro excedente recorde de US$ 1,94 tri (1.000 empresas) |
+| 2026-10-15 | FP&A Fundamentals | teórico | McKinsey | Orçamento base zero segundo a McKinsey: processo recorrente e não corte linear, com SG&A caindo de 10% a 25% |
+| 2026-10-15 | Integrated Planning | estratégia | McKinsey | Revisar a ligação orçamento e estratégia no mínimo todo mês, com cenários ponderados e foco em 3 a 5 iniciativas |
+| 2026-10-15 | Integrated Planning | estatística | Abacum / Oliver Wight / Aberdeen / McKinsey | IBP rende de 1 a 2 p.p. de EBIT e frete 10% a 15% mais barato (McKinsey, 170+ empresas, via Abacum) |
+| 2026-10-15 | Integrated Planning | estudo de caso | Oliver Wight EAME | Química baixou nível de serviço de 98% para 95% e cortou cerca de meio milhão de dólares em estoque de segurança |
+| 2026-10-15 | Integrated Planning | pesquisa | The Hackett Group | 74% têm IA implementada ou em piloto em S&OP e IBP, e qualidade de dados é a principal barreira (50%) |
+| 2026-10-15 | Integrated Planning | estatística | Intito / McKinsey HR Monitor | Só 11% planejam a força de trabalho com horizonte de 3 anos ou mais (McKinsey HR Monitor 2026, via Intito) |
+| 2026-10-15 | Integrated Planning | teórico | Demand Driven Institute | DDMRP: buffers em pontos de desacoplamento, seis componentes e DDS&OP no lugar do plano mestre de produção |
+| 2026-10-15 | Strategic Planning | estudo de caso | CFO.com | Match Group distribui cerca de US$ 600 mi de marketing entre marcas por ROI padronizado e plano consolidado |
+| 2026-10-15 | Strategic Planning | pesquisa | IBM IBV | 56% dos CFOs ganharam autoridade sobre portfólio e realocação de capital, e 54% sobre estratégia de crescimento (1.500 CFOs) |
+| 2026-10-15 | Strategic Planning | estatística | Oliver Wyman Forum / NYSE | 50% do tempo de planejamento dos CEOs mira menos de um ano, contra 43% em 2025 (415 CEOs) |
+| 2026-10-15 | Strategic Planning | teórico | Lean Enterprise Institute | Hoshin Kanri: desdobramento da estratégia pelo ciclo PDCA, com alinhamento vertical e horizontal e relatório A3 |
+| 2026-10-15 | Leadership Roles | conclusão | EY | CAOs e controllers da Fortune 100 (30 empresas): IA não resolve a falta de talento, e a licença de CPA vira mosaico estadual |
+| 2026-10-15 | Leadership Roles | conclusão | MIT Sloan Executive Education | Jack McCullough: CFO saiu do back-office, e poucos dos 250+ programas anuais do CFO Leadership Council são de contabilidade |
+| 2026-10-15 | Leadership Roles | pesquisa | Deloitte | 54% dos líderes de finanças já respondem por alocação de capital em IA e tecnologia na empresa toda (1.434 líderes) |
+| 2026-10-15 | Leadership Roles | teórico | Watkins / Shortform / SSIR | The First 90 Days: modelo STARS e ponto de equilíbrio como roteiro de transição para CFOs e controllers |
+| 2026-10-15 | Organization | estatística | Gartner via CPA Practice Advisor | Até 2028, 20% das áreas de finanças vão investir só em talento com capacidade digital avançada (Gartner) |
+| 2026-10-15 | Organization | pesquisa | Deloitte | 43% dos líderes planejam reestruturar finanças ou terceirizar partes da operação, e só 29% capacitar o time em dados e IA |
+| 2026-10-15 | Organization | teórico | Roland Berger / Umbrex | Função financeira em quatro elementos: operações, business partners, CoE e governança e compliance |

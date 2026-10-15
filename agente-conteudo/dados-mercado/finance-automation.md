@@ -221,3 +221,33 @@ Data de coleta: 2026-10-14
 Fonte: Oracle, "Using Approval", Oracle Payables Help (Oracle Applications 11i, sem data).
 Link: https://docs.oracle.com/cd/A60725_05/html/comnls/us/ap/pomatc04.htm
 Data de coleta: 2026-10-14
+
+Artigo da EY dos EUA cita o FP&A Trends Research Paper 2025: o uso de IA em FP&A subiu de 6% em 2024 para 41% em 2025, e até 45% do tempo de FP&A ainda é gasto limpando e conciliando dados. A conclusão do artigo é que a qualidade dos dados é a principal trava, e que resistência cultural e pilotos sem plano estratégico atrasam a adoção. Ressalvas: os números são de terceiro citado pela EY; a página não informa amostra nem metodologia e não deixa claro se 41% é a fatia de empresas que usam IA.
+Fonte: EY, "How AI is transforming financial planning and analysis" (Deirdre Ryan e Aaron Shifrin, 18/02/2026), com dados do FP&A Trends Research Paper 2025.
+Link: https://www.ey.com/en_us/services/consulting/finance-consulting-services/how-ai-is-transforming-financial-planning-and-analysis
+Data de coleta: 2026-10-15
+
+Números de terceiros citados pela WNS, fornecedora de serviços: segundo pesquisa do FP&A Trends, 39% das empresas revisam anomalias de transações manualmente, 34% usam modelos em planilha e só 7% usam IA ou aprendizado de máquina. O artigo cita a McKinsey para dizer que no máximo 10% das organizações escalaram agentes de IA em alguma função, e a Capgemini para estimar que 25% dos processos de uma função típica serão feitos por agentes de nível 3 a 5 até 2028. Ressalva: não conferimos as fontes primárias, e o link da referência da McKinsey traz o ano 2015, provável erro de digitação.
+Fonte: WNS, "How Agentic AI is Transforming Record-to-Report into Continuous Controllership" (15/06/2026), citando FP&A Trends, McKinsey e Capgemini.
+Link: https://www.wns.com/perspectives/articles/how-agentic-ai-is-transforming-record-to-report-into-continuous-controllership
+Data de coleta: 2026-10-15
+
+No podcast Future Finance, Josh Schauer, CFO da insightsoftware, estimou que só cerca de 5% das empresas tinham capacidade agêntica real em finanças, e projetou de 30% a 40% no ano corrente e de 70% a 80% no seguinte. Disse ainda que um plano de cenários que levava duas semanas hoje sai em cerca de 30 minutos, mirando cerca de 90% de acurácia. Na insightsoftware todo funcionário tem licença de IA, o uso de IA entra na avaliação de desempenho e a análise de variação do fechamento mensal (real contra forecast, com rascunho de comentário) é automatizada. Ressalva: estimativas pessoais, sem pesquisa, de CFO de fornecedor de software de FP&A.
+Fonte: The FP&A Guy (Paul Barnhurst), "How Finance Teams Can Overcome AI Fear and Build Real Use Cases That Work with Josh Schauer" (08/04/2026).
+Link: https://www.thefpandaguy.com/future-finance/how-finance-teams-can-overcome-ai-fear-and-build-real-use-cases-that-work-with-josh-schauer
+Data de coleta: 2026-10-15
+
+Segundo Steve Bailey, CFO da Match Group, a empresa gastou cerca de US$ 4 a 5 milhões em ferramentas de IA no ano anterior, depois de testar dezenas delas em 2025. Em impostos, a IA acompanha mudanças de VAT e regulação em cerca de 160 países e atualiza alíquotas em tempo real, no lugar do controle manual; em contas a pagar há um piloto ainda inicial. A regra daqui em diante é exigir business case com ganho de eficiência ou custo e medir o resultado antes de escalar. Bailey avalia que muitas ferramentas ainda não estão prontas para finanças.
+Fonte: CFO.com (Adam Zaki), "How Match Group's CFO runs the finance function behind modern dating" (13/02/2026).
+Link: https://www.cfo.com/news/match-group-cfo-steve-bailey-runs-finance-function-behind-modern-dating-valentines-day-tinder-hinge-/811983/
+Data de coleta: 2026-10-15
+
+A Deloitte ouviu 1.434 CFOs e executivos seniores de finanças em 26 países, em empresas com receita de pelo menos US$ 1 bilhão, na primavera de 2026 (Hemisfério Norte). 95% se dizem confortáveis com fluxos agênticos em pelo menos parte das atividades de finanças e 77% aceitam agentes com algum grau de autonomia além de recomendar, mas só 14% apoiam autonomia total em decisões críticas. 42% dizem que a ambição com IA agêntica supera a capacidade atual e citam a necessidade de controles mais fortes antes de ampliar o uso; entre esses, 41% apontam a confiança dos funcionários na qualidade das respostas da IA como barreira principal. 43% priorizam IA e tecnologia avançada para automatizar operações até o ano fiscal de 2027. Ressalva: o release não traz margem de erro nem modo de coleta.
+Fonte: Deloitte, "Deloitte Finance Trends 2027: Finance Leaders Balance AI Ambition With Enterprise Accountability" (09/09/2026).
+Link: https://www.deloitte.com/us/en/about/press-room/deloitte-finance-trends-2027-finance-leaders-balance-ambition-with-accountability.html
+Data de coleta: 2026-10-15
+
+[Teórico] Processamento inteligente de documentos (IDP) é a automação que extrai dados de documentos em papel ou imagem, como notas fiscais, faturas e comprovantes de despesa, combinando OCR com aprendizado de máquina e processamento de linguagem natural. O fluxo típico tem cinco etapas: pré-processar a imagem, classificar o documento, extrair e normalizar os campos, validar os dados e integrar ao sistema de destino, e o modelo melhora com o uso. A diferença para a automação por regras e templates é que esta só funciona com formatos padronizados e trava diante de documento novo, enquanto o IDP trata documentos estruturados e não estruturados e se adapta a layouts novos. Em contas a pagar, o IDP entrega ao matching e à conciliação dados já estruturados. Ressalva: a fonte é um glossário editorial, não um framework normativo.
+Fonte: TechTarget, "What is intelligent document processing (IDP)?" (27/03/2025).
+Link: https://www.techtarget.com/searchcontentmanagement/definition/intelligent-document-processing-IDP
+Data de coleta: 2026-10-15

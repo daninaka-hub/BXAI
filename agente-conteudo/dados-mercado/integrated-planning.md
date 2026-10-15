@@ -101,3 +101,33 @@ Data de coleta: 2026-10-14
 Fonte: AFP (Association for Financial Professionals), verbete "Integrated Business Planning" (sem data).
 Link: https://www.financialprofessionals.org/glossary/integrated-business-planning
 Data de coleta: 2026-10-14
+
+A McKinsey recomenda revisar a ligação entre orçamento e estratégia pelo menos uma vez por mês, com cenários ponderados por probabilidade. Propõe concentrar a atenção nas 3 a 5 iniciativas que mais mudam a trajetória do negócio e detalhar as 10 a 15 unidades ou iniciativas de maior valor, ter trilhas de revisão rápida e lenta, liberar recursos por marcos atingidos e usar orçamento base zero. Traz dois casos sem nome: uma empresa de tecnologia que revê produtos de alto risco todo mês e os de ciclo longo uma vez por ano, e uma rede de clínicas odontológicas que, depois da COVID, centralizou verbas discricionárias e as liberou conforme a reabertura de cada região. Ressalva: não há pesquisa; os percentuais do texto são exemplos hipotéticos.
+Fonte: McKinsey & Company (Andy West, Christian Grube, Cristina Catania e Matthew Maloney), "Here's how budgets can keep up with accelerating uncertainty" (28/07/2025).
+Link: https://karriere.mckinsey.de/capabilities/strategy-and-corporate-finance/our-insights/heres-how-budgets-can-keep-up-with-accelerating-uncertainty
+Data de coleta: 2026-10-15
+
+Guia de IBP da Abacum, fornecedora de software de FP&A, reúne números de terceiros: pesquisa da Oliver Wight com 40 empresas aponta melhora de até 46% no planejamento de demanda, alta de até 15% na receita e retenção de clientes de 91%; a Aberdeen aponta 17% a mais de lucratividade e 10% a mais de margem bruta em dois anos; e estudo da McKinsey com mais de 170 empresas aponta de 1 a 2 pontos percentuais a mais de EBIT, nível de serviço de 5% a 20% maior e frete de 10% a 15% mais barato. Ressalvas: os números chegam por fontes secundárias (Universidade do Tennessee, CFM Systems, Simcel e demand-planning.com), e a página traz outros números sem fonte clara, que não registramos.
+Fonte: Abacum (Max Beauroyre), "What is Integrated Business Planning (IBP): From Concept to Competitive Advantage" (15/09/2025).
+Link: https://www.abacum.ai/blog/integrated-business-planning
+Data de coleta: 2026-10-15
+
+Dawn Howarth, sócia da Oliver Wight EAME, defende que estoque é consequência das decisões de planejamento, com três origens: variação e erro, ineficiência de pessoas, processos e ferramentas, e decisões estratégicas e táticas. Diz que o estoque que ninguém acompanha pode chegar a 25% do total. Num caso sem nome, uma fabricante química global que precisava reduzir estoque em 25% baixou o nível de serviço de 98% para 95% e cortou cerca de meio milhão de dólares em estoque de segurança; uma divisão passou a produzir metade da quantidade com o dobro da frequência e reduziu 500 toneladas de estoque de ciclo e 150 toneladas de estoque de segurança, cerca de 40% do estoque daquele grupo de produtos. Ressalva: casos relatados pela própria consultoria, sem nome do cliente.
+Fonte: Oliver Wight EAME, "Inventory as a Consequence: Improving Supply Planning" (sem data; o PDF sugere dezembro de 2025).
+Link: https://oliverwight-eame.com/inventory-as-a-consequence-improving-supply-planning/
+Data de coleta: 2026-10-15
+
+O 2026 Supply Chain Key Issues Study da Hackett Group mostra que 74% das organizações têm capacidades de IA implementadas ou em piloto em S&OP ou IBP, 72% em planejamento avançado e programação (APS) e 83% em inteligência e analytics da cadeia. As barreiras para escalar são de dados: qualidade (50%), integração (47%) e privacidade e regulação (46%), seguidas de falta de talento em IA (45%). Ressalvas: o comunicado não informa amostra nem metodologia, e o número soma implementado com piloto, então não mede uso maduro.
+Fonte: The Hackett Group, "Supply Chain AI Adoption Becomes Pervasive as Cost and Modernization Pressures Intensify" (14/05/2026).
+Link: https://www.thehackettgroup.com/the-hackett-group-supply-chain-ai-adoption-becomes-pervasive-as-cost-and-modernization-pressures-intensify/
+Data de coleta: 2026-10-15
+
+Artigo da Intito, que vende modelo próprio de força de trabalho integrado ao xP&A, cita o HR Monitor 2026 da McKinsey: só 11% das organizações planejam necessidades de pessoal com três anos ou mais de antecedência a partir de necessidades estratégicas. Profissionais de RH estimam que 23% dos funcionários não têm parte das habilidades exigidas pelo cargo, e entre as empresas com taxonomia de habilidades, 57% a conectam ao planejamento da força de trabalho. A base do HR Monitor tem cerca de 1.300 profissionais de RH e 5.500 funcionários em dez países. Ressalva: dado de terceiro; a página da McKinsey não abriu.
+Fonte: Intito, "11% have a strategic workforce plan for 2030. Where do you stand?" (20/08/2026), citando McKinsey HR Monitor 2026.
+Link: https://www.intito.com/insights/eleven-percent-have-a-strategic-workforce-plan-for-2030
+Data de coleta: 2026-10-15
+
+[Teórico] O Demand Driven MRP (DDMRP), criado por Carol Ptak e Chad Smith, é um método de planejamento e execução em vários elos da cadeia que não depende só da previsão. Ele posiciona estoques de amortecimento (buffers) em pontos de desacoplamento escolhidos, que impedem a distorção de demanda e as falhas de suprimento de se propagarem. O Demand Driven Institute lista seis componentes: desacoplamento estratégico, perfis e níveis de buffer, ajustes dinâmicos, planejamento puxado pela demanda (equação de fluxo líquido, em geral diária), execução visível e colaborativa, e adaptação tática via Demand Driven S&OP. O método mistura MRP e DRP com a puxada e a visibilidade do Lean e da Teoria das Restrições, e dispensa o plano mestre de produção. Para FP&A, o estoque passa a ser dimensionado por posição e variabilidade. Ressalva: muitos textos falam em cinco componentes; o instituto lista seis, e a página não traz resultados quantitativos.
+Fonte: Demand Driven Institute, "DDMRP" (página institucional, sem data).
+Link: https://www.demanddriveninstitute.com/ddmrp
+Data de coleta: 2026-10-15

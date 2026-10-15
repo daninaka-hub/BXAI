@@ -164,38 +164,38 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 156 | Global sustainability reporting survey: US takeaways - PwC | Alta | Processado |
 | 157 | Glossary: Planning, Controlling and FP&A - Valsight | Baixa | Pendente |
 | 158 | Guide to Driver-Based Modeling | BPM Partners | Alta | Descartado |
-| 159 | Here's how budgets can keep up with accelerating uncertainty - McKinsey | Alta | Pendente |
-| 160 | How AI Is Transforming FP&A - EY | Alta | Pendente |
+| 159 | Here's how budgets can keep up with accelerating uncertainty - McKinsey | Alta | Processado |
+| 160 | How AI Is Transforming FP&A - EY | Alta | Processado |
 | 161 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC | Alta | Pendente |
-| 162 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC (dup) | Alta | Pendente |
-| 163 | How AI is Transforming the Controller's Role in 2026: From Close Manager to Strategic CFO Partner | Alta | Pendente |
-| 164 | How Agentic AI is Transforming Record-to-Report into Continuous Controllership - WNS | Alta | Pendente |
-| 165 | How Controllers Can Manage Financial Risk From AI-Driven Decision-Making | Alta | Pendente |
-| 166 | How FP&A Pros Can Use Automation & Python to Save Time & Become Better Business Partners with Willian Gomes | Alta | Pendente |
-| 167 | How Finance Teams Can Overcome AI Fear and Build Real Use Cases That Work with Josh Schauer - The FP&A Guy | Alta | Pendente |
-| 168 | How Match Group's CFO runs the finance function behind modern dating | Alta | Pendente |
+| 162 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC (dup) | Alta | Descartado |
+| 163 | How AI is Transforming the Controller's Role in 2026: From Close Manager to Strategic CFO Partner | Alta | Descartado |
+| 164 | How Agentic AI is Transforming Record-to-Report into Continuous Controllership - WNS | Alta | Processado |
+| 165 | How Controllers Can Manage Financial Risk From AI-Driven Decision-Making | Alta | Processado |
+| 166 | How FP&A Pros Can Use Automation & Python to Save Time & Become Better Business Partners with Willian Gomes | Alta | Descartado |
+| 167 | How Finance Teams Can Overcome AI Fear and Build Real Use Cases That Work with Josh Schauer - The FP&A Guy | Alta | Processado |
+| 168 | How Match Group's CFO runs the finance function behind modern dating | Alta | Processado |
 | 169 | How finance teams are putting AI to work today - McKinsey | Alta | Pendente |
-| 170 | How to Build an Annual Budget That Actually Works - A Guide for Mid-Market Companies | Alta | Pendente |
+| 170 | How to Build an Annual Budget That Actually Works - A Guide for Mid-Market Companies | Alta | Processado |
 | 171 | IBM Corporation Wins the AFP 2024 Pinnacle Awards | Baixa | Pendente |
 | 172 | Inscrições de MBA e Pós-Graduação Lato Sensu - FIPECAFI | Baixa | Pendente |
-| 173 | Integrated Business Planning: Complete Guide | Abacum | Alta | Pendente |
-| 174 | International Journal of Sciences and Innovation Engineering - IJSCI | Alta | Pendente |
-| 175 | Inventory as a Consequence - Improving Supply Planning - Oliver Wight EAME | Alta | Pendente |
+| 173 | Integrated Business Planning: Complete Guide | Abacum | Alta | Processado |
+| 174 | International Journal of Sciences and Innovation Engineering - IJSCI | Alta | Descartado |
+| 175 | Inventory as a Consequence - Improving Supply Planning - Oliver Wight EAME | Alta | Processado |
 | 176 | Jack McCullough - Forbes | Baixa | Pendente |
-| 177 | Jack McCullough is helping CFOs rise to the occasion | MIT Sloan Executive Education | Alta | Pendente |
-| 178 | JafarOS Finance Function - Governed CFO & FP&A AI Agents | Digisoul | Alta | Pendente |
+| 177 | Jack McCullough is helping CFOs rise to the occasion | MIT Sloan Executive Education | Alta | Processado |
+| 178 | JafarOS Finance Function - Governed CFO & FP&A AI Agents | Digisoul | Alta | Descartado |
 | 179 | Journal of Forensic and Investigative Accounting Volume 15: Issue 3 - Kraft Heinz Company and the $15.4 Billion | Alta | Processado |
 | 180 | Kraft Heinz Securities Litigation Settles for $450 Million | The D&O Diary | Alta | Processado |
-| 181 | Leading through finance transformation | EY - US | Alta | Pendente |
-| 182 | Making the Case: The ROI of Demand Management - Greg Spira | Alta | Pendente |
+| 181 | Leading through finance transformation | EY - US | Alta | Processado |
+| 182 | Making the Case: The ROI of Demand Management - Greg Spira | Alta | Processado |
 | 183 | Management - Hmobi | Baixa | Pendente |
 | 184 | Manager, Financial Reporting Resume Samples - VelvetJobs | Baixa | Pendente |
-| 185 | Managing AI Risk with Confidence: A Governance Foundation Built on NIST and COSO | Alta | Pendente |
+| 185 | Managing AI Risk with Confidence: A Governance Foundation Built on NIST and COSO | Alta | Processado |
 | 186 | Marsh McLennan Wins 2022 AFP Pinnacle Awards Grand Prize for Excellence in Treasury and Finance - PR Newswire | Baixa | Pendente |
-| 187 | Mastering FP&A Rolling Forecasts with Driver-Based Planning - Sparkco | Alta | Pendente |
+| 187 | Mastering FP&A Rolling Forecasts with Driver-Based Planning - Sparkco | Alta | Descartado |
 | 188 | Microsoft Layoffs & Toxic Management: A Dangerous Culture Behind the Scenes - Reddit | Baixa | Pendente |
 | 189 | Microsoft Names Amy Hood New CFO | PCMag | Baixa | Pendente |
-| 190 | Modern Enterprise Finance Governance: Strategic Best Practices Across FP&A, Controllership, and Corporate Planning | Alta | Pendente |
+| 190 | Modern Enterprise Finance Governance: Strategic Best Practices Across FP&A, Controllership, and Corporate Planning | Alta | Descartado |
 | 191 | Navigate AI governance and regulatory compliance in finance - Optro | Alta | Pendente |
 | 192 | New Kids on the Block - Journal of Accountancy | Alta | Pendente |
 | 193 | Newsletters - FP&A Trends | Baixa | Pendente |

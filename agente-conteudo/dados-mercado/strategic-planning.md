@@ -106,3 +106,23 @@ Data de coleta: 2026-10-14
 Fonte: The Open University (OpenLearn), curso "Hybrid working: planning the future", seção 5.2 "The Oxford Scenario Planning Approach" (sem data).
 Link: https://www.open.edu/openlearn/money-business/hybrid-working-planning-the-future/content-section-5.2
 Data de coleta: 2026-10-14
+
+Steve Bailey, CFO da Match Group desde 2025 e vindo de FP&A, decide a alocação de capital entre as marcas junto com o CEO e o CRO. Um orçamento de marketing de cerca de US$ 600 milhões é distribuído entre as marcas com base numa medida padronizada de ROI chamada PRISM. Antes o planejamento era isolado e só o comitê executivo via o todo; agora os CEOs das marcas recebem o consolidado completo no fim do ciclo, comparado com a expectativa dos investidores. Uma reorganização em 2025 cortou cerca de 13% da empresa, e a economia está sendo reinvestida em Tinder e Hinge, mantendo margem acima de 37%.
+Fonte: CFO.com (Adam Zaki), "How Match Group's CFO runs the finance function behind modern dating" (13/02/2026).
+Link: https://www.cfo.com/news/match-group-cfo-steve-bailey-runs-finance-function-behind-modern-dating-valentines-day-tinder-hinge-/811983/
+Data de coleta: 2026-10-15
+
+Estudo do IBM Institute for Business Value com a Oxford Economics, com 1.500 CFOs e líderes financeiros de 33 países e 26 setores, ouvidos entre fevereiro e abril de 2026 e divulgado em 30/09/2026. 56% dizem ter mais autoridade sobre gestão de portfólio e realocação de capital, e 54% assumiram mais responsabilidade pelo desenho do modelo de negócio ou da estratégia de crescimento. Para 2030, 52% esperam liderar criação de valor e estratégia de portfólio. Os dados de alocação em tempo real e do limite de 6% para a IA realocar capital, do mesmo estudo, já estão registrados em Finance Automation. Ressalvas: a IBM vende tecnologia e consultoria de IA, e a associação entre CFOs com foco em IA e melhor execução da estratégia é autodeclarada.
+Fonte: IBM Institute for Business Value, "IBM Study: As AI Scales Enterprise-Wide, CFOs Play an Expanded Role in Transformation" (30/09/2026).
+Link: https://newsroom.ibm.com/2026-09-30-ibm-study-as-ai-scales-enterprise-wide,-cfos-play-an-expanded-role-in-transformation
+Data de coleta: 2026-10-15
+
+O Oliver Wyman Forum, com a NYSE, ouviu 415 CEOs (266 de empresas abertas e 149 de fechadas) entre 12/01 e 13/03/2026. Em média, 50% do tempo de planejamento dos CEOs vai para horizontes de menos de um ano, contra 43% em 2025; nas empresas pequenas a fatia chega a 54%, contra 42% nas maiores. As grandes dedicam 26% do tempo a horizontes de cinco anos ou mais, contra 16% nas pequenas. 96% relatam conselho mais envolvido em pelo menos uma área, com estratégia e governança à frente (61%). Ressalva: publicado em abril, fora da janela de três meses, e de consultoria.
+Fonte: Oliver Wyman Forum, "CEOs behind 10% of market cap on AI, growth, and talent" (07/04/2026).
+Link: https://www.oliverwymanforum.com/ceo-agenda/how-ceos-navigate-geopolitics-trade-technology-people.html
+Data de coleta: 2026-10-15
+
+[Teórico] Hoshin Kanri, ou desdobramento de diretrizes, é um modelo de execução estratégica baseado no ciclo PDCA (planejar, executar, checar, agir) e popularizado pela Toyota. Ele alinha objetivos verticalmente, do CEO à linha de frente, e horizontalmente, entre departamentos, para que cada área veja como contribui para as prioridades. Costuma vir junto com o relatório A3, que coloca problema, análise, ações e plano numa única folha. Para FP&A, ajuda a ligar o orçamento a poucas prioridades plurianuais e a revisar desvios em ritmo PDCA, não só no fechamento anual. Ressalva: o catchball (negociação de metas entre níveis) é associado ao método em fontes secundárias, mas não aparece na página consultada.
+Fonte: Lean Enterprise Institute, "Hoshin Kanri" (Lean Lexicon, sem data).
+Link: https://www.lean.org/lexicon-terms/hoshin-kanri/
+Data de coleta: 2026-10-15

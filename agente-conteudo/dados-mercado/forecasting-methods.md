@@ -96,3 +96,23 @@ Data de coleta: 2026-10-14
 Fonte: Wikipedia, "Reference class forecasting"; Bent Flyvbjerg, "From Nobel Prize to Project Management: Getting Risks Right", Project Management Journal (2006), via arXiv.
 Link: https://en.wikipedia.org/wiki/Reference_class_forecasting e https://arxiv.org/abs/1302.3642
 Data de coleta: 2026-10-14
+
+A Oliver Wight, consultoria que vende os templates e o curso, defende que o ganho de melhorar o planejamento de demanda deve ser medido pelas decisões que usam o plano, e não só pela acurácia do forecast. A proposta é calcular o custo da falha cruzando a frequência de vender demais e de vender de menos com o custo de cada caso, olhando o tamanho do erro (acurácia) e a direção do erro (viés). A melhoria depende de quatro frentes interligadas: pessoas, analytics, processo e tecnologia. O caso citado, anônimo, é de uma empresa com boa acurácia nacional e acurácia ruim nos centros de distribuição, sem que ninguém tivesse ligado isso ao resultado financeiro. Ressalva: a página do white paper indicado no backlog não tem conteúdo aberto (o PDF fica atrás de formulário); a entrada usa o post dos mesmos autores que divulga o material, sem números.
+Fonte: Oliver Wight, "How to Overcome the Challenge of Demonstrating ROI for Demand Plan Management" (Greg Spira e Todd Ferguson, 26/03/2024), post que acompanha o white paper "Making the Case: The ROI of Demand Management".
+Link: https://www.oliverwight-americas.com/blog/how-to-overcome-the-challenge-of-demonstrating-roi-for-demand-plan-management/
+Data de coleta: 2026-10-15
+
+No 2026 CFO Risk Radar, a Kyriba ouviu 1.354 CFOs em nove países. 83% dizem não conseguir quantificar em tempo real o impacto financeiro de um risco, só 26% rodam modelagem de cenários contínua ou automatizada e 21% conseguem ajustar a estratégia financeira no mesmo dia em que surge um risco novo. Ao mesmo tempo, 96% se dizem com confiança alta ou moderada na própria análise de risco em tempo real, e 79% tiveram perda financeira no ano anterior por não ver um risco a tempo. Ressalvas: a Kyriba vende software de tesouraria e liquidez; o blog não informa datas de campo nem os países, e o comunicado oficial (julho de 2026) não abriu.
+Fonte: Kyriba, "Complacency paradox: risk visibility" (blog sobre o 2026 CFO Risk Radar, comunicado de 22/07/2026).
+Link: https://kyriba.com/blog/complacency-paradox-risk-visibility/
+Data de coleta: 2026-10-15
+
+Em artigo de opinião na Forbes, Anders Liu-Lindberg argumenta que o planejamento de cenários segue subutilizado e se apoia em dados de terceiros. Pela pesquisa europeia de CFOs da Deloitte da primavera de 2026, 76% classificam a incerteza externa como alta ou muito alta, 15 pontos acima do período anterior e no mesmo nível de 2022, e cenários aparecem como a medida de mitigação mais comum. No McKinsey CFO Pulse do fim de 2025 (152 líderes de finanças em 22 países), 37% citam instabilidade geopolítica como grande risco ao crescimento e 32% citam mudança de política comercial. Ressalva: todos os números são de terceiros e não conferimos as fontes primárias; a amostra da Deloitte não aparece no artigo.
+Fonte: Forbes, via Yahoo Finance, "Why Scenario Planning Remains Finance's Most Underused Tool" (01/10/2026).
+Link: https://finance.yahoo.com/economy/policy/articles/why-scenario-planning-remains-finance-154610808.html
+Data de coleta: 2026-10-15
+
+[Teórico] Combinar previsões é rodar vários métodos sobre a mesma série e tirar a média dos resultados. A literatura mostra há décadas que isso costuma melhorar a acurácia: Bates e Granger demonstraram o efeito em 1969, a revisão de Clemen (1989) achou resultados praticamente unânimes, e pesos sofisticados raramente batem a média simples (Wang et al., 2023). No exemplo do livro, receita mensal de comida para viagem na Austrália com teste nos últimos 60 meses, a média de ETS, STL e ARIMA teve RMSE de 41,0 e MAPE de 2,19%, contra 46,2 e 2,65% do melhor modelo isolado (ARIMA) e 122 e 6,66% do ETS. Os intervalos de 95% da combinação também foram os melhores pelo Winkler score: 420, contra 596 a 767 dos modelos isolados. Para FP&A, a média de abordagens reduz o risco de depender de um único modelo.
+Fonte: Hyndman e Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed.), seção "Forecast combinations".
+Link: https://otexts.com/fpp3/combinations.html
+Data de coleta: 2026-10-15

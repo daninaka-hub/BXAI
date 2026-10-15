@@ -86,3 +86,23 @@ Data de coleta: 2026-10-14
 Fonte: LibreTexts, "7.1: The Performance Report", Managerial Accounting (Lumen), capítulo 7.
 Link: https://biz.libretexts.org/Bookshelves/Accounting/Managerial_Accounting_(Lumen)/07%3A_Budgeting/7.01%3A_The_Performance_Report
 Data de coleta: 2026-10-14
+
+Guia da consultoria Onetribe para empresas de receita entre £ 1 milhão e £ 50 milhões cita a Hackett Group: só 18% a 25% dos líderes financeiros estão satisfeitos com o processo orçamentário, número estável há mais de uma década. Cita também benchmarks da APQC: o quartil superior conclui o orçamento em 4 a 6 semanas e o inferior leva de 4 a 6 meses. A recomendação é ficar abaixo de oito semanas, porque processos de mais de três meses chegam à aprovação com premissas desatualizadas. Ressalva: números de terceiros citados por consultoria que vende serviços de planejamento, sem amostra nem data das pesquisas.
+Fonte: Onetribe Advisory, "How to Build an Annual Budget That Actually Works: A Guide for Mid-Market Companies" (mar/2026).
+Link: https://www.onetribeadvisory.com/knowledge-hub/budgeting-best-practices/
+Data de coleta: 2026-10-15
+
+O mesmo guia diz que o orçamento falha porque tenta fazer três coisas de uma vez: definir metas, prever e alocar recursos. Propõe cinco princípios: ligar o orçamento à estratégia, construir a partir de drivers e não de linhas contábeis, separar metas de forecast, concluir o processo em menos de oito semanas e definir a governança antes de começar. Sugere que 20 a 30 linhas expliquem cerca de 80% da DRE, recomendação do autor sem fonte citada, e trata o forecast rolling de 12 a 18 meses como complemento do orçamento anual, não substituto.
+Fonte: Onetribe Advisory, "How to Build an Annual Budget That Actually Works: A Guide for Mid-Market Companies" (mar/2026).
+Link: https://www.onetribeadvisory.com/knowledge-hub/budgeting-best-practices/
+Data de coleta: 2026-10-15
+
+A Hackett Group analisou os resultados do ano fiscal de 2025 das 1.000 maiores empresas não financeiras da América do Norte. O ciclo de conversão de caixa melhorou só 0,2 dia, para 38,4 dias, e todo o ganho veio de fornecedores, com o DPO subindo 2,9 dias. O DSO piorou 2,1 dias, pelo terceiro ano seguido e em 40 de 50 setores, e o DIO subiu 0,6 dia. A Hackett estima o capital de giro excedente em US$ 1,94 trilhão, recorde e 12% acima do ano anterior: US$ 773 bilhões em recebíveis, US$ 616 bilhões em estoques e US$ 548 bilhões em fornecedores. Só 98 empresas melhoraram o ciclo de caixa três anos seguidos. Ressalvas: o excedente segue metodologia própria da consultoria, e o comunicado foi lido em reprodução.
+Fonte: The Hackett Group, "The Hackett Group Finds Record $1.94 Trillion Working Capital Opportunity Among North America's Largest Companies" (05/10/2026), via Webull.
+Link: https://www.webull.com/news/15696022826009600
+Data de coleta: 2026-10-15
+
+[Teórico] O orçamento base zero (ZBB) não é só montar o orçamento do zero: é um processo repetido todo ano em que cada gasto é revisado e justificado, com o objetivo de criar uma cultura duradoura de gestão de custos. A McKinsey derruba cinco mitos: o tamanho do corte depende de uma meta definida de cima para baixo (no exemplo, meta de 10% com metade reinvestida, levando 5% ao resultado); uma equipe central implanta em quatro a dez meses, com opção de piloto; o método vale para capex, marketing, distribuição variável e custo do produto vendido, não só para SG&A; custos variáveis pedem orçamento ajustado ao volume; e empresas em crescimento usam o ZBB para realocar recursos. Segundo o artigo, o ZBB pode reduzir SG&A entre 10% e 25%, às vezes em seis meses, e uma empresa economizou 11% em quatro meses e reinvestiu mais de 40% disso em vendas. Ressalva: texto de 2014, com números da própria consultoria.
+Fonte: McKinsey & Company (Callaghan, Hawke e Mignerey), "Five myths (and realities) about zero-based budgeting" (01/10/2014).
+Link: https://karriere.mckinsey.de/capabilities/strategy-and-corporate-finance/our-insights/five-myths-and-realities-about-zero-based-budgeting
+Data de coleta: 2026-10-15

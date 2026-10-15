@@ -76,3 +76,18 @@ Data de coleta: 2026-10-14
 Fonte: SSON (Shared Services & Outsourcing Network), "How does a Finance Center of Excellence Work?" (Stephanie Dentino, 2025).
 Link: https://www.ssonetwork.com/finance-accounting/columns/how-does-a-finance-center-of-excellence-work
 Data de coleta: 2026-10-14
+
+Previsão do Gartner de julho de 2026: até 2028, 20% das organizações financeiras vão parar de contratar e desenvolver profissionais sem letramento digital e destinar todo o investimento em talento a capacidades digitais avançadas. Hoje, o perfil típico de um time de finanças tem 50% de usuários básicos de tecnologia, 35% de profissionais digitalmente letrados ou usuários avançados e 15% de talento digital. A analista Emily Connelly espera que a transição ocorra sobretudo por aposentadoria e saídas naturais, com demissões em massa por IA raras. As recomendações são desenvolver competências digitais internamente, recrutar de forma criativa e incluir metas de desenvolvimento digital na avaliação anual. Ressalvas: previsão de analista sem amostra informada; o release original não abriu e o dado vem da reprodução na imprensa especializada.
+Fonte: CPA Practice Advisor, reproduzindo Gartner, "20% of Finance Organizations Will Pivot All Talent-Related Investments to Advanced Digital Capabilities by 2028, Gartner Predicts" (02/07/2026).
+Link: https://www.cpapracticeadvisor.com/2026/07/02/20-of-finance-organizations-will-pivot-all-talent-related-investments-to-advanced-digital-capabilities-by-2028-gartner-predicts/186063/
+Data de coleta: 2026-10-15
+
+Na mesma pesquisa Finance Trends 2027 da Deloitte (1.434 líderes, 26 países, empresas com receita de US$ 1 bilhão ou mais, primavera de 2026), 43% planejam mudar a forma como o trabalho de finanças é feito, reestruturando a função ou passando partes da operação a parceiros externos. 46% pretendem modernizar o ERP ou unificar dados de finanças, gestão e tributos, e só 29% planejam capacitar o time em dados e IA. O relatório não traz números de headcount. Ressalva: consultoria com interesse comercial em reestruturação e terceirização.
+Fonte: Deloitte Insights, "Deloitte Finance Trends 2027: Shaping the next era of stakeholder value" (08/09/2026).
+Link: https://www.deloitte.com/us/en/insights/topics/leadership/finance-trends-leadership.html
+Data de coleta: 2026-10-15
+
+[Teórico] A Roland Berger descreve uma função financeira de alto desempenho com quatro elementos de papéis separados: operações financeiras, que entregam serviços escaláveis e usam IA onde faz sentido; business partners, que trabalham junto às unidades de negócio para moldar e gerir resultados; centro de excelência, que produz análises para decisão na empresa toda e padroniza práticas com os business partners; e governança e compliance, que definem estratégias, metas, normas e políticas. A ideia central é tratar finanças como plataforma escalável, com cada pilar desenvolvendo as próprias competências, em desenho parecido com o modelo de pilares de Ulrich em RH. A Umbrex acrescenta a pergunta prática: para cada atividade, decidir se fica no negócio, vai para serviços compartilhados ou CoE, ou é terceirizada. Ressalva: duas consultorias, páginas sem data.
+Fonte: Roland Berger, "Finance excellence: Enhance value and drive results" (sem data); Umbrex, "Finance service delivery model" (sem data).
+Link: https://www.rolandberger.com/en/Expertise/Solutions/Finance-excellence-Enhance-value-and-drive-results.html e https://umbrex.com/services/finance/office-of-the-cfo/finance-service-delivery-model/
+Data de coleta: 2026-10-15
