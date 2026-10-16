@@ -131,3 +131,23 @@ Data de coleta: 2026-10-15
 Fonte: Demand Driven Institute, "DDMRP" (página institucional, sem data).
 Link: https://www.demanddriveninstitute.com/ddmrp
 Data de coleta: 2026-10-15
+
+[Teórico] A Remira compara S&OP e IBP em cinco dimensões: escopo, horizonte, integração, tomada de decisão e melhoria contínua. O S&OP cobre vendas e produção, com ciclo mensal e horizonte de 6 a 12 meses. O IBP inclui finanças, marketing e planejamento estratégico, com revisão trimestral e horizonte de 2 a 5 anos ou mais. O texto lembra que o S&OP foi criado em 1988 por Walter Goddard e Richard Link e, citando a Oliver Wight, trata o IBP como evolução dele. Para pequenas e médias empresas, recomenda começar pelo S&OP. Ressalvas: artigo conceitual, sem dado de desempenho, e a Remira vende software de IBP.
+Fonte: REMIRA (Stina Berghaus), "S&OP and IBP in comparison: what are the differences and similarities?" (22/05/2024, atualizado em 14/04/2025).
+Link: https://remira.com/en/supply-chain-blog/s-and-op-and-ibp-in-comparison-what-are-the-differences-and-similarities
+Data de coleta: 2026-10-16
+
+No anúncio da SAP sobre a posição de Leader no Magic Quadrant 2025 do Gartner para software de planejamento financeiro, o único caso com números é o da química finlandesa Kemira. Segundo a SAP, a empresa simplificou mais de 50% dos dados mestres legados, harmonizou estruturas de dados de 400 plantas em 37 países em 15 meses e passou a ter planejamento financeiro em tempo real para mais de 1.000 usuários. A página diz que o projeto melhora a acurácia do forecast, mas não informa quanto. Ressalvas: números do próprio fornecedor, sem verificação independente; do Gartner, a página só traz a posição no quadrante.
+Fonte: SAP News Center (Dan Yu), "SAP Recognized as a Leader in the Gartner Magic Quadrant for Financial Planning Software" (09/12/2025).
+Link: https://news.sap.com/2025/12/sap-a-leader-gartner-magic-quadrant-financial-planning-software/
+Data de coleta: 2026-10-16
+
+A pesquisa global de supply chain da EFESO ouviu 250 executivos seniores na Europa e nos EUA, a maioria de alimentos e bebidas, automotivo e químico. 52% têm plano de continuidade totalmente formalizado, mas só 14% fazem testes de estresse ou simulações de crise com regularidade. Apenas 20% avaliam risco de supply chain todo mês e 31% dizem ter visibilidade total da rede. Quase 30% das empresas aparecem com maturidade alta em resiliência e desempenho de negócio mais fraco. A recomendação é levar revisão de risco, continuidade e simulação para dentro da governança e do S&OP. Ressalvas: a pesquisa não traz números próprios sobre S&OP, a EFESO vende esse tipo de projeto e a página não informa período de campo.
+Fonte: EFESO, "Global Supply Chain Survey 2026: How Resilience Drives Performance" (setembro de 2026).
+Link: https://www.efeso.com/en-americas/insights-events/global-supply-chain-survey-2026/
+Data de coleta: 2026-10-16
+
+[Teórico] O efeito chicote, formalizado por Hau Lee, V. Padmanabhan e Seungjin Whang em 1997, é o aumento da variabilidade dos pedidos a cada elo acima na cadeia, mesmo com a venda ao consumidor estável. Os exemplos clássicos são as fraldas Pampers da P&G e as impressoras da HP. Os autores apontam quatro causas: prever a demanda a partir dos pedidos do cliente direto, pedir em lotes, oscilação de preço que estimula compra antecipada e o jogo de racionamento quando falta produto. As contramedidas incluem compartilhar o dado de demanda mais próximo do consumidor (POS, EDI, VMI), reduzir lead time, fazer pedidos menores com cargas mistas, manter preço estável e alocar a oferta pela venda histórica, não pelo pedido corrente. É o argumento de base para um plano de demanda único entre as áreas.
+Fonte: Hau L. Lee, V. Padmanabhan e Seungjin Whang, "The Bullwhip Effect in Supply Chains", Sloan Management Review (primavera de 1997, p. 93-102), cópia hospedada na UC Berkeley; versão técnica em Management Science 43(4), 546-558.
+Link: https://courses.ischool.berkeley.edu/i290-4/s03/readings/bullwhip.htm e https://ideas.repec.org/a/inm/ormnsc/v43y1997i4p546-558.html
+Data de coleta: 2026-10-16

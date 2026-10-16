@@ -237,3 +237,31 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-15 | Organization | estatística | Gartner via CPA Practice Advisor | Até 2028, 20% das áreas de finanças vão investir só em talento com capacidade digital avançada (Gartner) |
 | 2026-10-15 | Organization | pesquisa | Deloitte | 43% dos líderes planejam reestruturar finanças ou terceirizar partes da operação, e só 29% capacitar o time em dados e IA |
 | 2026-10-15 | Organization | teórico | Roland Berger / Umbrex | Função financeira em quatro elementos: operações, business partners, CoE e governança e compliance |
+| 2026-10-16 | Controllership | conclusão | SEC / Federal Register | PCAOB AS 1000 junta quatro normas interinas e reduz de 45 para 14 dias o prazo da documentação de auditoria |
+| 2026-10-16 | Controllership | estatística | SEC / Federal Register | PCAOB AS 2501 sobre estimativas e valor justo: 66% das auditorias com deficiência envolviam estimativas em 2010 |
+| 2026-10-16 | Controllership | estratégia | Optro | Framework de cinco elementos para governança de IA em finanças, ligado a EU AI Act, GDPR e DORA (fornecedor) |
+| 2026-10-16 | Controllership | estatística | Ideagen Audit Analytics / Accounting Today | Restatements caem 18% em 2025 (391), com classificação de dívida e patrimônio liderando as causas (27%) |
+| 2026-10-16 | Controllership | teórico | Cooley / Journal of Accountancy / NC State | Management review controls: precisão da revisão, dado confiável e evidência do que o revisor fez |
+| 2026-10-16 | Finance Automation | estudo de caso | Nucleus Research | BlackLine (2009): automação de conciliação se paga em até 6 meses e acelera o fechamento em até 50% |
+| 2026-10-16 | Finance Automation | pesquisa | Redwood Software / SSON | 91% acham crítico automatizar o R2R, mas só 58% automatizaram algum processo-chave |
+| 2026-10-16 | Finance Automation | estatística | CFO.com / APQC | ROI mediano de 45% em automação financeira, mas só 8% dos FTEs foram realocados para trabalho de maior valor |
+| 2026-10-16 | Finance Automation | teórico | ISG Software Research | Contabilidade contínua: fechamento espalhado pelo período; 85% dos muito automatizados fecham em até seis dias |
+| 2026-10-16 | Forecasting Methods | estudo de caso | University of Gothenburg | Caso Philips: orçamento mantém metas e motivação, rolling forecast complementa com flexibilidade |
+| 2026-10-16 | Forecasting Methods | estratégia | CFO Shortlist | Ciclo mensal de rolling forecast em seis passos, priorizando a comparação com o forecast anterior |
+| 2026-10-16 | Forecasting Methods | estatística | Farseer / IBM IBV | Rolling forecast 12% mais preciso e com metade do tempo de preparação do orçamento (IBM via fornecedor) |
+| 2026-10-16 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3) | Validação cruzada com origem rolante mede o erro real melhor que os resíduos do treino |
+| 2026-10-16 | FP&A Fundamentals | teórico | Handit | Contabilidade olha o passado, controladoria garante o presente e FP&A projeta o futuro |
+| 2026-10-16 | FP&A Fundamentals | teórico | Michael C. Jensen | Paying People to Lie: bônus atrelado a meta orçamentária gera manipulação; correção é pagar de forma linear |
+| 2026-10-16 | Integrated Planning | teórico | REMIRA | S&OP cobre 6 a 12 meses em vendas e produção; IBP vai a 2 a 5 anos e inclui finanças |
+| 2026-10-16 | Integrated Planning | estudo de caso | SAP | Kemira harmonizou dados de 400 plantas em 15 meses e tem planejamento em tempo real para mais de 1.000 usuários (fornecedor) |
+| 2026-10-16 | Integrated Planning | pesquisa | EFESO | 52% têm plano de continuidade formal, só 14% fazem simulação regular de crise (250 executivos) |
+| 2026-10-16 | Integrated Planning | teórico | Lee, Padmanabhan e Whang | Efeito chicote: quatro causas da distorção de demanda na cadeia e as contramedidas |
+| 2026-10-16 | Strategic Planning | estudo de caso | Purple Wins (NAVETRA) | Peloton comprometeu cerca de US$ 820 mi em capacidade com mercado 14 vezes maior que o do próprio S-1 |
+| 2026-10-16 | Strategic Planning | estratégia | Treasy | Roteiro de seis etapas do propósito ao acompanhamento planejado contra realizado |
+| 2026-10-16 | Strategic Planning | pesquisa | Bain & Company | Menos da metade de 100 CEOs acha que a empresa executa na velocidade que o mercado exige |
+| 2026-10-16 | Strategic Planning | teórico | Umbrex | Matriz de Ansoff: quatro rotas de crescimento ordenadas por distância do núcleo e risco |
+| 2026-10-16 | Leadership Roles | estudo de caso | Journal of Accountancy | Cargo de CAO após a SOX: 122 empresas da Fortune 500 com o título em 2006 |
+| 2026-10-16 | Leadership Roles | estatística | The Conference Board / Harvard Law School Forum | Mediana do CFO de US$ 2,6 mi (Russell 3000) e US$ 6,1 mi (S&P 500) na temporada de proxies de 2026 |
+| 2026-10-16 | Leadership Roles | teórico | Voitto (Charan, Drotter e Noel) | Leadership Pipeline: salto de líder funcional para líder de negócio e o erro de atuar no nível errado |
+| 2026-10-16 | Organization | pesquisa | FERF / Randstad USA | 50% veem lacuna de talento como maior risco; em 36% a liderança sênior gasta até metade do tempo com dado manual |
+| 2026-10-16 | Organization | teórico | Randstad UK / Fellow (McKinsey) | Spans and layers: amplitude de controle de 3 a 5 até 15 ou mais diretos, conforme a padronização do trabalho |

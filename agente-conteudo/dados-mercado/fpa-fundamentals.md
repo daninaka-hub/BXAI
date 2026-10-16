@@ -106,3 +106,13 @@ Data de coleta: 2026-10-15
 Fonte: McKinsey & Company (Callaghan, Hawke e Mignerey), "Five myths (and realities) about zero-based budgeting" (01/10/2014).
 Link: https://karriere.mckinsey.de/capabilities/strategy-and-corporate-finance/our-insights/five-myths-and-realities-about-zero-based-budgeting
 Data de coleta: 2026-10-15
+
+[Teórico] A Handit separa contabilidade, controladoria e FP&A pelo horizonte de tempo e pela função. A contabilidade registra e demonstra os fatos econômicos conforme as normas, olhando para o passado. A controladoria cuida da governança e da qualidade da informação realizada, no presente, com fechamento, conciliações e controles internos. O FP&A olha para o futuro, com orçamento, forecast, rolling forecast, orçado contra realizado, cenários e KPIs. O texto conclui que as três áreas se complementam. Ressalvas: sem estatística, sem data nem autor visíveis, e a Handit vende plataforma de EPM.
+Fonte: Handit, "Qual a diferença entre FP&A x Controladoria x Contabilidade? E como essas áreas se complementam." (sem data).
+Link: https://handit.com.br/blog/diferenca-fpa-controladoria-contabilidade/
+Data de coleta: 2026-10-16
+
+[Teórico] Michael C. Jensen, da Harvard Business School, defende que atrelar bônus e promoção ao cumprimento do orçamento leva as pessoas a manipular o sistema, e que isso destrói valor de dois jeitos. Na elaboração, os gestores distorcem informação para conseguir metas fáceis, e a empresa perde o dado sem viés de que precisa para coordenar as áreas. Na execução, manipulam o resultado contra a meta. A proposta não é abolir o orçamento, o que o separa do Beyond Budgeting, e sim tirar a meta orçamentária da fórmula de remuneração e pagar de forma linear sobre o desempenho, sem degraus, tetos ou pisos, porque esquemas lineares não dão motivo para esconder informação ou empurrar resultado de um período para outro. Ressalva: ensaio conceitual; o próprio autor reconhece pouca evidência sobre esses custos, e a estimativa de ganho de 50% a 100% em alguns casos é dele, não medida.
+Fonte: Michael C. Jensen, "Paying People to Lie: the Truth about the Budgeting Process", European Financial Management, v. 9, n. 3, p. 379-406 (setembro de 2003).
+Link: https://ideas.repec.org/a/bla/eufman/v9y2003i3p379-406.html
+Data de coleta: 2026-10-16

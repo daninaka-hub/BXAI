@@ -116,3 +116,23 @@ Data de coleta: 2026-10-15
 Fonte: Hyndman e Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed.), seção "Forecast combinations".
 Link: https://otexts.com/fpp3/combinations.html
 Data de coleta: 2026-10-15
+
+Dissertação de mestrado em Accounting da Universidade de Gotemburgo, com estudo de caso do setor Consumer Lifestyle da Philips na Holanda, comparado com a literatura de better budgeting e beyond budgeting. A conclusão é que o orçamento anual continua responsável por fixar metas, gerar comprometimento e motivar, funções que o rolling forecast não substitui. O rolling forecast entra como complemento: dá flexibilidade ao orçamento e melhora decisões de alocação de recursos, supply chain e planejamento de produção. Ressalvas: caso único, sem amostra estatística, e só o resumo oficial foi lido.
+Fonte: University of Gothenburg (GUPEA), Shabnam Ilchikabir, "On the complementary role of budget and rolling forecast: A case study of Philips Company (consumer Lifestyle sector) in the Netherlands" (projeto 2013:75, publicado no repositório em 20/01/2015).
+Link: https://gupea.ub.gu.se/items/f3444819-0c95-4336-843a-cc53bfad0b22 (handle: http://hdl.handle.net/2077/37931)
+Data de coleta: 2026-10-16
+
+O guia da CFO Shortlist trata o rolling forecast como uma projeção de 12, 18 ou 24 meses que ganha um mês novo a cada fechamento. Propõe um ciclo mensal em seis passos: fechar e carregar o realizado, revisar premissas, recalcular, analisar variações, colher a contribuição das outras áreas e publicar. Também defende que a comparação mais útil é a do forecast atual com o forecast anterior, mais do que com o orçamento ou com o realizado. Ressalvas: não traz estatística nem pesquisa, sugestões como adotar a partir de 50 funcionários não têm fonte, o site promove fornecedores de EPM e a página mostra datas conflitantes.
+Fonte: CFO Shortlist, "What Is a Rolling Forecast?" (página "Rolling Forecast Guide for CFOs & FP&A Teams", atualizada em fevereiro de 2026).
+Link: https://www.cfoshortlist.com/reports/rolling-forecast
+Data de coleta: 2026-10-16
+
+O guia da Farseer cita pesquisa do IBM Institute for Business Value, via FP&A Trends, segundo a qual rolling forecasts são 12% mais precisos que orçamentos tradicionais, cortam pela metade o tempo de preparação do orçamento e melhoram a lucratividade em 10%. Cita também a EPM Channel: 20% das empresas que tentaram adotar rolling forecast não conseguiram mantê-lo. Na parte prática, recomenda de três a sete drivers e uma transição em três fases: rodar em paralelo ao orçamento por um ciclo, reduzir o detalhe do orçamento e depois tornar o forecast a ferramenta principal. Ressalvas: nenhuma das duas pesquisas tem amostra ou ano informado, e a Farseer vende software de FP&A.
+Fonte: Farseer (Asif Masani), "Rolling Forecasts: The Complete Guide (With Examples)" (21/05/2026).
+Link: https://www.farseer.com/blog/rolling-forecast/
+Data de coleta: 2026-10-16
+
+[Teórico] A validação cruzada de séries temporais, ou avaliação com origem de previsão rolante, troca a divisão única entre treino e teste por uma sequência de testes. A cada rodada o modelo é treinado só com dados anteriores ao ponto testado, a origem avança um período e a acurácia final é a média das rodadas. O método básico mede previsão de um passo à frente, mas pode medir vários passos, que é o caso mais comum em FP&A. No exemplo do livro (ações do Google em 2015, random walk com drift), a validação cruzada deu RMSE de 11,27, contra 11,15 medido pelos resíduos do treino. Os resíduos subestimam o erro porque vêm de um modelo ajustado à série inteira. A recomendação dos autores é escolher o modelo com menor RMSE na validação cruzada. Complementa a entrada sobre métricas de acurácia do mesmo livro.
+Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 5.10 "Time series cross-validation".
+Link: https://otexts.com/fpp3/tscv.html
+Data de coleta: 2026-10-16

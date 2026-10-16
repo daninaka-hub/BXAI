@@ -141,3 +141,18 @@ Data de coleta: 2026-10-15
 Fonte: Shortform, "The First 90 Days: Book Overview" (2021); Stanford Social Innovation Review, "The First 90 Days" (2004).
 Link: https://www.shortform.com/blog/the-first-90-days-book/ e https://ssir.org/articles/entry/review_the_first_90_days
 Data de coleta: 2026-10-15
+
+Matéria de 2006 do Journal of Accountancy sobre o avanço do cargo de chief accounting officer (CAO) depois da Sarbanes-Oxley. Num levantamento informal de Chuck Eldridge, da Korn/Ferry, 122 empresas da Fortune 500 tinham alguém com o título de CAO; em 60 delas o CAO acumulava a função de controller e em 62 o título era único. Os CAOs costumavam ser CPAs com 10 a 15 anos de experiência técnica, com salário base entre US$ 100 mil e US$ 200 mil ou mais. Casos de 3M, GM, Eli Lilly, Littelfuse e Stratus mostram um escopo que cobre reporte, controles internos, tributos, compliance e apoio a M&A. Ressalvas: conteúdo de fevereiro de 2006, com aviso de possível desatualização na própria página, e levantamento sem metodologia descrita.
+Fonte: Journal of Accountancy (AICPA), Joanne Sammer, "New Kids on the Block" (01/02/2006).
+Link: https://www.journalofaccountancy.com/issues/2006/feb/newkidsontheblock/
+Data de coleta: 2026-10-16
+
+Na temporada de proxies de 2026, que reflete em geral o ano fiscal de 2025, a mediana de remuneração do CFO foi de US$ 2,6 milhões no Russell 3000 e de US$ 6,1 milhões no S&P 500. Entre os cargos funcionais, só o COO fica acima, com cerca de US$ 2,9 milhões e US$ 6,4 milhões. A mediana do CEO foi de US$ 7,1 milhões no Russell 3000 (alta de 7%) e de US$ 17,5 milhões no S&P 500 (alta de 6%). Mulheres ocupavam 15,7% das cadeiras de CFO no Russell 3000 e 17% no S&P 500. Ressalvas: o texto avisa que as comparações variam muito com o porte e a definição do cargo, e não traz o total de empresas nem a variação anual da remuneração do CFO.
+Fonte: The Conference Board, com ESGAUGE e FW Cook, via Harvard Law School Forum on Corporate Governance, "CEO and Executive Compensation Practices in the Russell 3000 and S&P 500: 2026" (12/10/2026).
+Link: https://corpgov.law.harvard.edu/2026/10/12/ceo-and-executive-compensation-practices-in-the-russell-3000-and-sp-500-2026/
+Data de coleta: 2026-10-16
+
+[Teórico] O modelo Leadership Pipeline, de Ram Charan, Stephen Drotter e James Noel (2001), divide a carreira de liderança em passagens, e cada uma exige mudar habilidades, uso do tempo e valores de trabalho. A passagem de gestor funcional para gestor de negócio é o salto típico de um CFO ou controller que assume um P&L ou mira o cargo de CEO. Nela, a pessoa deixa de valorizar só a própria função e passa a pesar todas igualmente, pensando em rentabilidade e vantagem competitiva a partir de clientes, concorrentes e economia. Segundo o modelo, a falha mais comum é atuar no nível errado, como o gestor de negócio que segue se comportando como gestor funcional. Ressalvas: lido via site de resumos de livros, e as fontes numeram as passagens de formas diferentes.
+Fonte: Voitto, resumo de "The Leadership Pipeline" (Charan, Drotter e Noel, 2001).
+Link: https://blog.voitto.com.br/resumo/en/the-leadership-pipeline
+Data de coleta: 2026-10-16

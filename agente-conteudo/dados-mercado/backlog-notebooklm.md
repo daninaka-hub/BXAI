@@ -196,30 +196,30 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 188 | Microsoft Layoffs & Toxic Management: A Dangerous Culture Behind the Scenes - Reddit | Baixa | Pendente |
 | 189 | Microsoft Names Amy Hood New CFO | PCMag | Baixa | Pendente |
 | 190 | Modern Enterprise Finance Governance: Strategic Best Practices Across FP&A, Controllership, and Corporate Planning | Alta | Descartado |
-| 191 | Navigate AI governance and regulatory compliance in finance - Optro | Alta | Pendente |
-| 192 | New Kids on the Block - Journal of Accountancy | Alta | Pendente |
+| 191 | Navigate AI governance and regulatory compliance in finance - Optro | Alta | Processado |
+| 192 | New Kids on the Block - Journal of Accountancy | Alta | Processado |
 | 193 | Newsletters - FP&A Trends | Baixa | Pendente |
-| 194 | Notice of Filing of Proposed Rules on Auditing Accounting Estimates, Including Fair Value Measurements, and Amendments to PCAOB - SEC.gov | Alta | Pendente |
-| 195 | On the Complementary Role of Budget and Rolling Forecast - Gupea | Alta | Pendente |
-| 196 | Oracle Recognized as a Leader in the 2025 Gartner Magic Quadrant for Financial Planning Software | Alta | Pendente |
-| 197 | PCAOB Auditing Standards Overview: Building Audit Quality | Alta | Pendente |
+| 194 | Notice of Filing of Proposed Rules on Auditing Accounting Estimates, Including Fair Value Measurements, and Amendments to PCAOB - SEC.gov | Alta | Processado |
+| 195 | On the Complementary Role of Budget and Rolling Forecast - Gupea | Alta | Processado |
+| 196 | Oracle Recognized as a Leader in the 2025 Gartner Magic Quadrant for Financial Planning Software | Alta | Descartado |
+| 197 | PCAOB Auditing Standards Overview: Building Audit Quality | Alta | Descartado |
 | 198 | PGDM in Finance 2026: Colleges, Fees, Syllabus & Career - Propelld | Baixa | Pendente |
 | 199 | Paul Barnhurst - Vena Solutions | Baixa | Pendente |
-| 200 | Peloton's Capacity Bet - NAVETRA - Execution Risk Governance | Alta | Pendente |
-| 201 | Period Close Automation Platforms Compared - ChatFin | Alta | Pendente |
-| 202 | Planejamento e Estratégia · Blog Treasy | Alta | Pendente |
-| 203 | Protecting Financial Data Privacy in the Age of Artificial Intelligence - DFIN | Alta | Pendente |
-| 204 | Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on General Responsibilities of the Auditor - Federal Register | Alta | Pendente |
-| 205 | Qual a diferença entre FP&A x Controladoria x Contabilidade? - Handit | Alta | Pendente |
+| 200 | Peloton's Capacity Bet - NAVETRA - Execution Risk Governance | Alta | Processado |
+| 201 | Period Close Automation Platforms Compared - ChatFin | Alta | Descartado |
+| 202 | Planejamento e Estratégia · Blog Treasy | Alta | Processado |
+| 203 | Protecting Financial Data Privacy in the Age of Artificial Intelligence - DFIN | Alta | Descartado |
+| 204 | Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on General Responsibilities of the Auditor - Federal Register | Alta | Processado |
+| 205 | Qual a diferença entre FP&A x Controladoria x Contabilidade? - Handit | Alta | Processado |
 | 206 | Quem Somos - Sams Advisory | Baixa | Pendente |
-| 207 | R2R reality check: Research shows automation lags despite demand - Redwood Software | Alta | Pendente |
-| 208 | RESEARCH NOTE EXPLORING THE BENEFITS OF BLACKLINE SYSTEMS | Alta | Pendente |
-| 209 | ROCKSTAR SERVICE - ERP Today | Alta | Pendente |
-| 210 | Rolling Forecast Guide for CFOs & FP&A Teams | CFO Shortlist | Alta | Pendente |
-| 211 | Rolling Forecasts: The Complete FP&A Guide (With Examples) - Farseer | Alta | Pendente |
-| 212 | S&OP and IBP in comparison: what are the differences and similarities? - Remira | Alta | Pendente |
-| 213 | SAP Joule and Agentic AI: The Strategic Mind for Your Intelligent Enterprise | Alta | Pendente |
-| 214 | SAP Recognized as a Leader in the Gartner Magic Quadrant for Financial Planning Software | Alta | Pendente |
+| 207 | R2R reality check: Research shows automation lags despite demand - Redwood Software | Alta | Processado |
+| 208 | RESEARCH NOTE EXPLORING THE BENEFITS OF BLACKLINE SYSTEMS | Alta | Processado |
+| 209 | ROCKSTAR SERVICE - ERP Today | Alta | Descartado |
+| 210 | Rolling Forecast Guide for CFOs & FP&A Teams | CFO Shortlist | Alta | Processado |
+| 211 | Rolling Forecasts: The Complete FP&A Guide (With Examples) - Farseer | Alta | Processado |
+| 212 | S&OP and IBP in comparison: what are the differences and similarities? - Remira | Alta | Processado |
+| 213 | SAP Joule and Agentic AI: The Strategic Mind for Your Intelligent Enterprise | Alta | Descartado |
+| 214 | SAP Recognized as a Leader in the Gartner Magic Quadrant for Financial Planning Software | Alta | Processado |
 | 215 | SAP Sapphire 2026 Innovation News Guide | Alta | Pendente |
 | 216 | SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme | Alta | Processado |
 | 217 | SOX AI Controls and Financial Reporting Models | Block Convey | Alta | Pendente |

@@ -251,3 +251,23 @@ Data de coleta: 2026-10-15
 Fonte: TechTarget, "What is intelligent document processing (IDP)?" (27/03/2025).
 Link: https://www.techtarget.com/searchcontentmanagement/definition/intelligent-document-processing-IDP
 Data de coleta: 2026-10-15
+
+Uma nota da Nucleus Research de março de 2009 sobre clientes da BlackLine, que automatiza a conciliação contábil, concluiu que o software se paga em seis meses ou menos quando bem implantado. Em média, o cliente automatiza a conciliação de pelo menos 50% das contas e pode acelerar o fechamento em até 50%. Os exemplos individuais são: um cliente automatizou 63% das contas, outro baixou o tempo médio de conciliação de cinco para três minutos e um terceiro deixou de gastar US$ 100.000 por ano na manutenção de um sistema legado. Ressalvas: o estudo é de 2009, não informa quantas empresas foram analisadas e o PDF está hospedado no site da própria BlackLine.
+Fonte: Nucleus Research, "Research Note: Exploring the Benefits of BlackLine Systems" (março de 2009, Document J4).
+Link: https://pages.blackline.com/rs/blacklinesystems/images/Nucleus-Research-Exploring-the-Benefits-of-BlackLine.pdf
+Data de coleta: 2026-10-16
+
+Em pesquisa da SSON Research & Analytics encomendada pela Redwood Software, 91% dos líderes financeiros consideram crítico automatizar o record-to-report (R2R), mas só 58% automatizaram pelo menos um processo-chave. As barreiras citadas são integração difícil com sistemas legados, ferramentas complexas, pouco conhecimento do que dá para automatizar e falta de patrocínio da alta liderança. O autor argumenta que soluções pontuais criam trabalho manual extra e defende uma plataforma de ponta a ponta. Ressalvas: a página não informa amostra nem data de campo, e o autor é executivo do fornecedor.
+Fonte: Redwood Software, "R2R reality check: Research shows automation lags despite demand" (Shak Akhtar, 03/04/2025).
+Link: https://www.redwood.com/article/fa-state-of-record-to-report-automation/
+Data de coleta: 2026-10-16
+
+Benchmarks da APQC citados pelo CFO.com mostram ROI acumulado mediano de 45% com automação de processos financeiros nos últimos 12 meses, com 35% no 25º percentil e 55% no 75º. A redução mediana do tempo do pessoal de finanças em atividades transacionais foi de 20%, mas só 8% dos FTEs de finanças foram realocados para trabalho de maior valor. Ou seja, a capacidade liberada não vira valor sozinha. O artigo recomenda medir uma linha de base antes de implantar (erros, tempo de ciclo, custo, volume por FTE), definir o critério de sucesso antes, planejar o destino da capacidade liberada e investir em gestão de mudança. Ressalvas: amostra e período não informados, os números de 20% e 8% vêm de amostras diferentes e servem só como direção, e o dado é de segunda mão porque a base da APQC é restrita a membros.
+Fonte: CFO.com, "How CFOs can get more value from finance process automation" (Perry D. Wiggins, 08/09/2026), citando benchmarks da APQC.
+Link: https://www.cfo.com/news/how-cfos-can-get-more-value-from-finance-process-automation-metric-of-the/829421/
+Data de coleta: 2026-10-16
+
+[Teórico] Continuous accounting (contabilidade contínua) é um termo que Robert Kugel, da Ventana Research (hoje ISG Software Research), diz ter cunhado e que defende desde 2015. A ideia é usar tecnologia para espalhar o trabalho de fechamento ao longo do período, em vez de concentrá-lo no fim do mês. Os elementos são conciliações e eliminações intercompany frequentes, lançamento espelhado das transações intracompany para eliminar divergências na origem, soft closes semanais ou diários apoiados em analytics do ERP, automação das tarefas repetitivas com menos planilha e melhoria contínua de processo, tecnologia e pessoas. Na pesquisa de benchmark citada, 85% das empresas com automação substancial do fechamento fecham em até seis dias úteis, contra 43% com automação parcial e 33% com pouca ou nenhuma, e a duração do fechamento não teve relação com porte, setor ou número de ERPs. Ressalvas: o texto é de 2021 e não mostra amostra nem metodologia.
+Fonte: ISG Software Research, "Controllers: Always Be Closing" (Robert Kugel, 29/06/2021).
+Link: https://research.isg-one.com/analyst-perspectives/controllers-always-be-closing
+Data de coleta: 2026-10-16

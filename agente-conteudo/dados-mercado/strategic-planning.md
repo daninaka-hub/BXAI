@@ -126,3 +126,23 @@ Data de coleta: 2026-10-15
 Fonte: Lean Enterprise Institute, "Hoshin Kanri" (Lean Lexicon, sem data).
 Link: https://www.lean.org/lexicon-terms/hoshin-kanri/
 Data de coleta: 2026-10-15
+
+Casebook sobre a Peloton: entre dezembro de 2020 e maio de 2021 a empresa comprometeu cerca de US$ 820 milhões em capacidade fabril nos EUA, somando a compra da Precor (US$ 420 milhões, segundo o 8-K) e a fábrica de Ohio (cerca de US$ 400 milhões, estimados). O texto argumenta que a capacidade foi dimensionada pelo mercado de cerca de 200 milhões de frequentadores de academia citado no investor day de 2020, enquanto o S-1 de 2019 da própria Peloton estimava um mercado atendível de 14 milhões de produtos. Pelos documentos da SEC citados, o estoque bruto chegou a US$ 1.509,9 milhões em março de 2022, a reestruturação de fevereiro de 2022 cortou 2.800 cargos e o 4º trimestre do ano fiscal de 2022 teve prejuízo operacional de US$ 1,20 bilhão. A lição proposta ao conselho é escolher de forma explícita qual estimativa de mercado limita os compromissos de capital e tratar a outra como upside. Ressalvas: material de consultoria que promove a própria metodologia, sem data de publicação, e alguns números não têm fonte citada.
+Fonte: Purple Wins (NAVETRA, JTS Inc.), "Peloton's Capacity Bet: The Capital Risk Its Own S-1 Already Priced, A NAVETRA Casebook" (sem data).
+Link: https://www.purplewins.io/article/peloton-capacity-capital-risk
+Data de coleta: 2026-10-16
+
+A Treasy propõe um roteiro de seis etapas para o planejamento estratégico. Começa pelo propósito, segue para poucos objetivos (por volta de três), metas numéricas com prazo ligadas a OKRs financeiros e um orçamento montado a partir das metas. Depois vêm cenários base, pessimista, otimista e de choque severo e, por fim, o acompanhamento planejado contra realizado a cada fechamento. Ressalvas: texto de orientação, sem pesquisa nem amostra, os valores em reais são um exemplo hipotético e a Treasy vende software de planejamento.
+Fonte: Treasy (Teresa Campos), "Planejamento estratégico 2027: do propósito ao número" (28/04/2026), da categoria Planejamento e Estratégia do Blog Treasy.
+Link: https://www.treasy.com.br/blog/planejamento-estrategico-2027/
+Data de coleta: 2026-10-16
+
+No CEO Agenda 2026 da Bain, com 100 CEOs, os executivos se dizem mais seguros sobre ambição e alinhamento do que sobre execução, modelo operacional e velocidade. Menos da metade acredita que a empresa consegue se adaptar e executar no ritmo que o mercado exige. As capacidades com menor confiança são corrigir a rota rapidamente, investir em resiliência e captar sinais do mercado. Só metade considera a governança simples o bastante para dar agilidade, e 52% dizem ter rotinas para tocar o negócio atual e transformá-lo ao mesmo tempo. Ressalvas: amostra pequena, sem período de campo nem países informados, e vários resultados só aparecem em gráficos.
+Fonte: Bain & Company, "The 2026 CEO Agenda: Where Ambition Outpaces Execution" (Saenz, O'Keeffe, Allen e Nand Kishore, 01/06/2026).
+Link: https://www.bain.com/insights/the-2026-ceo-agenda-where-ambition-outpaces-execution/
+Data de coleta: 2026-10-16
+
+[Teórico] A matriz de Ansoff, do artigo "Strategies for Diversification" (Harvard Business Review, 1957) e ampliada no livro Corporate Strategy (1965), cruza produtos existentes ou novos com mercados existentes ou novos e chega a quatro rotas de crescimento: penetração de mercado, desenvolvimento de mercado, desenvolvimento de produto e diversificação. O risco cresce à medida que a empresa se afasta do núcleo. A penetração é a rota de menor risco, e a diversificação exige mais capacidades novas e dá retorno mais lento. As críticas apontadas: a divisão binária entre existente e novo esconde graus de adjacência, a matriz ignora a estrutura da indústria e só indica escolhas, sem dizer se a empresa consegue executá-las. Ressalva: fonte secundária de consultoria, sem data.
+Fonte: Umbrex, "Ansoff Product-Market Growth Matrix" (sem data).
+Link: https://umbrex.com/?p=241082
+Data de coleta: 2026-10-16
