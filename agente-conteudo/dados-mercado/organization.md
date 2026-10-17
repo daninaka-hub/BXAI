@@ -101,3 +101,13 @@ Data de coleta: 2026-10-16
 Fonte: Randstad UK, "How to identify the right span of control for your company" (13/01/2025); Fellow, "How Many Direct Reports Should a Manager Have?" (15/10/2026); ambas citando McKinsey, "How to identify the right 'spans of control' for your organization".
 Link: https://www.randstad.co.uk/market-insights/employment-trends/how-to-identify-right-span-control-your-company/ e https://fellow.ai/blog/how-many-direct-reports-should-a-manager-have-free-template/
 Data de coleta: 2026-10-16
+
+Uma pesquisa da Personiv com 203 líderes de finanças e contabilidade nos EUA mostra média de 17 vagas abertas na área por empresa, contra 5 em 2025 e 2 em 2024 (171 responderam a essa pergunta). A fatia que vê escassez de talentos ficou em 84%, ante 87% no ano anterior e 63% em 2020. O cargo mais difícil de preencher é o de contador sênior (43%), seguido de contador júnior (26%) e contador tributário (11%). Para 51%, a maior barreira é a alta das expectativas salariais. Ao mesmo tempo, 94% já usam talento terceirizado, e o uso de IA para aliviar a pressão por contratação foi de 23% para 63%. Ressalva: a Personiv vende terceirização e a amostra é pequena.
+Fonte: Accounting Today (Michael Cohn), "Accounting talent shortage surges" (03/06/2026), sobre relatório da Personiv.
+Link: https://www.accountingtoday.com/news/accounting-talent-shortage-surges
+Data de coleta: 2026-10-17
+
+[Teórico] O Star Model de Jay Galbraith trata o desenho organizacional como tarefa da liderança e o organiza em cinco alavancas: estratégia, estrutura, processos, pessoas e recompensas. A estratégia gera critérios de desenho, ou seja, as capacidades que a organização precisa ter, e eles orientam a estrutura (funcional, geográfica, por produto, por cliente ou híbrida front-back). Processos são as ligações laterais entre áreas, como redes, times, papéis integradores e matriz; a recomendação é usar o mecanismo de coordenação mais leve que resolva antes de partir para a matriz. Pessoas cobre seleção, avaliação, treinamento e carreira, e recompensas reúne métricas, comportamentos, remuneração e reconhecimento. A tese é que as cinco alavancas precisam estar alinhadas: mudar só a estrutura ou só as pessoas não corrige um desenho ruim. Em finanças, o modelo ajuda a testar se a escolha entre CSC, CoE e business partners tem processos, metas e carreiras coerentes.
+Fonte: Strategic Management Insight (Ovidijus Jurevicius), "Galbraith's Star Model Explained in Depth" (atualizado em 16/06/2025).
+Link: https://strategicmanagementinsight.com/tools/galbraiths-star-model-explained/
+Data de coleta: 2026-10-17

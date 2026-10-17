@@ -222,30 +222,30 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 214 | SAP Recognized as a Leader in the Gartner Magic Quadrant for Financial Planning Software | Alta | Processado |
 | 215 | SAP Sapphire 2026 Innovation News Guide | Alta | Pendente |
 | 216 | SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme | Alta | Processado |
-| 217 | SOX AI Controls and Financial Reporting Models | Block Convey | Alta | Pendente |
-| 218 | SOX Compliance for AI Systems - elvex | Alta | Pendente |
-| 219 | SOX Compliance: Requirements, Controls & AI (2026 Guide) - Concourse AI | Alta | Pendente |
-| 220 | SOX Compliance: What Internal Auditors Need to Do Now - Supervizor | Alta | Pendente |
-| 221 | SOX Section 404 Compliance: 2026 Updates, Key Differences, and Best Practices | Alta | Pendente |
+| 217 | SOX AI Controls and Financial Reporting Models | Block Convey | Alta | Descartado |
+| 218 | SOX Compliance for AI Systems - elvex | Alta | Processado |
+| 219 | SOX Compliance: Requirements, Controls & AI (2026 Guide) - Concourse AI | Alta | Descartado |
+| 220 | SOX Compliance: What Internal Auditors Need to Do Now - Supervizor | Alta | Descartado |
+| 221 | SOX Section 404 Compliance: 2026 Updates, Key Differences, and Best Practices | Alta | Processado |
 | 222 | Seizing Career Opportunities: Celeste Ackert - CFO.com | Baixa | Pendente |
 | 223 | Site Map | Pluvo | Baixa | Pendente |
-| 224 | Stepping Into the Future of Controllership | Deloitte US | Alta | Pendente |
-| 225 | Strategic Foresight: How CFOs Turn Uncertainty into Advantage - Part 1 of 3 | FP&A Trends | Alta | Pendente |
+| 224 | Stepping Into the Future of Controllership | Deloitte US | Alta | Processado |
+| 225 | Strategic Foresight: How CFOs Turn Uncertainty into Advantage - Part 1 of 3 | FP&A Trends | Alta | Processado |
 | 226 | Strategic Planning & Operations Sr Mgr - Global Customer Capabilities & Innovation | Baixa | Pendente |
 | 227 | Strategic Planning Resume Samples | VelvetJobs | Baixa | Pendente |
-| 228 | Strategic Transformation in Enterprise Finance: Deploying Artificial Intelligence across FP&A, Controllership, and Corporate Planning | Alta | Pendente |
-| 229 | Systemic Financial Planning, Controllership, and FP&A Failures: Institutional Case Studies and Strategic Governance Imperatives | Alta | Pendente |
-| 230 | Target Canada: Lesson from Failure of International Entry | Journal of Eastern European and Central Asian Research | Alta | Pendente |
-| 231 | Target's Canada Collapse - Business Knowledge - Kit | Alta | Pendente |
-| 232 | Target's $5.4 Billion Disaster: Why the Canadian Expansion Failed (Full Case Study) | Alta | Pendente |
+| 228 | Strategic Transformation in Enterprise Finance: Deploying Artificial Intelligence across FP&A, Controllership, and Corporate Planning | Alta | Descartado |
+| 229 | Systemic Financial Planning, Controllership, and FP&A Failures: Institutional Case Studies and Strategic Governance Imperatives | Alta | Descartado |
+| 230 | Target Canada: Lesson from Failure of International Entry | Journal of Eastern European and Central Asian Research | Alta | Processado |
+| 231 | Target's Canada Collapse - Business Knowledge - Kit | Alta | Descartado |
+| 232 | Target's $5.4 Billion Disaster: Why the Canadian Expansion Failed (Full Case Study) | Alta | Descartado |
 | 233 | The 14 Best FP&A Podcasts To Listen to in 2025 - Vena Solutions | Baixa | Pendente |
-| 234 | The 2025 Gartner Magic Quadrant for Financial Planning Software - Board | Alta | Pendente |
+| 234 | The 2025 Gartner Magic Quadrant for Financial Planning Software - Board | Alta | Descartado |
 | 235 | The 6 a.m. CFO: How Fresh FP&A's Chris Ortega Starts His Day | Baixa | Pendente |
-| 236 | The CAO's first year: five priorities to build early impact | EY - US | Alta | Pendente |
+| 236 | The CAO's first year: five priorities to build early impact | EY - US | Alta | Processado |
 | 237 | The ChatFin Resource Library | Baixa | Pendente |
-| 238 | The FP&A Tool Landscape in the AI Era - Sign In | Alta | Pendente |
-| 239 | The KPMG Review Internal Control: A Practical Guide - European Corporate Governance Institute | Alta | Pendente |
-| 240 | The New Frontier in Finance | Vareto | Alta | Pendente |
+| 238 | The FP&A Tool Landscape in the AI Era - Sign In | Alta | Descartado |
+| 239 | The KPMG Review Internal Control: A Practical Guide - European Corporate Governance Institute | Alta | Processado |
+| 240 | The New Frontier in Finance | Vareto | Alta | Descartado |
 | 241 | The PCAOB and China: What's Happened Since the HFCAA Became Law | Alta | Pendente |
 | 242 | The Paradigm Shift in Financial Performance Management: Market Trends Across FP&A, Controllership, and Strategic Planning | Alta | Pendente |
 | 243 | The Rise And Fall Of Peloton - The $50 Billion Fail | Alta | Pendente |

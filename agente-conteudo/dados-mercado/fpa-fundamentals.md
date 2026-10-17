@@ -116,3 +116,13 @@ Data de coleta: 2026-10-16
 Fonte: Michael C. Jensen, "Paying People to Lie: the Truth about the Budgeting Process", European Financial Management, v. 9, n. 3, p. 379-406 (setembro de 2003).
 Link: https://ideas.repec.org/a/bla/eufman/v9y2003i3p379-406.html
 Data de coleta: 2026-10-16
+
+Um levantamento da Euna Solutions com 46 líderes de finanças e orçamento do setor público na América do Norte mostra um processo orçamentário ainda pouco digital. Entre os respondentes, 30% não fazem planejamento formal de cenários e 67% dos que fazem dependem de planilhas. Outros 30% usam o ERP sem software próprio de orçamento, e metade não usa IA no orçamento. Do lado da pressão financeira, 57% esperam novos cortes de repasses estaduais ou federais e 43% já lidam com déficit. Ressalva: amostra pequena, restrita ao setor público e coletada por fornecedor de software de orçamento; o comunicado não informa datas de coleta nem metodologia.
+Fonte: Euna Solutions, "2026 State of Public Budgeting Report" (16/07/2026).
+Link: https://eunasolutions.com/resources/2026-state-of-public-budgeting-report-announced/
+Data de coleta: 2026-10-17
+
+[Teórico] A contabilidade por responsabilidade divide a empresa em centros e avalia cada gestor só pelo que ele controla. O livro descreve cinco tipos: centro de custo, centro de custo discricionário (como RH e contabilidade), centro de receita, centro de lucro e centro de investimento, este também responsável pelo capital empregado e medido por ROI e lucro residual. No exemplo, o setor de limpeza de uma loja gastou US$ 19.725 contra US$ 18.745 orçados, estouro de 5,2%, causado por uma nevasca atípica; como a causa fugia ao controle do gestor, o estouro não foi tratado como falha de desempenho. No mesmo capítulo, com custo de capital de 10%, o lucro residual aprova um investimento de US$ 50 mil que gera US$ 5.001, acima do mínimo de US$ 5.000. Ressalva: o livro não tem seção própria sobre o princípio da controlabilidade, que aparece pelos exemplos.
+Fonte: Mitchell Franklin, Patty Graybeal e Dixon Cooper (OpenStax, Rice University), "Principles of Accounting, Volume 2: Managerial Accounting", seção 9.3 (14/02/2019).
+Link: https://openstax.org/books/principles-managerial-accounting/pages/9-3-describe-the-types-of-responsibility-centers
+Data de coleta: 2026-10-17

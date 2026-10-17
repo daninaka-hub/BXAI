@@ -151,3 +151,13 @@ Data de coleta: 2026-10-16
 Fonte: Hau L. Lee, V. Padmanabhan e Seungjin Whang, "The Bullwhip Effect in Supply Chains", Sloan Management Review (primavera de 1997, p. 93-102), cópia hospedada na UC Berkeley; versão técnica em Management Science 43(4), 546-558.
 Link: https://courses.ischool.berkeley.edu/i290-4/s03/readings/bullwhip.htm e https://ideas.repec.org/a/inm/ormnsc/v43y1997i4p546-558.html
 Data de coleta: 2026-10-16
+
+A pesquisa 2026 da FP&A Trends mostra que só 10% das organizações integram por completo o planejamento estratégico, o financeiro e o operacional. Outros 22% não têm integração alguma entre as três frentes, e os 68% restantes conectam apenas duas áreas por vez. Só 7% ligam a estratégia diretamente às operações, justamente o elo que o xP&A tenta fechar. Ressalva: o artigo não informa o tamanho da amostra; um texto da FP&A Trends de abril de 2026 citava 11% para a pesquisa de 2025, então o quadro pouco mudou.
+Fonte: FP&A Trends (Larysa Melnychuk e Olga Rudakova), "xP&A: How to Break Planning Silos Across the Business" (30/06/2026).
+Link: https://fpa-trends.com/article/beyond-finance-unlocking-power-xpa
+Data de coleta: 2026-10-17
+
+[Teórico] O S&OE (Sales and Operations Execution) é a camada de execução abaixo do S&OP. O S&OP trabalha no horizonte tático, de 3 meses até 18 ou 24 meses, com liderança executiva de vendas, operações, finanças e produto. O S&OE cuida da janela de 0 a 3 meses, costuma se reunir toda semana e funciona como checagem para líderes de supply chain e do negócio: confirma se o realizado segue o plano e corrige desvios rápido. Na prática, impede que o plano mensal integrado vire ficção quando demanda e oferta reais se afastam do previsto. Ressalva: texto de fornecedor, de 2018; outras consultorias usam janelas diferentes para o S&OE, de 0 a 4 semanas até cerca de 13 semanas.
+Fonte: ToolsGroup (Caroline Proctor), "Decoding the Language of S&OP" (11/09/2018).
+Link: https://www.toolsgroup.com/blog/language-sop/
+Data de coleta: 2026-10-17

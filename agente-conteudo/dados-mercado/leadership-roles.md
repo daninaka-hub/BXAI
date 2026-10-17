@@ -156,3 +156,18 @@ Data de coleta: 2026-10-16
 Fonte: Voitto, resumo de "The Leadership Pipeline" (Charan, Drotter e Noel, 2001).
 Link: https://blog.voitto.com.br/resumo/en/the-leadership-pipeline
 Data de coleta: 2026-10-16
+
+A EY ouviu CAOs recém-nomeados de empresas da Fortune 100 e chegou a cinco prioridades para o primeiro ano: acertar o básico, entender o que gera valor no negócio, montar um time forte, ampliar a rede de stakeholders e acelerar inovação e adoção de tecnologia. Segundo o texto, até 50% do tempo de um CAO pode ir para temas de talento, em times que chegam a centenas de pessoas. Robert Boyle (Prudential) revisou no segundo trimestre o trabalho feito só por precaução e cortou boa parte dele. Chasity Grosh (Performance Food Group) passou seis meses sem mexer no time antes de redistribuir as pessoas pelos pontos fortes. Sarrah Schoenewald (UPS) defende investir em infraestrutura e governança de dados mesmo sem retorno claro no início. Ressalva: o número de CAOs entrevistados não é informado.
+Fonte: EY (Myles Corson), "The CAO's first year: five priorities to build early impact" (11/06/2026).
+Link: https://www.ey.com/en_us/ey-center-for-executive-leadership/the-caos-first-year-five-priorities-to-build-early-impact
+Data de coleta: 2026-10-17
+
+A FTI Consulting publicou um white paper sobre os primeiros 100 dias do CFO na era da IA, com dados do Global CFO Survey 2026 da consultoria. Na pesquisa, 52% dos CFOs lideram ou colideram a transformação da empresa, 48% supervisionam a adoção de IA e 47% comandam a transformação digital. Mandatos clássicos aparecem menos: 32% conduzem a alocação de capital e 27% lideram M&A. Além disso, 47% admitem que a acurácia dos dados ainda precisa melhorar. O documento propõe três bases a construir em paralelo (confiança nos números, decisão rápida e disciplina na alocação de capital) e descreve cinco missões para as quais um CFO pode ser contratado, de acelerar crescimento a preparar uma venda. Ressalva: a página não informa tamanho da amostra nem datas de coleta.
+Fonte: FTI Consulting, "The CFO's First 100 Days: Financial Steward to Enterprise Value Architect in the Age of AI" (31/07/2026).
+Link: https://www.fticonsulting.com/en/germany/insights/white-papers/cfos-first-100-days-age-ai
+Data de coleta: 2026-10-17
+
+[Teórico] A seção 302 da Sarbanes-Oxley torna CEO e CFO pessoalmente responsáveis por cada relatório anual ou trimestral. Os dois declaram que revisaram o documento e que, até onde sabem, ele não tem afirmação falsa nem omissão relevante, e que as demonstrações refletem de forma fiel, em todos os aspectos materiais, a posição financeira e os resultados. Também assumem a responsabilidade pelos controles internos, atestam que foram desenhados para que a informação relevante chegue até eles e apresentam a conclusão de uma avaliação de eficácia feita até 90 dias antes do relatório. Ao auditor e ao comitê de auditoria, devem revelar deficiências significativas, fraquezas materiais e qualquer fraude que envolva a gestão, mesmo não material. Mudar a sede para fora dos EUA não reduz a força da certificação. Ressalva: vale para emissores registrados na SEC; no Brasil, serve como referência conceitual.
+Fonte: Cornell Law School LII, "15 U.S. Code § 7241, Corporate responsibility for financial reports" (Sarbanes-Oxley Act, seção 302, 2002).
+Link: https://www.law.cornell.edu/uscode/text/15/7241
+Data de coleta: 2026-10-17

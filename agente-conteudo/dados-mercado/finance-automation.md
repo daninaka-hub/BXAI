@@ -271,3 +271,13 @@ Data de coleta: 2026-10-16
 Fonte: ISG Software Research, "Controllers: Always Be Closing" (Robert Kugel, 29/06/2021).
 Link: https://research.isg-one.com/analyst-perspectives/controllers-always-be-closing
 Data de coleta: 2026-10-16
+
+O Medius Financial Census 2026 ouviu 2.386 executivos seniores de finanças nos EUA, Reino Unido, Suécia e França. Do total, 38% já têm IA agêntica rodando em algum processo financeiro e 50% planejam implantá-la nos próximos 12 meses. Em contas a pagar, 85% dizem ter algum nível de automação, mas 96% afirmam que lidar com pagamentos atrasados gera estresse ou esgotamento no time. Na governança, 90% mantêm limites obrigatórios de aprovação humana para decisões da IA, só que em 46% esses limites são conhecidos mas não estão formalmente documentados. A mesma base mostra que 87% já deixaram passar um pequeno reembolso que acreditavam ser fraudulento e 93% temem fraude gerada por IA nos próximos 12 meses. Ressalva: a Medius vende software de AP e a página não informa método nem período de campo.
+Fonte: Medius, "Medius Financial Census 2026" (página atualizada em 01/09/2026).
+Link: https://www.medius.com/resources/guides-reports/medius-financial-census-2026/
+Data de coleta: 2026-10-17
+
+[Teórico] O Best Possible DSO é a referência do menor prazo em que as vendas a prazo poderiam ter sido recebidas, considerando só os recebíveis ainda não vencidos: recebíveis correntes vezes 365, divididos pelas vendas a prazo do ano. No exemplo do Moneyzine, US$ 15,3 milhões de recebíveis correntes e US$ 214,8 milhões de vendas a prazo dão 26 dias, contra um DSO real de 51. A diferença entre os dois mostra quanto do prazo vem de atraso, ou seja, quanto a cobrança ainda pode ganhar. A ABC-Amega usa como régua um DSO até 10 a 15 dias acima do prazo de venda. Num projeto de automação de contas a receber, o indicador ajuda a separar ganho real de cobrança de efeito de mudança nas condições comerciais. Ressalva: as fontes são um dicionário financeiro e uma empresa de cobrança, não um órgão normativo.
+Fonte: Moneyzine, "Best Possible DSO" (atualizado em 08/01/2024); ABC-Amega, "Measure and Manage Collection Efficiency Using DSO" (sem data).
+Link: https://moneyzine.com/definitions/investing-dictionary/best-possible-dso/ e https://www.abc-amega.com/?p=8787
+Data de coleta: 2026-10-17

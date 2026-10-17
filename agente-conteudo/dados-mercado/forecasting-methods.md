@@ -136,3 +136,13 @@ Data de coleta: 2026-10-16
 Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 5.10 "Time series cross-validation".
 Link: https://otexts.com/fpp3/tscv.html
 Data de coleta: 2026-10-16
+
+O levantamento de benchmarking de tesouraria da AFP de 2026 aponta a previsão de caixa ou de liquidez como a tarefa mais difícil da área para 49% dos respondentes, ante 62% em 2024. Ao mesmo tempo, 63% colocam gestão de caixa e previsão entre as prioridades e 36% citam os modelos de previsão como desafio. A pesquisa teve 425 respostas, 64% delas completas, aplicadas em maio de 2026, sobretudo nos EUA. A previsão de caixa segue como o ponto fraco da tesouraria, mesmo com a queda na fatia que a vê como a tarefa mais difícil. Ressalva: amostra quase toda americana; o relatório completo é só para membros e a página pública não dá o número de respostas por pergunta.
+Fonte: Association for Financial Professionals (AFP), "2026 AFP Treasury Benchmarking Survey Report: People and Policies" (agosto de 2026).
+Link: https://www.financialprofessionals.org/interactive/research/2026-treasury-benchmarking-survey-report-people-and-policies/priorities-tasks
+Data de coleta: 2026-10-17
+
+[Teórico] O tracking signal monitora viés de previsão: divide a soma acumulada dos erros (real menos previsto, a RSFE) pelo desvio absoluto médio (MAD). Pela convenção usual, o modelo está sob controle enquanto o sinal fica entre -4 e +4; algumas fontes usam 3,75 ou 6. Sinal positivo e persistente indica que o modelo subestima o real; negativo e persistente, que superestima. O MAD pode ser a média acumulada dos erros absolutos ou uma versão com suavização exponencial, que pesa mais os erros recentes. Ressalva: o limite é convenção, não teste estatístico exato; o indicador mede viés e não tamanho do erro, por isso deve andar junto com MAD, RMSE ou MAPE; um outlier pode inflar o sinal, e as somas devem ser zeradas depois que o modelo é corrigido.
+Fonte: NC State University, Supply Chain Resource Cooperative, "Measuring Forecast Accuracy: Approaches to Forecasting: A Tutorial" (25/01/2011); MetricGate (Hassane Lakhloufi), "MAD Tracking Signal" (02/06/2026).
+Link: https://scm.ncsu.edu/scm-articles/article/measuring-forecast-accuracy-approaches-to-forecasting-a-tutorial e https://metricgate.com/docs/mad-tracking-signal/
+Data de coleta: 2026-10-17

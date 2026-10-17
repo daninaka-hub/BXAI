@@ -146,3 +146,23 @@ Data de coleta: 2026-10-16
 Fonte: Umbrex, "Ansoff Product-Market Growth Matrix" (sem data).
 Link: https://umbrex.com/?p=241082
 Data de coleta: 2026-10-16
+
+[Teórico] Timo Wienefoet, da arq decisions, define foresight como a exploração disciplinada de futuros alternativos para orientar decisões de hoje, e o separa de futurologia, pesquisa de tendências, cisnes negros e do planejamento de cenários do FP&A, que costuma ficar preso à lógica atual do negócio. O pano de fundo é a passagem do mundo VUCA para o BANI (frágil, ansioso, não linear e incompreensível). Dos dez princípios do Copenhagen Institute for Futures Studies, ele destaca quatro: foresight e estratégia são um só processo, plausibilidade pesa mais que probabilidade, o processo vale mais que o resultado e vozes diversas melhoram o julgamento. Propõe três atividades: Perceiving (captar sinais fracos fora do setor), Prospecting (montar narrativas de futuro) e Probing (testar hipóteses com pilotos). Para o CFO, os ganhos seriam estratégia mais alinhada, melhor timing de capex ao incluir sinais de disrupção e credibilidade como orquestrador de cenários. Ressalva: texto conceitual, sem dados; o restante da série fica atrás de cadastro.
+Fonte: FP&A Trends (Timo Wienefoet), "Strategic Foresight: How CFOs Turn Uncertainty into Advantage, Part 1 of 3" (05/08/2025).
+Link: https://fpa-trends.com/article/strategic-foresight-how-cfos-turn-uncertainty-advantage-part-1-3
+Data de coleta: 2026-10-17
+
+O estudo de caso de Megits e Schuster, da Webster University, reconstrói a entrada da Target no Canadá: o plano de investimento direto foi anunciado em janeiro de 2011, a sede em Mississauga abriu em agosto de 2012 e a meta era inaugurar 124 lojas ao longo de 2013. Dois anos depois a operação tinha fracassado, com perdas relatadas acima de US$ 5,4 bilhões. Os autores apontam três causas: expansão apressada, escala grande demais e modo de entrada escolhido sobretudo pelo preço. Isso impediu uma gestão eficiente da cadeia de suprimentos e piorou a experiência de compra, e a falta de diferenciação limitou o ganho de participação. Ressalva: o resumo não diz de onde vem o valor de US$ 5,4 bilhões, que outras fontes tratam como baixa contábil e não prejuízo operacional; a contagem de 124 lojas planejadas difere das 133 abertas citadas pela Panorama Consulting na entrada de 2026-10-05.
+Fonte: Nikolay Megits e Julian Schuster (Webster University), "Target Canada: Lesson from Failure of International Entry", Journal of Eastern European and Central Asian Research, v. 2, n. 2 (31/10/2015).
+Link: https://ieeca.org/journal/index.php/JEECAR/article/view/101
+Data de coleta: 2026-10-17
+
+O KPMG Global CEO Outlook 2026 ouviu 1.400 CEOs de empresas com receita anual acima de US$ 500 milhões, em 12 mercados, entre 11/08 e 21/09/2026. A confiança no crescimento da própria empresa em três anos subiu de 79% para 84%, enquanto a confiança na economia global caiu para 65%, o menor nível desde 2021. Na alocação de capital, 79% põem a IA como prioridade de investimento nos próximos três anos (71% em 2025), 72% esperam gastar mais de 10% do orçamento com IA no próximo ano e 71% esperam retorno em um a três anos. Mesmo assim, 89% esperam aumentar o quadro em três anos, embora 62% desse grupo prevejam alta abaixo de 5%. Ressalva: a página não traz data exata de publicação (a URL indica outubro de 2026).
+Fonte: KPMG, "KPMG 2026 Global CEO Outlook" (outubro de 2026).
+Link: https://kpmg.com/th/en/insights/2026/10/global-ceo-outlook-survey.html
+Data de coleta: 2026-10-17
+
+[Teórico] A matriz de crescimento e participação da BCG é uma ferramenta de portfólio para decidir onde pôr recursos e onde cortar perdas. Foi esboçada por Alan Zakon e popularizada por Bruce Henderson no ensaio "The Product Portfolio", de 1970. Cruza a participação relativa de mercado (competitividade) com a taxa de crescimento do mercado (atratividade) e gera quatro quadrantes: vacas leiteiras geram caixa para reinvestir; estrelas recebem investimento pesado; interrogações são candidatas a investir ou desinvestir conforme a chance de virarem estrelas; e pets devem ser liquidados, vendidos ou reposicionados. A lógica supõe que liderar o mercado gera vantagem de custo que se reforça, por isso o valor está em ganhar participação antes que o crescimento desacelere. No auge, cerca de metade da Fortune 500 usava a matriz. Ressalva: a página da BCG não lista limitações do modelo nem define os cortes numéricos dos eixos.
+Fonte: BCG, "What Is the Growth Share Matrix?" (página de história, sem data; ensaio original de 1970).
+Link: https://www.bcg.com/about/overview/our-history/growth-share-matrix
+Data de coleta: 2026-10-17

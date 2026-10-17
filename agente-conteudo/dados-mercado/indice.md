@@ -265,3 +265,26 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-16 | Leadership Roles | teórico | Voitto (Charan, Drotter e Noel) | Leadership Pipeline: salto de líder funcional para líder de negócio e o erro de atuar no nível errado |
 | 2026-10-16 | Organization | pesquisa | FERF / Randstad USA | 50% veem lacuna de talento como maior risco; em 36% a liderança sênior gasta até metade do tempo com dado manual |
 | 2026-10-16 | Organization | teórico | Randstad UK / Fellow (McKinsey) | Spans and layers: amplitude de controle de 3 a 5 até 15 ou mais diretos, conforme a padronização do trabalho |
+| 2026-10-17 | Controllership | estratégia | elvex | Roteiro para SOX em sistemas de IA: 5 pilares de ITGC, revisão trimestral de acessos e implantação em 4 fases (fornecedor) |
+| 2026-10-17 | Controllership | estatística | Finrep / KPMG / SEC | Controles automatizados de SOX caem de 21% para 17% e sistemas de TI em escopo vão de 17 para 40 (KPMG 2025, via fornecedor) |
+| 2026-10-17 | Controllership | pesquisa | Deloitte / IMA | 65% dizem que a controladoria não está pronta para o futuro e 56% apontam FP&A como área a avançar (1.300+ respondentes, 2022) |
+| 2026-10-17 | Strategic Planning | teórico | FP&A Trends | Foresight para CFOs: ciclo Perceiving, Prospecting e Probing e quatro princípios do Copenhagen Institute |
+| 2026-10-17 | Strategic Planning | estudo de caso | Journal of Eastern European and Central Asian Research | Target Canadá: anúncio em 2011, 124 lojas planejadas para 2013 e perdas relatadas acima de US$ 5,4 bi |
+| 2026-10-17 | Leadership Roles | estratégia | EY | Cinco prioridades do primeiro ano do CAO, a partir de CAOs da Fortune 100; até 50% do tempo vai para talento |
+| 2026-10-17 | Controllership | teórico | KPMG Audit Committee Institute / ECGI | Guia KPMG da Turnbull (1999): cadeia causal do controle interno, etapas de implantação e revisão contínua pelo conselho |
+| 2026-10-17 | Controllership | pesquisa | Deloitte / Center for Audit Quality | 75% dos comitês de auditoria põem governança de IA no top 3 (eram 35%), mas só 56% confiam na supervisão (~250 membros) |
+| 2026-10-17 | Controllership | teórico | AAFCPA | ITGCs em cinco domínios (acesso, mudanças, desenvolvimento, operações, rede), estendidos a planilhas, com teste anual |
+| 2026-10-17 | Finance Automation | pesquisa | Medius | 38% já usam IA agêntica em finanças e 90% exigem aprovação humana, mas 46% sem limite documentado (2.386 executivos, fornecedor) |
+| 2026-10-17 | Finance Automation | teórico | Moneyzine / ABC-Amega | Best Possible DSO usa só recebíveis em dia; a distância para o DSO real mostra quanto a cobrança pode ganhar |
+| 2026-10-17 | Forecasting Methods | pesquisa | AFP | Previsão de caixa é a tarefa mais difícil da tesouraria para 49%, ante 62% em 2024 (425 respostas, AFP 2026) |
+| 2026-10-17 | Forecasting Methods | teórico | NC State SCRC / MetricGate | Tracking signal (RSFE dividida pelo MAD) detecta viés de previsão, com limite convencional de mais ou menos 4 |
+| 2026-10-17 | FP&A Fundamentals | pesquisa | Euna Solutions | Setor público: 30% não fazem cenários e 67% dos que fazem usam planilha (46 líderes, fornecedor) |
+| 2026-10-17 | FP&A Fundamentals | teórico | OpenStax (Rice University) | Cinco tipos de centro de responsabilidade, avaliação só pelo controlável, ROI contra lucro residual |
+| 2026-10-17 | Integrated Planning | pesquisa | FP&A Trends | Só 10% integram por completo os planos estratégico, financeiro e operacional, e 22% não integram nada (FP&A Trends 2026) |
+| 2026-10-17 | Integrated Planning | teórico | ToolsGroup | S&OE em reunião semanal no horizonte de 0 a 3 meses, abaixo do S&OP tático de 3 a 24 meses |
+| 2026-10-17 | Strategic Planning | pesquisa | KPMG | 84% dos CEOs confiam no crescimento em 3 anos e 72% vão pôr mais de 10% do orçamento em IA (1.400 CEOs, KPMG 2026) |
+| 2026-10-17 | Strategic Planning | teórico | BCG | Matriz BCG: participação relativa contra crescimento do mercado em quatro quadrantes para decidir onde investir ou desinvestir |
+| 2026-10-17 | Leadership Roles | estratégia | FTI Consulting | Plano de 100 dias do CFO: 52% lideram transformação, 48% supervisionam IA e só 27% lideram M&A |
+| 2026-10-17 | Leadership Roles | teórico | Cornell LII (SOX seção 302) | SOX 302: o que CEO e CFO certificam em cada relatório, com avaliação dos controles até 90 dias antes |
+| 2026-10-17 | Organization | pesquisa | Personiv / Accounting Today | Vagas abertas em finanças por empresa sobem para 17 (eram 2 em 2024) e 94% já terceirizam (203 líderes, fornecedor) |
+| 2026-10-17 | Organization | teórico | Strategic Management Insight (Galbraith) | Star Model de Galbraith: cinco alavancas de desenho organizacional que precisam estar alinhadas |
