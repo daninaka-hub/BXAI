@@ -130,12 +130,14 @@ def _bloqueio(semana, num):
 
 def aprovar(titulo):
     """Aplica uma aprovação vinda do botão da página (título da issue). Devolve a mensagem do resultado."""
-    m = re.fullmatch(r"Aprovar briefing: (?:Artigo )?(\d+)(?: \(reescrita\))? \(semana (\S+)\)", titulo.strip())
+    m = re.fullmatch(r"Aprovar briefing: (Artigo )?(\d+)( \(reescrita\))? \(semana (\S+)\)", titulo.strip())
     if m:
-        num, semana = m.group(1), m.group(2)
+        num, semana, reescrita = m.group(2), m.group(4), bool(m.group(3))
         for ln, c in tabela(CONT / "decisoes-pauta.md"):
-            if c[0] == semana and c[1] == num:
-                bl = _bloqueio(semana, num)
+            # briefing de reescrita: N é o código do artigo (está no status), não o número do briefing na semana
+            achou = re.search(rf"Artigo {num}\)", c[-1]) if reescrita else c[1] == num
+            if c[0] == semana and achou:
+                bl = _bloqueio(semana, c[1])
                 if bl and c[-1] != "Sim":
                     return "Briefing não aprovado, fora das regras: " + "; ".join(bl)
                 if c[-1] == "Pendente":
