@@ -1,17 +1,12 @@
 {
  "agente": "head",
- "resultado": "executando",
- "resumo": "Em execução",
+ "resultado": "falhou",
+ "quando": "2026-10-19T08:05-03:00",
+ "resumo": "o agente não gerou nenhum commit novo",
  "commit": "",
  "inicio": "2026-10-19T08:00-03:00",
- "previsao": "2026-10-19T08:01-03:00",
+ "duracao_min": 5,
  "duracoes": [
   1
- ],
- "anterior": {
-  "resultado": "ok",
-  "quando": "2026-10-14T07:24-03:00",
-  "resumo": "Rodada concluída",
-  "commit": "ce93255"
- }
+ ]
 }
