@@ -161,3 +161,18 @@ Data de coleta: 2026-10-17
 Fonte: ToolsGroup (Caroline Proctor), "Decoding the Language of S&OP" (11/09/2018).
 Link: https://www.toolsgroup.com/blog/language-sop/
 Data de coleta: 2026-10-17
+
+No guia de novidades do SAP Sapphire 2026 (maio de 2026), a SAP apresenta a "empresa autônoma" como a soma de Joule Work, SAP Autonomous Suite e SAP Business AI Platform. Em finanças, os assistentes Joule de fechamento, faturamento, impostos e compliance e contas a receber têm disponibilidade geral prevista para o 2º trimestre de 2026; o de planejamento financeiro, para o 3º trimestre; e o de governança, para o 4º. O assistente de fechamento coordena vários agentes ao longo do ciclo (lançamentos, provisões, validação, correção de erros e conciliação intercompany). O SAP Enterprise Planning, com disponibilidade geral no 3º trimestre de 2026, vai embutir agentes para ligar estratégia e operação em tempo real, sobre o SAP Business Data Cloud e o SAP Analytics Cloud. Ressalva: material de fornecedor, com roadmap e datas, sem estatística nem resultado de cliente; serve como sinal de mercado.
+Fonte: SAP, "SAP Sapphire 2026 Innovation News Guide" (12/05/2026, segundo o SAP News).
+Link: https://www.sap.com/uk/topics/events/sapphire/innovation-news-guide-2026
+Data de coleta: 2026-10-19
+
+Estudo da Forrester Consulting encomendado pela Anaplan ouviu 308 tomadores de decisão de empresas com receita de US$ 1 bilhão ou mais, em novembro de 2025. 85% usam plataformas separadas para consolidação e planejamento, só 7% têm uma plataforma única integrada e outros 7% operam sobretudo em planilha. Em média são 4,6 sistemas distintos, e o fechamento mensal leva 6,7 dias úteis. Integrar o plano operacional ao financeiro é prioridade para 48%, logo atrás de IA (49%). A integração em tempo real com o plano financeiro chega a 31% em supply chain e demanda e a 33% em força de trabalho. 64% acham cenários e simulações muito ou extremamente difíceis, e 66% pretendem investir em plataforma integrada em 12 a 18 meses. Ressalva: estudo pago por fornecedor; o texto arredonda para cinco sistemas e sete dias, mas os gráficos mostram 4,6 e 6,7.
+Fonte: Forrester Consulting para Anaplan, "Elevating The Impact Of Finance: Why Integrated Financial Planning And Consolidation Matter For Agility" (janeiro de 2026).
+Link: https://www.anaplan.com/content/dam/anaplan/assets/documents/report/research-report/anaplan-forrester-opportunity-snapshot-2026-research-report.pdf
+Data de coleta: 2026-10-19
+
+[Teórico] O orçamento base atividade (ABB) funciona como o custeio ABC ao contrário: parte das atividades necessárias para o volume planejado e chega ao custo. Em vez de ratear o overhead por um único direcionador, como horas de mão de obra direta, mede as atividades, define um custo por direcionador e monta o orçamento de cada área pelo consumo de atividades. Assim, o volume operacional fica ligado ao orçamento financeiro. As vantagens são expor atividades que não agregam valor e dar custo e lucro por produto mais precisos. A desvantagem é ser caro e complexo, e pode não compensar quando o custo direto domina ou a linha de produtos é estreita. Ressalva: material didático da ACCA, sem data na página.
+Fonte: ACCA (Steve Willis), "All about budgeting, part 3", artigo técnico de Performance Management.
+Link: https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/budgeting3.html
+Data de coleta: 2026-10-19

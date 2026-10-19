@@ -171,3 +171,13 @@ Data de coleta: 2026-10-17
 Fonte: Cornell Law School LII, "15 U.S. Code § 7241, Corporate responsibility for financial reports" (Sarbanes-Oxley Act, seção 302, 2002).
 Link: https://www.law.cornell.edu/uscode/text/15/7241
 Data de coleta: 2026-10-17
+
+A Datarails, fornecedora de software de FP&A, analisou 5.000 vagas nos EUA para CFO, FP&A, controller e contador, comparando janeiro de 2025 com janeiro de 2026. A faixa salarial anunciada para controller caiu de US$ 129 mil a 170 mil para US$ 107 mil a 134 mil, enquanto a de CFO subiu de US$ 161 mil a 212 mil para US$ 176 mil a 219 mil. IA e machine learning aparecem em 31% das vagas (eram 25%) e em 43% das de FP&A (eram 33%). Business partnering aparece em 35% das vagas (eram 26%), MBA em 39% das de FP&A (eram 26%), e Excel segue em 78% de todas. Ressalva: viés comercial; são faixas anunciadas em vagas, não salários pagos.
+Fonte: Datarails, "The CFO's Office 2.0: The 2026 AI Transformation Facing Finance Teams" (atualizado em julho de 2026).
+Link: https://www.datarails.com/the-cfos-office-2026/
+Data de coleta: 2026-10-19
+
+[Teórico] O CGMA Competency Framework, da AICPA & CIMA, organiza as competências do profissional de finanças em cinco áreas: técnica, negócios, pessoas, liderança e digital. A técnica cobre temas como fluxo de caixa, ROI e gestão de riscos corporativos; a digital, temas como cibersegurança, ERP e blockchain. A proposta é que o profissional de finanças combine competência técnica com visão de negócio, gestão de pessoas e liderança, e não fique só na contabilidade. Serve de referência para desenhar trilhas de carreira e avaliações de time. Ressalva: página promocional da própria entidade certificadora, sem o detalhamento dos níveis de proficiência.
+Fonte: CIMA (AICPA & CIMA), "The CGMA Competency Framework boosts skills" (04/08/2023).
+Link: https://myfuture.cimaglobal.com/career-insights/the-cgma-competency-framework-boosts-skills/
+Data de coleta: 2026-10-19

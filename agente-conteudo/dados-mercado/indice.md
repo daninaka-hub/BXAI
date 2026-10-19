@@ -288,3 +288,27 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-17 | Leadership Roles | teórico | Cornell LII (SOX seção 302) | SOX 302: o que CEO e CFO certificam em cada relatório, com avaliação dos controles até 90 dias antes |
 | 2026-10-17 | Organization | pesquisa | Personiv / Accounting Today | Vagas abertas em finanças por empresa sobem para 17 (eram 2 em 2024) e 94% já terceirizam (203 líderes, fornecedor) |
 | 2026-10-17 | Organization | teórico | Strategic Management Insight (Galbraith) | Star Model de Galbraith: cinco alavancas de desenho organizacional que precisam estar alinhadas |
+| 2026-10-19 | Integrated Planning | estratégia | SAP | Roadmap SAP Sapphire 2026: assistentes Joule de fechamento no 2º tri e de planejamento financeiro no 3º tri de 2026 (fornecedor) |
+| 2026-10-19 | Forecasting Methods | estudo de caso | Roadman Cycling Podcast | Peloton planejou crescer 20% por trimestre após pedidos subirem 172%, e o valor de mercado caiu cerca de 94% |
+| 2026-10-19 | Forecasting Methods | conclusão | AFP | Sete razões para adotar Beyond Budgeting, de resposta rápida a criação de valor no longo prazo (BBRT, 2016) |
+| 2026-10-19 | Finance Automation | estratégia | KPMG | IA no FP&A: accruals automáticos, explicação de variações, forecast diário e hub central para o primeiro forecast |
+| 2026-10-19 | Finance Automation | estatística | Aleph / Gartner / Deloitte | 40% das aplicações terão agentes até o fim de 2026 (Gartner) e 54% dos CFOs priorizam agentes (Deloitte), via fornecedor |
+| 2026-10-19 | Controllership | conclusão | The IIA | Declarações de posição de julho de 2026: Três Linhas revisado com foco no conselho e ERM em cinco categorias |
+| 2026-10-19 | Organization | teórico | Alehar | Departamento financeiro tradicional contra moderno em cinco dimensões, três capacidades e cinco papéis |
+| 2026-10-19 | Controllership | teórico | FP&A Trends | Controladoria e FP&A divergem em princípios (histórico contra prospectivo) e no uso de dados internos e externos |
+| 2026-10-19 | Controllership | conclusão | Schneider Downs / Gibson Dunn | Proposta da SEC livraria 26,7% dos registrantes da atestação SOX 404(b), com piso de US$ 2 bi de free float |
+| 2026-10-19 | Controllership | teórico | Journal of Accountancy (Nigrini) | Benford nos dois primeiros dígitos acha lançamentos abaixo de alçada, como na HealthSouth; exige 5 mil registros ou mais |
+| 2026-10-19 | Finance Automation | pesquisa | CFO Dive / Avalara | 92% dos CFOs sentem pressão por ROI da IA, mas só 28% exigem log auditável dos agentes (1.505 executivos, fornecedor) |
+| 2026-10-19 | Finance Automation | teórico | HBR (Hammer) via CSU Fresno | Reengenharia de Hammer: sete princípios para redesenhar antes de automatizar; Ford cortou 75% do quadro de contas a pagar |
+| 2026-10-19 | Forecasting Methods | estatística | Federal Reserve Bank of Philadelphia | Previsores elevam PIB dos EUA do 4º tri de 2026 para 2,3% e cortam chance de trimestre negativo para 13,3% (32 previsores) |
+| 2026-10-19 | Forecasting Methods | teórico | Wikipedia | Método Delphi: rodadas anônimas de especialistas com feedback; num caso de 1977 errou 3% a 4% contra 20% do método tradicional |
+| 2026-10-19 | FP&A Fundamentals | pesquisa | Deloitte CFO Signals 3T26 | CFOs de grandes empresas projetam receita 4,6% e capex 4,3% maiores, com confiança em 6,1 e menos apetite a risco (200 CFOs) |
+| 2026-10-19 | FP&A Fundamentals | teórico | Hagley / AcadiFi | Origem do ROI com Donaldson Brown na DuPont (1914) e análise DuPont do ROE em três e cinco passos |
+| 2026-10-19 | Integrated Planning | pesquisa | Forrester / Anaplan | Só 7% integram planejamento e consolidação numa plataforma, com 4,6 sistemas e fechamento de 6,7 dias (308 decisores, fornecedor) |
+| 2026-10-19 | Integrated Planning | teórico | ACCA | Orçamento base atividade: ABC ao contrário, ligando volume operacional ao orçamento pelo consumo de atividades |
+| 2026-10-19 | Strategic Planning | pesquisa | U.S. Bank | 71% dos líderes financeiros otimistas com a empresa em 3 anos, e M&A sobe ao top 3 de prioridades (1.000 respondentes) |
+| 2026-10-19 | Strategic Planning | teórico | Strategic Management Insight (McKinsey) | Três Horizontes: financiar núcleo, negócios emergentes e opções ao mesmo tempo, sem forçar o H2 a se autofinanciar |
+| 2026-10-19 | Leadership Roles | estatística | Datarails | Em 5.000 vagas, teto salarial de controller cai de US$ 170 mil para 134 mil e o de CFO sobe para 219 mil (fornecedor) |
+| 2026-10-19 | Leadership Roles | teórico | CIMA (AICPA & CIMA) | CGMA Competency Framework: cinco áreas de competência, de técnica a liderança e digital |
+| 2026-10-19 | Organization | pesquisa | Deloitte UK | 52% dos CFOs britânicos esperam que a IA corte quadro em 12 meses, mas só 37% esperam margem maior (66 CFOs) |
+| 2026-10-19 | Organization | teórico | SSON | Governança de terceirização: organização retida separada da de governança, com GPOs e quatro fóruns de cadência fixa |

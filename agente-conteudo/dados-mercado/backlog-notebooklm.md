@@ -220,7 +220,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 212 | S&OP and IBP in comparison: what are the differences and similarities? - Remira | Alta | Processado |
 | 213 | SAP Joule and Agentic AI: The Strategic Mind for Your Intelligent Enterprise | Alta | Descartado |
 | 214 | SAP Recognized as a Leader in the Gartner Magic Quadrant for Financial Planning Software | Alta | Processado |
-| 215 | SAP Sapphire 2026 Innovation News Guide | Alta | Pendente |
+| 215 | SAP Sapphire 2026 Innovation News Guide | Alta | Processado |
 | 216 | SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme | Alta | Processado |
 | 217 | SOX AI Controls and Financial Reporting Models | Block Convey | Alta | Descartado |
 | 218 | SOX Compliance for AI Systems - elvex | Alta | Processado |
@@ -246,31 +246,31 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 238 | The FP&A Tool Landscape in the AI Era - Sign In | Alta | Descartado |
 | 239 | The KPMG Review Internal Control: A Practical Guide - European Corporate Governance Institute | Alta | Processado |
 | 240 | The New Frontier in Finance | Vareto | Alta | Descartado |
-| 241 | The PCAOB and China: What's Happened Since the HFCAA Became Law | Alta | Pendente |
-| 242 | The Paradigm Shift in Financial Performance Management: Market Trends Across FP&A, Controllership, and Strategic Planning | Alta | Pendente |
-| 243 | The Rise And Fall Of Peloton - The $50 Billion Fail | Alta | Pendente |
-| 244 | The Seven Reasons to Adopt Beyond Budgeting Principles - Association for Financial Professionals (AFP) | Alta | Pendente |
+| 241 | The PCAOB and China: What's Happened Since the HFCAA Became Law | Alta | Descartado |
+| 242 | The Paradigm Shift in Financial Performance Management: Market Trends Across FP&A, Controllership, and Strategic Planning | Alta | Descartado |
+| 243 | The Rise And Fall Of Peloton - The $50 Billion Fail | Alta | Processado |
+| 244 | The Seven Reasons to Adopt Beyond Budgeting Principles - Association for Financial Professionals (AFP) | Alta | Processado |
 | 245 | The State of Organizations 2026 - McKinsey | Alta | Pendente |
-| 246 | The Tripartite Architecture of Corporate Finance Leadership: FP&A, Controllership, and Strategic Planning in Modern Enterprise Governance | Alta | Pendente |
-| 247 | The future of FP&A with AI - KPMG International | Alta | Pendente |
-| 248 | The rise and fall of Peloton: $50 billion collapse | Alta | Pendente |
+| 246 | The Tripartite Architecture of Corporate Finance Leadership: FP&A, Controllership, and Strategic Planning in Modern Enterprise Governance | Alta | Descartado |
+| 247 | The future of FP&A with AI - KPMG International | Alta | Processado |
+| 248 | The rise and fall of Peloton: $50 billion collapse | Alta | Processado |
 | 249 | The role of internal accounting controls in preventing and detecting financial statement fraud | Alta | Pendente |
-| 250 | The ultimate guide to AI agents in finance: How FP&A teams are using agentic AI in 2026 | Alta | Pendente |
-| 251 | Three Lines Model - The IIA | Alta | Pendente |
-| 252 | Tips For Aligning the Forecasting Process between Finance and Operations with Amber Johnson - The FP&A Guy | Alta | Pendente |
+| 250 | The ultimate guide to AI agents in finance: How FP&A teams are using agentic AI in 2026 | Alta | Processado |
+| 251 | Three Lines Model - The IIA | Alta | Processado |
+| 252 | Tips For Aligning the Forecasting Process between Finance and Operations with Amber Johnson - The FP&A Guy | Alta | Descartado |
 | 253 | Top 10 Strategic Planning Manager Interview Questions and Answers | Baixa | Pendente |
 | 254 | Top 10 best practices for your internal control journey - PwC | Alta | Pendente |
 | 255 | Top 10 questions to ask when interviewing for a FP&A Manager - HPR Consulting | Baixa | Pendente |
 | 256 | Top 30 Influencers For Financial Advisors In 2025 - Indigo Marketing Agency | Baixa | Pendente |
 | 257 | Top 31 Finance and FP&A Influencers to Follow in 2024 - Datarails | Baixa | Pendente |
 | 258 | Top 40 Treasury & Finance Leaders to Follow in 2025 - Nilus | Baixa | Pendente |
-| 259 | Top 7 BlackLine Alternatives & Competitors in 2026 - HighRadius | Alta | Pendente |
+| 259 | Top 7 BlackLine Alternatives & Competitors in 2026 - HighRadius | Alta | Descartado |
 | 260 | Top FP&A Interview Questions and Sample Answers - Abacum | Baixa | Pendente |
 | 261 | Top LinkedIn Finance Influencer You Should Follow - Phyllo | Baixa | Pendente |
-| 262 | Traditional vs Modern Finance Departments | Alehar | Alta | Pendente |
-| 263 | Tripartite Risk Dynamics in Corporate Finance: Systemic Exposure Across FP&A, Controllership, and Strategic Planning | Alta | Pendente |
+| 262 | Traditional vs Modern Finance Departments | Alehar | Alta | Processado |
+| 263 | Tripartite Risk Dynamics in Corporate Finance: Systemic Exposure Across FP&A, Controllership, and Strategic Planning | Alta | Descartado |
 | 264 | Trust Incident Zillow - Building the Knowledge Base for a Trusted Digital Future | Alta | Processado |
-| 265 | Two Points at Which Controllership and FP&A Diverge | Alta | Pendente |
+| 265 | Two Points at Which Controllership and FP&A Diverge | Alta | Processado |
 | 266 | Typical interview questions for FP&A roles : r/FPandA - Reddit | Baixa | Pendente |
 | 267 | Understanding xP&A: All About Extended Planning and Analysis - Pigment | Alta | Pendente |
 | 268 | Use Case: How did Deloitte use automation to accelerate the preparation of key management reports? - IBM Community | Alta | Pendente |

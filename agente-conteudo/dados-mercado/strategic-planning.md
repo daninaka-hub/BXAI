@@ -166,3 +166,13 @@ Data de coleta: 2026-10-17
 Fonte: BCG, "What Is the Growth Share Matrix?" (página de história, sem data; ensaio original de 1970).
 Link: https://www.bcg.com/about/overview/our-history/growth-share-matrix
 Data de coleta: 2026-10-17
+
+O CFO Insights Report do outono de 2026 do U.S. Bank ouviu 1.000 líderes financeiros de empresas dos EUA com receita de US$ 100 milhões ou mais, cerca de metade CFOs, de 5 a 26 de agosto de 2026. A visão positiva da própria empresa em 3 anos subiu de 64% para 71%, e a da economia de 58% para 68%. Corte de custos (37%) e crescimento de receita (35%) lideram as prioridades, e explorar M&A subiu do 5º lugar para o top 3; 57% dizem que a empresa tende a ser compradora (66% na manufatura). 71% veem a incerteza geopolítica como risco e oportunidade ao mesmo tempo, ante 61% no início do ano. 51% estouraram o orçamento de ferramentas de IA no último ano. Ressalva: banco com interesse comercial em serviços a CFOs; a página não informa o percentual de M&A.
+Fonte: U.S. Bank, "U.S. Bank CFO Survey: Optimism climbing as growth and dealmaking gain momentum" (29/09/2026).
+Link: https://www.usbank.com/about-us-bank/news-and-stories/article-library/us-bank-cfo-survey-optimism-climbing-as-growth-and-dealmaking-gain-momentum.html
+Data de coleta: 2026-10-19
+
+[Teórico] O modelo dos Três Horizontes, do livro "The Alchemy of Growth" (Baghai, Coley e White, McKinsey), divide o portfólio em três camadas. O Horizonte 1 é o núcleo que gera o lucro e o caixa de hoje; o Horizonte 2 são negócios emergentes que já têm receita; o Horizonte 3 são opções iniciais, como pesquisa, pilotos, alianças e participações minoritárias. Os três precisam receber atenção e recursos ao mesmo tempo, não em sequência, e a divisão do investimento deve ser decidida antes, protegendo o H2 com times e KPIs próprios. Exigir que o H2 ainda imaturo se autofinancie tende a drená-lo em favor do H1. A fonte descreve seis padrões de pipeline doente e registra a crítica de que os horizontes já não seguem o tempo, como em Uber e Tesla. Ressalva: fonte secundária; a página original da McKinsey não abriu.
+Fonte: Strategic Management Insight (Ovidijus Jurevicius), "McKinsey's Three Horizons of Growth Model Explained" (atualizado em 16/05/2025).
+Link: https://strategicmanagementinsight.com/tools/three-horizons-growth-model/
+Data de coleta: 2026-10-19

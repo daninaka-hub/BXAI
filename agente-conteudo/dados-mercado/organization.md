@@ -111,3 +111,18 @@ Data de coleta: 2026-10-17
 Fonte: Strategic Management Insight (Ovidijus Jurevicius), "Galbraith's Star Model Explained in Depth" (atualizado em 16/06/2025).
 Link: https://strategicmanagementinsight.com/tools/galbraiths-star-model-explained/
 Data de coleta: 2026-10-17
+
+[Teórico] A consultoria Alehar compara o departamento financeiro tradicional e o moderno em cinco dimensões: papel principal, cadência, dados, controles e valor estratégico. No modelo tradicional, o fechamento é periódico e muitas vezes atrasado, os dados vêm de planilhas e os controles chegam depois dos fatos. No moderno, o fechamento é rápido, o forecast é contínuo e os controles ficam embutidos em compras, faturamento, folha e reporte. A função moderna se organiza em três capacidades (FP&A, operações financeiras e business partnering) e cinco papéis (controller, líder de FP&A, dono de operações financeiras, CFO ou CFO fracionado, e dono de sistemas e dados), com recomendações por estágio da empresa, do inicial à captação ou M&A. Ressalva: sem estatística nem amostra; a consultoria vende serviço de CFO fracionado.
+Fonte: Alehar, "Traditional vs Modern Finance Departments: What Changes" (atualizado em 06/09/2024).
+Link: https://www.alehar.com/aleharx/traditional-vs-modern-finance-department-structures
+Data de coleta: 2026-10-19
+
+A 77ª edição do CFO Survey da Deloitte no Reino Unido ouviu 66 CFOs e diretores financeiros (12 do FTSE 100 e 25 do FTSE 250) de 17/09 a 01/10/2026. 52% esperam que a IA reduza o quadro de pessoal da empresa nos próximos 12 meses, 48% esperam custo operacional menor e só 37% esperam margem maior. 67% dizem estar a cerca de um quarto do caminho da transformação esperada com IA. Redução de custos virou prioridade forte para 68%, ante 53% no 2º trimestre, e aquisições caíram de 22% para 16%. Ressalva: amostra pequena e só britânica; a redução de quadro vale para a empresa toda, não só para o time financeiro.
+Fonte: Deloitte UK, "Deloitte CFO Survey Q3: Economic and political uncertainty seen as the greatest constraint on UK competitiveness" (14/10/2026).
+Link: https://www.deloitte.com/uk/en/about/press-room/deloitte-cfo-survey-quater-three-2026-economic-and-political-uncertainty.html
+Data de coleta: 2026-10-19
+
+[Teórico] Ao terceirizar processos financeiros, a organização precisa separar duas estruturas. A organização retida executa o trabalho que fica em casa. A organização de governança gerencia o fornecedor e é montada em torno de Global Process Owners, que cuidam de SLA, escalonamento, melhoria contínua, auditoria de processo e controles SOX; eles devem existir antes da transição e ter um espelho do lado do fornecedor. A governança roda em quatro fóruns: comitê executivo (mensal durante a transição), conselho de governança com as unidades de negócio (mensal, depois trimestral), revisão mensal de serviço e reunião estratégica mensal com dois participantes de cada lado. Ressalva: entrevista de 2012 sobre uma única empresa (Orange Business Services), sem métricas de resultado.
+Fonte: SSON (Phil Searle), "The Governance Challenge in BPO", entrevista com Sameer Jalundhwala (01/10/2012).
+Link: https://www.ssonetwork.com/business-process-outsourcing/articles/the-governance-challenge-in-bpo
+Data de coleta: 2026-10-19

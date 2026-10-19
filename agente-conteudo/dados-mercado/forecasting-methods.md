@@ -146,3 +146,23 @@ Data de coleta: 2026-10-17
 Fonte: NC State University, Supply Chain Resource Cooperative, "Measuring Forecast Accuracy: Approaches to Forecasting: A Tutorial" (25/01/2011); MetricGate (Hassane Lakhloufi), "MAD Tracking Signal" (02/06/2026).
 Link: https://scm.ncsu.edu/scm-articles/article/measuring-forecast-accuracy-approaches-to-forecasting-a-tutorial e https://metricgate.com/docs/mad-tracking-signal/
 Data de coleta: 2026-10-17
+
+Episódio de podcast sobre a Peloton reúne os números da virada: o valor de mercado chegou a cerca de US$ 50 bilhões em janeiro de 2021 e caiu cerca de 94% depois. Em março de 2020 os pedidos subiram 172%, com fila de espera de quatro meses, e, segundo ex-funcionários, a empresa seguiu planejando crescimento de 20% por trimestre mesmo com a reabertura das academias. Em novembro de 2021 o corte na previsão de vendas de fim de ano derrubou a ação 35% em um dia; a produção de bikes foi interrompida em fevereiro de 2022, mês em que a empresa demitiu cerca de 2.800 pessoas. O recall de cerca de 125 mil esteiras Tread+ custou cerca de US$ 165 milhões. A lição para forecasting é tratar um pico de demanda como choque temporário e não como nova tendência. Ressalva: fonte secundária (podcast de ciclismo), sem links para documentos primários e com datas inconsistentes no próprio texto; confirmar nos relatórios da Peloton à SEC antes de publicar.
+Fonte: Roadman Cycling Podcast (Anthony Walsh), "Peloton's $50B Collapse", episódio 18 (14/11/2025, revisado em 25/08/2026).
+Link: https://roadmancycling.com/podcast/ep-18-the-rise-and-fall-of-peloton-the-50-billion-fail
+Data de coleta: 2026-10-19
+
+Artigo da AFP lista sete razões para adotar os princípios do Beyond Budgeting, segundo o Beyond Budgeting Round Table: resposta rápida a ameaças e oportunidades, com gestores agindo dentro de valores e limites estratégicos claros; atração e retenção de talentos (cita Google, Handelsbanken e W.L. Gore); inovação contínua num ambiente de confiança; excelência operacional, com recursos tratados como algo a questionar e não como direito adquirido; clientes mais leais e lucrativos, com visão de fora para dentro e lucratividade por cliente; boa governança e comportamento ético; e criação de valor sustentada no longo prazo. O próprio texto chama o modelo de controverso e observa que muitas empresas mantêm o orçamento anual e acrescentam um rolling forecast. Ressalva: texto de 2016, sem números nem evidência independente.
+Fonte: AFP (Nilly Essaides), "The Seven Reasons to Adopt Beyond Budgeting Principles" (05/04/2016).
+Link: https://www.financialprofessionals.org/training-resources/resources/articles/Details/the-seven-reasons-to-adopt-beyond-budgeting-principles
+Data de coleta: 2026-10-19
+
+A pesquisa do 3º trimestre de 2026 do Federal Reserve Bank of Philadelphia com 32 previsores profissionais revisou o crescimento do PIB dos EUA no 4º trimestre de 2026 de 1,6% para 2,3% anualizado, e o de 2027 de 1,9% para 2,2%. A probabilidade de trimestre negativo caiu de 25,1% para 13,3% no 3º trimestre e de 24,5% para 20,0% no 4º. O desemprego médio de 2026 foi revisto de 4,4% para 4,3%, e o CPI de 2026 (4º trimestre contra 4º trimestre) ficou em 3,6%. Para FP&A, é uma referência pública de premissas macro e um exemplo de previsão com probabilidade explícita em vez de número único. Ressalva: painel macro dos EUA com amostra pequena, não pesquisa sobre finanças corporativas.
+Fonte: Federal Reserve Bank of Philadelphia, "Third Quarter 2026 Survey of Professional Forecasters" (14/08/2026).
+Link: https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q3-2026
+Data de coleta: 2026-10-19
+
+[Teórico] O método Delphi foi criado no Project RAND por Olaf Helmer, Norman Dalkey e Nicholas Rescher para prever o impacto da tecnologia na guerra. Funciona em rodadas com especialistas anônimos: um facilitador resume as respostas, devolve ao grupo e cada um pode revisar a sua, até um critério de parada definido antes (número de rodadas, consenso ou estabilidade das respostas). Anonimato, fluxo estruturado de informação e feedback controlado reduzem o peso de vozes dominantes. No caso American Hoist & Derrick (Basu e Schroeder, 1977), o Delphi previu as vendas de dois anos de um produto novo com erro de 3% a 4%, contra 10% a 15% dos métodos quantitativos e cerca de 20% da previsão tradicional. Serve quando falta histórico, como em lançamento de produto. Ressalva: fonte secundária e colaborativa; consenso não garante acerto, o resultado depende da redação das perguntas e da escolha dos especialistas, e o número de acurácia vem de um caso só.
+Fonte: Wikipedia, "Delphi method".
+Link: https://en.wikipedia.org/wiki/Delphi_method
+Data de coleta: 2026-10-19
