@@ -1,12 +1,17 @@
 {
  "agente": "head",
- "resultado": "ok",
- "quando": "2026-10-14T07:24-03:00",
- "resumo": "Rodada concluída",
- "commit": "ce93255",
- "inicio": "2026-10-14T07:23-03:00",
- "duracao_min": 1,
+ "resultado": "executando",
+ "resumo": "Em execução",
+ "commit": "",
+ "inicio": "2026-10-19T08:00-03:00",
+ "previsao": "2026-10-19T08:01-03:00",
  "duracoes": [
   1
- ]
+ ],
+ "anterior": {
+  "resultado": "ok",
+  "quando": "2026-10-14T07:24-03:00",
+  "resumo": "Rodada concluída",
+  "commit": "ce93255"
+ }
 }
