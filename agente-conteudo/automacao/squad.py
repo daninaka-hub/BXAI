@@ -155,14 +155,17 @@ def _bloqueio(semana, num):
 
 def aprovar(titulo, corpo=""):
     """Aplica uma aprovação vinda do botão da página (título da issue). Devolve a mensagem do resultado."""
-    m = re.fullmatch(r"Reprovar briefing: (\d+) \(semana (\S+)\)", titulo.strip())
+    m = re.fullmatch(r"Reprovar briefing: (Artigo )?(\d+)( \(reescrita\))? \(semana (\S+)\)", titulo.strip())
     if m:
-        num, semana = m.group(1), m.group(2)
+        num, semana, reescrita = m.group(2), m.group(4), bool(m.group(3))
         for ln, c in tabela(CONT / "decisoes-pauta.md"):
-            if c[0] == semana and c[1] == num:
-                if c[-1] != "Pendente":
+            achou = re.search(rf"Estrutura pendente \(Artigo {num}\)", c[-1]) if reescrita else c[1] == num
+            if c[0] == semana and achou:
+                if c[-1] != "Pendente" and not (reescrita and c[-1].startswith("Estrutura pendente")):
                     return f"Nada a fazer: o briefing já está como '{c[-1]}'."
-                marcar(ln, "Reprovado", "Pendente")
+                marcar(ln, "Reprovado", c[-1])
+                if reescrita:
+                    num = f"Artigo {num} (reescrita)"
                 motivo = " ".join(corpo.split("Motivo (opcional, uma frase):", 1)[-1].split()) if "Motivo" in corpo else ""
                 motivo = motivo or "sem motivo informado"
                 reg = CONT / "briefings-reprovados.md"
@@ -800,7 +803,7 @@ def html_briefings():
             titulo_art = ""
 
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{(botao_reprovar("Reprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Reprovo o briefing " + c[1] + " (semana " + c[0] + ").\n\nMotivo (opcional, uma frase):\n") if (pend and not rew) else "")}{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{(botao_reprovar("Reprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Reprovo o briefing " + c[1] + " (semana " + c[0] + ").\n\nMotivo (opcional, uma frase):\n") if pend else "")}{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
                      + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
