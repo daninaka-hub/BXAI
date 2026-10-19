@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Budget vs Forecast: Why Few Teams Measure the Error",
-    "description": "Only 14% of finance teams track forecast accuracy (AFP, 2026). Learn the difference between budget vs forecast and how to start measuring the error.",
+    "description": "Only 14% of finance teams track forecast accuracy (AFP, 2026). Learn the budget vs forecast difference and how to measure the error at the next close.",
     "keywords": [
       "budget vs forecast",
       "forecast accuracy",
@@ -13,8 +13,8 @@
   },
   "id": "18",
   "slug": "budget-vs-forecast-difference",
-  "title": "Why do 86% of finance teams do not measure their own forecast error?",
-  "excerpt": "86% of finance teams do not measure their own forecast error. See why the budget contaminates the forecast and how to start measuring at the next close.",
+  "title": "Why do 86% of finance teams not measure their own forecast error?",
+  "excerpt": "86% of finance teams do not measure their own forecast error. See why the budget contaminates the forecast and what to record starting at the next close.",
   "coverImage": "/blog-media/forecast-e-orcamento-diferenca-capa.webp",
   "date": "2026-10-06",
   "author": {
@@ -40,31 +40,31 @@
     },
     {
       "type": "paragraph",
-      "content": "Every month, most finance teams publish a new forecast without checking the last one. A forecast is the prediction of how the company should close the period. Only 14% of teams formally track its accuracy, according to the AFP (Association for Financial Professionals), a U.S. body for corporate finance professionals. The figure comes from the 2026 FP&A (Financial Planning & Analysis) Benchmarking Survey, which polled 332 professionals in 54 countries."
+      "content": "Every month, most finance teams publish a new forecast without checking the last one. A forecast is the prediction of how the company should close the period. Only 14% of teams formally track its accuracy, according to the 2026 FP&A (Financial Planning & Analysis) Benchmarking Survey, run by the AFP (Association for Financial Professionals) with 332 professionals in 54 countries."
     },
     {
       "type": "callout",
       "variant": "blue",
       "icon": "📌",
       "title": "In this article",
-      "content": "The difference between budget and forecast, why the budget contaminates the forecast, how to detect bias, what a forecast without a score costs the people who defend it, how to start at the next close and what would change with one official version in view of everyone."
+      "content": "The difference between budget and forecast, why the budget contaminates the forecast, what the error history reveals about bias, how measurement makes a forecast learn, how to measure at the next close and what would change with BudgetXpert."
     },
     {
       "type": "paragraph",
-      "content": "Lack of time or tools is the usual explanation. This article argues something else: in many companies the forecast has become the budget with a new date. Nobody has an incentive to measure it. Budget and forecast answer different questions. The forecast only improves when someone measures its error."
+      "content": "Budget vs forecast is a split between two different questions, but in many companies the forecast has become the budget with a new date. The usual explanation for the missing measurement is lack of time or tools. This article argues something else: nobody has an incentive to measure that forecast. And it only improves when someone measures its error."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "Budget vs forecast: the difference"
+      "content": "Budget vs forecast: two different questions"
     },
     {
       "type": "paragraph",
-      "content": "Picture the sales director of a manufacturer who, in December, committed to the year's sales target in front of the board. In May, the order book shows the target will not be met. The finance analyst opens the spreadsheet to write the full-year outlook. Which number does she enter?"
+      "content": "Picture the sales director of a manufacturer who, in December, committed to the year's sales target in front of the board. In May, the order book shows the target will not be met. The finance analyst opens the spreadsheet to write the full-year outlook and has to pick a number: the target or the order book."
     },
     {
       "type": "paragraph",
-      "content": "It depends on the question she is answering. The budget is a commitment: it sets how much each area can spend and what result the company promises to deliver. It allocates resources and assigns accountability, so it is negotiated and frozen. The forecast is an estimate: it says where the company lands if nothing changes course, based on what is known today. The budget asks what we will deliver. The forecast asks where we will end up."
+      "content": "The choice depends on the question he is answering. The budget is a commitment: it sets how much each area can spend and what result the company promises to deliver. It allocates resources and assigns accountability, so it is negotiated and frozen. The forecast is an estimate: it says where the company lands if nothing changes course, based on what is known today. The budget answers what we will deliver. The forecast answers where we will end up."
     },
     {
       "type": "paragraph",
@@ -77,19 +77,19 @@
     },
     {
       "type": "paragraph",
-      "content": "Ask who gains what. The budget has a target, an owner and a bonus attached. The forecast has none of that. If an honest forecast shows the target will be missed, adjusting the forecast costs less than admitting the missed target. And often the person who writes the forecast is the same person who defends the budget in the results meeting. Little by little, the forecast stops answering where the company will land and starts answering where it is still defensible to say it will land."
+      "content": "The reason shows up when you ask who gains what from each number. The budget has a target, an owner and a bonus attached. The forecast has none of that. If an honest forecast shows the target will be missed, adjusting the forecast costs less than admitting the missed target."
     },
     {
       "type": "paragraph",
-      "content": "McKinsey, a global management consultancy, described this blur in an article dated March 13, 2020, and proposed a remedy: the momentum case. It is a baseline built only on the business's inertia, with no new initiative, kept apart from the business plan. Its job is to stop the budget from turning into the forecast."
+      "content": "Who writes it matters too. Often the person who builds the forecast is the same person who defends the budget in the results meeting. Little by little, the forecast stops answering where the company will land and starts answering where it is still defensible to say it will land. Lack of time does not explain that drift. Incentives do."
     },
     {
       "type": "paragraph",
-      "content": "With the separation, the company has two numbers on the table: the commitment and the estimate. Without it, the forecast echoes the budget and there is no error left to measure."
+      "content": "McKinsey, a global management consultancy, described this blur in an article dated March 13, 2020, and proposed separating the two numbers with the momentum case. It is a baseline built only on the business's inertia, with no new initiative, kept apart from the business plan, so the budget does not turn into the forecast."
     },
     {
       "type": "paragraph",
-      "content": "That drift has a technical name: bias. Bias is error that falls on the same side month after month. It is not the same as imprecision, which is missing high and low with no pattern. Imprecision is noise. Bias is a sign that something in the process is pushing the number."
+      "content": "With the separation, the company has two numbers on the table: the commitment and the estimate. Without it, the forecast echoes the budget and there is no error left to measure. When there is, the question is what to look for in it."
     },
     {
       "type": "heading",
@@ -98,11 +98,29 @@
     },
     {
       "type": "paragraph",
-      "content": "Only by looking at the history of errors, and that is exactly where the 86% are blind. In an opinion article published on the AFP website on April 28, 2026, Jason Brisbane proposes giving the forecast a score from 0 to 100, built from four components. Accuracy, the average size of the error. Bias, whether the error has a preferred direction. Volatility, whether the error swings from one month to the next. Persistence, whether the same error repeats in the same place. The score is one author's proposal, not a standard, but the logic works for any team."
+      "content": "The first thing to look for is bias. Bias is error that falls on the same side month after month. It is not the same as imprecision, which is missing high and low with no pattern. Imprecision is noise. Bias is a sign that something in the process is pushing the number, like a target nobody wants to call lost."
     },
     {
       "type": "paragraph",
-      "content": "Imagine a forecast with a 2% average error. It looks great, until you find that the error is always optimistic and always on the same revenue line. That is not a prediction problem. It is a process problem, and a process can be fixed. A random 8% error is more annoying but reveals nothing. A systematic 2% error reveals everything."
+      "content": "A single forecast does not show bias. It only appears when the team compares a series of forecasts with actual results. That comparison is exactly what the 86% do not run in a structured way."
+    },
+    {
+      "type": "paragraph",
+      "content": "In an opinion article published on the AFP website on April 28, 2026, Jason Brisbane proposes giving the forecast a score from 0 to 100, built from four components:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Accuracy: the average size of the error.",
+        "Bias: whether the error has a preferred direction.",
+        "Volatility: whether the error swings a lot from one month to the next.",
+        "Persistence: whether the same error repeats in the same place."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The score is one author's proposal, but the logic works for any team. Imagine a forecast with a 2% average error. It looks great, until someone notices that the error is always optimistic and always on the same revenue line. On accuracy, the forecast does well. On bias, it does badly. A random 8% error is more annoying, but it does not tell you where to fix anything. A systematic 2% error points to the exact place where the process pushes the number. A process can be fixed."
     },
     {
       "type": "heading",
@@ -111,49 +129,40 @@
     },
     {
       "type": "paragraph",
-      "content": "Among the fronts McKinsey recommends for improving a forecast is to measure effectiveness in detail, by line and by area, not just in total. The goal is to find which indicator was being ignored before the problem reached the results."
+      "content": "Knowing what to measure does not improve the forecast yet. The improvement comes from what the team does with the measure in each cycle."
     },
     {
       "type": "paragraph",
-      "content": "This is where the rolling forecast comes in, a model that always keeps a fixed horizon ahead, twelve months for example. Each time a month closes, the actual result replaces the forecast for that month and a new month joins the end of the line. McKinsey reports that this format, with frequent updates, produced more satisfaction among CFOs, the chief financial officers, than the annual forecast."
+      "content": "In the same 2020 article, McKinsey recommends measuring forecast effectiveness in detail, by line and by area, not just in total. The goal is to find which indicator was being ignored before the problem reached the results."
     },
     {
       "type": "paragraph",
-      "content": "Frequency alone does not solve it. A rolling forecast with no error measurement repeats the same bias twelve times a year. The gain shows up when each cycle starts by reading the error of the previous one."
+      "content": "The rolling forecast is often presented as the alternative to the annual budget. It is a model that always keeps a fixed horizon ahead, twelve months for example. Each time a month closes, the actual result replaces the forecast for that month and a new month joins the end of the line. McKinsey reports that this format, with frequent updates, produced more satisfaction among CFOs, the chief financial officers, than the annual forecast."
     },
     {
       "type": "paragraph",
-      "content": "The AFP makes this diagnosis itself in the 2026 edition of the survey: process, skills and execution discipline have not kept pace with technology. The average budget cycle still takes close to nine weeks, unchanged in three years. They are symptoms of a process that produces numbers without going back to check the previous one."
+      "content": "Frequency alone does not solve it. A rolling forecast with no error measurement repeats the same bias twelve times a year. The gain shows up when each cycle starts by reading the error of the previous one: the line that missed high last month is the first one reviewed this month."
+    },
+    {
+      "type": "paragraph",
+      "content": "The AFP shows what a process looks like when it does not go back to the previous cycle. In the 2026 edition of the same survey, the average budget cycle still takes close to nine weeks, unchanged in three years. The AFP's own reading is that process, skills and execution discipline have not kept pace with technology. The team produces a new number every year without checking the last one, so the cycle does not learn from what it already got wrong."
     },
     {
       "type": "heading",
       "level": 2,
-      "content": "What a forecast without a score costs the people who defend it"
+      "content": "How to measure forecast error at the next close"
     },
     {
       "type": "paragraph",
-      "content": "The error also arrives late. When it only shows up in the year-end review, it corrects no decision. It only feeds a lessons-learned presentation."
+      "content": "The routine fits in the next close and takes three records. First, save each month's forecast version before updating it, because without the frozen version there is no error to calculate. Then compare forecast with actual, line by line. Finally, record the deviation with its sign, up or down, never as an absolute value. The sign is what reveals bias."
     },
     {
       "type": "paragraph",
-      "content": "There are two points of attention. The first is the total, which hides the lines: large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way."
+      "content": "Two precautions make the measure useful. The first is the total, which hides the lines: large errors in opposite directions cancel out in the consolidated figure. The company celebrates a small deviation in total revenue while two regions missed by a lot, one each way."
     },
     {
       "type": "paragraph",
-      "content": "The second is the score itself, which is worth what it corrects. When it is used to adjust the model and its assumptions, the analyst shows the error without fear. When it becomes a ranking of people, everyone pads their predictions on purpose. The forecast goes back to hiding what it should show."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "content": "How to start at the next close"
-    },
-    {
-      "type": "paragraph",
-      "content": "Measure the whole forecast, line by line, from the next close. At each close, save that month's forecast version before updating it, because without the frozen version there is no error to calculate. Compare forecast with actual and record the deviation with its sign, up or down, never as an absolute value. The sign is what reveals bias."
-    },
-    {
-      "type": "paragraph",
-      "content": "After three cycles, the conversation at the table changes. Instead of debating whether this month's number looks reasonable, the team looks at the pattern: this line always misses high, that one misses along with seasonality. At a small company where the owner decides everything, the same routine holds: with the version saved, the owner sees in the first cycle where the forecast missed."
+      "content": "The second is how the score is used. When it serves to correct the model and the assumptions, the analyst shows the error without fear. When it becomes a ranking of people, everyone starts padding their forecasts on purpose. The incentive that contaminated the forecast comes back, this time through the score."
     },
     {
       "type": "heading",
@@ -162,11 +171,11 @@
     },
     {
       "type": "paragraph",
-      "content": "The answer to the title is about incentives, not laziness: as long as the forecast is the budget with a new date, nobody wants the score."
+      "content": "The answer to the title is about incentives, not laziness. As long as the forecast is the budget with a new date, every measured error looks like a missed target. Nobody wants that score."
     },
     {
       "type": "paragraph",
-      "content": "Budget and forecast do not compete. They protect each other when kept apart: the budget holds the commitment, the forecast warns early when the commitment is at risk. A wrong budget is a negotiation problem. A wrong forecast is information, as long as someone measures the error. The finance team's job, then, is not to predict better in one leap. It is to make it safe to be wrong in public, because only a measured error teaches anything."
+      "content": "Kept apart, budget and forecast protect each other. The budget holds the commitment. The forecast shows early when the commitment is at risk. A wrong budget is a negotiation problem. A wrong forecast is information, as long as someone measures the error. The finance team's job, then, is not to get the forecast right in one go. It is to make it safe to be wrong in public, because only a measured error teaches."
     },
     {
       "type": "heading",
@@ -175,7 +184,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Measuring the error requires each month's prediction to still exist when the month closes. In BudgetXpert, budget and forecast live together as versions of the same plan. With BudgetXpert, the forecast error could be measured every month, because the previous version stays saved, only one version carries the official mark and the new forecast pulls the previous result without copying cells."
+      "content": "Measuring the error requires each month's forecast to still exist when the month closes. With BudgetXpert, the sales director's analyst would have May's error at hand at the next close, because the version of each close would stay saved, a single version would be the official one and the line in the new forecast would pull the previous result without copying cells."
     },
     {
       "type": "table",
@@ -186,18 +195,18 @@
       ],
       "rows": [
         [
-          "Does each month's prediction still exist?",
-          "When nobody keeps the version of each close, there is no error to measure",
+          "Does each month's forecast still exist?",
+          "Without the version of each close saved, there would be no error to measure",
           "The previous version stays saved, for comparison with the actual result"
         ],
         [
-          "Is everyone looking at the same number?",
-          "Budget, forecast and drafts circulate in copies. Each person defends a different number",
-          "Only one version carries the official mark. Several managers fill in the same budget at the same time, with no diverging copies"
+          "Which is the official version?",
+          "Budget, forecast and drafts would circulate in copies. Each person would defend a different number",
+          "A single official version, visible to everyone. The others are not confused with it"
         ],
         [
           "Does the new forecast start from the previous one?",
-          "The previous month's result is copied by hand, cell by cell",
+          "The previous month's result would be copied by hand, cell by cell",
           "A line in the new forecast pulls the result from the previous one on its own, without copying cells"
         ]
       ]
@@ -211,7 +220,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Source: AFP (Association for Financial Professionals, financialprofessionals.org), a U.S. body for corporate finance professionals, \"2026 AFP FP&A Benchmarking Survey Report\" and opinion article \"Your Forecast Doesn't Have a Score. It Should.\" (Jason Brisbane, April 28, 2026). McKinsey & Company (mckinsey.com), a global management consultancy, \"Bringing the real world into your forecasting process\" (March 13, 2020)."
+      "content": "Source: AFP (Association for Financial Professionals, financialprofessionals.org), a U.S. body for corporate finance professionals, \"2026 AFP FP&A Benchmarking Survey Report\" (2026 edition) and opinion article \"Your Forecast Doesn't Have a Score. It Should.\" (Jason Brisbane, April 28, 2026). McKinsey & Company (mckinsey.com), a global management consultancy, \"Bringing the real world into your forecasting process\" (March 13, 2020)."
     }
   ]
 }

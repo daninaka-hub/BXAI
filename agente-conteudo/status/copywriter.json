@@ -1,18 +1,14 @@
 {
  "agente": "copywriter",
- "resultado": "executando",
- "resumo": "Produzindo os artigos 3 em paralelo",
+ "resultado": "ok",
+ "quando": "2026-10-19T08:47-03:00",
+ "resumo": "Artigos 3 produzidos",
  "commit": "",
  "inicio": "2026-10-19T08:38-03:00",
- "previsao": "2026-10-19T08:50-03:00",
+ "duracao_min": 9,
  "duracoes": [
   12,
-  10
- ],
- "anterior": {
-  "resultado": "ok",
-  "quando": "2026-10-14T13:26-03:00",
-  "resumo": "Artigos 1, 2 produzidos",
-  "commit": ""
- }
+  10,
+  9
+ ]
 }
