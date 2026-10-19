@@ -851,7 +851,7 @@ def html_briefings():
             titulo_art = ""
 
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{(botao_reprovar("Reprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Reprovo o briefing " + c[1] + " (semana " + c[0] + ").\n\nMotivo (opcional, uma frase):\n") if pend else "")}{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span><span class="bf-acoes">{(botao_reprovar("Reprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Reprovo o briefing " + c[1] + " (semana " + c[0] + ").\n\nMotivo (opcional, uma frase):\n") if pend else "")}{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</span></div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
                      + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
@@ -946,9 +946,10 @@ details[open] .chev{transform:rotate(90deg);}
 .btn-aprovar{margin-left:auto;background:var(--teal);color:#06262B;font-weight:bold;font-size:13px;text-decoration:none;padding:6px 14px;border-radius:6px;}
 .aprov-env{margin-left:auto;font-size:12px;color:var(--muted);}
 .btn-aprovar:hover{filter:brightness(1.08);}
-.btn-reprovar{margin-left:auto;background:transparent;color:#F3A6A6;border:1px solid #7a3b3b;font-size:13px;text-decoration:none;padding:5px 12px;border-radius:6px;}
+.bf-acoes{margin-left:auto;display:flex;gap:8px;align-items:center;flex-shrink:0;}
+.bf-acoes .btn-aprovar,.bf-acoes .btn-reprovar{margin-left:0;white-space:nowrap;}
+.btn-reprovar{background:transparent;color:#F3A6A6;border:1px solid #7a3b3b;font-size:13px;text-decoration:none;padding:5px 12px;border-radius:6px;}
 .btn-reprovar:hover{background:#3a1c1c;}
-.btn-reprovar + .btn-aprovar{margin-left:8px;}
 .brief-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
 .bf{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 7px;}
 .bf-pend{color:#7A4B00;background:#FFEFC9;}
