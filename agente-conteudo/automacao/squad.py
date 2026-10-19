@@ -77,6 +77,29 @@ def marcar(linha, texto, atual="Sim"):
     nova = nova[: -len(fim)] + f"| {texto} |"
     p.write_text(t.replace(linha, nova, 1), encoding="utf-8")
 
+REPROVADOS = CONT / "briefings-reprovados.md"
+
+def _registrar_reprovado(semana, ident, teoria, motivo):
+    """Banco de reprovados: uma linha por briefing reprovado ou artigo descartado. O conteúdo completo fica em decisoes-pauta.md e indice-artigos.md."""
+    if not REPROVADOS.exists():
+        REPROVADOS.write_text("# Briefings reprovados e artigos descartados\n\nBanco de reprovados. A aba Reprovados da página lê este arquivo. O Head de Conteúdo lê antes de propor pautas e não repete o tema nem o ângulo reprovado.\n\n| Semana | Item | Teoria base | Motivo | Data |\n|---|---|---|---|---|\n", encoding="utf-8")
+    teoria = teoria.replace("|", "/")
+    teoria = teoria[:160].rstrip() + ("..." if len(teoria) > 160 else "")
+    motivo = (" ".join(motivo.split()) or "sem motivo informado").replace("|", "/")
+    with REPROVADOS.open("a", encoding="utf-8") as f:
+        f.write(f"| {semana} | {ident} | {teoria} | {motivo} | {_agora().strftime('%Y-%m-%d')} |\n")
+    return motivo
+
+def descartar(codigo, motivo=""):
+    for ln, c in indice():
+        if c[0] == f"Artigo {codigo}":
+            if c[5] == "Descartado":
+                return f"Nada a fazer: o Artigo {codigo} já está descartado."
+            definir_status(codigo, "Descartado")
+            m = _registrar_reprovado("-", f"Artigo {codigo} (descartado)", c[1], motivo)
+            return f"Artigo {codigo} descartado. Motivo: {m}. Os arquivos continuam no repositório e o Head não repete o tema."
+    return "Artigo não encontrado."
+
 def definir_status(codigo, novo):
     p = CONT / "indice-artigos.md"
     t = p.read_text(encoding="utf-8")
@@ -166,14 +189,8 @@ def aprovar(titulo, corpo=""):
                 marcar(ln, "Reprovado", c[-1])
                 if reescrita:
                     num = f"Artigo {num} (reescrita)"
-                motivo = " ".join(corpo.split("Motivo (opcional, uma frase):", 1)[-1].split()) if "Motivo" in corpo else ""
-                motivo = motivo or "sem motivo informado"
-                reg = CONT / "briefings-reprovados.md"
-                if not reg.exists():
-                    reg.write_text("# Briefings reprovados\n\nO Head de Conteúdo lê este arquivo antes de propor pautas e não repete o tema nem o ângulo reprovado.\n\n| Semana | Briefing | Teoria base | Motivo | Data |\n|---|---|---|---|---|\n", encoding="utf-8")
-                teoria = c[3].replace("|", "/")[:160].rstrip() + ("..." if len(c[3]) > 160 else "")
-                with reg.open("a", encoding="utf-8") as f:
-                    f.write(f"| {semana} | {num} | {teoria} | {motivo.replace('|', '/')} | {_agora().strftime('%Y-%m-%d')} |\n")
+                motivo = corpo.split("Motivo (opcional, uma frase):", 1)[-1] if "Motivo" in corpo else ""
+                motivo = _registrar_reprovado(semana, num, c[3], motivo)
                 return f"Briefing {num} da semana {semana} reprovado. Motivo: {motivo}. O Head não repete o tema."
         return "Briefing não encontrado."
     m = re.fullmatch(r"Aprovar briefing: (Artigo )?(\d+)( \(reescrita\))? \(semana (\S+)\)", titulo.strip())
@@ -779,6 +796,37 @@ def html_producao():
                      f'<div class="bf-tese">{esc(e.get("titulo", ""))}</div><div class="etapas">{chips}</div>{erro}</div>')
     return '<div class="section-label">Produção dos artigos</div>' + "".join(itens)
 
+def itens_reprovados():
+    """Briefings reprovados (decisoes-pauta.md) e artigos descartados (indice-artigos.md), com o motivo do banco."""
+    motivos = {}
+    if REPROVADOS.exists():
+        for _, r in tabela(REPROVADOS):
+            if len(r) >= 5:
+                motivos[(r[0], r[2].rstrip(".")[:60])] = (r[3], r[4])
+    itens = []
+    for _, c in tabela(CONT / "decisoes-pauta.md"):
+        if c[-1] == "Reprovado":
+            m, d = motivos.get((c[0], c[3][:60]), ("sem motivo informado", ""))
+            itens.append({"tipo": "Briefing", "semana": c[0], "ident": c[1], "pilar": c[2], "teoria": c[3], "tese": c[5] if len(c) > 6 else "", "motivo": m, "data": d})
+    for _, c in indice():
+        if c[5] == "Descartado":
+            m, d = motivos.get(("-", c[1][:60]), ("sem motivo informado", ""))
+            itens.append({"tipo": "Artigo descartado", "semana": "", "ident": c[0], "pilar": c[2], "teoria": c[3], "tese": c[1], "motivo": m, "data": d, "arquivo": c[6]})
+    return sorted(itens, key=lambda x: x["data"], reverse=True)
+
+def html_reprovados(itens):
+    if not itens:
+        return '<div class="section-label">Banco de reprovados</div><div class="brief bf-vazio">Nada reprovado até agora.</div>'
+    cards = []
+    for i in itens:
+        sem = f'<span class="bf-data">semana {esc(i["semana"])}</span>' if i["semana"] else ""
+        data = f'<span class="bf-data">reprovado em {esc(i["data"])}</span>' if i["data"] else ""
+        arq = f'<div class="bf-linha"><a href="{GITHUB}{esc(i["arquivo"])}" target="_blank" rel="noopener">arquivo do artigo no repositório</a></div>' if i.get("arquivo") else ""
+        cards.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(i["ident"])}</span><span class="tag">{esc(i["pilar"])}</span><span class="bf bf-ok">{esc(i["tipo"])}</span>{sem}{data}</div>'
+                     + (f'<div class="bf-tese">{esc(i["tese"])}</div>' if i["tese"] else "")
+                     + f'<div class="bf-linha"><b>Motivo:</b> {esc(i["motivo"])}</div><div class="bf-linha"><b>Teoria base:</b> {esc(i["teoria"])}</div>{arq}</div>')
+    return '<div class="section-label">Banco de reprovados</div><div class="sub">O Head lê este banco e não repete o tema nem o ângulo.</div>' + "".join(cards)
+
 def html_briefings():
     itens = []
     for _, c in tabela(CONT / "decisoes-pauta.md"):
@@ -1060,8 +1108,8 @@ def html_idiomas(slug):
         saida.append(f'<details class="sub"><summary>Relatório de SEO e GEO, {NOMES_IDIOMA[lg]}</summary>{html_seo(d[lg]["seo"])}</details>')
     return "\n".join(saida)
 
-JS = r'''function aba(n){["status","aprovar","biblioteca"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
-function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#biblioteca"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView();}}
+JS = r'''function aba(n){["status","aprovar","biblioteca","reprovados"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
+function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#biblioteca"||h==="#reprovados"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView();}}
 document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
 document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
@@ -1074,7 +1122,7 @@ if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hi
 def gerar_pagina():
     cards = []
     cards_bib = []
-    linhas = [x for x in indice() if x[1][5] != "Em reescrita"]
+    linhas = [x for x in indice() if x[1][5] not in ("Em reescrita", "Descartado")]
     codigos = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas), reverse=True)
     aprovar = [c for _, c in linhas if c[5] != "Aprovado"]
     abertos = set(sorted((int(re.search(r"\d+", c[0]).group()) for c in aprovar), reverse=True)[:2])
@@ -1089,11 +1137,12 @@ def gerar_pagina():
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
 {html_arte(slug)}
 {html_idiomas(slug)}</div></details>""")
+    reprov = itens_reprovados()
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
 <div class="sub">Referencie pelo código ao pedir ajustes no chat</div>
 {html_resumo(linhas)}
-<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-aprovar" role="tab" data-aba="aprovar">A aprovar ({len(cards)})</button><button type="button" class="aba" id="btn-biblioteca" role="tab" data-aba="biblioteca">Biblioteca ({len(cards_bib)})</button></div>
+<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-aprovar" role="tab" data-aba="aprovar">A aprovar ({len(cards)})</button><button type="button" class="aba" id="btn-biblioteca" role="tab" data-aba="biblioteca">Biblioteca ({len(cards_bib)})</button><button type="button" class="aba" id="btn-reprovados" role="tab" data-aba="reprovados">Reprovados ({len(reprov)})</button></div>
 <section id="aba-status" role="tabpanel">
 {html_status()}
 {html_briefings()}
@@ -1107,6 +1156,9 @@ def gerar_pagina():
 {html_indice([l for l in linhas if l[1][5] == "Aprovado"], "Biblioteca, artigos aprovados")}
 <div class="section-label">Artigos aprovados</div>
 {chr(10).join(cards_bib) or '<p class="sub">Nenhum artigo aprovado ainda.</p>'}
+</section>
+<section id="aba-reprovados" role="tabpanel" hidden>
+{html_reprovados(reprov)}
 </section>
 <div class="footer-note">Peça ajustes citando o código, por exemplo "Artigo 1, refaça a abertura".<br>O conteúdo completo e o histórico ficam no repositório daninaka-hub/BXAI.</div></div><script>{JS}</script></body></html>"""
     PAGINA.parent.mkdir(exist_ok=True)
@@ -1134,6 +1186,8 @@ if __name__ == "__main__":
         gravar_producao(a[0], a[1] or None, a[2] or None, a[3], a[4])
     elif cmd == "json":
         print(montar_json(sys.argv[2]))
+    elif cmd == "descartar":
+        print(descartar(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else ""))
     elif cmd == "lint-agentes":
         e = lint_agentes()
         print("agentes ok" if not e else "\n".join(e)); sys.exit(1 if e else 0)

@@ -26,7 +26,7 @@ O briefing traz:
 
 ## Rotina semanal
 1. Revisar o que o Pesquisador e o Processador adicionaram na base de dados durante a semana, e o que já existia antes.
-2. Identificar uma teoria ainda não coberta (ver conteudo/indice-artigos.md, para não repetir tema já publicado, e conteudo/briefings-reprovados.md, para não repetir tema nem ângulo que Daniel reprovou, com o motivo que ele deu), buscar na base de conhecimento um ou mais itens de apoio para essa teoria, e montar o briefing do primeiro artigo.
+2. Identificar uma teoria ainda não coberta (ver conteudo/indice-artigos.md, para não repetir tema já publicado, e conteudo/briefings-reprovados.md (banco de reprovados, com briefings reprovados e artigos descartados), para não repetir tema nem ângulo que Daniel reprovou, com o motivo que ele deu), buscar na base de conhecimento um ou mais itens de apoio para essa teoria, e montar o briefing do primeiro artigo.
 3. Repetir o passo 2 para o segundo artigo da semana.
 4. Apresentar os 2 briefings juntos a Daniel. Nenhum artigo é escrito antes dos 2 briefings da semana estarem aprovados.
 5. Registrar em conteudo/decisoes-pauta.md, com a data da semana, preenchendo sempre as colunas Tese e Estrutura (a estrutura de raciocínio, em uma célula, passos separados por " / ", sem barra vertical). Daniel aprova a estrutura junto com o briefing. Depois da aprovação dos 2, passar os briefings ao Copywriter.
