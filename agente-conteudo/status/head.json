@@ -1,12 +1,17 @@
 {
  "agente": "head",
- "resultado": "falhou",
- "quando": "2026-10-19T08:05-03:00",
- "resumo": "o agente não gerou nenhum commit novo",
+ "resultado": "executando",
+ "resumo": "Em execução",
  "commit": "",
- "inicio": "2026-10-19T08:00-03:00",
- "duracao_min": 5,
+ "inicio": "2026-10-19T11:08-03:00",
+ "previsao": "2026-10-19T11:09-03:00",
  "duracoes": [
   1
- ]
+ ],
+ "anterior": {
+  "resultado": "falhou",
+  "quando": "2026-10-19T08:05-03:00",
+  "resumo": "o agente não gerou nenhum commit novo",
+  "commit": ""
+ }
 }
