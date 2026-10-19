@@ -1,0 +1,15 @@
+name: Conferir ferramentas dos agentes
+on:
+  push:
+    paths:
+      - 'agente-conteudo/automacao/**'
+      - 'agente-conteudo/agentes/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  lint-agentes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 agente-conteudo/automacao/squad.py lint-agentes

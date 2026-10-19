@@ -50,6 +50,9 @@ ANTES=$(git rev-parse HEAD)
 PROMPT_FILE="agente-conteudo/automacao/prompt-$AGENTE.md"
 [ -f "$PROMPT_FILE" ] || falha "prompt $PROMPT_FILE não encontrado"
 
+# Antes de gastar uma rodada: todo comando que o prompt pede precisa estar liberado nas ferramentas abaixo
+MSG_LINT=$(python3 agente-conteudo/automacao/squad.py lint-agentes 2>&1) || falha "$MSG_LINT"
+
 caffeinate -i claude -p "$(cat "$PROMPT_FILE")" \
   --permission-mode acceptEdits \
   --allowedTools "Bash(git *),Bash(date *),Bash(ls *),Bash(python3 agente-conteudo/automacao/squad.py *),Read,Edit,Write,WebSearch,WebFetch,Agent" \
@@ -60,7 +63,11 @@ RC=$?
 # Conferência independente: o commit precisa estar no GitHub
 git fetch -q origin >> "$LOG" 2>&1 || falha "git fetch falhou na conferência"
 [ -z "$(git status --porcelain)" ] || falha "sobraram alterações sem commit"
-[ "$(git rev-parse HEAD)" != "$ANTES" ] || falha "o agente não gerou nenhum commit novo"
+if [ "$(git rev-parse HEAD)" = "$ANTES" ]; then
+  # Sem commit: procura no fim do log sinal de comando bloqueado, para o painel dizer a causa
+  BLOQ=$(tail -n 300 "$LOG" | grep -iE "permission|permissão|not allowed|não permitid|bloquead|blocked|requires approval|sem acesso" | tail -1 | cut -c1-140)
+  falha "o agente não gerou nenhum commit novo${BLOQ:+. Possível comando bloqueado: $BLOQ}"
+fi
 if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
   git push origin HEAD:main >> "$LOG" 2>&1 || falha "git push falhou (veja $LOG)"
   git fetch -q origin

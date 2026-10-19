@@ -89,6 +89,27 @@ def atualizar_titulo(codigo, titulo):
             t = t.replace(ln, ln.replace(f"| {c[1]} |", f"| {titulo} |", 1), 1)
     p.write_text(t, encoding="utf-8")
 
+def lint_agentes():
+    """Confere se todo comando que um prompt de agente pede está liberado nas ferramentas que o agente recebe.
+    Pesquisador e Head: --allowedTools do rodar-agente.sh. Copywriter: CLAUDE_TOOLS do copywriter_paralelo.py (sem Bash)."""
+    import fnmatch
+    aqui = pathlib.Path(__file__).parent
+    sh_txt = (aqui / "rodar-agente.sh").read_text(encoding="utf-8")
+    m = re.search(r'--allowedTools "([^"]+)"', sh_txt)
+    liberados = re.findall(r"Bash\(([^)]+)\)", m.group(1)) if m else []
+    alvos = {"prompt-pesquisador.md": liberados, "prompt-head.md": liberados, "prompt-copywriter.md": []}
+    erros = []
+    for nome, libs in alvos.items():
+        arq = aqui / nome
+        if not arq.exists():
+            continue
+        texto = arq.read_text(encoding="utf-8")
+        pedidos = re.findall(r"\b(python3 \S*squad\.py \S+|git \w+|date \S+|ls \S+|(?:curl|npm|pip3?|node|gh|jq|rm|mv|cp) \S+)", texto)
+        for cmd in sorted(set(pedidos)):
+            if not any(fnmatch.fnmatch(cmd, pad) for pad in libs):
+                erros.append(f"{nome}: pede '{cmd}', que não está liberado nas ferramentas do agente (rodar-agente.sh ou copywriter_paralelo.py)")
+    return erros
+
 def lint_briefings():
     """Confere todos os briefings de decisoes-pauta.md contra as regras do Head. Devolve a lista de problemas."""
     erros = []
@@ -1085,5 +1106,8 @@ if __name__ == "__main__":
         gravar_producao(a[0], a[1] or None, a[2] or None, a[3], a[4])
     elif cmd == "json":
         print(montar_json(sys.argv[2]))
+    elif cmd == "lint-agentes":
+        e = lint_agentes()
+        print("agentes ok" if not e else "\n".join(e)); sys.exit(1 if e else 0)
     elif cmd == "gerar-pagina":
         gerar_pagina(); print(PAGINA)
