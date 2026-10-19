@@ -52,7 +52,7 @@ PROMPT_FILE="agente-conteudo/automacao/prompt-$AGENTE.md"
 
 caffeinate -i claude -p "$(cat "$PROMPT_FILE")" \
   --permission-mode acceptEdits \
-  --allowedTools "Bash(git *),Bash(date *),Bash(ls *),Read,Edit,Write,WebSearch,WebFetch,Agent" \
+  --allowedTools "Bash(git *),Bash(date *),Bash(ls *),Bash(python3 agente-conteudo/automacao/squad.py *),Read,Edit,Write,WebSearch,WebFetch,Agent" \
   >> "$LOG" 2>&1
 RC=$?
 [ "$RC" -eq 0 ] || falha "o Claude Code terminou com erro $RC (veja $LOG)"
