@@ -11,22 +11,23 @@ permissions:
   actions: write
 jobs:
   aprovar:
-    if: github.event.issue.user.login == 'daninaka-hub' && startsWith(github.event.issue.title, 'Aprovar ')
+    if: github.event.issue.user.login == 'daninaka-hub' && (startsWith(github.event.issue.title, 'Aprovar ') || startsWith(github.event.issue.title, 'Reprovar '))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Aplicar aprovação
         env:
           TITULO: ${{ github.event.issue.title }}
+          CORPO: ${{ github.event.issue.body }}
           NUM: ${{ github.event.issue.number }}
           GH_TOKEN: ${{ github.token }}
         run: |
-          RES=$(python3 agente-conteudo/automacao/squad.py aprovar "$TITULO")
+          RES=$(python3 agente-conteudo/automacao/squad.py aprovar "$TITULO" "$CORPO")
           python3 agente-conteudo/automacao/squad.py gerar-pagina
           git config user.name "bxai-bot"
           git config user.email "bxai-bot@users.noreply.github.com"
           git add -A agente-conteudo
-          git commit -m "Aprovação pelo painel: $TITULO" || true
+          git commit -m "Painel: $TITULO" || true
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break || sleep 3; done
           gh workflow run pages.yml || true
           gh issue comment "$NUM" --body "$RES"

@@ -13,6 +13,10 @@ def botao_aprovar(titulo, corpo):
     from urllib.parse import quote
     return f'<a class="btn-aprovar" href="{ISSUES}?title={quote(titulo)}&amp;body={quote(corpo)}" target="_blank" rel="noopener">Aprovar</a>'
 
+def botao_reprovar(titulo, corpo):
+    from urllib.parse import quote
+    return f'<a class="btn-reprovar" href="{ISSUES}?title={quote(titulo)}&amp;body={quote(corpo)}" target="_blank" rel="noopener">Reprovar</a>'
+
 AGENTES = {
     "pesquisador": ("Pesquisador", "todo dia às 7h"),
     "head": ("Head de Conteúdo", "segundas às 8h"),
@@ -149,8 +153,26 @@ def lint_briefings():
 def _bloqueio(semana, num):
     return [e for e in lint_briefings() if e.startswith(f"semana {semana} artigo {num}:")]
 
-def aprovar(titulo):
+def aprovar(titulo, corpo=""):
     """Aplica uma aprovação vinda do botão da página (título da issue). Devolve a mensagem do resultado."""
+    m = re.fullmatch(r"Reprovar briefing: (\d+) \(semana (\S+)\)", titulo.strip())
+    if m:
+        num, semana = m.group(1), m.group(2)
+        for ln, c in tabela(CONT / "decisoes-pauta.md"):
+            if c[0] == semana and c[1] == num:
+                if c[-1] != "Pendente":
+                    return f"Nada a fazer: o briefing já está como '{c[-1]}'."
+                marcar(ln, "Reprovado", "Pendente")
+                motivo = " ".join(corpo.split("Motivo (opcional, uma frase):", 1)[-1].split()) if "Motivo" in corpo else ""
+                motivo = motivo or "sem motivo informado"
+                reg = CONT / "briefings-reprovados.md"
+                if not reg.exists():
+                    reg.write_text("# Briefings reprovados\n\nO Head de Conteúdo lê este arquivo antes de propor pautas e não repete o tema nem o ângulo reprovado.\n\n| Semana | Briefing | Teoria base | Motivo | Data |\n|---|---|---|---|---|\n", encoding="utf-8")
+                teoria = c[3].replace("|", "/")[:160].rstrip() + ("..." if len(c[3]) > 160 else "")
+                with reg.open("a", encoding="utf-8") as f:
+                    f.write(f"| {semana} | {num} | {teoria} | {motivo.replace('|', '/')} | {_agora().strftime('%Y-%m-%d')} |\n")
+                return f"Briefing {num} da semana {semana} reprovado. Motivo: {motivo}. O Head não repete o tema."
+        return "Briefing não encontrado."
     m = re.fullmatch(r"Aprovar briefing: (Artigo )?(\d+)( \(reescrita\))? \(semana (\S+)\)", titulo.strip())
     if m:
         num, semana, reescrita = m.group(2), m.group(4), bool(m.group(3))
@@ -758,7 +780,7 @@ def html_briefings():
     itens = []
     for _, c in tabela(CONT / "decisoes-pauta.md"):
         ap = c[-1]
-        if ap.startswith("Sim (Artigo"):
+        if ap.startswith("Sim (Artigo") or ap == "Reprovado":
             continue
         rewq = re.fullmatch(r"Sim \(reescrita Artigo (\d+)\)", ap)
         tese = c[5] if len(c) > 6 else ""
@@ -778,7 +800,7 @@ def html_briefings():
             titulo_art = ""
 
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span>{(botao_reprovar("Reprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Reprovo o briefing " + c[1] + " (semana " + c[0] + ").\n\nMotivo (opcional, uma frase):\n") if (pend and not rew) else "")}{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
                      + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
@@ -873,6 +895,9 @@ details[open] .chev{transform:rotate(90deg);}
 .btn-aprovar{margin-left:auto;background:var(--teal);color:#06262B;font-weight:bold;font-size:13px;text-decoration:none;padding:6px 14px;border-radius:6px;}
 .aprov-env{margin-left:auto;font-size:12px;color:var(--muted);}
 .btn-aprovar:hover{filter:brightness(1.08);}
+.btn-reprovar{margin-left:auto;background:transparent;color:#F3A6A6;border:1px solid #7a3b3b;font-size:13px;text-decoration:none;padding:5px 12px;border-radius:6px;}
+.btn-reprovar:hover{background:#3a1c1c;}
+.btn-reprovar + .btn-aprovar{margin-left:8px;}
 .brief-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
 .bf{font-size:11px;font-weight:bold;border-radius:5px;padding:2px 7px;}
 .bf-pend{color:#7A4B00;background:#FFEFC9;}
@@ -1037,9 +1062,9 @@ function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprova
 document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
 document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
-(function(){var K="bxai-aprovado";var lido=function(){try{return JSON.parse(localStorage.getItem(K)||"[]");}catch(e){return [];}};var grava=function(l){try{localStorage.setItem(K,JSON.stringify(l));}catch(e){}};var marca=function(a){var m=document.createElement("span");m.className="aprov-env";m.textContent="Aprovação enviada, aplicando em instantes";a.replaceWith(m);};
-var l=lido();document.querySelectorAll("a.btn-aprovar").forEach(function(a){if(l.indexOf(a.getAttribute("href"))>=0)marca(a);});
-document.addEventListener("click",function(ev){var a=ev.target.closest("a.btn-aprovar");if(!a)return;var l=lido();l.push(a.getAttribute("href"));grava(l);setTimeout(function(){marca(a);},300);});})();
+(function(){var K="bxai-aprovado";var lido=function(){try{return JSON.parse(localStorage.getItem(K)||"[]");}catch(e){return [];}};var grava=function(l){try{localStorage.setItem(K,JSON.stringify(l));}catch(e){}};var marca=function(a){var r=a.classList.contains("btn-reprovar");var m=document.createElement("span");m.className="aprov-env";m.textContent=r?"Reprovação enviada, aplicando em instantes":"Aprovação enviada, aplicando em instantes";var top=a.parentNode;top.querySelectorAll("a.btn-aprovar,a.btn-reprovar").forEach(function(x){if(x!==a)x.remove();});a.replaceWith(m);};
+var l=lido();document.querySelectorAll("a.btn-aprovar,a.btn-reprovar").forEach(function(a){if(l.indexOf(a.getAttribute("href"))>=0)marca(a);});
+document.addEventListener("click",function(ev){var a=ev.target.closest("a.btn-aprovar,a.btn-reprovar");if(!a)return;var l=lido();l.push(a.getAttribute("href"));grava(l);setTimeout(function(){marca(a);},300);});})();
 if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hidden&&!document.getElementById("aba-status").hidden)location.reload();},60000);}'''
 
 
@@ -1094,7 +1119,7 @@ if __name__ == "__main__":
     elif cmd == "lint-briefings":
         e = lint_briefings(); print("\n".join(e) if e else "briefings ok"); sys.exit(1 if e else 0)
     elif cmd == "aprovar":
-        print(aprovar(sys.argv[2]))
+        print(aprovar(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else ""))
     elif cmd == "lint":
         e = lint(sys.argv[2]); print("\n".join(e)); sys.exit(1 if [x for x in e if not x.startswith("aviso:")] else 0)
     elif cmd == "status":
