@@ -254,7 +254,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 246 | The Tripartite Architecture of Corporate Finance Leadership: FP&A, Controllership, and Strategic Planning in Modern Enterprise Governance | Alta | Descartado |
 | 247 | The future of FP&A with AI - KPMG International | Alta | Processado |
 | 248 | The rise and fall of Peloton: $50 billion collapse | Alta | Processado |
-| 249 | The role of internal accounting controls in preventing and detecting financial statement fraud | Alta | Pendente |
+| 249 | The role of internal accounting controls in preventing and detecting financial statement fraud | Alta | Descartado |
 | 250 | The ultimate guide to AI agents in finance: How FP&A teams are using agentic AI in 2026 | Alta | Processado |
 | 251 | Three Lines Model - The IIA | Alta | Processado |
 | 252 | Tips For Aligning the Forecasting Process between Finance and Operations with Amber Johnson - The FP&A Guy | Alta | Descartado |
