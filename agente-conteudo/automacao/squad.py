@@ -52,8 +52,8 @@ def listar():
     linhas = tabela(CONT / "decisoes-pauta.md")
     if not linhas:
         return []
-    semana = max(c[0] for _, c in linhas)
-    sel = [(ln, c) for ln, c in linhas if c[0] == semana and c[-1] == "Sim"]
+    # Todo briefing aprovado e ainda não produzido ("Sim"), de qualquer semana. Depois de produzido vira "Sim (Artigo N)".
+    sel = [(ln, c) for ln, c in linhas if c[-1] == "Sim"]
     n = proximo_codigo()
     briefs = []
     for ln, c in linhas:
