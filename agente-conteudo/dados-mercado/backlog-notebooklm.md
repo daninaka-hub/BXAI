@@ -166,7 +166,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 158 | Guide to Driver-Based Modeling | BPM Partners | Alta | Descartado |
 | 159 | Here's how budgets can keep up with accelerating uncertainty - McKinsey | Alta | Processado |
 | 160 | How AI Is Transforming FP&A - EY | Alta | Processado |
-| 161 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC | Alta | Pendente |
+| 161 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC | Alta | Descartado |
 | 162 | How AI agents help drive a new finance operating model: What CFOs need to know - PwC (dup) | Alta | Descartado |
 | 163 | How AI is Transforming the Controller's Role in 2026: From Close Manager to Strategic CFO Partner | Alta | Descartado |
 | 164 | How Agentic AI is Transforming Record-to-Report into Continuous Controllership - WNS | Alta | Processado |
@@ -174,7 +174,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 166 | How FP&A Pros Can Use Automation & Python to Save Time & Become Better Business Partners with Willian Gomes | Alta | Descartado |
 | 167 | How Finance Teams Can Overcome AI Fear and Build Real Use Cases That Work with Josh Schauer - The FP&A Guy | Alta | Processado |
 | 168 | How Match Group's CFO runs the finance function behind modern dating | Alta | Processado |
-| 169 | How finance teams are putting AI to work today - McKinsey | Alta | Pendente |
+| 169 | How finance teams are putting AI to work today - McKinsey | Alta | Descartado |
 | 170 | How to Build an Annual Budget That Actually Works - A Guide for Mid-Market Companies | Alta | Processado |
 | 171 | IBM Corporation Wins the AFP 2024 Pinnacle Awards | Baixa | Pendente |
 | 172 | Inscrições de MBA e Pós-Graduação Lato Sensu - FIPECAFI | Baixa | Pendente |
@@ -259,7 +259,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 251 | Three Lines Model - The IIA | Alta | Processado |
 | 252 | Tips For Aligning the Forecasting Process between Finance and Operations with Amber Johnson - The FP&A Guy | Alta | Descartado |
 | 253 | Top 10 Strategic Planning Manager Interview Questions and Answers | Baixa | Pendente |
-| 254 | Top 10 best practices for your internal control journey - PwC | Alta | Pendente |
+| 254 | Top 10 best practices for your internal control journey - PwC | Alta | Descartado |
 | 255 | Top 10 questions to ask when interviewing for a FP&A Manager - HPR Consulting | Baixa | Pendente |
 | 256 | Top 30 Influencers For Financial Advisors In 2025 - Indigo Marketing Agency | Baixa | Pendente |
 | 257 | Top 31 Finance and FP&A Influencers to Follow in 2024 - Datarails | Baixa | Pendente |
@@ -276,8 +276,8 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 268 | Use Case: How did Deloitte use automation to accelerate the preparation of key management reports? - IBM Community | Alta | Processado |
 | 269 | What Are the Three Lines of Defense? Implementing the 3 Lines Model - Ncontracts | Alta | Processado |
 | 270 | What Does a Controller Do? - McCracken Alliance | Alta | Processado |
-| 271 | What Is the Role of AI in Modern Finance Teams? - GrowCFO | Alta | Pendente |
-| 272 | What is FP&A? What Makes It Different From a Controller, Management Accounting, and Corporate Planning? - FocusCore | Alta | Pendente |
+| 271 | What Is the Role of AI in Modern Finance Teams? - GrowCFO | Alta | Descartado |
+| 272 | What is FP&A? What Makes It Different From a Controller, Management Accounting, and Corporate Planning? - FocusCore | Alta | Descartado |
 | 273 | What is Integrated Business Planning (IBP)? - IBM | Alta | Processado |
 | 274 | What is agentic close automation? - Maxima | Alta | Processado |
 | 275 | What is the Three Lines Model? - The Institute of Internal Auditors | Alta | Descartado |
