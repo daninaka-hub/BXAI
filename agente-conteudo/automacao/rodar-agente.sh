@@ -46,8 +46,10 @@ except Exception:
 fi
 # Um agente por vez no clone ~/BXAI (o Head e a reposição mexem nos mesmos arquivos)
 LOCK="$HOME/.bxai-repo.lock"
-[ -d "$LOCK" ] && [ -n "$(find "$LOCK" -maxdepth 0 -mmin +60 2>/dev/null)" ] && rmdir "$LOCK" 2>/dev/null
-for _ in $(seq 1 60); do mkdir "$LOCK" 2>/dev/null && break; sleep 10; done
+[ -d "$LOCK" ] && [ -n "$(find "$LOCK" -maxdepth 0 -mmin +120 2>/dev/null)" ] && rmdir "$LOCK" 2>/dev/null
+# espera até 90 min (o Copywriter pode estar produzindo e também usa o clone)
+ESPERA=540; [ "$AGENTE" = "reposicao" ] && ESPERA=120
+for _ in $(seq 1 $ESPERA); do mkdir "$LOCK" 2>/dev/null && break; sleep 10; done
 [ -d "$LOCK" ] || exit 0
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 

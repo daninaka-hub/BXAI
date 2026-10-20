@@ -103,7 +103,18 @@ def main():
         log("trava antiga removida (processo anterior não existe mais)")
         shutil.rmtree(lock, ignore_errors=True); os.mkdir(lock)
     (lock / "pid").write_text(str(os.getpid()))
+    # Clone ~/BXAI é compartilhado com Pesquisador, Head e reposição: um agente por vez (mesma trava do rodar-agente.sh)
+    repo_lock = HOME / ".bxai-repo.lock"
+    tenho_repo = False
     try:
+        try:
+            os.mkdir(repo_lock)
+            tenho_repo = True
+        except FileExistsError:
+            if time.time() - repo_lock.stat().st_mtime > 7200:
+                shutil.rmtree(repo_lock, ignore_errors=True); os.mkdir(repo_lock); tenho_repo = True
+            else:
+                return  # outro agente está usando o clone, tenta de novo em 1 minuto
         if not (REPO / ".git").exists():
             return
         # Clone dedicado ao automático: se um rebase travou ou o HEAD soltou, volta para o origin/main
@@ -235,6 +246,8 @@ def main():
         notificar("Copywriter falhou", str(e).splitlines()[0])
         sys.exit(1)
     finally:
+        if tenho_repo:
+            shutil.rmtree(repo_lock, ignore_errors=True)
         shutil.rmtree(lock, ignore_errors=True)
 
 if __name__ == "__main__":
