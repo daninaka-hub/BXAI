@@ -865,7 +865,8 @@ def html_briefings():
         if ap.startswith("Sim (Artigo") or ap == "Reprovado":
             continue
         if ap.startswith("Reposição"):
-            quem = f"Artigo {re.search(r'\d+', ap).group()} (reescrita)" if "Artigo" in ap else f"Briefing {c[1]}"
+            cod_art = re.search(r"\d+", ap)
+            quem = f"Artigo {cod_art.group()} (reescrita)" if cod_art else f"Briefing {c[1]}"
             itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(quem)}</span><span class="bf bf-ok">Head montando o briefing substituto</span><span class="bf-data">semana {esc(c[0])}</span></div><div class="bf-linha">O Head escolhe o tema e registra aqui em até 1 minuto. Atualize a página depois.</div></div>')
             continue
         rewq = re.fullmatch(r"Sim \(reescrita Artigo (\d+)\)", ap)
@@ -886,7 +887,9 @@ def html_briefings():
             titulo_art = ""
 
         classe = "bf-pend" if pend else "bf-ok"
-        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span><span class="bf-acoes">{(botao_reprovar("Reprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Reprovo o briefing " + c[1] + " (semana " + c[0] + ").\n\nMotivo (opcional, uma frase):\n") if pend else "")}{botao_aprovar("Aprovar briefing: " + c[1] + " (semana " + c[0] + ")", "Aprovo o briefing " + c[1] + " (semana " + c[0] + ").") if pend else ""}</span></div>'
+        ident = c[1] + " (semana " + c[0] + ")"
+        acoes = (botao_reprovar("Reprovar briefing: " + ident, "Reprovo o briefing " + ident + ".\n\nMotivo (opcional, uma frase):\n") + botao_aprovar("Aprovar briefing: " + ident, "Aprovo o briefing " + ident + ".")) if pend else ""
+        itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(c[1]) if rew else "Briefing " + esc(c[1])}</span><span class="tag">{esc(c[2])}</span><span class="bf {classe}">{selo}</span><span class="bf-data">semana {esc(c[0])}</span><span class="bf-acoes">{acoes}</span></div>'
                      + (f'<div class="bf-tese">{esc(tese)}</div>' if tese else '<div class="bf-tese bf-sem">Tese ainda não definida</div>')
                      + (f'<div class="bf-linha"><b>Título:</b> {esc(titulo_art)}</div>' if titulo_art else '')
                      + f'<div class="bf-linha"><b>Teoria base:</b> {esc(c[3])}</div><div class="bf-linha"><b>Apoio:</b> {esc(c[4])}</div>'
@@ -1167,8 +1170,9 @@ def gerar_pagina():
         slug = pathlib.Path(arquivo).stem
         n = int(re.search(r"\d+", cod).group())
         aberto = " open" if n in abertos else ""
+        botoes_artigo = ('<div style="display:flex;justify-content:flex-end;gap:8px">' + botao_reprovar("Reprovar " + cod, "Reprovo o " + cod + ": " + titulo + "\n\nMotivo (opcional, uma frase):\n") + botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) + '</div>') if status != "Aprovado" else ""
         (cards_bib if status == "Aprovado" else cards).append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
-<div class="body">{('<div style="display:flex;justify-content:flex-end;gap:8px">' + botao_reprovar("Reprovar " + cod, "Reprovo o " + cod + ": " + titulo + "\n\nMotivo (opcional, uma frase):\n") + botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) + '</div>') if status != "Aprovado" else ""}<div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
+<div class="body">{botoes_artigo}<div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
 {html_arte(slug)}
