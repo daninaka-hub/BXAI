@@ -136,3 +136,13 @@ Data de coleta: 2026-10-19
 Fonte: Hagley Museum and Library (Gene Castellano), "The Father of ROI: Donaldson Brown" (20/11/2015); AcadiFi, "DuPont analysis: three-step and five-step decomposition" (11/04/2026).
 Link: https://www.hagley.org/librarynews/father-roi-donaldson-brown e https://acadifi.com/community/dupont-analysis-three-step-five-step-decomposition-cfa-level-1
 Data de coleta: 2026-10-19
+
+A CFO Pulse Survey da Deloitte ouviu 363 CFOs em 14 mercados da Ásia-Pacífico. O otimismo líquido com a economia da região subiu 21 pontos percentuais, para 26%, e a confiança na própria empresa ficou estável em 39%. Esperam receita maior nos próximos 12 meses 63% (eram 60% em maio) e lucro maior 56% (eram 52%). A instabilidade geopolítica segue como principal fator de ruptura, citada por 57%. As prioridades de crescimento mais citadas são aplicação de tecnologia (38%) e inovação e novos produtos (37%); para 46% a resiliência pesa mais que há 12 meses, e 68% dizem já ver valor tangível com IA. Ressalva: os números vêm de matéria da FutureCFO sobre o relatório, sem datas de coleta.
+Fonte: FutureCFO (editores), "APAC CFOs 'less pessimistic' on economic outlook" (16/10/2026), sobre a Deloitte CFO Pulse Survey.
+Link: https://futurecfo.net/apac-cfos-less-pessimistic-on-economic-outlook
+Data de coleta: 2026-10-20
+
+[Teórico] O livro de contabilidade gerencial da OpenStax distingue dois jeitos de montar o orçamento. No top-down (imposto), a alta gestão define metas, premissas, receitas e despesas e repassa aos departamentos, que só decidem como alocar dentro do limite: ganha alinhamento com a estratégia e controle de custos, mas o número sai de quem não conhece a operação de cada área. No bottom-up (participativo), os departamentos projetam vendas e recursos a partir das metas comunicadas e mandam o plano para cima: os gestores se sentem valorizados e os números ficam mais realistas, mas há risco de interpretarem mal a estratégia. O texto alerta para a folga orçamentária, quando despesas são infladas ou metas rebaixadas para bater o orçamento e garantir bônus. No exemplo do orçamento flexível da Bingo's Bags, materiais diretos somam US$ 685.572 contra US$ 672.940 no estático.
+Fonte: OpenStax, Principles of Managerial Accounting, "7.1 Describe How and Why Managers Use Budgets" (livro-texto, sem data na página).
+Link: https://openstax.org/books/principles-managerial-accounting/pages/7-1-describe-how-and-why-managers-use-budgets
+Data de coleta: 2026-10-20

@@ -181,3 +181,28 @@ Data de coleta: 2026-10-19
 Fonte: CIMA (AICPA & CIMA), "The CGMA Competency Framework boosts skills" (04/08/2023).
 Link: https://myfuture.cimaglobal.com/career-insights/the-cgma-competency-framework-boosts-skills/
 Data de coleta: 2026-10-19
+
+[Teórico] Mike McCracken descreve o controller como elo entre o lado operacional e o estratégico de finanças, e como uma das primeiras contratações de peso quando a contabilidade cresce. As frentes listadas são processos financeiros, políticas, controles internos (com o COSO como referência), compliance e gestão da equipe. Os controles se dividem em preventivos (segregação de funções, alçadas de aprovação, controles físicos) e detectivos (conciliações, auditorias, relatórios de exceção, vigilância de ativos). O texto cita fechamento mensal típico de 5 a 10 dias após o fim do período, sem fonte, e aponta IA e cibersegurança como frentes que ampliam o papel. Ressalva: conteúdo de marketing de consultoria, sem data e sem pesquisa; o texto anuncia quatro responsabilidades, mas lista cinco.
+Fonte: McCracken Alliance (Mike McCracken), "What Does a Controller Do?" (sem data, copyright 2026).
+Link: https://www.mccrackenalliance.com/blog/what-does-a-controller-do
+Data de coleta: 2026-10-20
+
+[Teórico] O CFI separa os papéis pelo horizonte de tempo: o FP&A olha para frente (orçamento, forecast, cenários) e o controller cuida da acurácia histórica, do reporte, do compliance e dos controles internos. Na linha de reporte, o controller costuma responder ao CFO, e o time de FP&A muitas vezes responde ao controller ou a um gerente sênior de finanças. O texto lista cinco papéis do controller (gestor de risco e guardião de ativos, estrategista, operador, preparador das demonstrações, catalisador de programas) e cinco do FP&A (planejador, repórter financeiro, analista, planejador de cenários, repórter sob demanda). Quem passa do FP&A para controller normalmente precisa de qualificação contábil como o CPA, enquanto o FP&A pode subir na própria trilha até CFO. O atrito entre as áreas vem de sobreposição em orçamento e variância, descrições de cargo vagas e disputa de hierarquia. Ressalva: sem estatísticas; o CFI vende certificações citadas no texto.
+Fonte: Corporate Finance Institute, "What's the Difference Between FP&A and Finance Controller?" (05/09/2024).
+Link: https://corporatefinanceinstitute.com/resources/career/fpa-vs-finance-controller/
+Data de coleta: 2026-10-20
+
+A Randstad UK compara três papéis: o business controller cuida do desempenho operacional e da eficiência de curto prazo; o financial controller, de compliance e acurácia (IFRS ou GAAP, auditoria, impostos, controles antifraude); o FP&A, do planejamento de longo prazo. Salários anuais: business controller com £70.817 na média nacional (dado do Glassdoor) e cerca de £59.727 em Londres; financial controller com £58.501 nacional e £68.980 em Londres. Ressalva: fonte de recrutadora, sem metodologia própria; o texto diz que Londres paga mais, mas o número de Londres do business controller é menor que o nacional.
+Fonte: Randstad UK, "business controller vs financial controller: understanding the key differences" (17/03/2025).
+Link: https://randstad.co.uk/career-advice/career-guidance/business-controller-vs-financial-controller
+Data de coleta: 2026-10-20
+
+No estudo Controllership 2030, do Controllers Council, 43% dos líderes de finanças esperam que mais de 40% das atribuições atuais do controller estejam automatizadas até 2030, mas só 6% esperam passar de 80%, e 80% ficam na faixa de 0% a 60%. Para 61%, planejamento financeiro, análise e orçamento serão a principal responsabilidade do controller em 2030, e o peso do planejamento estratégico na função sobe de 42% hoje para 55%. A entidade conclui que a automação atinge tarefas antes de cargos: o controller passa de produzir a informação a supervisionar os sistemas, dados e controles que a geram. Alerta também que automatizar o trabalho de entrada pode enfraquecer a formação de futuros controllers. Ressalva: a página não informa amostra nem metodologia; público majoritariamente norte-americano de controllers, CFOs e CAOs.
+Fonte: Controllers Council, "43% of Controllers Expect More Than 40% of Their Responsibilities to Be Automated by 2030" (09/10/2026).
+Link: https://controllerscouncil.org/43-of-controllers-expect-more-than-40-of-their-responsibilities-to-be-automated-by-2030/
+Data de coleta: 2026-10-20
+
+[Teórico] O controller olha para trás, para o resultado reportado, e existe para que a empresa confie na sua informação financeira; o tesoureiro olha para frente e cuida de liquidez, captação e resiliência. Ao controller cabem relatório financeiro, razão geral, fechamento, controles internos, política contábil, reconhecimento de receita e auditoria; ao tesoureiro, posição de caixa, previsão de fluxo de caixa, capital de giro, dívida, investimentos, câmbio, juros, bancos e estrutura de capital. O controller trabalha no ritmo dos ciclos de reporte, e o tesoureiro em horizontes do dia corrente até 10 anos. Os papéis se encontram em três pontos: capital de giro (um mede, o outro melhora), caixa (um concilia, o outro decide o destino) e planejamento (um pergunta se dá para reportar, o outro se dá para pagar). A autora propõe cinco princípios: fonte única da verdade, visibilidade compartilhada, responsabilidades distintas, planejamento integrado e valor da empresa como objetivo comum.
+Fonte: Treasury Management International (Jessica Amarachi Oku), "Treasurer vs Controller" (15/07/2026).
+Link: https://treasury-management.com/articles/treasurer-vs-controller
+Data de coleta: 2026-10-20

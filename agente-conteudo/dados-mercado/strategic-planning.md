@@ -176,3 +176,13 @@ Data de coleta: 2026-10-19
 Fonte: Strategic Management Insight (Ovidijus Jurevicius), "McKinsey's Three Horizons of Growth Model Explained" (atualizado em 16/05/2025).
 Link: https://strategicmanagementinsight.com/tools/three-horizons-growth-model/
 Data de coleta: 2026-10-19
+
+O índice de confiança da Chief Executive ouviu 321 CEOs americanos em 6 e 7 de outubro de 2026. As metas para 2027 são bem mais altas que as expectativas para 2026: receita maior para 85% em 2027 contra 68% em 2026, lucro maior para 80% contra 59%, e mais funcionários para 55% contra 37%. Mesmo entre quem espera receita estável ou em queda em 2026, 69% projetam crescimento em 2027, e 62% dos que não esperam lucro maior em 2026 fixaram metas de lucro mais altas para 2027. A avaliação das condições atuais subiu para 5,8 de 10, enquanto a perspectiva para 12 meses caiu abaixo de 5,9, o menor nível desde setembro de 2025. Ressalva: sondagem de dois dias só com CEOs dos EUA; serve para discutir o otimismo embutido nas metas do plano.
+Fonte: Chief Executive (Melanie C. Nolen), "CEO Confidence Holds In October Survey, Growth Plans Accelerate" (12/10/2026).
+Link: https://chiefexecutive.net/ceo-confidence-holds-in-october-survey-growth-plans-accelerate/
+Data de coleta: 2026-10-20
+
+[Teórico] Para Richard Rumelt (UCLA Anderson), estratégia é a resposta a um desafio de alto risco, e não declaração de missão, meta financeira ou plano. Toda boa estratégia tem um núcleo de três partes: diagnóstico (o que está acontecendo), política orientadora (a abordagem central para enfrentar o desafio) e ações coerentes (os passos que executam a política). A estratégia ruim tem quatro sinais: discurso vazio, não definir o desafio real, confundir metas com estratégia e fixar objetivos impossíveis. No exemplo da Apple de 1997, que valia menos de US$ 3 bilhões e queimava caixa, o diagnóstico de Jobs foi uma linha de produtos diversa e confusa demais; ele reduziu a linha a dois computadores, cortou periféricos, levou a maior parte da fabricação para Taiwan e passou a vender direto pela web. Ressalva: artigo de opinião que resume o livro Good Strategy/Bad Strategy (2011), não o livro.
+Fonte: Bloomberg View (Virginia Postrel), "Want to Be the Next Apple? Lose the Bafflegab" (17/08/2011), sobre Richard Rumelt.
+Link: https://www.vpostrel.com/articles/want-to-be-the-next-apple-lose-the-bafflegab
+Data de coleta: 2026-10-20

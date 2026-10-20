@@ -176,3 +176,38 @@ Data de coleta: 2026-10-19
 Fonte: ACCA (Steve Willis), "All about budgeting, part 3", artigo técnico de Performance Management.
 Link: https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/budgeting3.html
 Data de coleta: 2026-10-19
+
+A Pigment atribui ao Gartner a criação do termo xP&A, em 2020, e a previsão de que 60% das iniciativas de finanças passarão a seguir princípios de xP&A, sem amostra nem metodologia. O roteiro de implantação tem seis passos: apoio prático dos chefes de área, roadmap com marcos, saneamento da base de dados, três a cinco métricas semanais por departamento, lançamento com check-ins diários no primeiro mês e revisão trimestral. Casos de clientes informados pela própria Pigment: a Supercell levou a atualização de P&L e forecast de 8 dias para 4 minutos, a Carta cortou 80% do tempo de agregação de dados, a Fivetran economiza 12 horas por mês em reporte executivo e a Evenflo cria cenários 6 dias mais rápido. Ressalva: conteúdo de fornecedor; o número de 60% é do Gartner citado de segunda mão e difere dos 70% citados pela NetSuite já registrados neste arquivo.
+Fonte: Pigment, "Understanding xP&A: All About Extended Planning and Analysis" (página datada de 03/09/2026, provável republicação de texto de 2022).
+Link: https://www.pigment.com/blog/xpa-beyond-financial-planning-and-analysis
+Data de coleta: 2026-10-20
+
+[Teórico] A IBM define integrated business planning como o modelo que junta planejamento estratégico, operacional e financeiro, com vendas, marketing, finanças, supply chain, RH, compras e TI no mesmo processo. Organiza o IBP em seis pilares: planejamento estratégico, operacional e financeiro, colaboração entre áreas, integração de dados e analytics, e monitoramento contínuo de desempenho. A implantação tem quatro passos: patrocínio executivo, melhoria contínua, integração entre pessoas e tecnologia, e ferramentas de analytics e BI. O texto diz que cabe ao CFO liderar a adesão da diretoria e aponta como obstáculos a gestão da mudança e os silos de dados entre ERP, CRM e supply chain. Ressalva: conteúdo de fornecedor (IBM Planning Analytics), sem estatística nem caso com resultado.
+Fonte: IBM Think (Daniela Lazar, Bill Primerano e Teaganne Finn), "What is integrated business planning (IBP)?" (29/06/2023, atualizado em 09/01/2026).
+Link: https://www.ibm.com/think/topics/integrated-business-planning
+Data de coleta: 2026-10-20
+
+Citando pesquisa do Modern Finance Forum da FSN, a Jedox informa que 70% dos CFOs consideram seu processo de forecast respeitado e alinhado à estratégia, mas só 40% dizem que ele gera, de forma consistente, insights que melhoram o desempenho. O artigo compara FP&A tradicional e xP&A em seis eixos (escopo, integração de dados, colaboração, forecast periódico contra contínuo, decisão reativa contra proativa, ferramentas isoladas contra plataforma integrada) e propõe cinco passos de adoção, começando por um piloto como a previsão de vendas. Casos de clientes: a ALPLA Turquia cortou mais de 50% do tempo de planejamento e análise de cenários, e a AgReliant Genetics passou a rodar 3 vezes mais simulações. Ressalva: blog de fornecedor; a pesquisa da FSN aparece sem amostra, data ou metodologia.
+Fonte: Jedox (Cory Schröder), "What is xP&A? Extended planning & analysis explained" (19/08/2025).
+Link: https://www.jedox.com/en/blog/what-is-xpa/
+Data de coleta: 2026-10-20
+
+A Workday trata o xP&A como extensão do FP&A para fora de finanças e cita a BPM Partners: 94% das organizações já estenderam o planejamento a áreas operacionais e 53% já usam xP&A para planejar a força de trabalho. Cita também estudo da IDC de 2024 sobre clientes Workday, com média de US$ 53,61 milhões a mais de receita anual e forecasts 27% mais precisos. Casos: a CNA planeja com oito times globais e cortou 30% do custo de TI com ferramentas de planejamento; a Capstone Logistics fecha o pacote mensal de relatórios 50% mais rápido; a CORT encurtou o cronograma de reporte em 3 meses. O roteiro tem quatro passos (começar por um departamento ou região, limpar plano de contas e hierarquias, definir donos por fase, treinar) e estima quatro a seis meses de implantação. Ressalva: material comercial; o estudo da IDC foi feito sobre clientes da própria Workday, e a página não traz amostra.
+Fonte: Workday, "What is xP&A?" (Workday US, sem data, copyright 2026).
+Link: https://www.workday.com/en-us/topics/fpa/xpa.html
+Data de coleta: 2026-10-20
+
+A Workday foi posicionada como Líder no Magic Quadrant 2025 do Gartner para software de planejamento financeiro pelo quarto ano seguido; o relatório é de Regina Crowder, Sid Sahoo e Mike Lashinsky, publicado em 02/12/2025. A empresa diz ter mais de 11.000 organizações clientes, incluindo mais de 65% da Fortune 500, e afirma que seu Planning Agent reduz em 30% o tempo de exploração e análise de dados, sem explicar a medição. Ressalva: press release de fornecedor; o Gartner não endossa fornecedores posicionados no quadrante.
+Fonte: Workday, "Workday Recognized as a Leader in 2025 Gartner Magic Quadrant for Financial Planning Software for Fourth Year in a Row" (04/12/2025).
+Link: https://newsroom.workday.com/2025-12-04-Workday-Recognized-as-a-Leader-in-2025-Gartner-R-Magic-Quadrant-TM-for-Financial-Planning-Software-for-Fourth-Year-in-a-Row
+Data de coleta: 2026-10-20
+
+Levantamento da comunidade CFO Connect com 215 líderes e equipes de finanças (CFOs, diretores e VPs financeiros, controllers, contadores, fundadores e CFOs fracionados) mostra que 76% ainda rodam o FP&A em planilhas e 7% não usam nenhuma ferramenta de FP&A, ou seja, cerca de 83% sem software dedicado de planejamento. FP&A foi a primeira ferramenta implantada ao assumir um cargo novo para só 16%, atrás da gestão de despesas (21%). Na tesouraria, 55% usam planilhas. O uso de IA subiu: 67% usam ao menos uma ferramenta, contra 31% em 2024. Ressalva: a página não informa datas de campo, a página de download fala em mais de 250 especialistas, e a CFO Connect é mantida pela Spendesk, que aparece bem posicionada no ranking.
+Fonte: CFO Connect (Luc Hancock), "Top Finance Tools Report 2026" (23/09/2026).
+Link: https://www.cfoconnect.eu/resources/reports/best-cfo-tools-2026/
+Data de coleta: 2026-10-20
+
+[Teórico] O CPFR (Collaborative Planning, Forecasting and Replenishment) leva o planejamento integrado para fora da empresa, com varejista e fornecedor planejando juntos. Nasceu em 1995 num piloto do Wal-Mart com a Warner-Lambert para o Listerine; em 1996 o piloto mostrou prazos de reposição menores, mais vendas e menos avarias. O VICS publicou em 1998 um modelo de nove passos, do acordo inicial e plano de negócio conjunto até a emissão do pedido, com tratamento de exceções. Em 2004 o modelo virou quatro macroetapas: estratégia e planejamento, gestão de demanda e suprimento, execução e análise. Os autores observam que o CPFR funciona melhor quando o S&OP interno já está integrado, e apontam como ganhos menos efeito chicote, menos estoque e ciclo de caixa mais curto. Ressalva: o artigo não traz números de benefício.
+Fonte: ILOS (Diego de Souza e Luciana Magalhães), "Collaborative planning in the supply chain, CPFR (Part 1)" (10/11/2015).
+Link: https://en.ilos.com.br/planejamento-colaborativo-na-cadeia-de-suprimentos-cpfr-parte-1/
+Data de coleta: 2026-10-20

@@ -312,3 +312,33 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-19 | Leadership Roles | teórico | CIMA (AICPA & CIMA) | CGMA Competency Framework: cinco áreas de competência, de técnica a liderança e digital |
 | 2026-10-19 | Organization | pesquisa | Deloitte UK | 52% dos CFOs britânicos esperam que a IA corte quadro em 12 meses, mas só 37% esperam margem maior (66 CFOs) |
 | 2026-10-19 | Organization | teórico | SSON | Governança de terceirização: organização retida separada da de governança, com GPOs e quatro fóruns de cadência fixa |
+| 2026-10-20 | Organization | pesquisa | McKinsey via UNLEASH / HRZone | McKinsey 2026: 88% implantam IA, mas 86% não estavam preparados e só 14% veem liderança engajada (cerca de 10 mil executivos) |
+| 2026-10-20 | Integrated Planning | estudo de caso | Pigment | xP&A em seis passos; Supercell levou atualização de P&L e forecast de 8 dias para 4 minutos (fornecedor) |
+| 2026-10-20 | Finance Automation | estudo de caso | IBM | Deloitte Brasil levou o relatório gerencial mensal de 5 a 8 dias com 5 analistas para 1 hora com 4 bots de RPA |
+| 2026-10-20 | Controllership | estratégia | Ncontracts | Cinco armadilhas do modelo de três linhas e a multa de US$ 250 milhões do OCC ao JPMorgan por falhas de controle |
+| 2026-10-20 | Leadership Roles | teórico | McCracken Alliance | Frentes do controller e controles: três preventivos e quatro detectivos, com fechamento típico de 5 a 10 dias |
+| 2026-10-20 | Integrated Planning | teórico | IBM | IBP em seis pilares e quatro passos de implantação, com o CFO à frente da adesão executiva |
+| 2026-10-20 | Finance Automation | estudo de caso | Maxima | Fechamento agêntico em três níveis de maturidade; Rippling economiza 700 h/mês e Scale AI concilia 98% automaticamente (fornecedor) |
+| 2026-10-20 | Integrated Planning | pesquisa | FSN via Jedox | 70% dos CFOs veem o forecast alinhado à estratégia, mas só 40% tiram dele insight que melhora o desempenho |
+| 2026-10-20 | Integrated Planning | estatística | BPM Partners / IDC via Workday | 94% já estenderam o planejamento a áreas operacionais e 53% usam xP&A para força de trabalho |
+| 2026-10-20 | Leadership Roles | teórico | Corporate Finance Institute | FP&A muitas vezes responde ao controller; cinco papéis de cada lado e o CPA como barreira na passagem de carreira |
+| 2026-10-20 | Integrated Planning | estatística | Workday | Workday Líder no Magic Quadrant 2025 pela quarta vez; diz que seu agente corta 30% do tempo de análise (fornecedor) |
+| 2026-10-20 | Finance Automation | estratégia | Forbes / KPMG e University of Melbourne | 66% não checam com regularidade o que a IA entrega e 56% já erraram no trabalho por causa dela (48.340 pessoas) |
+| 2026-10-20 | Leadership Roles | estatística | Randstad UK / Glassdoor | No Reino Unido, business controller ganha £70,8 mil e financial controller £58,5 mil por ano (média nacional) |
+| 2026-10-20 | Controllership | estatística | Thomson Reuters Checkpoint / PCAOB | PCAOB 2025: deficiência Part I.A das Big Four cai para 8% (20% em 2024), mas BDO e Grant Thornton seguem em 34% e 33% |
+| 2026-10-20 | Controllership | conclusão | CLS Blue Sky Blog (Columbia Law School) | Ex-PCAOB vê os 8% das Big Four como improváveis (tendência apontava 14% a 17%) e sugere perguntas ao comitê de auditoria |
+| 2026-10-20 | Controllership | teórico | Cornell University | Conciliação de balanço por risco: três faixas, frequência pelo volume, bases independentes e ajuste em 30 a 60 dias |
+| 2026-10-20 | Finance Automation | estatística | Compta Online / DGFiP | França: e-invoicing obrigatório desde 01/09/2026; adesão de 71,4% no público-alvo, mas só 43% de 11 milhões de entidades |
+| 2026-10-20 | Finance Automation | teórico | MIT OpenCourseWare (Parasuraman, Sheridan e Wickens) | Níveis de automação: quatro funções, dez níveis e critérios (complacência, confiabilidade, custo do erro) para desenhar agentes |
+| 2026-10-20 | Forecasting Methods | pesquisa | Aleph | Quem reprevê todo mês mantém orçamento preciso no meio do ano em 77,8%, contra 37,0% dos trimestrais (273 líderes, fornecedor) |
+| 2026-10-20 | Forecasting Methods | teórico | Wikipedia / International Journal of Forecasting | Competições M4 e M5: combinações e híbridos vencem na M4, e o ML (LightGBM) domina o topo da M5 com séries do Walmart |
+| 2026-10-20 | FP&A Fundamentals | pesquisa | Deloitte via FutureCFO | Deloitte APAC: 63% dos CFOs esperam mais receita e 56% mais lucro, e 68% já veem valor tangível com IA (363 CFOs) |
+| 2026-10-20 | FP&A Fundamentals | teórico | OpenStax (Rice University) | Orçamento top-down contra bottom-up (participativo), prós e contras de cada um e o risco de folga orçamentária |
+| 2026-10-20 | Integrated Planning | pesquisa | CFO Connect | 76% das equipes ainda fazem FP&A em planilha e 7% não têm ferramenta nenhuma (215 líderes de finanças) |
+| 2026-10-20 | Integrated Planning | teórico | ILOS | CPFR: piloto Wal-Mart e Warner-Lambert (1995), nove passos do VICS (1998) e quatro macroetapas (2004) |
+| 2026-10-20 | Strategic Planning | pesquisa | Chief Executive | 85% dos CEOs miram receita maior em 2027, e 69% dos que esperam 2026 fraco projetam alta (321 CEOs dos EUA) |
+| 2026-10-20 | Strategic Planning | teórico | Bloomberg View (sobre Richard Rumelt) | Núcleo da boa estratégia de Rumelt: diagnóstico, política orientadora e ações coerentes, com a Apple de 1997 |
+| 2026-10-20 | Leadership Roles | pesquisa | Controllers Council | 43% esperam mais de 40% das atribuições do controller automatizadas até 2030, e FP&A vira prioridade para 61% |
+| 2026-10-20 | Leadership Roles | teórico | Treasury Management International | Controller contra tesoureiro: passado contra futuro, atribuições de cada lado e três pontos de colaboração |
+| 2026-10-20 | Organization | pesquisa | Controllers Council | Até 2030, 41% esperam o mesmo quadro em finanças com novas habilidades, 35% equipe menor e 19% maior |
+| 2026-10-20 | Organization | teórico | KPMG | Modelo operacional de finanças da KPMG em seis camadas: processo, pessoas, entrega, dados, tecnologia e governança |

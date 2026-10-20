@@ -166,3 +166,13 @@ Data de coleta: 2026-10-19
 Fonte: Wikipedia, "Delphi method".
 Link: https://en.wikipedia.org/wiki/Delphi_method
 Data de coleta: 2026-10-19
+
+Em agosto de 2026 a Aleph ouviu 273 líderes financeiros de nível diretor para cima, em empresas de 101 a mais de 5.000 funcionários, e 53,9% disseram que o orçamento já estava defasado no meio do ano. Entre os que refazem o forecast todo mês (27 respondentes), 77,8% ainda tinham orçamento preciso no meio do ano, contra 37,0% dos que revisam por trimestre (81), 38,7% dos que revisam duas vezes por ano (62), 50,6% dos que definem uma vez com pequenos ajustes (77) e 46,2% dos que travam o número (26). O próprio texto atribui o resultado fraco dos trimestrais a um efeito de medição. Ressalva: a fonte vende software de planejamento, e o grupo mensal tem só 27 pessoas, o que o artigo reconhece.
+Fonte: Aleph, página de respostas sobre ferramentas de rolling forecast e reforecast (atualizada em outubro de 2026; pesquisa de agosto de 2026).
+Link: https://www.getaleph.com/answers/rolling-reforecast-budgeting-tools
+Data de coleta: 2026-10-20
+
+[Teórico] As Competições Makridakis são o principal teste público de métodos de previsão. A M4 (2018) usou 100.000 séries; o vencedor, Slawek Smyl, da Uber, usou um híbrido de estatística com aprendizado de máquina e foi quase 10% mais preciso que o benchmark de combinação pelo sMAPE. Doze dos 17 métodos mais precisos eram em sua maioria combinações estatísticas, e os seis métodos puramente de ML foram mal: nenhum superou o benchmark de combinação. A M5 (2020) usou cerca de 42.000 séries diárias e hierárquicas de vendas do Walmart, e pela primeira vez o topo ficou só com métodos de ML, com destaque para o LightGBM; os três melhores combinaram modelos treinados separadamente. Lição para FP&A: combinar modelos ganha nas duas edições, e ML puro só passa na frente com muitas séries relacionadas e variáveis explicativas. Ressalva: resumo da Wikipedia; o artigo original é Makridakis, Spiliotis e Assimakopoulos (International Journal of Forecasting, 2022).
+Fonte: Wikipedia, "Makridakis Competitions", com base em Makridakis, Spiliotis e Assimakopoulos, International Journal of Forecasting, v. 38, n. 4 (2022).
+Link: https://en.wikipedia.org/wiki/Makridakis_Competitions e https://ideas.repec.org/a/eee/intfor/v38y2022i4p1346-1364.html
+Data de coleta: 2026-10-20

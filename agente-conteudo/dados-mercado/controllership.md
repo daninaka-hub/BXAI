@@ -306,3 +306,23 @@ Data de coleta: 2026-10-19
 Fonte: Journal of Accountancy (Mark J. Nigrini), "Using Benford's Law to reveal journal entry irregularities" (01/09/2022).
 Link: https://www.journalofaccountancy.com/issues/2022/sep/using-benfords-law-reveal-journal-entry-irregularities.html
 Data de coleta: 2026-10-19
+
+A Ncontracts aplica o modelo de três linhas a instituições financeiras: na primeira linha ficam vendas, atendimento e processamento; na segunda, gestão de riscos (que pode mandar ajustar controles ou encerrar atividade fora do apetite a risco) e compliance (que transforma normas em políticas). O texto lista cinco armadilhas com a solução de cada uma: silos (fonte única de verdade), divergência sobre risco aceitável (linguagem comum de risco), falta de dono (fóruns multifuncionais), risco desconectado da estratégia (discussões regulares) e esforço duplicado (consolidação de plataformas). Como caso de falha em várias linhas ao mesmo tempo, cita multa de US$ 250 milhões do OCC ao JPMorgan por fraquezas de controle interno em supervisão fiduciária, auditoria e gestão de risco. Recomenda ainda ligar gestão de risco a avaliação de desempenho e incentivos. Ressalva: a Ncontracts vende software de risco e compliance, e o artigo não informa o ano da multa.
+Fonte: Ncontracts (Michael Berman), "What Are the Three Lines of Defense? Implementing the 3 Lines Model" (25/09/2025).
+Link: https://www.ncontracts.com/nsight-blog/three-lines-of-defense
+Data de coleta: 2026-10-20
+
+Nos relatórios de inspeção de 2025 do PCAOB, a taxa combinada de deficiência Part I.A das Big Four caiu para 8%, contra 20% em 2024 e 26% em 2023. Part I.A são auditorias em que o auditor não juntou evidência suficiente para sustentar sua opinião sobre as demonstrações ou sobre o controle interno. Por firma, com 64 auditorias inspecionadas em cada uma: Deloitte e EY em 5% (eram 14% e 28%), PwC em 9% e KPMG em 13%. BDO e Grant Thornton ficaram em 34% e 33%, sobre 29 e 27 auditorias. A EY atribuiu o resultado a investimento de US$ 1 bilhão em tecnologia e talento. Ressalva: a amostra do PCAOB é escolhida principalmente por risco e não representa todas as auditorias.
+Fonte: Thomson Reuters Checkpoint News (Soyoung Ho e Bill Flook), "Big Four firms show significant improvement in PCAOB audit inspection results for 2025" (17/08/2026).
+Link: https://tax.thomsonreuters.com/news/big-four-firms-show-significant-improvement-in-pcaob-audit-inspection-results-for-2025/
+Data de coleta: 2026-10-20
+
+George Kramer, que trabalhou 12 anos no escritório jurídico do PCAOB, questiona os 8% de deficiência das Big Four em 2025: pela tendência anterior, o esperado seria cerca de 17%, ou cerca de 14% excluindo 2022. A EY passou de 37% em 2023 para 28% e depois 5%. Ele aponta que os quatro relatórios saíram espalhados em nove semanas (21/05 a 22/07/2026), quando no ano anterior saíram no mesmo dia, e que o PCAOB não explicou o resultado. Estima em 1 em 6.000 a chance de a melhora da EY ser acaso, sem publicar o cálculo completo. Recomenda que o comitê de auditoria pergunte ao auditor se os achados preliminares de inspeção mudaram, e por quê. Ressalva: artigo de opinião; o próprio autor reconhece que as hipóteses são especulativas.
+Fonte: CLS Blue Sky Blog, Columbia Law School (George Kramer), "Are the Big Four Auditors' PCAOB Inspection Results Too Good to Be True?" (09/09/2026).
+Link: http://clsbluesky.law.columbia.edu/2026/09/09/are-the-big-four-auditors-pcaob-inspection-results-too-good-to-be-true/
+Data de coleta: 2026-10-20
+
+[Teórico] O procedimento de conciliação de contas da Cornell classifica as contas em três faixas de risco: alto (contratos e subvenções, doações com restrição, saldos materiais, contas com exigência regulatória), moderado (contas operacionais com reporte externo) e baixo (contas sem restrição, de baixo valor e volume, sem reporte externo). A frequência acompanha a movimentação: atividade mensal pede conciliação mensal no mínimo, e alto volume pode pedir conciliação semanal ou diária. As duas bases comparadas precisam ser independentes, a diferença não explicada tem de chegar a zero e os ajustes devem ser feitos em 30 a 60 dias. As diferenças são classificadas como temporais, omissões ou erros. Quem prepara e quem revisa devem ser pessoas diferentes, e a documentação exige data de referência, saldos das duas fontes, composição do saldo final e assinaturas datadas.
+Fonte: Cornell University, Division of Financial Services, "DFS Transaction Cycle Narrative: Account Reconciliations" (atualizado em 21/08/2024).
+Link: https://finance.cornell.edu/sites/default/files/account-reconciliation-narrative.pdf
+Data de coleta: 2026-10-20
