@@ -1,0 +1,220 @@
+{
+  "seo": {
+    "title": "Presupuesto flexible: la utilidad de US$ 2.400 que engañó",
+    "description": "Leed Company quedó US$ 2.400 por encima del presupuesto estático. Mira cómo el presupuesto flexible separa el efecto volumen del efecto eficiencia.",
+    "keywords": [
+      "presupuesto flexible",
+      "presupuesto estático",
+      "efecto volumen",
+      "efecto eficiencia",
+      "puente de precio, volumen y mix",
+      "real contra presupuesto"
+    ]
+  },
+  "id": "20",
+  "slug": "presupuesto-flexible-efecto-volumen",
+  "title": "¿Leed Company superó el presupuesto por US$ 2.400 o por US$ 6.000?",
+  "excerpt": "En Leed Company, la utilidad parecía solo US$ 2.400 por encima del presupuesto. Rehecha con el volumen real, la cifra cambia de sentido y muestra quién gastó bien y quién gastó mal.",
+  "coverImage": "/blog-media/orcamento-flexivel-efeito-volume-capa.webp",
+  "date": "2026-10-20",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "financial-management",
+  "tags": [
+    "presupuesto flexible",
+    "presupuesto estático",
+    "efecto volumen",
+    "efecto eficiencia",
+    "puente de precio, volumen y mix"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Presupuesto flexible: cómo separar el efecto volumen del efecto eficiencia"
+    },
+    {
+      "type": "paragraph",
+      "content": "En el trimestre cerrado el 31 de marzo de 2010, Leed Company tuvo una utilidad neta de US$ 8.400. El presupuesto preveía US$ 6.000. En la lectura más común, la empresa quedó US$ 2.400 por encima del plan y el tema termina ahí. Leed es la empresa usada como ejemplo en el libro Managerial Accounting, publicado en LibreTexts, biblioteca abierta de libros de texto. El ejemplo se armó para mostrar cómo engaña ese número."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "En este artículo",
+      "content": "La diferencia entre presupuesto estático y presupuesto flexible, las cuentas de Leed Company rehechas con el volumen real, el puente de precio, volumen y mix en los ingresos, el costo de evaluar al gerente con el estático y qué cambiaría con BudgetXpert."
+    },
+    {
+      "type": "paragraph",
+      "content": "El plan preveía vender 20.000 unidades y Leed vendió 19.000. Aun así, el resultado se midió contra un presupuesto armado para 20.000, un volumen que no ocurrió. La corrección tiene nombre, presupuesto flexible: el presupuesto rehecho con el volumen real. Sin él, la comparación junta el volumen, que el gerente de producción no controla, con el gasto, que sí controla. La empresa termina elogiando a quien no hizo nada y dejando de pedir cuentas a quien gastó de más."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Presupuesto estático y presupuesto flexible"
+    },
+    {
+      "type": "paragraph",
+      "content": "Toda comparación entre real y presupuestado depende de qué presupuesto sirve de regla. Hay dos."
+    },
+    {
+      "type": "paragraph",
+      "content": "El presupuesto estático es el que se aprobó antes del período, para un único volumen, el planeado. El volumen entra en él como supuesto (la hipótesis que sostiene los demás números) y queda fijo hasta el final del período, aunque las ventas cambien. Suele ser la regla del informe mensual de real contra presupuesto."
+    },
+    {
+      "type": "paragraph",
+      "content": "El presupuesto flexible es el mismo presupuesto rehecho con el volumen que de verdad ocurrió. La fórmula del libro cabe en una línea: la parte fija presupuestada más el costo variable unitario presupuestado por las unidades reales. El alquiler de la fábrica sigue igual. El material por unidad sigue igual. Solo cambia el número de unidades."
+    },
+    {
+      "type": "paragraph",
+      "content": "Con las dos reglas, la desviación total se divide en dos partes. El efecto volumen es la diferencia entre el presupuesto estático y el flexible, es decir, cuánto cambió el resultado solo porque la empresa vendió más o menos de lo planeado. El efecto eficiencia es la diferencia entre lo real y el flexible: cuánto gastó cada área de más o de menos para el volumen que entregó. La primera parte le corresponde a quien responde por las ventas. La segunda, a quien responde por el gasto."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Las cuentas de Leed Company con presupuesto flexible"
+    },
+    {
+      "type": "paragraph",
+      "content": "En Leed, las dos partes apuntan en direcciones opuestas. Rehecho para 19.000 unidades, el presupuesto prevé una utilidad de US$ 2.400. La diferencia de US$ 3.600 frente a los US$ 6.000 del estático es el efecto volumen: la utilidad que desaparece con 1.000 unidades menos, aun gastando por unidad exactamente lo previsto."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Regla",
+        "Unidades",
+        "Utilidad neta"
+      ],
+      "rows": [
+        [
+          "Presupuesto estático",
+          "20.000",
+          "US$ 6.000"
+        ],
+        [
+          "Presupuesto flexible",
+          "19.000",
+          "US$ 2.400"
+        ],
+        [
+          "Real",
+          "19.000",
+          "US$ 8.400"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Contra el flexible, lo real queda US$ 6.000 por encima. Los US$ 2.400 del comienzo eran la suma de US$ 3.600 perdidos en volumen con US$ 6.000 ganados en eficiencia. Leed vendió menos de lo que esperaba y gastó mejor de lo que esperaba. Un solo resultado. Dos conclusiones."
+    },
+    {
+      "type": "paragraph",
+      "content": "La sorpresa mayor está dentro del total. Línea por línea contra el flexible, la mano de obra directa quedó US$ 6.250 por debajo de lo previsto y los gastos de ventas y administración quedaron US$ 14.500 por debajo. Los materiales directos quedaron US$ 12.500 por encima de lo que justificaban 19.000 unidades, una desviación desfavorable. Con la utilidad por encima del plan, nada en el informe estático llamaba la atención sobre esa línea."
+    },
+    {
+      "type": "paragraph",
+      "content": "Para empezar, abre primero las líneas que cambian con el volumen, como materiales, porque es en ellas donde la regla estática más distorsiona la lectura."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "La misma separación en los ingresos: precio, volumen y mix"
+    },
+    {
+      "type": "paragraph",
+      "content": "La lógica no se queda en el costo. Del lado de los ingresos, la herramienta equivalente es el puente de precio, volumen y mix, descrito en guías técnicas de Zebra BI (zebrabi.com), City Shift Finance y Business Intelligist. El puente descompone la diferencia entre el ingreso del período base y el actual en partes que suman exactamente la desviación total. El efecto precio muestra lo que vino del cambio en el precio unitario. El efecto volumen, lo que vino de vender más o menos unidades. El efecto mix, lo que vino del cambio en la participación de cada producto en el total vendido."
+    },
+    {
+      "type": "paragraph",
+      "content": "Las mismas guías llevan la separación más allá del producto. En un ejemplo ilustrativo, el ingreso reportado crece 9%. Abierto, el número se vuelve tres: 6% de crecimiento operativo, menos 2% de conversión cambiaria y más 5% que vienen de adquisiciones. Sin esa apertura, el 9% entero se leería como demanda o precio más fuertes. El área comercial recibiría el crédito por una adquisición que no negoció, mientras los dos puntos perdidos por el tipo de cambio quedarían escondidos en el total."
+    },
+    {
+      "type": "paragraph",
+      "content": "En el costo o en el ingreso, la separación responde a la misma duda: qué parte de la desviación vino de algo que la persona evaluada controla."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "El costo de evaluar al gerente con el presupuesto estático"
+    },
+    {
+      "type": "paragraph",
+      "content": "En Leed, el volumen quedó 5% por debajo del plan. Desviaciones así son comunes. Vena Solutions, con Benchmarkit, consultó a 431 profesionales de FP&A (planeación y análisis financiero) en octubre de 2025. En el 2026 FP&A Impact Report, publicado en junio de 2026, más de la mitad de las empresas tiene una variación en la proyección de ingresos superior al 6%: el ingreso real se aleja más de 6% del proyectado. El volumen del presupuesto estático rara vez es el que ocurre. La desviación de volumen es la regla."
+    },
+    {
+      "type": "paragraph",
+      "content": "Piensa en quién gana qué. En un año en que las ventas superan el plan, el gerente de producción compra más material porque produce más. Contra el estático, aparece excediendo el presupuesto, aunque haya gastado menos por unidad. En un año de caída, el mismo gerente queda por debajo del presupuesto solo porque produjo menos. En el año bueno, le reclaman por el éxito de las ventas. En el año malo, lo elogian por la caída."
+    },
+    {
+      "type": "paragraph",
+      "content": "Leed muestra el caso que más cuesta: con la utilidad por encima del plan, quien respondía por materiales saldría de la reunión sin que nadie le pidiera explicaciones."
+    },
+    {
+      "type": "paragraph",
+      "content": "El gerente aprende rápido qué cuenta en la evaluación. Si es el volumen, negociar un volumen cómodo en el presupuesto rinde más que gastar bien. Cuando cada área rehace el presupuesto flexible en su propia planilla, cada una suele llegar con su lectura del volumen: pedidos, producción o facturación. La conversación se traba en qué número vale. La empresa pierde justo la información que el presupuesto debería dar, quién gastó bien y quién gastó mal."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "De cumplir el presupuesto a cumplir lo que dependía de cada gerente"
+    },
+    {
+      "type": "paragraph",
+      "content": "La pregunta de la reunión de Leed era si la empresa cumplió el presupuesto. Lo cumplió, por US$ 2.400. Esa respuesta no ayudaba a nadie a decidir nada."
+    },
+    {
+      "type": "paragraph",
+      "content": "La pregunta útil pasa a ser si cada gerente cumplió lo que dependía de él. Para quien vende, eso es el volumen. Para quien produce y compra, es el gasto con el volumen que de verdad ocurrió. El presupuesto estático mide a la empresa contra la proyección. El presupuesto flexible mide a cada persona contra su propio trabajo. La regla correcta no cambia la utilidad de Leed. Cambia a quién llaman para explicar la línea de materiales."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Cómo lo haría diferente BudgetXpert"
+    },
+    {
+      "type": "paragraph",
+      "content": "Con BudgetXpert, la reunión de Leed habría partido de un volumen que todas las áreas reconocían, porque el supuesto de volumen tendría un valor propio en cada mes, el mismo presupuesto se leería por mes, trimestre y año sin rehacer nada y una sola versión sería la oficial, a la vista de todos."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pregunta",
+        "Qué faltó en el caso",
+        "Qué hace BudgetXpert"
+      ],
+      "rows": [
+        [
+          "¿Qué volumen vale en cada mes?",
+          "Un volumen único de 20.000 unidades, decidido antes del trimestre",
+          "El supuesto de volumen tiene un valor distinto mes a mes"
+        ],
+        [
+          "¿En qué período se lee la desviación?",
+          "El volumen del plan valdría igual para todo el trimestre",
+          "El mismo presupuesto aparece por mes, trimestre y año, sin rehacer nada"
+        ],
+        [
+          "¿Cuál es la versión oficial?",
+          "Cada área llegaría con su propia lectura del volumen",
+          "Una versión oficial visible para todos. Las otras no se confunden con ella"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Más sobre la plataforma en budgetxpert.ai."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fuente: LibreTexts (libretexts.org), biblioteca abierta de libros de texto, \"7.1: The Performance Report\", Managerial Accounting (Lumen), capítulo 7, libro abierto sin autor individual, con el ejemplo de Leed Company en el trimestre cerrado el 31/03/2010. Zebra BI (zebrabi.com), empresa de visuales para informes financieros en Excel y Power BI, \"Price Volume Mix Analysis in Excel: Step by Step Guide with Formulas\". City Shift Finance, \"Revenue Bridge: Price, Volume and Mix\". Business Intelligist, \"Price Volume Mix (PVM) for Gross Margin Variance Analysis\". Las tres son guías técnicas de práctica, no normas contables. Vena Solutions (venasolutions.com), empresa de software para equipos de finanzas, \"New Vena research finds FP&A teams are hitting a maturity ceiling\", sobre el 2026 FP&A Impact Report, hecho con Benchmarkit (02/06/2026)."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "seo": {
+    "title": "Flexible Budget: The $2,400 Profit That Misled",
+    "description": "Leed Company came in $2,400 above its static budget. See how a flexible budget separates the volume effect from the efficiency effect.",
+    "keywords": [
+      "flexible budget",
+      "static budget",
+      "volume effect",
+      "efficiency effect",
+      "price volume mix bridge",
+      "budget vs actual"
+    ]
+  },
+  "id": "20",
+  "slug": "flexible-budget-volume-effect",
+  "title": "Did Leed Company beat its budget by $2,400 or by $6,000?",
+  "excerpt": "At Leed Company, profit looked only $2,400 above budget. Rebuilt at actual volume, the number changes meaning and shows who spent well and who spent badly.",
+  "coverImage": "/blog-media/orcamento-flexivel-efeito-volume-capa.webp",
+  "date": "2026-10-20",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "financial-management",
+  "tags": [
+    "flexible budget",
+    "static budget",
+    "volume effect",
+    "efficiency effect",
+    "price volume mix bridge"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Flexible budget: how to separate the volume effect from the efficiency effect"
+    },
+    {
+      "type": "paragraph",
+      "content": "In the quarter ended March 31, 2010, Leed Company posted net income of $8,400. The budget called for $6,000. The usual reading is that the company beat the plan by $2,400 and the discussion ends there. Leed is the company used as an example in the textbook Managerial Accounting, published on LibreTexts, an open library of textbooks. The example was built to show how that number misleads."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "In this article",
+      "content": "The difference between static and flexible budgets, Leed Company's numbers rebuilt at actual volume, the price, volume and mix bridge on revenue, the cost of judging managers against the static budget and what would change with BudgetXpert."
+    },
+    {
+      "type": "paragraph",
+      "content": "The plan called for 20,000 units and Leed sold 19,000. Even so, the result was measured against a budget built for 20,000, a volume that never happened. The fix has a name, the flexible budget: the budget rebuilt at actual volume. Without it, the comparison lumps together volume, which the production manager does not control, with spending, which that manager does control. The company ends up praising people who did nothing and letting off people who overspent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Static budget vs flexible budget"
+    },
+    {
+      "type": "paragraph",
+      "content": "Every actual-versus-budget comparison depends on which budget serves as the yardstick. There are two."
+    },
+    {
+      "type": "paragraph",
+      "content": "The static budget is the one approved before the period, for a single volume, the planned one. Volume enters it as an assumption (the hypothesis that supports the other numbers) and stays fixed until the end of the period, even when sales change. It is usually the yardstick in the monthly budget-versus-actual report."
+    },
+    {
+      "type": "paragraph",
+      "content": "The flexible budget is the same budget rebuilt at the volume that actually happened. The textbook formula fits on one line: budgeted fixed cost plus budgeted variable cost per unit times actual units. Factory rent stays the same. Material per unit stays the same. Only the number of units changes."
+    },
+    {
+      "type": "paragraph",
+      "content": "With both yardsticks, the total variance splits into two pieces. The volume effect is the difference between the static and the flexible budget, that is, how much the result moved only because the company sold more or less than planned. The efficiency effect is the difference between actual and flexible: how much each area spent above or below what the volume it delivered required. The first piece belongs to whoever answers for sales. The second belongs to whoever answers for spending."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Leed Company's numbers in a flexible budget"
+    },
+    {
+      "type": "paragraph",
+      "content": "At Leed, the two pieces point in opposite directions. Rebuilt for 19,000 units, the budget shows a profit of $2,400. The $3,600 gap to the static budget's $6,000 is the volume effect: the profit that disappears with 1,000 fewer units, even when spending per unit is exactly as planned."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Yardstick",
+        "Units",
+        "Net income"
+      ],
+      "rows": [
+        [
+          "Static budget",
+          "20,000",
+          "$6,000"
+        ],
+        [
+          "Flexible budget",
+          "19,000",
+          "$2,400"
+        ],
+        [
+          "Actual",
+          "19,000",
+          "$8,400"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Against the flexible budget, actual is $6,000 higher. The $2,400 from the start was the sum of $3,600 lost on volume and $6,000 gained on efficiency. Leed sold less than it expected and spent better than it expected. One result. Two conclusions."
+    },
+    {
+      "type": "paragraph",
+      "content": "The bigger surprise sits inside the total. Line by line against the flexible budget, direct labor came in $6,250 below plan and selling and administrative expenses came in $14,500 below. Direct materials came in $12,500 above what 19,000 units justified, an unfavorable variance. With profit above plan, nothing in the static report drew attention to that line."
+    },
+    {
+      "type": "paragraph",
+      "content": "To start, open first the lines that move with volume, such as materials, because that is where the static yardstick distorts the reading most."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The same split on revenue: price, volume and mix"
+    },
+    {
+      "type": "paragraph",
+      "content": "The logic does not stop at cost. On the revenue side, the equivalent tool is the price, volume and mix bridge, described in technical guides from Zebra BI (zebrabi.com), City Shift Finance and Business Intelligist. The bridge breaks the difference between base-period revenue and current revenue into pieces that add up exactly to the total variance. The price effect shows what came from the change in unit price. The volume effect, what came from selling more or fewer units. The mix effect, what came from the change in each product's share of total units sold."
+    },
+    {
+      "type": "paragraph",
+      "content": "The same guides take the split beyond the product. In an illustrative example, reported revenue grows 9%. Opened up, the number becomes three: 6% operating growth, minus 2% from currency translation and plus 5% from acquisitions. Without that breakdown, the full 9% would be read as stronger demand or pricing. Sales would get credit for an acquisition it did not negotiate, while the two points lost to currency would stay hidden in the total."
+    },
+    {
+      "type": "paragraph",
+      "content": "On cost or on revenue, the split answers the same doubt: which part of the variance came from something the person being evaluated controls."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The cost of judging managers against the static budget"
+    },
+    {
+      "type": "paragraph",
+      "content": "At Leed, volume came in 5% below plan. Gaps like that are common. Vena Solutions, with Benchmarkit, surveyed 431 FP&A (financial planning and analysis) professionals in October 2025. In the 2026 FP&A Impact Report, released in June 2026, more than half of companies report revenue forecast variance above 6%: actual revenue lands more than 6% away from the forecast. The volume in the static budget is rarely what happens. Volume variance is the rule."
+    },
+    {
+      "type": "paragraph",
+      "content": "Think about who gains what. In a year when sales beat the plan, the production manager buys more material because the plant makes more. Against the static budget, that manager looks like they blew the budget, even if they spent less per unit. In a down year, the same manager comes in under budget only because the plant produced less. In the good year, they get blamed for the sales team's success. In the bad year, they get praised for the slump."
+    },
+    {
+      "type": "paragraph",
+      "content": "Leed shows the costliest case: with profit above plan, whoever answered for materials would walk out of the meeting without being challenged."
+    },
+    {
+      "type": "paragraph",
+      "content": "Managers learn fast what counts in their evaluation. If it is volume, negotiating a comfortable volume into the budget pays more than spending well. When each area rebuilds the flexible budget in its own spreadsheet, each one tends to arrive with its own reading of volume: orders, production or billing. The conversation stalls on which number counts. The company loses exactly the information the budget should provide, who spent well and who spent badly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "From beating the budget to beating what each manager controlled"
+    },
+    {
+      "type": "paragraph",
+      "content": "The question in Leed's meeting was whether the company beat the budget. It did, by $2,400. That answer helped no one decide anything."
+    },
+    {
+      "type": "paragraph",
+      "content": "The useful question becomes whether each manager beat what depended on them. For whoever sells, that is volume. For whoever produces and buys, it is spending at the volume that actually happened. The static budget measures the company against the forecast. The flexible budget measures each person against their own work. The right yardstick does not change Leed's profit. It changes who gets called in to explain the materials line."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How BudgetXpert would do it differently"
+    },
+    {
+      "type": "paragraph",
+      "content": "With BudgetXpert, Leed's meeting would have started from a volume every area recognized, because the volume assumption would have its own value each month, the same budget would be read by month, quarter and year without rebuilding anything and only one version would be official, visible to everyone."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "What was missing in the case",
+        "What BudgetXpert does"
+      ],
+      "rows": [
+        [
+          "Which volume applies each month?",
+          "A single volume of 20,000 units, set before the quarter",
+          "The volume assumption takes a different value month by month"
+        ],
+        [
+          "Over which period is the variance read?",
+          "The plan's volume would count the same for the whole quarter",
+          "The same budget shows by month, quarter and year, without rebuilding anything"
+        ],
+        [
+          "Which is the official version?",
+          "Each area would arrive with its own reading of volume",
+          "One official version, visible to everyone. The others are not confused with it"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "More about the platform at budgetxpert.ai."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source: LibreTexts (libretexts.org), an open textbook library, \"7.1: The Performance Report\", Managerial Accounting (Lumen), chapter 7, an open textbook with no individual author, with the Leed Company example for the quarter ended 03/31/2010. Zebra BI (zebrabi.com), a company that makes visuals for financial reports in Excel and Power BI, \"Price Volume Mix Analysis in Excel: Step by Step Guide with Formulas\". City Shift Finance, \"Revenue Bridge: Price, Volume and Mix\". Business Intelligist, \"Price Volume Mix (PVM) for Gross Margin Variance Analysis\". All three are practice guides, not accounting standards. Vena Solutions (venasolutions.com), a software company for finance teams, \"New Vena research finds FP&A teams are hitting a maturity ceiling\", on the 2026 FP&A Impact Report, produced with Benchmarkit (06/02/2026)."
+    }
+  ]
+}

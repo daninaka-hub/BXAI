@@ -1,0 +1,221 @@
+{
+  "seo": {
+    "title": "Reference class forecasting y la apuesta de Peloton",
+    "description": "Peloton comprometió US$ 820 millones tras un pico de 172% en los pedidos. Aprende a prever un plan por el resultado de proyectos parecidos.",
+    "keywords": [
+      "reference class forecasting",
+      "visión desde fuera",
+      "visión desde dentro",
+      "clase de referencia",
+      "contingencia de capex",
+      "Peloton"
+    ]
+  },
+  "id": "21",
+  "slug": "reference-class-forecasting-peloton",
+  "title": "¿Qué no preguntó Peloton antes de comprometer US$ 820 millones?",
+  "excerpt": "Los pedidos de Peloton subieron 172% en 2020 y la empresa comprometió US$ 820 millones en capacidad. Entiende por qué la estimación honesta de quien ejecuta el plan sale optimista.",
+  "coverImage": "/blog-media/reference-class-forecasting-peloton-capa.webp",
+  "date": "2026-10-20",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "budget-planning",
+  "tags": [
+    "reference class forecasting",
+    "visión desde fuera",
+    "visión desde dentro",
+    "clase de referencia",
+    "contingencia de capex"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reference class forecasting: prever un plan por el resultado de proyectos parecidos"
+    },
+    {
+      "type": "paragraph",
+      "content": "En marzo de 2020, los pedidos de Peloton (onepeloton.com), empresa estadounidense que vende bicicletas estáticas con clases en línea por suscripción, subieron 172%. Según exempleados entrevistados en un pódcast sobre el caso, la empresa empezó a planificar un crecimiento de 20% por trimestre. Es justo el tipo de plan que el reference class forecasting, la previsión hecha a partir del resultado de proyectos parecidos que ya terminaron, existe para corregir."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "En este artículo",
+      "content": "Qué son la visión desde dentro y la visión desde fuera, por qué la estimación se equivoca siempre hacia el mismo lado, cuánto costó el error de Peloton, qué muestra el Edinburgh Tram sobre el método y cómo aplicarlo en FP&A."
+    },
+    {
+      "type": "paragraph",
+      "content": "Entre diciembre de 2020 y mayo de 2021, Peloton comprometió cerca de US$ 820 millones en capacidad de producción: US$ 420 millones por Precor, fabricante de equipos de gimnasio, más cerca de US$ 400 millones estimados para una fábrica en Ohio (NAVETRA). La cuenta partía de un mercado de 200 millones de usuarios de gimnasio, presentado a inversionistas en 2020. El S-1 de 2019, el prospecto que la propia Peloton presentó ante la SEC (Securities and Exchange Commission, el regulador del mercado de valores de Estados Unidos) para salir a bolsa, estimaba un mercado de 14 millones de productos."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nadie ocultó información. El número menor estaba en un documento público de la propia empresa. Peloton miró solo sus propios pedidos. El argumento de este artículo es que quien va a ejecutar un plan se equivoca hacia el lado optimista aunque sea honesto. Por eso el margen de error del presupuesto tiene que salir del resultado de casos parecidos y no de la cuenta del propio proyecto."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Visión desde dentro y visión desde fuera en el reference class forecasting"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hay dos formas de estimar cuánto va a costar y rendir un plan. La visión desde dentro estima el plan por sus propios detalles: el cronograma, las cotizaciones de los proveedores, los pedidos en cartera. La visión desde fuera pregunta cuánto costaron y cuánto rindieron los proyectos parecidos que ya terminaron. La primera solo conoce el proyecto que está sobre la mesa. La segunda conoce lo que suele pasar con proyectos como ese."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bent Flyvbjerg, investigador de planificación de grandes proyectos, convirtió esa idea en método en una guía de 2004 para el Departamento de Transporte del Reino Unido, descrita en el Project Management Journal en 2006. Son tres pasos:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Elegir la clase de referencia, un conjunto de proyectos pasados parecidos al actual.",
+        "Armar la distribución del resultado en esa clase, es decir, cuántos proyectos se pasaron del costo y por cuánto.",
+        "Ubicar el proyecto actual en esa distribución y sacar de ahí el rango probable de costo y de plazo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Con los dos términos definidos, falta mostrar por qué la visión desde dentro necesita corrección."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "La visión desde dentro se equivoca siempre hacia el mismo lado"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los psicólogos Daniel Kahneman y Amos Tversky, que estudiaron cómo decide la gente en condiciones de incertidumbre, mostraron que quien planifica subestima costo, plazo y riesgo. El error no es aleatorio. Cae siempre del mismo lado y ocurre sin mala fe."
+    },
+    {
+      "type": "paragraph",
+      "content": "Es distinto del gerente que entrega una previsión baja a propósito para alcanzar el bono. Ahí existe un motivo para equivocarse. Aquí no hace falta. Quien estima es quien va a ejecutar y conoce el plan paso a paso. Lo que esa persona no ve son los problemas que todavía no ocurrieron, porque no están en ningún paso del plan."
+    },
+    {
+      "type": "paragraph",
+      "content": "En Peloton, los pedidos de marzo de 2020 eran reales. El error fue tratar un pico de demanda como tendencia y proyectar los trimestres siguientes a partir de él. Cada pedido nuevo parecía confirmar el supuesto de crecimiento. Según el pódcast, el plan siguió en pie incluso con la reapertura de los gimnasios."
+    },
+    {
+      "type": "paragraph",
+      "content": "La visión desde fuera preguntaría qué pasa con la demanda de un producto cuando pasa el choque que la creó. En el caso de Peloton, el choque era el gimnasio cerrado. Un error honesto igual cuesta dinero. Este costó mucho."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "El costo de tratar un pico de demanda como tendencia"
+    },
+    {
+      "type": "paragraph",
+      "content": "La capacidad comprada para crecer cada trimestre se volvió inventario cuando la demanda volvió a la normalidad. Según los documentos de la SEC citados en el casebook de NAVETRA, el inventario bruto de Peloton llegó a US$ 1.509,9 millones en marzo de 2022. Eran bicicletas y cintas de correr fabricadas para una demanda que solo existía en el supuesto de crecimiento."
+    },
+    {
+      "type": "paragraph",
+      "content": "En febrero de 2022, la reestructuración de la empresa recortó 2.800 puestos. El equipo también se había armado para el tamaño que Peloton tendría si el crecimiento continuaba."
+    },
+    {
+      "type": "paragraph",
+      "content": "Los inversionistas hicieron la misma cuenta. El valor de mercado de Peloton cayó cerca de 94% respecto del pico, según el pódcast, una fuente secundaria sin enlaces a los informes de la empresa. El número vale como aproximación."
+    },
+    {
+      "type": "paragraph",
+      "content": "Los tres números miden la misma distancia, entre la empresa prevista en el plan y la que de verdad existió. La conclusión fácil sería que la visión desde fuera habría acertado el número. El caso más estudiado del método muestra otra cosa."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "En el Edinburgh Tram, la visión desde fuera también se quedó corta"
+    },
+    {
+      "type": "paragraph",
+      "content": "La primera aplicación práctica del reference class forecasting fue la revisión del Edinburgh Tram Line 2, una línea de tranvía en Edimburgo, Escocia, en octubre de 2004. La previsión del proyecto era de £ 320 millones, ya con £ 64 millones (25%) de contingencia, la reserva para imprevistos. Según la clase de referencia, el costo sería de £ 357 millones en el P50 y £ 400 millones en el P80. P80 es el valor que 80% de los proyectos parecidos no superaron."
+    },
+    {
+      "type": "paragraph",
+      "content": "La obra costó £ 776 millones y abrió con tres años de retraso, en mayo de 2014."
+    },
+    {
+      "type": "paragraph",
+      "content": "La visión desde fuera también se equivocó. La visión desde dentro se equivocó más. El equipo del proyecto creía que 25% de reserva alcanzaba. La clase de referencia pedía 57% para llegar al P80, más del doble. Incluso ese rango se quedó corto. La obra terminó entre los proyectos que superan el P80."
+    },
+    {
+      "type": "paragraph",
+      "content": "El método no acierta el número. Muestra el tamaño del error que la empresa debe esperar y pone ese error en el presupuesto antes de que empiece la obra. Para usar esta lógica, una empresa no necesita una clase de tranvías europeos. Ya tiene la suya."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Cómo aplicar el reference class forecasting en FP&A"
+    },
+    {
+      "type": "paragraph",
+      "content": "En FP&A (planificación y análisis financiero, el área que arma el presupuesto y el forecast), la clase de referencia más cercana es el historial de la propia empresa. Todo proyecto de capex, la inversión en planta, máquina o sistema, ya se estimó y ya tuvo un resultado. Todo presupuesto anual también."
+    },
+    {
+      "type": "paragraph",
+      "content": "La rutina tiene dos movimientos. Primero, guarda la estimación de cada proyecto y de cada presupuesto junto al resultado real, sin borrar la versión original cuando el número cambia. Después, saca de la distribución de esas desviaciones la contingencia del capex. Es lo que recomienda Flyvbjerg: la contingencia sale del historial de proyectos parecidos y no de la estimación del equipo del proyecto. El equipo sigue estimando el plan. La reserva para el error sale de la clase."
+    },
+    {
+      "type": "paragraph",
+      "content": "El cuidado principal es elegir bien la clase. Una planta nueva no se compara con la remodelación de una oficina. Para Peloton, la clase correcta serían productos que vivieron un pico de demanda y volvieron a la normalidad después del choque. Los meses anteriores de la propia empresa no servirían."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Cuánto costaron los proyectos parecidos"
+    },
+    {
+      "type": "paragraph",
+      "content": "Peloton tenía en su propio prospecto el dato que contradecía el plan. Faltó la pregunta que pone ese dato sobre la mesa. Quien pregunta cuánto va a costar este proyecto recibe la respuesta de quien quiere aprobarlo. Quien pregunta cuánto costaron los proyectos parecidos a él recibe la respuesta de lo que ya ocurrió. Es esa segunda respuesta la que define la reserva del presupuesto."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Cómo lo haría diferente BudgetXpert"
+    },
+    {
+      "type": "paragraph",
+      "content": "El historial que sirve de clase de referencia se forma cuando cada versión del presupuesto queda guardada y una línea del presupuesto nuevo trae el resultado del anterior sin copiar celdas. Con BudgetXpert, Peloton habría tenido el supuesto de 20% por trimestre con dueño y con la razón registrada junto al número, porque cada supuesto tiene dueño y la discusión queda junto al número, en la celda."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pregunta",
+        "Qué le faltó a Peloton",
+        "Qué hace BudgetXpert"
+      ],
+      "rows": [
+        [
+          "¿De dónde salió la estimación?",
+          "El supuesto de crecimiento salió de los propios pedidos, sin la razón escrita junto al número",
+          "La discusión queda junto al número, en la celda"
+        ],
+        [
+          "¿Cuánto se equivocaron los planes anteriores?",
+          "No hay registro de que la estimación de cada plan se guardara para medir el error del plan siguiente",
+          "La versión anterior sigue guardada y una línea del presupuesto nuevo trae sola el resultado del anterior, sin copiar celdas"
+        ],
+        [
+          "¿Quién responde por el supuesto?",
+          "No hay registro de un dueño para el supuesto de crecimiento",
+          "Cada supuesto tiene dueño y solo quien tiene permiso lo cambia"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Mira cómo funciona en budgetxpert.ai."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fuente: Purple Wins (purplewins.io), sitio de la consultora JTS Inc., que publica la metodología NAVETRA, \"Peloton's Capacity Bet: The Capital Risk Its Own S-1 Already Priced, A NAVETRA Casebook\" (sin fecha), con base en documentos de Peloton ante la SEC. Roadman Cycling Podcast (roadmancycling.com), pódcast de ciclismo, \"Peloton's $50B Collapse\", episodio 18 (Anthony Walsh, 14/11/2025, revisado el 25/08/2026), fuente secundaria. Bent Flyvbjerg, \"From Nobel Prize to Project Management: Getting Risks Right\", Project Management Journal (2006). Wikipedia, \"Reference class forecasting\"."
+    }
+  ]
+}

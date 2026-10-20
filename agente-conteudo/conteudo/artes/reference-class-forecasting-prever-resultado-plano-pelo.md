@@ -1,0 +1,10 @@
+# Sugestão de arte, Artigo 6
+
+Formato: 1600 por 900 pixels (horizontal, 16:9, blog e LinkedIn).
+Arquivo: /blog-media/reference-class-forecasting-peloton-capa.webp (salvar a imagem gerada com este nome, em WebP)
+Ilustração: Nuvem de pontos empilhados que forma uma curva de distribuição com cauda longa para a direita (os projetos parecidos já concluídos), com uma linha vertical tracejada marcando a posição do projeto atual, ao lado de um cartão de registro de estimativas.
+Composição: ilustração à esquerda ocupando dois terços da largura, cartão com lista à direita. A marca "BudgetXpert Insights" no alto à esquerda é o único texto.
+Paleta e tipografia: navy 062D3E de fundo, teal 19B09F de destaque, branco para o cartão e a marca, Arial.
+
+Prompt:
+Imagem horizontal de 1600 por 900 pixels. Fundo em degradê radial suave, com navy um pouco mais claro no centro da metade esquerda escurecendo para navy 062D3E nas bordas. No alto à esquerda, a marca "BudgetXpert Insights" em Arial bold, com "BudgetXpert" em branco e "Insights" em teal 19B09F. Lado esquerdo, dois terços da largura: uma linha horizontal branca fina serve de base. Sobre ela, cerca de sessenta pequenos círculos teal 19B09F empilhados em colunas formam uma curva de distribuição assimétrica, alta à esquerda do centro e com uma cauda longa que vai baixando para a direita. Os círculos da cauda ficam em teal translúcido. Uma linha vertical tracejada branca cruza a curva perto do centro, com um único círculo branco maior no topo dela, marcando o projeto atual. Sem eixos com números, sem grade. Lado direito, um terço da largura: cartão branco de cantos arredondados com sombra suave, uma barra navy no alto e quatro linhas empilhadas, cada uma com duas barras lado a lado, uma navy e outra teal, de comprimentos diferentes, com a barra teal sempre um pouco mais longa que a navy. Nenhum outro texto, número ou logo na imagem. Estilo limpo e plano. Exportar em WebP com o nome de arquivo reference-class-forecasting-peloton-capa.webp.

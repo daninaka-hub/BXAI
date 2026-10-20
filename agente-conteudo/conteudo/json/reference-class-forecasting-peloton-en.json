@@ -1,0 +1,221 @@
+{
+  "seo": {
+    "title": "Reference Class Forecasting and Peloton's $820M Bet",
+    "description": "Peloton committed $820 million after a 172% spike in orders. Learn how to forecast a plan from the real results of similar projects.",
+    "keywords": [
+      "reference class forecasting",
+      "outside view",
+      "inside view",
+      "reference class",
+      "capex contingency",
+      "Peloton"
+    ]
+  },
+  "id": "21",
+  "slug": "reference-class-forecasting-peloton",
+  "title": "What Did Peloton Fail to Ask Before Committing $820 Million?",
+  "excerpt": "Peloton's orders rose 172% in 2020 and the company committed $820 million to capacity. See why the honest estimate of the people who run a plan still comes out optimistic.",
+  "coverImage": "/blog-media/reference-class-forecasting-peloton-capa.webp",
+  "date": "2026-10-20",
+  "author": {
+    "name": "Daniel Nakamura",
+    "avatar": "/blog-media/autor-daniel-nakamura.webp"
+  },
+  "category": "budget-planning",
+  "tags": [
+    "reference class forecasting",
+    "outside view",
+    "inside view",
+    "reference class",
+    "capex contingency"
+  ],
+  "templateType": "guide",
+  "readingTime": "8 min",
+  "featured": false,
+  "content": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reference class forecasting: predicting a plan from the results of similar projects"
+    },
+    {
+      "type": "paragraph",
+      "content": "In March 2020, orders at Peloton (onepeloton.com), an American company that sells exercise bikes with online classes by subscription, rose 172%. According to former employees interviewed on a podcast about the case, the company began planning for 20% growth per quarter. It is exactly the kind of plan that reference class forecasting, a forecast built from the results of similar projects that have already finished, exists to correct."
+    },
+    {
+      "type": "callout",
+      "variant": "blue",
+      "icon": "📌",
+      "title": "In this article",
+      "content": "What the inside view and the outside view are, why estimates always err in the same direction, what Peloton's mistake cost, what the Edinburgh Tram shows about the method and how to apply it in FP&A."
+    },
+    {
+      "type": "paragraph",
+      "content": "Between December 2020 and May 2021, Peloton committed about $820 million to production capacity: $420 million for Precor, a maker of gym equipment, plus an estimated $400 million or so for a factory in Ohio (NAVETRA). The math started from a market of 200 million gym-goers, presented to investors in 2020. The 2019 S-1, the prospectus Peloton itself filed with the SEC (Securities and Exchange Commission, the US capital markets regulator) to go public, estimated a market of 14 million products."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nobody hid any information. The smaller number sat in a public document from the company itself. Peloton looked only at its own orders. The argument of this article is that the people who will carry out a plan err on the optimistic side even when they are being honest. That is why the margin of error in a budget has to come from the results of similar cases and not from the project's own math."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The inside view and the outside view in reference class forecasting"
+    },
+    {
+      "type": "paragraph",
+      "content": "There are two ways to estimate how much a plan will cost and return. The inside view estimates the plan from its own details: the schedule, the supplier quotes, the order backlog. The outside view asks how much similar finished projects cost and how much they returned. The first only knows the project on the table. The second knows what usually happens to projects like it."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bent Flyvbjerg, a researcher of large project planning, turned this idea into a method in a 2004 guide for the UK Department for Transport, described in the Project Management Journal in 2006. There are three steps:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Choose the reference class, a set of past projects similar to the current one.",
+        "Build the distribution of outcomes in that class, meaning how many projects went over budget and by how much.",
+        "Place the current project in that distribution and take from it the likely range of cost and schedule."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "With both terms defined, what remains is to show why the inside view needs correcting."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The inside view always errs in the same direction"
+    },
+    {
+      "type": "paragraph",
+      "content": "The psychologists Daniel Kahneman and Amos Tversky, who studied how people decide under uncertainty, showed that planners underestimate cost, time and risk. The error is not random. It always falls on the same side and it happens without bad faith."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is different from the manager who turns in a low forecast on purpose to hit a bonus. There, someone has a reason to be wrong. Here, nobody needs one. The person who estimates is the person who will execute, and they know the plan step by step. What they cannot see are the problems that have not happened yet, because those problems are not in any step of the plan."
+    },
+    {
+      "type": "paragraph",
+      "content": "At Peloton, the March 2020 orders were real. The mistake was treating a demand spike as a trend and projecting the following quarters from it. Every new order seemed to confirm the growth assumption. According to the podcast, the plan stayed in place even as gyms reopened."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outside view would ask what happens to demand for a product once the shock that created it passes. In Peloton's case, the shock was the closed gym. An honest mistake still costs money. This one cost a lot."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "The cost of treating a demand spike as a trend"
+    },
+    {
+      "type": "paragraph",
+      "content": "The capacity bought to grow every quarter turned into inventory when demand went back to normal. According to the SEC filings cited in the NAVETRA casebook, Peloton's gross inventory reached $1,509.9 million in March 2022. Those were bikes and treadmills built for demand that existed only in the growth assumption."
+    },
+    {
+      "type": "paragraph",
+      "content": "In February 2022, the company's restructuring cut 2,800 positions. The team had also been sized for the company Peloton would have become if growth had continued."
+    },
+    {
+      "type": "paragraph",
+      "content": "Investors ran the same numbers. Peloton's market value fell about 94% from its peak, according to the podcast, a secondary source with no links to the company's filings. The figure should be read as an approximation."
+    },
+    {
+      "type": "paragraph",
+      "content": "All three numbers measure the same gap, between the company described in the plan and the one that actually existed. The easy conclusion would be that the outside view would have hit the number. The most studied case of the method shows something else."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "At the Edinburgh Tram, the outside view also fell short"
+    },
+    {
+      "type": "paragraph",
+      "content": "The first practical use of reference class forecasting was the review of Edinburgh Tram Line 2, a tram line in Edinburgh, Scotland, in October 2004. The project forecast was £320 million, already including £64 million (25%) of contingency, the reserve for the unexpected. Based on the reference class, the cost would be £357 million at P50 and £400 million at P80. P80 is the value that 80% of similar projects did not exceed."
+    },
+    {
+      "type": "paragraph",
+      "content": "The tram cost £776 million and opened three years late, in May 2014."
+    },
+    {
+      "type": "paragraph",
+      "content": "The outside view was wrong too. The inside view was more wrong. The project team believed a 25% reserve was enough. The reference class called for 57% to reach P80, more than double. Even that range fell short. The project ended up among those that go past P80."
+    },
+    {
+      "type": "paragraph",
+      "content": "The method does not get the number right. It shows the size of the error a company should expect and puts that error into the budget before work begins. To use this logic, a company does not need a class of European tram lines. It already has its own."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How to apply reference class forecasting in FP&A"
+    },
+    {
+      "type": "paragraph",
+      "content": "In FP&A (financial planning and analysis, the team that builds the budget and the forecast), the nearest reference class is the company's own history. Every capex project, the investment in a plant, a machine or a system, was estimated and has already produced a result. So has every annual budget."
+    },
+    {
+      "type": "paragraph",
+      "content": "The routine has two moves. First, keep the estimate for each project and each budget next to the actual result, without deleting the original version when the number changes. Then, take the capex contingency from the distribution of those deviations. That is what Flyvbjerg recommends: contingency comes from the history of similar projects and not from the project team's estimate. The team still estimates the plan. The reserve for error comes from the class."
+    },
+    {
+      "type": "paragraph",
+      "content": "The main care is choosing the class well. A new plant is not comparable to an office renovation. For Peloton, the right class would have been products that lived through a demand spike and went back to normal after the shock. The company's own previous months would not have served."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What similar projects cost"
+    },
+    {
+      "type": "paragraph",
+      "content": "Peloton had the data that contradicted the plan inside its own prospectus. What was missing was the question that puts that data on the table. Ask how much this project will cost, and the answer comes from the people who want it approved. Ask how much projects like it cost, and the answer comes from what has already happened. That second answer is the one that sets the reserve in the budget."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How BudgetXpert would do it differently"
+    },
+    {
+      "type": "paragraph",
+      "content": "The history that serves as a reference class takes shape when each version of the budget stays stored and a line in the new budget pulls the result from the previous one without copying cells. With BudgetXpert, Peloton would have had the 20% per quarter assumption with an owner and a recorded reason next to the number, because each assumption has an owner and the discussion stays with the number, in the cell."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "What Peloton was missing",
+        "What BudgetXpert does"
+      ],
+      "rows": [
+        [
+          "Where did the estimate come from?",
+          "The growth assumption came from the company's own orders, with no reason written next to the number",
+          "The discussion stays with the number, in the cell"
+        ],
+        [
+          "How far off were previous plans?",
+          "There is no record that each plan's estimate was kept to measure the error of the next plan",
+          "The previous version stays stored and a line in the new budget pulls the result from the previous one on its own, without copying cells"
+        ],
+        [
+          "Who answers for the assumption?",
+          "There is no record of an owner for the growth assumption",
+          "Each assumption has an owner and only people with permission can change it"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "See how it works at budgetxpert.ai."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": "Source: Purple Wins (purplewins.io), the site of the consultancy JTS Inc., which publishes the NAVETRA methodology, \"Peloton's Capacity Bet: The Capital Risk Its Own S-1 Already Priced, A NAVETRA Casebook\" (undated), based on Peloton filings with the SEC. Roadman Cycling Podcast (roadmancycling.com), a cycling podcast, \"Peloton's $50B Collapse\", episode 18 (Anthony Walsh, November 14, 2025, revised August 25, 2026), secondary source. Bent Flyvbjerg, \"From Nobel Prize to Project Management: Getting Risks Right\", Project Management Journal (2006). Wikipedia, \"Reference class forecasting\"."
+    }
+  ]
+}
