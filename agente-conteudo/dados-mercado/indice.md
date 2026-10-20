@@ -342,3 +342,26 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-20 | Leadership Roles | teórico | Treasury Management International | Controller contra tesoureiro: passado contra futuro, atribuições de cada lado e três pontos de colaboração |
 | 2026-10-20 | Organization | pesquisa | Controllers Council | Até 2030, 41% esperam o mesmo quadro em finanças com novas habilidades, 35% equipe menor e 19% maior |
 | 2026-10-20 | Organization | teórico | KPMG | Modelo operacional de finanças da KPMG em seis camadas: processo, pessoas, entrega, dados, tecnologia e governança |
+| 2026-10-20 | Controllership | estudo de caso | TIM Jurnal (Azerbaijan State University of Economics) | Enron, WorldCom (US$ 11 bi) e Wirecard (1,9 bi de euros): falhas de controle interno e auditoria, à luz do COSO |
+| 2026-10-20 | Strategic Planning | estudo de caso | Peloton, 10-K na SEC | Peloton corta 15% do quadro, mira US$ 200 mi de economia anual e reduz a queima de caixa de US$ 470 mi para US$ 86 mi |
+| 2026-10-20 | Integrated Planning | pesquisa | Finance Alliance / FP&A Trends / Gartner | Só 10% integram totalmente o planejamento estratégico, financeiro e operacional, e o FP&A gasta 47% do tempo com dados |
+| 2026-10-20 | Leadership Roles | pesquisa | Robert Half Ireland | Em Dublin, mediana inicial de Financial Controller é 124,5 mil e 31% dos empregadores sobem salários para competir |
+| 2026-10-20 | Leadership Roles | pesquisa | Robert Half UK | Reino Unido: 42% dos gestores de finanças pagam acima da faixa e o salário de FP&A Analyst cresce 2,9% (guia 2027) |
+| 2026-10-20 | Controllership | pesquisa | EY | EY 2026: 47% da capacidade de finanças vai para operação e controles, e 61% veem dado ruim como barreira à IA (1.610 CFOs) |
+| 2026-10-20 | Controllership | teórico | Harvard Business School Online | Alavancas de controle de Simons: crenças, fronteiras, diagnóstico e interativo, equilibrando controle e inovação |
+| 2026-10-20 | Finance Automation | pesquisa | Tipalti / Kickstand | Contas a pagar totalmente automatizado sobe de 7% para 31%, mas só 6% com IA agêntica (2.116 profissionais, fornecedor) |
+| 2026-10-20 | Finance Automation | teórico | GOV.UK / DAMA UK | Seis dimensões de qualidade de dados, cinco princípios e ciclo de vida em seis etapas, pré-requisito para automação |
+| 2026-10-20 | Forecasting Methods | estudo de caso | DemandForecast.ai (Pecan AI) | IA bateu a previsão vigente em 15 de 15 implantações, com erro 32% menor em média (fornecedor, amostra não aleatória) |
+| 2026-10-20 | Forecasting Methods | pesquisa | arXiv (Alessio Brini) | Modelos fundacionais não batem a econometria de forma uniforme; a média TTM com Log-HAR fica entre os melhores |
+| 2026-10-20 | Forecasting Methods | teórico | MPRA (Armstrong, Green e Graefe) | Golden Rule: prever de forma conservadora, com 28 diretrizes; seguir uma delas cortou o erro médio em 28% |
+| 2026-10-20 | FP&A Fundamentals | pesquisa | The Health Management Academy | 56% dos CFOs de saúde dos EUA preveem orçamento operacional maior, com margem caindo de 2,2% para 1,3% (32 líderes) |
+| 2026-10-20 | FP&A Fundamentals | teórico | OpenStax (Rice University) | Orçamento de caixa: recebimentos, desembolsos, saldo mínimo e financiamento, com o caso Big Bad Bikes |
+| 2026-10-20 | Integrated Planning | pesquisa | Netstock | Só 3% das PMEs começam a reagir a uma ruptura pelo caixa, e estoque parado acima de 10% dobra para 24% (fornecedor) |
+| 2026-10-20 | Integrated Planning | pesquisa | BearingPoint via Business Wire | Só 8% têm planejamento integrado de ponta a ponta e mais da metade não liga o plano operacional ao financeiro (193 executivos) |
+| 2026-10-20 | Integrated Planning | teórico | IDEAS/RePEc (Graves, Management Science) | Planejamento hierárquico de Hax e Meal: agregado e desagregação ligados por consistência; desvio médio de 2,2% do ótimo |
+| 2026-10-20 | Strategic Planning | pesquisa | Gartner via Business Wire | 93% dos CEOs esperam impacto da volatilidade na estratégia até 2027, mas só 24% se dizem preparados (203 CEOs) |
+| 2026-10-20 | Strategic Planning | teórico | Saylor Academy | Mintzberg e Waters: estratégia pretendida, deliberada, emergente, não realizada e realizada, com o caso FedEx |
+| 2026-10-20 | Leadership Roles | estatística | InfoMoney / Russell Reynolds | No Brasil, 40% das cadeiras de CFO trocaram de ocupante e o mandato médio é de 4,5 anos, contra 6,5 no mundo |
+| 2026-10-20 | Leadership Roles | teórico | Revista de Contabilidad (Elsevier) | Caso Guinness (1920 a 1945): o CFO evoluiu aos poucos a partir de escrituração, informação e tesouraria |
+| 2026-10-20 | Organization | conclusão | CFO Dive / Gartner / Datarails | Crescimento de quadro esperado cai de 6% para 2% (Gartner); 60% realocam o time para trabalho de mais valor e 3% cortam |
+| 2026-10-20 | Organization | teórico | APQC | PCF da APQC: 13 categorias em 5 níveis; finanças (9.0) tem 11 grupos de processos, base para escopo de CSC |

@@ -141,3 +141,13 @@ Data de coleta: 2026-10-20
 Fonte: KPMG Dinamarca, "Finance Strategy and Target Operating Model", e KPMG Reino Unido, "Target Operating Model" (sem data, copyright 2026).
 Link: https://kpmg.com/dk/en/services/finance-transformation/finance-strategy-and-target-operating-model.html e https://kpmg.com/uk/en/services/consulting/powered-enterprise/target-operating-model.html
 Data de coleta: 2026-10-20
+
+Segundo o Gartner, citado pela CFO Dive, os CFOs esperam crescer o quadro geral em 2% em 2026, contra 6% um ano antes. Uma pesquisa de sentimento da Datarails mostra que 60% dos CFOs estão realocando a equipe de finanças para trabalho de maior valor enquanto a IA assume tarefas, e só 3% estão cortando quadro onde a IA substituiu trabalho. A confiança na IA segue baixa: 75% citam falta de auditabilidade como obstáculo, 71% se preocupam com precisão e alucinações, e só 5% confiam na IA para relatórios ao conselho sem revisão humana, 4% para o fechamento mensal. Ressalvas: o artigo não traz amostra do Gartner nem da Datarails, que é fornecedora, e o entrevistado é o CEO da Prophix, outro fornecedor.
+Fonte: CFO Dive (Alexei Alexis), "AI can help CFOs expand finance without adding staff: Prophix CEO" (08/10/2026).
+Link: https://www.cfodive.com/news/ai-expand-finance-without-headcount-expansion-prophix-ceo-says/832555/
+Data de coleta: 2026-10-20
+
+[Teórico] O Process Classification Framework (PCF) da APQC é uma taxonomia aberta de processos de negócio, criada em 1992 com mais de 80 organizações como linguagem comum de benchmarking. Tem 13 categorias e mais de 1.000 processos e atividades, separados entre operacionais e de gestão e suporte, em cinco níveis: categoria, grupo de processos, processo, atividade e tarefa. Cada elemento tem um código de cinco dígitos que se mantém mesmo quando a empresa renomeia o processo. A categoria 9.0, Manage Financial Resources, tem 11 grupos: planejamento e contabilidade gerencial, contabilidade de receitas, contabilidade geral e reporte, projetos de ativo fixo, folha, contas a pagar e reembolsos, tesouraria, controles internos, tributos, fundos internacionais e consolidação, e comércio exterior. Na prática, serve para desenhar o escopo de um CSC, atribuir donos de processo e comparar custos. A APQC avisa que a numeração não indica a ordem das atividades. Ressalva: conferida a versão 7.4, hospedada no site da IFRC.
+Fonte: APQC, "Process Classification Framework (PCF), Cross-Industry, Version 7.4" (agosto de 2024).
+Link: https://solutions.ifrc.org/sites/default/files/2024-10/K014750_APQC%20Process%20Classification%20Framework%20(PCF)%20-%20Cross%20Industry%20-%20PDF%20Version%207.4.pdf
+Data de coleta: 2026-10-20

@@ -176,3 +176,18 @@ Data de coleta: 2026-10-20
 Fonte: Wikipedia, "Makridakis Competitions", com base em Makridakis, Spiliotis e Assimakopoulos, International Journal of Forecasting, v. 38, n. 4 (2022).
 Link: https://en.wikipedia.org/wiki/Makridakis_Competitions e https://ideas.repec.org/a/eee/intfor/v38y2022i4p1346-1364.html
 Data de coleta: 2026-10-20
+
+Relatório da Pecan AI compara previsões de demanda feitas por IA com a previsão que cada cliente já usava (estatística, de consenso ou manual) em 15 implantações entre 2022 e 2026, com horizontes de 8 semanas a 36 meses. A IA superou a previsão anterior nas 15, com redução de erro entre 14% e 56% (média de 32%) e queda média de 70% no esforço manual de planejamento. A Rimports passou de MAPE ponderado de 146% para 64%, a Kenvue reduziu o MAPE em 37% no primeiro ano e a Dorman reduziu o MAPE ponderado entre 15% e 20% com mais de 100 mil SKUs. Ressalvas: o próprio relatório admite viés de seleção (pilotos que travaram ficaram de fora), o fornecedor é o mesmo nos 15 casos e cada empresa usa sua métrica de erro.
+Fonte: DemandForecast.ai (Pecan AI), "The Demand Forecasting Accuracy Report 2026: What Happens When AI Forecasts Compete Against Incumbents" (outubro de 2026).
+Link: https://demandforecast.ai/resources/forecast-accuracy-report/
+Data de coleta: 2026-10-20
+
+Preprint de Alessio Brini compara nove modelos fundacionais de séries temporais, usados sem treino específico (zero-shot), com oito especificações econométricas da família HAR na previsão de volatilidade realizada de 50 ativos (ações, câmbio e futuros) em três horizontes. Os modelos fundacionais não trazem ganho uniforme: a vantagem agregada vem de poucos ativos atípicos. Na média por ativo, só o Tiny Time Mixers (TTM) supera o Log-HAR em todos os horizontes, por margem estreita, e a média simples de TTM e Log-HAR fica no conjunto dos melhores modelos em 98% a 100% dos ativos. Para o autor, escolher a arquitetura certa pesa mais que escolher entre IA e econometria. Ressalvas: sem revisão por pares e aplicado a mercado financeiro, não a receita corporativa.
+Fonte: arXiv (Alessio Brini), "Forecasting Realized Volatility with Time Series Foundation Models: A Comparison with Econometric Benchmarks" (06/07/2026).
+Link: https://arxiv.org/abs/2607.05291
+Data de coleta: 2026-10-20
+
+[Teórico] Armstrong, Green e Graefe propõem a "Golden Rule of Forecasting": ser conservador, ou seja, fazer a previsão coerente com todo o conhecimento acumulado sobre passado e presente e usar métodos já validados para a situação. A regra vira um checklist de 28 diretrizes. Na versão de trabalho de 2014, a revisão encontrou 150 comparações experimentais, todas a favor das diretrizes, e seguir uma única diretriz reduziu o erro médio em 28% frente à prática comum, com ganho maior em situações incertas, complexas ou sujeitas a viés. Os autores atribuem o pouco avanço na prática a desconhecimento da pesquisa, viés, estatística sofisticada demais e big data. Ressalvas: números da versão MPRA de 2014; o artigo saiu no Journal of Business Research (v. 68, n. 8, 2015) e recebeu críticas publicadas de Fildes e Petropoulos e de Goodwin.
+Fonte: MPRA (Universidade de Munique), Armstrong, Green e Graefe, "Golden Rule of Forecasting: Be conservative" (versão de 10/02/2014).
+Link: https://mpra.ub.uni-muenchen.de/53579
+Data de coleta: 2026-10-20

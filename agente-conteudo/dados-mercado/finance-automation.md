@@ -326,3 +326,13 @@ Data de coleta: 2026-10-20
 Fonte: MIT OpenCourseWare, curso 16.422 Human Supervisory Control (2004), sobre Parasuraman, Sheridan e Wickens, "A model for types and levels of human interaction with automation", IEEE Transactions on Systems, Man, and Cybernetics, Part A, 30(3), 2000.
 Link: https://ocw.iti.hr/courses/aeronautics-and-astronautics/16-422-human-supervisory-control-of-automated-systems-spring-2004/lecture-notes/020504hmancenter.pdf
 Data de coleta: 2026-10-20
+
+Pesquisa da Kickstand para a Tipalti ouviu 2.116 profissionais de finanças, compras e contas a pagar nos EUA, Reino Unido, Canadá, Alemanha e Holanda, de 3 a 24/08/2026 (margem de erro de 2,1 pontos). 31% descrevem o contas a pagar como totalmente automatizado, contra 7% em 2025, mas só 6% dizem isso com IA agêntica, e nenhuma etapa isolada passa de 37% de automação. Os ganhos citados são economia de tempo (48%) e fechamento mensal mais rápido (30%). O time ainda gasta em média 10 horas por semana com tarefas manuais de contas a pagar, e só 21% estão muito confiantes de que pegariam uma troca fraudulenta de dados de fornecedor. As barreiras são segurança de dados (36%), acurácia das ferramentas (33%) e controle e confiança na IA (30%). Ressalva: pesquisa encomendada por fornecedor de software de contas a pagar.
+Fonte: Tipalti (pesquisa conduzida pela Kickstand), "2026 Global Finance Outlook Index: Research on AP and AI" (atualizado em 15/10/2026).
+Link: https://tipalti.com/blog/global-finance-outlook-index-2026
+Data de coleta: 2026-10-20
+
+[Teórico] O Government Data Quality Framework do governo britânico adota as seis dimensões de qualidade de dados da DAMA UK: completude (registros e valores essenciais preenchidos), unicidade (sem duplicidade), consistência (concordância entre bases), tempestividade (defasagem entre coleta e disponibilidade), validade (faixa e formato esperados) e acurácia (aderência à realidade). Traz cinco princípios, entre eles avaliar a qualidade em todo o ciclo de vida do dado, que tem seis etapas, do planejamento ao arquivamento ou descarte. Como ferramentas, propõe planos de ação, análise de causa raiz em vez de correção temporária e modelos de maturidade. Serve de checklist antes de automatizar conciliação ou colocar agentes em produção. Ressalva: feito para o setor público, e a lista de dimensões pode ser adaptada.
+Fonte: Government Data Quality Hub (GOV.UK), "The Government Data Quality Framework" (03/12/2020).
+Link: https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+Data de coleta: 2026-10-20

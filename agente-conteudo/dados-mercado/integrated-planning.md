@@ -211,3 +211,23 @@ Data de coleta: 2026-10-20
 Fonte: ILOS (Diego de Souza e Luciana Magalhães), "Collaborative planning in the supply chain, CPFR (Part 1)" (10/11/2015).
 Link: https://en.ilos.com.br/planejamento-colaborativo-na-cadeia-de-suprimentos-cpfr-parte-1/
 Data de coleta: 2026-10-20
+
+O artigo da Finance Alliance lista cinco vantagens do xP&A: transparência, alinhamento do negócio, planejamento contínuo, gestão de dados confiável e apoio ao business partnering. Citando a FP&A Trends, só 10% das organizações integram totalmente o planejamento estratégico, financeiro e operacional, 22% não têm integração nenhuma e 68% conectam só duas áreas; as equipes de FP&A gastam em média 47% do tempo coletando e validando dados e 32% gerando insights. Citando o Gartner, 51% dos CFOs põem a precisão do forecast entre as cinco prioridades (mais de 200 CFOs), e 84% das áreas de finanças implementaram ou planejam implementar IA, mas só 7% relatam impacto alto (183 CFOs). Ressalva: todos os dados são secundários e a amostra da FP&A Trends não é informada.
+Fonte: Finance Alliance (Sabrinthia Donnelly e Teresa Garanhel), "5 surprising advantages of extended planning and analysis" (24/09/2026).
+Link: https://www.financealliance.io/5-advantages-xp-a/
+Data de coleta: 2026-10-20
+
+O relatório de referência da Netstock junta dados anônimos de mais de 2.500 clientes com uma enquete de mais de 150 usuários em pequenas e médias empresas com receita abaixo de US$ 250 milhões. Diante de uma ruptura, 60% começam revisando o estoque e os itens em risco, e só 3% começam pelo fluxo de caixa ou pelo capital de giro, sinal de que plano operacional e plano financeiro andam separados. A fatia de empresas com mais de 10% do estoque parado foi de 12% em 2024 para 24% em 2026. Sobre IA no planejamento, 34% não usam nenhuma, 29% estão explorando e só 6% a usam no dia a dia ou de forma plena. Ressalvas: fornecedor, amostra que mistura a própria base de clientes com enquete pequena, e página sem data exata.
+Fonte: Netstock, "Netstock 2026 Benchmark Report: The State of Supply Chain Planning" (2026).
+Link: https://www.netstock.com/research/supply-chain-planning-report/
+Data de coleta: 2026-10-20
+
+O estudo "Next Gen Integrated Planning Excellence in a volatile world", da BearingPoint, ouviu 193 executivos de finanças, operações, supply chain e compras em sete países europeus e oito setores. Só 8% têm planejamento de ponta a ponta totalmente integrado, e cerca de 70% dependem de coordenação informal ou de processos desconectados. Mais da metade não integra o resultado do plano operacional ao plano financeiro, e só 14% têm ferramentas majoritária ou totalmente integradas. Menos de um terço usa forecast rolante, e dois terços pretendem investir em solução de planejamento nos próximos cinco anos. Ressalva: consultoria que vende o serviço, amostra só europeia, divulgado em janeiro de 2026.
+Fonte: BearingPoint via Business Wire, "Why integrated planning is mission-critical for navigating volatility" (27/01/2026).
+Link: https://markets.financialcontent.com/custercountychief/article/bizwire-2026-1-27-why-integrated-planning-is-mission-critical-for-navigating-volatility
+Data de coleta: 2026-10-20
+
+[Teórico] O planejamento hierárquico da produção, de Hax e Meal, divide um plano grande demais em níveis: um plano agregado define a política geral e etapas de desagregação descem esse plano para níveis mais detalhados. Stephen Graves (MIT) separa o problema em plano agregado e desagregação, amarrados por uma condição de consistência de estoque tratada com multiplicadores de Lagrange e ajustada em iterações, que funciona como laço de retorno entre os níveis. Em 36 problemas de teste, a solução nunca ficou mais de 4,4% acima do ótimo, com média de 2,2%. A lição para FP&A e IBP: planos de níveis diferentes só se integram com uma regra explícita de consistência entre o agregado e o detalhe. Ressalva: conferido no resumo do artigo.
+Fonte: Stephen C. Graves, Management Science v. 28, n. 3, "Using Lagrangean Techniques to Solve Hierarchical Production Planning Problems" (março de 1982), via IDEAS/RePEc.
+Link: https://ideas.repec.org/a/inm/ormnsc/v28y1982i3p260-275.html
+Data de coleta: 2026-10-20

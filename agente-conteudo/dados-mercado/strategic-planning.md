@@ -186,3 +186,18 @@ Data de coleta: 2026-10-20
 Fonte: Bloomberg View (Virginia Postrel), "Want to Be the Next Apple? Lose the Bafflegab" (17/08/2011), sobre Richard Rumelt.
 Link: https://www.vpostrel.com/articles/want-to-be-the-next-apple-lose-the-bafflegab
 Data de coleta: 2026-10-20
+
+O 10-K da Peloton do ano fiscal encerrado em 30/06/2024 descreve um plano de reestruturação que corta cerca de 15% do quadro global, aproximadamente 400 pessoas, com meta de reduzir as despesas anualizadas em mais de US$ 200 milhões até o fim do ano fiscal de 2025. Os encargos do plano somaram US$ 41,1 milhões em FY2024, e a empresa previa mais cerca de US$ 40 milhões em caixa e US$ 20 milhões sem efeito caixa. O fluxo de caixa livre melhorou de US$ (470,0) milhões em FY2023 para US$ (85,8) milhões em FY2024. O refinanciamento de maio de 2024 reduziu a dívida em cerca de US$ 200 milhões e estendeu o vencimento médio para 2029, com endividamento total de cerca de US$ 1,5 bilhão. É um caso de reestruturação guiada por meta de custo e de caixa.
+Fonte: Peloton Interactive, Form 10-K na SEC, "pton-20240630" (ano fiscal encerrado em 30/06/2024).
+Link: https://www.sec.gov/Archives/edgar/data/1639825/000163982524000128/pton-20240630.htm
+Data de coleta: 2026-10-20
+
+A pesquisa CEO Survey 2027 do Gartner ouviu 203 CEOs e executivos seniores do mundo todo em abril e maio de 2026. Para 80%, a tecnologia já virou a própria estratégia; 62% põem o crescimento de receita entre as prioridades e 75% vão aumentar o investimento em tecnologia, mas 44% têm dificuldade de provar retorno financeiro da IA. 93% esperam impacto alto ou médio da volatilidade econômica nos objetivos estratégicos até 2027, mas só 24% se dizem preparados; para conflitos persistentes, são 79% contra 11%, e para a industrialização da IA, 77% contra 20%. Como resposta, 63% apontam redesenhar a fundo o modelo operacional e 47% liberar ou realocar capital por reestruturação. Ressalva: amostra pequena; texto do comunicado do Gartner reproduzido pela Business Wire.
+Fonte: Gartner via Business Wire (StockTitan), "Gartner Says 44% of CEOs Struggle to Demonstrate AI Financial Returns as Technology Becomes Central to Growth" (20/10/2026).
+Link: https://www.stocktitan.net/news/IT/gartner-says-44-of-ce-os-struggle-to-demonstrate-ai-financial-d33q593611yh.html
+Data de coleta: 2026-10-20
+
+[Teórico] Com base em Mintzberg e Waters (1985, Strategic Management Journal), há cinco ideias de estratégia. Pretendida: o plano formal. Deliberada: a parte do plano que a empresa segue ao longo do tempo. Emergente: a direção não planejada, tomada diante de oportunidades e problemas inesperados. Não realizada: o que é abandonado. Realizada: o que a empresa de fato faz, combinação das anteriores. Os exemplos são o modelo de hub da FedEx, que sobreviveu como estratégia deliberada, e o ZapMail, que falhou e custou centenas de milhões de dólares. Para quem planeja, a lição é medir quanto do plano virou realidade e institucionalizar o aprendizado das apostas emergentes.
+Fonte: Saylor Academy, livro aberto Mastering Strategic Management, "1.2 Intended, Emergent, and Realized Strategies".
+Link: https://saylordotorg.github.io/text_mastering-strategic-management/s05-02-intended-emergent-and-realized.html
+Data de coleta: 2026-10-20

@@ -206,3 +206,23 @@ Data de coleta: 2026-10-20
 Fonte: Treasury Management International (Jessica Amarachi Oku), "Treasurer vs Controller" (15/07/2026).
 Link: https://treasury-management.com/articles/treasurer-vs-controller
 Data de coleta: 2026-10-20
+
+A Robert Half ouviu 200 gestores de contratação em Dublin e Grande Dublin em agosto de 2025, divididos igualmente entre finanças e contabilidade, TI e suporte administrativo. 31% dos empregadores estão aumentando salários para continuar competitivos, 28% dão reajuste igual a todos e 24% apontam o mérito como principal critério para 2026. A mediana do salário inicial é 124.500 para Financial Controller (percentis 25 e 75 de 100.000 e 137.000), 92.000 para Finance Business Partner e 261.500 para CFO (192.250 e 308.000). Ressalva: salário inicial sem bônus, moeda não indicada na página e sem dados de FP&A ou Financial Analyst.
+Fonte: Robert Half Ireland, "2026 Ireland Finance and Accounting Salary Guide and Survey".
+Link: https://www.roberthalf.com/ie/en/insights/salary-guide/finance-and-accounting
+Data de coleta: 2026-10-20
+
+A Robert Half ouviu 1.500 pessoas no Reino Unido (500 gestores de contratação e 1.000 profissionais) em empresas com 20 ou mais funcionários. Entre os gestores de finanças e contabilidade, 42% oferecem salário acima da faixa planejada para atrair talentos; desses, 67% citam a necessidade de habilidades especializadas e 36% pagam a mais por domínio de IA generativa. O salário médio de finanças e contabilidade cresce 1,4%, e o de FP&A Analyst, 2,9%. Ressalva: a URL da edição 2026 hoje mostra o guia de 2027, que é o conteúdo conferido; a página não informa as datas da pesquisa.
+Fonte: Robert Half UK, "2027 UK Finance and Accounting Salary Guide and Survey" (substituiu a edição 2026 no mesmo endereço).
+Link: https://roberthalf.com/gb/en/insights/salary-guide/finance-and-accounting
+Data de coleta: 2026-10-20
+
+Pesquisa global da Russell Reynolds Associates citada pela InfoMoney: cerca de 40% das posições de CFO no Brasil mudaram de ocupante, e o CFO brasileiro fica em média 4,5 anos no cargo, contra 6,5 anos na média global. No Brasil, 70% dos diretores financeiros ficam menos de cinco anos na função e só 12% passam de uma década. Entre os novos CFOs brasileiros, 65% já tinham ocupado o cargo antes, e 13% das transições analisadas terminaram com o CFO promovido a CEO. As mulheres são 14% dos CFOs das empresas do Novo Mercado. Ressalva: o texto não informa amostra, período nem metodologia.
+Fonte: InfoMoney, com dados da Russell Reynolds Associates, "Os CFOs nunca mudaram tanto de emprego. E isso revela uma transformação silenciosa" (18/07/2026).
+Link: https://www.infomoney.com.br/carreira/os-cfos-nunca-mudaram-tanto-de-emprego-e-isso-revela-uma-transformacao-silenciosa/
+Data de coleta: 2026-10-20
+
+[Teórico] Estudo com o arquivo da Guinness em Dublin (1920 a 1945) contesta a tese de Zorn (2004) de que o CFO surgiu de repente por pressão externa; Zorn situa o termo em 1966 e mostra a fatia de grandes empresas americanas com o cargo indo de quase zero no início dos anos 1960 a mais de 80% no fim dos anos 1990. Os autores leram cerca de 1.700 páginas do Trade Ledger, 1.100 do Red Ledger e 200 dos arquivos do contador-chefe e identificam três conjuntos de práticas do cargo: supervisão da escrituração, provedor de informação ("scorekeeper") e tesouraria e risco (caixa, investimentos, imóveis e seguros). O departamento tinha em média 60 pessoas, cerca de 10 gestores e 50 auxiliares, e o contador-chefe assessorava o conselho sem fazer parte dele. Conclusão: o papel do CFO evoluiu aos poucos a partir dessas práticas. Ressalva: estudo de caso único.
+Fonte: Martínez Franco, Feeney, Quinn e Hiebl, Revista de Contabilidad (Spanish Accounting Review, Elsevier), "Position practices of the present-day CFO: A reflection on historic roles at Guinness, 1920-1945" (vol. 20, 2017).
+Link: https://www.elsevier.es/es-revista-revista-contabilidad-spanish-accounting-review-368-articulo-position-practices-present-day-cfo-a-S1138489116300036
+Data de coleta: 2026-10-20

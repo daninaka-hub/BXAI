@@ -146,3 +146,13 @@ Data de coleta: 2026-10-20
 Fonte: OpenStax, Principles of Managerial Accounting, "7.1 Describe How and Why Managers Use Budgets" (livro-texto, sem data na página).
 Link: https://openstax.org/books/principles-managerial-accounting/pages/7-1-describe-how-and-why-managers-use-budgets
 Data de coleta: 2026-10-20
+
+Pesquisa trimestral com 32 CFOs e líderes financeiros de sistemas de saúde dos EUA com receita anual acima de US$ 750 milhões: 56% projetam alta do orçamento operacional nos próximos 12 meses, 21 pontos acima do ano anterior, e 28% esperam redução. As margens operacionais agregadas das instituições sem fins lucrativos caíram de 2,2% para 1,3% nos últimos três trimestres. Mão de obra e medicamentos aparecem com 88% cada entre os custos de impacto negativo esperado, e suprimentos com 78%; 78% planejam cortar viagens e enfermagem terceirizada. Ressalva: amostra pequena, de um único setor e só de grandes sistemas norte-americanos.
+Fonte: The Health Management Academy, "Q3 2026 Healthcare Trends: Finance and Budgeting Survey" (11/09/2026).
+Link: https://hmacademy.com/insights/video-archive/q3-2026-healthcare-trends-finance-and-budgeting-survey
+Data de coleta: 2026-10-20
+
+[Teórico] O livro aberto da OpenStax organiza os orçamentos financeiros em três peças, nesta ordem: orçamento de capital (o gasto com ativos alimenta o caixa), orçamento de caixa (todas as entradas e saídas em períodos curtos, mensais ou trimestrais, para antecipar falta de caixa) e balanço projetado (que usa o saldo final de caixa). O orçamento de caixa reúne recebimentos a partir do cronograma de cobrança, desembolsos sem depreciação, um saldo mínimo exigido e a necessidade de financiamento, com a linha de crédito como reserva. No exemplo da Big Bad Bikes, 65% das vendas são recebidas no trimestre, 30% no seguinte e 5% viram perda; com saldo mínimo de US$ 10.000 e linha de crédito a 19%, a empresa toma US$ 21.943, devolve US$ 22.897 com juros e o caixa vai de US$ 13.000 para US$ 36.443 no ano.
+Fonte: OpenStax (Rice University), Principles of Accounting, Volume 2: Managerial Accounting, "7.3 Prepare Financial Budgets".
+Link: https://openstax.org/books/principles-managerial-accounting/pages/7-3-prepare-financial-budgets
+Data de coleta: 2026-10-20

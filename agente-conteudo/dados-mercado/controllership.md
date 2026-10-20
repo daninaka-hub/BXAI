@@ -326,3 +326,18 @@ Data de coleta: 2026-10-20
 Fonte: Cornell University, Division of Financial Services, "DFS Transaction Cycle Narrative: Account Reconciliations" (atualizado em 21/08/2024).
 Link: https://finance.cornell.edu/sites/default/files/account-reconciliation-narrative.pdf
 Data de coleta: 2026-10-20
+
+Artigo de revisão analisa o papel dos controles internos contra fraude a partir do COSO 2013 e do Triângulo da Fraude de Cressey (1953), com os casos Enron (2001), WorldCom (2002) e Wirecard (2020). Na WorldCom, despesas operacionais foram lançadas como investimento de capital, numa fraude de cerca de US$ 11 bilhões favorecida pela falta de segregação de funções. Na Wirecard, receitas e ativos foram inflados em mais de 1,9 bilhão de euros, e a auditoria da EY não confirmou de forma independente os saldos de caixa. As recomendações são segregação de funções, monitoramento de transações em tempo real, comitês de auditoria independentes e com domínio de finanças, e rodízio de auditores. Ressalva: texto de mestranda, revisão de literatura sem dado primário; os valores vêm das fontes citadas.
+Fonte: G. M. Ganbarova, TIM Jurnal (Azerbaijan State University of Economics), "The Role of Internal Controls in Detecting and Preventing Fraud: Evidence from Recent Audit Failures" (edição 2025 nº 2).
+Link: https://doi.org/10.58225/tim.2025-2-93-103
+Data de coleta: 2026-10-20
+
+A pesquisa DNA of the CFO 2026 da EY ouviu 1.610 CFOs e chefes de finanças em 28 países, todos de organizações com pelo menos US$ 1 bilhão de receita ou ativos (campo de 16/02 a 30/03/2026). Em média, 47% da capacidade do time de finanças vai para tarefas operacionais como regulação, reporte, controles internos e processos centrais. Só 15% dizem que finanças é vista como função de controle, contra 27% que a veem como parceira estratégica. Dado ruim ou enviesado é a maior barreira ao investimento em IA (61%), e só 21% classificam a prontidão da área para IA como avançada ou líder. Ressalva: pesquisa de consultoria, só com grandes empresas, publicada em junho.
+Fonte: EY, "The CFO Imperative: Will the future of finance be shaped by talent or technology?" (2026 EY Global DNA of the CFO Survey, 03/06/2026).
+Link: https://www.ey.com/en_us/insights/finance/dna-of-the-cfo-survey
+Data de coleta: 2026-10-20
+
+[Teórico] O modelo Levers of Control, de Robert Simons (Harvard Business School, livro de 1995), divide o controle gerencial em quatro sistemas. Crenças: missão e valores que dão direção comum. Fronteiras: o que não fazer, como códigos de conduta e oportunidades fora da estratégia. Controle diagnóstico: sistemas formais que medem resultado contra meta, como scorecards, e deixam atividades-chave no piloto automático. Controle interativo: os gestores se envolvem pessoalmente nas decisões ligadas às incertezas estratégicas, que definem onde a atenção da gestão deve ficar. A recomendação é equilibrar controle e inovação: controle demais trava grandes organizações, controle de menos expõe as jovens. Ressalva: artigo de divulgação da HBS Online sobre o livro, não o texto original.
+Fonte: Harvard Business School Online (Kate Gibson), "Levers of Control: What They Are & How They Impact Your Strategy" (09/01/2024).
+Link: https://online.hbs.edu/blog/post/levers-of-control
+Data de coleta: 2026-10-20

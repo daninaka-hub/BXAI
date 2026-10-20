@@ -7,26 +7,26 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | # | Fonte | Prioridade | Status |
 |---|---|---|---|
 | 1 | 10 Best Accounting AI Consultants for CPA Firms (2026) - negodiuk.ai | Alta | Descartado |
-| 2 | 11 corporate finance influencers to follow in 2026 - Rydoo | Baixa | Pendente |
+| 2 | 11 corporate finance influencers to follow in 2026 - Rydoo | Baixa | Descartado |
 | 3 | 18 AI Tools for Accounting and Finance - Vic.ai | Alta | Processado |
 | 4 | 2025 CFO Leadership Perspectives - Gartner C-level Communities | Alta | Processado |
-| 5 | 2025 Controller of the Year Awards - Winners Announced | Baixa | Pendente |
+| 5 | 2025 Controller of the Year Awards - Winners Announced | Baixa | Descartado |
 | 6 | 2025 Gartner Magic Quadrant for Financial Planning Software - CFO Shortlist | Alta | Processado |
 | 7 | 2025 Gartner Critical Capabilities for Financial Planning Software - Jedox | Alta | Processado |
 | 8 | 2025 Gartner Magic Quadrant for Financial Planning Software - Vena Solutions | Alta | Descartado |
 | 9 | 2026 AI Business Predictions - PwC | Alta | Processado |
 | 10 | 2026 Finance Leader's Guide to FP&A - OneStream Software | Alta | Descartado |
 | 11 | 2026 Finance and Accounting Salaries and Compensation Trends - Robert Half | Alta | Processado |
-| 12 | 2026 Ireland Finance and Accounting Salary Guide and Survey - Robert Half | Baixa | Pendente |
-| 13 | 2026 UK Finance and Accounting Salary Guide and Survey - Robert Half | Baixa | Pendente |
+| 12 | 2026 Ireland Finance and Accounting Salary Guide and Survey - Robert Half | Baixa | Processado |
+| 13 | 2026 UK Finance and Accounting Salary Guide and Survey - Robert Half | Baixa | Processado |
 | 14 | 2026: The year of Agentic AI, and a new era for finance - Lloyds Banking Group | Alta | Processado |
-| 15 | 45+ FP&A interview questions to find the right candidate - HiBob | Baixa | Pendente |
-| 16 | 48 Results for Financial Planning Analysis Manager Jobs in Metuchen, NJ | Baixa | Pendente |
+| 15 | 45+ FP&A interview questions to find the right candidate - HiBob | Baixa | Descartado |
+| 16 | 48 Results for Financial Planning Analysis Manager Jobs in Metuchen, NJ | Baixa | Descartado |
 | 17 | 6 Lessons Learned From The Target Canada Supply Chain Failure - Panorama Consulting | Alta | Processado |
-| 18 | 6 Strategic Planning Manager Interview Questions and Answers - Himalayas | Baixa | Pendente |
+| 18 | 6 Strategic Planning Manager Interview Questions and Answers - Himalayas | Baixa | Descartado |
 | 19 | 7 Best Financial Close Software Tools for 2026 - Bluecopa | Alta | Descartado |
 | 20 | A Comprehensive Guide to SOX Compliance in 2025 - Pathlock | Alta | Processado |
-| 21 | A day in the life of a FP&A manager - Robert Walters USA | Baixa | Pendente |
+| 21 | A day in the life of a FP&A manager - Robert Walters USA | Baixa | Descartado |
 | 22 | ACCELERATING PROFITABLE GROWTH - UPL | Alta | Processado |
 | 23 | AFP FP&A Guide to Driver-based Models and Plans | Alta | Processado |
 | 24 | AI Agent Governance Policy for Finance: 2026 Practitioner Walkthrough - Finrep Blog | Alta | Descartado |
@@ -34,7 +34,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 26 | AI Agents for Financial Close: Complete Automation Guide for Controllers - Peakflo Blog | Alta | Processado |
 | 27 | AI Agents in Finance - IBM | Alta | Processado |
 | 28 | AI Automation ROI Benchmark Report 2026 - Alice Labs | Alta | Processado |
-| 29 | AI Certification for Finance and Accounting Professionals | Baixa | Pendente |
+| 29 | AI Certification for Finance and Accounting Professionals | Baixa | Descartado |
 | 30 | AI Financial Reporting & Internal Controls | Alta | Descartado |
 | 31 | AI Governance Architecture in Corporate Controllership, FP&A, and Planning Processes | Alta | Descartado |
 | 32 | AI Governance Framework for Finance Teams: Building Controls Around AI - Modus | Alta | Processado |
@@ -52,10 +52,10 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 44 | AI use in controllership roles to double, Deloitte survey says - The Accountant Online | Alta | Processado |
 | 45 | About Finance Agentic AI - Governance Frameworks for Enterprise Finance | Alta | Processado |
 | 46 | Accounting Automation and the Future of Controllership - Deloitte US | Alta | Processado |
-| 47 | Ace Your FP&A Leader Interview: Sample Questions and Tips for Success - Vareto | Baixa | Pendente |
-| 48 | Aciona | Baixa | Pendente |
+| 47 | Ace Your FP&A Leader Interview: Sample Questions and Tips for Success - Vareto | Baixa | Descartado |
+| 48 | Aciona | Baixa | Descartado |
 | 49 | Agentic AI and the future of work in financial services - Accenture Banking Blog | Alta | Processado |
-| 50 | Agentic AI consulting services from Argano | Baixa | Pendente |
+| 50 | Agentic AI consulting services from Argano | Baixa | Descartado |
 | 51 | Agentic AI for Finance and Accounting: Key Use Cases & Tips - Auxis | Alta | Processado |
 | 52 | Agentic AI in Accounting: How AI Finance Agents Are Transforming Enterprise Teams - Vic.ai | Alta | Descartado |
 | 53 | Agentic AI in Finance and Accounting: The 2026 CFO Guide - assistents.ai | Alta | Processado |
@@ -75,8 +75,8 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 67 | BlackLine Guide 2026: Close Automation - CFO Shortlist | Alta | Processado |
 | 68 | BlackLine vs FloQast Compared - ChatFin | Alta | Processado |
 | 69 | BlackLine vs Vic.ai (2026): Best in AI Invoicing - AI Central Resources | Alta | Descartado |
-| 70 | Blog | Carbonly.ai | Baixa | Pendente |
-| 71 | Board of Directors - Association for Financial Professionals (AFP) | Baixa | Pendente |
+| 70 | Blog | Carbonly.ai | Baixa | Descartado |
+| 71 | Board of Directors - Association for Financial Professionals (AFP) | Baixa | Descartado |
 | 72 | Business Partnering Guide for Introverts - FP&A Trends | Alta | Processado |
 | 73 | CEO WORLD: If Your CFO Isn't Driving Strategy, You Hired a Chief Accounting Officer | Alta | Processado |
 | 74 | CFO 100-Day Plan: Establish the Facts First - Finance Value Score | Alta | Processado |
@@ -88,14 +88,14 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 80 | COSO aligns AI governance with internal control guidance - RSM US | Alta | Processado |
 | 81 | COSO internal control framework: What it is & how to use it - Diligent | Alta | Descartado |
 | 82 | COSO's enterprise risk management framework - ACCA Global | Alta | Processado |
-| 83 | CPA vs CIA India 2026: Which Audit Credential Fits You - Board360 | Baixa | Pendente |
+| 83 | CPA vs CIA India 2026: Which Audit Credential Fits You - Board360 | Baixa | Descartado |
 | 84 | Campfire Implementation Partner | AI-Native ERP - Zanovoy | Alta | Descartado |
 | 85 | Case Study: How To Transform Your FP&A Team and Move Towards Advanced FP&A | Alta | Processado |
 | 86 | Case Study: Strengthening FP&A Processes and Benchmarking for a Leading Life Insurer | Alta | Descartado |
 | 87 | Celebrating 3 Years as a Leader in the Gartner Financial Planning Magic Quadrant | Alta | Descartado |
 | 88 | Certinia CFO-CIO lays the groundwork for growth | Alta | Processado |
-| 89 | Chartered Accountant - RTR - SSC - Finance Controller Job in VENKAT TECH GLOBAL SOLUTIONS | Baixa | Pendente |
-| 90 | Chief Financial Officer job in Bangladesh apparel manufacturing | Baixa | Pendente |
+| 89 | Chartered Accountant - RTR - SSC - Finance Controller Job in VENKAT TECH GLOBAL SOLUTIONS | Baixa | Descartado |
+| 90 | Chief Financial Officer job in Bangladesh apparel manufacturing | Baixa | Descartado |
 | 91 | Comprehensive Analysis of AI Adoption in FP&A, Controllership, and Financial Governance: Operational Dynamics, Control Erosion, and Compliance Architectures | Alta | Descartado |
 | 92 | Controladoria e FP&A - Trilha Consultoria e Auditoria | Alta | Descartado |
 | 93 | Controller of the Year Awards - Controllers Council | Baixa | Pendente |
@@ -294,6 +294,6 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 286 | Zillow Offers' US$500 Million AI Failure | Alta | Processado |
 | 287 | business controller vs financial controller: understanding the key differences - Randstad | Alta | Processado |
 | 288 | ck prahalad award past winners - Corporate Eco Forum | Baixa | Pendente |
-| 289 | https://doi.org/10.58225/tim.2025-2-93-103 G.M.Ganbarova master student, Azerbaijan State University of Economics | Alta | Pendente |
-| 290 | pton-20240630 - SEC.gov | Alta | Pendente |
-| 291 | xP&A: 5 advantages of extended planning and analysis - Finance Alliance | Alta | Pendente |
+| 289 | https://doi.org/10.58225/tim.2025-2-93-103 G.M.Ganbarova master student, Azerbaijan State University of Economics | Alta | Processado |
+| 290 | pton-20240630 - SEC.gov | Alta | Processado |
+| 291 | xP&A: 5 advantages of extended planning and analysis - Finance Alliance | Alta | Processado |
