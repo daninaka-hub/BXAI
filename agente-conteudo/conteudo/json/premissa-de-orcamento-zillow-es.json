@@ -187,7 +187,7 @@
     },
     {
       "type": "paragraph",
-      "content": "En Zillow, las tres respuestas habrían necesitado un lugar fijo, junto a la cifra que cada una explica. En BudgetXpert, ese lugar es el propio supuesto. Con BudgetXpert, Zillow habría notado a tiempo que el supuesto envejecía, porque cada supuesto tiene un dueño, la razón queda registrada en la celda y el ciclo del presupuesto baja de 5 meses a 2."
+      "content": "En Zillow, las tres respuestas habrían necesitado un lugar fijo, junto a la cifra que cada una explica. En BudgetXpert, ese lugar es el propio supuesto. Con BudgetXpert, Zillow habría notado a tiempo que el supuesto envejecía, porque cada supuesto tiene un dueño, la razón queda registrada en la celda y la revisión del presupuesto es mensual."
     },
     {
       "type": "table",
@@ -210,7 +210,7 @@
         [
           "¿Cuándo se revisará?",
           "Ningún disparador para comprobar el supuesto cuando el mercado se enfrió, a mediados de 2021",
-          "El ciclo del presupuesto baja de 5 meses a 2. Revisar pasa a ser un ritual del mes, con dueño y razón ya registrados"
+          "La revisión del presupuesto es mensual. Pasa a ser un ritual del mes, con dueño y razón ya registrados"
         ]
       ]
     },

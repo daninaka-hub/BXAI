@@ -187,7 +187,7 @@
     },
     {
       "type": "paragraph",
-      "content": "At Zillow, the three answers would have needed a fixed place, next to the number each one explains. In BudgetXpert, that place is the assumption itself. With BudgetXpert, Zillow would have noticed in time that the assumption was aging, because every assumption has an owner, the reason stays recorded in the cell and the budget cycle drops from 5 months to 2."
+      "content": "At Zillow, the three answers would have needed a fixed place, next to the number each one explains. In BudgetXpert, that place is the assumption itself. With BudgetXpert, Zillow would have noticed in time that the assumption was aging, because every assumption has an owner, the reason stays recorded in the cell and the budget review is monthly."
     },
     {
       "type": "table",
@@ -210,7 +210,7 @@
         [
           "When will it be reviewed?",
           "No trigger to check the assumption when the market cooled in mid-2021",
-          "The budget cycle drops from 5 months to 2. Reviewing becomes a monthly ritual, with owner and reason already recorded"
+          "The budget review is monthly. It becomes a ritual of the month, with owner and reason already recorded"
         ]
       ]
     },

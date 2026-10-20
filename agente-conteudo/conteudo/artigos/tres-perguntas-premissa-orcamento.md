@@ -68,13 +68,13 @@ O que protege a empresa é outra coisa: alguém perceber quando a premissa deixa
 
 ## Como a BudgetXpert faria diferente
 
-Na Zillow, as três respostas precisariam de um lugar fixo, junto do número que cada uma explica. Na BudgetXpert, esse lugar é a própria premissa. Com a BudgetXpert, a Zillow teria percebido a tempo que a premissa envelhecia, pois cada premissa tem dono, a razão fica registrada na célula e o ciclo do orçamento cai de 5 para 2 meses.
+Na Zillow, as três respostas precisariam de um lugar fixo, junto do número que cada uma explica. Na BudgetXpert, esse lugar é a própria premissa. Com a BudgetXpert, a Zillow teria percebido a tempo que a premissa envelhecia, pois cada premissa tem dono, a razão fica registrada na célula e a revisão do orçamento é mensal.
 
 | Pergunta | O que faltou na Zillow | O que a BudgetXpert faz |
 |---|---|---|
 | Quem definiu esse número? | Não há registro de alguém encarregado de conferir a premissa depois que a estimativa virou oferta | Cada premissa tem um dono. Só quem tem permissão altera o valor |
 | Com que critério? | A checagem independente saiu e a meta de volume passou a definir as ofertas | A razão e a discussão ficam na célula, junto do número |
-| Quando será revisto? | Nenhum gatilho para conferir a premissa quando o mercado esfriou, em meados de 2021 | O ciclo do orçamento cai de 5 para 2 meses. A revisão vira ritual do mês, com dono e razão já registrados |
+| Quando será revisto? | Nenhum gatilho para conferir a premissa quando o mercado esfriou, em meados de 2021 | A revisão do orçamento é mensal. Vira ritual do mês, com dono e razão já registrados |
 
 Mais em [budgetxpert.ai](https://www.budgetxpert.ai).
 
