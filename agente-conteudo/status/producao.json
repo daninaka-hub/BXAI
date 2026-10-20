@@ -46,23 +46,23 @@
  "5": {
   "titulo": "Comparar o real de cada gestor com o orçamento estático mistura o volume que ele não controla com o gasto que ele controla e por isso premia e pune as pessoas erradas.",
   "etapas": {
-   "escrita": "andamento",
-   "revisao": "pendente",
+   "escrita": "ok",
+   "revisao": "andamento",
    "github": "pendente",
    "pagina": "pendente"
   },
   "msg": "",
-  "quando": "2026-10-20T11:03-03:00"
+  "quando": "2026-10-20T11:14-03:00"
  },
  "6": {
   "titulo": "A estimativa de quem vai executar o plano sai otimista mesmo quando é honesta, por isso a margem de erro do orçamento precisa vir do resultado de casos parecidos e não da conta do próprio projeto.",
   "etapas": {
-   "escrita": "andamento",
-   "revisao": "pendente",
+   "escrita": "ok",
+   "revisao": "andamento",
    "github": "pendente",
    "pagina": "pendente"
   },
   "msg": "",
-  "quando": "2026-10-20T11:03-03:00"
+  "quando": "2026-10-20T11:14-03:00"
  }
 }
