@@ -98,7 +98,11 @@ def descartar(codigo, motivo=""):
                 return f"Nada a fazer: o Artigo {codigo} já está descartado."
             definir_status(codigo, "Descartado")
             m = _registrar_reprovado("-", f"Artigo {codigo} (descartado)", c[1], motivo)
-            return f"Artigo {codigo} descartado. Motivo: {m}. Os arquivos continuam no repositório e o Head não repete o tema."
+            # Reposição: artigo descartado abre uma vaga para o Head manter o ritmo de publicação
+            nova = [_agora().strftime("%Y-%m-%d"), "1", "A definir", "A definir", "A definir", "A definir", "A definir", "Reposição"]
+            with (CONT / "decisoes-pauta.md").open("a", encoding="utf-8") as f:
+                f.write("| " + " | ".join(nova) + " |\n")
+            return f"Artigo {codigo} descartado. Motivo: {m}. Os arquivos continuam no repositório e o Head monta um briefing substituto."
     return "Artigo não encontrado."
 
 def definir_status(codigo, novo):
