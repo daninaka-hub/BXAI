@@ -27,9 +27,29 @@ painel() {
 falha() { echo "FALHA: $1" | tee -a "$LOG"; painel falhou "$1"; notificar "$AGENTE falhou" "$1"; exit 1; }
 
 case "$AGENTE" in
-  pesquisador|head) ;;
-  *) echo "uso: $0 pesquisador|head"; exit 2 ;;
+  pesquisador|head|reposicao) ;;
+  *) echo "uso: $0 pesquisador|head|reposicao"; exit 2 ;;
 esac
+
+# Reposição roda a cada minuto, mas só age quando há vaga aberta no GitHub e a última tentativa não falhou há menos de 30 min
+if [ "$AGENTE" = "reposicao" ]; then
+  [ -d "$REPO/.git" ] || exit 0
+  git -C "$REPO" fetch -q origin 2>/dev/null || exit 0
+  git -C "$REPO" show origin/main:agente-conteudo/conteudo/decisoes-pauta.md 2>/dev/null | grep -q '| Reposição' || exit 0
+  git -C "$REPO" show origin/main:agente-conteudo/status/reposicao.json 2>/dev/null | python3 -c 'import sys,json,datetime as d
+try:
+    s=json.load(sys.stdin)
+    t=d.datetime.fromisoformat(s["quando"])
+    sys.exit(0 if s["resultado"]=="falhou" and (d.datetime.now().astimezone()-t).total_seconds()<1800 else 1)
+except Exception:
+    sys.exit(1)' && exit 0
+fi
+# Um agente por vez no clone ~/BXAI (o Head e a reposição mexem nos mesmos arquivos)
+LOCK="$HOME/.bxai-repo.lock"
+[ -d "$LOCK" ] && [ -n "$(find "$LOCK" -maxdepth 0 -mmin +60 2>/dev/null)" ] && rmdir "$LOCK" 2>/dev/null
+for _ in $(seq 1 60); do mkdir "$LOCK" 2>/dev/null && break; sleep 10; done
+[ -d "$LOCK" ] || exit 0
+trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 echo "=== $(date '+%d/%m/%Y %H:%M:%S') início: $AGENTE ===" >> "$LOG"
 

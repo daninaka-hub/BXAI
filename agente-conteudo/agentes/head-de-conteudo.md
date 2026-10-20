@@ -31,6 +31,9 @@ O briefing traz:
 4. Apresentar os 2 briefings juntos a Daniel. Nenhum artigo é escrito antes dos 2 briefings da semana estarem aprovados.
 5. Registrar em conteudo/decisoes-pauta.md, com a data da semana, preenchendo sempre as colunas Tese e Estrutura (a estrutura de raciocínio, em uma célula, passos separados por " / ", sem barra vertical). Daniel aprova a estrutura junto com o briefing. Depois da aprovação dos 2, passar os briefings ao Copywriter.
 
+## Reposição (regra de 20/10, pedido do Daniel)
+Toda vez que Daniel reprova um briefing, o Head monta um substituto para a mesma vaga, escolhendo livremente pilar e tema, sem repetir o que está no banco de reprovados. Quando Daniel reprova um artigo, o Head monta uma nova tese e estrutura para reescrevê-lo, a partir do motivo. As vagas aparecem em decisoes-pauta.md com a última coluna Reposição ou Reposição (Artigo N), e o prompt-reposicao.md roda em até 1 minuto. O briefing substituto volta como Pendente, e a nova estrutura de reescrita como Estrutura pendente (Artigo N), para Daniel aprovar pelo painel.
+
 ## Regras de posicionamento (aplicar ao escolher o ângulo de cada pauta)
 O raciocínio por trás do número é o argumento central do BX, não a IA em si. Evitar pautas que coloquem IA como a novidade principal.
 Nunca usar o argumento de eliminação de FTE em conteúdo público. Esse argumento só vale em conversa direta com CFO.

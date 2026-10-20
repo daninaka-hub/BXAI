@@ -20,6 +20,7 @@ def botao_reprovar(titulo, corpo):
 AGENTES = {
     "pesquisador": ("Pesquisador", "todo dia às 7h"),
     "head": ("Head de Conteúdo", "segundas às 8h"),
+    "reposicao": ("Head de Conteúdo, reposição", "em até 1 minuto depois de uma reprovação"),
     "copywriter": ("Copywriter", "a cada 30 min, só quando há briefing aprovado"),
 }
 
@@ -124,7 +125,7 @@ def lint_agentes():
     sh_txt = (aqui / "rodar-agente.sh").read_text(encoding="utf-8")
     m = re.search(r'--allowedTools "([^"]+)"', sh_txt)
     liberados = re.findall(r"Bash\(([^)]+)\)", m.group(1)) if m else []
-    alvos = {"prompt-pesquisador.md": liberados, "prompt-head.md": liberados, "prompt-copywriter.md": []}
+    alvos = {"prompt-pesquisador.md": liberados, "prompt-head.md": liberados, "prompt-reposicao.md": liberados, "prompt-copywriter.md": []}
     erros = []
     for nome, libs in alvos.items():
         arq = aqui / nome
@@ -141,6 +142,8 @@ def lint_briefings():
     """Confere todos os briefings de decisoes-pauta.md contra as regras do Head. Devolve a lista de problemas."""
     erros = []
     for _, c in tabela(CONT / "decisoes-pauta.md"):
+        if c[-1].startswith("Reposição"):
+            continue
         rot = f"semana {c[0]} artigo {c[1]}"
         for i, cel in enumerate(c):
             if re.search(r"[\u2014\u2013]", cel):
@@ -182,6 +185,8 @@ def aprovar(titulo, corpo=""):
     if m:
         num, semana, reescrita = m.group(2), m.group(4), bool(m.group(3))
         for ln, c in tabela(CONT / "decisoes-pauta.md"):
+            if c[-1] == "Reprovado":
+                continue
             achou = re.search(rf"Estrutura pendente \(Artigo {num}\)", c[-1]) if reescrita else c[1] == num
             if c[0] == semana and achou:
                 if c[-1] != "Pendente" and not (reescrita and c[-1].startswith("Estrutura pendente")):
@@ -191,13 +196,22 @@ def aprovar(titulo, corpo=""):
                     num = f"Artigo {num} (reescrita)"
                 motivo = corpo.split("Motivo (opcional, uma frase):", 1)[-1] if "Motivo" in corpo else ""
                 motivo = _registrar_reprovado(semana, num, c[3], motivo)
-                return f"Briefing {num} da semana {semana} reprovado. Motivo: {motivo}. O Head não repete o tema."
+                # Reposição: o Head escolhe pilar e tema do substituto e o registra nesta mesma vaga
+                if reescrita:
+                    nova = [c[0], c[1], c[2], c[3], c[4], "A definir", "A definir", f"Reposição (Artigo {num.split()[1]})"]
+                else:
+                    nova = [c[0], c[1], "A definir", "A definir", "A definir", "A definir", "A definir", "Reposição"]
+                with (CONT / "decisoes-pauta.md").open("a", encoding="utf-8") as f:
+                    f.write("| " + " | ".join(nova) + " |\n")
+                return f"Briefing {num} da semana {semana} reprovado. Motivo: {motivo}. O Head monta um briefing substituto em até 1 minuto."
         return "Briefing não encontrado."
     m = re.fullmatch(r"Aprovar briefing: (Artigo )?(\d+)( \(reescrita\))? \(semana (\S+)\)", titulo.strip())
     if m:
         num, semana, reescrita = m.group(2), m.group(4), bool(m.group(3))
         for ln, c in tabela(CONT / "decisoes-pauta.md"):
             # briefing de reescrita: N é o código do artigo (está no status), não o número do briefing na semana
+            if c[-1] == "Reprovado":
+                continue
             achou = re.search(rf"Artigo {num}\)", c[-1]) if reescrita else c[1] == num
             if c[0] == semana and achou:
                 bl = _bloqueio(semana, c[1])
@@ -210,6 +224,21 @@ def aprovar(titulo, corpo=""):
                     marcar(ln, f"Sim (reescrita Artigo {r.group(1)})", c[-1]); definir_status(r.group(1), "Em reescrita"); return f"Briefing da reescrita do Artigo {r.group(1)} aprovado. O Copywriter reescreve em seguida."
                 return f"Nada a fazer: o briefing já está como '{c[-1]}'."
         return "Briefing não encontrado."
+    m = re.fullmatch(r"Reprovar Artigo (\d+)", titulo.strip())
+    if m:
+        n = m.group(1)
+        for ln, c in indice():
+            if c[0] == f"Artigo {n}":
+                if c[5] != "Em validação":
+                    return f"Nada a fazer: o Artigo {n} está como '{c[5]}'."
+                motivo = corpo.split("Motivo (opcional, uma frase):", 1)[-1] if "Motivo" in corpo else ""
+                motivo = _registrar_reprovado("-", f"Artigo {n} (reprovado, vai para reescrita)", c[3], motivo)
+                definir_status(n, "Em reescrita")
+                nova = [_agora().strftime("%Y-%m-%d"), f"Artigo {n}", c[2], c[3], c[4], "A definir", "A definir", f"Reposição (Artigo {n})"]
+                with (CONT / "decisoes-pauta.md").open("a", encoding="utf-8") as f:
+                    f.write("| " + " | ".join(nova).replace("|  |", "| - |") + " |\n")
+                return f"Artigo {n} reprovado. Motivo: {motivo}. O Head monta a nova estrutura em até 1 minuto, você aprova o briefing e o Copywriter reescreve."
+        return "Artigo não encontrado."
     m = re.fullmatch(r"Aprovar Artigo (\d+)", titulo.strip())
     if m:
         p = CONT / "indice-artigos.md"
@@ -658,6 +687,8 @@ def proxima_execucao(agente):
         if n <= agora:
             n += datetime.timedelta(days=7)
         return n.strftime("%d/%m às %H:%M")
+    if agente == "reposicao":
+        return "em até 1 minuto depois de uma reprovação"
     return "em até 1 minuto (confere se há briefing aprovado)"
 
 def _hora(iso):
@@ -832,6 +863,10 @@ def html_briefings():
     for _, c in tabela(CONT / "decisoes-pauta.md"):
         ap = c[-1]
         if ap.startswith("Sim (Artigo") or ap == "Reprovado":
+            continue
+        if ap.startswith("Reposição"):
+            quem = f"Artigo {re.search(r'\d+', ap).group()} (reescrita)" if "Artigo" in ap else f"Briefing {c[1]}"
+            itens.append(f'<div class="brief"><div class="brief-top"><span class="code">{esc(quem)}</span><span class="bf bf-ok">Head montando o briefing substituto</span><span class="bf-data">semana {esc(c[0])}</span></div><div class="bf-linha">O Head escolhe o tema e registra aqui em até 1 minuto. Atualize a página depois.</div></div>')
             continue
         rewq = re.fullmatch(r"Sim \(reescrita Artigo (\d+)\)", ap)
         tese = c[5] if len(c) > 6 else ""
@@ -1133,7 +1168,7 @@ def gerar_pagina():
         n = int(re.search(r"\d+", cod).group())
         aberto = " open" if n in abertos else ""
         (cards_bib if status == "Aprovado" else cards).append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
-<div class="body">{botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) if status != "Aprovado" else ""}<div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
+<div class="body">{('<div style="display:flex;justify-content:flex-end;gap:8px">' + botao_reprovar("Reprovar " + cod, "Reprovo o " + cod + ": " + titulo + "\n\nMotivo (opcional, uma frase):\n") + botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) + '</div>') if status != "Aprovado" else ""}<div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
 {html_arte(slug)}
@@ -1189,6 +1224,8 @@ if __name__ == "__main__":
         print(montar_json(sys.argv[2]))
     elif cmd == "descartar":
         print(descartar(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else ""))
+    elif cmd == "reposicoes":
+        print(sum(1 for _, c in tabela(CONT / "decisoes-pauta.md") if c[-1].startswith("Reposição")))
     elif cmd == "lint-agentes":
         e = lint_agentes()
         print("agentes ok" if not e else "\n".join(e)); sys.exit(1 if e else 0)
