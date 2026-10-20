@@ -1,0 +1,15 @@
+{
+ "agente": "reposicao",
+ "resultado": "executando",
+ "resumo": "Em execução",
+ "commit": "",
+ "inicio": "2026-10-20T11:44-03:00",
+ "previsao": "2026-10-20T11:59-03:00",
+ "duracoes": [],
+ "anterior": {
+  "resultado": "",
+  "quando": "",
+  "resumo": "",
+  "commit": ""
+ }
+}
