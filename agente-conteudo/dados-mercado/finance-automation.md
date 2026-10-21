@@ -336,3 +336,18 @@ Data de coleta: 2026-10-20
 Fonte: Government Data Quality Hub (GOV.UK), "The Government Data Quality Framework" (03/12/2020).
 Link: https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
 Data de coleta: 2026-10-20
+
+A IBM ganhou o Grand Prize do AFP Pinnacle Awards 2024 com um projeto que ligou a gestão de caixa da tesouraria ao seu framework de gestão de desempenho corporativo e às metas de free cash flow comunicadas a investidores. Um processo manual, complexo e fragmentado foi trocado por uma plataforma padronizada de tecnologia de tesouraria. Resultados declarados: mais de 90% de dados sem erro, mais de oito ferramentas desativadas, milhares de horas de pessoal liberadas e contribuição para um aumento de US$ 1 bilhão no free cash flow. Ressalva: números autodeclarados em release de premiação, sem verificação independente nem detalhe de método.
+Fonte: Association for Financial Professionals (AFP), "IBM Corporation Wins the AFP 2024 Pinnacle Awards" (press release, 21/10/2024).
+Link: https://www.financialprofessionals.org/about/learn-more/press-releases/Details/ibm-corporation-wins-the-afp-2024-pinnacle-awards
+Data de coleta: 2026-10-21
+
+A 2026 Midyear Executive Benchmark Survey da Workiva ouviu 2.272 profissionais de finanças, risco e sustentabilidade (847 deles C-level) na América do Norte, América Latina, Europa e Ásia-Pacífico, além de 367 investidores institucionais dos EUA e do Reino Unido. 84% dos executivos se dizem ao menos razoavelmente confiantes na precisão de saídas de IA sem revisão humana, mas 26% contam que a auditoria interna já encontrou erros de IA que chegaram a públicos externos ou ao conselho. Só 11% consideram a qualidade dos dados suficiente para usar IA, e 55% dizem que vão precisar de plataformas para gerir agentes e fluxos automatizados. A distância entre confiança declarada e erro detectado reforça a necessidade de revisão humana nos relatórios. Ressalva: pesquisa de fornecedor de software de relatórios, sem período de coleta informado.
+Fonte: CPA Practice Advisor (Isaac M. O'Bannon), "1 in 4 Execs Admit Financial Reporting AI Errors Have Reached External Audiences" (13/08/2026), sobre pesquisa da Workiva.
+Link: https://www.cpapracticeadvisor.com/2026/08/13/1-in-4-execs-admit-financial-reporting-ai-errors-have-reached-external-audiences/188489/
+Data de coleta: 2026-10-21
+
+[Teórico] Ben Shneiderman, da University of Maryland, propõe o framework de IA Centrada no Humano (HCAI), que rejeita a ideia de que mais automação exige menos controle humano. O desenho recomendado combina alto controle humano com alta automação, define com clareza quando o controle deve ser totalmente humano ou totalmente da máquina e evita os riscos dos dois extremos. O objetivo são sistemas confiáveis, seguros e dignos de confiança. Para finanças, serve de base para desenhar pontos de revisão humana em agentes de fechamento e conciliação sem perder escala. Ressalva: conferidos o resumo e os metadados do preprint, não o texto completo.
+Fonte: Ben Shneiderman, "Human-Centered Artificial Intelligence: Reliable, Safe & Trustworthy" (relatório UMD HCIL-2020-01, arXiv, v1 de 10/02/2020, revisado em 23/02/2020).
+Link: https://arxiv.org/abs/2002.04087
+Data de coleta: 2026-10-21

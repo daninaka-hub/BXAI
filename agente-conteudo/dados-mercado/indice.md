@@ -365,3 +365,23 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-20 | Leadership Roles | teórico | Revista de Contabilidad (Elsevier) | Caso Guinness (1920 a 1945): o CFO evoluiu aos poucos a partir de escrituração, informação e tesouraria |
 | 2026-10-20 | Organization | conclusão | CFO Dive / Gartner / Datarails | Crescimento de quadro esperado cai de 6% para 2% (Gartner); 60% realocam o time para trabalho de mais valor e 3% cortam |
 | 2026-10-20 | Organization | teórico | APQC | PCF da APQC: 13 categorias em 5 níveis; finanças (9.0) tem 11 grupos de processos, base para escopo de CSC |
+| 2026-10-21 | Finance Automation | estudo de caso | AFP (IBM, Pinnacle 2024) | Plataforma de tesouraria da IBM: mais de 90% de dados sem erro, 8+ ferramentas desativadas e US$ 1 bi a mais de FCF (autodeclarado) |
+| 2026-10-21 | Forecasting Methods | estudo de caso | AFP (Marsh McLennan, Pinnacle 2022) | Modelo de ML prevê churn de clientes no México com precisão igual ou superior à revisão manual trimestral |
+| 2026-10-21 | Controllership | pesquisa | Journal of Accountancy / AICPA e NC State | Só 30% veem supervisão de riscos madura e 11% veem vantagem estratégica; 69% dizem que o risco cresceu (331 executivos) |
+| 2026-10-21 | Controllership | teórico | SEC (Release 33-8810, 2007) | Avaliação top-down do ICFR: riscos primeiro, só controles relevantes, evidência proporcional ao risco |
+| 2026-10-21 | Finance Automation | pesquisa | CPA Practice Advisor / Workiva | 84% confiam em IA sem revisão, mas 26% já viram erro de IA chegar ao conselho ou a terceiros; 11% têm dado bom o bastante |
+| 2026-10-21 | Finance Automation | teórico | Shneiderman (UMD, arXiv) | HCAI: alta automação com alto controle humano, base para pontos de revisão em agentes de finanças |
+| 2026-10-21 | Forecasting Methods | pesquisa | The CFO / American Express / PwC | Quem quer melhorar a previsão de caixa vai de 49% para 64%; 52% das empresas de US$ 1 a 10 bi consolidam forecast à mão |
+| 2026-10-21 | Forecasting Methods | pesquisa | arXiv (Michael, Symeonides e Trihinas) | Modelos fundacionais batem o ARIMA em energia (sMAPE 3,9% contra 14%), mas empatam com o passeio aleatório no SPY |
+| 2026-10-21 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3) | Ajuste por julgamento só com informação nova, evitar ajustes pequenos e otimistas, documentar cada ajuste |
+| 2026-10-21 | FP&A Fundamentals | teórico | IBCS Association | IBCS 2.0, padrão aberto de notação para relatórios gerenciais, alinhado à ISO 24896 desde junho de 2026 |
+| 2026-10-21 | Integrated Planning | pesquisa | DC Velocity / Gartner | 72% dos líderes de supply chain reabriram decisões de investimento em rede; incluir três custos de adaptabilidade (151 líderes) |
+| 2026-10-21 | Strategic Planning | estratégia | NACD via PR Newswire | Modelo Alinhar, Monitorar, Calibrar para o conselho; 70% dos conselheiros de abertas discutem estratégia com mais frequência |
+| 2026-10-21 | Strategic Planning | pesquisa | Corporate Board Member / EY | 60% dos conselhos dedicam mais tempo a risco, mas só 22% ampliaram cenários e 19% olham além de cinco anos |
+| 2026-10-21 | Strategic Planning | teórico | Kaplan e Norton (HBR 2008, via UC Irvine) | Sistema de gestão em seis estágios que liga estratégia, orçamento e operação em ciclo fechado |
+| 2026-10-21 | Leadership Roles | pesquisa | CFO Dive / BCG | CFO é o executivo que os CEOs mais pretendem trocar em seis meses (16%), em pesquisa com 645 CEOs |
+| 2026-10-21 | Leadership Roles | estatística | Yahoo Finance Canada / Robert Half | Salário inicial de controller no Canadá deve subir 4,1% em 2027 (ponto médio US$ 147.250), contra 1,4% na média |
+| 2026-10-21 | Leadership Roles | teórico | Hambrick e Mason (via Newcastle University) | Teoria dos escalões superiores: perfil do CFO e da alta gestão ajuda a explicar escolhas e desempenho |
+| 2026-10-21 | Organization | estratégia | Fortune / BCG | Metade dos executivos já vê perda de habilidades com IA; concentrar trabalho manual, decisões reais e rodízio para juniores |
+| 2026-10-21 | Organization | pesquisa | Robert Half | 74% dos gestores de finanças nos EUA planejam ampliar o quadro permanente no 2º semestre de 2026 (2.000+ gestores) |
+| 2026-10-21 | Organization | teórico | Burns e Baldvinsdottir (European Accounting Review) | Contador híbrido: como surgem papéis de business partner, à luz da teoria institucional |

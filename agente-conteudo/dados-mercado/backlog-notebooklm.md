@@ -98,8 +98,8 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 90 | Chief Financial Officer job in Bangladesh apparel manufacturing | Baixa | Descartado |
 | 91 | Comprehensive Analysis of AI Adoption in FP&A, Controllership, and Financial Governance: Operational Dynamics, Control Erosion, and Compliance Architectures | Alta | Descartado |
 | 92 | Controladoria e FP&A - Trilha Consultoria e Auditoria | Alta | Descartado |
-| 93 | Controller of the Year Awards - Controllers Council | Baixa | Pendente |
-| 94 | Controller of the Year Awards - Winners Announced - Controllers Council | Baixa | Pendente |
+| 93 | Controller of the Year Awards - Controllers Council | Baixa | Descartado |
+| 94 | Controller of the Year Awards - Winners Announced - Controllers Council | Baixa | Descartado |
 | 95 | Controller vs. FP&A: Understanding the Key Differences - Accounting.bi | Alta | Processado |
 | 96 | Controllership 2030: Study and Predictions Panel (Preview) | Alta | Processado |
 | 97 | Controlling 2025 - Exploring the future of controlling - dillerup.net | Alta | Descartado |
@@ -107,11 +107,11 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 99 | Corporate Budgeting: Move on from traditional budgeting - Jedox | Alta | Descartado |
 | 100 | Corporate finance vs. FP&A: Understanding the differences - Workday | Alta | Processado |
 | 101 | Critical Governance, Regulatory, and Operational Challenges of Artificial Intelligence in Corporate FP&A and Controllership | Alta | Descartado |
-| 102 | Department of Management Sciences | IIT Kanpur | Baixa | Pendente |
-| 103 | Director Business Management @ Microsoft | Simplify Jobs | Baixa | Pendente |
-| 104 | Director of Strategic Planning Cover Letter Example (2026) - JobSprout | Baixa | Pendente |
-| 105 | Director, Corporate Strategy (Hybrid) in Houston at VS Tech Solutions | Baixa | Pendente |
-| 106 | Director, Strategic Planning | City of New York Jobs - NYC Jobs | Baixa | Pendente |
+| 102 | Department of Management Sciences | IIT Kanpur | Baixa | Descartado |
+| 103 | Director Business Management @ Microsoft | Simplify Jobs | Baixa | Descartado |
+| 104 | Director of Strategic Planning Cover Letter Example (2026) - JobSprout | Baixa | Descartado |
+| 105 | Director, Corporate Strategy (Hybrid) in Houston at VS Tech Solutions | Baixa | Descartado |
+| 106 | Director, Strategic Planning | City of New York Jobs - NYC Jobs | Baixa | Descartado |
 | 107 | Driver Based Planning for FP&A Improve Forecast Accuracy - Jedox | Alta | Processado |
 | 108 | EPM Gartner Financial Planning Magic Quadrant - Oracle | Alta | Descartado |
 | 109 | EPM Software Trends 2026: What Gartner's Financial Planning Research Means for FP&A Leaders - B EYE | Alta | Descartado |
@@ -130,22 +130,22 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 122 | Expect Sweeping Changes to the SEC Next Year: An Insider's Preview Briefing Materials - Gibson Dunn | Alta | Descartado |
 | 123 | Exploring the Perceptions of Northern Virginia Accountants on Internal Control Weaknesses Resulting in Accounting Fraud - ProQuest | Alta | Descartado |
 | 124 | Extended Planning and Analysis (xP&A) Defined - NetSuite | Alta | Processado |
-| 125 | FP&A & Controlling : r/FPandA - Reddit | Baixa | Pendente |
+| 125 | FP&A & Controlling : r/FPandA - Reddit | Baixa | Descartado |
 | 126 | FP&A 2026 Trends - IBM | Alta | Processado |
 | 127 | FP&A Agent Manager: Governing Agentic AI in Finance - FP&A Trends | Alta | Processado |
 | 128 | FP&A Board Maturity Model | Alta | Descartado |
 | 129 | FP&A Case Study Library - Association for Financial Professionals (AFP) | Alta | Descartado |
-| 130 | FP&A Interview Questions - Guide for Financial Planning and Analysis | Baixa | Pendente |
-| 131 | FP&A Today Podcast Guests : r/FPandA - Reddit | Baixa | Pendente |
+| 130 | FP&A Interview Questions - Guide for Financial Planning and Analysis | Baixa | Descartado |
+| 131 | FP&A Today Podcast Guests : r/FPandA - Reddit | Baixa | Descartado |
 | 132 | FP&A as a Digital Transformation Leader: Empowering Tomorrow's Enterprise | Alta | Processado |
 | 133 | FP&A vs Traditional Budgeting: Key Differences Explained - QX Global Group | Alta | Descartado |
 | 134 | FP&A vs. Controller vs. CFO: Key Roles in Corporate Finance | Alta | Descartado |
 | 135 | FP&A: O Guia Completo para Planejamento e Análise Financeira Estratégica - Kamino | Alta | Processado |
-| 136 | Finance and AI Glossary - Pluvo | Baixa | Pendente |
+| 136 | Finance and AI Glossary - Pluvo | Baixa | Descartado |
 | 137 | Finance and Accounting Salary Guide 2026 | VALiNTRY | Alta | Processado |
 | 138 | Financial Close Software Market Size, Share & Trends, 2034 | Alta | Processado |
 | 139 | Financial Close Software Market Trends and Growth Analysis Report To 2035 | Alta | Descartado |
-| 140 | Financial Planning & Analysis (FP&A) Certificate Program | Baixa | Pendente |
+| 140 | Financial Planning & Analysis (FP&A) Certificate Program | Baixa | Descartado |
 | 141 | Financial Planning & Analysis Manager Salary (Updated for 2026) | Robert Half | Alta | Processado |
 | 142 | Financial Planning and Analysis (FP&A) and Enterprise Performance Management (EPM) | Alta | Descartado |
 | 143 | Financial Planning and Analysis: Why it Occupies Centre Stage - FP&A Trends | Alta | Processado |
@@ -154,7 +154,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 146 | Five ways to connect and improve planning across your enterprise - Oracle | Alta | Descartado |
 | 147 | FloQast vs. Trintech | Alta | Processado |
 | 148 | Food and Finance Focused: CFO Kevin Benmoussa | Alta | Descartado |
-| 149 | Free IMA CMA Part 1 Formula Sheet PDF, No Signup (2026) - FreeFellow | Baixa | Pendente |
+| 149 | Free IMA CMA Part 1 Formula Sheet PDF, No Signup (2026) - FreeFellow | Baixa | Descartado |
 | 150 | From AI pilots to governed intelligence for agentic banking | EY - Denmark | Alta | Processado |
 | 151 | Future of Controllership 2026: AI & Transformation | Deloitte US | Alta | Processado |
 | 152 | Gartner Magic Quadrant For Financial Planning - Get Your Free Copy - OneStream | Alta | Descartado |
@@ -162,7 +162,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 154 | General Responsibilities of the Auditor in Conducting an Audit and Amendments to PCAOB Standards | Alta | Descartado |
 | 155 | Global FP&A, Controllership, and Financial Planning Market Report: Market Dynamics, Technology Landscape, Performance Benchmarks, and Compensation Trends | Alta | Descartado |
 | 156 | Global sustainability reporting survey: US takeaways - PwC | Alta | Processado |
-| 157 | Glossary: Planning, Controlling and FP&A - Valsight | Baixa | Pendente |
+| 157 | Glossary: Planning, Controlling and FP&A - Valsight | Baixa | Descartado |
 | 158 | Guide to Driver-Based Modeling | BPM Partners | Alta | Descartado |
 | 159 | Here's how budgets can keep up with accelerating uncertainty - McKinsey | Alta | Processado |
 | 160 | How AI Is Transforming FP&A - EY | Alta | Processado |
@@ -176,22 +176,22 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 168 | How Match Group's CFO runs the finance function behind modern dating | Alta | Processado |
 | 169 | How finance teams are putting AI to work today - McKinsey | Alta | Descartado |
 | 170 | How to Build an Annual Budget That Actually Works - A Guide for Mid-Market Companies | Alta | Processado |
-| 171 | IBM Corporation Wins the AFP 2024 Pinnacle Awards | Baixa | Pendente |
-| 172 | Inscrições de MBA e Pós-Graduação Lato Sensu - FIPECAFI | Baixa | Pendente |
+| 171 | IBM Corporation Wins the AFP 2024 Pinnacle Awards | Baixa | Processado |
+| 172 | Inscrições de MBA e Pós-Graduação Lato Sensu - FIPECAFI | Baixa | Descartado |
 | 173 | Integrated Business Planning: Complete Guide | Abacum | Alta | Processado |
 | 174 | International Journal of Sciences and Innovation Engineering - IJSCI | Alta | Descartado |
 | 175 | Inventory as a Consequence - Improving Supply Planning - Oliver Wight EAME | Alta | Processado |
-| 176 | Jack McCullough - Forbes | Baixa | Pendente |
+| 176 | Jack McCullough - Forbes | Baixa | Descartado |
 | 177 | Jack McCullough is helping CFOs rise to the occasion | MIT Sloan Executive Education | Alta | Processado |
 | 178 | JafarOS Finance Function - Governed CFO & FP&A AI Agents | Digisoul | Alta | Descartado |
 | 179 | Journal of Forensic and Investigative Accounting Volume 15: Issue 3 - Kraft Heinz Company and the $15.4 Billion | Alta | Processado |
 | 180 | Kraft Heinz Securities Litigation Settles for $450 Million | The D&O Diary | Alta | Processado |
 | 181 | Leading through finance transformation | EY - US | Alta | Processado |
 | 182 | Making the Case: The ROI of Demand Management - Greg Spira | Alta | Processado |
-| 183 | Management - Hmobi | Baixa | Pendente |
-| 184 | Manager, Financial Reporting Resume Samples - VelvetJobs | Baixa | Pendente |
+| 183 | Management - Hmobi | Baixa | Descartado |
+| 184 | Manager, Financial Reporting Resume Samples - VelvetJobs | Baixa | Descartado |
 | 185 | Managing AI Risk with Confidence: A Governance Foundation Built on NIST and COSO | Alta | Processado |
-| 186 | Marsh McLennan Wins 2022 AFP Pinnacle Awards Grand Prize for Excellence in Treasury and Finance - PR Newswire | Baixa | Pendente |
+| 186 | Marsh McLennan Wins 2022 AFP Pinnacle Awards Grand Prize for Excellence in Treasury and Finance - PR Newswire | Baixa | Processado |
 | 187 | Mastering FP&A Rolling Forecasts with Driver-Based Planning - Sparkco | Alta | Descartado |
 | 188 | Microsoft Layoffs & Toxic Management: A Dangerous Culture Behind the Scenes - Reddit | Baixa | Pendente |
 | 189 | Microsoft Names Amy Hood New CFO | PCMag | Baixa | Pendente |

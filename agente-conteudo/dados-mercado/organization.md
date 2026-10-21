@@ -151,3 +151,18 @@ Data de coleta: 2026-10-20
 Fonte: APQC, "Process Classification Framework (PCF), Cross-Industry, Version 7.4" (agosto de 2024).
 Link: https://solutions.ifrc.org/sites/default/files/2024-10/K014750_APQC%20Process%20Classification%20Framework%20(PCF)%20-%20Cross%20Industry%20-%20PDF%20Version%207.4.pdf
 Data de coleta: 2026-10-20
+
+James Tucker, que lidera a prática global de finanças corporativas e estratégia do BCG, comenta como a IA está mudando o trabalho de entrada em finanças, citando estudo global do BCG com executivos do C-suite. Metade já vê perda de habilidades (de-skilling) na própria organização, mais de 60% esperam que isso vire problema relevante em três a cinco anos, e mais da metade aponta o desenvolvimento mais lento dos juniores como causa. Ele estima que cerca de 10% das conciliações resistem à automação e ainda pedem julgamento manual. As recomendações: concentrar esse trabalho em menos juniores para que acumulem experiência, colocá-los em decisões reais em vez de só processamento, fazer rodízio entre finanças e o negócio, e contratar quem sabe perceber quando uma saída da IA está errada. Ressalva: opinião de consultor, sem amostra nem período do estudo do BCG na matéria.
+Fonte: Fortune, CFO Daily (Sheryl Estrada), "AI is rewriting the entry-level finance job" (09/09/2026).
+Link: https://fortune.com/2026/09/09/ai-is-rewriting-the-entry-level-finance-job-cfo/
+Data de coleta: 2026-10-21
+
+A Robert Half ouviu mais de 2.000 gestores de contratação nos EUA em abril de 2026 sobre o segundo semestre. 66% planejam aumentar as contratações permanentes, contra 60% no primeiro semestre e 57% um ano antes. Em finanças e contabilidade a intenção é de 74%, terceira maior entre as áreas, atrás de tecnologia (78%) e saúde (75%). No total da amostra, 58% acham mais difícil encontrar talento qualificado do que há um ano, e 48% já cancelaram projetos por falta de pessoas com as habilidades certas. Ressalva: pesquisa de empresa de recrutamento que mede intenção; só os 74% são específicos de finanças.
+Fonte: Robert Half (press release), "Robert Half: Two-thirds of U.S. employers plan to increase hiring in second half of 2026" (29/07/2026).
+Link: https://press.roberthalf.com/2026-07-29-Robert-Half-Two-thirds-of-U-S-employers-plan-to-increase-hiring-in-second-half-of-2026
+Data de coleta: 2026-10-21
+
+[Teórico] Burns e Baldvinsdottir estudam como surgiram papéis de contador "híbrido", voltados a equipes e processos, na divisão de manufatura de uma farmacêutica multinacional. Eles notam que o discurso do contador como parceiro do negócio vinha sobretudo da literatura profissional, apoiada em pesquisas genéricas, com pouca evidência de como o papel muda dentro das empresas. Com base na teoria institucional, tratam a mudança de papel como interação entre rotinas estabelecidas e a ação de quem quer transformá-las: contradições institucionais abrem espaço para a mudança, e a prática concreta define quando, como e por que os novos papéis se firmam. Serve de base para desenhar a transição do perfil transacional para o de business partner. Ressalva: estudo de caso único.
+Fonte: John Burns e Gudrun Baldvinsdottir, "An institutional perspective of accountants' new roles: the interplay of contradictions and praxis", European Accounting Review, vol. 14, nº 4, p. 725 a 757 (2005), página do repositório da University of Dundee.
+Link: https://discovery.dundee.ac.uk/en/publications/an-institutional-perspective-of-accountants-new-roles-the-interpl/
+Data de coleta: 2026-10-21

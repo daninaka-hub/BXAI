@@ -156,3 +156,8 @@ Data de coleta: 2026-10-20
 Fonte: OpenStax (Rice University), Principles of Accounting, Volume 2: Managerial Accounting, "7.3 Prepare Financial Budgets".
 Link: https://openstax.org/books/principles-managerial-accounting/pages/7-3-prepare-financial-budgets
 Data de coleta: 2026-10-20
+
+[Teórico] Os International Business Communication Standards (IBCS) são regras práticas para desenhar gráficos e tabelas em relatórios gerenciais, apresentações e dashboards, organizadas em sete áreas representadas pela sigla SUCCESS. A versão 2.0 foi aprovada pela IBCS Association em 11/06/2026, no mesmo dia em que a ISO publicou a norma ISO 24896 "Notation for business reporting". A nova versão separa uma parte de Notação, totalmente alinhada à ISO 24896, de uma parte de Composição, e reconhece o objetivo comum com a norma de linguagem simples ISO 24495-1:2023. A associação, sem fins lucrativos, publica os padrões de graça sob licença Creative Commons. Para FP&A, é a referência para padronizar cenários (realizado, orçado, forecast) e variações nos relatórios. Ressalva: a página oficial não detalha as regras em texto; o conteúdo de cada área está no próprio padrão.
+Fonte: IBCS Association, "IBCS Version 2.0 - aligned with ISO 24896" (versão aprovada em 11/06/2026).
+Link: https://ibcs.com/standards/
+Data de coleta: 2026-10-21

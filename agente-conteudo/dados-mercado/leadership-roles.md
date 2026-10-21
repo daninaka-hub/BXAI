@@ -226,3 +226,18 @@ Data de coleta: 2026-10-20
 Fonte: Martínez Franco, Feeney, Quinn e Hiebl, Revista de Contabilidad (Spanish Accounting Review, Elsevier), "Position practices of the present-day CFO: A reflection on historic roles at Guinness, 1920-1945" (vol. 20, 2017).
 Link: https://www.elsevier.es/es-revista-revista-contabilidad-spanish-accounting-review-368-articulo-position-practices-present-day-cfo-a-S1138489116300036
 Data de coleta: 2026-10-20
+
+O BCG ouviu 645 CEOs de empresas com receita de pelo menos US$ 100 milhões, entre 18/06 e 05/07/2026. Quase 60% planejam trocar algum membro da alta liderança nos próximos seis meses, e o CFO é o cargo mais citado como alvo, com 16% das respostas, à frente de COO, CHRO e CMO (12% cada). 60% dos CEOs dizem que pressões de curto prazo ocupam parte desproporcional do seu tempo (3 pontos a mais que no ano anterior), e 54% sentem pressão para priorizar o resultado imediato sobre investimento de longo prazo. Ressalva: pesquisa de consultoria que mede intenção declarada, não trocas efetivas; lida na cobertura da CFO Dive.
+Fonte: CFO Dive (Alexei Alexis), "CEOs eye C-suite shake-ups as pressures mount: BCG" (14/10/2026).
+Link: https://www.cfodive.com/news/ceos-eye-csuite-changes-pressures-mount-bcg/833047/
+Data de coleta: 2026-10-21
+
+O Salary Guide 2027 da Robert Half para o Canadá projeta alta média de 1,4% nos salários iniciais de novas contratações em finanças e contabilidade. O controller está entre os cargos que mais sobem, com +4,1% e ponto médio de US$ 147.250; o assistant controller vem com +3,9% (US$ 113.000) e o senior accountant com +3,6% (US$ 93.750). Os números valem para salário de contratação, não para reajuste de quem já está empregado. Ressalva: guia de empresa de recrutamento, só Canadá, sem amostra nem período informados na matéria.
+Fonte: Yahoo Finance Canada (Amy Tokic), "Robert Half's 2027 salary guide shows 1.4% raises for finance, but AI-skilled candidates are commanding far more" (08/10/2026).
+Link: https://ca.finance.yahoo.com/news/robert-halfs-2027-salary-guide-103000869.html
+Data de coleta: 2026-10-21
+
+[Teórico] A teoria dos escalões superiores (upper echelons), de Hambrick e Mason (Academy of Management Review, 1984, vol. 9, nº 2, p. 193 a 206), diz que os resultados de uma organização refletem em parte a base cognitiva e os valores de quem está no topo. Como a informação é complexa e ambígua, os executivos filtram as situações estratégicas pela própria percepção, e características observáveis como idade, formação, área de origem e tempo de casa servem como indicadores desses filtros. O efeito é mais forte quando o executivo tem mais liberdade de ação e quando o cargo é mais exigente. Hambrick revisou a teoria em 2007 (AMR, vol. 32, nº 2). Na contabilidade gerencial, estudos citados pela resenha associam CFOs mais jovens e com formação em negócios a uso mais amplo de sistemas de gestão de custos (Pavlatos, 2012) e ligam o perfil do CFO à adoção de sistemas gerenciais inovadores (Naranjo-Gil, Maas e Hartmann, 2009). Ressalva: crítica recorrente é que os indicadores demográficos não revelam o processo cognitivo em si.
+Fonte: Newcastle University, TheoryHub, "Upper Echelons Theory" (resenha sem data), sobre Hambrick e Mason, "Upper Echelons: The Organization as a Reflection of Its Top Managers" (1984).
+Link: https://open.ncl.ac.uk/theories/13/upper-echelons-theory/
+Data de coleta: 2026-10-21

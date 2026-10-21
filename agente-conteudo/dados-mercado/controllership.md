@@ -341,3 +341,13 @@ Data de coleta: 2026-10-20
 Fonte: Harvard Business School Online (Kate Gibson), "Levers of Control: What They Are & How They Impact Your Strategy" (09/01/2024).
 Link: https://online.hbs.edu/blog/post/levers-of-control
 Data de coleta: 2026-10-20
+
+A 17ª edição do State of Risk Oversight, da AICPA com a ERM Initiative da NC State University, ouviu 331 executivos seniores e conselheiros. Para 69%, o volume e a complexidade dos riscos cresceram nos últimos cinco anos (eram 61% na edição anterior), e 74% relatam uma surpresa operacional significativa no período. Só 30% classificam a supervisão de riscos da organização como madura ou robusta (32% um ano antes), e apenas 11% dizem que a gestão de riscos gera vantagem estratégica ou competitiva. A leitura é que o risco aumenta mais rápido que a maturidade do processo que deveria tratá-lo. Ressalva: o período de coleta não aparece na matéria, e o estudo trata de ERM em geral, não só de controles financeiros.
+Fonte: Journal of Accountancy (Bryan Strickland), "Risk response often doesn't match the threat or the opportunity" (09/09/2026), sobre o relatório 2026 State of Risk Oversight da AICPA e NC State.
+Link: https://www.journalofaccountancy.com/news/2026/sep/risk-response-often-doesnt-match-the-threat-or-the-opportunity/
+Data de coleta: 2026-10-21
+
+[Teórico] A orientação interpretativa da SEC de 2007 define uma abordagem top-down e baseada em risco para a administração avaliar o controle interno sobre relatórios financeiros (ICFR), exigido pela SOX 404. Primeiro se identificam os riscos de distorção relevante nas demonstrações; depois, os controles que tratam esses riscos de forma adequada, sem precisar mapear todos os controles da empresa. Controles de nível de entidade entram na avaliação de risco, e controles gerais de TI só são avaliados quando sustentam outros controles relevantes. A evidência exigida cresce com o "risco de ICFR", que combina o risco de distorção do item com a chance de o controle falhar: em áreas de alto risco, a evidência deve vir de teste direto ou monitoramento por pessoal mais objetivo e independente. Seguir a orientação é uma forma, não a única, de cumprir as regras 13a-15(c) e 15d-15(c).
+Fonte: U.S. Securities and Exchange Commission, "Commission Guidance Regarding Management's Report on Internal Control Over Financial Reporting Under Section 13(a) or 15(d) of the Securities Exchange Act of 1934" (Releases 33-8810 e 34-55929, Federal Register, 27/06/2007).
+Link: https://www.govinfo.gov/content/pkg/FR-2007-06-27/html/E7-12299.htm
+Data de coleta: 2026-10-21

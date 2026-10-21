@@ -231,3 +231,8 @@ Data de coleta: 2026-10-20
 Fonte: Stephen C. Graves, Management Science v. 28, n. 3, "Using Lagrangean Techniques to Solve Hierarchical Production Planning Problems" (março de 1982), via IDEAS/RePEc.
 Link: https://ideas.repec.org/a/inm/ormnsc/v28y1982i3p260-275.html
 Data de coleta: 2026-10-20
+
+Pesquisa do Gartner com 151 líderes de supply chain, feita de 11/11 a 21/12/2025, com empresas de receita anual de pelo menos US$ 250 milhões em manufatura, ciências da vida, varejo e tecnologia, todas com decisão recente e relevante de investimento em rede logística. 72% tiveram de rever a aprovação final dessas decisões ao menos uma vez, com atraso, e mais da metade reviu três vezes ou mais e ficou menos satisfeita com o resultado. Para o Gartner, a instabilidade do dia a dia (oscilação de demanda, variação de mão de obra) corrói margem de forma mais constante que as grandes rupturas. A recomendação é incluir no caso de negócio três custos de adaptabilidade: operacional (frete expresso, estoque extra), de rede (diversificar fornecedores) e de capital (tempo e dinheiro para reconfigurar a infraestrutura). Ressalva: amostra pequena, respostas declaradas, lida em nota reproduzida pela imprensa.
+Fonte: DC Velocity, "Research highlights the need for flexible supply chain network planning" (14/07/2026), sobre pesquisa do Gartner.
+Link: https://www.dcvelocity.com/editorial/featured/research-highlights-the-need-for-flexible-supply-chain-network-planning
+Data de coleta: 2026-10-21

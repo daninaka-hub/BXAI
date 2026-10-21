@@ -191,3 +191,23 @@ Data de coleta: 2026-10-20
 Fonte: MPRA (Universidade de Munique), Armstrong, Green e Graefe, "Golden Rule of Forecasting: Be conservative" (versão de 10/02/2014).
 Link: https://mpra.ub.uni-muenchen.de/53579
 Data de coleta: 2026-10-20
+
+A Marsh McLennan ganhou o Grand Prize do AFP Pinnacle Awards 2022 com um modelo de machine learning que prevê a perda de clientes (churn), antes acompanhada por revisão manual trimestral e às vezes mensal. O modelo foi treinado com vários anos de dados de faturas e calculou a retenção de clientes no México. Segundo o release, a precisão ficou igual ou um pouco melhor que a do processo manual, e o modelo tirou trabalho manual das equipes de FP&A. Ressalva: piloto em um único país, sem métricas de tempo ou custo, com resultados autodeclarados.
+Fonte: Association for Financial Professionals (AFP), "Marsh McLennan Wins 2022 AFP Pinnacle Awards Grand Prize for Excellence in Treasury and Finance" (press release, 24/10/2022).
+Link: https://www.financialprofessionals.org/about/learn-more/press-releases/Details/marsh-mclennan-wins-2022-afp-pinnacle-awards-grand-prize-for-excellence-in-treasury-and-finance
+Data de coleta: 2026-10-21
+
+Complemento à pesquisa global de CFOs 2026 da American Express (999 executivos de finanças em 14 países), já registrada na base pela cobertura do IT Brief. A parcela que espera ver modelagem e forecasting mais avançados ganhar peso no próprio escopo nos próximos 12 meses subiu de 36% para 46%, e a que pretende melhorar a previsão de fluxo de caixa foi de 49% para 64%. O mesmo artigo cita o PwC 2025 Global Treasury Survey: 52% das organizações com receita entre US$ 1 bilhão e US$ 10 bilhões ainda coletam e consolidam dados de previsão manualmente, contra 38% nas acima de US$ 10 bilhões. Ressalva: fonte secundária, sem período de campo; a frase original sobre os 64% está truncada na página.
+Fonte: The CFO, "Granular Forecasting as Finance's New Competitive Frontier" (19/10/2026).
+Link: https://the-cfo.io/2026/10/19/granular-forecasting-as-finances-new-competitive-frontier/
+Data de coleta: 2026-10-21
+
+Preprint aceito no ADBIS 2026 compara seis modelos fundacionais de séries temporais (Chronos-2, TiRex, Moirai-2.0, Sundial, TimesFM e Toto) com ARIMA, média móvel, passeio aleatório com drift e PatchTST, em três bases: tráfego de rede (7.478 observações), rede elétrica da Polônia (12.407 observações horárias, 2024 a 2025) e o ETF SPY (8.324 fechamentos diários, 1993 a 2025). Na rede elétrica, com horizonte de 12 horas, Chronos-2, TiRex e Sundial ficaram com sMAPE entre 3,92% e 3,95%, contra 14% do ARIMA. No SPY, com horizonte de um dia, o passeio aleatório (0,79%) empata na prática com o TiRex (0,80%). Os autores concluem que há um trade-off entre acurácia pontual e confiabilidade dos intervalos probabilísticos. Para FP&A, a lição é que modelo novo ganha onde há padrão (sazonalidade, carga) e não onde a série se comporta como passeio aleatório. Ressalva: preprint com três bases específicas, nenhuma de dados financeiros corporativos.
+Fonte: arXiv, Panagiotis Michael, Moysis Symeonides e Demetris Trihinas, "Evaluating Accuracy and Probabilistic Reliability of Zero-Shot Time Series Foundation Models" (v1, 22/09/2026).
+Link: https://arxiv.org/abs/2609.25788
+Data de coleta: 2026-10-21
+
+[Teórico] Hyndman e Athanasopoulos orientam ajustar a previsão estatística só quando há informação importante que o modelo não contém, como promoções, grandes eventos ou mudanças recentes. Ajustar para "corrigir" um padrão que o modelo teria perdido costuma ser enxergar padrão no ruído. Ajustes grandes têm mais chance de melhorar a acurácia; ajustes pequenos, sobretudo para cima por otimismo, tendem a piorá-la e devem ser evitados. A recomendação é exigir que todo ajuste seja documentado e justificado, o que reduz mudanças desnecessárias, e revisar primeiro os itens mais importantes nas reuniões de consenso, porque o grupo cansa. O caso do Tourism Forecasting Committee da Austrália ilustra o viés: as previsões publicadas, ajustadas em duas rodadas de consenso, saíram otimistas em 2008 e continuaram otimistas com dados até 2011.
+Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 6.7 "Judgmental adjustments".
+Link: https://otexts.com/fpp3/judgmental-adjustments.html
+Data de coleta: 2026-10-21

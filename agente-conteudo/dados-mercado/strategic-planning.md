@@ -201,3 +201,18 @@ Data de coleta: 2026-10-20
 Fonte: Saylor Academy, livro aberto Mastering Strategic Management, "1.2 Intended, Emergent, and Realized Strategies".
 Link: https://saylordotorg.github.io/text_mastering-strategic-management/s05-02-intended-emergent-and-realized.html
 Data de coleta: 2026-10-20
+
+O relatório 2026 da Blue Ribbon Commission da NACD, "Board Oversight of Strategy Execution", propõe que o conselho acompanhe a execução da estratégia em três etapas. Alinhar: definir o que é boa execução, testar as premissas de maior peso e combinar os sinais que pedem envolvimento mais profundo. Monitorar: concentrar tempo de reunião e relatórios nos indicadores que mais importam. Calibrar: reconhecer pontos de inflexão e ajustar o envolvimento à confiança na resposta da gestão. A Governance Outlook Survey 2026 da NACD mostra que 70% dos conselheiros de empresas abertas e 49% dos de fechadas dizem que a estratégia passou a ser discutida com mais frequência, e 51% e 38% relatam mais diálogo sobre estratégia entre reuniões. Ressalva: comunicado de associação de conselheiros, sem tamanho de amostra na página.
+Fonte: NACD via PR Newswire, "As Strategy Cycles Shorten, NACD's 2026 Blue Ribbon Commission Redefines How Boards Should Oversee Execution" (12/10/2026).
+Link: https://www.prnewswire.com/news-releases/as-strategy-cycles-shorten-nacds-2026-blue-ribbon-commission-redefines-how-boards-should-oversee-execution-302905815.html
+Data de coleta: 2026-10-21
+
+Pesquisa da Corporate Board Member com o EY Center for Board Matters ouviu quase 150 conselheiros de empresas abertas dos EUA no segundo trimestre de 2026. 60% dizem que o conselho passou a dedicar mais tempo a risco nos últimos dois anos, mas só 39% dizem que a discussão de risco ficou mais integrada à estratégia, e só 22% ampliaram o uso de planejamento por cenários. Em estudo separado com a Long-Term Stock Exchange, os conselhos dedicaram 36% do tempo de reunião ao desempenho operacional e financeiro e 25% à estratégia e ao posicionamento de longo prazo, e só 19% usam cenários além de cinco anos. A conclusão é que mais tempo em risco não se traduziu em ligação mais forte com a estratégia. Ressalva: amostra pequena e respostas declaradas.
+Fonte: Corporate Board Member (Melanie C. Nolen e Michael Emperor), "Boards Are Spending More Time On Risk. The Strategy Link Is Less Clear" (29/07/2026).
+Link: https://boardmember.com/boards-are-spending-more-time-on-risk-the-strategy-link-is-less-clear/
+Data de coleta: 2026-10-21
+
+[Teórico] Kaplan e Norton descrevem um sistema de gestão em seis estágios que liga a formulação da estratégia à execução: (1) desenvolver a estratégia (missão, visão, valores, análise e forma de competir); (2) traduzi-la em objetivos, indicadores, metas, iniciativas e orçamentos; (3) alinhar as unidades e as pessoas; (4) planejar as operações, ligando a estratégia ao plano operacional e ao orçamento; (5) monitorar e aprender; (6) testar e adaptar a estratégia. Os dois últimos estágios fecham o ciclo, devolvendo o aprendizado à formulação. O modelo foi apresentado na Harvard Business Review em janeiro de 2008 e desenvolvido no livro The Execution Premium, e complementa o Balanced Scorecard e o mapa estratégico já registrados na base. Ressalva: a lista de estágios foi conferida na página da UC Irvine, que adota o modelo; o artigo da HBR é pago.
+Fonte: Robert S. Kaplan e David P. Norton, "Mastering the Management System" (Harvard Business Review, janeiro de 2008); descrição dos estágios por UC Irvine Division of Finance & Administration, "Strategic Framework".
+Link: https://hbr.org/2008/01/mastering-the-management-system e https://dfa.uci.edu/strategic-plan/strategic-framework.php
+Data de coleta: 2026-10-21
