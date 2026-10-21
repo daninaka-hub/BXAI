@@ -1,21 +1,16 @@
 {
  "agente": "pesquisador",
- "resultado": "executando",
- "resumo": "Em execução",
- "commit": "",
+ "resultado": "ok",
+ "quando": "2026-10-21T07:11-03:00",
+ "resumo": "Rodada concluída",
+ "commit": "5633641",
  "inicio": "2026-10-21T07:00-03:00",
- "previsao": "2026-10-21T07:16-03:00",
+ "duracao_min": 11,
  "duracoes": [
-  17,
   23,
   16,
   21,
-  12
- ],
- "anterior": {
-  "resultado": "ok",
-  "quando": "2026-10-20T11:44-03:00",
-  "resumo": "Rodada concluída",
-  "commit": "8dcf897"
- }
+  12,
+  11
+ ]
 }
