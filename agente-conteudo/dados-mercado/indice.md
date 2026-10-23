@@ -385,3 +385,25 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-21 | Organization | estratégia | Fortune / BCG | Metade dos executivos já vê perda de habilidades com IA; concentrar trabalho manual, decisões reais e rodízio para juniores |
 | 2026-10-21 | Organization | pesquisa | Robert Half | 74% dos gestores de finanças nos EUA planejam ampliar o quadro permanente no 2º semestre de 2026 (2.000+ gestores) |
 | 2026-10-21 | Organization | teórico | Burns e Baldvinsdottir (European Accounting Review) | Contador híbrido: como surgem papéis de business partner, à luz da teoria institucional |
+| 2026-10-23 | Controllership | conclusão | Goodwin Procter / SEC | Proposta de reporte semestral (Form 10-S) recebe 63 mil+ cartas, cerca de 99% contra; custo estimado cai de US$ 330 mil para US$ 132 mil |
+| 2026-10-23 | Controllership | teórico | BDO USA | Avaliação de deficiências de ICFR em seis passos: magnitude e probabilidade, compensatório preciso, agregação e indicadores de material weakness |
+| 2026-10-23 | Finance Automation | pesquisa | ACCA e CA ANZ | 93% se preocupam com a confiabilidade de insights de IA e 72% têm habilidade básica ou nula em IA generativa (1.600 profissionais) |
+| 2026-10-23 | Finance Automation | pesquisa | Avalara / Hanover Research | 53% põem IA agêntica como investimento número um, mas só 29% usam agentes (400 profissionais, fornecedor) |
+| 2026-10-23 | Finance Automation | teórico | Bainbridge (Automatica 1983, via the morning paper) | Ironias da automação: mais automação exige humano mais hábil para vigiar e assumir, e mais treino |
+| 2026-10-23 | Forecasting Methods | pesquisa | CFOtech / SAP Concur | 46% aprofundam cenários e 43% vão encurtar ciclos de forecast; só 24% cortam custos primeiro (400 líderes, 8 países) |
+| 2026-10-23 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3, cap. 11) | Previsão hierárquica: bottom-up, top-down, middle-out e reconciliação MinT para unidades somarem ao total |
+| 2026-10-23 | FP&A Fundamentals | pesquisa | Aleph | 60,1% levam 3 meses ou mais para aprovar o orçamento e 78,4% fazem 3 revisões ou mais (273 líderes, ago/2026) |
+| 2026-10-23 | FP&A Fundamentals | teórico | ACCA (Fitzgerald e Moon) | Building Block Model: seis dimensões (resultados e determinantes), padrões e recompensas para KPIs |
+| 2026-10-23 | Integrated Planning | pesquisa | IDC / Kinaxis via Business Wire | Só 12% têm governança de IA no planejamento incorporada e 6% operam autônomos; 41% esperam autonomia em 1 a 2 anos |
+| 2026-10-23 | Integrated Planning | teórico | Wikipedia (SCOR / ASCM) | Modelo SCOR: sete processos no SCOR DS, Plan equilibra demanda e oferta, três níveis e 150+ KPIs |
+| 2026-10-23 | Strategic Planning | pesquisa | BDO via Business Wire | 35% dos conselheiros veem alocação de capital como desafio-chave; foco em M&A cai de 30% para 13% (200+ conselheiros) |
+| 2026-10-23 | Strategic Planning | pesquisa | Harvard Law School Forum / PwC | Só 1 em 3 adquirentes cumpre toda a tese; 59% dos bem-sucedidos traduzem valor em iniciativas antes da integração, contra 28% |
+| 2026-10-23 | Strategic Planning | teórico | Strategic Management Insight / Wikipedia (Barney 1991) | Visão baseada em recursos: teste VRIN, depois VRIO, para saber quais recursos sustentam vantagem |
+| 2026-10-23 | Leadership Roles | estudo de caso | CFO.com | Celeste Ackert vai de quase 20 anos em FP&A a primeira CFO da Fairmarkit; cobra recomendação, não só relatório |
+| 2026-10-23 | Leadership Roles | estudo de caso | CFO.com | Rotina de CFO de PME: caixa e runway como primeira análise, reuniões de 20 minutos e bloco fixo de foco |
+| 2026-10-23 | Leadership Roles | estudo de caso | Fortune / Crist Kolder | ConocoPhillips promove CFO a CEO e controller a CFO; CFOs foram 10,26% dos CEOs da Fortune 500 e S&P 500 em 2025 |
+| 2026-10-23 | Leadership Roles | estudo de caso | CFO Dive | Super Micro troca o CFO dois anos após comitê independente recomendar a troca; novo CFO com US$ 725 mil de salário-base |
+| 2026-10-23 | Leadership Roles | teórico | Lazear e Rosen (NBER) / Conyon, Peck e Sadler | Teoria dos torneios: o salto salarial na promoção é o prêmio, e o prêmio do topo cresce com o número de concorrentes |
+| 2026-10-23 | Organization | estudo de caso | Euronews via Yahoo Finance | Barclays corta 5.000 vagas (5% do quadro), 60% em funções de suporte, citando IA e economia esperada de £ 1,1 bi |
+| 2026-10-23 | Organization | conclusão | Gartner | Time de finanças troca a pirâmide pelo diamante: menos entrada, menos cargos intermediários, porém de maior peso |
+| 2026-10-23 | Organization | teórico | IDEAS/RePEc (Mintzberg, Management Science) | Structure in 5's: cinco partes, cinco mecanismos de coordenação e cinco configurações, com coerência ao ambiente |

@@ -236,3 +236,13 @@ Pesquisa do Gartner com 151 líderes de supply chain, feita de 11/11 a 21/12/202
 Fonte: DC Velocity, "Research highlights the need for flexible supply chain network planning" (14/07/2026), sobre pesquisa do Gartner.
 Link: https://www.dcvelocity.com/editorial/featured/research-highlights-the-need-for-flexible-supply-chain-network-planning
 Data de coleta: 2026-10-21
+
+Estudo da IDC patrocinado pela Kinaxis, com mais de 2.000 líderes de supply chain em nove mercados, mostra que só 12% têm governança de IA no planejamento totalmente incorporada à operação e 6% descrevem a cadeia como autônoma em escala. Mesmo assim, 41% esperam que a operação autônoma vire o modelo central em um a dois anos. A confiança nas decisões da IA é a principal barreira para 52%, e 67% dizem que a responsabilização pelos resultados da IA exigirá a maior mudança de governança. Ressalva: patrocínio de fornecedor de planejamento, sem período de campo nem margem de erro.
+Fonte: Business Wire via BNN Bloomberg, "Kinaxis-Sponsored Study Identifies Supply Chain AI Accountability Gap Amidst Rapid Adoption Expectations" (11/08/2026).
+Link: https://www.bnnbloomberg.ca/press-releases/2026/08/11/kinaxis-sponsored-study-identifies-supply-chain-ai-accountability-gap-amidst-rapid-adoption-expectations/
+Data de coleta: 2026-10-23
+
+[Teórico] O modelo SCOR, criado em 1996 pela PRTM e pela AMR Research com o Supply Chain Council (hoje parte da ASCM), virou SCOR DS em 2019, revisado em 2022, e passou de seis para sete processos: Plan, Source, Transform, Order, Fulfill, Return e Orchestrate. Plan é o processo que equilibra demanda e oferta agregadas e define o curso de ação para compra, produção e entrega. O modelo tem três níveis de detalhe e mais de 150 indicadores em hierarquia, com os de nível 1 voltados à alta gestão. Ressalva: conferido na Wikipedia, pois a página oficial da ASCM não abriu.
+Fonte: Wikipedia, "Supply chain operations reference".
+Link: https://en.wikipedia.org/wiki/Supply_chain_operations_reference
+Data de coleta: 2026-10-23

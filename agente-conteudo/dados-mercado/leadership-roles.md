@@ -241,3 +241,28 @@ Data de coleta: 2026-10-21
 Fonte: Newcastle University, TheoryHub, "Upper Echelons Theory" (resenha sem data), sobre Hambrick e Mason, "Upper Echelons: The Organization as a Reflection of Its Top Managers" (1984).
 Link: https://open.ncl.ac.uk/theories/13/upper-echelons-theory/
 Data de coleta: 2026-10-21
+
+Celeste Ackert passou quase 20 anos em FP&A, de gerente a diretora sênior em empresas como Sumo Logic, VMware e NETGEAR, depois de começar em operações e gestão de projetos. Em 2022 virou a primeira CFO da Fairmarkit, empresa de tecnologia para automação de compras. Ela credita a escolha ao histórico em operações e FP&A, à experiência em escalar startups e a tratar finanças como parceira das outras áreas, não só como guardiã do orçamento. Da equipe, cobra que cada relatório venha com o achado, a recomendação ou a ação por trás dos números. Ressalva: é um perfil de carreira individual, de 2023.
+Fonte: CFO.com (Sandra Beckwith), "Seizing Career Opportunities: Celeste Ackert" (22/11/2023).
+Link: https://cfo.com/news/seizing-career-opportunities-celeste-ackert-Fairmarkit/699958/
+Data de coleta: 2026-10-23
+
+Chris Ortega, CFO da consultoria Fresh FP&A, usa a primeira hora do dia em conversas pelo Teams com a equipe global para pegar problemas cedo e só abre o e-mail entre 9h e 10h. A primeira análise do dia é queima de caixa, runway e saldos de clientes, porque caixa é a métrica que mais pesa em PMEs. Ele encurtou reuniões de 30 para 20 minutos e reserva das 12h às 16h para trabalho de foco. Ressalva: é um relato de rotina pessoal, e os números de crescimento da consultoria (fundada em 2022) são declarados pela própria empresa.
+Fonte: CFO.com (CFO Editorial Staff), "The 6 a.m. CFO: How Fresh FP&A's Chris Ortega Starts His Day" (28/03/2024).
+Link: https://www.cfo.com/news/6-am-cfo-fresh-fpa-chris-ortega/711538/
+Data de coleta: 2026-10-23
+
+A ConocoPhillips anunciou em 06/08/2026 que o CFO Andy O'Brien assume como CEO em 1º de setembro, e a controller Konnie Haynes-Welsh foi promovida a CFO na mesma decisão, numa sucessão interna em dupla. O'Brien entrou em 1997 como analista financeiro e passou por mais de uma dúzia de cargos em finanças, estratégia e planejamento; Haynes-Welsh já tinha sido Chief Accounting Officer e tesoureira. Segundo a Crist Kolder, 10,26% dos CEOs da Fortune 500 e do S&P 500 em 2025 vieram direto da cadeira de CFO, contra 7,1% em 2024 e 6,5% em 2015. Ressalva: a matéria não detalha a metodologia da Crist Kolder nem traz número de 2026.
+Fonte: Fortune, CFO Daily (Sheryl Estrada), matéria sobre a promoção de Andy O'Brien de CFO a CEO da ConocoPhillips (07/08/2026).
+Link: https://fortune.com/2026/08/07/conocophillips-andy-obrien-cfo-to-ceo-sign-finance-chiefs-winning-top-jobs/
+Data de coleta: 2026-10-23
+
+A Super Micro Computer anunciou a saída imediata do CFO David Weigand, no cargo desde 2021, e a chegada de Mark Long, ex-CFO da Western Digital. Um comitê especial independente tinha recomendado a troca do CFO em 2024, depois de achar falhas de processo, e a correção das fraquezas de controle interno está no segundo ano. Pelo documento enviado à SEC, Long recebe salário-base de US$ 725 mil, bônus garantido de US$ 500 mil e bônus de assinatura de US$ 500 mil. Ressalva: a empresa não informou o motivo da saída.
+Fonte: CFO Dive (Maura Webber Sadovi), "Super Micro's CFO is out after change was slow-walked" (16/10/2026).
+Link: https://www.cfodive.com/news/super-micros-cfo-out-change-accounting-leadership-ai/833213/
+Data de coleta: 2026-10-23
+
+[Teórico] Pela teoria dos torneios de Lazear e Rosen (Journal of Political Economy, 1981), a empresa pode pagar pela posição relativa na hierarquia, e não pela produção individual: o salto salarial entre um nível e o seguinte funciona como prêmio pela promoção. Conyon, Peck e Sadler (Strategic Management Journal, 2001), com 100 empresas britânicas e mais de 500 executivos, acharam que a remuneração cresce de forma acelerada com o nível e que a distância entre CEO e demais diretores aumenta com o número de concorrentes, mas a dispersão salarial pouco explica o desempenho. Ressalva: a evidência é mista, e a aplicação à sucessão de CFO e controller é uma leitura nossa.
+Fonte: NBER Working Paper 401 (Lazear e Rosen, "Rank-Order Tournaments as Optimum Labor Contracts"); Conyon, Peck e Sadler, "Corporate Tournaments and Executive Compensation: Evidence from the UK" (Lancaster University eprints).
+Link: https://www.nber.org/papers/w0401 e https://eprints.lancs.ac.uk/id/eprint/53986
+Data de coleta: 2026-10-23

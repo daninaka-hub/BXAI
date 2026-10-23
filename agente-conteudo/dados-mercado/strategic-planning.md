@@ -216,3 +216,18 @@ Data de coleta: 2026-10-21
 Fonte: Robert S. Kaplan e David P. Norton, "Mastering the Management System" (Harvard Business Review, janeiro de 2008); descrição dos estágios por UC Irvine Division of Finance & Administration, "Strategic Framework".
 Link: https://hbr.org/2008/01/mastering-the-management-system e https://dfa.uci.edu/strategic-plan/strategic-framework.php
 Data de coleta: 2026-10-21
+
+Pesquisa da BDO com mais de 200 conselheiros de companhias abertas, feita em junho de 2026 pela Rabin Roberts Research, mostra que 35% veem priorizar a alocação de capital com recursos limitados como um dos maiores desafios do conselho nos próximos 12 meses, atrás de acompanhar a IA (51%) e equilibrar pautas concorrentes (36%). Só 13% põem M&A ou parcerias como foco principal de crescimento, contra 30% em 2025, e o foco em experiência e retenção de clientes subiu de 9% para 20%. Ressalva: o comunicado não traz amostra exata nem margem de erro.
+Fonte: BDO USA via Business Wire / Yahoo Finance, "2026 BDO Survey: Boards Require Disciplined Prioritization As Pressures Increase" (19/10/2026).
+Link: https://finance.yahoo.com/small-business/articles/2026-bdo-survey-boards-require-130000441.html
+Data de coleta: 2026-10-23
+
+A PwC ouviu 530 executivos e líderes de transações em empresas com receita de US$ 1 bilhão ou mais, todos com negócio concluído nos últimos três anos: só cerca de um em três adquirentes atingiu por completo todos os objetivos da tese. Antes da integração, 59% dos bem-sucedidos tinham transformado os geradores de valor em iniciativas executáveis, contra 28% dos de sucesso limitado, e 62% dos bem-sucedidos reportam sinergias reais e auditáveis, contra 27%. Ressalva: dados autodeclarados, mostram associação e não causa, e a PwC vende assessoria de integração.
+Fonte: Harvard Law School Forum on Corporate Governance (Michael Pokorski, Rupinder Gill e Kevin Desai, PwC), "2026 M&A Integration Survey" (21/10/2026).
+Link: https://corpgov.law.harvard.edu/2026/10/21/2026-ma-integration-survey/
+Data de coleta: 2026-10-23
+
+[Teórico] A visão baseada em recursos (RBV), com referência em Jay Barney (Journal of Management, 1991), explica o desempenho superior pelos recursos internos da empresa, e não só pela estrutura do setor. Um recurso só sustenta vantagem se for valioso, raro, difícil de imitar e sem substituto (VRIN), teste depois ampliado para VRIO, que pergunta se a empresa está organizada para capturar o valor. Recurso valioso e raro, mas fácil de copiar, dá só vantagem temporária. Ressalva: Priem e Butler (2001) criticam a teoria por ser tautológica e pouco prescritiva.
+Fonte: Strategic Management Insight (Ovidijus Jurevicius), "Resource-Based View" (atualizado em 24/10/2023); Wikipedia, "Resource-based view".
+Link: https://strategicmanagementinsight.com/tools/resource-based-view/
+Data de coleta: 2026-10-23

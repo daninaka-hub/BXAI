@@ -161,3 +161,13 @@ Data de coleta: 2026-10-20
 Fonte: IBCS Association, "IBCS Version 2.0 - aligned with ISO 24896" (versão aprovada em 11/06/2026).
 Link: https://ibcs.com/standards/
 Data de coleta: 2026-10-21
+
+A Aleph ouviu 273 líderes de finanças, de diretor para cima, em agosto de 2026: em 60,1% das empresas o orçamento leva três meses ou mais até a aprovação, e só 14,3% fecham em um mês. Ao todo, 78,4% precisam de três revisões ou mais, 57,5% dizem que metade ou mais da temporada vai para trabalho braçal, e consolidar dados e versões é a maior dor (37,4%). Ciclos longos andam com mais revisões: 56,4% dos que fecham em um mês fazem três ou mais, contra 86% dos que levam quatro meses. Ressalva: fornecedor de software, a página cita amostra de 250 em outro trecho, e alguns grupos são pequenos.
+Fonte: Aleph (Team Aleph), "How long the budgeting process takes (2026 benchmarks)" (atualizada em outubro de 2026).
+Link: https://www.getaleph.com/answers/how-long-does-budgeting-take-benchmarks
+Data de coleta: 2026-10-23
+
+[Teórico] O Building Block Model de Fitzgerald e Moon, pensado para empresas de serviço, tem três blocos: dimensões (o que medir), padrões (as metas) e recompensas. As seis dimensões se dividem em resultados, que refletem decisões passadas (desempenho financeiro e competitividade), e determinantes, que puxam o resultado futuro (qualidade, inovação, flexibilidade e uso de recursos). Os padrões precisam de dono, ser atingíveis e permitir comparação justa; as recompensas precisam ser claras, motivar e cobrar só o que a pessoa controla.
+Fonte: ACCA (Steve Willis), "Building blocks of performance management", artigo técnico do exame de Performance Management.
+Link: https://www.accaglobal.com/uk/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/buildblocks.html
+Data de coleta: 2026-10-23

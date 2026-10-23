@@ -211,3 +211,13 @@ Data de coleta: 2026-10-21
 Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 6.7 "Judgmental adjustments".
 Link: https://otexts.com/fpp3/judgmental-adjustments.html
 Data de coleta: 2026-10-21
+
+Pesquisa da SAP Concur com 400 líderes de finanças em oito países, incluindo o Brasil, mostra que poucos cortam custos primeiro diante da volatilidade: 24% priorizam redução proativa de custos e 19% apertam o orçamento, enquanto 52% monitoram o mercado mais de perto e 46% fazem cenários mais detalhados. Se a volatilidade continuar, 52% pretendem ampliar os cenários para grandes decisões e 43% pretendem encurtar os ciclos de planejamento e forecast. Ressalva: pesquisa de fornecedor, sem período de campo informado.
+Fonte: CFOtech Australia (Karen Joy Bacudo), "Finance leaders favour visibility & planning over cuts" (22/10/2026), sobre relatório da SAP Concur.
+Link: https://cfotech.com.au/story/finance-leaders-favour-visibility-planning-over-cuts
+Data de coleta: 2026-10-23
+
+[Teórico] Quando séries se somam em níveis (unidade, região, total), previsões feitas em separado para cada nível em geral não fecham entre si; a propriedade que falta é a coerência. Os caminhos são bottom-up (soma da base), top-down (rateio do total, que perde informação das séries), middle-out (parte de um nível intermediário) e a reconciliação ótima MinT, que combina todos os níveis para reduzir a variância. No exemplo das prisões australianas, o MASE do total caiu de 1,72 na previsão base para 0,90 com MinT. Ressalva: a reconciliação não melhora todos os níveis; no total do turismo, a previsão base teve RMSE menor que a OLS.
+Fonte: Hyndman e Athanasopoulos, Forecasting: Principles and Practice, 3ª ed., capítulo 11 (OTexts).
+Link: https://otexts.com/fpp3/hierarchical.html
+Data de coleta: 2026-10-23

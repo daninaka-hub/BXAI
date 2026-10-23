@@ -166,3 +166,18 @@ Data de coleta: 2026-10-21
 Fonte: John Burns e Gudrun Baldvinsdottir, "An institutional perspective of accountants' new roles: the interplay of contradictions and praxis", European Accounting Review, vol. 14, nº 4, p. 725 a 757 (2005), página do repositório da University of Dundee.
 Link: https://discovery.dundee.ac.uk/en/publications/an-institutional-perspective-of-accountants-new-roles-the-interpl/
 Data de coleta: 2026-10-21
+
+O Barclays vai cortar cerca de 5.000 vagas até o fim de 2026, perto de 5% do quadro global, com cerca de 60% dos cortes em funções de suporte; cerca de 1.000 já saíram no primeiro semestre. O banco apresenta o programa como simplificação organizacional e ganho de eficiência com IA e espera economizar mais de £ 1,1 bilhão. Ressalva: a matéria não detalha quanto dos cortes atinge finanças e contabilidade, e a economia é projeção do próprio banco.
+Fonte: Euronews (Doloresz Katanich), "Barclays to cut 5,000 jobs as it turns to AI to improve efficiency", via Yahoo Finance (22/10/2026).
+Link: https://sg.finance.yahoo.com/news/barclays-cut-5-000-jobs-101616342.html
+Data de coleta: 2026-10-23
+
+Na Gartner Finance Symposium/Xpo 2026, o analista Markus Hofbauer defendeu que o time de finanças vai trocar a estrutura em pirâmide por um formato de diamante: menor, mais enxuto e mais intensivo em tecnologia. A entrada encolhe e passa a favorecer perfis de tecnologia que aprendem finanças, os cargos intermediários diminuem mas ganham responsabilidade por decisões apoiadas em IA, e a liderança passa a responder pelo desenho do sistema humano e IA. Ressalva: é tese de analista em evento, sem amostra nem números de quadro.
+Fonte: Gartner, "Gartner Finance Symposium/Xpo 2026 National Harbor: Day 1 Highlights" (27/05/2026).
+Link: https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-finance-symposium-xpo-2026-national-harbor-day-1-highlights
+Data de coleta: 2026-10-23
+
+[Teórico] Mintzberg divide a organização em cinco partes: cúpula estratégica, linha intermediária, núcleo operacional, tecnoestrutura (quem desenha sistemas, padrões e controles) e assessoria de apoio (serviços internos). Ligando essas partes a cinco mecanismos de coordenação, ele chega a cinco configurações: estrutura simples, burocracia mecanizada, burocracia profissional, forma divisionalizada e adhocracia. A organização eficaz escolhe uma configuração coerente com o ambiente. Aplicado a finanças, ajuda a separar o que é tecnoestrutura (controladoria, FP&A, normas) do que é apoio (centros de serviços compartilhados). Ressalva: o modelo é de 1980, anterior a CSC e IA, e o uso em finanças é interpretação nossa.
+Fonte: Henry Mintzberg, "Structure in 5's: A Synthesis of the Research on Organization Design", Management Science, vol. 26, nº 3, p. 322 a 341 (1980), via IDEAS/RePEc; apoio da Open University (OpenLearn).
+Link: https://ideas.repec.org/a/inm/ormnsc/v26y1980i3p322-341.html
+Data de coleta: 2026-10-23

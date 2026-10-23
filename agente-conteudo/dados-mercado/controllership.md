@@ -351,3 +351,13 @@ Data de coleta: 2026-10-21
 Fonte: U.S. Securities and Exchange Commission, "Commission Guidance Regarding Management's Report on Internal Control Over Financial Reporting Under Section 13(a) or 15(d) of the Securities Exchange Act of 1934" (Releases 33-8810 e 34-55929, Federal Register, 27/06/2007).
 Link: https://www.govinfo.gov/content/pkg/FR-2007-06-27/html/E7-12299.htm
 Data de coleta: 2026-10-21
+
+Em 05/05/2026 a SEC propôs permitir que companhias abertas troquem os três 10-Q do ano por um único relatório semestral, o Form 10-S, com escolha anual. A consulta fechou em 06/07/2026 com mais de 63 mil cartas individuais, cerca de 99% contra, além de mais de 66 mil assinaturas em campanhas padronizadas. Contadores e auditores argumentaram que perder duas das três revisões trimestrais do auditor atrasa a detecção de erros e de deficiências de controle, sobretudo em empresas menores. A SEC estima custo anual de cerca de US$ 132 mil para um 10-S, contra US$ 330 mil para três 10-Q, economia que muitos comentaristas contestam porque a empresa segue fechando trimestres para gestão, conselho e credores. Ressalva: a regra não foi aprovada.
+Fonte: Goodwin Procter (Folake Ayoola e David M. Lynn), "Semiannual Reporting: Key Themes of Public Comments" (13/08/2026).
+Link: https://www.goodwinlaw.com/en/insights/publications/2026/08/alerts-otherindustries-pca-semiannual-reporting-key-themes-of-public-comments
+Data de coleta: 2026-10-23
+
+[Teórico] O guia da BDO organiza a avaliação de deficiências de ICFR em seis passos: identificar a deficiência (desenho ou operação), medir magnitude e probabilidade, procurar controles compensatórios, agregar deficiências relacionadas, concluir a gravidade e documentar. A classificação vai de deficiência simples a deficiência significativa e material weakness, e o peso vem do erro que poderia ter ocorrido, não só do que ocorreu. Controle compensatório só reduz a gravidade se for preciso o bastante e tiver funcionado durante todo o período. Fraude da alta gestão, republicação, erro material não detectado pelos controles e comitê de auditoria ineficaz são indicadores de material weakness.
+Fonte: BDO USA, "Evaluating Internal Control Deficiencies Guide" (03/05/2022).
+Link: https://www.bdo.com/insights/assurance/evaluating-internal-control-deficiencies-guide
+Data de coleta: 2026-10-23

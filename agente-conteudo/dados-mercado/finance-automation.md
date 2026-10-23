@@ -351,3 +351,18 @@ Data de coleta: 2026-10-21
 Fonte: Ben Shneiderman, "Human-Centered Artificial Intelligence: Reliable, Safe & Trustworthy" (relatório UMD HCIL-2020-01, arXiv, v1 de 10/02/2020, revisado em 23/02/2020).
 Link: https://arxiv.org/abs/2002.04087
 Data de coleta: 2026-10-21
+
+Relatório da ACCA com a CA ANZ, com 1.600 profissionais de finanças, aponta que 93% se preocupam com a integridade e a verificabilidade de insights gerados por IA, enquanto 72% dizem ter habilidade básica ou nenhuma em IA generativa e 41% buscam capacitação por conta própria. As maiores barreiras são qualidade de dados (42%), falta de habilidade (42%) e dificuldade de integrar várias fontes (40%). Ressalva: a divulgação não traz período de coleta nem divisão da amostra.
+Fonte: ACCA e CA ANZ, "Enabling finance insight: Bridging skills and data gaps for AI-enabled finance" (14/07/2026); percentuais de 93%, 72% e 41% via Passionate in Marketing (16/07/2026).
+Link: https://www.accaglobal.com/policy-and-insights/reports/2026/enabling-finance-insight.html
+Data de coleta: 2026-10-23
+
+A Avalara, com a Hanover Research, ouviu 400 profissionais de finanças, tributos e contabilidade na Austrália, Canadá, Reino Unido e EUA em março e abril de 2026. Todos dizem usar ao menos uma ferramenta de IA (eram 84% em 2025 e 47% em 2024), e a IA já está embutida no ERP ou sistemas financeiros de 43% das organizações. Para 53%, IA agêntica é o investimento de tecnologia número um, mas só 29% já usam agentes. E 86% se dizem muito preparados para nota fiscal eletrônica, mas só metade automatizou o processo. Ressalva: pesquisa de fornecedor, lida pelo comunicado, sem definição de "agêntica".
+Fonte: Avalara Newsroom, "Avalara 2026 State of Finance report" (21/10/2026).
+Link: https://newsroom.avalara.com/2026-10-21-Avalara-2026-State-of-Finance-report-Finance-and-Tax-Teams-Report-Widespread-AI-Adoption,-but-E-Invoicing-Readiness-Gap-Leaves-Many-Exposed
+Data de coleta: 2026-10-23
+
+[Teórico] Em "Ironies of Automation" (Automatica, 1983), Lisanne Bainbridge mostra que quanto mais se automatiza, mais o sistema depende de um operador humano qualificado, que fica com as tarefas mais difíceis: vigiar a máquina e assumir quando ela falha. Como quase não pratica, o operador perde a habilidade justamente quando ela é necessária, e a atenção em monitoramento de eventos raros cai depois de cerca de meia hora. Ela propõe falhas visíveis, divisão clara de tarefas e prática regular ou simulação. Para agentes de finanças, isso significa revisores que ainda sabem fechar à mão e alertas que expõem a falha.
+Fonte: Adrian Colyer, the morning paper, "Ironies of automation" (08/01/2020), resumo do artigo de Bainbridge (Automatica, vol. 19, nº 6, 1983).
+Link: https://blog.acolyer.org/2020/01/08/ironies-of-automation/
+Data de coleta: 2026-10-23

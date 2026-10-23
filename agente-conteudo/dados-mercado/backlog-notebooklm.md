@@ -193,25 +193,25 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 185 | Managing AI Risk with Confidence: A Governance Foundation Built on NIST and COSO | Alta | Processado |
 | 186 | Marsh McLennan Wins 2022 AFP Pinnacle Awards Grand Prize for Excellence in Treasury and Finance - PR Newswire | Baixa | Processado |
 | 187 | Mastering FP&A Rolling Forecasts with Driver-Based Planning - Sparkco | Alta | Descartado |
-| 188 | Microsoft Layoffs & Toxic Management: A Dangerous Culture Behind the Scenes - Reddit | Baixa | Pendente |
-| 189 | Microsoft Names Amy Hood New CFO | PCMag | Baixa | Pendente |
+| 188 | Microsoft Layoffs & Toxic Management: A Dangerous Culture Behind the Scenes - Reddit | Baixa | Descartado |
+| 189 | Microsoft Names Amy Hood New CFO | PCMag | Baixa | Descartado |
 | 190 | Modern Enterprise Finance Governance: Strategic Best Practices Across FP&A, Controllership, and Corporate Planning | Alta | Descartado |
 | 191 | Navigate AI governance and regulatory compliance in finance - Optro | Alta | Processado |
 | 192 | New Kids on the Block - Journal of Accountancy | Alta | Processado |
-| 193 | Newsletters - FP&A Trends | Baixa | Pendente |
+| 193 | Newsletters - FP&A Trends | Baixa | Descartado |
 | 194 | Notice of Filing of Proposed Rules on Auditing Accounting Estimates, Including Fair Value Measurements, and Amendments to PCAOB - SEC.gov | Alta | Processado |
 | 195 | On the Complementary Role of Budget and Rolling Forecast - Gupea | Alta | Processado |
 | 196 | Oracle Recognized as a Leader in the 2025 Gartner Magic Quadrant for Financial Planning Software | Alta | Descartado |
 | 197 | PCAOB Auditing Standards Overview: Building Audit Quality | Alta | Descartado |
-| 198 | PGDM in Finance 2026: Colleges, Fees, Syllabus & Career - Propelld | Baixa | Pendente |
-| 199 | Paul Barnhurst - Vena Solutions | Baixa | Pendente |
+| 198 | PGDM in Finance 2026: Colleges, Fees, Syllabus & Career - Propelld | Baixa | Descartado |
+| 199 | Paul Barnhurst - Vena Solutions | Baixa | Descartado |
 | 200 | Peloton's Capacity Bet - NAVETRA - Execution Risk Governance | Alta | Processado |
 | 201 | Period Close Automation Platforms Compared - ChatFin | Alta | Descartado |
 | 202 | Planejamento e Estratégia · Blog Treasy | Alta | Processado |
 | 203 | Protecting Financial Data Privacy in the Age of Artificial Intelligence - DFIN | Alta | Descartado |
 | 204 | Public Company Accounting Oversight Board; Notice of Filing of Proposed Rules on General Responsibilities of the Auditor - Federal Register | Alta | Processado |
 | 205 | Qual a diferença entre FP&A x Controladoria x Contabilidade? - Handit | Alta | Processado |
-| 206 | Quem Somos - Sams Advisory | Baixa | Pendente |
+| 206 | Quem Somos - Sams Advisory | Baixa | Descartado |
 | 207 | R2R reality check: Research shows automation lags despite demand - Redwood Software | Alta | Processado |
 | 208 | RESEARCH NOTE EXPLORING THE BENEFITS OF BLACKLINE SYSTEMS | Alta | Processado |
 | 209 | ROCKSTAR SERVICE - ERP Today | Alta | Descartado |
@@ -227,22 +227,22 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 219 | SOX Compliance: Requirements, Controls & AI (2026 Guide) - Concourse AI | Alta | Descartado |
 | 220 | SOX Compliance: What Internal Auditors Need to Do Now - Supervizor | Alta | Descartado |
 | 221 | SOX Section 404 Compliance: 2026 Updates, Key Differences, and Best Practices | Alta | Processado |
-| 222 | Seizing Career Opportunities: Celeste Ackert - CFO.com | Baixa | Pendente |
-| 223 | Site Map | Pluvo | Baixa | Pendente |
+| 222 | Seizing Career Opportunities: Celeste Ackert - CFO.com | Baixa | Processado |
+| 223 | Site Map | Pluvo | Baixa | Descartado |
 | 224 | Stepping Into the Future of Controllership | Deloitte US | Alta | Processado |
 | 225 | Strategic Foresight: How CFOs Turn Uncertainty into Advantage - Part 1 of 3 | FP&A Trends | Alta | Processado |
-| 226 | Strategic Planning & Operations Sr Mgr - Global Customer Capabilities & Innovation | Baixa | Pendente |
-| 227 | Strategic Planning Resume Samples | VelvetJobs | Baixa | Pendente |
+| 226 | Strategic Planning & Operations Sr Mgr - Global Customer Capabilities & Innovation | Baixa | Descartado |
+| 227 | Strategic Planning Resume Samples | VelvetJobs | Baixa | Descartado |
 | 228 | Strategic Transformation in Enterprise Finance: Deploying Artificial Intelligence across FP&A, Controllership, and Corporate Planning | Alta | Descartado |
 | 229 | Systemic Financial Planning, Controllership, and FP&A Failures: Institutional Case Studies and Strategic Governance Imperatives | Alta | Descartado |
 | 230 | Target Canada: Lesson from Failure of International Entry | Journal of Eastern European and Central Asian Research | Alta | Processado |
 | 231 | Target's Canada Collapse - Business Knowledge - Kit | Alta | Descartado |
 | 232 | Target's $5.4 Billion Disaster: Why the Canadian Expansion Failed (Full Case Study) | Alta | Descartado |
-| 233 | The 14 Best FP&A Podcasts To Listen to in 2025 - Vena Solutions | Baixa | Pendente |
+| 233 | The 14 Best FP&A Podcasts To Listen to in 2025 - Vena Solutions | Baixa | Descartado |
 | 234 | The 2025 Gartner Magic Quadrant for Financial Planning Software - Board | Alta | Descartado |
-| 235 | The 6 a.m. CFO: How Fresh FP&A's Chris Ortega Starts His Day | Baixa | Pendente |
+| 235 | The 6 a.m. CFO: How Fresh FP&A's Chris Ortega Starts His Day | Baixa | Processado |
 | 236 | The CAO's first year: five priorities to build early impact | EY - US | Alta | Processado |
-| 237 | The ChatFin Resource Library | Baixa | Pendente |
+| 237 | The ChatFin Resource Library | Baixa | Descartado |
 | 238 | The FP&A Tool Landscape in the AI Era - Sign In | Alta | Descartado |
 | 239 | The KPMG Review Internal Control: A Practical Guide - European Corporate Governance Institute | Alta | Processado |
 | 240 | The New Frontier in Finance | Vareto | Alta | Descartado |
@@ -258,15 +258,15 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 250 | The ultimate guide to AI agents in finance: How FP&A teams are using agentic AI in 2026 | Alta | Processado |
 | 251 | Three Lines Model - The IIA | Alta | Processado |
 | 252 | Tips For Aligning the Forecasting Process between Finance and Operations with Amber Johnson - The FP&A Guy | Alta | Descartado |
-| 253 | Top 10 Strategic Planning Manager Interview Questions and Answers | Baixa | Pendente |
+| 253 | Top 10 Strategic Planning Manager Interview Questions and Answers | Baixa | Descartado |
 | 254 | Top 10 best practices for your internal control journey - PwC | Alta | Descartado |
-| 255 | Top 10 questions to ask when interviewing for a FP&A Manager - HPR Consulting | Baixa | Pendente |
-| 256 | Top 30 Influencers For Financial Advisors In 2025 - Indigo Marketing Agency | Baixa | Pendente |
-| 257 | Top 31 Finance and FP&A Influencers to Follow in 2024 - Datarails | Baixa | Pendente |
-| 258 | Top 40 Treasury & Finance Leaders to Follow in 2025 - Nilus | Baixa | Pendente |
+| 255 | Top 10 questions to ask when interviewing for a FP&A Manager - HPR Consulting | Baixa | Descartado |
+| 256 | Top 30 Influencers For Financial Advisors In 2025 - Indigo Marketing Agency | Baixa | Descartado |
+| 257 | Top 31 Finance and FP&A Influencers to Follow in 2024 - Datarails | Baixa | Descartado |
+| 258 | Top 40 Treasury & Finance Leaders to Follow in 2025 - Nilus | Baixa | Descartado |
 | 259 | Top 7 BlackLine Alternatives & Competitors in 2026 - HighRadius | Alta | Descartado |
-| 260 | Top FP&A Interview Questions and Sample Answers - Abacum | Baixa | Pendente |
-| 261 | Top LinkedIn Finance Influencer You Should Follow - Phyllo | Baixa | Pendente |
+| 260 | Top FP&A Interview Questions and Sample Answers - Abacum | Baixa | Descartado |
+| 261 | Top LinkedIn Finance Influencer You Should Follow - Phyllo | Baixa | Descartado |
 | 262 | Traditional vs Modern Finance Departments | Alehar | Alta | Processado |
 | 263 | Tripartite Risk Dynamics in Corporate Finance: Systemic Exposure Across FP&A, Controllership, and Strategic Planning | Alta | Descartado |
 | 264 | Trust Incident Zillow - Building the Knowledge Base for a Trusted Digital Future | Alta | Processado |
