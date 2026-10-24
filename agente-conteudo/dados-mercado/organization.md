@@ -181,3 +181,18 @@ Data de coleta: 2026-10-23
 Fonte: Henry Mintzberg, "Structure in 5's: A Synthesis of the Research on Organization Design", Management Science, vol. 26, nº 3, p. 322 a 341 (1980), via IDEAS/RePEc; apoio da Open University (OpenLearn).
 Link: https://ideas.repec.org/a/inm/ormnsc/v26y1980i3p322-341.html
 Data de coleta: 2026-10-23
+
+No Corporate Finance & Accounting Talent Study 2026 do Controllers Council, o principal motivo de saída de profissionais de finanças é falta de crescimento na carreira (54%), seguido de remuneração e benefícios insuficientes (29%), pouca flexibilidade (26%), falta de treinamento (25%), burnout (25%) e gestão ruim (15%). Crescimento pesa quase o dobro do salário, o que indica que trilha de carreira retém mais que reajuste. Ressalva: a página não informa amostra nem metodologia.
+Fonte: Controllers Council, "Finance Professionals Are Leaving for Opportunity More Than Pay" (14/08/2026).
+Link: https://controllerscouncil.org/finance-professionals-are-leaving-for-opportunity-more-than-pay/
+Data de coleta: 2026-10-24
+
+A pesquisa 2026 CFO Sentiments da Datarails (270 CFOs e líderes de finanças dos EUA, empresas com mais de 1.000 funcionários e receita a partir de US$ 100 milhões) compara a previsão de dois anos atrás com o que aconteceu. Na época, 57% previam que a IA reduziria cargos e 18% esperavam eliminar ao menos 3 em cada 10 até 2026. Hoje 9% congelaram contratações sem cortar e 7% dizem que a IA está criando vagas (eram 16% na previsão). O custo escondido: 40% gastam mais de um quarto do dia conferindo ou corrigindo o que a IA produz. Ressalvas: a Datarails é fornecedora e a data de campo não é informada.
+Fonte: Journal of Accountancy (Bryan Strickland), "AI is reshaping finance jobs rather than eliminating them, survey finds" (22/10/2026).
+Link: https://www.journalofaccountancy.com/news/2026/oct/ai-is-reshaping-finance-jobs-rather-than-eliminating-them-survey-finds/
+Data de coleta: 2026-10-24
+
+[Teórico] Na economia dos custos de transação, Oliver Williamson toma a transação como unidade de análise e parte de racionalidade limitada e oportunismo. Fazer dentro ou contratar no mercado depende de três atributos: incerteza, frequência e especificidade dos ativos, sendo esta a mais importante, porque o investimento dedicado deixa as partes expostas. Mais incerteza e especificidade empurram a atividade para dentro da empresa. Em finanças, o modelo ajuda a decidir o que vai para BPO, o que fica num CSC próprio e o que fica junto ao negócio. Ressalva: a aplicação a finanças é leitura nossa, e o resumo consultado não detalha formas híbridas.
+Fonte: AcaWiki, resumo de Oliver E. Williamson, "The economics of organization: The transaction cost approach", American Journal of Sociology (1981).
+Link: https://acawiki.org/The_economics_of_organization:_The_transaction_cost_approach
+Data de coleta: 2026-10-24

@@ -366,3 +366,23 @@ Data de coleta: 2026-10-23
 Fonte: Adrian Colyer, the morning paper, "Ironies of automation" (08/01/2020), resumo do artigo de Bainbridge (Automatica, vol. 19, nº 6, 1983).
 Link: https://blog.acolyer.org/2020/01/08/ironies-of-automation/
 Data de coleta: 2026-10-23
+
+Dan Zhang, CFO e hoje chief business officer da ClickUp, afirma que as rotinas contábeis da empresa (fechamento mensal, contas a pagar e a receber, impostos e folha) estão entre 80% e 85% automatizadas por agentes de IA. O FP&A criou uma skill de IA para cenários que responde na hora a perguntas como contratar mais 10 vendedores ou adiar o roadmap, análise que antes levava dias ou semanas. O time financeiro ficou menor que no ano anterior, com contratações cortadas e saídas sem reposição automática, e o retorno da IA é medido por receita por funcionário e lucratividade. Ressalva: números informados pelo próprio executivo em entrevista.
+Fonte: CFO.com (Adam Zaki), "Why The Secret CFO calls this finance leader 'the most AI-pilled CFO'" (30/06/2026).
+Link: https://www.cfo.com/news/why-the-secret-cfo-calls-dan-zhang-click-up-the-most-ai-pilled-cfo-agentic-tokenmaxxing-finance-/824106/
+Data de coleta: 2026-10-24
+
+A Mercor comparou 12 CPAs (cerca de cinco anos de experiência em média) ao Claude Opus 5 operando como agente em quatro tarefas de fechamento mensal. A IA sozinha acertou 100% das 20 tentativas, cada uma em menos de 10 minutos; os humanos ficaram em geral abaixo de 50% de acerto e levaram de 30 minutos a três horas. Os contadores que trabalharam com o Claude melhoraram a precisão, mas levaram cerca de 15 vezes mais por tarefa que a IA sozinha, e em três das quatro sessões assistidas sem nota máxima o número certo apareceu e ficou fora da entrega final. Ressalvas: amostra pequena e júnior, correção feita por LLM validada com só oito entregas, desenho que a própria Mercor admite favorecer a IA, e a Mercor vende serviços de IA.
+Fonte: Accounting Today (Chris Gaetano), "AI beats human accountants at monthly close, transaction categorization" (16/10/2026).
+Link: https://www.accountingtoday.com/news/ai-beats-human-accountants-at-monthly-close-transaction-categorization
+Data de coleta: 2026-10-24
+
+O relatório "Time to Cash", da PYMNTS Intelligence com a J.P. Morgan, ouviu 100 CFOs dos EUA em julho de 2026 (receita entre US$ 250 milhões e US$ 2,5 bilhões) e comparou com 375 CFOs de 2025. Só 38% veem melhora no comportamento dos clientes quanto a prazos de pagamento, contra 73% em 2025, a maior queda entre os 12 indicadores. A parcela que acompanha metas de fluxo de caixa por unidade de negócio subiu de 5% para 58%, e todas as empresas de alta velocidade têm ciclo de conversão de caixa de até 60 dias. Ressalvas: patrocínio bancário, amostras de tamanhos diferentes e matéria parcialmente atrás de paywall.
+Fonte: PYMNTS, "Study Finds CFOs Find AI Can't Clear Every Cash Flow Bottleneck" (01/10/2026).
+Link: https://www.pymnts.com/news/b2b-payments/2026/study-finds-cfos-find-ai-cant-clear-every-cash-flow-bottleneck/
+Data de coleta: 2026-10-24
+
+[Teórico] Clean core é a abordagem da SAP para manter o ERP moderno e compatível com a nuvem: integrações e extensões sem alterar o núcleo padrão, com dados mestres de qualidade e governança de processos. O conceito tem cinco dimensões (processos, dados, integração, operações e extensibilidade) e recomenda zero modificações no núcleo, remoção de customizações que duplicam o padrão, uso só de APIs liberadas e estáveis a upgrades, e extensões maiores fora do ERP. Os ganhos citados são upgrade mais simples, inovação mais rápida e menor custo total. Ressalva: conceito criado pela própria fornecedora, página sem data.
+Fonte: SAP Learning, "Introducing the Clean Core Approach", curso Practicing Clean Core Extensibility for SAP S/4HANA Cloud.
+Link: https://learning.sap.com/courses/practicing-clean-core-extensibility-for-sap-s-4hana-cloud/introducing-the-clean-core-approach_fcb6c662-7041-4c99-88bd-345636fae7f3
+Data de coleta: 2026-10-24

@@ -271,7 +271,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 263 | Tripartite Risk Dynamics in Corporate Finance: Systemic Exposure Across FP&A, Controllership, and Strategic Planning | Alta | Descartado |
 | 264 | Trust Incident Zillow - Building the Knowledge Base for a Trusted Digital Future | Alta | Processado |
 | 265 | Two Points at Which Controllership and FP&A Diverge | Alta | Processado |
-| 266 | Typical interview questions for FP&A roles : r/FPandA - Reddit | Baixa | Pendente |
+| 266 | Typical interview questions for FP&A roles : r/FPandA - Reddit | Baixa | Descartado |
 | 267 | Understanding xP&A: All About Extended Planning and Analysis - Pigment | Alta | Processado |
 | 268 | Use Case: How did Deloitte use automation to accelerate the preparation of key management reports? - IBM Community | Alta | Processado |
 | 269 | What Are the Three Lines of Defense? Implementing the 3 Lines Model - Ncontracts | Alta | Processado |
@@ -285,7 +285,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 277 | What is xP&A? | Workday US | Alta | Processado |
 | 278 | What's the Difference Between FP&A and Finance Controller? | Alta | Processado |
 | 279 | Why Did Zillow Offers Fail? $0 Lost & What Went Wrong (2021) - IdeaProof | Alta | Processado |
-| 280 | Why The Secret CFO calls this finance leader 'the most AI-pilled CFO' | Baixa | Pendente |
+| 280 | Why The Secret CFO calls this finance leader 'the most AI-pilled CFO' | Baixa | Processado |
 | 281 | Why Zillow iBuying Failed (Zillow Offers) - DayTrading.com | Alta | Processado |
 | 282 | Why the iBuying algorithms failed Zillow, and what it says about the business world's love affair with AI - GeekWire | Alta | Processado |
 | 283 | Workday Recognized as a Leader in 2025 Gartner Magic Quadrant for Financial Planning Software for Fourth Year in a Row | Alta | Processado |
@@ -293,7 +293,7 @@ Status: Pendente, Processado, Descartado (sem dado extraível).
 | 285 | Zillow Offers Loss: A $881M Study in AI Model Risk - shackleford, a coaching company | Alta | Processado |
 | 286 | Zillow Offers' US$500 Million AI Failure | Alta | Processado |
 | 287 | business controller vs financial controller: understanding the key differences - Randstad | Alta | Processado |
-| 288 | ck prahalad award past winners - Corporate Eco Forum | Baixa | Pendente |
+| 288 | ck prahalad award past winners - Corporate Eco Forum | Baixa | Descartado |
 | 289 | https://doi.org/10.58225/tim.2025-2-93-103 G.M.Ganbarova master student, Azerbaijan State University of Economics | Alta | Processado |
 | 290 | pton-20240630 - SEC.gov | Alta | Processado |
 | 291 | xP&A: 5 advantages of extended planning and analysis - Finance Alliance | Alta | Processado |

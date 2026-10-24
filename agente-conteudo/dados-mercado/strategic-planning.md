@@ -231,3 +231,13 @@ Data de coleta: 2026-10-23
 Fonte: Strategic Management Insight (Ovidijus Jurevicius), "Resource-Based View" (atualizado em 24/10/2023); Wikipedia, "Resource-based view".
 Link: https://strategicmanagementinsight.com/tools/resource-based-view/
 Data de coleta: 2026-10-23
+
+Na 23ª pesquisa anual de M&A do escritório Dykema, pouco mais da metade dos respondentes espera mais atividade de M&A nos EUA nos próximos 12 meses, contra 74% um ano antes. Os setores mais citados são data centers e infraestrutura digital (38%), tecnologia (32%) e saúde (29%). 63% veem a due diligence como a etapa em que a IA mais agrega, e a principal preocupação com IA é precisão e confiabilidade (38%). Ressalva: o release não informa amostra nem datas de campo; respondentes são executivos, banqueiros, private equity e assessores.
+Fonte: Dykema, "Dykema's 2026 M&A Outlook Survey: Dealmaker Confidence Slips, AI Moves from Tool to Target" (22/10/2026).
+Link: https://www.dykema.com/news-insights/dykemas-2026-manda-outlook-survey-dealmaker-confidence-slips-ai-moves-from-tool-to-target.html
+Data de coleta: 2026-10-24
+
+[Teórico] A teoria das capacidades dinâmicas de David Teece explica como a empresa mantém estabilidade para entregar valor e ainda muda rápido quando o ambiente exige. Formalizada em 1997 com Gary Pisano e Amy Shuen e desdobrada em 2007 no Strategic Management Journal, ela organiza o tema em três atividades: sentir oportunidades externas, aproveitá-las mobilizando recursos e transformar a organização de forma contínua. Capacidades comuns viram boa prática do setor; as dinâmicas são próprias da empresa, ligadas à sua história e difíceis de copiar. Complementa a visão baseada em recursos de Barney. Ressalva: o próprio Teece admite que a teoria não é falseável e tem pouco poder de previsão.
+Fonte: strategy+business (Art Kleiner), "The Dynamic Capabilities of David Teece" (11/11/2013).
+Link: https://www.strategy-business.com/article/00225?pg=all
+Data de coleta: 2026-10-24

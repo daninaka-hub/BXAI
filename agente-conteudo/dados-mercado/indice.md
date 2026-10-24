@@ -407,3 +407,27 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-23 | Organization | estudo de caso | Euronews via Yahoo Finance | Barclays corta 5.000 vagas (5% do quadro), 60% em funções de suporte, citando IA e economia esperada de £ 1,1 bi |
 | 2026-10-23 | Organization | conclusão | Gartner | Time de finanças troca a pirâmide pelo diamante: menos entrada, menos cargos intermediários, porém de maior peso |
 | 2026-10-23 | Organization | teórico | IDEAS/RePEc (Mintzberg, Management Science) | Structure in 5's: cinco partes, cinco mecanismos de coordenação e cinco configurações, com coerência ao ambiente |
+| 2026-10-24 | Finance Automation | estudo de caso | CFO.com | ClickUp: 80% a 85% da contabilidade automatizada por agentes, skill de cenários no FP&A e time menor |
+| 2026-10-24 | Leadership Roles | pesquisa | CLFI | FTSE 100: 82% dos CFOs já tinham sido CFO ou FD, 52% vieram de fora, 53% no cargo desde 2024 |
+| 2026-10-24 | Leadership Roles | conclusão | Fortune | Automatizar o júnior ameaça o funil de CFOs; só 16% das empresas têm plano de sucessão proativo |
+| 2026-10-24 | Leadership Roles | teórico | Center for Creative Leadership | 70-20-10: líderes aprendem 70% com desafios, 20% com relações e 10% com cursos |
+| 2026-10-24 | Organization | estatística | Controllers Council | 54% dos profissionais de finanças saem por falta de crescimento e 29% por remuneração |
+| 2026-10-24 | Organization | pesquisa | Journal of Accountancy / Datarails | 57% previam cortes por IA; 7% veem criação de vagas; 40% gastam mais de 1/4 do dia corrigindo a IA |
+| 2026-10-24 | Organization | teórico | AcaWiki (Williamson, 1981) | Custos de transação: incerteza, frequência e especificidade de ativos decidem entre fazer e terceirizar |
+| 2026-10-24 | Integrated Planning | pesquisa | Gartner via Inside Logistics | 55% dos CSCOs não veem o ROI da IA, embora 67% do investimento digital em supply chain já vá para IA |
+| 2026-10-24 | Integrated Planning | pesquisa | Lineage / Wakefield Research | 72% viram a demanda subir, mas 66% dizem que a cadeia só às vezes acompanha (1.000 decisores de alimentos) |
+| 2026-10-24 | Integrated Planning | teórico | OpenExamPrep (guia CPIM) | Time fences: zonas congelada, intermediária e líquida definem quem pode mudar o plano mestre e quando |
+| 2026-10-24 | Strategic Planning | pesquisa | Dykema | Otimismo com M&A nos EUA cai de 74% para pouco mais da metade; 63% veem a IA agregando mais na due diligence |
+| 2026-10-24 | Strategic Planning | teórico | strategy+business (Teece) | Capacidades dinâmicas: sentir, aproveitar e transformar para adaptar a empresa a mudanças |
+| 2026-10-24 | Controllership | estatística | FRC via LexisNexis / Baker McKenzie | FRC 2025/26: perguntas substantivas em 28% das revisões (eram 37%); reapresentações que afetam lucro sobem de 1 para 4 |
+| 2026-10-24 | Controllership | conclusão | Journal of Accountancy | PCAOB atualiza agenda: fraude, going concern, independência e pesquisa sobre dados e tecnologia na auditoria |
+| 2026-10-24 | Controllership | teórico | PSASB Quênia (manual de auditoria interna) | Matriz de riscos e controles: liga objetivo, risco e controle e avalia desenho e operação separadamente |
+| 2026-10-24 | Finance Automation | pesquisa | Accounting Today / Mercor | Agente de IA acerta 100% em tarefas de fechamento; CPAs com IA levam 15 vezes mais (12 CPAs, teste pequeno) |
+| 2026-10-24 | Finance Automation | pesquisa | PYMNTS / J.P. Morgan | Só 38% dos CFOs veem melhora no prazo de pagamento dos clientes (eram 73%); metas de caixa por unidade de 5% para 58% |
+| 2026-10-24 | Finance Automation | teórico | SAP Learning | Clean core: ERP sem modificar o núcleo, cinco dimensões e extensões só via APIs liberadas |
+| 2026-10-24 | Forecasting Methods | pesquisa | arXiv (Graham, Harvey e Jha) | LLM simulando CFOs do Duke CFO Survey (2002 a 2025) prevê o otimismo e a receita esperada dos CFOs reais |
+| 2026-10-24 | Forecasting Methods | pesquisa | NBER (Bloom, Codreanu e Fletcher) | 6.000+ empresas preveem vendas com viés; treinamento não melhora a acurácia, dados e incentivo pouco |
+| 2026-10-24 | Forecasting Methods | estudo de caso | Eastern Michigan University | Em 21 empresas do Dow Jones, ML não bate com significância o crescimento ingênuo na previsão de receita |
+| 2026-10-24 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3, 7.6) | Ex-ante vs ex-post e forecast por cenário de drivers; o intervalo de cenário ignora a incerteza dos drivers |
+| 2026-10-24 | FP&A Fundamentals | pesquisa | Hackett Group via Business Wire | Lacuna de produtividade de 5,3% em finanças; 19% já escalam IA em planejamento e forecast |
+| 2026-10-24 | FP&A Fundamentals | teórico | OpenStax (Managerial Accounting) | Custo padrão: padrões ideais vs atingíveis e a ligação entre variâncias de preço e de eficiência |

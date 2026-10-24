@@ -266,3 +266,18 @@ Data de coleta: 2026-10-23
 Fonte: NBER Working Paper 401 (Lazear e Rosen, "Rank-Order Tournaments as Optimum Labor Contracts"); Conyon, Peck e Sadler, "Corporate Tournaments and Executive Compensation: Evidence from the UK" (Lancaster University eprints).
 Link: https://www.nber.org/papers/w0401 e https://eprints.lancs.ac.uk/id/eprint/53986
 Data de coleta: 2026-10-23
+
+A CLFI leu as biografias dos CFOs de 94 empresas do FTSE 100 (índice após a revisão de setembro de 2026, sem seis fundos sem CFO executivo). 82% já tinham sido CFO ou diretor financeiro antes, 40% de empresa inteira e 41% de divisão ou subsidiária. 52% vieram de fora (73% deles já eram CFOs) e 47% foram promovidos internamente. Ao menos 63% têm qualificação contábil declarada, só 13% têm MBA e ao menos 33% começaram numa Big 4. A rotatividade é alta: 53% estão no cargo desde 2024 e só 6% há 10 anos ou mais. Ressalvas: dado omitido na biografia conta como desconhecido, então os números são mínimos; a CLFI vende formação executiva.
+Fonte: CLFI, "FTSE 100 CFOs: What 94 Career Paths Show (2026)" (20/10/2026).
+Link: https://clfi.co.uk/career/ftse-100-cfo-study/
+Data de coleta: 2026-10-24
+
+A Fortune argumenta que automatizar o trabalho de entrada em finanças tira dos futuros controllers e CFOs a etapa prática de formação e afina o funil de sucessão. Só 16% dos CFOs dizem que a empresa tem plano de sucessão proativo (Russell Reynolds, Global CFO Turnover Index 2025), e quase dois terços dos CFOs ouvidos por Oliver Wyman Forum e NYSE esperam que cargos júnior pesem menos no time em três anos. A GoCardless testa se o candidato contesta a primeira resposta de um modelo de IA, e o Bunq segue contratando recém-formados para conciliações. Ressalva: reportagem com entrevistas, sem metodologia das pesquisas citadas.
+Fonte: Fortune (Sam Birchall), "Companies risk a CFO talent crisis by automating junior finance roles" (23/10/2026).
+Link: https://fortune.com/2026/10/23/companies-risk-a-cfo-talent-crisis-by-automating-junior-finance-roles
+Data de coleta: 2026-10-24
+
+[Teórico] O modelo 70-20-10 do Center for Creative Leadership, derivado da pesquisa Lessons of Experience, diz que cerca de 70% do aprendizado de liderança vem de experiências e atribuições desafiadoras, 20% de relações de desenvolvimento (chefe, mentores, pares) e 10% de cursos. O CCL trata a proporção como referência, não regra: o ponto é casar a necessidade de aprendizado com a experiência certa, e o curso serve para potencializar o resto. Para formar CFOs e controllers, isso sugere planejar rodízios, projetos e exposição a crises como motor principal. Ressalva: o CCL não publica os dados que geraram os percentuais, e a aplicação a finanças é leitura nossa.
+Fonte: Center for Creative Leadership, "The 70-20-10 Rule for Leadership Development" (24/04/2025).
+Link: https://www.ccl.org/articles/leading-effectively-articles/70-20-10-rule/
+Data de coleta: 2026-10-24

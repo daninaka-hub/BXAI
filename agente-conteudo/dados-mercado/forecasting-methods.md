@@ -221,3 +221,23 @@ Data de coleta: 2026-10-23
 Fonte: Hyndman e Athanasopoulos, Forecasting: Principles and Practice, 3ª ed., capítulo 11 (OTexts).
 Link: https://otexts.com/fpp3/hierarchical.html
 Data de coleta: 2026-10-23
+
+John Graham e Campbell Harvey (Duke) e Manish Jha pediram a um modelo de linguagem que respondesse como o CFO de cada empresa aberta participante do Duke e Federal Reserve CFO Survey entre 2002 e 2025, ancorado na empresa e na data. O otimismo gerado pelo modelo prevê a resposta real de cada CFO mesmo com controles de efeito fixo de empresa, de trimestre e da resposta anterior, e a previsão melhora quanto mais informação da empresa o modelo recebe. O padrão vale também para receita esperada, e os autores sugerem usar o modelo como gêmeo digital de executivos para gerar expectativas em alta frequência. Ressalva: preprint sem revisão por pares, lido pelo resumo, sem coeficientes nem tamanho de amostra.
+Fonte: arXiv (John R. Graham, Campbell R. Harvey e Manish Jha), "CFOs Meet LLMs" (v2 de 21/09/2026).
+Link: https://arxiv.org/abs/2606.13812
+Data de coleta: 2026-10-24
+
+Bloom, Codreanu e Fletcher acompanharam por cinco anos, em dez ondas, previsões de vendas com incentivo de mais de 6.000 empresas clientes de uma grande empresa americana de pagamentos. As previsões foram muito imprecisas, com viés, erros previsíveis e excesso de confiança, sobretudo nas empresas menores. Em quatro experimentos, melhor uso de dados e mais incentivo melhoraram pouco a acurácia no mesmo período, treinamento e pensamento contingente não tiveram efeito, e nada melhorou as ondas seguintes. Ressalva: working paper do NBER, revisado em março de 2026.
+Fonte: NBER (Nicholas Bloom, Mihai A. Codreanu e Robert A. Fletcher), "Rationalizing Firm Forecasts", Working Paper 33384 (revisão de março de 2026).
+Link: https://www.nber.org/papers/w33384
+Data de coleta: 2026-10-24
+
+Tese de honors da Eastern Michigan University comparou Random Forest e XGBoost com crescimento ingênuo e tendência linear na previsão de receita de 21 empresas que estiveram no Dow Jones entre 2010 e 2025 (MAPE, RMSE e teste de Wilcoxon). O machine learning superou a tendência linear, mas contra o crescimento ingênuo o ganho foi pequeno e sem significância estatística na amostra toda. O ML ajudou mais em receitas voláteis; nas estáveis, o modelo simples empatou ou venceu. Ressalva: trabalho de graduação sem revisão por pares, amostra pequena e sem os valores de erro na página.
+Fonte: DigitalCommons@EMU (Faizan Arjamand Ali; orientador Yu Zhang), "Evaluating machine learning models for corporate financial forecasting: A study of the Dow Jones 30" (2026).
+Link: https://commons.emich.edu/honors/925/
+Data de coleta: 2026-10-24
+
+[Teórico] Hyndman e Athanasopoulos separam previsão ex-ante, que usa só a informação disponível antes e exige prever também os drivers, de previsão ex-post, que usa os valores realizados dos drivers e serve para avaliar o modelo, não para prever. No forecast por cenário, o analista fixa valores para os drivers (no exemplo do consumo americano, renda, poupança e desemprego em versões de alta e de baixa), e os intervalos resultantes ignoram a incerteza dos próprios drivers. O intervalo de previsão se alarga quando o driver se afasta da sua média histórica. Para FP&A, é a base estatística do forecast por drivers e cenários.
+Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 7.6 "Forecasting with regression".
+Link: https://otexts.com/fpp3/forecasting-regression.html
+Data de coleta: 2026-10-24

@@ -171,3 +171,13 @@ Data de coleta: 2026-10-23
 Fonte: ACCA (Steve Willis), "Building blocks of performance management", artigo técnico do exame de Performance Management.
 Link: https://www.accaglobal.com/uk/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/buildblocks.html
 Data de coleta: 2026-10-23
+
+O 2026 Finance Key Issues Study da Hackett Group projeta para 2026 carga de trabalho em finanças 3,2% maior, com headcount 2,1% menor e orçamento 1,7% menor, uma lacuna de produtividade de 5,3%. O gasto com tecnologia deve subir 5,6%, e a implantação de IA saltou do 16º para o 4º lugar entre as prioridades. FP&A está entre as três primeiras áreas para escalar IA: em planejamento e forecast, 19% já escalam e 22% estão em piloto. Resistência à mudança é o maior desafio para 72%, e falta de talento em IA a principal barreira para 77%. Ressalvas: publicado em março de 2026, sem amostra nem período de campo no release, lido em reprodução do Business Wire.
+Fonte: The Hackett Group via Business Wire, "The Hackett Group Study Shows AI Adoption Rapidly Accelerating Across Core Finance Processes" (19/03/2026).
+Link: https://markets.financialcontent.com/observerreporter/article/bizwire-2026-3-19-the-hackett-group-study-shows-ai-adoption-rapidly-accelerating-across-core-finance-processes
+Data de coleta: 2026-10-24
+
+[Teórico] Custo padrão é o custo esperado, fixado no início do ano fiscal, formado por preço padrão e quantidade padrão; a variância é a diferença entre padrão e realizado. Padrões ideais supõem zero quebra, defeito e refugo e tendem a desmotivar, enquanto padrões atingíveis são desafiadores mas alcançáveis com esforço razoável, e são os usados na prática. As variâncias se ligam entre si: comprar material mais barato gera variância de preço favorável, mas pode gerar variâncias desfavoráveis de quantidade de material e de eficiência de mão de obra. Os padrões também perdem confiabilidade perto do fim do ano.
+Fonte: OpenStax (Mitchell Franklin, Patty Graybeal e Dixon Cooper), "Principles of Accounting, Volume 2: Managerial Accounting", seção 8.1 "Explain How and Why a Standard Cost Is Developed" (14/02/2019).
+Link: https://openstax.org/books/principles-managerial-accounting/pages/8-1-explain-how-and-why-a-standard-cost-is-developed
+Data de coleta: 2026-10-24

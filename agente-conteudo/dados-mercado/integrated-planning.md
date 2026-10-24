@@ -246,3 +246,18 @@ Data de coleta: 2026-10-23
 Fonte: Wikipedia, "Supply chain operations reference".
 Link: https://en.wikipedia.org/wiki/Supply_chain_operations_reference
 Data de coleta: 2026-10-23
+
+Duas pesquisas do Gartner apontam que 55% dos chief supply chain officers não conseguem identificar com clareza o retorno dos investimentos em IA, embora 67% do investimento digital em supply chain já vá para IA. Para o Gartner, o gargalo agora é decidir onde aplicar os recursos limitados de gestão de mudança, e a projeção é que, até 2030, quem adaptar a gestão de mudança a cada iniciativa de IA terá o dobro do retorno. Ressalvas: o dado de ROI vem de 135 líderes seniores (janeiro a abril de 2026) e o de alocação de outra amostra, de 394 profissionais; lido pela cobertura da imprensa, porque o release original não abriu.
+Fonte: Inside Logistics, "Supply chain leaders struggle to measure AI returns as investments accelerate" (11/08/2026), sobre release do Gartner de 05/08/2026.
+Link: https://www.insidelogistics.ca/artificial-intelligence-ai/supply-chain-leaders-struggle-to-measure-ai-returns-as-investments-accelerate/
+Data de coleta: 2026-10-24
+
+A Lineage, com a Wakefield Research, ouviu 1.000 tomadores de decisão de supply chain de alimentos e bebidas na América do Norte. 72% viram a demanda subir no último ano, mas 66% dizem que a cadeia só às vezes acompanha ou tem dificuldade para acompanhar. 92% fizeram ajustes estratégicos por mudanças de política, 73% esperavam que tarifas prejudicassem o resultado de 2026, e só 24% dizem que o retorno da IA superou o investimento. Ressalvas: o patrocinador opera cadeia fria e a página não informa as datas de campo.
+Fonte: Lineage, "2026 Cold Chain Insights Survey Findings" (22/10/2026).
+Link: https://www.onelineage.com/news-stories/2026-Cold-Chain-Insights-Survey-Findings
+Data de coleta: 2026-10-24
+
+[Teórico] As time fences dividem o horizonte do plano mestre de produção em zonas de rigidez decrescente. Dentro da demand time fence vale só o pedido firme e a previsão é ignorada; fora dela, conta o maior valor entre previsão e pedidos. Dentro da planning time fence o sistema não altera ordens sozinho, só o planejador. A zona congelada, de curto prazo, exige aprovação de alto nível para mudar; a intermediária aceita mudanças negociadas com análise de trade-off; a líquida, mais distante, pode ser replanejada livremente. Ressalva: fonte é um guia independente de preparação para a certificação CPIM da ASCM, sem autor, e a terminologia varia entre livros e ERPs.
+Fonte: OpenExamPrep, "6.3 Using and Maintaining the Master Schedule", guia CPIM (atualizado em julho de 2026).
+Link: https://open-exam-prep.com/study-guides/cpim/master-scheduling/using-maintaining-mps
+Data de coleta: 2026-10-24

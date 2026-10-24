@@ -361,3 +361,18 @@ Data de coleta: 2026-10-23
 Fonte: BDO USA, "Evaluating Internal Control Deficiencies Guide" (03/05/2022).
 Link: https://www.bdo.com/insights/assurance/evaluating-internal-control-deficiencies-guide
 Data de coleta: 2026-10-23
+
+Na revisão anual de 2025/26 sobre qualidade do reporte corporativo, a FRC britânica fez 248 revisões e enviou perguntas substantivas a 70 empresas, 28% do total, contra 37% em 2024/25. As reapresentações caíram de 18 para 14, mas as que afetaram o lucro subiram de 1 para 4. Os temas mais questionados foram fluxo de caixa, instrumentos financeiros, impairment, valor justo e receita. Para o próximo ciclo, a FRC pede revisão robusta e supervisão efetiva quando houver IA no reporte, lembrando que o conselho segue responsável pelo relatório anual. Ressalvas: números lidos no resumo da LexisNexis, porque o comunicado da FRC não os traz; escopo Reino Unido.
+Fonte: LexisNexis, "FRC publishes 2026 Annual Review of Corporate Reporting" (29/09/2026); FRC, "Annual review recognises continued high standards of corporate reporting" (29/09/2026); Baker McKenzie, "United Kingdom: FRC Annual Corporate Reporting Review 2025/26" (01/10/2026).
+Link: https://www.lexisnexis.co.uk/legal/news/frc-publishes-2026-annual-review-of-corporate-reporting e https://www.bakermckenzie.com/en/insight/publications/2026/10/united-kingdom-frc-annual-corporate-reporting-review-2025-26
+Data de coleta: 2026-10-24
+
+O PCAOB publicou agendas atualizadas de normas, pesquisa e regulamentação cerca de três meses depois de pedir comentários sobre prioridades. Os projetos de norma cobrem negative assurance em comfort letters, independência do auditor, fraude, descumprimento de leis e regulamentos e going concern. Há ainda um arcabouço conceitual para criar normas e pesquisas sobre dados e tecnologia, métricas de desempenho de firmas e comunicação com comitês de auditoria. Ressalva: sem prazos, e tecnologia ainda está em fase de pesquisa, não de regra.
+Fonte: Journal of Accountancy (Bryan Strickland), "PCAOB shares agenda for rulemaking, research" (01/10/2026).
+Link: https://www.journalofaccountancy.com/news/2026/oct/pcaob-shares-agenda-for-rulemaking-research/
+Data de coleta: 2026-10-24
+
+[Teórico] A matriz de riscos e controles (RCM) é o papel de trabalho que liga, linha a linha, cada objetivo de processo aos riscos que o ameaçam e aos controles que os reduzem a nível aceitável. A estrutura mínima traz objetivo, risco (vindo do registro de riscos), um ou mais controles por risco e o procedimento de teste, seguidos da avaliação do desenho (sim ou não) e da operação (forte, média ou fraca) e da referência ao papel de trabalho. O ponto central é separar se o controle está bem desenhado de se ele funciona na prática. Ressalva: o modelo consultado é de auditoria interna do setor público queniano; versões para SOX costumam acrescentar asserção, conta relevante, dono e frequência do controle.
+Fonte: Public Sector Accounting Standards Board (PSASB) do Quênia, Public Sector Entities Internal Audit Manual, "Template 6: Risk control matrix" (arquivo de 23/05/2022).
+Link: https://www.psasb.go.ke/Documents/Internal%20Audit%20Standards/Manuals%20and%20Templates/Public%20Sector%20Entities/Templates/Template-6-Risk-Control-Matrix-.pdf
+Data de coleta: 2026-10-24
