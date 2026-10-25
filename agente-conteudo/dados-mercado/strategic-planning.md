@@ -241,3 +241,13 @@ Data de coleta: 2026-10-24
 Fonte: strategy+business (Art Kleiner), "The Dynamic Capabilities of David Teece" (11/11/2013).
 Link: https://www.strategy-business.com/article/00225?pg=all
 Data de coleta: 2026-10-24
+
+Segundo o relatório anual de M&A do BCG, o valor global de fusões e aquisições nos oito primeiros meses de 2026 cresceu 15% sobre o mesmo período de 2025 e ficou 11% acima da média de dez anos. Foram 37 megadeals (US$ 10 bilhões ou mais), contra 24 no ano anterior e acima do recorde de 32 em 2021; industriais foi o único setor em queda, de 20%. Para o BCG, a recuperação passou a esbarrar em execução, não em capital, e a consultoria propõe cinco filtros: disponibilidade do ativo, economia do negócio, resiliência financeira, capacidade organizacional e aprovação regulatória. Ressalva: base LSEG mais índice de sentimento do próprio BCG, incluindo anúncios pendentes e retirados.
+Fonte: BCG (Jens Kengelbach, Daniel Friedman, Dominik Degen e Christoph Schweizer), "In Search of a Wider Recovery: The 2026 M&A Report" (21/09/2026).
+Link: https://www.bcg.com/publications/2026/m-and-a-rebounds-recovery-uneven
+Data de coleta: 2026-10-25
+
+[Teórico] A matriz GE-McKinsey, criada pela McKinsey para a General Electric nos anos 1970, posiciona cada unidade de negócio em nove quadros, cruzando atratividade do setor com força competitiva. Diferente da Matriz BCG, que usa só crescimento de mercado e participação relativa, cada eixo é uma nota ponderada de vários fatores, com pesos que somam 1,0. Os quadros formam três zonas: investir e crescer, investir de forma seletiva com o caixa que sobrar, e colher ou desinvestir. Limitações apontadas: subjetividade das notas, custo da análise e ausência de sinergia entre unidades.
+Fonte: Strategic Management Insight (Ovidijus Jurevicius), "GE McKinsey Matrix: The Ultimate Guide" (atualizado em 16/06/2025).
+Link: https://strategicmanagementinsight.com/tools/ge-mckinsey-matrix/
+Data de coleta: 2026-10-25

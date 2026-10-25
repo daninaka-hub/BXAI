@@ -196,3 +196,18 @@ Data de coleta: 2026-10-24
 Fonte: AcaWiki, resumo de Oliver E. Williamson, "The economics of organization: The transaction cost approach", American Journal of Sociology (1981).
 Link: https://acawiki.org/The_economics_of_organization:_The_transaction_cost_approach
 Data de coleta: 2026-10-24
+
+No levantamento do Open Future Forum, 21% dos 290 respondentes dizem que o dinheiro aplicado em IA teria ido para contratações (24% na coorte de agosto). Por cargo, o número é 34% entre CEOs e fundadores e 19% entre executivos de finanças, justamente quem planeja o quadro. Ressalva: amostra de quatro eventos de finanças do Vale do Silício, não probabilística, com só 52 pessoas de finanças; mede respostas, não gasto nem contratação reais, e o publicador vende participação em fórum de CFOs.
+Fonte: Open Future Forum (Murray Newlands), "CFO AI Leverage Report, September 2026" (06/09/2026).
+Link: https://openfutureforum.com/research/cfo-ai-leverage-report-september-2026
+Data de coleta: 2026-10-25
+
+O boletim do ONS (escritório oficial de estatística do Reino Unido) de 08/10/2026 mostra 38% das empresas com 10 ou mais funcionários usando IA; entre essas, só 6% relatam redução de quadro e menos de 1% relatam aumento, patamar estável há um ano. Pessoal administrativo e de escritório é o mais afetado, citado por 38% das empresas que usam IA, alta de 9 pontos desde dezembro de 2025. O dado oficial contrasta com os 52% de CFOs britânicos que, segundo a Deloitte, esperam corte em 12 meses. Ressalva: vale para todos os setores, não só finanças, e foi lido em análise secundária da Resultsense.
+Fonte: Resultsense, "Half of UK CFOs expect AI job cuts within a year. Official data show 6% of adopters have had them" (15/10/2026), citando ONS, "Business insights and impact on the UK economy: 8 October 2026".
+Link: https://www.resultsense.com/insights/2026-10-15-cfo-ai-headcount-expectations-outrun-uk-adoption-evidence/
+Data de coleta: 2026-10-25
+
+[Teórico] Aplicando os três testes de core competence de Prahalad e Hamel (1990) à decisão de fazer ou terceirizar, a competência central abre acesso a vários mercados, diferencia produtos e é difícil de imitar; o que fica dentro de casa depende da disciplina de valor dominante da empresa. O risco de terceirizar é maior em atividades que podem interromper a entrega ao cliente, médio nas que afetam a relação com empregados (RH, folha) e menor em apoio como contas a pagar. Os riscos listados são perda de controle, perda de inovação, perda de confiança interna e custo de transação acima do esperado, e o texto separa terceirização (ganho de escala) de offshoring (diferença de custo salarial).
+Fonte: Saylor Academy, Fundamentals of Global Strategy, capítulo 8, "Globalizing the Value Chain Infrastructure" (sem data e sem autor na página).
+Link: https://saylordotorg.github.io/text_fundamentals-of-global-strategy/s10-globalizing-the-value-chain-in.html
+Data de coleta: 2026-10-25

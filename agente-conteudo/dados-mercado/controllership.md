@@ -376,3 +376,18 @@ Data de coleta: 2026-10-24
 Fonte: Public Sector Accounting Standards Board (PSASB) do Quênia, Public Sector Entities Internal Audit Manual, "Template 6: Risk control matrix" (arquivo de 23/05/2022).
 Link: https://www.psasb.go.ke/Documents/Internal%20Audit%20Standards/Manuals%20and%20Templates/Public%20Sector%20Entities/Templates/Template-6-Risk-Control-Matrix-.pdf
 Data de coleta: 2026-10-24
+
+98% das empresas pesquisadas têm política formal de governança de IA, mas 47% admitem já ter deixado de seguir o próprio processo em implantações urgentes e 36% sofreram incidente ou falha de IA com impacto materialmente negativo. Entre as que usam IA agêntica, 85% têm sistemas agindo sem envolvimento humano em tempo real e 26% não conseguem detectar agentes não autorizados; nas revisões de assurance, os problemas mais comuns são qualidade de dados (57%) e drift de modelo (48%). Ressalva: 202 executivos sêniores de IA de empresas abertas dos EUA com receita de US$ 1 bilhão ou mais, coleta online de 28/05 a 15/06/2026, margem de erro de 7 p.p. para mais ou para menos; a amostra não é de finanças e a pesquisa vem da área de Assurance da EY, que vende esse serviço.
+Fonte: EY Americas (press release), "EY survey finds that autonomous AI implementation outpaces oversight, yielding an AI governance gap" (15/09/2026).
+Link: https://www.ey.com/en_us/newsroom/2026/09/ey-survey-finds-that-autonomous-ai-implementation-outpaces-oversight-yielding-an-ai-governance-gap
+Data de coleta: 2026-10-25
+
+No estudo Controllership 2030, 80% dos respondentes apontam governança de IA como a responsabilidade de governança que mais vai crescer para o controller, à frente de governança de dados (64%) e supervisão de cibersegurança (59%). Controles internos ficam bem atrás, com 37%. Ressalva: a página não informa amostra nem período de coleta, e os números são expectativa para 2030, não prática atual.
+Fonte: Controllers Council, "AI Governance Is Becoming a Core Controller Responsibility" (16/10/2026).
+Link: https://controllerscouncil.org/ai-governance-is-becoming-a-core-controller-responsibility/
+Data de coleta: 2026-10-25
+
+[Teórico] A IFRS 15 manda reconhecer receita de forma a retratar a transferência dos bens ou serviços prometidos ao cliente, pelo valor que a empresa espera receber. O modelo tem cinco passos: identificar o contrato, identificar as obrigações de desempenho distintas, determinar o preço da transação (estimando a parte variável), alocar esse preço pelos preços de venda individuais relativos e reconhecer a receita quando cada obrigação é satisfeita. A obrigação é satisfeita quando o cliente obtém o controle, o que pode ocorrer num momento ou ao longo do tempo. A norma saiu em maio de 2014, vale para períodos iniciados a partir de 01/01/2018 e substituiu a IAS 11, a IAS 18 e interpretações ligadas a elas.
+Fonte: IFRS Foundation, "IFRS 15 Revenue from Contracts with Customers" (emitida em maio de 2014).
+Link: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/
+Data de coleta: 2026-10-25

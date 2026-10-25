@@ -181,3 +181,13 @@ Data de coleta: 2026-10-24
 Fonte: OpenStax (Mitchell Franklin, Patty Graybeal e Dixon Cooper), "Principles of Accounting, Volume 2: Managerial Accounting", seção 8.1 "Explain How and Why a Standard Cost Is Developed" (14/02/2019).
 Link: https://openstax.org/books/principles-managerial-accounting/pages/8-1-explain-how-and-why-a-standard-cost-is-developed
 Data de coleta: 2026-10-24
+
+Na edição de setembro da série da PYMNTS, entre as empresas médias dos EUA cuja certeza sobre o cenário melhorou em 12 meses, 59% aumentaram o capex e 5,0% o reduziram; onde a certeza caiu, só 13% aumentaram e metade cortou. 57% ajustaram o orçamento de capital até três meses depois de uma mudança de confiança, e diante de incerteza 58% cortariam ou adiariam capex de crescimento, contra 7,0% que cortariam capex de manutenção. Ressalva: 60 CFOs de empresas médias dos EUA, campo de 9 a 17 de julho de 2026.
+Fonte: PYMNTS Intelligence, "Funding the Future: What Gives CFOs the Confidence to Grow" (outubro de 2026).
+Link: https://www.pymnts.com/report/study/funding-the-future-what-gives-cfos-the-confidence-to-grow/
+Data de coleta: 2026-10-25
+
+[Teórico] Quando uma premissa do orçamento muda de forma permanente, a variância total se divide em duas: a variância de planejamento compara o orçamento original com um orçamento revisado e realista e capta o que a gestão não controla; a variância operacional compara o realizado com esse orçamento revisado e capta o que é potencialmente controlável. No exemplo de materiais, a variância total de uso de US$ 5.500 favorável esconde uma variância de planejamento de US$ 27.500 favorável e uma operacional de US$ 22.000 desfavorável: o ganho veio do padrão revisado e a operação piorou. O ponto delicado é definir quais mudanças são permanentes, porque a revisão pode virar desculpa. Ressalva: é apostila de preparação para o exame ACCA, não texto oficial da ACCA.
+Fonte: OpenTuition, notas de ACCA Performance Management, "PM 14 More variance analysis" (sem data).
+Link: https://opentuition.com/acca/pm/notes/pm-14-more-variance-analysis/
+Data de coleta: 2026-10-25

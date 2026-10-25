@@ -281,3 +281,18 @@ Data de coleta: 2026-10-24
 Fonte: Center for Creative Leadership, "The 70-20-10 Rule for Leadership Development" (24/04/2025).
 Link: https://www.ccl.org/articles/leading-effectively-articles/70-20-10-rule/
 Data de coleta: 2026-10-24
+
+Na rodada do 3º trimestre de 2026 do CFO Signals da Deloitte, perto de 80% dos 200 CFOs norte-americanos dizem que finanças tem papel formal nas decisões de IA da empresa: em 41% a área é aprovadora obrigatória e em 38% define ou administra o critério de avaliação. Em 20% ela só fornece custo, orçamento ou orientação contábil, sem influir na decisão. Ressalva: só empresas com receita de US$ 1 bilhão ou mais, e a matéria não informa o período de campo.
+Fonte: CPA Practice Advisor, "CFOs Cite AI Cost-Governance Gaps in Survey" (23/10/2026).
+Link: https://cpapracticeadvisor.com/2026/10/23/cfos-cite-ai-cost-governance-gaps-in-survey/192356
+Data de coleta: 2026-10-25
+
+A Expand Energy promoveu a diretora de contabilidade corporativa Sarah Grose, de 40 anos, a VP e Chief Accounting Officer; ela está na empresa desde 2019 e ocupava a diretoria desde 2021. Até então o CFO, Marcel Teunissen, acumulava de forma interina a função de principal accounting officer. O pacote tem salário-base anual de US$ 325.000, bônus-alvo de 50% do salário (proporcional em 2026) e incentivo de longo prazo com alvo de US$ 500.000. Ressalva: caso isolado de promoção interna ao cargo de CAO, não média de mercado.
+Fonte: SEC EDGAR, Expand Energy Corp, Form 8-K (nomeação em 08/10/2026, assinado em 13/10/2026).
+Link: https://www.sec.gov/Archives/edgar/data/0000895126/000089512626000057/exe-20261008.htm
+Data de coleta: 2026-10-25
+
+[Teórico] A teoria da stewardship (Davis, Schoorman e Donaldson, Academy of Management Review, 1997) é o contraponto à teoria da agência. Na agência, o executivo tende ao oportunismo e precisa de incentivo e monitoramento externos; na stewardship, ele age como guardião dos ativos, movido por recompensas intrínsecas como confiança, reputação, autonomia e alinhamento com a missão, e o modelo depende da confiança inicial entre principal e gestor. Serve para discutir quanto controle, quanta autonomia e que tipo de remuneração dar a CFOs e controllers. Ressalva: a página é resumo acadêmico secundário e atribui a origem da teoria a Donaldson e Davis (1989), não ao artigo de 1997 que também cita.
+Fonte: BINUS School of Accounting, "The Stewardship Theory" (15/11/2021), com base em Davis, Schoorman e Donaldson (1997).
+Link: https://accounting.binus.ac.id/?p=21593
+Data de coleta: 2026-10-25

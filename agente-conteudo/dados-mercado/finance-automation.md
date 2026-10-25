@@ -386,3 +386,13 @@ Data de coleta: 2026-10-24
 Fonte: SAP Learning, "Introducing the Clean Core Approach", curso Practicing Clean Core Extensibility for SAP S/4HANA Cloud.
 Link: https://learning.sap.com/courses/practicing-clean-core-extensibility-for-sap-s-4hana-cloud/introducing-the-clean-core-approach_fcb6c662-7041-4c99-88bd-345636fae7f3
 Data de coleta: 2026-10-24
+
+O primeiro Finance Performance Report da Basware usa dados reais de transação, não questionário: 2,5 bilhões de faturas de 6.500 clientes em mais de 190 países. No grupo de melhor desempenho, a taxa de autonomia no ciclo da fatura chega a 93%, contra 81% na rede, e as decisões tomadas por IA saem corretas em 96,5% dos casos, contra 89,4%; na rede, 1,4% das faturas são desviadas para revisão manual como possível fraude ou duplicidade, contra 0,05% no topo. Ressalva: a Basware é fornecedora e mede só a própria base; o "melhor desempenho" é a média dos 5% melhores em cada métrica, então o grupo muda de métrica para métrica, e a matéria não informa o período dos dados.
+Fonte: CFOtech (Karen Joy Bacudo), "Basware report finds AI & automation gap in finance" (20/08/2026).
+Link: https://cfotech.news/story/basware-report-finds-ai-automation-gap-in-finance
+Data de coleta: 2026-10-25
+
+[Teórico] O continuous controls monitoring (CCM) usa tecnologia para verificar, de forma quase contínua ou em alta frequência, se os controles funcionam na prática; o ISACA Journal o trata como subconjunto do continuous assurance. O roteiro tem cinco etapas: escolher processos e controles candidatos com base em COSO, COBIT ou ITIL e em avaliação de risco, definir objetivos de controle e asserções, criar testes automáticos que indiquem sucesso ou falha, rodar os testes perto do momento da transação e tratar os alarmes corrigindo as fraquezas. A prioridade vai para controles de maior risco ou retorno e com dado de sistema já disponível; se um controle básico falha, os que dependem dele não servem para monitoramento.
+Fonte: ISACA Journal (David Vohradsky), "A Practical Approach to Continuous Control Monitoring" (01/03/2015).
+Link: https://www.isaca.org/resources/isaca-journal/issues/2015/volume-2/a-practical-approach-to-continuous-control-monitoring
+Data de coleta: 2026-10-25

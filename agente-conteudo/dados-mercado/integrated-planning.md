@@ -261,3 +261,13 @@ Data de coleta: 2026-10-24
 Fonte: OpenExamPrep, "6.3 Using and Maintaining the Master Schedule", guia CPIM (atualizado em julho de 2026).
 Link: https://open-exam-prep.com/study-guides/cpim/master-scheduling/using-maintaining-mps
 Data de coleta: 2026-10-24
+
+Para analistas do Gartner e do BCG, a crise de memória nos eletrônicos de consumo está levando as empresas a planejar estoque, roadmap e investimento em horizonte de vários anos, e não só no orçamento do ano seguinte. O BCG fala em renascimento da disciplina de planejamento, reconstruída com sistemas novos ou revendo o modelo operacional sobre softwares já existentes (Kinaxis, Blue Yonder, SAP). A AlixPartners relata que contratos de suprimento de um ano dão lugar a acordos de três a cinco anos, alguns com adiantamento de até 30%, o que torna o balanço um diferencial para garantir oferta. Ressalva: reportagem com opinião de consultores, sem pesquisa com amostra; o preço da memória subiu até 400% em dois anos, segundo a Omdia.
+Fonte: Supply Chain Dive (Phil Neuffer), "5 trends defining consumer electronics supply chains" (15/10/2026).
+Link: https://www.supplychaindive.com/news/5-trends-defining-consumer-electronics-supply-chains/832717/
+Data de coleta: 2026-10-25
+
+[Teórico] Available-to-promise (ATP) é a parte do estoque e da produção planejada ainda não comprometida, que permite prometer data e quantidade ao cliente com base no plano mestre, e não no forecast. No ATP discreto o saldo zera a cada recebimento programado; no cumulativo a sobra passa para os períodos seguintes; no cumulativo com look-ahead o sistema também olha reservas futuras e reduz o saldo dos períodos anteriores, para não prometer hoje o que já está reservado para depois. No exemplo da fonte (estoque de 100, dois recebimentos de 100, pedidos de 60 e 50, depois um de 110 e outro de 50), restam só 30 peças prometíveis nos períodos 0 a 2. Ressalva: documentação de fornecedor (Infor M3), mas o conceito é padrão do corpo de conhecimento APICS/ASCM.
+Fonte: Infor, documentação do M3, "Available-to-promise (ATP)" (versão 2026.09).
+Link: https://docs.infor.com/m3udi/2026.09/en-us/m3beud/scplanhs/cts090.html
+Data de coleta: 2026-10-25

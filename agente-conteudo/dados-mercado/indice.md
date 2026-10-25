@@ -431,3 +431,22 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-24 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3, 7.6) | Ex-ante vs ex-post e forecast por cenário de drivers; o intervalo de cenário ignora a incerteza dos drivers |
 | 2026-10-24 | FP&A Fundamentals | pesquisa | Hackett Group via Business Wire | Lacuna de produtividade de 5,3% em finanças; 19% já escalam IA em planejamento e forecast |
 | 2026-10-24 | FP&A Fundamentals | teórico | OpenStax (Managerial Accounting) | Custo padrão: padrões ideais vs atingíveis e a ligação entre variâncias de preço e de eficiência |
+| 2026-10-25 | Controllership | pesquisa | EY Americas | 98% têm política de governança de IA, mas 47% já a ignoraram em implantação urgente e 36% tiveram incidente material (202 executivos) |
+| 2026-10-25 | Controllership | pesquisa | Controllers Council | Controllership 2030: governança de IA (80%) lidera as novas responsabilidades do controller, à frente de dados (64%) e ciber (59%) |
+| 2026-10-25 | Controllership | teórico | IFRS Foundation | IFRS 15: reconhecimento de receita em cinco passos, do contrato à transferência de controle (vigente desde 2018) |
+| 2026-10-25 | Finance Automation | estatística | CFOtech / Basware | Basware (2,5 bi de faturas): autonomia de 93% no topo contra 81% na rede, e IA acerta 96,5% contra 89,4% (fornecedor) |
+| 2026-10-25 | Finance Automation | teórico | ISACA Journal (Vohradsky) | Continuous controls monitoring em cinco etapas, com prioridade por risco e dado disponível |
+| 2026-10-25 | Forecasting Methods | pesquisa | PYMNTS Intelligence | 62% dos CFOs de empresas médias acham a previsão de caixa difícil de escalar, 72% entre as que não cresceram (60 CFOs, com fornecedor) |
+| 2026-10-25 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3, 9.10) | ARIMA contra ETS: nenhum vence sempre, comparar pela acurácia fora da amostra e não pelo AICc |
+| 2026-10-25 | FP&A Fundamentals | pesquisa | PYMNTS Intelligence | Capex segue a confiança: 59% aumentaram quando a certeza melhorou, metade cortou quando piorou, 57% ajustam em até 3 meses (60 CFOs) |
+| 2026-10-25 | FP&A Fundamentals | teórico | OpenTuition (ACCA PM) | Variância de planejamento contra operacional: separar mudança permanente de premissa do desempenho controlável |
+| 2026-10-25 | Integrated Planning | conclusão | Supply Chain Dive (Gartner / BCG / AlixPartners) | Crise de memória empurra o planejamento para vários anos e contratos de 3 a 5 anos com adiantamento de até 30% |
+| 2026-10-25 | Integrated Planning | teórico | Infor (documentação M3) | Available-to-promise: discreto, cumulativo e com look-ahead, ligando a promessa comercial ao plano mestre (fornecedor) |
+| 2026-10-25 | Strategic Planning | estatística | BCG | M&A global sobe 15% até agosto de 2026, com 37 megadeals (recorde), e o gargalo passa a ser execução |
+| 2026-10-25 | Strategic Planning | teórico | Strategic Management Insight | Matriz GE-McKinsey: nove quadros por atratividade e força competitiva, em três zonas de alocação de capital |
+| 2026-10-25 | Leadership Roles | pesquisa | CPA Practice Advisor / Deloitte CFO Signals 3T26 | Perto de 80% dizem que finanças tem papel formal nas decisões de IA, 41% como aprovadora obrigatória (200 CFOs) |
+| 2026-10-25 | Leadership Roles | estudo de caso | SEC EDGAR (Expand Energy, 8-K) | Expand Energy promove diretora interna a CAO, tirando o acúmulo interino do CFO: base de US$ 325 mil e LTI de US$ 500 mil |
+| 2026-10-25 | Leadership Roles | teórico | BINUS (Davis, Schoorman e Donaldson) | Teoria da stewardship contra teoria da agência: executivo como guardião movido por recompensa intrínseca e confiança |
+| 2026-10-25 | Organization | pesquisa | Open Future Forum | Para 21% (19% em finanças, 34% entre CEOs), a verba de IA substitui contratação (290 respondentes, amostra de eventos) |
+| 2026-10-25 | Organization | estatística | Resultsense / ONS | ONS: só 6% das empresas britânicas que usam IA cortaram quadro, contra 52% dos CFOs que esperam corte |
+| 2026-10-25 | Organization | teórico | Saylor Academy (Prahalad e Hamel) | Core competence aplicada a fazer ou terceirizar: três testes, escala de risco e terceirização contra offshoring |

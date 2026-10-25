@@ -241,3 +241,13 @@ Data de coleta: 2026-10-24
 Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 7.6 "Forecasting with regression".
 Link: https://otexts.com/fpp3/forecasting-regression.html
 Data de coleta: 2026-10-24
+
+Na edição de agosto da série da PYMNTS, 62% dos CFOs de empresas médias dos EUA acham a previsão de fluxo de caixa difícil de gerir ou de escalar, e 37% dizem que ela é o maior desafio de finanças ou de back-office. Entre as empresas sem crescimento de receita, 72% acham a previsão difícil, contra 54% das que cresceram, e 52% veem a previsão de caixa como a área onde investimento mais ajudaria a escalar. Ressalva: amostra pequena (60 CFOs de empresas com receita de US$ 100 milhões a US$ 1 bilhão, campo em junho de 2026), e a edição foi feita com a Fynapse, fornecedora de software de finanças.
+Fonte: PYMNTS Intelligence, "Funding the Future: What Gives CFOs the Confidence to Grow" (outubro de 2026).
+Link: https://www.pymnts.com/report/study/funding-the-future-what-gives-cfos-the-confidence-to-grow/
+Data de coleta: 2026-10-25
+
+[Teórico] ARIMA e suavização exponencial (ETS) são as duas famílias de previsão de séries temporais mais usadas: o ETS descreve tendência e sazonalidade, e o ARIMA descreve a autocorrelação entre as observações, exigindo antes tornar a série estacionária por diferenciação. Os autores chamam de mito a ideia de que o ARIMA é mais geral, já que os ETS não lineares não têm equivalente em ARIMA, e alertam que o AICc não serve para comparar as duas famílias. Nos exemplos do livro, o ETS venceu numa série sem sazonalidade (RMSE de 0,0774 contra 0,194) e o ARIMA venceu por pouco numa série sazonal de cimento (RMSE de teste de 216 contra 222). Para o FP&A, a lição é escolher o modelo pela acurácia fora da amostra, não por preferência.
+Fonte: Hyndman e Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed.), capítulo 9, seção 9.10 "ARIMA vs ETS" (livro online).
+Link: https://otexts.com/fpp3/arima-ets.html
+Data de coleta: 2026-10-25
