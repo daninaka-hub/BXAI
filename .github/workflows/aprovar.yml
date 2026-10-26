@@ -11,7 +11,7 @@ permissions:
   actions: write
 jobs:
   aprovar:
-    if: github.event.issue.user.login == 'daninaka-hub' && (startsWith(github.event.issue.title, 'Aprovar ') || startsWith(github.event.issue.title, 'Reprovar '))
+    if: github.event.issue.user.login == 'daninaka-hub' && (startsWith(github.event.issue.title, 'Aprovar ') || startsWith(github.event.issue.title, 'Reprovar ') || startsWith(github.event.issue.title, 'Agendar publicação: ') || startsWith(github.event.issue.title, 'Marcar como publicado: '))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,6 +21,8 @@ jobs:
           CORPO: ${{ github.event.issue.body }}
           NUM: ${{ github.event.issue.number }}
           GH_TOKEN: ${{ github.token }}
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+          TYPEFULLY_SOCIAL_SET_ID: ${{ secrets.TYPEFULLY_SOCIAL_SET_ID }}
         run: |
           RES=$(python3 agente-conteudo/automacao/squad.py aprovar "$TITULO" "$CORPO")
           python3 agente-conteudo/automacao/squad.py gerar-pagina

@@ -17,6 +17,15 @@ def botao_reprovar(titulo, corpo):
     from urllib.parse import quote
     return f'<a class="btn-reprovar" href="{ISSUES}?title={quote(titulo)}&amp;body={quote(corpo)}" target="_blank" rel="noopener">Reprovar</a>'
 
+def botao_publicar(n, titulo):
+    return f'<button type="button" class="btn-aprovar" onclick="agendarPublicacao({n},{json.dumps(titulo, ensure_ascii=False)})">Publicar</button>'
+
+def botao_marcar_publicado(n):
+    from urllib.parse import quote
+    titulo = f"Marcar como publicado: Artigo {n}"
+    corpo = f"Confirmo que o Artigo {n} já saiu no LinkedIn."
+    return f'<a class="btn-aprovar" href="{ISSUES}?title={quote(titulo)}&amp;body={quote(corpo)}" target="_blank" rel="noopener">Marcar como publicado</a>'
+
 AGENTES = {
     "pesquisador": ("Pesquisador", "todo dia às 7h"),
     "head": ("Head de Conteúdo", "segundas às 8h"),
@@ -252,8 +261,20 @@ def aprovar(titulo, corpo=""):
                 if c[5] == "Aprovado":
                     return "Nada a fazer: o artigo já está aprovado."
                 p.write_text(t.replace(ln, ln.replace("| Em validação |", "| Aprovado |", 1), 1), encoding="utf-8")
-                return f"Artigo {m.group(1)} aprovado. Passa para a Biblioteca."
+                return f"Artigo {m.group(1)} aprovado. Passa para a aba Agendar."
         return "Artigo não encontrado."
+    m = re.fullmatch(r"Agendar publicação: Artigo (\d+) \((\d{4}-\d{2}-\d{2} \d{2}:\d{2})\)", titulo.strip())
+    if m:
+        cod, quando = m.group(1), m.group(2)
+        link = ""
+        if "Link do artigo:" in corpo:
+            link = corpo.split("Link do artigo:", 1)[-1].splitlines()[0].strip()
+            if link.startswith("(") or link.lower().startswith("ainda"):
+                link = ""
+        return agendar(cod, quando, link)
+    m = re.fullmatch(r"Marcar como publicado: Artigo (\d+)", titulo.strip())
+    if m:
+        return marcar_publicado(m.group(1))
     return "Título não reconhecido."
 
 def indexar(codigo, slug, titulo, pilar, teoria, apoio):
@@ -814,6 +835,86 @@ def gravar_producao(cod, etapa=None, estado=None, msg="", titulo=""):
     e["quando"] = datetime.datetime.now().astimezone().isoformat(timespec="minutes")
     p.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 
+PUBLICACOES = STATUS / "publicacoes.json"
+
+def _publicacoes():
+    return json.loads(PUBLICACOES.read_text(encoding="utf-8")) if PUBLICACOES.exists() else {}
+
+def _salvar_publicacoes(d):
+    STATUS.mkdir(exist_ok=True)
+    PUBLICACOES.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+
+def texto_post_linkedin(slug, link_artigo=""):
+    t = caminhos(slug)[1].read_text(encoding="utf-8").strip("\n")
+    if link_artigo:
+        t = t.replace("[link do artigo]", link_artigo)
+    return t
+
+def agendar(cod, quando, link_artigo=""):
+    """Agenda o post de LinkedIn de um artigo aprovado no Typefully. quando: 'AAAA-MM-DD HH:MM' (horário de São Paulo)."""
+    import os, urllib.request, urllib.error
+    for _, c in indice():
+        if c[0] != f"Artigo {cod}":
+            continue
+        if c[5] != "Aprovado":
+            return f"Nada a fazer: o Artigo {cod} não está aprovado."
+        slug = pathlib.Path(c[6]).stem
+        texto = texto_post_linkedin(slug, link_artigo)
+        if "[link do artigo]" in texto:
+            return f"Artigo {cod}: falta o link do artigo publicado no blog. Abra a issue de novo com o campo \"Link do artigo\" preenchido."
+        try:
+            dt = datetime.datetime.strptime(quando.strip(), "%Y-%m-%d %H:%M")
+        except ValueError:
+            return f"Data e hora inválidas: '{quando}'. Use AAAA-MM-DD HH:MM."
+        publish_at = dt.replace(tzinfo=datetime.timezone(datetime.timedelta(hours=-3))).isoformat()
+        api_key = os.environ.get("TYPEFULLY_API_KEY")
+        social_set = os.environ.get("TYPEFULLY_SOCIAL_SET_ID")
+        if not api_key or not social_set:
+            return "Faltam as credenciais do Typefully (segredos TYPEFULLY_API_KEY e TYPEFULLY_SOCIAL_SET_ID no repositório)."
+        corpo_req = json.dumps({"platforms": {"linkedin": {"enabled": True, "posts": [{"text": texto}]}}, "publish_at": publish_at}).encode("utf-8")
+        req = urllib.request.Request(
+            f"https://api.typefully.com/v2/social-sets/{social_set}/drafts",
+            data=corpo_req,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                resp = json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            return f"Falha ao agendar no Typefully ({e.code}): {e.read().decode('utf-8', 'ignore')[:300]}"
+        except Exception as e:
+            return f"Falha ao agendar no Typefully: {e}"
+        d = _publicacoes()
+        d[str(cod)] = {"estado": "agendado", "quando": publish_at, "typefully_id": resp.get("id"), "link_artigo": link_artigo}
+        _salvar_publicacoes(d)
+        return f"Artigo {cod} agendado no LinkedIn para {dt.strftime('%d/%m às %H:%M')}."
+    return "Artigo não encontrado."
+
+def marcar_publicado(cod):
+    """Confirmação manual: o Daniel conferiu que o post já saiu no LinkedIn."""
+    import os, urllib.request, urllib.error
+    d = _publicacoes()
+    e = d.get(str(cod))
+    if not e:
+        return f"Artigo {cod} ainda não foi agendado."
+    if e.get("estado") == "publicado":
+        return "Nada a fazer: já está marcado como publicado."
+    e["estado"] = "publicado"
+    e["publicado_em"] = datetime.datetime.now().astimezone().isoformat(timespec="minutes")
+    api_key, social_set, draft_id = os.environ.get("TYPEFULLY_API_KEY"), os.environ.get("TYPEFULLY_SOCIAL_SET_ID"), e.get("typefully_id")
+    if api_key and social_set and draft_id:
+        try:
+            req = urllib.request.Request(f"https://api.typefully.com/v2/social-sets/{social_set}/drafts/{draft_id}",
+                                          headers={"Authorization": f"Bearer {api_key}"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                resp = json.loads(r.read().decode("utf-8"))
+            if resp.get("linkedin_published_url"):
+                e["link_post"] = resp["linkedin_published_url"]
+        except Exception:
+            pass
+    _salvar_publicacoes(d)
+    return f"Artigo {cod} marcado como publicado."
+
 def html_producao():
     p = STATUS / "producao.json"
     if not p.exists():
@@ -1151,8 +1252,9 @@ def html_idiomas(slug):
         saida.append(f'<details class="sub"><summary>Relatório de SEO e GEO, {NOMES_IDIOMA[lg]}</summary>{html_seo(d[lg]["seo"])}</details>')
     return "\n".join(saida)
 
-JS = r'''function aba(n){["status","aprovar","biblioteca","reprovados"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
-function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#biblioteca"||h==="#reprovados"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView();}}
+JS = r'''function aba(n){["status","aprovar","agendar","publicado","reprovados"].forEach(function(x){document.getElementById("aba-"+x).hidden=(x!==n);var b=document.getElementById("btn-"+x);b.setAttribute("aria-selected",x===n?"true":"false");b.classList.toggle("aba-on",x===n);});try{if(history.replaceState&&n!==location.hash.slice(1)&&!/^#artigo-/.test(location.hash))history.replaceState(null,"","#"+n);}catch(e){}}
+function abrir(){var h=location.hash;if(!h)return;if(h==="#artigos"){aba("aprovar");return;}if(h==="#status"||h==="#aprovar"||h==="#agendar"||h==="#publicado"||h==="#reprovados"){aba(h.slice(1));return;}var e=document.querySelector(h);if(e&&e.tagName==="DETAILS"){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView();}}
+function agendarPublicacao(n,titulo){var link=prompt("Link do artigo já publicado no blog (deixe em branco se ainda não tiver):","");if(link===null)return;link=link.trim();var quando=prompt("Data e hora do agendamento, horário de São Paulo (AAAA-MM-DD HH:MM):","");if(!quando)return;quando=quando.trim();if(!/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/.test(quando)){alert("Formato inválido. Use AAAA-MM-DD HH:MM, por exemplo 2026-10-28 09:00.");return;}var corpo="Agendar publicação do "+titulo+"\n\nLink do artigo: "+(link||"(ainda não publicado no blog)");var url="https://github.com/daninaka-hub/BXAI/issues/new?title="+encodeURIComponent("Agendar publicação: Artigo "+n+" ("+quando+")")+"&body="+encodeURIComponent(corpo);window.open(url,"_blank");}
 document.addEventListener("click",function(ev){var t=ev.target.closest("button[data-aba]");if(t){aba(t.dataset.aba);return;}var a=ev.target.closest("a[data-abrir]");if(!a)return;ev.preventDefault();var e=document.getElementById("artigo-"+a.dataset.abrir);if(e){aba(e.closest("section").id.slice(4));e.open=true;e.scrollIntoView({behavior:"smooth"});}});
 document.addEventListener("click",function(ev){var c=ev.target.closest("button.copiar");if(!c)return;var txt=c.closest(".arte-prompt").querySelector("p").innerText;var ok=function(){c.textContent="Copiado";setTimeout(function(){c.textContent="Copiar prompt";},1500);};var fb=function(){var r=document.createRange();r.selectNodeContents(c.closest(".arte-prompt").querySelector("p"));var s=window.getSelection();s.removeAllRanges();s.addRange(r);c.textContent="Selecionado, copie com Ctrl+C";};try{navigator.clipboard.writeText(txt).then(ok,fb);}catch(e){fb();}});
 window.addEventListener("hashchange",abrir);aba("status");abrir();
@@ -1164,7 +1266,9 @@ if(/github\.io$/.test(location.hostname)){setInterval(function(){if(!document.hi
 
 def gerar_pagina():
     cards = []
-    cards_bib = []
+    cards_agendar = []
+    cards_publicado = []
+    pubs = _publicacoes()
     linhas = [x for x in indice() if x[1][5] not in ("Em reescrita", "Descartado")]
     codigos = sorted((int(re.search(r"\d+", c[0]).group()) for _, c in linhas), reverse=True)
     aprovar = [c for _, c in linhas if c[5] != "Aprovado"]
@@ -1174,19 +1278,36 @@ def gerar_pagina():
         slug = pathlib.Path(arquivo).stem
         n = int(re.search(r"\d+", cod).group())
         aberto = " open" if n in abertos else ""
-        botoes_artigo = ('<div style="display:flex;justify-content:flex-end;gap:8px">' + botao_reprovar("Reprovar " + cod, "Reprovo o " + cod + ": " + titulo + "\n\nMotivo (opcional, uma frase):\n") + botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) + '</div>') if status != "Aprovado" else ""
-        (cards_bib if status == "Aprovado" else cards).append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
+        pub = pubs.get(str(n), {})
+        if status != "Aprovado":
+            botoes_artigo = ('<div style="display:flex;justify-content:flex-end;gap:8px">' + botao_reprovar("Reprovar " + cod, "Reprovo o " + cod + ": " + titulo + "\n\nMotivo (opcional, uma frase):\n") + botao_aprovar("Aprovar " + cod, "Aprovo o " + cod + ": " + titulo) + '</div>')
+            destino = cards
+        elif pub.get("estado") == "publicado":
+            link_post = f' &middot; <a href="{esc(pub["link_post"])}" target="_blank" rel="noopener">ver post</a>' if pub.get("link_post") else ""
+            botoes_artigo = f'<div class="aprov-env">Publicado em {esc(fmt_quando(pub.get("publicado_em","")))}{link_post}</div>'
+            destino = cards_publicado
+        elif pub.get("estado") == "agendado":
+            botoes_artigo = (f'<div style="display:flex;justify-content:space-between;align-items:center;gap:8px">'
+                             f'<span class="aprov-env">Agendado para {esc(fmt_quando(pub.get("quando","")))}</span>{botao_marcar_publicado(n)}</div>')
+            destino = cards_agendar
+        else:
+            botoes_artigo = f'<div style="display:flex;justify-content:flex-end;gap:8px">{botao_publicar(n, titulo)}</div>'
+            destino = cards_agendar
+        destino.append(f"""<details class="card" id="artigo-{n}"{aberto}><summary><span class="code">{esc(cod)}</span><span class="head-text"><div class="title">{esc(titulo)}</div><div class="meta"><span class="tag">{esc(pilar)}</span><span class="status">{esc(status)}</span></div></span><span class="chev">&#8250;</span></summary>
 <div class="body">{botoes_artigo}<div class="section-label">Artigo</div><div class="text">{html_artigo(slug)}</div>
 <div class="section-label">Post LinkedIn</div>{html_post(slug)}
 <div class="section-label">Roteiro de vídeo (1 minuto, Daniel falando para a câmera)</div>{html_roteiro(slug)}
 {html_arte(slug)}
 {html_idiomas(slug)}</div></details>""")
     reprov = itens_reprovados()
+    aprovados = [l for l in linhas if l[1][5] == "Aprovado"]
+    linhas_agendar = [l for l in aprovados if pubs.get(str(int(re.search(r"\d+", l[1][0]).group())), {}).get("estado") != "publicado"]
+    linhas_publicado = [l for l in aprovados if pubs.get(str(int(re.search(r"\d+", l[1][0]).group())), {}).get("estado") == "publicado"]
     pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Artigos BXAI</title><style>{CSS}</style></head><body>
 <div class="wrap"><header><div class="bar"></div><h1>BudgetXpert, squad de conteúdo</h1></header>
 <div class="sub">Referencie pelo código ao pedir ajustes no chat</div>
 {html_resumo(linhas)}
-<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-aprovar" role="tab" data-aba="aprovar">A aprovar ({len(cards)})</button><button type="button" class="aba" id="btn-biblioteca" role="tab" data-aba="biblioteca">Biblioteca ({len(cards_bib)})</button><button type="button" class="aba" id="btn-reprovados" role="tab" data-aba="reprovados">Reprovados ({len(reprov)})</button></div>
+<div class="abas" role="tablist"><button type="button" class="aba" id="btn-status" role="tab" data-aba="status">Status</button><button type="button" class="aba" id="btn-aprovar" role="tab" data-aba="aprovar">A aprovar ({len(cards)})</button><button type="button" class="aba" id="btn-agendar" role="tab" data-aba="agendar">Agendar ({len(cards_agendar)})</button><button type="button" class="aba" id="btn-publicado" role="tab" data-aba="publicado">Publicado ({len(cards_publicado)})</button><button type="button" class="aba" id="btn-reprovados" role="tab" data-aba="reprovados">Reprovados ({len(reprov)})</button></div>
 <section id="aba-status" role="tabpanel">
 {html_status()}
 {html_briefings()}
@@ -1196,10 +1317,15 @@ def gerar_pagina():
 <div class="section-label">Artigos a aprovar</div>
 {chr(10).join(cards) or '<p class="sub">Nenhum artigo aguardando aprovação.</p>'}
 </section>
-<section id="aba-biblioteca" role="tabpanel" hidden>
-{html_indice([l for l in linhas if l[1][5] == "Aprovado"], "Biblioteca, artigos aprovados")}
-<div class="section-label">Artigos aprovados</div>
-{chr(10).join(cards_bib) or '<p class="sub">Nenhum artigo aprovado ainda.</p>'}
+<section id="aba-agendar" role="tabpanel" hidden>
+{html_indice(linhas_agendar, "Artigos aprovados, a agendar ou já agendados")}
+<div class="section-label">Agendar</div>
+{chr(10).join(cards_agendar) or '<p class="sub">Nenhum artigo para agendar.</p>'}
+</section>
+<section id="aba-publicado" role="tabpanel" hidden>
+{html_indice(linhas_publicado, "Artigos publicados no LinkedIn")}
+<div class="section-label">Publicado</div>
+{chr(10).join(cards_publicado) or '<p class="sub">Nenhum artigo publicado ainda.</p>'}
 </section>
 <section id="aba-reprovados" role="tabpanel" hidden>
 {html_reprovados(reprov)}
@@ -1239,3 +1365,7 @@ if __name__ == "__main__":
         print("agentes ok" if not e else "\n".join(e)); sys.exit(1 if e else 0)
     elif cmd == "gerar-pagina":
         gerar_pagina(); print(PAGINA)
+    elif cmd == "agendar":
+        print(agendar(sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else ""))
+    elif cmd == "publicado":
+        print(marcar_publicado(sys.argv[2]))
