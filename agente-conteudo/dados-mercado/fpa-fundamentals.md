@@ -191,3 +191,13 @@ Data de coleta: 2026-10-25
 Fonte: OpenTuition, notas de ACCA Performance Management, "PM 14 More variance analysis" (sem data).
 Link: https://opentuition.com/acca/pm/notes/pm-14-more-variance-analysis/
 Data de coleta: 2026-10-25
+
+A 41ª pesquisa anual de orçamento salarial da Conference Board projeta aumento mediano de 3,5% para 2027 nos EUA, o mesmo nível planejado e realizado em 2026. O mérito mediano fica em 3,1%, e o restante vai para retenção e promoções. IA é a habilidade que mais puxa ajuste de salário-base (37,8%), à frente de liderança e gestão de pessoas (30,7%) e ciência de dados (30,4%). Serve como referência para a premissa de folha no orçamento de 2027. Ressalva: só EUA; amostra e período de campo ficam na versão para membros, e 3,5% é mediana, não média.
+Fonte: The Conference Board, "US Salary Increase Budgets 2026-2027" (03/09/2026).
+Link: https://www.conference-board.org/publications/US-salary-increase-budgets-2026-2027
+Data de coleta: 2026-10-26
+
+[Teórico] Na análise de investimentos, a ACCA aponta quatro problemas da TIR frente ao VPL: é medida apenas relativa de criação de valor, pode ter mais de uma resposta, é difícil de calcular e parece supor reinvestimento à própria taxa. A TIR modificada (MIRR) corrige isso supondo reinvestimento ao custo de capital, o que gera resposta única e sempre abaixo da TIR quando o projeto é viável. No exemplo do artigo, US$ 1.000 investidos geram US$ 400, US$ 500 e US$ 300 em três anos, com custo de capital de 10%: a TIR é 14,92% e a MIRR, 13,03%. A decisão de aceitar ou rejeitar segue ancorada no VPL. Ressalva: o artigo é material de estudo do exame P4 (Advanced Financial Management), sem data publicada.
+Fonte: ACCA Global, "Modified internal rate of return", artigo técnico do Paper P4.
+Link: https://www.accaglobal.com/an/en/student/exam-support-resources/professional-exams-study-resources/p4/technical-articles/Modified-internal-rate-return.html
+Data de coleta: 2026-10-26

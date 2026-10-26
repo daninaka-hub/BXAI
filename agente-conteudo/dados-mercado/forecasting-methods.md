@@ -251,3 +251,13 @@ Data de coleta: 2026-10-25
 Fonte: Hyndman e Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed.), capítulo 9, seção 9.10 "ARIMA vs ETS" (livro online).
 Link: https://otexts.com/fpp3/arima-ets.html
 Data de coleta: 2026-10-25
+
+No CFO Index do 3º trimestre de 2026 da Pigment, 83% dos 2.000 CFOs e executivos de finanças ouvidos dizem que os custos de IA cobrados por consumo levaram o gasto acima do previsto, e só 13% ficaram dentro do orçamento. O estouro típico vai de 11% a 25%, e 17% passam de 50%. Para 40%, o uso imprevisível torna esses custos difíceis de prever, o que coloca o gasto com IA como nova linha de forecast a modelar por driver de consumo. Ressalva: campo de 19/08 a 21/09/2026 em EUA, Reino Unido, França e Alemanha; a pesquisa é da própria Pigment, que vende software de planejamento.
+Fonte: Pigment (newsroom), "AI CFO Index Q3" (07/10/2026).
+Link: https://www.pigment.com/newsroom/report-ai-cfo-index-q3
+Data de coleta: 2026-10-26
+
+[Teórico] O método de Croston é usado para demanda intermitente, isto é, séries com muitos zeros, como itens de baixo giro. Ele divide a série em duas: o tamanho de cada demanda diferente de zero e o intervalo entre uma demanda e a seguinte. Cada uma recebe suavização exponencial simples, e a previsão por período é a razão entre as duas. Croston sugeria alfa fixo de 0,1 nas duas séries; hoje os parâmetros costumam ser estimados pelos dados. No exemplo do livro, com vendas de um medicamento, a previsão sai em 2,419 dividido por 2,484, ou cerca de 0,97 unidade por mês. Ressalva: o método não corresponde a um modelo estatístico, então não há fórmula para intervalo de previsão, e suas previsões são conhecidas por ter viés (Syntetos e Boylan, 2001).
+Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 13.2 "Time series of counts".
+Link: https://otexts.com/fpp3/counts.html
+Data de coleta: 2026-10-26

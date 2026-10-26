@@ -211,3 +211,13 @@ Data de coleta: 2026-10-25
 Fonte: Saylor Academy, Fundamentals of Global Strategy, capítulo 8, "Globalizing the Value Chain Infrastructure" (sem data e sem autor na página).
 Link: https://saylordotorg.github.io/text_fundamentals-of-global-strategy/s10-globalizing-the-value-chain-in.html
 Data de coleta: 2026-10-25
+
+A primeira edição do Forward Finance Index, da OneStream, ouviu 1.300 CFOs e líderes seniores de finanças de empresas médias e grandes nos EUA, Reino Unido e França. 74% dizem que a IA já reduz trabalho manual em fechamento, relatórios e conciliação, mas só 14% afirmam que ela gerou valor para a empresa e impacto nas decisões. Só 15% têm programa de habilidades em IA totalmente implantado, embora dois terços acreditem que não preparar a força de trabalho tornará a organização obsoleta em cinco anos. Apenas 6% das áreas de finanças se qualificam como líderes nas cinco dimensões medidas, e 52% ficam como seguidoras. Ressalva: pesquisa de fornecedor de software de finanças, sem período de campo informado; números lidos na cobertura da Fortune.
+Fonte: Fortune (Sheryl Estrada), "Block, Amazon, Synopsys and Cloudflare are rethinking how work gets done with AI" (15/10/2026).
+Link: https://fortune.com/2026/10/15/block-amazon-synopsys-cloudflare-rethinking-how-work-gets-done-with-ai/
+Data de coleta: 2026-10-26
+
+[Teórico] Team Topologies, de Matthew Skelton e Manuel Pais, organiza equipes em quatro tipos: alinhada ao fluxo (o tipo principal, dona de uma capacidade de negócio de ponta a ponta), plataforma, habilitadora (especialistas que desenvolvem outros times) e de subsistema complexo. Os times interagem de três modos: colaboração, consumo como serviço e facilitação. O critério de desenho é a carga cognitiva: a plataforma existe para tirar dos times alinhados ao fluxo o que não é foco deles. Em finanças, a analogia possível é business partners e FP&A como times alinhados ao fluxo, o CSC como plataforma e o CoE como habilitador. Ressalva: o modelo nasceu em software e a transposição para finanças é nossa; o próprio texto lembra que organizações complexas não cabem em quatro tipos e três modos.
+Fonte: Martin Fowler, "Team Topologies" (25/07/2023).
+Link: https://martinfowler.com/bliki/TeamTopologies.html
+Data de coleta: 2026-10-26

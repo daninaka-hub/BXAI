@@ -450,3 +450,20 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-25 | Organization | pesquisa | Open Future Forum | Para 21% (19% em finanças, 34% entre CEOs), a verba de IA substitui contratação (290 respondentes, amostra de eventos) |
 | 2026-10-25 | Organization | estatística | Resultsense / ONS | ONS: só 6% das empresas britânicas que usam IA cortaram quadro, contra 52% dos CFOs que esperam corte |
 | 2026-10-25 | Organization | teórico | Saylor Academy (Prahalad e Hamel) | Core competence aplicada a fazer ou terceirizar: três testes, escala de risco e terceirização contra offshoring |
+| 2026-10-26 | Forecasting Methods | pesquisa | Pigment (AI CFO Index Q3) | 83% estouram o orçamento de IA por consumo (típico de 11% a 25%) e 40% acham o custo difícil de prever (2.000 líderes, fornecedor) |
+| 2026-10-26 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3, 13.2) | Croston para demanda intermitente: suaviza tamanho e intervalo entre demandas; sem intervalo de previsão e com viés |
+| 2026-10-26 | FP&A Fundamentals | pesquisa | The Conference Board | Premissa de folha 2027 nos EUA: aumento mediano de 3,5% (mérito 3,1%), e IA puxa ajuste salarial em 37,8% |
+| 2026-10-26 | FP&A Fundamentals | teórico | ACCA (Paper P4) | VPL contra TIR e a MIRR: resposta única e reinvestimento ao custo de capital (TIR 14,92% contra MIRR 13,03% no exemplo) |
+| 2026-10-26 | Controllership | pesquisa | Deloitte CFO Signals 3T26 | 74% levam dias ou semanas para pausar IA acima do limite de custo, e só 20% têm controles avançados de IA (200 CFOs) |
+| 2026-10-26 | Controllership | teórico | ICAEW (ISA 240) | Management override: risco presente em toda entidade, três procedimentos obrigatórios e sinais de alerta em lançamentos manuais |
+| 2026-10-26 | Finance Automation | pesquisa | OvationCXM via GlobeNewswire | 75% usam ou testam agentes de IA em finanças e 68% esperam que eles façam transações em 12 meses (520 líderes, fornecedor) |
+| 2026-10-26 | Finance Automation | teórico | Davis (MIS Quarterly, 1989) | TAM: utilidade percebida pesa mais que facilidade de uso na adoção de tecnologia (r de 0,63 e 0,85 contra 0,45 e 0,59) |
+| 2026-10-26 | Integrated Planning | estudo de caso | Supply Chain Dive (Constellation Brands) | Constellation cortou demais o estoque do distribuidor no ano fiscal 2026 e teve de reembarcar; meta é embarque e venda ao varejo dentro de 99% |
+| 2026-10-26 | Integrated Planning | teórico | Wikipedia / Computerworld | Postergação: diferenciar o produto o mais tarde possível; cinco tipos (Zinn e Bowersox) e HP pagando 1% a mais para economizar 5% a 7% em estoque |
+| 2026-10-26 | Strategic Planning | pesquisa | The Conference Board | Confiança dos CEOs cai de 52 para 46 no 4T26, mas quem planeja investir mais sobe de 31% para 36% (131 CEOs) |
+| 2026-10-26 | Strategic Planning | teórico | Wikipedia / ValueBasedManagement.net (Myers, Luehrman) | Opções reais: a flexibilidade de adiar, expandir ou abandonar tem valor que o VPL ignora |
+| 2026-10-26 | Leadership Roles | estatística | CFO Dive / Business Talent Group | Demanda por CFO interino sobe 14% em um ano e pedidos de C-level interino crescem 151% desde 2021 (fornecedor, sem amostra) |
+| 2026-10-26 | Leadership Roles | pesquisa | Fortune / Robert Half Salary Guide 2027 | 72% dos gestores pagam mais por habilidade em IA; salário inicial em finanças sobe 1,8% em 2027, FP&A manager 3,6% (EUA) |
+| 2026-10-26 | Leadership Roles | teórico | Edmondson (Administrative Science Quarterly, 1999) | Segurança psicológica: crença do time de que é seguro arriscar-se, ligada a aprendizado e desempenho (51 equipes) |
+| 2026-10-26 | Organization | pesquisa | Fortune / OneStream Forward Finance Index | 74% já cortam trabalho manual com IA, mas só 15% têm programa de habilidades em IA e 6% são líderes (1.300 líderes, fornecedor) |
+| 2026-10-26 | Organization | teórico | Martin Fowler (Skelton e Pais) | Team Topologies: quatro tipos de time e três modos de interação, desenhados para reduzir a carga cognitiva |

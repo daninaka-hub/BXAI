@@ -251,3 +251,13 @@ Data de coleta: 2026-10-25
 Fonte: Strategic Management Insight (Ovidijus Jurevicius), "GE McKinsey Matrix: The Ultimate Guide" (atualizado em 16/06/2025).
 Link: https://strategicmanagementinsight.com/tools/ge-mckinsey-matrix/
 Data de coleta: 2026-10-25
+
+O índice de confiança dos CEOs do The Conference Board caiu de 52 para 46 no 4º trimestre de 2026, o menor nível desde o 2º trimestre de 2025 (abaixo de 50 indica mais respostas negativas que positivas). Os que esperam piora da economia em seis meses subiram de 19% para 41%. Mesmo assim, a parcela que planeja aumentar o investimento de capital passou de 31% para 36%, com 53% sem revisão e 11% cortando. Os riscos mais citados foram cibersegurança, IA e novas tecnologias, e geopolítica. Ressalva: 131 CEOs de grandes empresas dos EUA, coleta de 21/09 a 05/10/2026, em parceria com o The Business Council.
+Fonte: The Conference Board, "Measure of CEO Confidence, Q4 2026" (15/10/2026).
+Link: https://www.conference-board.org/topics/CEO-Confidence/
+Data de coleta: 2026-10-26
+
+[Teórico] Opções reais aplicam a lógica das opções financeiras a investimentos de capital: uma opção real é o direito, sem obrigação, de adiar, expandir, reduzir, escalonar, trocar ou abandonar um projeto. O termo foi cunhado por Stewart Myers, do MIT, em 1977. A crítica central ao VPL tradicional é supor gestão passiva depois do investimento, ignorando o valor de reagir ao que o mercado revela. Timothy Luehrman levou a ideia à estratégia em dois artigos na HBR em 1998, defendendo que uma estratégia se parece mais com uma série de opções do que com fluxos de caixa estáticos. Ressalva: o método rende mais quando incerteza e flexibilidade são altas, e a volatilidade de ativos não negociados é difícil de estimar (em geral por Monte Carlo ou por um ativo de referência); fontes secundárias.
+Fonte: Wikipedia, "Real options valuation"; ValueBasedManagement.net, "Real Options" (cita Luehrman, HBR, jul./ago. e set./out. de 1998).
+Link: https://en.wikipedia.org/wiki/Real_options_valuation e https://www.valuebasedmanagement.net/methods_realoptions.html
+Data de coleta: 2026-10-26

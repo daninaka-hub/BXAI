@@ -396,3 +396,13 @@ Data de coleta: 2026-10-25
 Fonte: ISACA Journal (David Vohradsky), "A Practical Approach to Continuous Control Monitoring" (01/03/2015).
 Link: https://www.isaca.org/resources/isaca-journal/issues/2015/volume-2/a-practical-approach-to-continuous-control-monitoring
 Data de coleta: 2026-10-25
+
+A OvationCXM ouviu 520 líderes de finanças dos EUA (CFOs, controllers, tesoureiros e gestores de finanças e contabilidade) em empresas com receita de menos de US$ 5 milhões a mais de US$ 1 bilhão. 75% usam ou testam agentes de IA em pelo menos um fluxo de finanças ou banco, e 68% esperam que esses agentes passem a executar transações nos próximos 12 meses; 28% preveem usá-los em pagamentos ACH e 23% em transferências wire. Entre quem já usa agentes, 54% buscariam uma solução alternativa se o banco não os suportasse, e 15% levariam o relacionamento para outro banco. Ressalva: pesquisa de fornecedor de tecnologia para serviços financeiros, sem período de campo nem metodologia divulgados.
+Fonte: OvationCXM via GlobeNewswire (republicado por The Manila Times), "54% of Finance Leaders Using AI Agents Would Seek a Workaround if Their Bank Can't Support Them" (29/09/2026).
+Link: https://www.manilatimes.net/2026/09/29/tmt-newswire/globenewswire/54-of-finance-leaders-using-ai-agents-would-seek-a-workaround-if-their-bank-cant-support-them/2435229
+Data de coleta: 2026-10-26
+
+[Teórico] O Technology Acceptance Model (TAM), de Fred Davis, explica a adoção de uma tecnologia por duas percepções do usuário: utilidade percebida e facilidade de uso percebida. Em dois estudos com 152 usuários e quatro aplicativos, a utilidade teve correlação de 0,63 com o uso atual e de 0,85 com o uso futuro previsto, contra 0,45 e 0,59 da facilidade de uso. A regressão sugere que a facilidade de uso atua sobretudo como antecedente da utilidade, e não como motor direto do uso. Para projetos de automação em finanças, a implicação é demonstrar ganho concreto ao analista antes de investir no polimento da interface. Ressalva: estudo de 1989, amostra pequena e uso autodeclarado.
+Fonte: Fred D. Davis, "Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology", MIS Quarterly, v. 13, n. 3, p. 319 a 340 (setembro de 1989).
+Link: https://docs.edtechhub.org/lib/W4SUF2B4 (original: https://www.jstor.org/stable/249008)
+Data de coleta: 2026-10-26

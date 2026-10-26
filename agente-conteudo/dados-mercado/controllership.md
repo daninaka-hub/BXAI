@@ -391,3 +391,13 @@ Data de coleta: 2026-10-25
 Fonte: IFRS Foundation, "IFRS 15 Revenue from Contracts with Customers" (emitida em maio de 2014).
 Link: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/
 Data de coleta: 2026-10-25
+
+No CFO Signals do 3º trimestre de 2026, a Deloitte mediu o controle sobre o custo da IA entre 200 CFOs norte-americanos. Em 74% das empresas, pausar ou desligar um uso de IA que passou do limite de custo leva de vários dias úteis a semanas; só 19% resolvem no mesmo dia útil e 7% reagem de forma automática ou quase em tempo real. 80% usam controles pouco avançados (56% só controles básicos específicos de IA e 24% só controles gerais de TI e orçamento), contra 20% com controles avançados, como atribuição de custo por token ou carga e gateways de IA. Ressalva: só empresas com receita de US$ 1 bilhão ou mais, dado autodeclarado, e a página não informa o período de campo.
+Fonte: Deloitte Insights, "North American CFOs cite AI cost-governance gaps in third-quarter 2026 survey" (21/10/2026).
+Link: https://www.deloitte.com/global/en/insights/topics/business-strategy-growth/3q-2026-cfo-signals-survey.html
+Data de coleta: 2026-10-26
+
+[Teórico] Pela ISA 240, o risco de a administração burlar controles (management override) varia de entidade para entidade, mas existe em todas, e por isso é sempre tratado como risco significativo de fraude. Três procedimentos são obrigatórios, seja qual for o risco avaliado: testar lançamentos manuais e outros ajustes no razão e nas demonstrações, revisar estimativas contábeis em busca de viés (incluindo revisão retrospectiva das estimativas do período anterior) e avaliar a razão de negócio de transações relevantes fora do curso normal. Sinais de alerta em lançamentos: contas incomuns ou pouco usadas, autor que normalmente não lança, lançamento no fim do período ou após o fechamento com pouca explicação, e valores redondos ou com final repetido. O teste mira o fim do período, mas o auditor deve considerar também o ano inteiro. Ressalva: guia de 2017 escrito para auditores; serve à controladoria como lista do que o auditor vai testar.
+Fonte: ICAEW, "Addressing the risk of management override in an ISA audit" (24/10/2017).
+Link: https://www.icaew.com/technical/audit-and-assurance/faculty-resources/implementing--isas-international/management-override
+Data de coleta: 2026-10-26

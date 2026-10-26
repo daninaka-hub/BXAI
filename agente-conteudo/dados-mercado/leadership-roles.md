@@ -296,3 +296,18 @@ Data de coleta: 2026-10-25
 Fonte: BINUS School of Accounting, "The Stewardship Theory" (15/11/2021), com base em Davis, Schoorman e Donaldson (1997).
 Link: https://accounting.binus.ac.id/?p=21593
 Data de coleta: 2026-10-25
+
+Segundo o 2026 High-End Independent Talent Report da Business Talent Group (empresa da Heidrick & Struggles), a demanda por CFO interino cresceu 14% em um ano, e os pedidos de liderança interina na alta gestão subiram 151% desde 2021. Capacidades digitais e de IA aparecem em 25% dos pedidos. O CFO interino ou fracionado vira uma ponte cada vez mais comum entre um titular e o próximo, o que entra na pauta de sucessão. Ressalva: a matéria não informa amostra nem metodologia; a fonte vende talento independente e o relatório saiu em abril.
+Fonte: CFO Dive (Grace Noto), "Fractional CFOs see demand surge in AI age" (06/08/2026).
+Link: https://www.cfodive.com/news/fractional-cfos-see-demand-surge-ai-age/827264/
+Data de coleta: 2026-10-26
+
+Pelo Salary Guide 2027 da Robert Half nos EUA, 72% dos gestores estão aumentando o salário de quem tem habilidades relevantes de IA, e 42% pagam mais por expertise em IA do que por outras habilidades técnicas. O salário inicial em finanças e contabilidade deve subir em média 1,8% em 2027, pouco abaixo da média nacional de 1,9%, com destaque para analista financeiro (+3,8%) e FP&A manager (+3,6%). Ressalva: os números valem para contratações novas, não para reajuste de quem já está na empresa; a amostra (mais de 2.000 gestores, executivos e profissionais) não é só de finanças, e a Robert Half vende recrutamento.
+Fonte: Fortune (Sheryl Estrada), "AI skills could mean bigger paychecks for finance talent" (09/10/2026).
+Link: https://fortune.com/2026/10/09/ai-skills-could-mean-bigger-paychecks-finance-talent-cfo/
+Data de coleta: 2026-10-26
+
+[Teórico] Amy Edmondson define segurança psicológica da equipe como a crença compartilhada de que o time é um lugar seguro para correr riscos interpessoais, como admitir erro, fazer perguntas ou discordar. Num estudo de campo com 51 equipes de uma empresa industrial, a segurança psicológica se associou ao comportamento de aprendizagem, enquanto a eficácia percebida do time perdeu efeito quando a segurança foi controlada; o aprendizado faz a ponte entre segurança psicológica e desempenho. Para líderes de FP&A e controladoria, a aplicação é direta: um time que teme apontar erro no forecast ou na conciliação tende a esconder o problema até o fechamento. Ressalva: estudo de 1999 em uma única empresa.
+Fonte: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams", Administrative Science Quarterly, v. 44, n. 2 (1999), via repositório Harvard DASH.
+Link: https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f
+Data de coleta: 2026-10-26

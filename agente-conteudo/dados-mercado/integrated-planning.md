@@ -271,3 +271,13 @@ Data de coleta: 2026-10-25
 Fonte: Infor, documentação do M3, "Available-to-promise (ATP)" (versão 2026.09).
 Link: https://docs.infor.com/m3udi/2026.09/en-us/m3beud/scplanhs/cts090.html
 Data de coleta: 2026-10-25
+
+A Constellation Brands (cervejas Modelo e Pacifico) e seus distribuidores reduziram estoques no primeiro semestre do ano fiscal 2026, encerrado em 28/02, diante da demanda fraca por cerveja premium, sobretudo entre consumidores hispânicos. A correção passou do ponto: o CEO Nicholas Fink disse que a empresa entrou no ano fiscal seguinte com estoque leve demais, e no último trimestre teve de elevar os embarques para zerar pedidos atrasados e evitar ruptura. A meta agora é que embarques ao distribuidor e vendas do distribuidor ao varejo fiquem dentro de 99% um do outro no ano. É um exemplo do efeito chicote no canal, em que o ajuste de estoque amplifica a variação da demanda. Ressalva: relato da própria empresa na teleconferência de resultados de 07/10; o estoque segue abaixo da média histórica.
+Fonte: Supply Chain Dive (Antone Gonsalves), "Modelo, Pacifico maker stabilizes beer inventory following undersupply" (20/10/2026).
+Link: https://www.supplychaindive.com/news/modelo-pacifico-maker-stabilizes-beer-inventory-following-undersupply/833292/
+Data de coleta: 2026-10-26
+
+[Teórico] Postergação (postponement) é adiar ao máximo o momento em que o produto ganha forma ou destino final: produz-se uma versão genérica e a diferenciação acontece quando a demanda real é conhecida. Alderson propôs o conceito em 1950; Bucklin, em 1965, contrapôs a especulação (comprar e estocar cedo para baratear transporte); Zinn e Bowersox, em 1988, separaram quatro postergações de forma (rotulagem, embalagem, montagem e fabricação) e uma de tempo. No caso clássico da HP, a empresa pagava 1% a mais em projeto e materiais para manter a impressora genérica até o fim e economizava de 5% a 7% em custo de estoque, cerca de US$ 72 milhões por ano. Ressalva: os números da HP são de reportagem de 2002, não de demonstração auditada, e a Wikipedia é fonte secundária.
+Fonte: Wikipedia, "Postponement"; Computerworld (Peter Buxbaum), "The Accidental Real Optionist" (07/01/2002).
+Link: https://en.wikipedia.org/wiki/Postponement e https://www.computerworld.com/article/1359254/the-accidental-real-optionist.html
+Data de coleta: 2026-10-26
