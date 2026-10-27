@@ -261,3 +261,13 @@ Data de coleta: 2026-10-26
 Fonte: Rob J. Hyndman e George Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 13.2 "Time series of counts".
 Link: https://otexts.com/fpp3/counts.html
 Data de coleta: 2026-10-26
+
+Pesquisa da Accordion com a Wakefield Research ouviu em setembro 100 sócios operacionais de fundos de private equity e 100 CFOs de empresas investidas com receita anual de US$ 50 milhões ou mais. Entre os CFOs, 84% ainda montam o modelo central do orçamento em Excel, e previsão e orçamento é a tarefa que eles menos aceitam deixar a IA executar sozinha (76%), à frente de reporte ao conselho (64%) e fechamento e consolidação (33%). O ciclo leva em média 11 semanas até a versão para o conselho (14 semanas em quem fez aquisição complementar nos últimos 12 meses), 67% esperam cinco ou mais revisões completas do modelo e 46% atribuem as revisões de fim de ciclo a ajuste tardio de premissa com pouco impacto estratégico. Ressalva: a Accordion vende serviços para empresas de private equity, a amostra é pequena e a pergunta não separa previsão de orçamento.
+Fonte: CFO.com, "84% of PE-backed CFOs build budgets in Excel despite automation push" (23/10/2026).
+Link: https://www.cfo.com/news/84-of-pe-backed-cfos-build-budgets-in-excel-despite-automation-push/833743/
+Data de coleta: 2026-10-27
+
+[Teórico] Para avaliar uma previsão em faixa, e não só o número central, Hyndman e Athanasopoulos usam quatro medidas. O quantile score (pinball loss) penaliza de forma assimétrica o erro de um percentil previsto e, no percentil 50, equivale ao erro absoluto. O Winkler score soma a largura do intervalo a uma multa proporcional à distância em que o realizado ficou fora dele. O CRPS é a média dos quantile scores sobre todas as probabilidades, e o skill score compara o método com um benchmark ingênuo pela fórmula (benchmark menos método) dividido pelo benchmark. No exemplo das ações do Google em 2016, o CRPS médio foi 26,5 no ingênuo, 33,5 no drift e 76,7 na média, com skill score de cerca de menos 0,27 e menos 1,90, ou seja, ambos piores que o ingênuo. Em FP&A, serve para medir se a faixa de forecast de receita ou caixa está calibrada. Ressalva: para previsão pontual os autores preferem MASE ou RMSSE, porque com teste pequeno o denominador do skill score fica instável.
+Fonte: Hyndman e Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 5.9 "Evaluating distributional forecast accuracy".
+Link: https://otexts.com/fpp3/distaccuracy.html
+Data de coleta: 2026-10-27

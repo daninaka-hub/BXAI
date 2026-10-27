@@ -467,3 +467,19 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-26 | Leadership Roles | teórico | Edmondson (Administrative Science Quarterly, 1999) | Segurança psicológica: crença do time de que é seguro arriscar-se, ligada a aprendizado e desempenho (51 equipes) |
 | 2026-10-26 | Organization | pesquisa | Fortune / OneStream Forward Finance Index | 74% já cortam trabalho manual com IA, mas só 15% têm programa de habilidades em IA e 6% são líderes (1.300 líderes, fornecedor) |
 | 2026-10-26 | Organization | teórico | Martin Fowler (Skelton e Pais) | Team Topologies: quatro tipos de time e três modos de interação, desenhados para reduzir a carga cognitiva |
+| 2026-10-27 | Forecasting Methods | pesquisa | CFO.com / Accordion e Wakefield Research | 84% dos CFOs de investidas de PE orçam em Excel e 76% rejeitam IA autônoma em previsão e orçamento (200 respondentes, fornecedor) |
+| 2026-10-27 | Forecasting Methods | teórico | Hyndman e Athanasopoulos (FPP3, 5.9) | Acurácia de previsão em faixa: quantile score, Winkler, CRPS e skill score contra benchmark ingênuo |
+| 2026-10-27 | Strategic Planning | pesquisa | Business Roundtable | Índice de CEOs sobe para 94 no 3T26, capex em 96 e 52% planejam aumentar investimento em seis meses (174 CEOs) |
+| 2026-10-27 | Strategic Planning | teórico | Mankins e Steele (HBR, 2005) | Estratégias entregam 63% do valor prometido; sete regras para fechar a lacuna entre estratégia e desempenho |
+| 2026-10-27 | FP&A Fundamentals | estatística | PYMNTS Intelligence | Ciclo de conversão de caixa de 24,2 dias nas melhores empresas médias contra 44,4 nas piores (1.457 CFOs, dado de 2025) |
+| 2026-10-27 | FP&A Fundamentals | teórico | ACCA (CAPM, parte 2) | Taxa de desconto por projeto: betas de comparáveis desalavancados, realavancados e CAPM (exemplo chega a 9,2%) |
+| 2026-10-27 | Finance Automation | teórico | OCC / Orrick (revisão da SR 11-7) | Risco de modelo: só método quantitativo complexo é modelo, planilha simples e regra ficam fora, validação em três componentes |
+| 2026-10-27 | Controllership | pesquisa | Vena Solutions / Centiment | 78% corrigiram números do close dado como concluído; fechamento médio de 6,2 dias e 92% de correção com 7 a 8 sistemas (624 respondentes, fornecedor) |
+| 2026-10-27 | Controllership | teórico | Wolfe e Hermanson (CPA Journal, 2004) | Fraud diamond: capacidade como quarto elemento do triângulo da fraude, com seis traços e recomendações de controle |
+| 2026-10-27 | Finance Automation | pesquisa | CFO Dive / insightsoftware | 20% dos profissionais de finanças temem perder o emprego para a IA (mais 7 pontos) e falta de conhecimento cai para 12% (854 respondentes, fornecedor) |
+| 2026-10-27 | Organization | conclusão | ISG Provider Lens FAO 2026 | Terceirização de finanças avança para FP&A e forecast, em modelos híbridos com CSC, GCC e time retido (33 fornecedores avaliados) |
+| 2026-10-27 | Leadership Roles | estudo de caso | CFO Dive (Mattel, documento à SEC) | Mattel troca de CFO pela segunda vez em um ano: ex-CFO da Amgen com bônus de assinatura de US$ 1,4 milhão e base de US$ 1,3 milhão |
+| 2026-10-27 | Leadership Roles | teórico | Center for Creative Leadership | Modelo SBI e SBII: feedback por situação, comportamento, impacto e intenção |
+| 2026-10-27 | Organization | teórico | Lawrence e Lorsch (ASQ, 1967) | Diferenciação e integração: quanto mais especializada a área, mais integração precisa; as melhores fazem as duas coisas |
+| 2026-10-27 | Integrated Planning | estatística | MarketReview / U.S. Census Bureau (MTIS) | Relação estoque/vendas nos EUA cai para 1,33 em agosto de 2026 (1,40 um ano antes), com vendas crescendo mais que estoques |
+| 2026-10-27 | Integrated Planning | teórico | Wikipedia (Harris, 1913) | Lote econômico (EOQ): equilibra custo de pedir e de manter; no exemplo, 400 unidades em 25 pedidos e custo pouco sensível perto do ótimo |

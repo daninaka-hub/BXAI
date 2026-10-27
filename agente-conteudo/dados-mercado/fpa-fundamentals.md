@@ -201,3 +201,13 @@ Data de coleta: 2026-10-26
 Fonte: ACCA Global, "Modified internal rate of return", artigo técnico do Paper P4.
 Link: https://www.accaglobal.com/an/en/student/exam-support-resources/professional-exams-study-resources/p4/technical-articles/Modified-internal-rate-return.html
 Data de coleta: 2026-10-26
+
+Na onda de 2025 do estudo de capital de giro da PYMNTS Intelligence (1.457 CFOs e tesoureiros de empresas com receita de US$ 100 milhões a US$ 1 bilhão em 23 países, entrevistas por telefone de maio a julho de 2025), os 20% de melhor desempenho fecharam o ciclo de conversão de caixa em 24,2 dias, contra 44,4 dias dos 20% piores. Manufatura ficou em 70,7 dias e mídia e tecnologia em 19,7. Empresas com menos de 50 fornecedores ativos tiveram ciclo de 23 dias, contra 49 nas que têm mais de 100. Entre as melhores, 80% usam o capital de giro para crescimento planejado, contra 2% das piores, e 67% das piores o usam para emergências não planejadas. Ressalva: dado declarado em pesquisa, não tirado de balanço; topo e base vêm de um índice da própria PYMNTS, e a relação entre número de fornecedores e ciclo é correlação, não causa.
+Fonte: PYMNTS Intelligence, "The 24-Day Advantage: What Top-Performing CFOs Know About Working Capital" (junho de 2026).
+Link: https://www.pymnts.com/study_posts/the-24-day-advantage-what-top-performing-cfos-know-about-working-capital/
+Data de coleta: 2026-10-27
+
+[Teórico] Quando o projeto tem risco de negócio diferente do da empresa, a taxa de desconto deve vir de empresas comparáveis (proxies). O beta de ações de cada proxy é desalavancado para beta do ativo pela fórmula beta do ativo igual a beta de ações vezes Ve dividido por (Ve mais Vd vezes (1 menos T)); tira-se a média, realavanca-se com a estrutura de capital da investidora e aplica-se o CAPM. No exemplo da ACCA, com imposto de 25%, taxa livre de risco de 4% e prêmio de mercado de 6%, três proxies dão betas de ativo de 0,648, 0,653 e 0,663 (média 0,655), que realavancados para 30% de dívida viram 0,865 e custo de capital próprio de 9,2%. Esse custo alimenta um WACC específico do projeto, que deve substituir o custo médio da empresa no desconto. Ressalva: o modelo supõe beta da dívida igual a zero; material didático do exame Financial Management, sem data.
+Fonte: ACCA, "The capital asset pricing model, part 2" (artigo técnico, Financial Management).
+Link: https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/capm-part2.html
+Data de coleta: 2026-10-27

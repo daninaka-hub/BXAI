@@ -221,3 +221,13 @@ Data de coleta: 2026-10-26
 Fonte: Martin Fowler, "Team Topologies" (25/07/2023).
 Link: https://martinfowler.com/bliki/TeamTopologies.html
 Data de coleta: 2026-10-26
+
+O ISG Provider Lens de Terceirização de Finanças e Contabilidade 2026 avaliou 33 fornecedores em quatro áreas (Invoice to Pay, Order to Cash, R2R e tributos, e FP&A). A conclusão é que a terceirização sai do processamento transacional e entra em trabalho de julgamento, como planejamento, forecast e modelagem de cenários, e que as empresas combinam terceirização, CSC, centros globais de capacidade (GCCs) e times retidos em modelos híbridos, mantendo para si a propriedade estratégica. Para o autor principal do estudo, colocar IA sobre o processo existente rende pouco; o valor aparece quando fluxos, controles e decisão são redesenhados. Ressalva: o comunicado não traz percentual de adoção, amostra nem metodologia, e a ISG assessora a contratação desses serviços.
+Fonte: ISG (Information Services Group), "Enterprises Pursue Resilient Financial Operating Models" (09/10/2026).
+Link: https://ir.isg-one.com/news-market-information/press-releases/news-details/2026/Enterprises-Pursue-Resilient-Financial-Operating-Models/default.aspx
+Data de coleta: 2026-10-27
+
+[Teórico] Lawrence e Lorsch compararam seis organizações industriais para ver como vendas, produção e P&D se ajustavam a ambientes diferentes. Diferenciação é o quanto cada área cria estrutura, metas e orientação próprias para lidar com seu pedaço do ambiente; integração é a coordenação necessária para que essas áreas atuem de forma unificada. Quanto mais complexo o ambiente, mais diferenciação é preciso, e quanto mais diferenciada a organização, mais integração ela exige; as de melhor desempenho econômico conseguiram as duas coisas ao mesmo tempo, com mecanismos como estruturas de coordenação e integradores reconhecidos. Em finanças, ajuda a explicar por que separar CSC, FP&A, controladoria e business partners pede papéis integradores à altura, como GPO, centro de excelência ou ciclo de planejamento comum. Ressalva: estudo de 1967, conferido em fontes secundárias porque o artigo original não abriu; sem números nas páginas abertas.
+Fonte: Paul R. Lawrence e Jay W. Lorsch, "Differentiation and Integration in Complex Organizations", Administrative Science Quarterly, vol. 12, nº 1 (junho de 1967), via Talking About Organizations Podcast, episódio 16 (30/08/2016), e Army Sustainment, "Mission Command: Differentiation and Integration" (08/07/2014).
+Link: https://www.talkingaboutorganizations.com/e16/ e https://www.army.mil/article-amp/129129/mission_command_differentiation_and_integration
+Data de coleta: 2026-10-27

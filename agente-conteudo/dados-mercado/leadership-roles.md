@@ -311,3 +311,13 @@ Data de coleta: 2026-10-26
 Fonte: Amy C. Edmondson, "Psychological Safety and Learning Behavior in Work Teams", Administrative Science Quarterly, v. 44, n. 2 (1999), via repositório Harvard DASH.
 Link: https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f
 Data de coleta: 2026-10-26
+
+A Mattel trocou de CFO pela segunda vez em pouco mais de um ano: Peter Griffith, que foi CFO da Amgen por seis anos e passou 21 anos na EY, assumiu em 20/10/2026 no lugar de Paul Ruh, que tinha chegado em maio de 2025, e ganhou também assento no conselho. Pelo documento enviado à SEC, o pacote inclui salário-base de US$ 1,3 milhão, bônus de assinatura em dinheiro de US$ 1,4 milhão, ações restritas de contratação de US$ 3,3 milhões com vesting em três anos, RSUs proporcionais de 2026 de US$ 1 milhão e bônus-alvo anual de 100% do salário a partir de 2027, com teto de 200%. A troca coincide com a chegada de um novo CEO e com a pressão de um acionista dono de 4% das ações para vender a empresa. Ressalva: caso isolado de empresa sob pressão de venda; mostra o preço de um CFO que já ocupou a cadeira, não a média de mercado.
+Fonte: CFO Dive, "Mattel grants incoming CFO $1.4M sign-on bonus" (19/10/2026).
+Link: https://www.cfodive.com/news/mattel-grants-incoming-cfo-cash-sign-bonus-sale-takeover-shareholder/833380/
+Data de coleta: 2026-10-27
+
+[Teórico] O modelo Situation-Behavior-Impact (SBI), do Center for Creative Leadership, organiza o feedback em três passos: situar o momento exato, descrever o comportamento observável sem julgamento e dizer o impacto que ele teve. A extensão SBII acrescenta um quarto passo, perguntar qual era a intenção da pessoa e ouvir, o que tira o feedback da mão única e evita que o líder presuma motivos. Segundo o CCL, o método reduz a ansiedade de quem dá o feedback e a defensividade de quem recebe, e gestores que dão feedback com mais frequência são avaliados como mais eficazes. Para CFOs, controllers e heads de FP&A, serve de roteiro para retorno a analistas sobre forecast, fechamento ou apresentação ao conselho. Ressalva: texto do próprio CCL, que vende o treinamento, sem números nem detalhe da pesquisa.
+Fonte: Center for Creative Leadership, "Use Situation-Behavior-Impact (SBI) To Understand Intent" (19/08/2025).
+Link: https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/
+Data de coleta: 2026-10-27

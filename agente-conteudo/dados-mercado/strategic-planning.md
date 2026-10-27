@@ -261,3 +261,13 @@ Data de coleta: 2026-10-26
 Fonte: Wikipedia, "Real options valuation"; ValueBasedManagement.net, "Real Options" (cita Luehrman, HBR, jul./ago. e set./out. de 1998).
 Link: https://en.wikipedia.org/wiki/Real_options_valuation e https://www.valuebasedmanagement.net/methods_realoptions.html
 Data de coleta: 2026-10-26
+
+O CEO Economic Outlook Index da Business Roundtable subiu 3 pontos no 3º trimestre de 2026, para 94, contra média histórica de 83. O subíndice de investimento de capital foi a 96 (93 no trimestre anterior, média histórica de 77): 52% dos CEOs planejam aumentar o capex nos próximos seis meses, 43% manter e 6% reduzir. Vendas ficaram estáveis em 129, com 83% prevendo alta, e contratação subiu de 51 para 58, ainda abaixo da média histórica de 61 (36% vão ampliar o quadro e 28% reduzir). Ressalva: 174 CEOs de grandes empresas dos EUA, campo de 31/08 a 11/09/2026; o índice mede intenção declarada, não investimento realizado.
+Fonte: Business Roundtable, "CEO Economic Outlook Index" (3º trimestre de 2026).
+Link: https://businessroundtable.org/media/ceo-economic-outlook-index
+Data de coleta: 2026-10-27
+
+[Teórico] Mankins e Steele concluem que a maioria das empresas entrega só 63% do valor financeiro prometido por suas estratégias, perda atribuída a falhas de planejamento e de execução. Para fechar a lacuna propõem sete regras: manter a estratégia simples, dizendo o que a empresa fará e o que não fará; questionar premissas para que reflitam a economia real do mercado; usar uma linguagem comum de avaliação de desempenho, como profit pools; discutir cedo a alocação de recursos; explicitar poucas prioridades; monitorar continuamente realizado contra plano, revisando premissas e realocando recursos; e desenvolver capacidade de execução na seleção e formação de gestores. Os autores citam Cisco, Dow Chemical e 3M como empresas que melhoraram o desempenho financeiro em 60% a 100% com essas práticas. Ressalva: a página não informa a amostra da pesquisa, e Mankins é sócio da Bain, que republica o texto.
+Fonte: Michael C. Mankins e Richard Steele, "Turning Great Strategy into Great Performance", Harvard Business Review (julho/agosto de 2005), reproduzido pela Bain & Company.
+Link: https://www.bain.com/insights/turning-great-strategy-into-great-performance/
+Data de coleta: 2026-10-27

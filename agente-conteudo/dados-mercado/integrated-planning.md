@@ -281,3 +281,13 @@ Data de coleta: 2026-10-26
 Fonte: Wikipedia, "Postponement"; Computerworld (Peter Buxbaum), "The Accidental Real Optionist" (07/01/2002).
 Link: https://en.wikipedia.org/wiki/Postponement e https://www.computerworld.com/article/1359254/the-accidental-real-optionist.html
 Data de coleta: 2026-10-26
+
+Nos EUA, a relação estoque/vendas do comércio e da indústria caiu para 1,33 em agosto de 2026, contra 1,34 em julho e 1,40 em agosto de 2025. No mês, os estoques subiram 0,4%, para US$ 2,8188 trilhões, e as vendas 1,1%, para US$ 2,1235 trilhões; em 12 meses, estoques cresceram 4,6% e vendas 10,2%. Por setor, a relação ficou em 1,36 no varejo (1,37 um ano antes), 1,18 no atacado (1,28) e 1,48 na indústria (1,56). Uso prático: referência de giro para calibrar metas de estoque no S&OP. Ressalva: valores nominais com ajuste sazonal, sem correção de preço; lido na cobertura da MarketReview porque a página do Census Bureau não carregou, e o atacado ainda será revisado.
+Fonte: MarketReview, "U.S. Business Inventories Increase 0.4% in August as Sales Climb 1.1%" (15/10/2026), sobre o release MTIS do U.S. Census Bureau.
+Link: https://www.marketreview.com/news/us-business-inventories-august-2026/
+Data de coleta: 2026-10-27
+
+[Teórico] O lote econômico de compra (EOQ), criado por Ford W. Harris em 1913 e difundido por R. H. Wilson, define o tamanho de pedido que minimiza a soma de dois custos que andam em sentidos opostos: o custo de pedir (custo fixo por pedido vezes número de pedidos no ano) e o custo de manter (custo anual por unidade vezes o estoque médio, que é metade do lote). A fórmula é Q* igual à raiz de (2 vezes demanda anual vezes custo por pedido, dividido pelo custo anual de manter uma unidade), e o preço unitário não entra no cálculo. No exemplo da fonte, com demanda de 10.000 unidades, custo de 40 por pedido, preço de 50 e custo de manter de 5 por unidade ao ano, o lote ótimo é 400 unidades em 25 pedidos, com custo total de 502.000; lotes de 500 e 300 custariam 502.050 e 502.083,33, o que mostra que o custo varia pouco perto do ótimo. Como o custo de manter inclui o custo de capital, a política de lote liga o plano de estoque ao capital de giro. Ressalva: supõe demanda constante, entrega completa quando o estoque zera e um item por pedido; extensões tratam desconto por quantidade, backorder e lote de produção (EPQ). Fonte secundária.
+Fonte: Wikipedia, "Economic order quantity" (consultada em 27/10/2026).
+Link: https://en.wikipedia.org/wiki/Economic_order_quantity
+Data de coleta: 2026-10-27
