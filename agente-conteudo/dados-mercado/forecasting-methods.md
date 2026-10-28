@@ -271,3 +271,13 @@ Data de coleta: 2026-10-27
 Fonte: Hyndman e Athanasopoulos, "Forecasting: Principles and Practice" (3ª ed., OTexts), seção 5.9 "Evaluating distributional forecast accuracy".
 Link: https://otexts.com/fpp3/distaccuracy.html
 Data de coleta: 2026-10-27
+
+A edição do 3º trimestre de 2026 da The CFO Survey (Richmond Fed, Atlanta Fed e Duke) ouviu 517 executivos financeiros entre 17/08 e 04/09. Em média, os CFOs projetam crescimento de receita de 7,7% em 2026 e 7,2% em 2027, com mediana de 5,0% nos dois anos. Para o PIB real dos próximos quatro trimestres, a média ponderada ficou em 1,9% (1,8% no trimestre anterior), e a probabilidade atribuída a crescimento negativo em um ano caiu de 11,6% para 10,7%. A pesquisa também pede cenários para o S&P 500 em 12 meses: pior caso de -1,8%, mais provável de 7,9% e melhor caso de 14,3%, com cada extremo tendo chance de 1 em 10. Esse formato de três pontos com probabilidade é um exemplo prático de previsão em faixa. Ressalva: médias ponderadas por vendas e winsorizadas, amostra varia por pergunta (463 a 506 empresas, 336 na de bolsa) e o otimismo caiu entre empresas pequenas.
+Fonte: Federal Reserve Bank of Richmond (The CFO Survey), "CFO Outlook: Steady Overall but Weaker for Small and Financially Constrained Firms" (23/09/2026).
+Link: https://www.richmondfed.org/research/national_economy/cfo_survey/data_and_results/2026/20260923_data_and_results
+Data de coleta: 2026-10-28
+
+[Teórico] Nowcasting é estimar o valor de um indicador no período corrente, antes da divulgação oficial. O exemplo mais conhecido é o GDPNow, do Atlanta Fed, documentado por Patrick Higgins em 2014: une equações-ponte, que ligam componentes do PIB a dados mensais, com modelos de fatores, e soma 13 subcomponentes do PIB com a mesma ponderação encadeada usada pelo BEA. Definido o modelo, não entra ajuste subjetivo, e a estimativa muda a cada novo dado divulgado. Nos primeiros cinco anos e meio online, antes da Covid, o erro absoluto médio foi de 0,5 ponto, e nos testes em tempo real desde 2011 ficou só um pouco atrás do consenso Blue Chip. Para FP&A, a lógica serve para atualizar o trimestre em curso com dados parciais (pedidos, faturamento semanal) em vez de esperar o fechamento. Ressalva: o Atlanta Fed avisa que não é previsão oficial da instituição, o modelo foi ajustado depois da pandemia e estoques e exportações líquidas são os componentes mais difíceis.
+Fonte: Federal Reserve Bank of Atlanta (David Pendered), "Pulling Back the Curtain on GDPNow" (14/07/2022); Patrick Higgins, "GDPNow: A Model for GDP 'Nowcasting'", Working Paper 2014-07 (01/07/2014).
+Link: https://www.atlantafed.org/research-and-data/2022/07/14/pulling-back-the-curtain-on-gdpnow
+Data de coleta: 2026-10-28

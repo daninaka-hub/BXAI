@@ -231,3 +231,13 @@ Data de coleta: 2026-10-27
 Fonte: Paul R. Lawrence e Jay W. Lorsch, "Differentiation and Integration in Complex Organizations", Administrative Science Quarterly, vol. 12, nº 1 (junho de 1967), via Talking About Organizations Podcast, episódio 16 (30/08/2016), e Army Sustainment, "Mission Command: Differentiation and Integration" (08/07/2014).
 Link: https://www.talkingaboutorganizations.com/e16/ e https://www.army.mil/article-amp/129129/mission_command_differentiation_and_integration
 Data de coleta: 2026-10-27
+
+O AI CFO Index do 3º trimestre de 2026 da Pigment ouviu 2.000 líderes de finanças nos EUA, Reino Unido, França e Alemanha, com campo de 19/08 a 21/09/2026. A IA aumentou o quadro de finanças em 32% das empresas e o reduziu em 20%; as grandes empresas são a exceção e lideram os cortes ligados à IA, com 25%. A mudança mais comum está no desenho dos cargos, não no tamanho do time: 36% mudaram o escopo de papéis existentes, 28% criaram papéis novos e 28% contrataram especialistas em IA ou dados. Ressalva: a Pigment vende software de planejamento financeiro, a amostra não é probabilística e a pesquisa não diz o tamanho de cada aumento ou corte; o mesmo índice já aparece em Forecasting Methods pelo lado do orçamento de IA.
+Fonte: FM Magazine, AICPA & CIMA (Steph Brown), "Overspending on AI is a concern for CFOs, but it's not the only one" (21/10/2026), sobre o Pigment AI CFO Index Q3 2026.
+Link: https://www.pigment.com/newsroom/report-ai-cfo-index-q3
+Data de coleta: 2026-10-28
+
+[Teórico] A lei de Conway diz que quem desenha um sistema acaba produzindo uma estrutura que copia a forma como a própria organização se comunica. Cada subsistema nasce de um grupo e cada interface de uma negociação entre grupos: se dois grupos não conversam, suas partes não se encaixam. Conway chama isso de homomorfismo e diz que o efeito cresce com o tamanho da organização. Sistemas grandes se desintegram em três passos: o problema fica complexo e entram mais pessoas; a delegação fragmenta a comunicação, já que os caminhos possíveis são cerca de metade do quadrado do número de pessoas; e essa fragmentação passa para o sistema. Ele critica tratar mão de obra como horas intercambiáveis e defende premiar gestores que mantêm a organização enxuta e flexível. Em finanças, a lógica ajuda a explicar por que CSC, FP&A e controladoria que não conversam tendem a gerar planos de contas, sistemas e relatórios que não fecham entre si. Ressalva: artigo de 1968, pensado para sistemas técnicos; a aplicação à estrutura de finanças é uma leitura derivada.
+Fonte: Melvin E. Conway, "How Do Committees Invent?", Datamation (abril de 1968), via site do autor.
+Link: https://www.melconway.com/Home/Committees_Paper.html
+Data de coleta: 2026-10-28

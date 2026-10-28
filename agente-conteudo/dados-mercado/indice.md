@@ -483,3 +483,22 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-27 | Organization | teórico | Lawrence e Lorsch (ASQ, 1967) | Diferenciação e integração: quanto mais especializada a área, mais integração precisa; as melhores fazem as duas coisas |
 | 2026-10-27 | Integrated Planning | estatística | MarketReview / U.S. Census Bureau (MTIS) | Relação estoque/vendas nos EUA cai para 1,33 em agosto de 2026 (1,40 um ano antes), com vendas crescendo mais que estoques |
 | 2026-10-27 | Integrated Planning | teórico | Wikipedia (Harris, 1913) | Lote econômico (EOQ): equilibra custo de pedir e de manter; no exemplo, 400 unidades em 25 pedidos e custo pouco sensível perto do ótimo |
+| 2026-10-28 | Controllership | conclusão | AICPA / Journal of Accountancy | SAS 151 emitida em 14/10/2026 substitui a AU-C 240 sobre fraude, com foco em canal de denúncias e vigência a partir de dez/2028 |
+| 2026-10-28 | Controllership | pesquisa | Journal of Accountancy / Datarails | Só 4% entregariam o fechamento mensal à IA sem revisão humana; 75% travam pela falta de explicabilidade (270 líderes, fornecedor) |
+| 2026-10-28 | Controllership | teórico | ISACA Journal / IIA GTAG 3 | Auditoria contínua e monitoramento contínuo: mesma técnica, donos diferentes, com passagem gradual para a gestão |
+| 2026-10-28 | Finance Automation | pesquisa | CFO Dive / Datarails | Finanças gasta 26% do tempo conferindo o que a IA produz; 75% citam falta de auditabilidade (270 líderes, fornecedor) |
+| 2026-10-28 | Finance Automation | pesquisa | CFO Dive / Redwood Software | 77% já sofreram efeitos negativos de agentes de IA sem governança; só cerca de 58% têm política aplicada (300 líderes de TI e risco, fornecedor) |
+| 2026-10-28 | Finance Automation | teórico | IIA / Journal of Accountancy (2020) | Three Lines Model: papéis de conselho, gestão, auditoria interna e avaliadores externos, com seis princípios |
+| 2026-10-28 | Forecasting Methods | pesquisa | Richmond Fed (The CFO Survey 3T26) | CFOs projetam receita de 7,7% em 2026, PIB de 1,9% e risco de recessão de 10,7%, com cenários de três pontos para o S&P 500 |
+| 2026-10-28 | Forecasting Methods | teórico | Atlanta Fed (GDPNow, Higgins 2014) | Nowcasting: estimar o período corrente com dados parciais, equações-ponte e modelo de fatores |
+| 2026-10-28 | FP&A Fundamentals | estatística | Robert Half (Salary Guide 2027) | Salários de finanças nos EUA sobem 1,8% em 2027, menor alta da série; gerente de FP&A 3,6% e analista financeiro 3,8% |
+| 2026-10-28 | FP&A Fundamentals | teórico | ACCA (EVA, parte 1) | EVA: NOPAT menos WACC vezes capital, com ajustes que aproximam o lucro contábil do caixa (exemplo com NOPAT de US$ 750) |
+| 2026-10-28 | Integrated Planning | pesquisa | Datarails / PR Newswire | Só 4% têm fonte única de verdade para dados financeiros e operacionais; 23% ainda conciliam sistemas na mão (270 líderes, fornecedor) |
+| 2026-10-28 | Integrated Planning | teórico | Little (Operations Research, 2011) | Lei de Little: estoque médio igual a fluxo vezes tempo; lead time maior significa mais estoque e capital empatado |
+| 2026-10-28 | Strategic Planning | pesquisa | Corporate Board Member / PwC | 81% dos conselheiros dizem que o conselho poderia desafiar mais a estratégia da gestão; 82% querem material melhor |
+| 2026-10-28 | Strategic Planning | teórico | McKinsey (Bradley, Hirt e Smit, 2018) | Curva de potência: quintil do topo fica com quase 90% do lucro econômico; três grandes jogadas elevam a chance de subir a 47% |
+| 2026-10-28 | Leadership Roles | estudo de caso | CFO Dive (Sierra Space) | Sierra Space nomeia o segundo CFO em quatro meses; os dois vêm de estratégia |
+| 2026-10-28 | Leadership Roles | pesquisa | Fortune / Compensation Advisory Partners | Em 19 cisões industriais, remuneração-alvo do CFO sobe 66% (incentivo de longo prazo +102%) e 58% dos CFOs vêm de fora |
+| 2026-10-28 | Leadership Roles | teórico | Hersey e Blanchard (1969) / Cairns et al. (1998) | Liderança situacional: estilo do líder acompanha a prontidão do liderado, com evidência empírica fraca |
+| 2026-10-28 | Organization | pesquisa | FM Magazine / Pigment AI CFO Index | IA aumentou o quadro de finanças em 32% das empresas e reduziu em 20%; 36% mudaram o escopo dos cargos (2.000 líderes, fornecedor) |
+| 2026-10-28 | Organization | teórico | Conway (Datamation, 1968) | Lei de Conway: o sistema desenhado copia a estrutura de comunicação da organização |

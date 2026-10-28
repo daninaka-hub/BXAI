@@ -291,3 +291,13 @@ Data de coleta: 2026-10-27
 Fonte: Wikipedia, "Economic order quantity" (consultada em 27/10/2026).
 Link: https://en.wikipedia.org/wiki/Economic_order_quantity
 Data de coleta: 2026-10-27
+
+Na pesquisa 2026 CFO Sentiments da Datarails, aplicada pela Global Surveyz em julho de 2026 com 270 CFOs e líderes de finanças de empresas dos EUA com mais de 1.000 funcionários e receita anual de pelo menos US$ 100 milhões, só 4% dizem ter uma fonte única de verdade para dados financeiros e operacionais, pré-requisito do planejamento integrado entre finanças e operação. Outros 73% descrevem seus dados como em grande parte centralizados, e 23% ainda dependem de sistemas desconectados e conciliação manual. Ferramentas tradicionais de planejamento e FP&A lideram as prioridades de investimento, com 42%. Ressalva: estudo encomendado por fornecedor de software de FP&A, só grandes empresas dos EUA; o mesmo levantamento está registrado hoje em Finance Automation e Controllership por outros recortes.
+Fonte: Datarails via PR Newswire, "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds" (06/10/2026).
+Link: https://www.prnewswire.com/news-releases/finance-teams-now-spend-a-quarter-of-their-week-fact-checking-ai-new-datarails-survey-finds-302899700.html
+Data de coleta: 2026-10-28
+
+[Teórico] A lei de Little, provada por John D. C. Little em 1961, se escreve L = λW: o número médio de itens num sistema é igual à taxa média de chegada vezes o tempo médio que cada item passa nele. Em operações, Hopp e Spearman a escrevem como throughput igual a WIP dividido pelo tempo de ciclo, e Cachon e Terwiesch como estoque médio igual à taxa de fluxo vezes o tempo de fluxo. Para planejamento integrado, a consequência é direta: com volume constante, se o lead time cresce, o estoque médio (e o capital empatado nele) cresce na mesma proporção, o que liga o plano operacional ao financeiro sem modelo estatístico. Num período finito que começa e termina vazio, a relação vale exatamente, qualquer que seja a disciplina da fila; fora desse caso, exige médias de longo prazo finitas. No exemplo do artigo, com 10 chegadas por hora e cada médico atendendo 2,5 pacientes por hora, são necessários no mínimo 4 médicos. Ressalva: a lei trata só de médias e não diz nada sobre variabilidade, que é o que define o estoque de segurança.
+Fonte: John D. C. Little, "Little's Law as Viewed on Its 50th Anniversary", Operations Research, v. 59, n. 3 (maio e junho de 2011), reproduzido pelo Project Production Institute (18/12/2016).
+Link: https://projectproduction.org/journal/reprint-littles-law-as-viewed-on-its-50th-anniversary/
+Data de coleta: 2026-10-28
