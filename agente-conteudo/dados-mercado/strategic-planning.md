@@ -281,3 +281,13 @@ Data de coleta: 2026-10-28
 Fonte: McKinsey Quarterly (Chris Bradley, Martin Hirt e Sven Smit), "Strategy to beat the odds" (13/02/2018), adaptado de Strategy Beyond the Hockey Stick (Wiley, 2018).
 Link: https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategy-to-beat-the-odds
 Data de coleta: 2026-10-28
+
+O Quarterly Deal Performance Monitor da WTW com o M&A Research Centre da Bayes Business School contou 614 aquisições concluídas nos nove primeiros meses de 2026, contra 529 um ano antes (alta de 16,1%), e 24 megadeals acima de US$ 10 bilhões, recorde para nove meses. No 3º trimestre, 121 dos 200 compradores (60,5%) tiveram desempenho de ação abaixo do índice, e na média ficaram 10,3 pontos percentuais abaixo do MSCI World (América do Norte 13,8, Ásia-Pacífico 18,7, Europa 5,0). A fatia de negócios fechados em até 70 dias após o anúncio subiu de 35% para 43%. Ressalva: estudo de consultoria, só negócios concluídos acima de US$ 100 milhões; dados conferidos na cobertura do Reinsurance News, pois a página da WTW não abriu.
+Fonte: Reinsurance News (Taylor Mixides), "Global M&A activity increases in 9M26, reports WTW" (08/10/2026).
+Link: https://www.reinsurancene.ws/global-ma-activity-increases-in-9m26-reports-wtw/
+Data de coleta: 2026-10-29
+
+[Teórico] A matriz ERRC (Eliminar, Reduzir, Elevar, Criar), de W. Chan Kim e Renée Mauborgne, é a ferramenta da estratégia do oceano azul para buscar diferenciação e custo baixo ao mesmo tempo. A gestão revê os fatores em que o setor compete com quatro perguntas: o que eliminar, o que reduzir bem abaixo do padrão do setor, o que elevar bem acima dele e o que criar que o setor nunca ofereceu. O resultado é uma nova curva de valor, ligada ao Four Actions Framework e ao strategy canvas. A fonte alerta que quem só eleva e cria tende a aumentar o custo e a projetar demais produtos e serviços. Ressalva: site oficial dos próprios autores, que vendem o método.
+Fonte: Blue Ocean Strategy (W. Chan Kim e Renée Mauborgne), "ERRC Grid" (sem data).
+Link: https://www.blueoceanstrategy.com/tools/errc-grid/
+Data de coleta: 2026-10-29

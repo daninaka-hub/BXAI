@@ -336,3 +336,13 @@ Data de coleta: 2026-10-28
 Fonte: Wikipedia, "Situational leadership theory" (citando Hersey e Blanchard, 1969); Cairns, Hollenback, Snow e Preziosi, "Technical note: A study of Hersey and Blanchard's situational leadership theory", Leadership and Organization Development Journal, v. 19, n. 2 (1998).
 Link: https://en.wikipedia.org/wiki/Situational_leadership_theory e https://nsuworks.nova.edu/hcbe_facarticles/42/
 Data de coleta: 2026-10-28
+
+A FedEx anunciou que Jamere Jackson, CFO da AutoZone desde 2021, assume como CFO em 30/11/2026, no lugar do interino Claude Russ, que ocupava o cargo desde 1º de junho, quando saiu John Dietrich. A saída de Dietrich coincidiu com a cisão do negócio de frete, que virou a FedEx Freight, avaliada em cerca de US$ 16,4 bilhões. Segundo documento entregue à SEC, o pacote de Jackson tem salário-base anual de US$ 1 milhão, bônus de assinatura de US$ 2 milhões em duas parcelas (novembro de 2026 e novembro de 2027) e prêmio especial em RSU de US$ 5 milhões com vesting em três anos, para compensar as ações da AutoZone que ele perde. Antes, Jackson foi CFO da Hertz e da Nielsen, depois de passar pela General Electric. Ressalva: a matéria não diz por que Dietrich saiu, e um caso isolado não indica tendência.
+Fonte: CFO Dive (Grace Noto), "FedEx nabs AutoZone alum as new CFO" (26/10/2026).
+Link: https://www.cfodive.com/news/fedex-nabs-autozone-alum-new-cfo/872789/
+Data de coleta: 2026-10-29
+
+[Teórico] Jim Collins define a liderança Nível 5 como a mistura de humildade pessoal com vontade obstinada, com a ambição posta na empresa e não no próprio líder. A pesquisa de Good to Great partiu de 1.435 empresas da Fortune 500, e só 11 passaram no corte: retorno acumulado das ações de pelo menos três vezes o mercado nos 15 anos após o ponto de virada (média de 6,9 vezes), virada antes de 1985, pelo menos 25 anos de existência antes dela e mudança própria da empresa, não do setor inteiro. Todas as 11 tinham líderes Nível 5 em posições-chave na transição, inclusive o CEO, e as empresas de comparação não tinham. Ressalva: estudo observacional de autor único, criticado por viés de sobrevivência.
+Fonte: Jim Collins, "Level 5 Leadership" (sem data); Fast Company (Jim Collins), "Good to Great" (outubro de 2001).
+Link: https://www.jimcollins.com/concepts/level-five-leadership.html
+Data de coleta: 2026-10-29

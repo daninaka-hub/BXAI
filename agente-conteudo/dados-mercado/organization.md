@@ -241,3 +241,13 @@ Data de coleta: 2026-10-28
 Fonte: Melvin E. Conway, "How Do Committees Invent?", Datamation (abril de 1968), via site do autor.
 Link: https://www.melconway.com/Home/Committees_Paper.html
 Data de coleta: 2026-10-28
+
+A Microsoft ofereceu programas de desligamento voluntário (buyouts) a cerca de 60 mil funcionários, e a área de finanças está entre as divisões incluídas, segundo a Bloomberg, ao lado de Xbox, Windows e Copilot; data centers e vendas e marketing ficam de fora. A oferta vale para equipes selecionadas nos EUA, Canadá, Índia e Reino Unido, para cargos de vice-presidente para baixo, com condições parecidas com a indenização padrão. Mais cedo em 2026, a empresa ofereceu buyouts a funcionários em idade de aposentadoria, e mais de 30% dos cerca de 8.750 elegíveis aceitaram. A Microsoft apresenta a medida como forma de cortar custos e redesenhar o quadro para a era da IA sem demissões em massa. Ressalva: não há número de elegíveis em finanças, e as divisões vêm de fontes ouvidas pela Bloomberg.
+Fonte: TechCrunch (Aisha Malik), "Microsoft offers buyouts to around 60,000 employees, reports say" (26/10/2026).
+Link: https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/
+Data de coleta: 2026-10-29
+
+[Teórico] Em The Management of Innovation (1961), Tom Burns e G. M. Stalker distinguem dois sistemas de gestão. O mecanicista tem hierarquia vertical e centralizada, cargos rigidamente definidos, especialização, padronização e comunicação sobretudo de cima para baixo, e funciona bem em ambiente estável e tarefas rotineiras. O orgânico é mais fluido e interativo, redefine tarefas e papéis conforme a mudança e se adapta melhor a tecnologia e mercado em transformação rápida. Os dois são extremos de um espectro, nenhum é melhor em si, e o que importa é o encaixe com o ambiente, ideia que ajudou a fundar a abordagem contingencial. Ressalva: as páginas consultadas não confirmam o número de empresas estudadas.
+Fonte: Encyclopedia of Management via Encyclopedia.com, "Mechanistic Organizations" (sem data); Talking About Organizations Podcast, "Managing Innovation: Burns & Stalker", episódio 98 (14/02/2023).
+Link: https://www.encyclopedia.com/management/encyclopedias-almanacs-transcripts-and-maps/mechanistic-organizations
+Data de coleta: 2026-10-29

@@ -426,3 +426,18 @@ Data de coleta: 2026-10-28
 Fonte: ISACA Journal (Ian Cooke), "Defining Targets for Continuous IT Auditing Using COBIT 2019" (vol. 5, 28/08/2020), com base no IIA GTAG 3, 2ª edição (2015).
 Link: https://www.isaca.org/resources/isaca-journal/issues/2020/volume-5/defining-targets-for-continuous-it-auditing-using-cobit-2019
 Data de coleta: 2026-10-28
+
+Um rastreador independente leu os registros na SEC EDGAR entre 1º de julho e 30 de setembro de 2026 e contou 904 empresas reportando material weakness, das quais 52 eram large accelerated filers e 129 revelaram uma fraqueza nova no trimestre. Do total, 81% (733) são pequenas empresas não aceleradas, e 85% repetem uma fraqueza já divulgada antes. A causa mais citada é falta de segregação de funções (51%), seguida de equipe ou expertise contábil insuficiente (46%) e ambiente de controle e supervisão (34%). Entre as empresas maiores, 43% apontam controles gerais de TI, contra 21% nas outras 784. Ressalva: site independente sem autor nomeado; a classificação foi feita por modelos de IA com checagem por amostra (97% de concordância em 60 registros), e o levantamento reflete o que as empresas declaram.
+Fonte: Internal Audit Guide, "Material Weakness Tracker Q3 2026: 904 Companies, Full List" (22/10/2026).
+Link: https://internalauditguide.com/material-weakness-tracker/
+Data de coleta: 2026-10-29
+
+A Asahi Group Holdings declarou ineficaz seu controle interno sobre o reporte financeiro no exercício encerrado em 31/12/2025, por causa de um ataque de ransomware em 29/09/2025 contra sistemas da região Japão. O invasor obteve privilégios de administrador sem autorização, e a causa raiz apontada foi falha nas regras de segurança e na gestão de acessos. Como os dados não puderam ser extraídos e verificados a tempo, o fechamento atrasou e a empresa precisou pedir prorrogação do prazo legal do relatório anual. A correção prevê gestão de privilégios, monitoramento pelo Comitê de Segurança da Informação e análises Fit & Gap nos sistemas críticos. Ressalva: comunicado de julho, fora da janela de três meses; o auditor emitiu opinião sem ressalvas sobre as demonstrações.
+Fonte: Asahi Group Holdings, "Notice Regarding a Material Weakness in Internal Control over Financial Reporting" (27/07/2026).
+Link: https://www.asahigroup-holdings.com/en/newsroom/detail/20260727-0204.html
+Data de coleta: 2026-10-29
+
+[Teórico] O custeio por absorção leva ao custo do produto todos os custos diretos, mais o overhead variável e o fixo de fabricação. O custeio variável atribui ao produto apenas os custos variáveis (material direto, mão de obra direta e overhead variável), e o overhead fixo fica fora do valor do estoque. Só a absorção está de acordo com o GAAP; os gestores usam o variável internamente porque o overhead fixo existe mesmo que nada seja produzido. Quando a empresa produz mais do que vende, o lucro pelo custeio variável fica menor que pela absorção, e quando vende mais do que produz acontece o contrário. Ressalva: o livro alerta que a absorção permite inflar o lucro superproduzindo, o que em geral seria visto como violação ética.
+Fonte: OpenStax, Managerial Accounting (espelho Business LibreTexts), "6.5: Compare and Contrast Variable and Absorption Costing" (sem data).
+Link: https://biz.libretexts.org/Bookshelves/Accounting/Managerial_Accounting_(OpenStax)/06%3A_Activity-Based_Variable_and_Absorption_Costing/6.06%3A_Compare_and_Contrast_Variable_and_Absorption_Costing
+Data de coleta: 2026-10-29

@@ -502,3 +502,20 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-28 | Leadership Roles | teórico | Hersey e Blanchard (1969) / Cairns et al. (1998) | Liderança situacional: estilo do líder acompanha a prontidão do liderado, com evidência empírica fraca |
 | 2026-10-28 | Organization | pesquisa | FM Magazine / Pigment AI CFO Index | IA aumentou o quadro de finanças em 32% das empresas e reduziu em 20%; 36% mudaram o escopo dos cargos (2.000 líderes, fornecedor) |
 | 2026-10-28 | Organization | teórico | Conway (Datamation, 1968) | Lei de Conway: o sistema desenhado copia a estrutura de comunicação da organização |
+| 2026-10-29 | Controllership | pesquisa | Internal Audit Guide | 3T26: 904 empresas com material weakness, 81% pequenas; segregação de funções lidera (51%) e TI pesa nas grandes (43% contra 21%) |
+| 2026-10-29 | Controllership | estudo de caso | Asahi Group Holdings | Ransomware de set/2025 atrasou o fechamento, gerou material weakness em controles de acesso e obrigou a pedir prorrogação do relatório anual |
+| 2026-10-29 | Controllership | teórico | OpenStax (Managerial Accounting) | Custeio por absorção contra variável: overhead fixo no estoque, só absorção no GAAP e efeito no lucro quando produção difere da venda |
+| 2026-10-29 | Finance Automation | pesquisa | Bank of England / FCA | 86% usam IA e 80% têm agentes, mas só 2% com autonomia ampla e no máximo 9% deixariam agentes mexer em pagamentos (196 instituições) |
+| 2026-10-29 | Finance Automation | teórico | Lean Enterprise Institute | Jidoka: automação que detecta a anormalidade e para na hora, expondo a causa raiz |
+| 2026-10-29 | Forecasting Methods | estatística | FMI (WEO out/2026) | PIB global de 3,1% em 2026 e 3,4% em 2027, inflação global de 4,7% em 2026 e 4,1% em 2027 |
+| 2026-10-29 | Forecasting Methods | teórico | HBR (Pierre Wack) / Wikipedia | Cenários da Shell: vários futuros em vez de previsão pontual, de 7 a 9 minicenários reduzidos a 2 ou 3 |
+| 2026-10-29 | FP&A Fundamentals | pesquisa | Deloitte (Finance Trends 2027) | Investimento em IA: 27% aprovam por stage-gate, 25% exigem ROI quantificado e 23% seguem ordem da diretoria sem método (1.434 líderes) |
+| 2026-10-29 | FP&A Fundamentals | teórico | OpenStax (Principles of Finance) | Ciclo de conversão de caixa: estoque mais recebimento menos pagamento, cada prazo como 365 sobre o giro |
+| 2026-10-29 | Integrated Planning | estatística | Logistics Managers' Index (CSCMP) | LMI de setembro sobe para 70,2; estoques em 58,9 puxados pelo atacado (61,4 contra 53,8) e custo de estoque em 79,9 |
+| 2026-10-29 | Integrated Planning | teórico | Wikipedia (Arrow, Harris e Marschak, 1951) | Modelo do jornaleiro: fractil crítico (p - c)/p decide o pedido; com sobra cara, pede-se abaixo da média |
+| 2026-10-29 | Strategic Planning | pesquisa | WTW / Bayes Business School (via Reinsurance News) | 614 aquisições concluídas em 9M26 (+16,1%), mas 60,5% dos compradores ficam abaixo do índice no 3T (10,3 p.p. em média) |
+| 2026-10-29 | Strategic Planning | teórico | Blue Ocean Strategy (Kim e Mauborgne) | Matriz ERRC: eliminar, reduzir, elevar e criar para romper o dilema entre valor e custo |
+| 2026-10-29 | Leadership Roles | estudo de caso | CFO Dive (FedEx, documento à SEC) | FedEx contrata CFO da AutoZone após cisão e cinco meses de interino: base de US$ 1 milhão, bônus de US$ 2 milhões e RSU de US$ 5 milhões |
+| 2026-10-29 | Leadership Roles | teórico | Jim Collins (Good to Great) | Liderança Nível 5: humildade e vontade obstinada; 11 de 1.435 empresas bateram o mercado em 3 vezes por 15 anos |
+| 2026-10-29 | Organization | estudo de caso | TechCrunch / Bloomberg (Microsoft) | Microsoft oferece desligamento voluntário a cerca de 60 mil, com finanças entre as divisões; mais de 30% aceitaram programa anterior |
+| 2026-10-29 | Organization | teórico | Encyclopedia of Management (Burns e Stalker, 1961) | Estrutura mecanicista para ambiente estável e orgânica para mudança rápida, sem modelo superior |

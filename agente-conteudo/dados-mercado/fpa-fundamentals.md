@@ -221,3 +221,13 @@ Data de coleta: 2026-10-28
 Fonte: ACCA, "Economic value added versus profit-based measures of performance - part 1", Student Accountant, Paper P5 (sem data na página).
 Link: https://www.accaglobal.com/gb/en/student/exam-support-resources/professional-exams-study-resources/p5/technical-articles/economic-value-added-part1.html
 Data de coleta: 2026-10-28
+
+Na pesquisa Finance Trends 2027 da Deloitte (1.434 CFOs e executivos seniores de finanças em 26 países, empresas com receita a partir de US$ 1 bilhão, já registrada em Finance Automation e Leadership Roles), 66% usam um processo interno de aprovação guiado por medição para investimentos em IA. Desses, 27% adotam financiamento por stage-gate (liberação em etapas), 25% exigem ROI quantificado e business case formal, e 23% seguem ordem da diretoria ou do conselho sem método preciso para medir resultado. Além disso, 60% dizem que vão precisar de práticas mais sofisticadas de gestão de custo de IA até 2027. Ressalva: pesquisa de consultoria, publicada em setembro.
+Fonte: Deloitte, "Deloitte Finance Trends 2027: Finance leaders balance ambition with accountability" (09/09/2026).
+Link: https://www.deloitte.com/us/en/about/press-room/deloitte-finance-trends-2027-finance-leaders-balance-ambition-with-accountability.html
+Data de coleta: 2026-10-29
+
+[Teórico] Capital de giro são os recursos que cobrem as necessidades diárias, semanais e mensais de caixa operacional. O ciclo de conversão de caixa vai do início da produção até o recebimento dos clientes, descontado o prazo de pagamento a fornecedores: prazo de estoque mais prazo de recebimento menos prazo de pagamento. Cada prazo é 365 dividido pelo giro correspondente: CMV sobre estoque médio, vendas a prazo sobre contas a receber médias e CMV sobre contas a pagar médias. O ciclo encurta quando se reduzem os prazos de estoque e de recebimento ou se alonga o de pagamento. Ressalva: o livro diz que o prazo de pagamento é provavelmente o único item que não dá para otimizar sem violar os termos de crédito, e que atrasar pagamentos pode desgastar fornecedores e, no pior caso, rebaixar o rating.
+Fonte: OpenStax (Julie Dahlquist e Rainford Knight), Principles of Finance, "19.1 What Is Working Capital?" (sem data).
+Link: https://openstax.org/books/principles-finance/pages/19-1-what-is-working-capital
+Data de coleta: 2026-10-29

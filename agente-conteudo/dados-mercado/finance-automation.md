@@ -431,3 +431,13 @@ Data de coleta: 2026-10-28
 Fonte: Journal of Accountancy (Ken Tysiac), "Three Lines Model for risk management gets major update" (20/07/2020); IIA, "The IIA's Three Lines Model: An update of the Three Lines of Defense" (08/09/2020, atualizado em setembro de 2024).
 Link: https://www.journalofaccountancy.com/news/2020/jul/3-lines-of-defense-model-for-risk-management-gets-major-update.html
 Data de coleta: 2026-10-28
+
+Na quarta pesquisa do Bank of England com a FCA sobre IA nos serviços financeiros britânicos, 86% dos respondentes usam IA, contra 75% em 2024, e 80% já têm agentes de IA em uso. Apenas 2% dão aos agentes autonomia ampla, e mesmo contando os planos, no máximo 9% esperam que agentes iniciem, executem ou bloqueiem pagamentos. Na governança, 94% têm política de IA para toda a empresa, mas só cerca de metade faz monitoramento contínuo ou revisão periódica. Ressalva: 196 instituições responderam e 105 completaram o questionário, base da maior parte dos números; o foco é o setor financeiro, não a área de finanças corporativas.
+Fonte: Bank of England e Financial Conduct Authority, "Artificial intelligence in UK financial services - 2026" (26/10/2026).
+Link: https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026
+Data de coleta: 2026-10-29
+
+[Teórico] Jidoka, ou autonomação, é um dos dois pilares do Sistema Toyota de Produção, ao lado do just-in-time. Ele dá à máquina e ao operador a capacidade de detectar uma anormalidade e parar o trabalho na hora. A origem é o tear de Sakichi Toyoda, do começo do século XX, que parava sozinho quando o fio rompia, o que permitiu a um só operador cuidar de várias máquinas. Parar na primeira ocorrência expõe a causa raiz e evita que o defeito se propague. Ressalva: conceito da manufatura; a ligação com automação de finanças por exceção é leitura do squad, não da fonte.
+Fonte: Lean Enterprise Institute, "Jidoka" (verbete do Lean Lexicon, sem data).
+Link: https://www.lean.org/lexicon-terms/jidoka/
+Data de coleta: 2026-10-29

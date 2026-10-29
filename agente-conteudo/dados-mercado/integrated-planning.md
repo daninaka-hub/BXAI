@@ -301,3 +301,13 @@ Data de coleta: 2026-10-28
 Fonte: John D. C. Little, "Little's Law as Viewed on Its 50th Anniversary", Operations Research, v. 59, n. 3 (maio e junho de 2011), reproduzido pelo Project Production Institute (18/12/2016).
 Link: https://projectproduction.org/journal/reprint-littles-law-as-viewed-on-its-50th-anniversary/
 Data de coleta: 2026-10-28
+
+O Logistics Managers' Index de setembro de 2026 marcou 70,2, alta de 3,6 pontos sobre os 66,6 de agosto e segunda maior leitura em quatro anos, atrás dos 71,1 de junho. Os níveis de estoque subiram 6,1 pontos, para 58,9, com as empresas formando estoque para as vendas do 4º trimestre. A alta veio sobretudo de atacadistas e distribuidores (61,4, contra 53,8 no varejo), sinal de estoque parado no atacado antes de chegar ao varejo. O custo de manter estoque subiu 1,3 ponto, para 79,9, e a expectativa de alta do estoque para os próximos meses caiu para 57,6, contra 68,1 em agosto. Ressalva: índice de difusão (acima de 50 indica expansão) com respostas de executivos de logística; a página não informa o número de respondentes.
+Fonte: Logistics Managers' Index (Zac Rogers, Steven Carnovale, Shen Yeniyurt, Ron Lembke e Dale Rogers, com apoio do CSCMP), "September 2026 Logistics Managers' Index" (06/10/2026).
+Link: https://www.the-lmi.com/september-2026-logistics-managers-index.html
+Data de coleta: 2026-10-29
+
+[Teórico] O modelo do jornaleiro (newsvendor) define quanto comprar de um produto perecível para um único período com demanda incerta. A forma moderna vem de Arrow, Harris e Marschak (Econometrica, 1951), com raiz em Edgeworth (1888). A quantidade ótima é aquela em que a probabilidade acumulada da demanda iguala o fractil crítico (p - c)/p, que pesa o custo de faltar contra o de sobrar. No exemplo da fonte, com preço de US$ 7 e custo de US$ 5, o fractil é cerca de 0,285; com demanda normal de média 50 e desvio padrão 20, o ótimo é pedir cerca de 39 unidades, abaixo da média, porque sobrar custa mais que faltar. Ressalva: vale para um período e custos lineares; estudos de comportamento mostram gestores pedindo perto demais da média e correndo atrás da demanda recente.
+Fonte: Wikipedia, "Newsvendor model" (com base em Arrow, Harris e Marschak, 1951).
+Link: https://en.wikipedia.org/wiki/Newsvendor_model
+Data de coleta: 2026-10-29

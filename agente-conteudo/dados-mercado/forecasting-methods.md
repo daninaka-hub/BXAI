@@ -281,3 +281,13 @@ Data de coleta: 2026-10-28
 Fonte: Federal Reserve Bank of Atlanta (David Pendered), "Pulling Back the Curtain on GDPNow" (14/07/2022); Patrick Higgins, "GDPNow: A Model for GDP 'Nowcasting'", Working Paper 2014-07 (01/07/2014).
 Link: https://www.atlantafed.org/research-and-data/2022/07/14/pulling-back-the-curtain-on-gdpnow
 Data de coleta: 2026-10-28
+
+O FMI publicou em outubro o World Economic Outlook "Resilience Under Strain, Urgent Choices", referência macro para premissas de orçamento 2027. O relatório projeta crescimento global de 3,1% em 2026 e 3,4% em 2027, com inflação global de 4,7% em 2026 e 4,1% em 2027. Segundo a CGTN, o número de 2026 subiu 0,1 ponto sobre a projeção de julho. Riscos de baixa citados: escalada de conflito, reavaliação das expectativas com IA, novas tensões comerciais e fragilidade fiscal; de alta: mais investimento em IA, ganhos de produtividade e alívio geopolítico. Ressalva: a revisão ante julho vem da CGTN, não da página do FMI, que usa informação disponível até 01/10/2026.
+Fonte: FMI, "World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices" (13/10/2026); CGTN, "IMF raises 2026 global growth forecast to 3.1%" (13/10/2026).
+Link: https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026
+Data de coleta: 2026-10-29
+
+[Teórico] O planejamento por cenários não tenta acertar um único futuro: monta vários futuros alternativos sem depender de extrapolar o passado, o que o separa da previsão pontual. Pierre Wack, da área de planejamento da Royal Dutch/Shell, começou a usar cenários na prática em 1971, e o choque do petróleo de 1973 deu força ao método. Em artigo de 1985 na HBR, Wack diz que as previsões funcionaram razoavelmente nos anos 1950 e 1960, mas que desde o início dos anos 1970 os erros ficaram mais frequentes e às vezes enormes. Um roteiro comum tem seis passos: definir os drivers de mudança, organizá-los numa estrutura, produzir de 7 a 9 minicenários, reduzir para 2 ou 3, redigir os cenários e identificar as questões que surgem. Ressalva: críticos apontam evidência só anedótica do valor do método; os passos vêm da Wikipedia.
+Fonte: Harvard Business Review (Pierre Wack), "Scenarios: Uncharted Waters Ahead" (setembro de 1985); Wikipedia, "Scenario planning".
+Link: https://hbr.org/1985/09/scenarios-uncharted-waters-ahead
+Data de coleta: 2026-10-29
