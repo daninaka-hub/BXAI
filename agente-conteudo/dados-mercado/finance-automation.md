@@ -441,3 +441,18 @@ Data de coleta: 2026-10-29
 Fonte: Lean Enterprise Institute, "Jidoka" (verbete do Lean Lexicon, sem data).
 Link: https://www.lean.org/lexicon-terms/jidoka/
 Data de coleta: 2026-10-29
+
+A Ramp passou a cobrir contas a receber: sua IA gera faturas a partir de contratos e pedidos de compra, redige cobranças conforme a política da empresa, casa pagamentos com faturas e monta cronogramas de reconhecimento de receita. A matéria cita a pesquisa global de CFOs de 2026 da FTI Consulting, em que 89% dos líderes de finanças intensificam esforços em capital de giro e 90% dos CFOs usam processamento inteligente de documentos no faturamento e nos pagamentos, e dados da Atradius de que cerca de 7 em cada 10 empresas dos EUA sofrem atraso de clientes, atingindo em média 23% dos recebíveis B2B. A Ramp declara mais de 70 mil organizações na plataforma e mais de US$ 200 bilhões em compras processadas por ano. Ressalva: cobertura de lançamento de fornecedor, sem resultado de cliente; o produto só atende empresas americanas de entidade única em QuickBooks Online ou NetSuite, e a matéria não informa as amostras da FTI e da Atradius.
+Fonte: CFO Dive (Alexei Alexis), "Ramp tackles accounts receivable as CFOs seek faster cash flow" (22/09/2026).
+Link: https://www.cfodive.com/news/ramp-expands-accounts-receivable-cfos-seek-faster-cash-flow-ai/830994/
+Data de coleta: 2026-10-30
+
+Alex Levine, Director Analyst do Gartner, recomenda tratar o primeiro agente de IA em finanças como piloto de governança, em que supervisão e rastreabilidade vêm antes do retorno. Os limites do agente (dados que acessa, ações permitidas e pontos obrigatórios de revisão humana) devem ser definidos antes do desenvolvimento, e o piloto deve começar num fluxo de baixo risco, em que o erro seja detectável e reversível, longe do reporte regulatório e de processos que possam gerar republicação. Também precisa de dono claro entre finanças, TI e auditoria ou risco, ambiente isolado e registro que permita reconstruir o que o agente planejou, acessou e produziu em cada execução. O sucesso se mede pela prontidão de governança, não só por autonomia ou ROI. Ressalva: recomendação de analista, sem dado numérico.
+Fonte: CFOtech US (Joseph Gabriel Lagonsin), "Gartner urges CFOs to pilot finance AI with governance" (20/08/2026).
+Link: https://cfotech.news/story/gartner-urges-cfos-to-pilot-finance-ai-with-governance
+Data de coleta: 2026-10-30
+
+[Teórico] A APQC recomenda escolher os processos a automatizar combinando três tipos de critério: características do processo, viabilidade técnica e valor. Em pesquisa própria com mais de 400 respostas, só 41% das organizações usavam critérios formais para essa escolha; entre elas, os cinco mais usados foram número de tarefas manuais repetitivas, potencial de economia, natureza categórica do processo, frequência e eficiência ou acurácia. Na mesma pesquisa, 13% já operavam com RPA, 15% estavam implementando, 15% em piloto e 37% investiam ou planejavam investir em 18 meses. Em finanças, a grade serve para filtrar candidatos antes de montar o backlog de automação. Ressalva: a APQC só nomeia os três tipos de critério, sem método de aplicação; dados de 2024 e sem total exato da amostra.
+Fonte: APQC (Madison Lundquist), "What Is Robotic Process Automation (RPA)?" (13/03/2024).
+Link: https://www.apqc.org/blog/what-robotic-process-automation-rpa
+Data de coleta: 2026-10-30

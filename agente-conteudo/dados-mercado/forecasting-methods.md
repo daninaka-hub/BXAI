@@ -291,3 +291,13 @@ Data de coleta: 2026-10-29
 Fonte: Harvard Business Review (Pierre Wack), "Scenarios: Uncharted Waters Ahead" (setembro de 1985); Wikipedia, "Scenario planning".
 Link: https://hbr.org/1985/09/scenarios-uncharted-waters-ahead
 Data de coleta: 2026-10-29
+
+O Fed divulgou em 16/09/2026 as projeções dos 18 participantes do FOMC. A mediana do PIB real dos EUA subiu para 2,3% em 2026 e 2,4% em 2027 (eram 2,2% e 2,3% em junho), a inflação PCE de 2026 subiu de 3,6% para 3,7% e o juro de 2026 de 3,8% para 4,1%. Junto das medianas vem uma tabela de erro histórico, calculada pela raiz do erro quadrático médio das previsões de outono de 2006 a 2025: no PIB, a faixa vai de mais ou menos 1,4 ponto em 2026 a mais ou menos 2,3 pontos em 2029, e em condições normais o realizado cai dentro dela em cerca de 70% dos casos. Na inflação, 17 dos 18 participantes veem incerteza maior que a média dos últimos 20 anos e risco para cima. Serve como premissa macro do orçamento de 2027 e como modelo de previsão apresentada com faixa de erro baseada no histórico. Ressalva: projeções individuais dos membros do FOMC, não previsão oficial do comitê, e só para os EUA.
+Fonte: Federal Reserve Board, "Summary of Economic Projections" (16/09/2026).
+Link: https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm
+Data de coleta: 2026-10-30
+
+[Teórico] O Brier score (Glenn W. Brier, 1950) mede a acurácia de previsões em forma de probabilidade: é o erro quadrático médio entre a probabilidade prevista e o resultado (1 se o evento ocorreu, 0 se não). Na forma usual vai de 0 a 1, e 0 é o melhor. Prever 70% de chance de chuva custa 0,09 se chover e 0,49 se não chover; prever 50% custa sempre 0,25. Murphy (1973) decompôs o score em confiabilidade (calibração), resolução e incerteza, e o Brier skill score (1 menos o score do previsor dividido pelo de uma referência, em geral a frequência histórica) fica negativo quando a previsão é pior que essa referência. Em FP&A, serve para medir previsões binárias, como fechar ou não um contrato, bater ou não a meta do trimestre. Ressalva: só é regra própria em eventos binários, discrimina mal eventos muito raros ou muito frequentes (Wilks, 2010, indica mais de 1.000 previsões para eventos raros); fonte secundária.
+Fonte: Wikipedia, "Brier score", com base em Brier (Monthly Weather Review, 1950) e Murphy (Journal of Applied Meteorology, 1973).
+Link: https://en.wikipedia.org/wiki/Brier_score
+Data de coleta: 2026-10-30

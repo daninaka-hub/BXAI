@@ -291,3 +291,18 @@ Data de coleta: 2026-10-29
 Fonte: Blue Ocean Strategy (W. Chan Kim e Renée Mauborgne), "ERRC Grid" (sem data).
 Link: https://www.blueoceanstrategy.com/tools/errc-grid/
 Data de coleta: 2026-10-29
+
+A pesquisa global de desinvestimentos 2026 da Deloitte conclui que a venda de ativos passou a ser decisão de portfólio guiada pela estratégia, e não reação. No fim de 2025, quase metade dos vendedores cumpriu as metas de prazo e de valor de venda, contra um terço em 2024. Os que relataram ao menos um negócio abandonado caíram de 98% em 2024 para cerca de um terço no fim de 2025, e 71% avaliam ou buscam alternativas estratégicas. Numa base de 908 desinvestimentos acima de US$ 100 milhões entre 2020 e 2025, o tempo entre assinatura e fechamento cresceu cerca de 6%, com mediana de uns três meses e casos de dez meses ou mais. Ressalva: a página não informa o tamanho da amostra da pesquisa; os dados de mercado são do S&P Capital IQ, com corte em 8/12/2025.
+Fonte: Deloitte, "2026 Global Divestiture Survey" (26/08/2026).
+Link: https://www.deloitte.com/global/en/industries/investment-management/perspectives/global-divestiture-survey.html
+Data de coleta: 2026-10-30
+
+O KPMG ouviu 300 responsáveis por M&A nos EUA (150 de empresas e 150 de private equity) no meio de 2026. Entre as empresas, 84% esperam volume de negócios igual ou maior no 2º semestre, e a expansão para novas geografias virou o principal motor, subindo de 53% no fim de 2025 para 67%. Cerca de 75% seguem fazendo negócios apesar da guerra no Oriente Médio, e 60% precificam contando com sinergias de 10% a 40%. No private equity, 39% esperam que o próximo negócio passe de US$ 1 bilhão, contra 5% no fim de 2025, mas o sentimento favorável ao mercado caiu de 58% para 40%. Ressalva: amostra só dos EUA; a página não mostra data de publicação nem período de campo.
+Fonte: KPMG, "KPMG 2026 Mid-Year M&A Pulse" (2026).
+Link: https://kpmg.com/us/en/articles/2026/kpmg-2026-mid-year-ma-pulse.html
+Data de coleta: 2026-10-30
+
+[Teórico] O premortem de Gary Klein é feito no começo de um plano: a equipe parte do princípio de que o projeto já fracassou e explica por quê, em vez de listar o que poderia dar errado. Depois de ouvir o plano, cada um escreve sozinho, por alguns minutos, todos os motivos do fracasso; em seguida, cada pessoa lê um motivo por vez, começando pelo gerente do projeto, até esgotar a lista, que o gerente usa para reforçar o plano. A base é a "retrospectiva prospectiva": um estudo de 1989 de Mitchell (Wharton), Russo (Cornell) e Pennington (Colorado) mostrou que imaginar o evento como já ocorrido aumenta em 30% a capacidade de apontar as causas certas de resultados futuros. Segundo Klein, o método torna mais seguro discordar e reduz o excesso de confiança de quem está comprometido com o projeto. Ressalva: texto curto de 2007, apoiado em casos e num único estudo; o link é uma reprodução do artigo da HBR em site de curso.
+Fonte: Harvard Business Review (Gary Klein), "Performing a Project Premortem" (setembro de 2007).
+Link: https://comprobo24.github.io/assignments/performing_a_project_premortem.pdf
+Data de coleta: 2026-10-30

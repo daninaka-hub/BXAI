@@ -346,3 +346,18 @@ Data de coleta: 2026-10-29
 Fonte: Jim Collins, "Level 5 Leadership" (sem data); Fast Company (Jim Collins), "Good to Great" (outubro de 2001).
 Link: https://www.jimcollins.com/concepts/level-five-leadership.html
 Data de coleta: 2026-10-29
+
+A Leathwaite, firma de executive search, analisou as trocas de CFO no FTSE 100 no primeiro semestre de 2026. Promoções internas foram 54% das nomeações (56% em 2025, 36% em 2024 e 33% em 2023). Mulheres ficaram com 54% das novas nomeações, contra 35% em 2025, 36% em 2024 e 14% em 2023, e 71% delas vieram de dentro da empresa; ainda assim, 75% das CFOs que deixaram o cargo foram substituídas por homens. Só 46% dos nomeados já tinham sido CFO antes (57% em 2023), e houve uma única troca direta de CFO entre empresas do FTSE 100, contra 11 em todo o ano de 2025. Entre as contratações externas, metade já era CFO em outra empresa e um quarto veio de outro setor. Ressalva: a página não informa metodologia nem total de nomeações; índice só do Reino Unido, de firma de recrutamento, com base pequena que faz os percentuais oscilarem muito.
+Fonte: Leathwaite (Sophie Barker, Martha Harvey-Jones, Megan Donaldson e Reece Shorter), "FTSE 100 2026 CFO move analysis: half year review" (21/09/2026).
+Link: https://www.leathwaite.com/insights/ftse-100-2026-cfo-move-analysis-a-half-year-review/
+Data de coleta: 2026-10-30
+
+A Forgent Power, fabricante de equipamentos elétricos para data centers e redes de energia, abriu capital em fevereiro de 2026, levantando cerca de US$ 1,5 bilhão a US$ 27 por ação. O CFO Ryan Fiedler saiu em outubro, cerca de um ano depois de assumir, alegando razões familiares. A sucessora é Amy Ard, VP de finanças da empresa desde janeiro e ex-CFO da AMG, da Proterra e da Tonal, com salário-base de US$ 550 mil, bônus anual de até 85% do salário e concessão única de ações de US$ 500 mil. No ano fiscal de 2026 a receita cresceu 89%, para US$ 1,4 bilhão, e o guidance para 2027 é de US$ 2,4 a 2,6 bilhões. Ressalva: caso isolado, não serve para generalizar.
+Fonte: CFO Dive (Grace Noto), "Forgent Power CFO leaves after a year" (23/10/2026).
+Link: https://www.cfodive.com/news/forgent-power-cfo-leaves-one-year-ipo-comp/833872/
+Data de coleta: 2026-10-30
+
+[Teórico] Daniel Goleman (HBR, 2000) descreve seis estilos de liderança a partir de pesquisa da Hay McBer: coercivo (exige obediência imediata), autoritativo (mobiliza em torno de uma visão), afiliativo (cria vínculo e harmonia), democrático (busca consenso pela participação), pacesetting (fixa padrão alto e espera autonomia) e coaching (desenvolve as pessoas no longo prazo). Cada estilo tem efeito próprio sobre o clima da equipe, que por sua vez se reflete no resultado financeiro. Na amostra de 3.871 executivos, o autoritativo teve o efeito mais positivo sobre o clima, seguido de afiliativo, democrático e coaching, enquanto pacesetting e coercivo tiveram efeito negativo. Os líderes com melhores resultados dominam quatro ou mais estilos e alternam conforme a situação. Para CFOs e controllers, é um alerta contra ficar só no pacesetting, comum em fechamento e auditoria. Ressalva: texto completo da HBR atrás de paywall; amostra e ordem dos efeitos vêm de resumo acadêmico do NCRM (University of Southampton), e a HBR Store confirma mais de 3.000 executivos.
+Fonte: Daniel Goleman, "Leadership That Gets Results", Harvard Business Review (mar/abr 2000), via NCRM, "Types of Leadership", e HBR Store.
+Link: https://www.restore.ac.uk/mrp/services/ldc/mrp/resources/leaders/typesleadship e https://store.hbr.org/product/leadership-that-gets-results-harvard-business-review-classics/10102
+Data de coleta: 2026-10-30

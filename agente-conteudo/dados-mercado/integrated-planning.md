@@ -311,3 +311,13 @@ Data de coleta: 2026-10-29
 Fonte: Wikipedia, "Newsvendor model" (com base em Arrow, Harris e Marschak, 1951).
 Link: https://en.wikipedia.org/wiki/Newsvendor_model
 Data de coleta: 2026-10-29
+
+A terceira edição do Global Supply Chain Outlook da Prologis, feita com a The Harris Poll, ouviu mais de 1.800 líderes de empresas nos EUA, Reino Unido, Alemanha, Índia, China e México. 75% planejam investimento significativo em previsão de demanda e reposição de estoque com IA nos próximos dois anos; a previsão de demanda com IA aparece entre as tecnologias mais transformadoras dos próximos três anos para 43%, e a IA agêntica para 39%. As rupturas que mais pressionam são tarifas (55%) e conflitos em corredores marítimos (53%), e as respostas mais citadas são regionalizar (54%), nearshoring (36%) e reshoring (35%). Empresas com entrega no mesmo dia ou no seguinte passaram de 24% em 2019 para 58%, e dois terços dizem que o custo de energia pesou bastante no custo operacional. Ressalva: release pago de empresa de imóveis logísticos, sem período de campo nem metodologia; os dados de IA são de intenção de investimento, não de uso.
+Fonte: Prologis com The Harris Poll, via PR Newswire no Yahoo Finance, "2027 Prologis Global Supply Chain Outlook" (28/10/2026).
+Link: https://finance.yahoo.com/energy/articles/2027-supply-chain-outlook-fast-120000666.html
+Data de coleta: 2026-10-30
+
+[Teórico] Estoque de segurança é o estoque extra mantido contra ruptura quando a venda passa do plano ou o fornecedor atrasa, usado sobretudo na produção para estoque, em que o lead time é longo demais para atender a demanda diretamente. Com demanda normal e independente por período, a fórmula junta as duas variabilidades: o fator z do nível de serviço multiplica a raiz de (lead time médio vezes a variância da demanda, mais a demanda média ao quadrado vezes a variância do lead time). O ponto de pedido é a demanda média no lead time mais o estoque de segurança; com lead time fixo, a parcela de segurança fica z vezes o desvio da demanda vezes a raiz do lead time. Para 95% de nível de serviço, z vale 1,65. A fonte separa o nível de serviço tipo I (chance de não faltar no ciclo) do tipo II (fração da demanda atendida do estoque), e mostra que a revisão periódica precisa cobrir período de revisão mais lead time, exigindo mais estoque que a revisão contínua. No planejamento integrado, a meta de nível de serviço vira decisão de capital de giro. Ressalva: fonte secundária; o modelo supõe média e desvio constantes e falha com sazonalidade, tendência e demanda autocorrelacionada.
+Fonte: Wikipedia, "Safety stock" (consultada em 30/10/2026).
+Link: https://en.wikipedia.org/wiki/Safety_stock
+Data de coleta: 2026-10-30
