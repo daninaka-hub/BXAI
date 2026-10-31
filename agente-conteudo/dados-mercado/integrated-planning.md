@@ -321,3 +321,18 @@ Data de coleta: 2026-10-30
 Fonte: Wikipedia, "Safety stock" (consultada em 30/10/2026).
 Link: https://en.wikipedia.org/wiki/Safety_stock
 Data de coleta: 2026-10-30
+
+Pesquisa com 144 profissionais seniores de supply chain no mundo todo mostra que só 18% conseguem avaliar uma mudança grande na rede logística em horas ou dias; 57% precisam de uma a seis semanas e 25% levam mais tempo. 70% esperam que a IA ajude a gerar cenários, mas só 16% usam hoje ferramentas de modelagem com IA, e para 70% a qualidade dos dados é o principal limite da modelagem. Ressalva: pesquisa da Supply Chain Media em parceria com a fornecedora Optilogic, amostra pequena e período de coleta não informado.
+Fonte: Supply Chain Movement (Supply Chain Media com Optilogic), "Survey report 'Optilogic research: The supply chain you have vs the one you need'" (28/10/2026).
+Link: https://supplychainmovement.com/survey-report-optilogic-research-the-supply-chain-you-have-vs-the-one-you-need-optilogic
+Data de coleta: 2026-10-31
+
+Segundo o Gartner, 47% das cadeias de suprimentos cortaram em média 10,5% do quadro nos últimos dois anos, principalmente por causa da IA. Para 66% dos líderes, os cortes se concentram nos cargos de entrada, mais que o dobro da parcela que aponta cortes em outros níveis. A amostra tem 303 líderes de supply chain da América do Norte, Europa Ocidental, Ásia-Pacífico e América Latina, ouvidos de 5 de maio a 11 de junho de 2026. Ressalvas: todos os respondentes já usam IA no trabalho, o que enviesa a amostra; o release não trata de planejadores especificamente.
+Fonte: Gartner, press release "Gartner Survey Shows 47% of Supply Chains Reduced Headcount by an Average of 10.5% Over the Past Two Years Primarily Due to the Impact of AI" (28/10/2026), lido no espelho gcom.pdo.aws.gartner.com porque gartner.com devolveu erro 403.
+Link: https://www.gartner.com/en/newsroom/press-releases/2026-10-28-gartner-survey-shows-47-percent-of-supply-chains-reduced-headcount-by-an-average-of-10-5-percent-over-the-past-two-years-primarily-due-to-the-impact-of-ai
+Data de coleta: 2026-10-31
+
+[Teórico] O MRP (planejamento das necessidades de materiais) é um sistema de planejamento de produção, programação e controle de estoque com três objetivos: ter materiais e produtos disponíveis, manter o estoque o mais baixo possível e planejar fabricação, entrega e compras. Joseph Orlicky desenvolveu o método em 1964, ano em que a Black & Decker foi a primeira a usá-lo, e publicou o livro em 1975; havia cerca de 700 implantações em 1975 e cerca de 8.000 em 1981. Em 1983, Oliver Wight criou o MRP II, que acrescentou programação mestre, capacidade aproximada (rough cut), cálculo de necessidades de capacidade e S&OP; até 1989, o software de MRP II era cerca de um terço da indústria de software, US$ 1,2 bilhão. Ressalva: a página não detalha a lógica de cálculo (lista de materiais, necessidade bruta e líquida, defasagem de lead time).
+Fonte: Wikipedia, "Material requirements planning".
+Link: https://en.wikipedia.org/wiki/Material_requirements_planning
+Data de coleta: 2026-10-31

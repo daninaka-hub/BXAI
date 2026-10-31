@@ -246,3 +246,18 @@ Data de coleta: 2026-10-30
 Fonte: Andreessen Horowitz (Jeff Jordan, Anu Hariharan, Frank Chen e Preethi Kasireddy), "16 Startup Metrics" (21/08/2015).
 Link: https://a16z.com/16-startup-metrics/
 Data de coleta: 2026-10-30
+
+A margem líquida combinada do S&P 500 no 3º trimestre de 2026 está em 14,9%; se confirmada, será a segunda maior desde 2009, quando a FactSet começou a medir. O recorde é de 17,0%, no 2º trimestre de 2026, que sem Alphabet e Amazon (ambas com grandes ganhos de avaliação) teria ficado em 15,1%, ainda recorde. Por setor, Tecnologia da Informação foi de 27,5% para 32,3% em um ano (média de 5 anos de 25,9%) e Energia de 8,1% para 15,4%, enquanto Saúde caiu de 7,9% para 7,5% e Financeiro de 20,5% para 20,0%. Ressalvas: o número combinado mistura resultado divulgado com estimativa de quem ainda não reportou, e é margem GAAP, distorcida por ganhos não operacionais.
+Fonte: FactSet Insight (John Butters), "S&P 500 Reporting Second-Highest Net Profit Margin in More Than 15 Years for Q3 2026" (26/10/2026).
+Link: https://insight.factset.com/sp-500-reporting-second-highest-net-profit-margin-in-more-than-15-years-for-q3-2026
+Data de coleta: 2026-10-31
+
+A 10ª edição da pesquisa de pagamentos da Coface na Alemanha (503 empresas) mostra que 82% tiveram atraso de pagamento nos últimos 12 meses, a maior parcela desde 2019. O atraso médio caiu para 30,2 dias (31,8 em 2025 e quase 40 antes da Covid) e o prazo médio concedido caiu para 30,6 dias (era 32,5), o menor desde 2017. Automotivo tem o maior atraso médio (45 dias) e papel e embalagens o menor (19,5); 15% das empresas têm valores vencidos entre 6 e 24 meses que somam ao menos 2% do faturamento anual, e 33% atribuem o próprio atraso ao atraso dos clientes dos seus clientes, sinal de contágio na cadeia. A Coface prevê alta de 5% nas insolvências em 2026. Ressalvas: dado só da Alemanha, a Coface é seguradora de crédito e a página não informa o período de campo.
+Fonte: Coface (Markus Kuger), "Germany: Payment delays reach their highest level since 2019 despite improving economic outlook" (01/10/2026).
+Link: https://www.coface.com/news-economy-and-insights/germany-payment-delays-reach-their-highest-level-since-2019-despite-improving-economic-outlook
+Data de coleta: 2026-10-31
+
+[Teórico] O grau de alavancagem operacional (GAO) mede quanto o lucro operacional reage a uma variação percentual nas vendas: é a margem de contribuição dividida pelo lucro operacional, e a variação do lucro é o GAO vezes a variação das vendas. No exemplo do livro, as empresas A e B lucram US$ 85.000 cada, mas B tem custo fixo de US$ 125.000 contra US$ 63.000 de A, o que dá GAO de 2,47 para B e 1,74 para A. Com vendas 10% maiores, o lucro sobe 24,7% em B e 17,4% em A; com vendas 20% menores, cai 49,4% em B e 34,8% em A, e o GAO sobe para 3,91 e 2,14. O texto cita companhias aéreas que trocam custo fixo por variável para reduzir risco. Ressalva: o texto corrido do livro traz números que não batem com a própria tabela; os valores acima são os da tabela.
+Fonte: OpenStax (Mitchell Franklin, Patty Graybeal e Dixon Cooper), Principles of Accounting, Volume 2: Managerial Accounting, seção 3.5 (14/02/2019).
+Link: https://openstax.org/books/principles-managerial-accounting/pages/3-5-calculate-and-interpret-a-companys-margin-of-safety-and-operating-leverage
+Data de coleta: 2026-10-31

@@ -456,3 +456,18 @@ Data de coleta: 2026-10-30
 Fonte: APQC (Madison Lundquist), "What Is Robotic Process Automation (RPA)?" (13/03/2024).
 Link: https://www.apqc.org/blog/what-robotic-process-automation-rpa
 Data de coleta: 2026-10-30
+
+O Ramp AI Index mede adoção de IA pelo gasto pago (cartão corporativo e contas a pagar) de mais de 85 mil empresas americanas, e não por questionário. Em setembro de 2026, 55,9% das empresas pagavam por alguma ferramenta de IA, contra 55,2% em agosto, alta de 12,1 pontos em um ano. O setor de Finanças e Seguros chega a 73,7% (73,1% em agosto), atrás só de Informação (79,9%); por porte, as grandes estão em 65,7%, as médias em 62,5% e as pequenas em 50,0%. A empresa mediana que paga por IA gasta US$ 15,70 por funcionário por mês. Ressalvas: a Ramp é fornecedora de automação financeira e mede só a própria base de clientes; o índice subestima a adoção, porque ferramentas gratuitas e contas pessoais não geram transação; a página não traz data de publicação.
+Fonte: Ramp Economics Lab, "Ramp AI Index", dados até setembro de 2026.
+Link: https://ramp.com/data/ai-index
+Data de coleta: 2026-10-31
+
+No CEO Outlook da EY-Parthenon (1.200 CEOs de 21 países, campo em agosto e setembro de 2026), 50% apontam a IA como o maior motor de ganho de produtividade nos últimos 12 meses e 46% citam o redesenho de processos. Ainda assim, quase um quarto diz ter dificuldade de converter esse ganho em resultado financeiro mensurável: só 16% têm visibilidade clara e em tempo real do retorno da IA, e 23% dizem que o ganho é absorvido por complexidade operacional, regulação e trabalho adicional. Ressalvas: os respondentes são CEOs, não times de finanças, e a matéria não traz corte por setor nem porte. O recorte de portfólio do mesmo relatório está em Strategic Planning.
+Fonte: CFO Dive (Alexei Alexis), "Companies struggle to turn AI productivity gains into profits: EY" (01/10/2026).
+Link: https://www.cfodive.com/news/companies-struggle-turning-ai-productivity-gains-profits-ey/831948/
+Data de coleta: 2026-10-31
+
+[Teórico] A Anthropic separa dois tipos de sistema com modelos de linguagem: workflows, em que LLMs e ferramentas são orquestrados por caminhos de código predefinidos, e agentes, em que o próprio modelo dirige o processo e o uso de ferramentas. O texto descreve cinco padrões de workflow (encadeamento de prompts, roteamento, paralelização, orquestrador e trabalhadores, avaliador e otimizador) e reserva o agente autônomo para problemas abertos, em que não dá para prever o número de passos. A recomendação central é buscar a solução mais simples possível e só adicionar complexidade quando ela se pagar; para agentes, três princípios: desenho simples, etapas de planejamento visíveis e interface com ferramentas bem documentada e testada. Em finanças, isso ajuda a decidir se um processo como conciliação ou fechamento pede um fluxo fixo ou um agente. Ressalvas: artigo de dezembro de 2024, de uma fornecedora de modelos; alerta que agentes trocam latência e custo por desempenho e acumulam erros, o que pede teste em sandbox e guardrails.
+Fonte: Anthropic Engineering (Erik Schluntz e Barry Zhang), "Building effective agents" (19/12/2024).
+Link: https://www.anthropic.com/engineering/building-effective-agents
+Data de coleta: 2026-10-31
