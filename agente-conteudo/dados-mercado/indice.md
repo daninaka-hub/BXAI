@@ -565,3 +565,25 @@ Tipos possíveis: gráfico, pesquisa, conclusão, estratégia, estudo de caso, e
 | 2026-10-31 | Organization | pesquisa | ACCA | ACCA: 52% da Geração Z em finanças de bancos vão ao escritório todo dia, contra 14% dos Boomers; 55% ligam presença a promoção (900+ profissionais) |
 | 2026-10-31 | Organization | estratégia | Grant Thornton / Auxis | Terceirização operate to transform: economia do outsourcing financia a IA; 44% dos líderes de finanças usam ou avaliam nearshore (fornecedor) |
 | 2026-10-31 | Organization | teórico | HBR (Goold e Campbell, 2002) | Nove testes de Goold e Campbell para validar um desenho organizacional, de vantagem de mercado a hierarquia redundante e flexibilidade |
+| 2026-11-01 | Controllership | estudo de caso | FRC / CFO Dive | FRC multa Deloitte em £6,05 mi (base de £11 mi) pelas auditorias FY16 a FY20 da Go-Ahead, que reteve mais de £30 mi de dinheiro público |
+| 2026-11-01 | Controllership | estatística | Brattle Group / CFO Dive | SEC abre cerca de 308 ações de fiscalização no FY2026, 57% abaixo da média de FY18 a FY25; insider trading chega a 12,3% |
+| 2026-11-01 | Controllership | teórico | Ropes & Gray / BDO (EFRAG IG 1) | Dupla materialidade nas ESRS: lente de impacto (severidade e probabilidade) e financeira, com processo de 4 passos sobre IROs na cadeia de valor |
+| 2026-11-01 | Finance Automation | pesquisa | AFP | IA entra no top 5 da tesouraria (30%), mas a política de IA tem nota 2,9 de 5 e só 34% se dizem competentes em IA (425 respondentes) |
+| 2026-11-01 | Finance Automation | pesquisa | Esker | 72% estouraram o orçamento de IA, 66% veem IA não aprovada na equipe e 29% deixam a IA agir com aprovação humana (338 líderes, fornecedor) |
+| 2026-11-01 | Finance Automation | teórico | IBM / Informatica | MDM: golden record de clientes, fornecedores e produtos em quatro estilos (registro, consolidação, coexistência, centralizado), governança antes de automatizar |
+| 2026-11-01 | Forecasting Methods | estatística | Euronews (OCDE) | OCDE eleva PIB global de 2026 para 2,9% e corta 2027 para 3,0%; EUA 2,2%, zona do euro 1,0% e inflação do G20 de 4,1% |
+| 2026-11-01 | Forecasting Methods | teórico | Wikipedia (Tetlock) | Superforecasting: probabilidades revistas e método CHAMP; melhores previsores cerca de 30% acima de analistas, e cortar ruído pesa mais que viés |
+| 2026-11-01 | FP&A Fundamentals | pesquisa | Coface | França: 89% das empresas com atraso de pagamento (recorde) e atraso médio de 41,2 dias; microempresas chegam a 46 dias (690 empresas) |
+| 2026-11-01 | FP&A Fundamentals | teórico | EIX / AcadiFi (Higgins, 1977) | Taxa de crescimento sustentável: quanto crescer sem emitir ações; acima dela falta caixa (exemplo de 11,1% que cai a 8,3%) |
+| 2026-11-01 | Integrated Planning | estatística | C.H. Robinson | Estoque do varejo dos EUA deve crescer menos de 5% em 2027, mais por custo que por volume; estoque/vendas do varejo em 1,25 (fornecedor) |
+| 2026-11-01 | Integrated Planning | estatística | NRF (Global Port Tracker) | Importação dos EUA projetada em 25,8 mi de TEU em 2026 (+1,4%); pico de temporada antecipado e mercadoria de fim de ano já chegou |
+| 2026-11-01 | Integrated Planning | teórico | Wikipedia (Goldratt, 1984) | Teoria das restrições: cinco passos de foco e tambor-pulmão-corda, com pulmão ajustado em um terço conforme a zona do estoque |
+| 2026-11-01 | Strategic Planning | estatística | Reuters / LSEG | M&A global cai 41% no 3T26, para US$ 993 bi, com só 10 megadeals; acumulado do ano sobe 28%, para US$ 3,9 tri |
+| 2026-11-01 | Strategic Planning | estatística | FTI Consulting | 9.902 operações de M&A no 3T26 (-14,2% a/a); estratégicos fazem 81,6% e financeiros sobem para 17% (Capital IQ) |
+| 2026-11-01 | Strategic Planning | teórico | Wikipedia / Mutomorro | Modelo 7S da McKinsey: três elementos duros e quatro suaves, com valores no centro, para diagnosticar desalinhamento na execução |
+| 2026-11-01 | Leadership Roles | estudo de caso | CFO Dive | Strategy troca o CFO: ex-VP de FP&A assume com base de US$ 500 mil, CEO acumula a função no interino e a controller vira CAO |
+| 2026-11-01 | Leadership Roles | estatística | CFO.com (Russell Reynolds) | S&P 500 no 1T26: 73% dos novos CFOs são de primeira viagem e o tempo médio de quem saiu cai para 5,8 anos, o menor desde 2019 |
+| 2026-11-01 | Leadership Roles | teórico | HBR (Heifetz e Laurie) | Liderança adaptativa: problema técnico contra adaptativo e seis princípios, do balcão a devolver o trabalho a quem está perto do problema |
+| 2026-11-01 | Organization | estatística | FRC | Estudantes de contabilidade no Reino Unido e Irlanda caem 2,2% desde 2021 enquanto membros sobem; 29% dos membros têm 55 anos ou mais |
+| 2026-11-01 | Organization | pesquisa | AICPA & CIMA | 3T26: 33% dos executivos relatam falta de funcionários (eram 28% no 2T) e pessoal qualificado segue entre os maiores desafios (206 respostas) |
+| 2026-11-01 | Organization | teórico | Rework / HBR (Greiner, 1972) | Modelo de Greiner: cinco fases de crescimento, cada uma encerrada por uma crise (liderança, autonomia, controle, burocracia) |

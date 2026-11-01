@@ -471,3 +471,18 @@ Data de coleta: 2026-10-31
 Fonte: Anthropic Engineering (Erik Schluntz e Barry Zhang), "Building effective agents" (19/12/2024).
 Link: https://www.anthropic.com/engineering/building-effective-agents
 Data de coleta: 2026-10-31
+
+A pesquisa de benchmarking de tesouraria 2026 da AFP (425 profissionais, maio de 2026) colocou IA e automação pela primeira vez entre as cinco maiores prioridades da tesouraria, citadas por 30%. Para 38%, lidar com oportunidades e riscos da IA é um desafio relevante, e para 35% o desafio é usar IA para automatizar processos manuais. A política de IA e tecnologias emergentes teve a pior nota de eficácia, 2,9 de 5, contra 4,4 das políticas de gestão de caixa. Só 34% se consideram competentes em IA, embora 50% a julguem importante. Ressalva: pesquisa patrocinada pelo PNC Bank, com amostra concentrada nos EUA.
+Fonte: AFP (Association for Financial Professionals), "AFP Survey: AI Priorities Rise Across Treasury Teams While AI-Related Challenges Grow" (15/09/2026).
+Link: https://www.financialprofessionals.org/about/learn-more/press-releases/Details/afp-survey-ai-priorities-rise-across-treasury-teams-while-ai-related-challenges-grow
+Data de coleta: 2026-11-01
+
+O 2026 Global Finance AI Trust Index da Esker ouviu 338 líderes de finanças em agosto de 2026 (137 CFOs e 201 diretores ou acima). 72% gastaram com IA mais do que o previsto no último ano e 66% sabem ou suspeitam que a equipe usa ferramentas de IA não aprovadas. Hoje 32% usam a IA só para recomendar ações que pessoas executam e 29% deixam a IA agir com aprovação humana. Os CFOs são mais cautelosos: 78% deles não querem a IA executando metas de receita, contra 11% dos demais líderes. Ressalva: a Esker vende automação para finanças e não informa instituto de pesquisa independente.
+Fonte: Esker, "New Esker Research Finds Finance Leaders Want More Proof and Control Before Giving AI Greater Decision-Making Authority" (24/09/2026).
+Link: https://www.esker.com/company/press-releases/new-esker-research-finds-finance-leaders-want-more-proof-and-control-giving/
+Data de coleta: 2026-11-01
+
+[Teórico] Master Data Management (MDM) é a disciplina que mantém uma versão única e confiável dos dados mestres, os que descrevem entidades estáveis como clientes, fornecedores, produtos e locais, em oposição aos dados transacionais (vendas, faturas). O alvo é um golden record com governança, trilha de auditoria e controle de versão, porque um erro de cadastro se espalha por todos os sistemas e automações que o usam. Há quatro estilos clássicos: registro (o hub monta uma visão virtual sem alterar as fontes), consolidação (o mestre fica no hub e serve a relatórios), coexistência (hub e origens se atualizam nos dois sentidos) e centralizado (o hub é o único sistema de registro, com mais controle e mais custo). Boas práticas: começar por um domínio com caso de negócio claro, desenhar a governança antes da implantação e medir cobertura do golden record, taxa de duplicidade, tempo de resolução e latência de sincronização. Ressalva: as duas fontes são fornecedores e as páginas não têm data.
+Fonte: IBM Think (Tim Mucci), "What is master data management?"; Informatica, "MDM Implementation: A Complete Guide to Styles, Steps & Best Practices".
+Link: https://www.ibm.com/think/topics/master-data-management e https://www.informatica.com/resources/articles/mdm-implementation.html
+Data de coleta: 2026-11-01

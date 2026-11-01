@@ -281,3 +281,18 @@ Data de coleta: 2026-10-31
 Fonte: Michael Goold e Andrew Campbell, "Do You Have a Well-Designed Organization?", Harvard Business Review (março de 2002); resumo de V. S. Voruganty (2013).
 Link: https://hbr.org/2002/03/do-you-have-a-well-designed-organization e https://vorugantycases.blogspot.com/2013/11/well-designed-organization.html
 Data de coleta: 2026-10-31
+
+O relatório anual do FRC sobre a profissão contábil mostra a base de formação estagnada: os órgãos com sede no Reino Unido e na Irlanda tinham 584.158 estudantes no mundo em 2025, queda de 0,1% no ano e de 2,2% desde 2021, enquanto os membros subiram 2,9%, para 641.474. Só no Reino Unido e na Irlanda, os estudantes caíram 3,1% desde 2021, e os do curso de auditoria recuaram 4% no ano. A fatia de membros com 55 anos ou mais passou de 27% para 29% entre 2021 e 2025. Ressalva: dados dos órgãos profissionais britânicos e irlandeses, não do mercado brasileiro.
+Fonte: Financial Reporting Council, "Key Facts and Trends in the Accountancy Profession 2026" (05/10/2026).
+Link: https://www.frc.org.uk/library/supervision/professional-bodies-supervision/key-facts-and-trends-in-the-accountancy-profession/key-facts-and-trends-in-the-accountancy-profession-2026/
+Data de coleta: 2026-11-01
+
+Na pesquisa trimestral da AICPA e do CIMA do 3T26, 33% dos executivos dizem ter funcionários de menos, contra 28% no 2T26, e 53% dizem ter o número certo. A falta de pessoal qualificado segue entre os principais desafios das organizações. Ressalva: amostra pequena (206 respostas de executivos com CPA ou CGMA nos EUA, coletadas de 04 a 25/08/2026); a pergunta trata da empresa inteira, não só de finanças; outros números da mesma pesquisa já estão no pilar FP&A Fundamentals.
+Fonte: AICPA & CIMA, "Economic Confidence Improves, But Businesses Pull Back on Spending Plans As Uncertainty Persists, AICPA and CIMA Survey Finds" (03/09/2026).
+Link: https://www.aicpa-cima.com/news/article/economic-confidence-improves-but-businesses-pull-back-on-spending-plans-as-uncertainty-persists-aicpa-and-cima-survey-finds
+Data de coleta: 2026-11-01
+
+[Teórico] O modelo de crescimento de Larry Greiner ("Evolution and Revolution as Organizations Grow", HBR, 1972, republicado em 1998) diz que a empresa cresce em fases de evolução, cada uma encerrada por uma crise que força nova estrutura. Na fase de criatividade, a comunicação informal deixa de bastar e vem a crise de liderança, resolvida com gestão profissional. Na de direção, a centralização gera a crise de autonomia, resolvida com delegação. Na de delegação, a cúpula perde a visão das unidades e vem a crise de controle, resolvida com planejamento formal e áreas centrais. Na de coordenação, os sistemas formais se multiplicam até a crise da burocracia, resolvida com times entre áreas na fase de colaboração. Cada fase dura de 4 a 8 anos conforme o setor, o que ajuda a explicar quando finanças passa de equipe informal a área centralizada e depois a CSC ou CoE. Ressalva: conteúdo conferido em página de fornecedor (Rework), pois a HBR mostra só o resumo; a crise da quinta fase e uma sexta fase posterior variam entre fontes, e há críticas de que o modelo é simplista.
+Fonte: Rework, "Greiner's Growth Model: The Five Crises of a Growing Company" (atualizada em 02/10/2026), sobre Larry Greiner, "Evolution and Revolution as Organizations Grow", HBR (1972, republicado em maio e junho de 1998).
+Link: https://resources.rework.com/libraries/startup-fundamentals/greiners-growth-model e https://hbr.org/1998/05/evolution-and-revolution-as-organizations-grow
+Data de coleta: 2026-11-01

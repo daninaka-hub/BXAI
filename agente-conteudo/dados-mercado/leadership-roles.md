@@ -376,3 +376,18 @@ Data de coleta: 2026-10-31
 Fonte: Kotter Inc., "The 8 Steps for Leading Change"; Harvard Business Review (John P. Kotter), "Leading Change: Why Transformation Efforts Fail" (março e abril de 1995).
 Link: https://www.kotterinc.com/methodology/8-steps/ e https://hbr.org/1995/05/leading-change-why-transformation-efforts-fail-2
 Data de coleta: 2026-10-31
+
+Andrew Kang deixa o cargo de CFO da Strategy (antiga MicroStrategy) após mais de quatro anos, por motivos pessoais. O CEO Phong Le acumula a função de 06/11 a 31/12, e em 01/01 assume Reza Virasteh, hoje VP de operações, na empresa desde 2008 e ex-VP de FP&A, com salário-base de US$ 500 mil, bônus-alvo discricionário de US$ 400 mil e RSUs com valor-alvo de US$ 1 milhão. Na mesma mudança, a controller global Shelley Khanna vira Chief Accounting Officer em 06/11. O caso ilustra duas trilhas internas: de FP&A para CFO e de controller para CAO. Ressalva: dados da reportagem, baseada em documento da empresa; o 8-K não foi aberto.
+Fonte: CFO Dive (Maura Webber Sadovi), "Michael Saylor's Strategy CFO resigns" (30/10/2026).
+Link: https://www.cfodive.com/news/michael-saylors-strategy-cfo-resigns-bitcoin-crypto/873385/
+Data de coleta: 2026-11-01
+
+No 1T26, 33 empresas do S&P 500 nomearam novo CFO, empatando com a maior marca de um primeiro trimestre em sete anos. Dessas nomeações, 24 (73%) foram de CFOs de primeira viagem, contra 55% no 1T25. Os 27 CFOs que saíram tinham em média 5,8 anos no cargo, contra 7,2 anos um ano antes, o menor de um primeiro trimestre desde o início da série, em 2019. Saúde teve a maior taxa de troca (6,6%) e tecnologia a menor (3,8%). Ressalva: dados do 1T26 publicados só em agosto; recorte do S&P 500, diferente do recorte global do 1S26 já registrado.
+Fonte: CFO.com (Adam Zaki) / Russell Reynolds Associates Global CFO Turnover Index, "Nearly 3 in 4 new S&P 500 CFOs are first-timers" (26/08/2026).
+Link: https://www.cfo.com/news/nearly-3-in-4-new-sandp-500-cfos-are-first-timers-russell-reynolds-cfo-turnover-index/828802/
+Data de coleta: 2026-11-01
+
+[Teórico] Heifetz e Laurie separam problemas técnicos, resolvidos com conhecimento especializado e ferramentas conhecidas, de problemas adaptativos, que exigem que as pessoas mudem valores, hábitos e relações e que o líder não resolve sozinho. Para liderar o trabalho adaptativo, propõem seis princípios: subir ao balcão para ver os padrões de fora da ação, diagnosticar se o desafio é adaptativo, regular a tensão do grupo, manter a atenção disciplinada nos temas difíceis, devolver o trabalho a quem está mais perto do problema e proteger quem levanta questões incômodas. Para o CFO, a distinção ajuda a separar o que se resolve com sistema e processo (fechamento, ERP) do que exige mudança de comportamento (business partnering, adoção de IA). Ressalva: a página da HBR traz a edição de dezembro de 2001; a publicação original de 1997 não foi confirmada em página aberta.
+Fonte: Harvard Business Review (Ronald Heifetz e Donald L. Laurie), "The Work of Leadership" (dezembro de 2001); American Association for Physician Leadership, reprodução do artigo (04/04/2025).
+Link: https://hbr.org/2001/12/the-work-of-leadership e https://www.physicianleaders.org/articles/the-work-of-leadership
+Data de coleta: 2026-11-01

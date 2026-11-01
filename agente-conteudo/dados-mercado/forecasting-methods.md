@@ -316,3 +316,13 @@ Data de coleta: 2026-10-31
 Fonte: statsmodels, documentação de "statsmodels.tsa.stattools.diebold_mariano_test", citando Diebold e Mariano (1995) e Harvey, Leybourne e Newbold (1997).
 Link: https://www.statsmodels.org/dev/generated/statsmodels.tsa.stattools.diebold_mariano_test.html
 Data de coleta: 2026-10-31
+
+Na Perspectiva Econômica Interina de setembro de 2026, a OCDE elevou a projeção de crescimento global de 2026 para 2,9% (0,1 ponto acima de junho) e cortou a de 2027 em 0,1 ponto, para 3,0%, avaliando que a economia mundial absorveu o choque de energia do conflito no Oriente Médio melhor que o esperado. As projeções de 2026 subiram para EUA (2,2%, mais 0,2), zona do euro (1,0%, mais 0,2) e Japão (0,8%, mais 0,2), e a China ficou em 4,5%. A inflação cheia do G20 está projetada em 4,1% para 2026. Ressalva: números conferidos na cobertura da Euronews, porque a página oficial da OCDE bloqueou o acesso; a matéria não traz projeção para o Brasil.
+Fonte: Euronews, "OECD lifts 2026 global economic growth forecast to 2.9% despite Iran war disruption" (23/09/2026), sobre a OECD Interim Economic Outlook.
+Link: https://euronews.com/2026/09/23/oecd-lifts-2026-global-economic-growth-forecast-to-29-despite-iran-war-disruption
+Data de coleta: 2026-11-01
+
+[Teórico] Superforecaster é quem acerta previsões de forma estatisticamente consistente acima do público e de especialistas. O conceito vem de Philip Tetlock, do Good Judgment Project e do livro "Superforecasting" (2015, com Dan Gardner); segundo relato do Washington Post em 2013, os melhores previsores do projeto foram cerca de 30% melhores que analistas médios de inteligência com acesso a dados sigilosos. A prática se resume no método CHAMP (comparações, tendências históricas, média de opiniões, modelos matemáticos e vieses previsíveis), com previsões expressas em probabilidade e revistas a cada informação nova. Um estudo de 2021 (Satopää e outros) concluiu que reduzir ruído pesou mais na acurácia do que reduzir viés. Ressalva: a fonte é a Wikipedia, que registra que a vantagem dos superforecasters às vezes é exagerada; o termo é marca registrada da Good Judgment Inc.
+Fonte: Wikipedia, "Superforecaster" (cita Tetlock e Gardner, 2015; Washington Post, 2013; Satopää e outros, 2021).
+Link: https://en.wikipedia.org/wiki/Superforecaster
+Data de coleta: 2026-11-01

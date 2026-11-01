@@ -321,3 +321,18 @@ Data de coleta: 2026-10-31
 Fonte: Umbrex, "Goold & Campbell Parenting Advantage Framework"; BCG (Krühler, Pidun e Rubner), "How to Be a Good Corporate Parent" (22/03/2012), que cita Campbell, Goold e Alexander, "Corporate Strategy: The Quest for Parenting Advantage", HBR (março de 1995).
 Link: https://umbrex.com/resources/frameworks/organization-frameworks/goold-campbell-parenting-advantage-framework/ e https://bcg.com/publications/2012/portfolio-strategy-capital-allocation-corporate-parent
 Data de coleta: 2026-10-31
+
+Segundo dados da LSEG, o M&A global somou US$ 993 bilhões no 3T26, queda de 41% sobre o trimestre anterior e o primeiro trimestre abaixo de US$ 1 trilhão desde o 2T25. Os megadeals (acima de US$ 10 bilhões) caíram para 10, a menor contagem desde o 4T24. Ainda assim, o acumulado do ano sobe 28%, para US$ 3,9 trilhões, o maior para o período desde 2001, enquanto o número de negócios cai 8%. A reportagem atribui o recuo a juros e custo de financiamento mais altos (o Treasury de 10 anos chegou a 5,34%) e à energia mais cara. Ressalva: republicação da Reuters pela Global Banking & Finance Review, cujo FAQ no rodapé cita 2025 por engano; vale só o corpo da matéria.
+Fonte: Reuters (Anousha Sakoui e Echo Wang), via Global Banking & Finance Review, "Global M&A deal rush fades in third quarter as rising borrowing costs bite" (01/10/2026).
+Link: https://www.globalbankingandfinance.com/global-m-deal-rush-fades-third-quarter-rising-borrowing/
+Data de coleta: 2026-11-01
+
+A FTI Consulting contou 9.902 transações de M&A anunciadas no 3T26, queda de 3,7% sobre o trimestre anterior e de 14,2% sobre o 3T25. Compradores estratégicos fizeram 81,6% dos negócios, e a fatia dos financeiros subiu de 15,1% para 17,0%. O volume caiu em 10 dos 11 setores, com alta só em bens de consumo básico (mais 1,4%). Entre os negócios com valor divulgado, a faixa de US$ 50 milhões a US$ 500 milhões passou de 25,1% para 28,7%. Ressalva: consultoria que vende serviços de M&A, dados do Capital IQ, página sem autor.
+Fonte: FTI Consulting, "Global M&A Q3 2026 Market Update" (26/10/2026).
+Link: https://www.fticonsulting.com/insights/articles/global-m-and-a-q3-2026-market-update
+Data de coleta: 2026-11-01
+
+[Teórico] O modelo 7S da McKinsey, criado no fim dos anos 1970 por Robert Waterman, Tom Peters e Julien Phillips e popularizado por "In Search of Excellence" (1982), divide a organização em três elementos duros (estratégia, estrutura e sistemas) e quatro suaves (valores compartilhados, habilidades, pessoas e estilo), com os valores no centro. A premissa é que o desempenho depende de os sete se reforçarem, por isso o modelo serve para diagnosticar desalinhamentos antes de executar uma estratégia ou integrar uma aquisição. Limites: olha só para dentro da empresa (ignora mercado e regulação), aponta o problema sem dizer como corrigi-lo e os elementos suaves são difíceis de medir. Ressalva: a Wikipedia marca como sem citação a atribuição ao artigo "Structure Is Not Organization" (Business Horizons, 1980); a Mutomorro é consultoria e a página não tem data de publicação.
+Fonte: Wikipedia, "McKinsey 7S Framework"; Mutomorro (James Freeman-Gray), "McKinsey 7-S Model".
+Link: https://en.wikipedia.org/wiki/McKinsey_7S_Framework e https://mutomorro.com/mckinsey-7-s-model/
+Data de coleta: 2026-11-01

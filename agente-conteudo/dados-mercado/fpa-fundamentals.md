@@ -261,3 +261,13 @@ Data de coleta: 2026-10-31
 Fonte: OpenStax (Mitchell Franklin, Patty Graybeal e Dixon Cooper), Principles of Accounting, Volume 2: Managerial Accounting, seção 3.5 (14/02/2019).
 Link: https://openstax.org/books/principles-managerial-accounting/pages/3-5-calculate-and-interpret-a-companys-margin-of-safety-and-operating-leverage
 Data de coleta: 2026-10-31
+
+Na França, 89% das empresas tiveram atraso de pagamento nos últimos 12 meses, o maior nível da série (eram 82% em 2023, 85% em 2024 e 86% em 2025). O atraso médio subiu para 41,2 dias, contra 39,5 em 2025, com prazo médio concedido estável em 50 dias. As menores sofrem mais: microempresas atrasam em média 46 dias e 58% delas classificam o impacto no caixa como muito significativo ou crítico, contra 26% das médias e grandes. A principal causa são dificuldades financeiras dos clientes (47%), mas 19% dos atrasos são deliberados. Ressalva: a Coface vende seguro de crédito; amostra de 690 empresas francesas ouvidas em junho de 2026.
+Fonte: Coface, "Late payments in France: 89% of businesses affected, a record high" (29/09/2026).
+Link: https://www.coface.com/news-economy-and-insights/late-payments-in-france-89-of-businesses-affected-a-record-high
+Data de coleta: 2026-11-01
+
+[Teórico] A taxa de crescimento sustentável (SGR), proposta por Robert Higgins em "How Much Growth Can a Firm Afford?" (Financial Management, 1977), mede quanto as vendas podem crescer sem emissão de ações, mantendo constantes margem, giro dos ativos, política de dividendos e alavancagem. Com margem líquida P, payout R, passivo sobre patrimônio L e ativo sobre vendas T, a fórmula é SGR = P(1-R)(1+L) / [T - P(1-R)(1+L)]. No exemplo de divulgação, margem de 5%, sem dividendos, L de 1,0 e T de 1,0 dão SGR de 11,1%, que cai para 8,3% com payout de 25% e L de 1,05. Crescer acima da SGR gera falta de caixa, e as saídas são subir a margem, tomar mais dívida ou usar melhor os ativos, como reduzir estoque e recebíveis. Na versão simplificada, g é o ROE vezes a taxa de retenção (ROE de 18% com 60% retidos dá 10,8%). Ressalva: o artigo original de Higgins fica atrás de login; os exemplos foram recalculados a partir de um texto de divulgação, e a página da AcadiFi é um fórum com autor anônimo.
+Fonte: Phil Greenwood (EIX / FamilyBusiness.org), "Why Rapid Business Growth Can Create Financial Problems" (07/09/2016, atualizado em 09/09/2026); AcadiFi, "What is the sustainable growth rate and how is it connected to ROE and retention?" (16/03/2026).
+Link: https://familybusiness.org/content/how-to-grow-your-firm-the-right-way e https://acadifi.com/community/sustainable-growth-rate-formula-and-interpretation
+Data de coleta: 2026-11-01

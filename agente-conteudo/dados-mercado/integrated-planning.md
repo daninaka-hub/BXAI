@@ -336,3 +336,18 @@ Data de coleta: 2026-10-31
 Fonte: Wikipedia, "Material requirements planning".
 Link: https://en.wikipedia.org/wiki/Material_requirements_planning
 Data de coleta: 2026-10-31
+
+A C.H. Robinson projeta que o valor dos estoques do varejo dos EUA cresça menos de 5% em 2027, em boa parte por custo maior das mercadorias e não por volume, a partir de uma base de US$ 832,6 bilhões em junho de 2026. A relação estoque/vendas do varejo caiu para 1,25 em junho de 2026, ante 1,31 no início de 2025, porque as vendas cresceram mais que os estoques. Para a empresa, os varejistas vivem uma redução passiva de estoques desde meados de 2025 e devem entrar em 2027 enxutos, com risco de picos de importação seguidos de vales a cada mudança de tarifa. Ressalva: a fonte é operadora logística; o índice só de varejo (1,25) não se compara diretamente ao índice total de negócios do MTIS.
+Fonte: C.H. Robinson, "Edge Report: North America Freight Insights, September 2026, Industry Insights: Retail" (03/09/2026).
+Link: https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/sep-2026-freight-market-update/industry-insights/retail/
+Data de coleta: 2026-11-01
+
+O Global Port Tracker (Hackett Associates para a NRF) projeta 25,8 milhões de TEU importados pelos principais portos de contêineres dos EUA em 2026, 1,4% acima dos 25,4 milhões de 2025. Agosto fechou em 2,3 milhões de TEU, queda de 0,7% no ano; setembro (2,28 milhões, mais 8,2%) e outubro (2,25 milhões, mais 8,5%) ainda eram projeções, e novembro deve ficar em 2 milhões (menos 1%). Para a NRF, o pico de temporada começou cedo, se estendeu pelo verão e boa parte da mercadoria de fim de ano já chegou. Ressalva: os números de setembro em diante são previsões e podem ter sido revisados em edição posterior.
+Fonte: National Retail Federation, "Import cargo's extended peak season wrapping up" (08/10/2026).
+Link: https://nrf.com/media-center/press-releases/import-cargo-s-extended-peak-season-wrapping-up
+Data de coleta: 2026-11-01
+
+[Teórico] A teoria das restrições, apresentada por Eliyahu Goldratt em "The Goal" (1984), parte da ideia de que o resultado de um sistema é limitado pelo gargalo. A melhoria segue cinco passos de foco: identificar a restrição, decidir como explorá-la, subordinar todo o resto a essa decisão, elevar a restrição e, se ela for quebrada, recomeçar sem deixar a inércia virar a nova restrição. Na produção, isso vira o método tambor-pulmão-corda: o tambor é o ritmo do recurso restrito, o pulmão é uma folga de tempo que garante fila no gargalo e a corda só libera material um tempo de pulmão antes de o gargalo precisar dele, contendo o estoque em processo. Na distribuição, o pulmão é ajustado em um terço: cai um terço se o estoque passa um ciclo de reposição inteiro no terço superior e sobe um terço se fica tempo demais no terço inferior. Ressalva: a fonte é a Wikipedia, que registra evidência acadêmica contestada (Gupta e Snyder, 2009, consideraram a eficácia ainda não comprovada).
+Fonte: Wikipedia, "Theory of constraints".
+Link: https://en.wikipedia.org/wiki/Theory_of_constraints
+Data de coleta: 2026-11-01
