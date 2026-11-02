@@ -351,3 +351,18 @@ Data de coleta: 2026-11-01
 Fonte: Wikipedia, "Theory of constraints".
 Link: https://en.wikipedia.org/wiki/Theory_of_constraints
 Data de coleta: 2026-11-01
+
+O PMI de manufatura do ISM ficou em 54,5% em setembro de 2026, contra 54,6% em agosto, nono mês seguido de expansão. Para planejamento de estoques, o sinal está nos subíndices: Estoques caiu de 50,6 para 48,6 e passou a indicar contração, Estoques dos Clientes ficou em 41,6, faixa considerada baixa demais, e Carteira de Pedidos subiu de 51,8 para 56,4. O índice de Preços saltou de 71,1 para 77,9, com 58,6% dos respondentes relatando preços maiores (46,2% em agosto); a presidente do comitê, Susan Spence, atribui a alta a aço e alumínio mais caros, tarifas sobre importados e derivados de petróleo afetados pelo conflito no Oriente Médio, e as tarifas aparecem em 34% dos comentários negativos. Ressalva: o PMI é índice de difusão, mede quantas empresas relatam alta ou queda e não o tamanho da variação; o dado de outubro sai em 02/11/2026 e ainda não estava publicado na coleta.
+Fonte: Institute for Supply Management, via PR Newswire, "Manufacturing PMI at 54.5%; September 2026 ISM Manufacturing PMI Report" (01/10/2026).
+Link: https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report-302894520.html
+Data de coleta: 2026-11-02
+
+O World Container Index da Drewry caiu 3% na semana e chegou a US$ 4.429 por contêiner de 40 pés na avaliação de 29/10/2026. A queda veio sobretudo do Transpacífico: Xangai a Los Angeles recuou 6%, para US$ 7.514, e Xangai a Nova York recuou 5%, para US$ 9.631. Na rota Ásia e Europa, Xangai a Roterdã subiu 1%, para US$ 3.686, e Xangai a Gênova ficou estável em US$ 4.151. A Drewry espera nova queda no Transpacífico porque a importação americana está esfriando, citando a previsão da NRF de volumes 11% menores em novembro sobre outubro, além de demanda fraca, controle de capacidade dos armadores e política comercial dos EUA. Ressalva: é índice spot semanal, que não reflete contratos de longo prazo, e a página não traz variação anual.
+Fonte: Drewry, "World Container Index" (avaliação de 29/10/2026).
+Link: https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry
+Data de coleta: 2026-11-02
+
+[Teórico] A análise ABC divide os itens de estoque em três classes conforme o valor de consumo anual, numa lógica próxima do princípio de Pareto: itens A recebem controle rígido e registros precisos, B controle intermediário e C o controle mais simples possível. Um exemplo de divisão traz A com 20% dos itens e 70% do valor, B com 30% e 25%, e C com 50% e 5%. No caso ilustrativo do verbete, a política uniforme de ponto de pedido de 2 semanas foi trocada por 1, 2 e 3 semanas para A, B e C, o que cortou o estoque médio em 23% e as entregas em 69%, de 16.000 para 5.000 em quatro semanas. Em S&OP, a classificação ajuda a decidir onde concentrar esforço de previsão e revisão de política de estoque. Ressalva: não há limites fixos entre as classes, as proporções variam por empresa e os ganhos vêm de um exemplo hipotético.
+Fonte: Wikipedia, "ABC analysis" (verbete sem data de publicação).
+Link: https://en.wikipedia.org/wiki/ABC_analysis
+Data de coleta: 2026-11-02

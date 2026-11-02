@@ -271,3 +271,18 @@ Data de coleta: 2026-11-01
 Fonte: Phil Greenwood (EIX / FamilyBusiness.org), "Why Rapid Business Growth Can Create Financial Problems" (07/09/2016, atualizado em 09/09/2026); AcadiFi, "What is the sustainable growth rate and how is it connected to ROE and retention?" (16/03/2026).
 Link: https://familybusiness.org/content/how-to-grow-your-firm-the-right-way e https://acadifi.com/community/sustainable-growth-rate-formula-and-interpretation
 Data de coleta: 2026-11-01
+
+No trimestre encerrado em 02/10/2026, a receita líquida da Sandisk foi de US$ 11.031 milhões, contra US$ 2.308 milhões um ano antes, alta de 378%. O lucro bruto chegou a 85,0% da receita, ante 29,8% no mesmo trimestre de 2025, e a empresa descreve o ganho como cerca de 5.500 pontos-base de margem bruta, explicado por mais receita por gigabyte e mais exabytes vendidos. Por mercado, Datacenter cresceu 1.685% e Edge 320%, enquanto Consumer caiu 39%. O lucro líquido foi de US$ 8.101 milhões, contra US$ 112 milhões. O caso mostra, numa análise de variação, como preço e volume juntos alavancam margem num ciclo de alta de memória. Ressalva: é um caso extremo de ciclo de commodity e não serve como referência de margem para outros setores.
+Fonte: Sandisk Corp, "Form 10-Q for the quarterly period ended October 2, 2026" (arquivado na SEC em 30/10/2026).
+Link: https://www.sec.gov/Archives/edgar/data/0002023554/000162828026068601/sndk-20261002.htm
+Data de coleta: 2026-11-02
+
+Pelos dados da LSEG I/B/E/S até 29/10/2026, o lucro do STOXX 600 no 3T26 deve crescer 23,6%, acima dos 21,9% estimados uma semana antes; sem o setor de energia, a alta esperada cai para 9,8%. A receita deve subir 13,6%, ou 6,2% sem energia. Das 144 empresas que já divulgaram, 54,2% superaram o consenso de lucro, perto da média de 54% desde 2012, e na média os resultados vieram 5% acima do esperado, contra média de longo prazo de 5,9%. Energia (+139%) e materiais (+37,9%) puxam o número, e o setor imobiliário cai 69%. Ressalva: os números misturam resultados publicados com estimativas; a leitura de que lucro crescendo acima da receita indica margem maior é do Pesquisador, não da LSEG.
+Fonte: Teleborsa, com dados LSEG I/B/E/S, "STOXX 600, utili attesi in crescita del 23,6% nel terzo trimestre. Al 9,8% senza l'energia" (30/10/2026).
+Link: https://www.teleborsa.it/DettaglioNews/269_2026-10-30_TLB/STOXX-600-utili-attesi-in-crescita-del-236-nel-terzo-trimestre-Al-98-senza-lenergia.html
+Data de coleta: 2026-11-02
+
+[Teórico] A Rule of 40, popularizada pelo investidor Brad Feld em 2015, diz que uma empresa SaaS saudável deve somar crescimento anual e margem de lucro de pelo menos 40%. Feld usa o crescimento anual do MRR e o EBITDA como base, conferido contra lucro operacional, lucro líquido e fluxo de caixa livre. Nos exemplos dele, 20% de crescimento pede 20% de lucro, 40% de crescimento admite lucro zero e 50% de crescimento admite prejuízo de 10%. A regra vale para empresas já em escala, perto de US$ 50 milhões de receita, e Feld alerta contra frear o crescimento cedo só para mostrar lucro. Em FP&A, serve de régua simples para equilibrar plano de crescimento e meta de margem. Ressalva: não há definição padrão de margem (EBITDA ou fluxo de caixa livre), o que permite escolher a métrica mais conveniente, e o corte de 40% é arbitrário e pouco útil para startups em estágio inicial.
+Fonte: Brad Feld (Feld Thoughts), "The Rule of 40% For a Healthy SaaS Company" (03/02/2015); Wikipedia, "Rule of 40" (sem data), para as críticas.
+Link: https://feld.com/archives/2015/02/rule-40-healthy-saas-company/ e https://en.wikipedia.org/wiki/Rule_of_40
+Data de coleta: 2026-11-02

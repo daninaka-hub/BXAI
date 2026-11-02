@@ -336,3 +336,18 @@ Data de coleta: 2026-11-01
 Fonte: Wikipedia, "McKinsey 7S Framework"; Mutomorro (James Freeman-Gray), "McKinsey 7-S Model".
 Link: https://en.wikipedia.org/wiki/McKinsey_7S_Framework e https://mutomorro.com/mckinsey-7-s-model/
 Data de coleta: 2026-11-01
+
+Nos balanços divulgados no fim de outubro de 2026, Microsoft e Alphabet reportaram capex abaixo das estimativas dos analistas e não elevaram suas projeções. A Microsoft reduziu a previsão de capex do ano de US$ 175 bilhões para US$ 170 bilhões, e a Alphabet manteve a faixa de US$ 195 bilhões a US$ 205 bilhões, com fluxo de caixa livre negativo de mais de US$ 9 bilhões no trimestre; a ação da Alphabet caiu cerca de 10% no after-hours. Mesmo assim, as duas sinalizam aceleração: a Alphabet espera capex bem maior em 2027 e a Microsoft vê gasto crescente no primeiro semestre de 2027, puxado por componentes mais caros e entregas atrasadas. Pelas estimativas citadas pela CNBC, o capex somado dos hyperscalers deve passar de US$ 1 trilhão no ano que vem. Ressalva: a matéria não diz se o número da Microsoft é do ano fiscal ou civil, e o US$ 1 trilhão é estimativa de mercado, não guidance das empresas.
+Fonte: CNBC (Jordan Novet), "AI buildout hits snag as Google and Microsoft put off raising capex forecasts" (29/10/2026).
+Link: https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html
+Data de coleta: 2026-11-02
+
+A Meta anunciou que vai captar US$ 95 bilhões em ações para financiar infraestrutura de IA: primeiro US$ 35 bilhões em ofertas públicas com garantia de bancos e depois mais US$ 60 bilhões por um programa at-the-market. Nvidia, AMD e Broadcom demonstraram interesse em comprar até US$ 5 bilhões em ações. A empresa também subiu o piso da previsão de capex do ano de US$ 130 bilhões para US$ 135 bilhões, com teto de US$ 145 bilhões, e a ação recuava 1,6% na manhã do anúncio. O caso mostra uma big tech que antes devolvia caixa ao acionista passando a emitir ações para bancar capex, uma decisão de estrutura de capital dentro do plano estratégico. Ressalva: a matéria não traz o endividamento da Meta nem fala de recompras.
+Fonte: CNBC (Kai Nicol-Schwarz e April Roach), "Meta announces $95 billion stock offering to fund AI expansion" (26/10/2026).
+Link: https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html
+Data de coleta: 2026-11-02
+
+[Teórico] A matriz TOWS foi proposta por Heinz Weihrich em 1982, na revista Long Range Planning, para transformar o diagnóstico SWOT em opções de estratégia. Ela cruza fatores internos (forças e fraquezas) com externos (oportunidades e ameaças) em quatro quadrantes: SO (Maxi-Maxi) usa forças para aproveitar oportunidades; ST (Maxi-Mini) usa forças para reduzir ameaças; WO (Mini-Maxi) corrige fraquezas apoiando-se em oportunidades; WT (Mini-Mini) reduz fraquezas e evita ameaças. O uso tem quatro passos: fazer a SWOT, levar os achados para a matriz, cruzar os fatores em cada quadrante e escolher as opções mais alinhadas à missão e à visão. Ressalva: a MindTools trata o quadrante WT como defensivo e não recomenda contar com ele para gerar crescimento, e apresenta a TOWS como ferramenta para gerar opções, não para decidir entre elas.
+Fonte: MindTools, "The TOWS Matrix" (12/09/2024), com base em Weihrich, H., "The TOWS matrix: A tool for situational analysis", Long Range Planning 15(2):54-66 (1982).
+Link: https://www.mindtools.com/auqstul/the-tows-matrix
+Data de coleta: 2026-11-02

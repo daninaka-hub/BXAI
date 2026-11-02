@@ -391,3 +391,13 @@ Data de coleta: 2026-11-01
 Fonte: Harvard Business Review (Ronald Heifetz e Donald L. Laurie), "The Work of Leadership" (dezembro de 2001); American Association for Physician Leadership, reprodução do artigo (04/04/2025).
 Link: https://hbr.org/2001/12/the-work-of-leadership e https://www.physicianleaders.org/articles/the-work-of-leadership
 Data de coleta: 2026-11-01
+
+A Rivian nomeou como CFO interino Derek Mulvey, de 36 anos, no lugar de Claire McDonough, que sai depois de seis anos no cargo para ser CFO da GE Vernova a partir de 1º de janeiro. Mulvey está na empresa desde 2021, quando entrou como diretor de finanças estratégicas e relações com investidores, e era VP de finanças desde março de 2025; antes, passou seis anos no J.P. Morgan, em fusões e aquisições. Para retê-lo, a Rivian concedeu em 21/09 125.392 unidades de ação restrita (RSU), cerca de US$ 1,4 milhão a US$ 11,74 por ação, liberadas em duas parcelas, em 15/02/2027 e 15/08/2027. O salário-base subiu para US$ 400.000, com bônus-alvo de 40% da base, e a busca pelo CFO definitivo considera nomes internos e externos. Ressalva: é o pacote de um interino, apoiado em ações, então o valor muda com a cotação.
+Fonte: CFO Dive (Grace Noto), "Rivian grants interim CFO 125,000 stock unit award" (30/10/2026).
+Link: https://www.cfodive.com/news/rivian-grants-interim-cfo-125000-stock-unit-award/873375/
+Data de coleta: 2026-11-02
+
+[Teórico] O modelo das Cinco Práticas da Liderança Exemplar, de James Kouzes e Barry Posner, nasceu de uma pesquisa iniciada em 1983 sobre o que as pessoas faziam quando estavam no seu melhor momento liderando outras. No estudo original, os autores analisaram mais de 550 questionários abertos de 38 itens, 80 versões curtas e 42 entrevistas em profundidade. Do agrupamento dos comportamentos saíram cinco práticas: dar o exemplo, inspirar uma visão compartilhada, desafiar o processo, capacitar os outros a agir e encorajar o coração. Cada prática tem seis comportamentos, 30 no total, medidos pelo Leadership Practices Inventory (LPI) em versão de autoavaliação ou de feedback 360. Para um CFO ou head de FP&A, o modelo serve de lista objetiva para avaliar e desenvolver líderes do time. Ressalva: o LPI é produto comercial ligado aos autores, e a base ampliada (mais de 5.000 estudos de caso e mais de 2 milhões de avaliações) é informada por eles, sem validação independente nesta fonte.
+Fonte: Kouzes, J. M. e Posner, B. Z., "The Five Practices of Exemplary Leadership", capítulo da Encyclopedia of Management Theory (Sage, 2013); The Leadership Challenge (Wiley), página "FAQ" (sem data).
+Link: https://scholarcommons.scu.edu/mgmt/30 e https://leadershipchallenge.com/resources/faq
+Data de coleta: 2026-11-02
