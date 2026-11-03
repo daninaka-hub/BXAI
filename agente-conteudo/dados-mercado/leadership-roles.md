@@ -401,3 +401,18 @@ Data de coleta: 2026-11-02
 Fonte: Kouzes, J. M. e Posner, B. Z., "The Five Practices of Exemplary Leadership", capítulo da Encyclopedia of Management Theory (Sage, 2013); The Leadership Challenge (Wiley), página "FAQ" (sem data).
 Link: https://scholarcommons.scu.edu/mgmt/30 e https://leadershipchallenge.com/resources/faq
 Data de coleta: 2026-11-02
+
+A Dauch Corp contratou Nathan R. Iles, 50 anos, CFO da Standard Motor Products desde 2019 e antes CFO da UCI International Holdings, com início de carreira na Ernst & Young. Ele entra como SVP de finanças em 02/11/2026 e assume como CFO em 01/12/2026, depois de um período de integração. O CFO atual, Christopher May, não sai: vira EVP e Chief Administrative Officer, mantém TI e passa a cuidar de RH. O pacote de Iles tem base de US$ 650 mil, bônus anual-alvo de 100% do salário, incentivo de longo prazo alvo de 200% com vesting de três anos, prêmio de ações por desempenho com alvo de 90.909 ações, RSUs de US$ 500 mil em valor-alvo com vesting de um ano e bônus único de US$ 375 mil em março de 2027. Ressalva: a data do protocolo foi inferida pela assinatura do documento (13/10/2026).
+Fonte: Dauch Corp, Form 8-K (relatório de 07/10/2026), SEC EDGAR.
+Link: https://www.sec.gov/Archives/edgar/data/0001062231/000106223126000142/dch-20261007.htm
+Data de coleta: 2026-11-03
+
+A RB Global promoveu Steve Steinberg, 62 anos, a CFO em 07/10/2026. Ele era SVP e Head of Strategic Planning and Decision Support desde 2025, um perfil interno de planejamento e FP&A, e substitui Eric Guerin, cujo último dia foi 06/10; o COO, Steve Lewis, também saiu. O pacote tem salário de US$ 625 mil, bônus-alvo de 100% (máximo de 200%), incentivo de longo prazo de 400% do salário, sujeito ao comitê de remuneração, indenização de 18 meses de salário mais bônus-alvo e, em mudança de controle com dupla condição, 1,5 vez salário e bônus-alvo. Ressalva: o documento não explica os motivos das saídas.
+Fonte: RB Global, Form 8-K (08/10/2026), SEC EDGAR.
+Link: https://www.sec.gov/Archives/edgar/data/0001046102/000110465926114556/tm2627264d1_8k.htm
+Data de coleta: 2026-11-03
+
+[Teórico] A teoria da troca líder-membro (LMX), consolidada por George Graen e Mary Uhl-Bien em 1995, trata a liderança como uma relação própria entre o líder e cada liderado, e não como um estilo único aplicado ao time inteiro. Ela passou por quatro estágios: as díades verticais (o gestor forma relações diferentes com cada subordinado), a troca líder-membro (como essas relações se desenvolvem), o leadership making (o líder deve oferecer relação de alta qualidade a todos) e o team making (a rede de relações da equipe). Nas relações de alta qualidade há confiança, respeito e obrigação mútuos, e a relação evolui de estranho (formal, contratual) para conhecido e depois parceria madura. A meta-análise de Gerstner e Day (1997) associa LMX alta a desempenho, satisfação, comprometimento e clareza de papel. As críticas apontam raciocínio circular e pouca prescrição de comportamentos concretos. Para um CFO, a teoria ajuda a perceber que poucas parcerias maduras na equipe acabam definindo quem vira sucessor ou business partner. Ressalva: o texto integral não foi lido; estágios, fases e críticas vêm da Wikipedia, e os achados da meta-análise vêm de resumos, sem conferência dos tamanhos de efeito.
+Fonte: George B. Graen e Mary Uhl-Bien, "Relationship-Based Approach to Leadership: Development of Leader-Member Exchange (LMX) Theory of Leadership over 25 Years", Leadership Quarterly 6(2):219-247 (1995), via University of Nebraska-Lincoln; Wikipedia, "Leader-member exchange theory".
+Link: https://digitalcommons.unl.edu/managementfacpub/57/ e https://en.wikipedia.org/wiki/Leader%E2%80%93member_exchange_theory
+Data de coleta: 2026-11-03
