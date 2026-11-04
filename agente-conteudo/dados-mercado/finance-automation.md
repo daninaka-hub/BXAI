@@ -511,3 +511,18 @@ Data de coleta: 2026-11-03
 Fonte: Banco Central Europeu, glossário ("Straight-through processing"); Frederick Winslow Taylor, Shop Management (ASME, 1903; edição Harper & Brothers, 1911, p. 126).
 Link: https://www.ecb.europa.eu/services/glossary/html/glosss.en.html e https://tekniskkulturarv.dk/book/8811fbb1-adb5-4cf3-8d73-22217a103e62?page=130
 Data de coleta: 2026-11-03
+
+Pesquisa da consultoria RGP com 400 CFOs de empresas com receita a partir de US$ 250 milhões na América do Norte, Europa e Ásia-Pacífico, feita em setembro de 2026, mostra que 54% esperam retorno significativamente positivo da IA em até 24 meses, mas só 10% veem esse retorno hoje. O porte pesa: o retorno significativo aparece em 1% das empresas abaixo de US$ 1 bilhão de receita e em 17% das acima de US$ 5 bilhões. Entre empresas de tecnologia, 84% relatam ROI positivo. Só 13% conduzem grandes iniciativas com governança na empresa toda e um responsável único, e a RGP aponta gestão de mudança e adoção como o ponto onde mais projetos travam (relatório "The Capacity Crisis"). Ressalva: a RGP vende consultoria; a matéria não traz margem de erro, recorte por região nem dados por processo como fechamento ou contas a pagar.
+Fonte: CFO.com, Dan Niepow, "CFOs expect AI to pay off in 2 years: survey" (03/11/2026), com dados da RGP.
+Link: https://www.cfo.com/news/cfos-expect-ai-to-pay-off-in-2-years-RGP-survey/873512/
+Data de coleta: 2026-11-04
+
+A Microsoft lançou no Copilot mais de 25 novas skills de finanças e plug-ins de parceiros, com foco em fechamento mensal e análise de investimentos, e integração com QuickBooks, Xero e Zoho Books e com dados de FactSet, Morningstar, LSEG e S&P Global. Nos sete dias de acesso limitado a Insiders, mais de 8.000 usuários únicos acionaram as skills de contabilidade mais de 44.000 vezes, em mais de 18.000 conversas. Na teleconferência de resultados, Satya Nadella disse que as tarefas automatizadas quase dobraram desde julho e que os usuários diários subiram quase 50% no trimestre e mais de cinco vezes em um ano. Ressalva: todos os números são da própria Microsoft, que vende o produto, e medem uso, não resultado (prazo de fechamento ou erros), numa prévia de sete dias.
+Fonte: CFO Dive, Alexei Alexis, "Microsoft expands Copilot's reach in finance workflows" (29/10/2026).
+Link: https://www.cfodive.com/news/microsoft-expands-copilot-reach-in-finance-workflows/873239/
+Data de coleta: 2026-11-04
+
+[Teórico] O padrão ISO 20022 substitui as mensagens bancárias MT por mensagens MX com dados estruturados, base para conciliação bancária automática. Os extratos e avisos ganham equivalentes camt: camt.052 no lugar do MT941/942, camt.053 no lugar do MT940/950 e camt.054 no lugar do MT900/910. Nos pagamentos, o pacs.004 traz a devolução com motivo e referências originais, e o pain.001 versão 9 leva remessa estruturada e o identificador UETR. O J.P. Morgan lista como ganhos para empresas conciliação mais eficiente, mais dados da fatura e menos trabalho manual. O formato MT aceita um conjunto limitado de caracteres, e o dado MX que não cabe é truncado e marcado com "+", ponto em que o casamento automático se perde. No calendário do banco, os pagamentos migraram para MX em novembro de 2025, o MT101 sai até 14/11/2026, o endereço estruturado ou híbrido vira obrigatório em novembro de 2026 e a convivência para extratos termina em novembro de 2028. Ressalva: é FAQ de banco sem data de publicação; as fontes divergem sobre o fim do MT940, e a data de 2028 é a versão do J.P. Morgan.
+Fonte: J.P. Morgan, "ISO 20022 Frequently Asked Questions (FAQs)" (sem data, página de 2026).
+Link: https://www.jpmorgan.com/insights/payments/fx-cross-border/iso-20022-faqs
+Data de coleta: 2026-11-04
