@@ -446,3 +446,18 @@ Data de coleta: 2026-11-05
 Fonte: NBER Digest, Jay Fitzgerald, "The Peter Principle Isn't Just Real, It's Costly" (30/04/2018), sobre Benson, Li e Shue, "Promotions and the Peter Principle", NBER Working Paper 24343 (fevereiro de 2018), publicado no Quarterly Journal of Economics, v. 134, n. 4 (2019).
 Link: https://www.nber.org/digest/may18/peter-principle-isnt-just-real-its-costly e https://www.nber.org/papers/w24343
 Data de coleta: 2026-11-05
+
+A Parsons Corp informou que o CFO Matt Ofilos pediu demissão em 23/10/2026 para buscar outra oportunidade profissional, com saída efetiva em 06/11/2026; segundo o 8-K, não houve divergência com a empresa. Para o interino, o conselho chamou de volta George Ball, CFO da Parsons de 2008 a 2022 e conselheiro desde 2022. Ball recebe US$ 2,4 milhões em RSUs, que vestem no primeiro aniversário da concessão, em valor proporcional ao tempo como interino. Enquanto ocupar o cargo, não recebe pela função de conselheiro e deixa os comitês. É um caso de interino recrutado no próprio conselho, com quem já conhece a casa. Ressalva: o 8-K não informa pagamento de saída ao CFO que sai e não divulga salário-base do interino, pago só em ações.
+Fonte: SEC EDGAR, Parsons Corp, Form 8-K (evento de 23/10/2026, arquivado em 28/10/2026).
+Link: https://www.sec.gov/Archives/edgar/data/0000275880/000119312526435047/psn-20261023.htm
+Data de coleta: 2026-11-06
+
+O conselho da Hyster-Yale nomeou Matthew Cornell, de 46 anos, SVP e CFO a partir de 01/11/2026, e principal financial officer a partir de 04/11. Desde 01/01/2026 a função estava acumulada pelo CEO Rajiv K. Prasad. Cornell vem da Stanley Black & Decker, onde foi CFO do segmento Industrial (2020 a 2024) e presidente de Specialty Tools & Storage Solutions (2022 a 2025). O salário-base é de US$ 605 mil; o bônus anual tem alvo de 60% do ponto médio salarial (US$ 626,8 mil em 2026), com pagamento de 0% a 150%; e o incentivo de longo prazo tem alvo de 90%, de 0% a 200%, sendo 65% em ações restritas e 35% em dinheiro. Na entrada, recebe US$ 75 mil em dinheiro e 3.500 ações com restrição de venda por cinco anos, além de US$ 20 mil por ano em benefícios. Ressalva: o 8-K não explica por que o CEO acumulou a função por dez meses nem dá o valor em dólares das 3.500 ações.
+Fonte: SEC EDGAR, Hyster-Yale, Inc., Form 8-K (evento de 14/10/2026, assinado em 15/10/2026).
+Link: https://www.sec.gov/Archives/edgar/data/0001173514/000117351426000233/hy-20261014.htm
+Data de coleta: 2026-11-06
+
+[Teórico] Graham, Harvey e Rajgopal ouviram 401 executivos financeiros por survey e entrevistaram outros 20 em profundidade para entender como CFOs decidem resultado e divulgação. A maioria vê o lucro, sobretudo o LPA, como a métrica principal para o público externo. No estudo, 78% abririam mão de valor econômico para ter lucro mais estável, e 55% deixariam de iniciar um projeto de VPL muito positivo se ele fizesse a empresa perder o consenso do trimestre. O motivo citado é que o mercado pune com força quem erra a meta e lucro volátil passa imagem de baixa previsibilidade. A conclusão é que o preço da ação explica mais o gerenciamento de resultados do que dívida, custo político ou bônus. Para o CFO, o estudo mostra o custo real da pressão trimestral sobre decisões de investimento. Ressalva: dados de 2004, autodeclarados, sobre decisões hipotéticas e de empresas americanas.
+Fonte: NBER Working Paper 10550, John R. Graham, Campbell R. Harvey e Shiva Rajgopal, "The Economic Implications of Corporate Financial Reporting" (junho de 2004).
+Link: https://www.nber.org/papers/w10550
+Data de coleta: 2026-11-06
