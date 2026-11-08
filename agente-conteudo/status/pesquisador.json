@@ -1,21 +1,16 @@
 {
  "agente": "pesquisador",
- "resultado": "executando",
- "resumo": "Em execução",
- "commit": "",
+ "resultado": "ok",
+ "quando": "2026-11-08T07:12-03:00",
+ "resumo": "Rodada concluída",
+ "commit": "12201ad",
  "inicio": "2026-11-08T07:00-03:00",
- "previsao": "2026-11-08T07:23-03:00",
+ "duracao_min": 12,
  "duracoes": [
-  12,
   33,
   17,
   8,
-  44
- ],
- "anterior": {
-  "resultado": "falhou",
-  "quando": "2026-11-07T07:46-03:00",
-  "resumo": "o agente não gerou nenhum commit novo",
-  "commit": ""
- }
+  44,
+  12
+ ]
 }
