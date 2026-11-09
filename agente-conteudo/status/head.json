@@ -1,20 +1,16 @@
 {
  "agente": "head",
- "resultado": "executando",
- "resumo": "Em execução",
- "commit": "",
+ "resultado": "ok",
+ "quando": "2026-11-09T08:15-03:00",
+ "resumo": "Rodada concluída",
+ "commit": "683da1c",
  "inicio": "2026-11-09T08:05-03:00",
- "previsao": "2026-11-09T08:09-03:00",
+ "duracao_min": 10,
  "duracoes": [
   1,
   4,
   4,
-  4
- ],
- "anterior": {
-  "resultado": "ok",
-  "quando": "2026-11-02T08:04-03:00",
-  "resumo": "Rodada concluída",
-  "commit": "7785992"
- }
+  4,
+  10
+ ]
 }
