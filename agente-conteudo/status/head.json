@@ -1,15 +1,20 @@
 {
  "agente": "head",
- "resultado": "ok",
- "quando": "2026-11-02T08:04-03:00",
- "resumo": "Rodada concluída",
- "commit": "7785992",
- "inicio": "2026-11-02T08:00-03:00",
- "duracao_min": 4,
+ "resultado": "executando",
+ "resumo": "Em execução",
+ "commit": "",
+ "inicio": "2026-11-09T08:05-03:00",
+ "previsao": "2026-11-09T08:09-03:00",
  "duracoes": [
   1,
   4,
   4,
   4
- ]
+ ],
+ "anterior": {
+  "resultado": "ok",
+  "quando": "2026-11-02T08:04-03:00",
+  "resumo": "Rodada concluída",
+  "commit": "7785992"
+ }
 }
