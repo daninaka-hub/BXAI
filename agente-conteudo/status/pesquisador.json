@@ -1,16 +1,21 @@
 {
  "agente": "pesquisador",
- "resultado": "falhou",
- "quando": "2026-11-11T07:30-03:00",
- "resumo": "o agente não gerou nenhum commit novo",
+ "resultado": "executando",
+ "resumo": "Em execução",
  "commit": "",
- "inicio": "2026-11-11T07:12-03:00",
- "duracao_min": 18,
+ "inicio": "2026-11-12T07:06-03:00",
+ "previsao": "2026-11-12T07:31-03:00",
  "duracoes": [
   17,
   8,
   44,
   12,
   18
- ]
+ ],
+ "anterior": {
+  "resultado": "falhou",
+  "quando": "2026-11-11T07:30-03:00",
+  "resumo": "o agente não gerou nenhum commit novo",
+  "commit": ""
+ }
 }
