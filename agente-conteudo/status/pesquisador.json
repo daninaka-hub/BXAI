@@ -1,21 +1,16 @@
 {
  "agente": "pesquisador",
- "resultado": "executando",
- "resumo": "Em execução",
+ "resultado": "falhou",
+ "quando": "2026-11-14T07:00-03:00",
+ "resumo": "o Claude Code terminou com erro 1 (veja /Users/danielnakamura/BXAI-logs/2026-11-14-pesquisador.log)",
  "commit": "",
  "inicio": "2026-11-14T07:00-03:00",
- "previsao": "2026-11-14T07:25-03:00",
+ "duracao_min": 1,
  "duracoes": [
   8,
   44,
   12,
   18,
   45
- ],
- "anterior": {
-  "resultado": "falhou",
-  "quando": "2026-11-13T07:00-03:00",
-  "resumo": "o Claude Code terminou com erro 1 (veja /Users/danielnakamura/BXAI-logs/2026-11-13-pesquisador.log)",
-  "commit": ""
- }
+ ]
 }
